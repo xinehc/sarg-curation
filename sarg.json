@@ -1,22 +1,37 @@
 {
     // albicidin
-    // Albicidin acts primarily by inhibiting the religation of the cleaved DNA intermediate during the gyrase catalytic sequence similar to quinolones.
     "albicidin": {
         "added": {
-            // "A DHA14 drug efflux gene from Xanthomonas albilineans confers high-level albicidin antibiotic resistance in Escherichia coli"
-            // Low-level expression of albF in Escherichia coli increased the MIC of albicidin 3000-fold, without affecting tsx-mediated albicidin uptake into the periplasm or resistance to other tested antibiotics.
-            // https://www.ncbi.nlm.nih.gov/nuccore/AF403709.1
-            "AAL01877.1": "albF",
+            // "Adaptation of a Bacterial Multidrug Resistance System Revealed by the Structure and Function of AlbA"
+            // "Identification of the essential histidine residue for high-affinity binding of AlbA protein to albicidin antibiotics"
+            // "Molecular insights into antibiotic resistance - how a binding protein traps albicidin"
+            // AlbA confers resistance to the antibiotic albicidin by binding to it with high affinity. This binding not only sequesters albicidin but also promotes a chemical reaction that reduces its potency by converting albicidin into a less active form. This mechanism involves a slow cyclization process of albicidin, leading to its deactivation and thus providing resistance. Furthermore, certain mutations like M131K in AlbA can enhance this resistance by increasing the efficiency of albicidin inactivation.
+            // ** transcriptional regulator merR family? **
+            // https://www.ncbi.nlm.nih.gov/nuccore/AF525464
+            "AAM93193.1": "albA", // albicidin resistance protein [Klebsiella oxytoca] | albicidin resistance protein
+
+            // "A gene from Alcaligenes denitrificans that confers albicidin resistance by reversible antibiotic binding"
+            // The albB gene encodes a 23 kDa protein capable of detoxifying the antibiotic albicidin through reversible binding. This protein binds to albicidin, rendering it inactive without further chemical modification. The gene is inducible, meaning its expression can increase in the presence of albicidin, providing a protective mechanism for the bacteria by preventing albicidin from inhibiting DNA replication.
+            // ** transcriptional regulator merR family? **
+            // https://www.ncbi.nlm.nih.gov/nuccore/U13008
+            "AAA75292.1": "albB", // albicidin binding protein [Achromobacter xylosoxidans] | albicidin detoxification enzyme
 
             // "The gene for albicidin detoxification from Pantoea dispersa encodes an esterase and attenuates pathogenicity of Xanthomonas albilineans to sugarcane"
-            // Further strategies comprise albicidin degradation by the endopeptidase AlbD produced by Pantoea dispersa by specifically cleaving a benzamide bond
-            // https://www.ncbi.nlm.nih.gov/nuccore/2209084
-            "AAB71813.1": "albD",
+            // The albD gene from Pantoea dispersa encodes an esterase enzyme that detoxifies albicidin. AlbD efficiently hydrolyzes albicidin, converting it into less toxic, more hydrophilic products. This detoxification is irreversible, and the enzyme shows strong activity across a range of pH and temperature conditions. The gene product contains a GxSxG motif, characteristic of serine hydrolases, which is essential for its catalytic function.
+            // https://www.ncbi.nlm.nih.gov/nuccore/U96453
+            "AAB71813.1": "albD", // albicidin detoxification enzyme [Pantoea dispersa] | albicidin detoxification enzyme
 
-            // "Adaptation of a Bacterial Multidrug Resistance System Revealed by the Structure and Function of AlbA"
-            // likely MerR family transcriptional regulator, though binds albicidin
-            // https://www.ncbi.nlm.nih.gov/nuccore/22135424
-            // "AAM93193.1": "albA" // albicidin resistance protein [Klebsiella oxytoca]
+            // "A DHA14 drug efflux gene from Xanthomonas albilineans confers high-level albicidin antibiotic resistance in Escherichia coli"
+            // The albF gene encodes a DHA14 family drug efflux pump. This protein is responsible for exporting albicidin, a potent antibiotic and phytotoxin, out of the bacterial cell, thereby conferring resistance. The efflux pump removes albicidin from the cytosol to the periplasmic space, preventing it from inhibiting DNA replication in the bacterial cell.
+            // MFS | Low-level expression of albF in Escherichia coli increased the MIC of albicidin 3000-fold.
+            // https://www.ncbi.nlm.nih.gov/nuccore/AF403709
+            "AAL01877.1": "albF", // AlbF [Xanthomonas albilineans] | MFS transporter
+
+            // "The Phytotoxin Albicidin is a Novel Inhibitor of DNA Gyrase"
+            // "Current Understanding of the Structure and Function of Pentapeptide Repeat Proteins"
+            // The albG gene encodes a pentapeptide repeat protein that binds to DNA gyrase in Escherichia coli, conferring increased resistance to albicidin. AlbG mimics DNA and competes with the actual DNA for binding to the gyrase, thereby protecting the gyrase from inhibition by albicidin.
+            // https://www.ncbi.nlm.nih.gov/nuccore/AJ586576
+            "CAE52332.1": "albG", // McbG-like protein [Xanthomonas albilineans] | pentapeptide repeat-containing protein
         }
     },
 
@@ -25,7 +40,7 @@
     // aminoglycoside
     "aminoglycoside": {
         "changed": {
-            // "Discovery and characterization of genes conferring natural resistance to the antituberculosis antibiotic capreomycin."
+            // "Discovery and characterization of genes conferring natural resistance to the antituberculosis antibiotic capreomycin"
             // Capreomycin (CMN) and viomycin (VIO) are nonribosomal peptide (NRP) natural products, Both drugs belong to the tuberactinomycin family of antibiotics.
             "aminoglycoside@cpaA": "tuberactinomycin@cpaA",
 
@@ -58,207 +73,251 @@
             "aminoglycoside@aph\\(3'\\)-H.*": "aminoglycoside@aph(3')*",
 
             "aminoglycoside@aac(6')-I": [
-                "NCBI|amr:amr|aminoglycoside|aac(6')|WP_051208285.1", // AAC(6')-Ia family aminoglycoside 6'-N-acetyltransferase [Saccharospirillum impatiens]
-                "NCBI|amr:amr|aminoglycoside|aac(6')|WP_033649026.1", // MULTISPECIES: aminoglycoside N-acetyltransferase AAC(6')-Ic [Serratia]
-                "NCBI|amr:amr|aminoglycoside|aac(6')|WP_016575755.1", // aminoglycoside N-acetyltransferase AAC(6')-Isa [Streptomyces noursei]
-                "NCBI|amr:amr|aminoglycoside|aac(6')|WP_001109644.1", // MULTISPECIES: AAC(6')-Ia family aminoglycoside 6'-N-acetyltransferase AacA16 [Gammaproteobacteria]
-                "NCBI|amr:amr|aminoglycoside|aac(6')|WP_045890872.1", // MULTISPECIES: AAC(6')-Ia family aminoglycoside 6'-N-acetyltransferase AacA56 [Gammaproteobacteria]
-                "NCBI|amr:amr|aminoglycoside|aac(6')|WP_003159545.1", // MULTISPECIES: aminoglycoside 6'-N-acetyltransferase AAC(6')-Iae [Gammaproteobacteria]
-                "NCBI|amr:amr|aminoglycoside|aac(6')|WP_063840278.1", // aminoglycoside 6'-N-acetyltransferase AAC(6')-Iaf [Pseudomonas aeruginosa]
-                "NCBI|amr:amr|aminoglycoside|aac(6')|WP_063840279.1", // aminoglycoside 6'-N-acetyltransferase AAC(6')-Iai [Pseudomonas aeruginosa]
-                "NCBI|amr:amr|aminoglycoside|aac(6')|WP_069174568.1", // aminoglycoside 6'-N-acetyltransferase AAC(6')-Iaj [Pseudomonas aeruginosa]
-                "NCBI|amr:amr|aminoglycoside|aac(6')|WP_016930164.1", // MULTISPECIES: aminoglycoside N-acetyltransferase AAC(6')-Ial [Serratia]
-                "NCBI|amr:amr|aminoglycoside|aac(6')|AAF03531.1", // MULTISPECIES: cryptic aminoglycoside N-acetyltransferase AAC(6')-Iy/Iaa [Salmonella]
-                "NCBI|amr:amr|aminoglycoside|aac(6')|AAL20537.1", // MULTISPECIES: cryptic aminoglycoside N-acetyltransferase AAC(6')-Iy/Iaa [Salmonella]
-                "NCBI|amr:amr|aminoglycoside|aacA43|WP_032495046.1", // AAC(6')-Ia family aminoglycoside 6'-N-acetyltransferase AacA43 [Klebsiella pneumoniae]
-                "NCBI|amr:amr|aminoglycoside|aacA43|WP_024437351.1", // AAC(6')-Ia family aminoglycoside 6'-N-acetyltransferase AacA43 [Acinetobacter baumannii]
-                "NCBI|amr:amr|aminoglycoside|aacA43|WP_071846376.1", // AAC(6')-Ia family aminoglycoside 6'-N-acetyltransferase AacA43 [Pseudomonas aeruginosa]
-                "NCBI|amr:amr|aminoglycoside|aacA48|WP_071593201.1", // aminoglycoside 6'-N-acetyltransferase AAC(6')-Iag [Pseudomonas aeruginosa]
-                "NCBI|amr:amr|aminoglycoside|aacA49|WP_071593202.1", // AAC(6')-Ia family aminoglycoside 6'-N-acetyltransferase AacA49 [Pseudomonas putida]
-                "NCBI|amr:amr|aminoglycoside|aacA57-2|WP_000959805.1", // aminoglycoside N-acetyltransferase AAC(6')-Ian [Acinetobacter baumannii]
-                "NCBI|amr:amr|aminoglycoside|aacA10|WP_071766620.1", // AAC(6')-I family aminoglycoside 6'-N-acetyltransferase [uncultured bacterium DCM010Kan02]
+                "NCBI|amr:amr|aminoglycoside|aac(6')|AAF03531.1", // cryptic aminoglycoside N-acetyltransferase AAC(6')-Iy/Iaa
+                "NCBI|amr:amr|aminoglycoside|aac(6')|AAL20537.1", // cryptic aminoglycoside N-acetyltransferase AAC(6')-Iy/Iaa
+                "NCBI|amr:amr|aminoglycoside|aac(6')|WP_001109644.1", // AAC(6')-Ia family aminoglycoside 6'-N-acetyltransferase AacA16
+                "NCBI|amr:amr|aminoglycoside|aac(6')|WP_003159545.1", // aminoglycoside 6'-N-acetyltransferase AAC(6')-Iae
+                "NCBI|amr:amr|aminoglycoside|aac(6')|WP_016575755.1", // aminoglycoside N-acetyltransferase AAC(6')-Isa
+                "NCBI|amr:amr|aminoglycoside|aac(6')|WP_016930164.1", // aminoglycoside N-acetyltransferase AAC(6')-Ial
+                "NCBI|amr:amr|aminoglycoside|aac(6')|WP_033649026.1", // aminoglycoside N-acetyltransferase AAC(6')-Ic
+                "NCBI|amr:amr|aminoglycoside|aac(6')|WP_045890872.1", // AAC(6')-Ia family aminoglycoside 6'-N-acetyltransferase AacA56
+                "NCBI|amr:amr|aminoglycoside|aac(6')|WP_051208285.1", // AAC(6')-Ia family aminoglycoside 6'-N-acetyltransferase
+                "NCBI|amr:amr|aminoglycoside|aac(6')|WP_063840274.1", // aminoglycoside 6'-N-acetyltransferase AAC(6')-I30
+                "NCBI|amr:amr|aminoglycoside|aac(6')|WP_063840278.1", // aminoglycoside 6'-N-acetyltransferase AAC(6')-Iaf
+                "NCBI|amr:amr|aminoglycoside|aac(6')|WP_063840279.1", // aminoglycoside 6'-N-acetyltransferase AAC(6')-Iai
+                "NCBI|amr:amr|aminoglycoside|aac(6')|WP_069174568.1", // aminoglycoside 6'-N-acetyltransferase AAC(6')-Iaj
+                "NCBI|amr:amr|aminoglycoside|aacA10|WP_071766620.1", // AAC(6')-I family aminoglycoside 6'-N-acetyltransferase
+                "NCBI|amr:amr|aminoglycoside|aacA43|WP_024437351.1", // AAC(6')-Ia family aminoglycoside 6'-N-acetyltransferase AacA43
+                "NCBI|amr:amr|aminoglycoside|aacA43|WP_032495046.1", // AAC(6')-Ia family aminoglycoside 6'-N-acetyltransferase AacA43
+                "NCBI|amr:amr|aminoglycoside|aacA43|WP_071846376.1", // AAC(6')-Ia family aminoglycoside 6'-N-acetyltransferase AacA43
+                "NCBI|amr:amr|aminoglycoside|aacA48|WP_071593201.1", // aminoglycoside 6'-N-acetyltransferase AAC(6')-Iag
+                "NCBI|amr:amr|aminoglycoside|aacA49|WP_071593202.1", // AAC(6')-Ia family aminoglycoside 6'-N-acetyltransferase AacA49
+                "NCBI|amr:amr|aminoglycoside|aacA57-2|WP_000959805.1", // aminoglycoside N-acetyltransferase AAC(6')-Ian
 
                 // according to parent node, AAC(6')-Ia family aminoglycoside 6'-N-acetyltransferase
-                "NCBI|amr:amr|aminoglycoside|aac(6')-F309|WP_318245541.1", // aminoglycoside 6'-N-acetyltransferase AAC(6')-F309 [Salmonella enterica]
-                "NCBI|amr:amr|aminoglycoside|aac(6')-F72|WP_172693600.1", // MULTISPECIES: aminoglycoside 6'-N-acetyltransferase AAC(6')-F72 [Gammaproteobacteria]
-                "NCBI|amr:amr|aminoglycoside|aac(6')|WP_015059044.1", // MULTISPECIES: aminoglycoside 6'-N-acetyltransferase AAC(6')-33 [Gammaproteobacteria]
-                "NCBI|amr:amr|aminoglycoside|aac(6')|WP_063840274.1", // aminoglycoside 6'-N-acetyltransferase AAC(6')-I30 [Salmonella enterica]
+                "NCBI|amr:amr|aminoglycoside|aac(6')-F309|WP_318245541.1", // aminoglycoside 6'-N-acetyltransferase AAC(6')-F309
+                "NCBI|amr:amr|aminoglycoside|aac(6')-F72|WP_172693600.1", // aminoglycoside 6'-N-acetyltransferase AAC(6')-F72
+                "NCBI|amr:amr|aminoglycoside|aac(6')|WP_015059044.1", // aminoglycoside 6'-N-acetyltransferase AAC(6')-33
             ],
             "aminoglycoside@aac(6')-II": [
                 // according to parent node, AAC(6')-II family aminoglycoside 6'-N-acetyltransferase
-                "NCBI|amr:amr|aminoglycoside|aacA40|WP_063840275.1", // aminoglycoside 6'-N-acetyltransferase AacA40 [Pseudomonas aeruginosa]
+                "NCBI|amr:amr|aminoglycoside|aacA40|WP_063840275.1", // aminoglycoside 6'-N-acetyltransferase AacA40
+            ],
+            "aminoglycoside@aph(3')-II": [
+                // according to parent node, APH(3')-II family aminoglycoside O-phosphotransferase
+                "NCBI|amr:amr|aminoglycoside|aph(3')-H48|WP_034024097.1", // aminoglycoside O-phosphotransferase APH(3')-H48
             ],
             "aminoglycoside@aph(6)-I": [
                 // according to parent node, APH(6)-I family aminoglycoside O-phosphotransferase
-                // lack specified product name, revert back to aph(6)*
-                // "NCBI|amr:amr|aminoglycoside|aph(6)|WP_012480135.1", // APH(6) family putative aminoglycoside O-phosphotransferase [Stenotrophomonas maltophilia]
-                // "NCBI|amr:amr|aminoglycoside|aph(6)|WP_063841666.1", // APH(6) family putative aminoglycoside O-phosphotransferase [Stenotrophomonas maltophilia]
+                "NCBI|amr:amr|aminoglycoside|aph(6)|WP_012480135.1", // APH(6) family putative aminoglycoside O-phosphotransferase
+                "NCBI|amr:amr|aminoglycoside|aph(6)|WP_063841666.1", // APH(6) family putative aminoglycoside O-phosphotransferase
             ],
             "aminoglycoside@ant(3'')-II": [
-                "NCBI|amr:amr|aminoglycoside|aadA27|WP_050041693.1", // MULTISPECIES: ANT(3'')-II family aminoglycoside nucleotidyltransferase AadA27 [Gammaproteobacteria]
+                "NCBI|amr:amr|aminoglycoside|aadA27|WP_050041693.1", // ANT(3'')-II family aminoglycoside nucleotidyltransferase AadA27
             ],
             "aminoglycoside@ant(6)-I": [
-                "NCBI|amr:amr|aminoglycoside|aadE-Cc|WP_002785795.1" // MULTISPECIES: aminoglycoside nucleotidyltransferase ANT(6)-Ig [Campylobacter]
+                "NCBI|amr:amr|aminoglycoside|aadE-Cc|WP_002785795.1", // aminoglycoside nucleotidyltransferase ANT(6)-Ig
             ],
         },
         "added": {
             // "Functional characterization of a novel aminoglycoside phosphotransferase, APH(9)-Ic, and its variant from Stenotrophomonas maltophilia"
-            // The accession numbers for the novel resistance genes and their corresponding proteins are aph(9)-Ic (ON693243), aph(9)-Ic1 (ON838098)
+            // The accession numbers for the novel resistance genes and their corresponding proteins are aph(9)-Ic (ON693243), aph(9)-Ic1 (ON838098).
             // https://www.ncbi.nlm.nih.gov/nuccore/ON693243
-            "WCI13726.1": "aph(9)-Ic", // aminoglycoside phosphotransferase family protein
+            "WCI13726.1": "aph(9)-Ic", // APH(9)-Ic [Stenotrophomonas maltophilia] | aminoglycoside phosphotransferase family protein
             // https://www.ncbi.nlm.nih.gov/nuccore/ON838098
-            "WCI13724.1": "aph(9)-Ic", // aminoglycoside phosphotransferase family protein
+            "WCI13724.1": "aph(9)-Ic", // APH(9)-Ic1 [Stenotrophomonas maltophilia] | aminoglycoside phosphotransferase family protein
 
-
-            // "Cloning and characterization of gentamicin-resistance genes from Micromonospora purpurea and Micromonospora rosea."
-            // "Determination of the target nucleosides for members of two families of 16S rRNA methyltransferases that confer resistance to partially overlapping groups of aminoglycoside antibiotics."
-            "sp|Q2J7L5|KRM_FRACC": "rmt*", // MULTISPECIES: Rmt family 16S rRNA (guanine(1405)-N(7))-methyltransferase [unclassified Frankia]
-            "sp|P24618|GRM_MICEC": "rmt*", // Rmt family 16S rRNA (guanine(1405)-N(7))-methyltransferase [Micromonospora echinospora]
-            "sp|P24619|GRM_MICRO": "grm", // Grm family 16S rRNA (guanine(1405)-N(7))-methyltransferase [Micromonospora rosea]
-            "sp|Q7M0R2|SGM_MICZI": "sgm", // Sgm family 16S rRNA (guanine(1405)-N(7))-methyltransferase [Micromonospora zionensis]
-
-            // "Cloning of an aminoglycoside-resistance-encoding gene, kamC, from Saccharopolyspora hirsuta: comparison with kamB from Streptomyces tenebrarius."
-            "sp|P25920|KAMB_STRSD": "kamB", // 16S rRNA (adenine(1408)-N(1))-methyltransferase KamB [Streptoalloteichus tenebrarius]
-            "sp|Q2MEY3|KAMB_STRHI": "kamB", // 16S rRNA (adenine(1408)-N(1))-methyltransferase KamB [Streptoalloteichus hindustanus]
-            "sp|P25919|KAMC_SACHI": "kamC", // rRNA methyltransferase | Kanamycin-apramycin resistance methylase
-
-            // "Analysis of the self-defense gene (fmrO) of a fortimicin A (astromicin) producer, Micromonospora olivasterospora: comparison with other aminoglycoside-resistance-encoding genes."
-            "sp|Q08325|FMRO_MICOL": "fmrO",  // 16S rRNA (guanine(1405)-N(7))-methyltransferase
+            // "Overexpression of the chromosomally encoded aminoglycoside acetyltransferase eis confers kanamycin resistance in Mycobacterium tuberculosis"
+            // "Overexpression of eis without a mutation in promoter region of amikacin- and kanamycin-resistant Mycobacterium tuberculosis clinical strain"
+            // "eis Promoter C14G and C15G Mutations Do Not Confer Kanamycin Resistance in Mycobacterium tuberculosis"
+            // The eis gene encodes the Enhanced Intracellular Survival (Eis) protein, which is an aminoglycoside acetyltransferase. This enzyme acetylates and inactivates aminoglycosides, such as kanamycin and amikacin, leading to antibiotic resistance. eis can be overexpressed without any mutations in its promoter region, potentially due to the overexpression of the transcriptional regulator gene whiB7.
+            // https://www.uniprot.org/citations/19906990
+            "sp|P9WFK7|EIS_MYCTU": "eis", // N-acetyltransferase Eis OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=eis PE=1 SV=2 | enhanced intracellular survival protein Eis
 
             // "Mycobacterium abscessus WhiB7 Regulates a Species-Specific Repertoire of Genes To Confer Extreme Antibiotic Resistance"
-            // Eis2 in Mycobacterium abscessus belongs to the WhiB7, is expressed in response to ribosome-targeting antibiotics, and greatly reduces the sensitivity of the bacterium to the aminoglycoside antibiotic amikacin.
-            // BlastRuleException, https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR006238/
-            "WP_005079811.1": "eis2", // amikacin resistance N-acetyltransferase Eis2 [Mycobacteroides abscessus]
+            // "Structural analysis of the N-acetyltransferase Eis1 from Mycobacterium abscessus reveals the molecular determinants of its incapacity to modify aminoglycosides"
+            // "Aminoglycoside Multiacetylating Activity of the Enhanced Intracellular Survival Protein from Mycobacterium smegmatis and Its Inhibition"
+            // eis1 (MSMEG_3513) in M. smegmatis and eis2 (MAB_4532c) in M. abscessus are regulated by whiB7 and confer resistance to aminoglycosides.
+            // https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NF002368/
+            "WP_011729122.1": "eis", // enhanced intracellular survival protein Eis [Mycolicibacterium smegmatis] | enhanced intracellular survival protein Eis
+            // https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR006238/
+            "WP_005079811.1": "eis", // amikacin resistance N-acetyltransferase Eis2 [Mycobacteroides abscessus] | amikacin resistance N-acetyltransferase Eis2
+
+            // "Determination of the target nucleosides for members of two families of 16S rRNA methyltransferases that confer resistance to partially overlapping groups of aminoglycoside antibiotics"
+            // https://www.uniprot.org/citations/19589804
+            "sp|Q2J7L5|KRM_FRACC": "krm", // 16S rRNA (guanine(1405)-N(7))-methyltransferase OS=Frankia casuarinae (strain DSM 45818 / CECT 9043 / HFP020203 / CcI3) OX=106370 GN=Krm PE=1 SV=1 | Rmt family 16S rRNA (guanine(1405)-N(7))-methyltransferase
+            "sp|Q7M0R2|SGM_MICZI": "sgm", // 16S rRNA (guanine(1405)-N(7))-methyltransferase OS=Micromonospora zionensis OX=1879 GN=sgm PE=1 SV=1 | Sgm family 16S rRNA (guanine(1405)-N(7))-methyltransferase
+
+            // "Cloning and characterization of gentamicin-resistance genes from Micromonospora purpurea and Micromonospora rosea"
+            // ** Q5Y813 (srm1/sis9) is over 90% identical to P24619 (grmB), omit **
+            // https://www.uniprot.org/citations/2013410
+            "sp|P24618|GRM_MICEC": "grmA", // 16S rRNA (guanine(1405)-N(7))-methyltransferase OS=Micromonospora echinospora OX=1877 GN=grm PE=1 SV=1 | Rmt family 16S rRNA (guanine(1405)-N(7))-methyltransferase
+            "sp|P24619|GRM_MICRO": "grmB", // 16S rRNA (guanine(1405)-N(7))-methyltransferase OS=Micromonospora rosea OX=1878 GN=grm PE=1 SV=1 | Grm family 16S rRNA (guanine(1405)-N(7))-methyltransferase
+
+            // "Cloning of an aminoglycoside-resistance-encoding gene, kamC, from Saccharopolyspora hirsuta: comparison with kamB from Streptomyces tenebrarius"
+            // https://www.uniprot.org/citations/1840536
+            "sp|P25919|KAMC_SACHI": "kamC", // rRNA methyltransferase OS=Saccharopolyspora hirsuta OX=1837 GN=kamC PE=4 SV=1 | rRNA methyltransferase
+            "sp|P25920|KAMB_STRSD": "kamB", // 16S rRNA (adenine(1408)-N(1))-methyltransferase OS=Streptoalloteichus tenebrarius (strain ATCC 17920 / DSM 40477 / JCM 4838 / CBS 697.72 / NBRC 16175 / NCIMB 11028 / NRRL B-12390 / A12253. 1) OX=1933 GN=kamB PE=1 SV=2 | 16S rRNA (adenine(1408)-N(1))-methyltransferase KamB
+
+            // "Analysis of the self-defense gene (fmrO) of a fortimicin A (astromicin) producer, Micromonospora olivasterospora: comparison with other aminoglycoside-resistance-encoding genes"
+            // https://www.uniprot.org/citations/8486289
+            "sp|Q08325|FMRO_MICOL": "fmrO",  // 16S rRNA (guanine(1405)-N(7))-methyltransferase OS=Micromonospora olivasterospora OX=1880 GN=fmrO PE=1 SV=2 | 16S rRNA (guanine(1405)-N(7))-methyltransferase
+
+            // "Gene cluster in Micromonospora echinospora ATCC15835 for the biosynthesis of the gentamicin C complex"
+            // grmO is described as a methyltransferase gene similar to grmA. It likely contributes to self-resistance in Micromonospora echinospora by methylating ribosomes, which would reduce the binding affinity of aminoglycosides like gentamicin, thus providing resistance.
+            // ** C9W370 (sis4) is over 90% identical to Q70KD8 (gtmL/grmO), omit **
+            // https://www.ncbi.nlm.nih.gov/nuccore/AY524043
+            "AAR98541.1": "grmO", // GrmO [Micromonospora echinospora] | GrmO
+
+            // "Identification of the biosynthetic gene cluster and an additional gene for resistance to the antituberculosis drug capreomycin"
+            // Encodes an rRNA methyltransferase that modifies the ribosomal RNA, specifically methylating a residue (A1408 of the 16S rRNA) to confer resistance. This modification makes the ribosome resistant to capreomycin and kanamycin.
+            // https://www.ncbi.nlm.nih.gov/nuccore/EF472579
+            "ABR67761.1": "cmnU", // CmnU [Saccharothrix mutabilis subsp. capreolus] | class I SAM-dependent methyltransferase
+
+            // "30S Subunit-dependent activation of the Sorangium cellulosum So ce56 aminoglycoside resistance-conferring 16S rRNA methyltransferase Kmr"
+            // Kmr is a 16S rRNA methyltransferase acting at residue A1408 to confer a canonical aminoglycoside resistance spectrum in Escherichia coli.
+            // https://www.ncbi.nlm.nih.gov/nuccore/EU429565
+            "ACB88605.1": "kmr", // putative rRNA methyltransferase [Sorangium cellulosum So0157-2] | class I SAM-dependent methyltransferase
+
+            // "The kanamycin biosynthetic gene cluster from Streptomyces kanamyceticus"
+            // https://www.ncbi.nlm.nih.gov/nuccore/AB164642
+            "BAD20767.1": "kmr", // 16S rRNA methylase [Streptomyces kanamyceticus] | 16S rRNA methyltransferase
+
+            // "Determination of the target nucleosides for members of two families of 16S rRNA methyltransferases that confer resistance to partially overlapping groups of aminoglycoside antibiotics"
+            // ** O52472 (nbrB), Q53316 (kgmB), Q2UZE4 (kamA/imrA) | other 16S rRNA methyltransferase according to Fig.1 **
+            // https://www.ncbi.nlm.nih.gov/nuccore/AF038408
+            "AAB95477.1": "nbrB", // 16S ribosomal RNA methylase [Streptoalloteichus hindustanus] | hypothetical protein
+            // https://www.ncbi.nlm.nih.gov/nuccore/S60108
+            "AAB20100.1": "kgmB", // S-adenosyl methionine-dependent methylase [Streptoalloteichus tenebrarius] | S-adenosyl methionine-dependent methylase
+            // https://www.ncbi.nlm.nih.gov/nuccore/AJ845083
+            "CAH60147.1": "kamA", // 16S rRNA methyltransferase [Streptomyces tenjimariensis] | 16S rRNA methyltransferase
 
             // "A diverse intrinsic antibiotic resistome from a cave bacterium"
             // https://www.uniprot.org/citations/CI-89J8D8F9KIUHE
-            "tr|A0A1I9ZKY4|A0A1I9ZKY4_9BACL": "aac(6')-34", // aminoglycoside 6' phosphotransferase [Paenibacillus sp. LC231]
-
-            // "ANT(9)-Ic, a Novel Chromosomally Encoded Aminoglycoside Nucleotidyltransferase from Brucella intermedia"
-            // GenBank accession no. MZ241296
-            // https://www.ncbi.nlm.nih.gov/nuccore/MZ241296
-            "QWQ57435.1": "ant(9)-Ic", // aminoglycoside adenosyltransferase ANT(9)-Ic [Brucella intermedia]
+            "tr|A0A1I9ZKY4|A0A1I9ZKY4_9BACL": "aac(6')-34", // Aminoglycoside 6' acetyltransferase AAC(6')-34 OS=Paenibacillus sp. LC231 OX=1120679 GN=aac(6')-34 PE=4 SV=1 | aminoglycoside 6' phosphotransferase
 
             // "Cloning and sequencing of the genes involved in glyphosate utilization by Pseudomonas pseudomallei"
-            // The GenBank accession number forthe sequence of the glyphosate utilization genes is X74325.
+            // The GenBank accession number for the sequence of the glyphosate utilization genes is X74325.
             // https://www.ncbi.nlm.nih.gov/nuccore/X74325
-            "CAA52372.1": "aph(4)-Ib", // hygromycin phosphotransferase [Burkholderia pseudomallei]
-
+            "CAA52372.1": "aph(4)-Ib", // hygromycin phosphotransferase [Burkholderia pseudomallei] | hygromycin phosphotransferase
         },
         "discarded": [
-            "CARD|homolog|aminoglycoside|AAC(3)-Ib|AAA88422.1", // NCBI|amr:amr|aminoglycoside|aac(3)-Ib|WP_010792467.1 | id: 100.0 qcov: 87.5 scov: 100.0 | refseq: False uni: True
-            "CARD|homolog|aminoglycoside|AAC(3)-IVb|QEQ43476.1", // NCBI|amr:amr|aminoglycoside|aac(3)-IVb|WP_149317372.1 | id: 99.6 qcov: 100.0 scov: 94.7 | refseq: False uni: True
-            "CARD|homolog|aminoglycoside|AAC(6')-31|CAK55557.1", // NCBI|amr:amr|aminoglycoside|aac(6')-31|WP_044424439.1 | id: 100.0 qcov: 100.0 scov: 93.5 | refseq: False uni: True
-            "CARD|homolog|aminoglycoside|AAC(6')-If|CAA39038.1", // NCBI|amr:amr|aminoglycoside|aac(6')-If|WP_071593229.1 | id: 100.0 qcov: 100.0 scov: 96.6 | refseq: False uni: False
-            "CARD|homolog|aminoglycoside|AAC(6')-Ip|CAA91010.1", // NCBI|amr:amr|aminoglycoside|aac(6')-Ip|WP_069453146.1 | id: 100.0 qcov: 100.0 scov: 89.6 | refseq: False uni: True
-            "CARD|homolog|aminoglycoside;fluoroquinolone|AAC(6')-Ib-cr6|ACD56150.1", // NCBI|amr:amr|aminoglycoside/quinolone|aac(6')-Ib-cr|WP_063840320.1 | id: 99.5 qcov: 92.5 scov: 100.0 | refseq: False uni: True
-            "CARD|homolog|aminoglycoside;fluoroquinolone|AAC(6')-Ib-cr4|KJX28101.1", // NCBI|amr:amr|aminoglycoside/quinolone|aac(6')-Ib-cr|WP_065187000.1 | id: 99.5 qcov: 95.8 scov: 100.0 | refseq: False uni: False
-            "CARD|homolog|aminoglycoside;fluoroquinolone|AAC(6')-Ib-cr3|ADY02579.1", // NCBI|amr:amr|aminoglycoside/quinolone|aac(6')-Ib-cr|WP_071766621.1 | id: 99.5 qcov: 92.5 scov: 100.0 | refseq: False uni: False
-            "CARD|homolog|aminoglycoside|aad(6)|AAU10334.1", // NCBI|amr:amr|aminoglycoside|ant(6)-Ia|WP_001255866.1 | id: 100.0 qcov: 100.0 scov: 91.4 | refseq: False uni: True
-            "CARD|homolog|aminoglycoside|APH(6)-Ic|CAA25854.1", // NCBI|amr:amr|aminoglycoside|aph(6)-Ic|WP_000116906.1 | id: 100.0 qcov: 100.0 scov: 95.0 | refseq: True uni: False
-            "CARD|homolog|aminoglycoside|AAC_6_IB_Su|ABU55430.1", // NCBI|amr:amr|aminoglycoside|aac(6')-Ib|WP_063978482.1 | id: 99.4 qcov: 100.0 scov: 93.5 | refseq: False uni: False
-            "CARD|homolog|aminoglycoside|AAC6_IB_HZ|ACL37342.1", // NCBI|amr:amr|aminoglycoside|aac(6')-Ib|WP_013250882.1 | id: 99.4 qcov: 100.0 scov: 93.5 | refseq: False uni: False
+            // CARD
+            "CARD|homolog|aminoglycoside;fluoroquinolone|AAC(6')-Ib-cr3|ADY02579.1", // NCBI|amr:amr|aminoglycoside/quinolone|aac(6')-Ib-cr|WP_071766621.1 | id: 99.5 qcov: 92.5 scov: 100.0
+            "CARD|homolog|aminoglycoside;fluoroquinolone|AAC(6')-Ib-cr4|KJX28101.1", // NCBI|amr:amr|aminoglycoside/quinolone|aac(6')-Ib-cr|WP_065187000.1 | id: 99.5 qcov: 95.8 scov: 100.0
+            "CARD|homolog|aminoglycoside;fluoroquinolone|AAC(6')-Ib-cr6|ACD56150.1", // NCBI|amr:amr|aminoglycoside/quinolone|aac(6')-Ib-cr|WP_063840320.1 | id: 99.5 qcov: 92.5 scov: 100.0
+            "CARD|homolog|aminoglycoside|AAC(3)-IVb|QEQ43476.1", // NCBI|amr:amr|aminoglycoside|aac(3)-IVb|WP_149317372.1 | id: 99.6 qcov: 100.0 scov: 94.7
+            "CARD|homolog|aminoglycoside|AAC(3)-Ib|AAA88422.1", // NCBI|amr:amr|aminoglycoside|aac(3)-Ib|WP_010792467.1 | id: 100.0 qcov: 87.5 scov: 100.0
+            "CARD|homolog|aminoglycoside|AAC(6')-31|CAK55557.1", // NCBI|amr:amr|aminoglycoside|aac(6')-31|WP_044424439.1 | id: 100.0 qcov: 100.0 scov: 93.5
+            "CARD|homolog|aminoglycoside|AAC(6')-Ib-SK|BAD11815.1", // NCBI|amr:amr|aminoglycoside|aac(6')-kana|WP_055545096.1 | id: 99.4 qcov: 89.2 scov: 100.0
+            "CARD|homolog|aminoglycoside|AAC(6')-Ib10|AAC46343.1", // NCBI|amr:amr|aminoglycoside|aac(6')-Ib|WP_032488579.1 | id: 99.5 qcov: 90.6 scov: 100.0
+            "CARD|homolog|aminoglycoside|AAC(6')-Ib7|AKN19287.1", // NCBI|amr:amr|aminoglycoside|aac(6')-Ib|WP_032488579.1 | id: 99.5 qcov: 70.5 scov: 100.0
+            "CARD|homolog|aminoglycoside|AAC(6')-Ib8|AIK02012.1", // NCBI|amr:amr|aminoglycoside|aac(6')-Ib|WP_012695458.1 | id: 99.5 qcov: 81.8 scov: 100.0
+            "CARD|homolog|aminoglycoside|AAC(6')-Ib9|AAD02244.1", // NCBI|amr:amr|aminoglycoside|aac(6')-Ib|WP_003159191.1 | id: 99.5 qcov: 90.6 scov: 100.0
+            "CARD|homolog|aminoglycoside|AAC(6')-If|CAA39038.1", // NCBI|amr:amr|aminoglycoside|aac(6')-If|WP_071593229.1 | id: 100.0 qcov: 100.0 scov: 96.6
+            "CARD|homolog|aminoglycoside|AAC(6')-Ip|CAA91010.1", // NCBI|amr:amr|aminoglycoside|aac(6')-Ip|WP_069453146.1 | id: 100.0 qcov: 100.0 scov: 89.6
+            "CARD|homolog|aminoglycoside|AAC6_IB_HZ|ACL37342.1", // NCBI|amr:amr|aminoglycoside|aac(6')-Ib|WP_013250882.1 | id: 99.4 qcov: 100.0 scov: 93.5
+            "CARD|homolog|aminoglycoside|AAC_6_IB_Su|ABU55430.1", // NCBI|amr:amr|aminoglycoside|aac(6')-Ib|WP_071593230.1 | id: 99.4 qcov: 100.0 scov: 93.5
+            "CARD|homolog|aminoglycoside|APH(6)-Ic|CAA25854.1", // NCBI|amr:amr|aminoglycoside|aph(6)-Ic|WP_000116906.1 | id: 100.0 qcov: 100.0 scov: 95.0
+            "CARD|homolog|aminoglycoside|aad(6)|AAU10334.1", // NCBI|amr:amr|aminoglycoside|ant(6)-Ia|WP_001255866.1 | id: 100.0 qcov: 100.0 scov: 91.4
+            "CARD|homolog|aminoglycoside|aadA23|CAH10847.1", // NCBI|amr:amr|aminoglycoside|aadA22|WP_024198294.1 | id: 99.6 qcov: 100.0 scov: 98.5
+            "CARD|homolog|aminoglycoside|aadA24|ABG72894.1", // NCBI|amr:amr|aminoglycoside|aadA25|WP_024131607.1 | id: 99.6 qcov: 100.0 scov: 98.5
+            "CARD|homolog|aminoglycoside|aadA2|AAF27727.1", // NCBI|amr:amr|aminoglycoside|aadA2|WP_001206356.1 | id: 99.6 qcov: 100.0 scov: 98.5
+            "CARD|homolog|aminoglycoside|aadA9|ABG49324.1", // NCBI|amr:amr|aminoglycoside|aadA9|WP_010991842.1 | id: 100.0 qcov: 93.0 scov: 100.0
 
-            "CARD|homolog|aminoglycoside|aadA23|CAH10847.1", // NCBI|amr:amr|aminoglycoside|aadA22|WP_024198294.1 | id: 99.6 qcov: 100.0 scov: 98.5 | refseq: False uni: True
-            "CARD|homolog|aminoglycoside|aadA24|ABG72894.1", // NCBI|amr:amr|aminoglycoside|aadA25|WP_024131607.1 | id: 99.6 qcov: 100.0 scov: 98.5 | refseq: False uni: True
-            "CARD|homolog|aminoglycoside|aadA2|AAF27727.1", // NCBI|amr:amr|aminoglycoside|aadA2|WP_001206356.1 | id: 99.6 qcov: 100.0 scov: 98.5 | refseq: True uni: True
-            "CARD|homolog|aminoglycoside|aadA9|ABG49324.1", // NCBI|amr:amr|aminoglycoside|aadA9|WP_010991842.1 | id: 100.0 qcov: 93.0 scov: 100.0 | refseq: False uni: False
-
-            "CARD|homolog|aminoglycoside|AAC(6')-Ib7|AKN19287.1", // NCBI|amr:amr|aminoglycoside|aac(6')-30/aac(6')-Ib'|WP_063838853.1 | id: 96.5 qcov: 76.2 scov: 60.7 | refseq: False uni: False
-            "CARD|homolog|aminoglycoside|AAC(6')-Ib-SK|BAD11815.1", // NCBI|amr:amr|aminoglycoside|aac(6')-kana|WP_055545096.1 | id: 99.4 qcov: 89.2 scov: 100.0 | refseq: False uni: False
-            "CARD|homolog|aminoglycoside|AAC(6')-Ib10|AAC46343.1", // NCBI|amr:amr|aminoglycoside|ant(3'')-Ih/aac(6')-IId|WP_063839878.1 | id: 99.5 qcov: 96.1 scov: 42.1 | refseq: False uni: True
-            "CARD|homolog|aminoglycoside|AAC(6')-Ib9|AAD02244.1", // NCBI|amr:amr|aminoglycoside|ant(3'')-Ih/aac(6')-IId|WP_063839878.1 | id: 100.0 qcov: 96.1 scov: 42.1 | refseq: False uni: True
-            "CARD|homolog|aminoglycoside|AAC(6')-Ib8|AIK02012.1", // NCBI|amr:amr|aminoglycoside|ant(3'')-Ij/aac(6')-Ib|WP_063839875.1 | id: 100.0 qcov: 85.8 scov: 41.7 | refseq: True uni: True
-
-            // replaced by aph(9)-I in the original paper
-            "CARD|homolog|aminoglycoside|APH(9)-Ic|WCI13726.1",
+            // replaced by aph(9)-Ic in the original paper
+            "CARD|homolog|aminoglycoside|APH(9)-Ic|WCI13726.1", // aminoglycoside phosphotransferase family protein
 
             // replaced by sp identical
-            "CARD|homolog|aminoglycoside|kamB|WP_063964000.1",
-            "CARD|homolog|aminoglycoside|sgm|WP_063978071.1",
-            "NCBI|amr:amr|aminoglycoside|kamB|WP_063964001.1",
-            "NCBI|amr:amr|aminoglycoside|kamB|WP_063964000.1",
-            "NCBI|amr:amr|aminoglycoside|sgm|WP_063978071.1",
-            "NCBI|amr:amr|aminoglycoside|grm|WP_063851283.1",
+            "NCBI|amr:amr|aminoglycoside|grm|WP_063851283.1", // Grm family 16S rRNA (guanine(1405)-N(7))-methyltransferase
 
             // putative mid node
-            // aac(6')_Serra * 33
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_033651281.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_048325528.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_049270433.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_049212943.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_049204401.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_049189080.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_049208356.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_049198488.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_049241494.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_060706838.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_015379140.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_019453091.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_038879528.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_021505085.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_044030410.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_033654785.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_033639326.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_033632034.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_004937175.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_042785406.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_071846333.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_047570454.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_039569351.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_025304332.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_041036791.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_033644545.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_033636082.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_046687856.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_046897272.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_047026538.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_047729810.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_048234935.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_060560340.1",
-
-            // aac(6')_Steno * 2
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_049443010.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_053518652.1",
+            // aac(6')-29 * 1
+            "NCBI|amr:amr|aminoglycoside|aac(6')-29|WP_039110076.1", // aminoglycoside 6'-N-acetyltransferase AAC(6')-29
 
             // aac(6')-set_A * 7
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_071846204.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_049031504.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_071846239.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_071846259.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_071846260.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_071846334.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_019655053.1",
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_019655053.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_049031504.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_071846204.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_071846239.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_071846259.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_071846260.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_071846334.1", // aminoglycoside 6'-N-acetyltransferase
+
+            // aac(6')_Serra * 33
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_004937175.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_015379140.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_019453091.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_021505085.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_025304332.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_033632034.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_033636082.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_033639326.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_033644545.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_033651281.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_033654785.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_038879528.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_039569351.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_041036791.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_042785406.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_044030410.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_046687856.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_046897272.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_047026538.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_047570454.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_047729810.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_048234935.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_048325528.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_049189080.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_049198488.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_049204401.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_049208356.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_049212943.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_049241494.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_049270433.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_060560340.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_060706838.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_071846333.1", // aminoglycoside 6'-N-acetyltransferase
+
+            // aac(6')_Steno * 2
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_049443010.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_053518652.1", // aminoglycoside 6'-N-acetyltransferase
 
             // aac(6')_Strep * 7
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_023529211.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_039639671.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_046930149.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_029391459.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_033268654.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_043911783.1",
-            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_046502149.1",
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_009067544.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_023529211.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_033268654.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_039639671.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_043911783.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_046502149.1", // aminoglycoside 6'-N-acetyltransferase
+            "NCBI|amr:amr|aminoglycoside|aac(6')|WP_046930149.1", // aminoglycoside 6'-N-acetyltransferase
         ]
     },
 
 
 
     // avilamycin
-    // Avilamycin inhibits bacterial protein synthesis by binding to the 50S ribosomal subunit.
     "avilamycin": {
         "added": {
-            // "The avilamycin resistance determinants AviRa and AviRb methylate 23S rRNA at the guanosine 2535 base and the uridine 2479 ribose."
+            // "The avilamycin resistance determinants AviRa and AviRb methylate 23S rRNA at the guanosine 2535 base and the uridine 2479 ribose"
             // aviRa specifically methylates the guanine-2535 in 23S ribosomal RNA. Confers resistance to antibiotic avilamycin, an orthosomycin antibiotic.
             // aviRb specifically methylates the 2'-O-ribose position of uridine-2479 in 23S ribosomal RNA. Confers resistance to antibiotic avilamycin, an orthosomycin antibiotic.
-            "sp|Q9F5K5|AVRA_STRVR": "aviRa", // 23S rRNA (guanine(2535)-N(1))-methyltransferase
-            "sp|Q9F5K6|AVRB_STRVR": "aviRb", // RNA methyltransferase
+            // https://www.uniprot.org/citations/12828631
+            "sp|Q9F5K5|AVRA_STRVR": "aviRa", // 23S rRNA (guanine(2535)-N(1))-methyltransferase OS=Streptomyces viridochromogenes OX=1938 GN=aviRa PE=1 SV=2 | 23S rRNA (guanine(2535)-N(1))-methyltransferase
+            "sp|Q9F5K6|AVRB_STRVR": "aviRb", // 23S rRNA (uridine(2479)-2'-O)-methyltransferase OS=Streptomyces viridochromogenes OX=1938 GN=aviRb PE=1 SV=1 | RNA methyltransferase
+
+            // "An ATP-Binding Cassette Transporter and Two rRNA Methyltransferases Are Involved in Resistance to Avilamycin in the Producer Organism Streptomyces viridochromogenes Tü57"
+            // These genes encode components of an ATP-binding cassette (ABC) transporter system, which likely functions in the efflux of the antibiotic avilamycin out of the cell, contributing to resistance.
+            // ABC | 2 fold increase in MIC from 5 μg/ml to 10 μg/ml when expressed in S. lividans.
+            // https://www.uniprot.org/citations/11181344
+            "tr|Q9F5K4|Q9F5K4_STRVR": "aviABC1", // Putative ATP binding protein OS=Streptomyces viridochromogenes Tue57 OX=1160705 GN=aviABC1 PE=4 SV=1 | daunorubicin resistance protein DrrA family ABC transporter ATP-binding protein
+            "tr|Q9F5K3|Q9F5K3_STRVR": "aviABC2", // Transport permease protein OS=Streptomyces viridochromogenes Tue57 OX=1160705 GN=aviABC2 PE=3 SV=1 | ABC transporter permease
         }
     },
 
 
 
     // bacitracin
-    // Bacitracin is thought to be involved in the inhibition of peptidoglycan synthesis by sequestering undecaprenyl diphosphate, thereby reducing the pool of lipid carrier available.
     "bacitracin": {
         "changed": {
             "peptide@bcr": "bacitracin@bcr",
@@ -268,95 +327,213 @@
         "added": {
             // "Acquired Bacitracin Resistance in Enterococcus faecalis Is Mediated by an ABC Transporter and a Novel Regulatory Protein, BcrR"
             // bcrA, bcrB, and bcrD were transcribed as a polycistronic message that was induced by increasing concentrations of bacitracin but not by other cell wall-active antimicrobials (e.g., vancomycin).
-            "sp|Q5WNX0|BCRA_ENTFL": "bcrA", // bacitracin ABC transporter ATP-binding protein BcrA
-            "sp|Q5WNX1|BCRB_ENTFL": "bcrB", // bacitracin ABC transporter permease BcrB
-            "sp|Q5WNX2|UPPP2_ENTFL": "bcrD", // bacitracin resistance undecaprenyl-diphosphatase BcrD
+            // https://www.uniprot.org/citations/15388429
+            "sp|Q5WNX0|BCRA_ENTFL": "bcrA", // Bacitracin transport ATP-binding protein BcrA OS=Enterococcus faecalis OX=1351 GN=bcrA PE=2 SV=1 | bacitracin ABC transporter ATP-binding protein BcrA
+            "sp|Q5WNX1|BCRB_ENTFL": "bcrB", // Bacitracin transport permease protein BcrB OS=Enterococcus faecalis OX=1351 GN=bcrB PE=2 SV=1 | bacitracin ABC transporter permease BcrB
+            "sp|Q5WNX2|UPPP2_ENTFL": "bcrD", // Undecaprenyl-diphosphatase OS=Enterococcus faecalis OX=1351 GN=uppP PE=2 SV=1 | bacitracin resistance undecaprenyl-diphosphatase BcrD
 
-            // "Bacillus licheniformis bacitracin-resistance ABC transporter: relationship to mammalian multidrug resistance."
-            "sp|P42332|BCRA_BACLI": "bcrA", // bacitracin resistance ABC transporter ATP-binding subunit BcrA
-            "sp|P42333|BCRB_BACLI": "bcrB", // Bacitracin transport permease protein BCRB
-            "sp|P42334|BCRC_BACLI": "bcrC", // bacitracin resistance undecaprenyl-diphosphatase BcrC
+            // "Characterization of Genes Encoding for Acquired Bacitracin Resistance in Clostridium perfringens"
+            // Sequences of the bcrD, bcrB, bcrA and bcrR genes from C. perfringens were deposited. in GenBank database under accession numbers GU810179, GU810180 GU810181 and GU810182, respectively.
+            // ** likely incomplete ORF, GenBank staff are still waiting for submitters to provide appropriate coding region information **
+
+            // "Bacillus licheniformis bacitracin-resistance ABC transporter: relationship to mammalian multidrug resistance"
+            // https://www.uniprot.org/citations/7476193
+            "sp|P42332|BCRA_BACLI": "bcrA", // Bacitracin transport ATP-binding protein BcrA OS=Bacillus licheniformis OX=1402 GN=bcrA PE=3 SV=1 | bacitracin resistance ABC transporter ATP-binding subunit BcrA
+            "sp|P42333|BCRB_BACLI": "bcrB", // Bacitracin transport permease protein BCRB OS=Bacillus licheniformis OX=1402 GN=bcrB PE=3 SV=1 | Bacitracin transport permease protein BCRB
+            "sp|P42334|BCRC_BACLI": "bcrC", // Bacitracin transport permease protein BcrC OS=Bacillus licheniformis OX=1402 GN=bcrC PE=3 SV=1 | bacitracin resistance undecaprenyl-diphosphatase BcrC
 
             // "YtsCD and YwoA, two independent systems that confer bacitracin resistance to Bacillus subtilis"
             // We propose that (i) the YtsCD ABC transporter exports the bacitracin; (ii) YwoA, the protein that contains an acidPPc (PAP2 or PgpB) domain, is not part of an ABC transporter but competes with bacitracin for the dephosphorylation of the C55-isoprenyl pyrophosphate (IPP); (iii) the two resistance mechanisms are independent and complementary.
-            "sp|O34697|BCEA_BACSU": "bceA", // bacitracin ABC transporter ATP-binding protein BceA
-            "sp|O34741|BCEB_BACSU": "bceB", // bacitracin ABC transporter permease BceB
-            "sp|P94571|BCRC_BACSU": "bcrC", // undecaprenyl-diphosphate phosphatase BcrC
+            // https://www.uniprot.org/citations/14612242
+            "sp|O34697|BCEA_BACSU": "bceA", // Bacitracin export ATP-binding protein BceA OS=Bacillus subtilis (strain 168) OX=224308 GN=bceA PE=1 SV=1 | bacitracin ABC transporter ATP-binding protein BceA
+            "sp|O34741|BCEB_BACSU": "bceB", // Bacitracin export permease protein BceB OS=Bacillus subtilis (strain 168) OX=224308 GN=bceB PE=1 SV=1 | bacitracin ABC transporter permease BceB
+            "sp|P94571|BCRC_BACSU": "bcrC", // Undecaprenyl-diphosphatase BcrC OS=Bacillus subtilis (strain 168) OX=224308 GN=bcrC PE=1 SV=1 | undecaprenyl-diphosphate phosphatase BcrC
 
-            // "Amplification of the bacA gene confers bacitracin resistance to Escherichia coli."
+            // "Amplification of the bacA gene confers bacitracin resistance to Escherichia coli"
             // Catalyzes the dephosphorylation of undecaprenyl diphosphate (UPP). Confers resistance to bacitracin.
-            "sp|P60932|UPPP_ECOLI": "bacA", // undecaprenyl-diphosphate phosphatase
+            // https://www.uniprot.org/citations/8389741
+            "sp|P60932|UPPP_ECOLI": "bacA", // Undecaprenyl-diphosphatase OS=Escherichia coli (strain K12) OX=83333 GN=uppP PE=1 SV=1 | undecaprenyl-diphosphate phosphatase
 
             // alternative bacA
-            // BlastRuleException, https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR007282/
-            "WP_001280040.1": "bacA", // MULTISPECIES: undecaprenyl-diphosphate phosphatase UppP [Bacillus]
-            // BlastRuleException, https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR007033/
-            "WP_000796236.1": "bacA", // MULTISPECIES: bacitracin resistance undecaprenyl-diphosphatase [Bacillus]
-            // equivalog, https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/TIGR00753/
-            // inferred from mostly covered hit
-            "WP_007052850.1": "bacA", // MULTISPECIES: undecaprenyl-diphosphatase UppP [Bifidobacterium]
+            // https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR007282/
+            "WP_001280040.1": "bacA", // MULTISPECIES: undecaprenyl-diphosphate phosphatase UppP [Bacillus] | undecaprenyl-diphosphate phosphatase UppP
+            // https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR007033/
+            "WP_000796236.1": "bacA", // MULTISPECIES: bacitracin resistance undecaprenyl-diphosphatase [Bacillus] | bacitracin resistance undecaprenyl-diphosphatase
+            // https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/TIGR00753/
+            "WP_007052850.1": "bacA", // MULTISPECIES: undecaprenyl-diphosphatase UppP [Bifidobacterium] | undecaprenyl-diphosphatase UppP
+
+            // "Bacitracin resistance and enhanced virulence of Streptococcus suis via a novel efflux pump"
+            // ABC | CZ13-△bceAB and CZ13-△bceRS (MIC, 4 μg/mL) were more sensitive to bacitracin than CZ13-△sstFEG was (MIC, 16 μg/mL).
+            // ** CVO91_06455 (bceA), CVO91_06450 (bceB) **
+            // https://www.ncbi.nlm.nih.gov/nuccore/CP024974
+            "ATZ03592.1": "bceA", // ABC transporter ATP-binding protein [Streptococcus suis] | ABC transporter ATP-binding protein
+            "ATZ03591.1": "bceB", // ABC transporter permease [Streptococcus suis] | ABC transporter permease
+            // ABC | The mutant strain CZ13-△sstFEG (MIC, 16 μg/mL) was approximately 4-fold more sensitive to bacitracin than the wild-type CZ130302 strain was (MIC, 64 μg/mL).
+            // ** CVO91_06470 (sstF), CVO91_06465 (sstE), CVO91_06460 (sstG) **
+            // ** need to confirm the function of SstFEG in bacitracin resistance directly or indirectly **
+            // https://www.ncbi.nlm.nih.gov/nuccore/CP024974
+            // "ATZ03595.1": "sstF", // ABC transporter ATP-binding protein [Streptococcus suis] | ABC transporter ATP-binding protein
+            // "ATZ03594.1": "sstE", // ABC transporter permease [Streptococcus suis] | ABC transporter permease
+            // "ATZ03593.1": "sstG", // ABC transporter permease [Streptococcus suis] | ABC transporter permease
+
+            // alternative bceAB or bceAB-like according to "Guarding the walls: the multifaceted roles of Bce modules in cell envelope stress sensing and antimicrobial resistance"
+            // "Response of S. thermophilus LMD-9 to bacitracin: Involvement of a BceRS/AB-like module and of the rhamnose–glucose polysaccharide synthesis pathway"
+            // ** STER_1308 (bceA), STER_1307 (bceB) **
+            // https://www.ncbi.nlm.nih.gov/nuccore/CP000419
+            "ABJ66487.1": "bceA", // ABC-type antimicrobial peptide transport system, ATPase component [Streptococcus thermophilus LMD-9] | ABC transporter ATP-binding protein
+            "ABJ66486.1": "bceB", // ABC-type antimicrobial peptide transport system, permease component [Streptococcus thermophilus LMD-9] | ABC transporter permease
+            // "The BceABRS Four-Component System Regulates the Bacitracin-Induced Cell Envelope Stress Response in Streptococcus mutans"
+            // ** SMU_1006 (bceA), SMU_1007 (bceB) **
+            // https://www.ncbi.nlm.nih.gov/nuccore/AE014133
+            "AAN58707.1": "bceA", // putative ABC transporter, ATP-binding protein [Streptococcus mutans UA159] | ABC transporter ATP-binding protein
+            "AAN58708.1": "bceB", // putative ABC transporter, permease protein [Streptococcus mutans UA159] | ABC transporter permease
+            // "Generic and Specific Adaptive Responses of Streptococcus pneumoniae to Challenge with Three Distinct Antimicrobial Peptides, Bacitracin, LL-37, and Nisin"
+            // "Identification of a two-component regulatory system involved in antimicrobial peptide resistance in Streptococcus pneumoniae"
+            // ** SP_0912 (bceA), SP_0913 (bceB) or Spr0812 (bceA), Spr0813 (bceB)**
+            // https://www.ncbi.nlm.nih.gov/nuccore/AE005672
+            "AAK75037.1": "bceA", // ABC transporter, ATP-binding protein [Streptococcus pneumoniae TIGR4] | ABC transporter ATP-binding protein
+            "AAK75038.1": "bceB", // putative ABC transporter, permease protein [Streptococcus pneumoniae TIGR4] | ABC transporter permease
+            // "Cell Envelope Stress Response in Bacillus licheniformis: Integrating Comparative Genomics, Transcriptional Profiling, and Regulon Mining To Decipher a Complex Regulatory Network"
+            // ** BLi04211 (bceA), BLi04210 (bceB) **
+            // https://www.ncbi.nlm.nih.gov/nuccore/AE017333
+            "AAU43024.1": "bceA", // bacitracin ABC exporter ATP-binding protein BceA [Bacillus licheniformis DSM 13 = ATCC 14580] | ABC transporter ATP-binding protein
+            "AAU43023.1": "bceB", // bacitracin ABC exporter permease BceB [Bacillus licheniformis DSM 13 = ATCC 14580] | FtsX-like permease family protein
 
             // "A diverse intrinsic antibiotic resistome from a cave bacterium"
             // https://www.uniprot.org/citations/CI-89J8D8F9KIUHE
-            "tr|A0A1I9ZJK0|A0A1I9ZJK0_9BACL": "bahA", // bacitracin amidohydrolase [Paenibacillus sp. LC231]
+            "tr|A0A1I9ZJK0|A0A1I9ZJK0_9BACL": "bahA", // Bacitracin amidohydrolase | bacitracin amidohydrolase BahA
         },
     },
 
 
     // bacteriocin
+    // ** we omit microcin/colicin and other narrow-spectrum bacteriocin that inhibit only closely related species/strains **
+    // ** we omit all genes related to bacteriocin/lantibiotic immunity, such as nisIFEG/spaIFEG (https://www.uniprot.org/keywords/KW-0079) **
     "bacteriocin": {
         "changed": {
-            ".*@YojI": "bacteriocin@yojI", // microcin J25 efflux ABC transporter YojI
+            ".*@YojI": "bacteriocin@yojI",
         },
         "added": {
-            // "YojI of Escherichia coli functions as a microcin J25 efflux pump."
+            // "YojI of Escherichia coli functions as a microcin J25 efflux pump"
             // Mediates resistance to the antibacterial peptide microcin J25, when expressed from a multicopy vector. Functions as an efflux pump for microcin J25, with the help of the outer membrane channel TolC.
-            "sp|P33941|YOJI_ECOLI": "yojI", // MULTISPECIES: microcin J25 efflux ABC transporter YojI [Enterobacteriaceae]
 
-            // "Molecular characterization of the nisin resistance region of Lactococcus lactis subsp. lactis biovar diacetylactis DRC3."
-            "sp|P23648|NSR_LACLL": "nsr", // S41 family peptidase [Lactococcus lactis] | Nisin-resistance protein
-
-            // "NSR from Streptococcus agalactiae confers resistance against nisin and is encoded by a conserved nsr operon"
-            // NSR protein from S. agalactiae ATCC 13813 induced a 20-fold increased resistance towards nisin when expressed in L. lactis.
-            // inferred from HMPREF9171_1170, SaNsr
-            // https://www.ncbi.nlm.nih.gov/protein/319745028
-            "EFV97356.1": "nsr", // nisin-resistance protein [Streptococcus agalactiae ATCC 13813]
+            // "The export of the DNA replication inhibitor Microcin B17 provides immunity for the host cell"
+            // Physical and genetic studies showed that immunity is mediated by three genes: mcbE, mcbF and mcbG.
 
             // "CbrA Mediates Colicin M Resistance in Escherichia coli through Modification of Undecaprenyl-Phosphate-Linked Peptidoglycan Precursors"
-            // BlastRuleException, https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR007806/
-            "WP_001340434.1": "cbrA", // MULTISPECIES: colicin M resistance lipid reductase CbrA [Enterobacteriaceae] | Protein CbrA
+            // CbrA, when overexpressed, performs a modification to lipid II, a critical carrier for peptidoglycan biosynthesis, and this modification can lead to resistance to the enzymatic bacteriocin colicin M. It is unclear what other roles CbrA may have.
 
-            // "The VirAB ABC Transporter Is Required for VirR Regulation of Listeria monocytogenes Virulence and Resistance to Nisin"
-            // BlastRuleException, https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR011935/
-            "WP_010989803.1": "virA", // ABC transporter permease VirA [Listeria monocytogenes]
-            // BlastRuleException, https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR011936/
-            "WP_003722224.1": "virB", // ABC transporter ATP-binding protein VirB [Listeria monocytogenes]
+            // "Expression and functional analysis of the subtilin immunity genes spaIFEG in the subtilin-sensitive host Bacillus subtilis MO1099"
+            // Recipient cells acquired subtilin tolerance through expression of either spaI or spaFEG, which shows that subtilin immunity is based on two independently acting systems.
 
-            // "Acquired Nisin Resistance in Staphylococcus aureus Involves Constitutive Activation of an Intrinsic Peptide Antibiotic Detoxification Module"
-            // BraDE is only involved in bacitracin sensing and signaling through BraSR
-            // BraAB was found to act as a cofactor for BraRS but not as a direct resistance factor, suggesting that it is associated with the regulation of vraDE
-            // VraDE plays no role in CAMP resistance, since a ΔvraDE mutant was as resistant to colistin as the parental HG001 strain
-            // BlastRuleException, https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR008291/
-            "WP_000154162.1": "vraD", // MULTISPECIES: peptide resistance ABC transporter ATP-binding subunit VraD [Staphylococcus]
-            // BlastRuleException, https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR008292/
-            "WP_000143649.1": "vraE", // MULTISPECIES: peptide resistance ABC transporter permease subunit VraE [Staphylococcus]
+            // other immunity genes
+            // subtilin (spaIFEG, Bacillus subtilis), ericin (eriIFEG, Bacillus subtilis), nisin (nisIFEG, Lactococcus lactis), lacticin (lctFEG/lmgFEG, Lactococcus lactis), mutacin (mutFEG, Streptococcus mutans), nukacin (nukFEG, Staphylococcus warneri), epidermin (epiFEG, Staphylococcus epidermidis), NAI-107 (mlbQJYZ, Microbispora corallina), streptin (srtIFEG, Streptococcus pyogenes)
 
-            // "Peptide Antibiotic Sensing and Detoxification Modules of Bacillus subtilis"
-            // The PsdRS-AB (formerly YvcPQ-RS) system responds primarily to lipid II-binding lantibiotics such as nisin and gallidermin.
-            // BlastRuleException, https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR010050/
-            "WP_003228167.1": "psdA", // MULTISPECIES: lantibiotic ABC transporter ATP-binding protein PsdA [Bacillales]
-            // BlastRuleException, https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR010051/
-            "WP_003243432.1": "psdB", // MULTISPECIES: lantibiotic ABC transporter permease PsdB [Bacillales]
+            // "The Clostridium difficile cpr Locus Is Regulated by a Noncontiguous Two-Component System in Response to Type A and B Lantibiotics"
+            // Unlike typical lantibiotic immunity systems, the cprABC transporter confers resistance to multiple lantibiotic CAMPs and is not associated with lantibiotic biosynthesis genes or resistance to any endogenously produced lantibiotic toxin.
+            // ** though may not relate to self-immunity, highly similar to lanFEG, omit **
+            // https://www.ncbi.nlm.nih.gov/nuccore/AM180355
+            // "CAJ68207.1": "cprA", // ABC-type transport system,lantibiotic/multidrug-family ATP-binding protein [Clostridioides difficile 630] | lantibiotic protection ABC transporter ATP-binding protein
+            // "CAJ68208.1": "cprB", // ABC-type transport system,lantibiotic/multidrug-family permease [Clostridioides difficile 630] | lantibiotic immunity ABC transporter MutE/EpiE family permease subunit
+            // "CAJ68209.1": "cprC", // ABC-type transport system,lantibiotic/multidrug-family permease [Clostridioides difficile 630] | lantibiotic immunity ABC transporter MutG family permease subunit
 
             // "Novel Probiotic Mechanisms of the Oral Bacterium Streptococcus sp. A12 as Explored with Functional Genomics"
             // PcfFEG contributes to immunity to the lantibiotic nisin.
-            // BlastRuleException, https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR014856/
-            "WP_061564361.1": "pcfF", // MULTISPECIES: lantibiotic protection ABC transporter ATP-binding protein PcfF [Streptococcus]
-            // BlastRuleException, https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR014857/
-            "WP_061564360.1": "pcfE", // MULTISPECIES: lantibiotic protection ABC transporter permease PcfE [Streptococcus]
-            // BlastRuleException, https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR014858/
-            "WP_061564359.1": "pcfG", // MULTISPECIES: lantibiotic protection ABC transporter permease PcfG [Streptococcus]
+            // ** possibly contributes to self-immunity of an uncharacteristic antimicrobial peptide, produced by PcfV, omit **
+            // https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR014856/
+            // "WP_061564361.1": "pcfF", // MULTISPECIES: lantibiotic protection ABC transporter ATP-binding protein PcfF [Streptococcus] | lantibiotic protection ABC transporter ATP-binding protein PcfF
+            // https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR014857/
+            // "WP_061564360.1": "pcfE", // MULTISPECIES: lantibiotic protection ABC transporter permease PcfE [Streptococcus] | lantibiotic protection ABC transporter permease PcfE
+            // https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR014858/
+            // "WP_061564359.1": "pcfG", // MULTISPECIES: lantibiotic protection ABC transporter permease PcfG [Streptococcus] | lantibiotic protection ABC transporter permease PcfG
+
+            // "Peptide Antibiotic Sensing and Detoxification Modules of Bacillus subtilis"
+            // The PsdRS-AB (formerly YvcPQ-RS) system responds primarily to lipid II-binding lantibiotics such as nisin and gallidermin.
+            // https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR010050/
+            "WP_003228167.1": "psdA", // MULTISPECIES: lantibiotic ABC transporter ATP-binding protein PsdA [Bacillales] | lantibiotic ABC transporter ATP-binding protein PsdA
+            // https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR010051/
+            "WP_003243432.1": "psdB", // MULTISPECIES: lantibiotic ABC transporter permease PsdB [Bacillales] | lantibiotic ABC transporter permease PsdB
+
+            // "Characterization of a Regulatory Network of Peptide Antibiotic Detoxification Modules in Lactobacillus casei BL23"
+            // "ABC Transporter DerAB of Lactobacillus casei Mediates Resistance against Insect-Derived Defensins"
+            // Module 09 is a standalone detoxification system, in which ABC09 is a dual-function transporter and abc09 is the only known target operon of RR09.
+            // ** LCABL_16410 (psdA), LCABL_16400 (psdB) **
+            // https://www.ncbi.nlm.nih.gov/nuccore/FM177140
+            "CAQ66722.1": "psdA", // ABC transporter related [Lacticaseibacillus paracasei] | ABC transporter ATP-binding protein
+            "CAQ66721.1": "psdB", // Putative uncharacterized protein [Lacticaseibacillus paracasei] | FtsX-like permease family protein
+
+            // "Transcriptome Analysis Reveals Mechanisms by Which Lactococcus lactis Acquires Nisin Resistance"
+            // ysaBC has been associated with bacitracin resistance and is hypothesized to play a similar role in nisin resistance by potentially exporting nisin or otherwise preventing it from reaching its target site in the bacterial cell.
+            // MIC of nisin for Lactococcus lactis strains overexpressing ysaBC increased to 320 µg/liter, compared to 40 µg/liter in the wild-type strain.
+            // https://www.ncbi.nlm.nih.gov/nuccore/AE005176
+            // ** L190126 (ysaB), L192122 (ysaC) | https://www.kegg.jp/brite/lla00001 **
+            "AAK05847.1": "ysaB", // ABC transporter permease and substrate binding protein [Lactococcus lactis subsp. lactis Il1403] | ABC transporter permease
+            "AAK05848.1": "ysaC", // ABC transporter ATP-binding protein [Lactococcus lactis subsp. lactis Il1403] | ABC transporter ATP-binding protein
+
+            // "Molecular characterization of the nisin resistance region of Lactococcus lactis subsp. lactis biovar diacetylactis DRC3"
+            // This protein was encoded by the plasmids conferring nisin resistance.
+            // https://www.uniprot.org/citations/1903915
+            "sp|P23648|NSR_LACLL": "nsr", // Nisin-resistance protein OS=Lactococcus lactis subsp. lactis OX=1360 GN=nsr PE=4 SV=1 | S41 family peptidase
+
+            // "NSR from Streptococcus agalactiae confers resistance against nisin and is encoded by a conserved nsr operon"
+            // NSR protein from S. agalactiae ATCC 13813 induced a 20-fold increased resistance towards nisin when expressed in L. lactis.
+            // ** HMPREF9171_1170 (nsr) **
+            // https://www.ncbi.nlm.nih.gov/nuccore/AEQQ01000060
+            "EFV97356.1": "nsr", // nisin-resistance protein [Streptococcus agalactiae ATCC 13813] | S41 family peptidase
+
+            // "The N-terminal Region of Nisin Is Important for the BceAB-Type ABC Transporter NsrFP from Streptococcus agalactiae COH1"
+            // NsrFP is able to confer a 16-fold resistance against wild type nisin as determined by growth inhibition experiments and functions as a lantibiotic exporter.
+            // ** GBSCOH1_0893 (nsrF), GBSCOH1_0894 (nsrP) **
+            // https://www.ncbi.nlm.nih.gov/nuccore/HG939456
+            "CDN66359.1": "nsrF", // ABC transporter, ATP-binding protein [Streptococcus agalactiae COH1]
+            "CDN66360.1": "nsrP", // ABC transporter, permease protein, putative [Streptococcus agalactiae COH1]
+
+            // "The VirAB ABC Transporter Is Required for VirR Regulation of Listeria monocytogenes Virulence and Resistance to Nisin"
+            // "The VirAB-VirSR-AnrAB Multicomponent System Is Involved in Resistance of Listeria monocytogenes EGD-e to Cephalosporins, Bacitracin, Nisin, Benzalkonium Chloride, and Ethidium Bromide"
+            // "The ABC Transporter AnrAB Contributes to the Innate Resistance of Listeria monocytogenes to Nisin, Bacitracin, and Various β-Lactam Antibiotics"
+            // AnrAB likely performs a role downstream of VirAB, perhaps acting as a pump to directly export antimicrobial agents or as a transporter of bactoprenol-derived lipid, as has been suggested for BceAB.
+            // VirAB is responsible only for antimicrobial sensing and signaling by VirSR, while AnrAB contributes to transportation of antimicrobials.
+            // ** virAB may function as a multidrug exporter of e.g. β-Lactam **
+            // ** lmo2114 (anrA), lmo2115 (anrB), lmo1416 (virA), lmo1417 (virB) **
+            "CAD00192.1": "anrA", // lmo2114 [Listeria monocytogenes EGD-e] | ABC transporter ATP-binding protein
+            "CAD00193.1": "anrB", // lmo2115 [Listeria monocytogenes EGD-e] | ABC transporter permease
+            // "CAC99824.1": "virA", // lmo1746 [Listeria monocytogenes EGD-e] | ABC transporter permease VirA
+            // "CAC99825.1": "virB", // lmo1747 [Listeria monocytogenes EGD-e] | ABC transporter ATP-binding protein VirB
+
+            // "Acquired Nisin Resistance in Staphylococcus aureus Involves Constitutive Activation of an Intrinsic Peptide Antibiotic Detoxification Module"
+            // BraAB was found to act as a cofactor for BraRS but not as a direct resistance factor, suggesting that it is associated with the regulation of vraDE.
+            // NIS detoxification was ultimately mediated by VraDE, with BraDE participating in the signaling cascade underlying VraDE expression.
+            // ** SAOUHSC_03036 (vraD), SAOUHSC_03037 (vraE), SAOUHSC_02954 (braD), SAOUHSC_02953 (braE) **
+            "ABD32021.1": "vraD", // ABC transporter, ATP-binding protein, putative [Staphylococcus aureus subsp. aureus NCTC 8325] | peptide resistance ABC transporter ATP-binding subunit VraD
+            "ABD32022.1": "vraE", // permease, putative [Staphylococcus aureus subsp. aureus NCTC 8325] | peptide resistance ABC transporter permease subunit VraE
+            // "ABD31945.1": "braD", // ABC transporter, ATP-binding protein, putative [Staphylococcus aureus subsp. aureus NCTC 8325] | ABC transporter ATP-binding protein
+            // "ABD31944.1": "braE", // permease, putative domain protein [Staphylococcus aureus subsp. aureus NCTC 8325] | ABC transporter permease
+
+            // "GraXSR Proteins Interact with the VraFG ABC Transporter To Form a Five-Component System Required for Cationic Antimicrobial Peptide Sensing and Resistance in Staphylococcus aureus"
+            // "Interaction of the GraRS Two-Component System with the VraFG ABC Transporter To Support Vancomycin-Intermediate Resistance in Staphylococcus aureus"
+            // For the Bra system, sensing involves the BraDE ABC transporter, but resistance only requires the VraDE ABC transporter.
+            // For the Gra system, as shown here, sensing involves the VraFG transporter, but resistance involves the dlt and mprF genes.
+            // In each case, the associated ABC transporter is only involved in sensing and not resistance per se, unlike the Bce system of B. subtilis where the ABC transporter has both functions.
+            // VraFG ABC transporter potentially enhances export of cell wall/teichoic acid precursors or modifying subunits rather than export of VAN or PMB.
+            // ** it seems vraFG does not have detoxification (resistance transporter) function, omit **
+            // ** contradict to "Guarding the walls: the multifaceted roles of Bce modules in cell envelope stress sensing and antimicrobial resistance", more information regarding varFG's substrates is needed **
+            // https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR013184/
+            // "WP_001637630.1": "vraF", // ABC transporter ATP-binding protein VraF [Staphylococcus aureus] | ABC transporter ATP-binding protein VraF
+            // "WP_020363729.1": "vraF", // ABC transporter ATP-binding protein VraF [Staphylococcus epidermidis] | ABC transporter ATP-binding protein VraF
+            // https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR013185/
+            // "WP_000143623.1": "vraG", // MULTISPECIES: ABC transporter permease VraG [Staphylococcus] | ABC transporter permease VraG
+            // "WP_002457535.1": "vraG", // ABC transporter permease VraG [Staphylococcus epidermidis] | ABC transporter permease VraG
+
+            // "Identification and Characterization of a Bacitracin Resistance Network in Enterococcus faecalis"
+            // EF2050-2049 is indeed directly capable of mediating bacitracin resistance, not only in E. faecalis but also in the heterologous host B. subtilis. EF2752-2751, on the other hand, is not directly responsible for bacitracin resistance.
+            // ** keep in bacteriocin (mersacidin resistance) for consistency though rapAB may mainly act against bacitracin **
+            // ** EF2050 (rapA), EF2049 (rapB) **
+            "AAO81785.1": "rapA", // ABC transporter, ATP-binding protein [Enterococcus faecalis V583] | ABC transporter ATP-binding protein
+            "AAO81784.1": "rapB", // ABC transporter, permease protein, putative [Enterococcus faecalis V583] | ABC transporter permease
         },
+        "discarded": [
+            "CARD|homolog|peptide|YojI|AAC75271.1", // microcin J25 efflux ABC transporter YojI
+        ]
     },
 
 
@@ -364,162 +541,154 @@
     // beta-lactam
     "beta-lactam": {
         "changed": {
-            ".*@(?=(CMY|SFH)-[0-9]+)": "beta-lactam@BLA",
             "(?<=beta-lactam@(mec[A-D]|cfxA|cphA))[0-9]$": "",
             "beta-lactam@ampC$": "beta-lactam@bla*",
-
-            "beta-lactam@tla2": "beta-lactam@blaTLA",
             "beta-lactam@blaRm3": "beta-lactam@blaRM3",
-            "beta-lactam@blaPEN.*": "beta-lactam@blaPEN",
-            "beta-lactam@blaLRA.*": "beta-lactam@blaLRA",
-            "beta-lactam@blaOKP.*": "beta-lactam@blaOKP",
+            "beta-lactam@tla2": "beta-lactam@blaTLA",
 
-            "beta-lactam@blaOXA/blaLRA13": "beta-lactam@blaLRA",
+            // ** blaLRA1-19 are distributed across blaA-C, all from uncultured soil, cautious **
+            "beta-lactam@blaLRA.*": "beta-lactam@blaLRA",
+
+            // ** blaB1PEDO and blaB3PEDO are distributed in blaB1/3, cautious **
             "beta-lactam@blaB[13]PEDO": "beta-lactam@blaPEDO",
-            "beta-lactam@blaTHIN-B": "beta-lactam@blaTHIN",
+
+            // ** despite fused, the blaC/D parts are not close to any known blaLRA/blaOXA, keep **
+            "beta-lactam@blaOXA/blaLRA13": "beta-lactam@blaLRA",
+
+            // consistency
+            "beta-lactam@blaPEN-.*": "beta-lactam@blaPEN",
+            "beta-lactam@blaOKP-.*": "beta-lactam@blaOKP",
+            "beta-lactam@blaTHIN-.*": "beta-lactam@blaTHIN",
 
             // clustered
             "beta-lactam@bla(CFE|LAT)": "beta-lactam@blaCMY",
             "beta-lactam@bla(CMA|CSA)": "beta-lactam@blaCMA/CSA",
             "beta-lactam@bla(LCR|NPS)": "beta-lactam@blaLCR/NPS",
 
-            // rename
+            // renamed
             "beta-lactam@bla1": [
-                "NCBI|amr:amr|beta-lactam|bla|WP_063842248.1",
-                "NCBI|amr:amr|beta-lactam|bla|WP_011053164.1",
+                "NCBI|amr:amr|beta-lactam|bla|WP_011053164.1", // class A beta-lactamase Bla1
+                "NCBI|amr:amr|beta-lactam|bla|WP_063842248.1", // class A beta-lactamase Bla1
             ],
             "beta-lactam@bla3": [
-                "NCBI|amr:amr|beta-lactam|blaIII|WP_000497840.1"
+                "NCBI|amr:amr|beta-lactam|blaIII|WP_000497840.1", // class A beta-lactamase BlaIII
             ],
             "beta-lactam@blaEXO": [
-                "NCBI|amr:amr|beta-lactam|bla2a|WP_063842239.1" // Exo family class A beta-lactamase [Streptomyces albus]
+                "NCBI|amr:amr|beta-lactam|bla2a|WP_063842239.1", // Exo family class A beta-lactamase
             ],
         },
         "discarded": [
+            // CARD
+            "CARD|homolog|carbapenem;cephalosporin;cephamycin;penam|ACT-16|BAM34463.1", // NCBI|amr:amr|beta-lactam|blaACT|WP_023315250.1 | id: 100.0 qcov: 100.0 scov: 99.7
+            "CARD|homolog|carbapenem;cephalosporin;monobactam;penam|KPC-9|ACM91559.1", // NCBI|amr:amr|beta-lactam|blaKPC|WP_111672911.1 | id: 100.0 qcov: 100.0 scov: 96.9
+            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-73|AKR18013.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_179284389.1 | id: 100.0 qcov: 100.0 scov: 93.5
+            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-75|AKR18015.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_040184286.1 | id: 99.7 qcov: 100.0 scov: 93.5
+            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-76|AKR18016.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_034051361.1 | id: 99.7 qcov: 100.0 scov: 93.5
+            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-77|AKR18017.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_150823480.1 | id: 100.0 qcov: 100.0 scov: 93.5
+            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-78|AKR18018.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_150823480.1 | id: 99.7 qcov: 100.0 scov: 93.5
+            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-79|AKR18019.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_100931731.1 | id: 100.0 qcov: 100.0 scov: 93.5
+            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-81|AKR18021.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_219860725.1 | id: 99.7 qcov: 100.0 scov: 93.5
+            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-82|AKR18022.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_034066397.1 | id: 99.7 qcov: 100.0 scov: 93.5
+            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-83|AKR18023.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_104009859.1 | id: 100.0 qcov: 100.0 scov: 93.5
+            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-84|AKR18024.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_104009835.1 | id: 100.0 qcov: 100.0 scov: 93.5
+            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-85|AKR18025.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_023115067.1 | id: 99.7 qcov: 100.0 scov: 93.5
+            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-87|AKR18027.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_164461301.1 | id: 100.0 qcov: 100.0 scov: 93.5
+            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-88|AKR18028.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_065102306.1 | id: 99.5 qcov: 100.0 scov: 93.4
+            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-89|AKR18029.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_019485213.1 | id: 99.2 qcov: 100.0 scov: 93.5
+            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-90|AKR18030.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_003132320.1 | id: 99.2 qcov: 100.0 scov: 93.5
+            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-91|AKR18031.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_104009834.1 | id: 99.2 qcov: 100.0 scov: 93.4
+            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-92|AKR18032.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_340638824.1 | id: 99.7 qcov: 100.0 scov: 93.4
+            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-93|AKR18033.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_088245224.1 | id: 100.0 qcov: 100.0 scov: 93.5
+            "CARD|homolog|carbapenem;cephalosporin;penam|GOB-2|AAF89152.1", // NCBI|amr:amr|beta-lactam|blaGOB|WP_063860523.1 | id: 99.2 qcov: 100.0 scov: 86.9
+            "CARD|homolog|carbapenem;cephalosporin;penam|GOB-3|AAF89147.1", // NCBI|amr:amr|beta-lactam|blaGOB|WP_078411523.1 | id: 100.0 qcov: 100.0 scov: 86.9
+            "CARD|homolog|carbapenem;cephalosporin;penam|GOB-4|AAF89149.1", // NCBI|amr:amr|beta-lactam|blaGOB|WP_078691374.1 | id: 100.0 qcov: 100.0 scov: 86.9
+            "CARD|homolog|carbapenem;cephalosporin;penam|GOB-5|AAF89146.1", // NCBI|amr:amr|beta-lactam|blaGOB|WP_049037557.1 | id: 100.0 qcov: 100.0 scov: 86.9
+            "CARD|homolog|carbapenem;cephalosporin;penam|GOB-6|AAF89148.1", // NCBI|amr:amr|beta-lactam|blaGOB|WP_069147617.1 | id: 100.0 qcov: 100.0 scov: 86.9
+            "CARD|homolog|carbapenem;cephalosporin;penam|GOB-7|AAF89153.1", // NCBI|amr:amr|beta-lactam|blaGOB|WP_034866180.1 | id: 100.0 qcov: 100.0 scov: 86.9
+            "CARD|homolog|carbapenem;penam|BlaB-10|WP_063857822.1", // NCBI|amr:amr|beta-lactam|blaB|WP_078782085.1 | id: 100.0 qcov: 100.0 scov: 99.6
+            "CARD|homolog|carbapenem;penam|BlaB-14|WP_034848068.1", // NCBI|amr:amr|beta-lactam|blaB|WP_078394827.1 | id: 100.0 qcov: 100.0 scov: 99.6
+            "CARD|homolog|carbapenem;penam|BlaB-7|WP_063857829.1", // NCBI|amr:amr|beta-lactam|blaB|WP_078402391.1 | id: 100.0 qcov: 100.0 scov: 99.6
+            "CARD|homolog|carbapenem;penam|BlaB-8|WP_059324801.1", // NCBI|amr:amr|beta-lactam|blaB|WP_078721108.1 | id: 100.0 qcov: 100.0 scov: 99.6
+            "CARD|homolog|carbapenem;penam|BlaB-9|WP_059154943.1", // NCBI|amr:amr|beta-lactam|blaB|WP_081321989.1 | id: 100.0 qcov: 100.0 scov: 99.6
+            "CARD|homolog|carbapenem;penam|OXA-198|ADT70779.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_094865115.1 | id: 100.0 qcov: 98.5 scov: 100.0
+            "CARD|homolog|carbapenem|MSI-1|AJP77057.1", // NCBI|amr:amr|beta-lactam|blaMSI|WP_071766402.1 | id: 100.0 qcov: 84.8 scov: 100.0
+            "CARD|homolog|carbapenem|SFH-1|AAF09244.1", // NCBI|amr:amr|beta-lactam|blaSFH|WP_071766619.1 | id: 100.0 qcov: 100.0 scov: 92.5
+            "CARD|homolog|carbapenem|Vcho_varG|AAF94716.1", // NCBI|amr:amr|beta-lactam|varG|WP_000778180.1 | id: 100.0 qcov: 95.9 scov: 100.0
+            "CARD|homolog|cephalosporin;cephamycin;monobactam;oxacephem;penam|ACC-1|CAB46491.1", // NCBI|amr:amr|beta-lactam|blaACC|WP_032491956.1 | id: 100.0 qcov: 100.0 scov: 99.0
+            "CARD|homolog|cephalosporin;monobactam;penam;penem|TEM-117|AAN05026.1", // NCBI|amr:amr|beta-lactam|blaTEM|WP_063864805.1 | id: 99.6 qcov: 100.0 scov: 88.8
+            "CARD|homolog|cephalosporin;monobactam;penam;penem|TEM-118|AAN05029.1", // NCBI|amr:amr|beta-lactam|blaTEM|WP_032490103.1 | id: 99.6 qcov: 100.0 scov: 91.3
+            "CARD|homolog|cephalosporin;monobactam;penam;penem|TEM-192|AEQ59620.1", // NCBI|amr:amr|beta-lactam|blaTEM|WP_063865138.1 | id: 99.2 qcov: 100.0 scov: 87.8
+            "CARD|homolog|cephalosporin;monobactam;penam;penem|TEM-199|AFN69127.1", // NCBI|amr:amr|beta-lactam|blaTEM|WP_032488414.1 | id: 99.6 qcov: 100.0 scov: 99.0
+            "CARD|homolog|cephalosporin;monobactam;penam;penem|TEM-42|CAA66659.1", // NCBI|amr:amr|beta-lactam|blaTEM|WP_063864914.1 | id: 99.3 qcov: 100.0 scov: 98.3
+            "CARD|homolog|cephalosporin;monobactam;penam;penem|TEM-59|AAD45935.1", // NCBI|amr:amr|beta-lactam|blaTEM|WP_063864990.1 | id: 99.6 qcov: 100.0 scov: 96.9
+            "CARD|homolog|cephalosporin;monobactam;penam;penem|TEM-75|AAN05028.1", // NCBI|amr:amr|beta-lactam|blaTEM|WP_032494853.1 | id: 99.6 qcov: 100.0 scov: 91.6
+            "CARD|homolog|cephalosporin;monobactam;penam;penem|TEM-7|AAO33760.1", // NCBI|amr:amr|beta-lactam|blaTEM|WP_109874025.1 | id: 100.0 qcov: 100.0 scov: 91.3
+            "CARD|homolog|cephalosporin;monobactam;penam;penem|TEM-89|AAK71474.1", // NCBI|amr:amr|beta-lactam|blaTEM|WP_032488414.1 | id: 99.6 qcov: 100.0 scov: 97.2
+            "CARD|homolog|cephalosporin;monobactam;penam|ACC-4|ABP49606.1", // NCBI|amr:amr|beta-lactam|blaACC|WP_063857708.1 | id: 100.0 qcov: 100.0 scov: 99.0
+            "CARD|homolog|cephalosporin;monobactam;penam|ACC-5|CCK86740.1", // NCBI|amr:amr|beta-lactam|blaACC|WP_039189232.1 | id: 99.7 qcov: 100.0 scov: 99.0
+            "CARD|homolog|cephalosporin;monobactam|TLA-1|AAD37403.1", // NCBI|amr:amr|beta-lactam|blaTLA|WP_032494759.1 | id: 100.0 qcov: 95.9 scov: 100.0
+            "CARD|homolog|cephalosporin;penam|Abau_ampC_BLA|ACJ42146.1", // NCBI|amr:amr|beta-lactam|blaADC|WP_001211205.1 | id: 99.7 qcov: 100.0 scov: 100.0
+            "CARD|homolog|cephalosporin;penam|OKP-B-12|CAG25831.1", // NCBI|amr:amr|beta-lactam|blaOKP-B|WP_032456002.1 | id: 99.2 qcov: 99.6 scov: 91.6
+            "CARD|homolog|cephalosporin;penam|OKP-B-14|ABL75154.1", // NCBI|amr:amr|beta-lactam|blaOKP-B|WP_004205995.1 | id: 99.6 qcov: 100.0 scov: 96.2
+            "CARD|homolog|cephalosporin;penam|SHV-123|ACV32633.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_002904004.1 | id: 99.3 qcov: 100.0 scov: 94.8
+            "CARD|homolog|cephalosporin;penam|SHV-124|ACV32634.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_011117369.1 | id: 99.6 qcov: 100.0 scov: 94.8
+            "CARD|homolog|cephalosporin;penam|SHV-125|ACV32635.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_069280714.1 | id: 99.6 qcov: 100.0 scov: 94.8
+            "CARD|homolog|cephalosporin;penam|SHV-126|ACV32636.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_063864616.1 | id: 99.6 qcov: 100.0 scov: 94.8
+            "CARD|homolog|cephalosporin;penam|SHV-127|ACV32637.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_004179754.1 | id: 99.3 qcov: 100.0 scov: 94.8
+            "CARD|homolog|cephalosporin;penam|SHV-140|AEK80394.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_021440083.1 | id: 99.7 qcov: 100.0 scov: 99.3
+            "CARD|homolog|cephalosporin;penam|SHV-167|BAM28879.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_109791212.1 | id: 100.0 qcov: 100.0 scov: 98.6
+            "CARD|homolog|cephalosporin;penam|SHV-20|AAF34334.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_367187977.1 | id: 99.2 qcov: 100.0 scov: 90.9
+            "CARD|homolog|cephalosporin;penam|SHV-21|AAF34335.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_367187977.1 | id: 98.8 qcov: 100.0 scov: 90.9
+            "CARD|homolog|cephalosporin;penam|SHV-22|AAF34336.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_063864692.1 | id: 99.2 qcov: 100.0 scov: 90.9
+            "CARD|homolog|cephalosporin;penam|SHV-23|AAF34337.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_063864692.1 | id: 98.8 qcov: 100.0 scov: 90.9
+            "CARD|homolog|cephalosporin;penam|SHV-53|AAT01223.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_063864654.1 | id: 99.6 qcov: 100.0 scov: 84.6
+            "CARD|homolog|cephalosporin;penam|SHV-83|CAJ47138.2", // NCBI|amr:amr|beta-lactam|blaSHV|WP_021440083.1 | id: 100.0 qcov: 100.0 scov: 99.3
+            "CARD|homolog|cephalosporin|BUT-1|AAN17791.1", // NCBI|amr:amr|beta-lactam|blaBUT|WP_104531864.1 | id: 100.0 qcov: 96.5 scov: 100.0
+            "CARD|homolog|cephalosporin|CTX-M-106|ADZ31262.1", // NCBI|amr:amr|beta-lactam|blaCTX-M|WP_063859949.1 | id: 99.3 qcov: 100.0 scov: 99.7
+            "CARD|homolog|cephalosporin|CTX-M-107|AEM44650.1", // NCBI|amr:amr|beta-lactam|blaCTX-M|WP_000239590.1 | id: 99.7 qcov: 100.0 scov: 98.6
+            "CARD|homolog|cephalosporin|CTX-M-108|AEM44651.1", // NCBI|amr:amr|beta-lactam|blaCTX-M|WP_000239590.1 | id: 99.7 qcov: 100.0 scov: 98.6
+            "CARD|homolog|cephalosporin|CTX-M-109|AEM44654.1", // NCBI|amr:amr|beta-lactam|blaCTX-M|WP_000239590.1 | id: 99.7 qcov: 99.7 scov: 98.6
+            "CARD|homolog|cephalosporin|CTX-M-11|AAF93177.1", // NCBI|amr:amr|beta-lactam|blaCTX-M|WP_011091028.1 | id: 98.9 qcov: 100.0 scov: 96.9
+            "CARD|homolog|cephalosporin|CTX-M-152|AHY20039.1", // NCBI|amr:amr|beta-lactam|blaCTX-M|WP_064543755.1 | id: 100.0 qcov: 100.0 scov: 99.7
+            "CARD|homolog|cephamycin|CMY-59|BAJ17544.1", // NCBI|amr:amr|beta-lactam|blaCMY|WP_063859852.1 | id: 100.0 qcov: 96.5 scov: 100.0
+            "CARD|homolog|cephamycin|CMY-98|AGH70380.1", // NCBI|amr:amr|beta-lactam|blaCMY|WP_122630837.1 | id: 98.1 qcov: 100.0 scov: 98.7
+            "CARD|homolog|cephamycin|CfxA6|ACT97371.1", // NCBI|amr:amr|beta-lactam|cfxA6|WP_117664257.1 | id: 100.0 qcov: 96.7 scov: 100.0
+            "CARD|homolog|penam;penem|LEN-14|AAP93847.1", // NCBI|amr:amr|beta-lactam|blaLEN|WP_063860826.1 | id: 99.3 qcov: 100.0 scov: 53.1
+            "CARD|homolog|penam;penem|LEN-3|AAN05030.1", // NCBI|amr:amr|beta-lactam|blaLEN|WP_032735535.1 | id: 99.6 qcov: 100.0 scov: 95.8
+            "CARD|homolog|penam;penem|LEN-4|AAN05031.1", // NCBI|amr:amr|beta-lactam|blaLEN|WP_008804981.1 | id: 99.6 qcov: 100.0 scov: 95.8
+            "CARD|homolog|penam;penem|LEN-6|AAP93848.1", // NCBI|amr:amr|beta-lactam|blaLEN|WP_049156962.1 | id: 99.4 qcov: 99.4 scov: 54.5
+            "CARD|homolog|penam|BCL-1|ABU39980.1", // NCBI|amr:amr|beta-lactam|blaBCL|WP_065825670.1 | id: 100.0 qcov: 98.0 scov: 100.0
+            "CARD|homolog|penam|BRO-2|CAA90891.1", // NCBI|amr:amr|beta-lactam|blaBRO|WP_003665544.1 | id: 100.0 qcov: 99.7 scov: 100.0
+            "CARD|homolog|penam|CARB-21|AGQ93789.1", // NCBI|amr:amr|beta-lactam|blaCARB|WP_025632811.1 | id: 100.0 qcov: 91.3 scov: 100.0
+            "CARD|homolog|penam|CARB-23|AHJ02283.1", // NCBI|amr:amr|beta-lactam|blaCARB|WP_025442943.1 | id: 100.0 qcov: 91.3 scov: 100.0
+            "CARD|homolog|penam|CARB-3|AAB19430.2", // NCBI|amr:amr|beta-lactam|blaPSE|WP_063859105.1 | id: 100.0 qcov: 94.7 scov: 100.0
+            "CARD|homolog|penam|CARB-58|QYJ63007.1", // NCBI|amr:amr|beta-lactam|blaPSE|WP_231869590.1 | id: 100.0 qcov: 87.5 scov: 100.0
+            "CARD|homolog|penam|FAR-1|AAB81957.1", // NCBI|amr:amr|beta-lactam|blaFAR|WP_070064531.1 | id: 99.7 qcov: 100.0 scov: 95.8
+            "CARD|homolog|penam|OXA-116|ABW95047.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_122630900.1 | id: 100.0 qcov: 100.0 scov: 95.6
+            "CARD|homolog|penam|OXA-140|ALL27283.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_069280711.1 | id: 100.0 qcov: 100.0 scov: 85.1
+            "CARD|homolog|penam|OXA-16|AAB97924.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_064056056.1 | id: 99.6 qcov: 100.0 scov: 96.6
+            "CARD|homolog|penam|OXA-18|AAB58555.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_277915723.1 | id: 100.0 qcov: 97.8 scov: 100.0
+            "CARD|homolog|penam|OXA-290|ENU29139.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_081398973.1 | id: 100.0 qcov: 100.0 scov: 95.0
+            "CARD|homolog|penam|OXA-33|AAG23871.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_032491311.1 | id: 100.0 qcov: 100.0 scov: 92.8
+            "CARD|homolog|penam|OXA-34|AAK15582.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_001007673.1 | id: 99.6 qcov: 100.0 scov: 93.5
+            "CARD|homolog|penam|OXA-36|AAG24866.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_240067729.1 | id: 99.6 qcov: 100.0 scov: 89.5
+            "CARD|homolog|penam|OXA-410|HCT5551642.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_001021776.1 | id: 99.6 qcov: 100.0 scov: 100.0
+            "CARD|homolog|penam|OXA-481|AKF41838.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_001046004.1 | id: 99.6 qcov: 100.0 scov: 98.5
+            "CARD|homolog|penam|OXA-664|EOR02560.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_104442312.1 | id: 94.8 qcov: 100.0 scov: 82.8
+            "CARD|homolog|penam|OXA-85|AAP69916.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_032835180.1 | id: 100.0 qcov: 100.0 scov: 97.3
+
+            // discard all CARD's beta-lactam for consistency
+            "CARD|homolog|carbapenem;cephalosporin|CIM-1|WP_123865086.1", // NCBI|amr:amr|beta-lactam|blaBMHC|WP_119059468.1 | id: 58.0 qcov: 99.2 scov: 98.8
+            "CARD|homolog|carbapenem|MSI-OXA|AJP77058.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_049291121.1 | id: 55.2 qcov: 93.8 scov: 98.1
+            "CARD|homolog|cephalosporin;cephamycin;penam|SSA|CBI71171.1", // NCBI|amr:amr|beta-lactam|blaASU1|WP_219860711.1 | id: 47.7 qcov: 99.7 scov: 99.7
+            "CARD|homolog|cephalosporin;monobactam;penam|ACC-3|AAF86697.1", // NCBI|amr:amr|beta-lactam|blaACC|WP_063857697.1 | id: 87.8 qcov: 100.0 scov: 96.7
+            "CARD|homolog|cephalosporin|CTX-M-45|BAA28282.1", // NCBI|amr:amr|beta-lactam|blaCTX-M|WP_085562401.1 | id: 87.2 qcov: 100.0 scov: 100.0
+
             // putative mid node
-            "NCBI|amr:amr|beta-lactam|ampC|WP_041692555.1", // MULTISPECIES: class C beta-lactamase [Edwardsiella]
-            "NCBI|amr:amr|beta-lactam|bla|WP_011270171.1", // MULTISPECIES: class A beta-lactamase [Pseudomonadota]
-            "NCBI|amr:amr|beta-lactam|bla|WP_063842272.1", // class A beta-lactamase, subclass A2 [uncultured bacterium]
-            "NCBI|amr:amr|beta-lactam|bla|WP_063842277.1", // class A beta-lactamase [uncultured bacterium]
-
-            "CARD|homolog|cephalosporin;monobactam;penam;penem|TEM-199|AFN69127.1", // NCBI|amr:amr|beta-lactam|blaTEM|WP_032488414.1 | id: 99.6 qcov: 100.0 scov: 99.0 | refseq: False uni: True
-            "CARD|homolog|cephalosporin;monobactam;penam;penem|TEM-89|AAK71474.1", // NCBI|amr:amr|beta-lactam|blaTEM|WP_032488414.1 | id: 99.6 qcov: 100.0 scov: 97.2 | refseq: False uni: False
-            "CARD|homolog|cephalosporin;monobactam;penam;penem|TEM-118|AAN05029.1", // NCBI|amr:amr|beta-lactam|blaTEM|WP_032490103.1 | id: 99.6 qcov: 100.0 scov: 91.3 | refseq: False uni: False
-            "CARD|homolog|cephalosporin;monobactam;penam;penem|TEM-75|AAN05028.1", // NCBI|amr:amr|beta-lactam|blaTEM|WP_032494853.1 | id: 99.6 qcov: 100.0 scov: 91.6 | refseq: False uni: False
-            "CARD|homolog|cephalosporin;monobactam;penam;penem|TEM-42|CAA66659.1", // NCBI|amr:amr|beta-lactam|blaTEM|WP_063864914.1 | id: 99.3 qcov: 100.0 scov: 98.3 | refseq: False uni: False
-            "CARD|homolog|cephalosporin;monobactam;penam;penem|TEM-59|AAD45935.1", // NCBI|amr:amr|beta-lactam|blaTEM|WP_063864990.1 | id: 99.6 qcov: 100.0 scov: 96.9 | refseq: False uni: False
-            "CARD|homolog|cephalosporin;monobactam;penam;penem|TEM-7|AAO33760.1", // NCBI|amr:amr|beta-lactam|blaTEM|WP_109874025.1 | id: 100.0 qcov: 100.0 scov: 91.3 | refseq: False uni: False
-            "CARD|homolog|cephalosporin;monobactam;penam;penem|TEM-117|AAN05026.1", // NCBI|amr:amr|beta-lactam|blaTEM|WP_063864805.1 | id: 99.6 qcov: 100.0 scov: 88.8 | refseq: False uni: False
-            "CARD|homolog|cephalosporin;monobactam;penam;penem|TEM-192|AEQ59620.1", // NCBI|amr:amr|beta-lactam|blaTEM|WP_094353585.1 | id: 99.2 qcov: 100.0 scov: 87.8 | refseq: False uni: False
-
-            "CARD|homolog|carbapenem;cephalosporin;penam|SHV-123|ACV32633.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_002904004.1 | id: 99.3 qcov: 100.0 scov: 94.8 | refseq: False uni: False
-            "CARD|homolog|carbapenem;cephalosporin;penam|SHV-127|ACV32637.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_004179754.1 | id: 99.3 qcov: 100.0 scov: 94.8 | refseq: False uni: False
-            "CARD|homolog|carbapenem;cephalosporin;penam|SHV-124|ACV32634.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_011117369.1 | id: 99.6 qcov: 100.0 scov: 94.8 | refseq: False uni: False
-            "CARD|homolog|carbapenem;cephalosporin;penam|SHV-140|AEK80394.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_021440083.1 | id: 99.7 qcov: 100.0 scov: 99.3 | refseq: False uni: True
-            "CARD|homolog|carbapenem;cephalosporin;penam|SHV-83|CAJ47138.2", // NCBI|amr:amr|beta-lactam|blaSHV|WP_021440083.1 | id: 100.0 qcov: 100.0 scov: 99.3 | refseq: False uni: True
-            "CARD|homolog|carbapenem;cephalosporin;penam|SHV-53|AAT01223.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_063864612.1 | id: 99.6 qcov: 100.0 scov: 84.6 | refseq: False uni: False
-            "CARD|homolog|carbapenem;cephalosporin;penam|SHV-126|ACV32636.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_063864616.1 | id: 99.6 qcov: 100.0 scov: 94.8 | refseq: False uni: False
-            "CARD|homolog|carbapenem;cephalosporin;penam|SHV-125|ACV32635.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_063864633.1 | id: 99.6 qcov: 100.0 scov: 94.8 | refseq: False uni: False
-            "CARD|homolog|carbapenem;cephalosporin;penam|SHV-84|CAJ32371.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_063864633.1 | id: 99.6 qcov: 100.0 scov: 96.9 | refseq: False uni: False
-            "CARD|homolog|carbapenem;cephalosporin;penam|SHV-167|BAM28879.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_109791212.1 | id: 100.0 qcov: 100.0 scov: 98.6 | refseq: False uni: True
-            "CARD|homolog|carbapenem;cephalosporin;penam|SHV-20|AAF34334.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_063864609.1 | id: 99.2 qcov: 100.0 scov: 90.9 | refseq: False uni: False
-            "CARD|homolog|carbapenem;cephalosporin;penam|SHV-21|AAF34335.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_063864609.1 | id: 98.8 qcov: 100.0 scov: 90.9 | refseq: False uni: False
-            "CARD|homolog|carbapenem;cephalosporin;penam|SHV-19|AAF34333.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_063864633.1 | id: 99.2 qcov: 100.0 scov: 90.9 | refseq: False uni: False
-            "CARD|homolog|carbapenem;cephalosporin;penam|SHV-6|CAA71948.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_063864670.1 | id: 99.2 qcov: 100.0 scov: 90.9 | refseq: False uni: False
-            "CARD|homolog|carbapenem;cephalosporin;penam|SHV-22|AAF34336.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_063864692.1 | id: 99.2 qcov: 100.0 scov: 90.9 | refseq: False uni: False
-            "CARD|homolog|carbapenem;cephalosporin;penam|SHV-23|AAF34337.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_063864692.1 | id: 98.8 qcov: 100.0 scov: 90.9 | refseq: False uni: False
-
-            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-90|AKR18030.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_003132320.1 | id: 99.2 qcov: 100.0 scov: 93.5 | refseq: False uni: False
-            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-89|AKR18029.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_019485213.1 | id: 99.2 qcov: 100.0 scov: 93.5 | refseq: False uni: False
-            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-85|AKR18025.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_023089477.1 | id: 99.7 qcov: 100.0 scov: 93.5 | refseq: False uni: False
-            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-76|AKR18016.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_034051361.1 | id: 99.7 qcov: 100.0 scov: 93.5 | refseq: False uni: False
-            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-82|AKR18022.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_034066397.1 | id: 99.7 qcov: 100.0 scov: 93.5 | refseq: False uni: False
-            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-75|AKR18015.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_040184286.1 | id: 99.7 qcov: 100.0 scov: 93.5 | refseq: False uni: False
-            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-88|AKR18028.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_065102306.1 | id: 99.5 qcov: 100.0 scov: 93.4 | refseq: False uni: False
-            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-93|AKR18033.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_088245224.1 | id: 100.0 qcov: 100.0 scov: 93.5 | refseq: False uni: False
-            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-79|AKR18019.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_100931731.1 | id: 100.0 qcov: 100.0 scov: 93.5 | refseq: False uni: False
-            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-91|AKR18031.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_104009834.1 | id: 99.2 qcov: 100.0 scov: 93.4 | refseq: False uni: False
-            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-84|AKR18024.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_104009835.1 | id: 100.0 qcov: 100.0 scov: 93.5 | refseq: False uni: False
-            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-83|AKR18023.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_104009859.1 | id: 100.0 qcov: 100.0 scov: 93.5 | refseq: False uni: False
-            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-77|AKR18017.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_150823480.1 | id: 100.0 qcov: 100.0 scov: 93.5 | refseq: False uni: False
-            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-78|AKR18018.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_150823480.1 | id: 99.7 qcov: 100.0 scov: 93.5 | refseq: False uni: False
-            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-87|AKR18027.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_164461301.1 | id: 100.0 qcov: 100.0 scov: 93.5 | refseq: False uni: False
-            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-73|AKR18013.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_179284389.1 | id: 100.0 qcov: 100.0 scov: 93.5 | refseq: False uni: False
-            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-81|AKR18021.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_179284389.1 | id: 99.7 qcov: 100.0 scov: 93.5 | refseq: False uni: False
-            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-92|AKR18032.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_328703070.1 | id: 99.7 qcov: 100.0 scov: 93.4 | refseq: False uni: False
-
-            "CARD|homolog|carbapenem;cephalosporin;monobactam;penam|KPC-9|ACM91559.1", // NCBI|amr:amr|beta-lactam|blaKPC|WP_111672911.1 | id: 100.0 qcov: 100.0 scov: 96.9 | refseq: False uni: False
-            "CARD|homolog|cephalosporin;cephamycin;monobactam;oxacephem;penam|ACC-1|CAB46491.1", // NCBI|amr:amr|beta-lactam|blaACC|WP_032491956.1 | id: 100.0 qcov: 100.0 scov: 99.0 | refseq: False uni: True
-
-            "CARD|homolog|carbapenem;cephalosporin;penam|GOB-7|AAF89153.1", // NCBI|amr:amr|beta-lactam|blaGOB|WP_034866180.1 | id: 100.0 qcov: 100.0 scov: 86.9 | refseq: False uni: False
-            "CARD|homolog|carbapenem;cephalosporin;penam|GOB-5|AAF89146.1", // NCBI|amr:amr|beta-lactam|blaGOB|WP_049037557.1 | id: 100.0 qcov: 100.0 scov: 86.9 | refseq: False uni: False
-            "CARD|homolog|carbapenem;cephalosporin;penam|GOB-2|AAF89152.1", // NCBI|amr:amr|beta-lactam|blaGOB|WP_063860523.1 | id: 99.2 qcov: 100.0 scov: 86.9 | refseq: False uni: False
-            "CARD|homolog|carbapenem;cephalosporin;penam|GOB-6|AAF89148.1", // NCBI|amr:amr|beta-lactam|blaGOB|WP_069147617.1 | id: 100.0 qcov: 100.0 scov: 86.9 | refseq: False uni: False
-            "CARD|homolog|carbapenem;cephalosporin;penam|GOB-3|AAF89147.1", // NCBI|amr:amr|beta-lactam|blaGOB|WP_078411523.1 | id: 100.0 qcov: 100.0 scov: 86.9 | refseq: False uni: False
-            "CARD|homolog|carbapenem;cephalosporin;penam|GOB-4|AAF89149.1", // NCBI|amr:amr|beta-lactam|blaGOB|WP_078691374.1 | id: 100.0 qcov: 100.0 scov: 86.9 | refseq: False uni: False
-
-            "CARD|homolog|cephalosporin;monobactam;penam|ACC-5|CCK86740.1", // NCBI|amr:amr|beta-lactam|blaACC|WP_039189232.1 | id: 99.7 qcov: 100.0 scov: 99.0 | refseq: False uni: True
-            "CARD|homolog|cephalosporin;monobactam;penam|ACC-3|AAF86697.1", // NCBI|amr:amr|beta-lactam|blaACC|WP_063857697.1 | id: 87.8 qcov: 100.0 scov: 96.7 | refseq: False uni: True
-            "CARD|homolog|cephalosporin;monobactam;penam|ACC-4|ABP49606.1", // NCBI|amr:amr|beta-lactam|blaACC|WP_063857708.1 | id: 100.0 qcov: 100.0 scov: 99.0 | refseq: False uni: True
-            "CARD|homolog|cephalosporin|CTX-M-107|AEM44650.1", // NCBI|amr:amr|beta-lactam|blaCTX-M|WP_000239590.1 | id: 99.7 qcov: 100.0 scov: 98.6 | refseq: False uni: False
-            "CARD|homolog|cephalosporin|CTX-M-108|AEM44651.1", // NCBI|amr:amr|beta-lactam|blaCTX-M|WP_000239590.1 | id: 99.7 qcov: 100.0 scov: 98.6 | refseq: False uni: False
-            "CARD|homolog|cephalosporin|CTX-M-109|AEM44654.1", // NCBI|amr:amr|beta-lactam|blaCTX-M|WP_000239590.1 | id: 99.7 qcov: 99.7 scov: 98.6 | refseq: False uni: False
-            "CARD|homolog|cephalosporin|CTX-M-11|AAF93177.1", // NCBI|amr:amr|beta-lactam|blaCTX-M|WP_032491377.1 | id: 98.9 qcov: 100.0 scov: 96.9 | refseq: False uni: False
-            "CARD|homolog|cephalosporin|CTX-M-106|ADZ31262.1", // NCBI|amr:amr|beta-lactam|blaCTX-M|WP_063859949.1 | id: 99.3 qcov: 100.0 scov: 99.7 | refseq: False uni: True
-            "CARD|homolog|cephalosporin|CTX-M-152|AHY20039.1", // NCBI|amr:amr|beta-lactam|blaCTX-M|WP_064543755.1 | id: 100.0 qcov: 100.0 scov: 99.7 | refseq: False uni: False
-            "CARD|homolog|cephalosporin|CTX-M-45|BAA28282.1", // NCBI|amr:amr|beta-lactam|blaCTX-M|WP_085562401.1 | id: 87.2 qcov: 100.0 scov: 100.0 | refseq: False uni: False
-
-            "CARD|homolog|penam|OXA-36|AAG24866.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_240067729.1 | id: 99.6 qcov: 100.0 scov: 89.5 | refseq: False uni: False
-            "CARD|homolog|cephalosporin|BUT-1|AAN17791.1", // NCBI|amr:amr|beta-lactam|blaBUT|WP_104531864.1 | id: 100.0 qcov: 96.5 scov: 100.0 | refseq: False uni: False
-            "CARD|homolog|cephalosporin;penam|OKP-B-14|ABL75154.1", // NCBI|amr:amr|beta-lactam|blaOKP-B|WP_004205995.1 | id: 99.6 qcov: 100.0 scov: 96.2 | refseq: False uni: False
-            "CARD|homolog|cephalosporin;penam|OKP-B-12|CAG25831.1", // NCBI|amr:amr|beta-lactam|blaOKP-B|WP_032456002.1 | id: 99.2 qcov: 99.6 scov: 91.6 | refseq: False uni: False
-            "CARD|homolog|penam|OXA-34|AAK15582.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_001007673.1 | id: 99.6 qcov: 100.0 scov: 93.5 | refseq: False uni: False
-            "CARD|homolog|penam|OXA-481|AKF41838.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_001046004.1 | id: 99.6 qcov: 100.0 scov: 98.5 | refseq: False uni: False
-            "CARD|homolog|penam|OXA-140|ALL27283.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_001334766.1 | id: 100.0 qcov: 100.0 scov: 85.1 | refseq: False uni: False
-            "CARD|homolog|penam|OXA-33|AAG23871.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_032491311.1 | id: 100.0 qcov: 100.0 scov: 92.8 | refseq: False uni: False
-            "CARD|homolog|penam|OXA-85|AAP69916.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_032835180.1 | id: 100.0 qcov: 100.0 scov: 97.3 | refseq: False uni: False
-            "CARD|homolog|penam|OXA-16|AAB97924.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_064056056.1 | id: 99.6 qcov: 100.0 scov: 96.6 | refseq: False uni: False
-            "CARD|homolog|penam|OXA-290|ENU29139.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_081398973.1 | id: 100.0 qcov: 100.0 scov: 95.0 | refseq: False uni: False
-            "CARD|homolog|carbapenem;penam|OXA-198|ADT70779.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_094865115.1 | id: 100.0 qcov: 98.5 scov: 100.0 | refseq: False uni: True
-            "CARD|homolog|penam|OXA-664|EOR02560.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_104442312.1 | id: 94.8 qcov: 100.0 scov: 82.8 | refseq: False uni: False
-            "CARD|homolog|penam|OXA-116|ABW95047.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_122630900.1 | id: 100.0 qcov: 100.0 scov: 95.6 | refseq: False uni: True
-            "CARD|homolog|cephalosporin;monobactam|TLA-1|AAD37403.1", // NCBI|amr:amr|beta-lactam|blaTLA|WP_032494759.1 | id: 100.0 qcov: 95.9 scov: 100.0 | refseq: False uni: True
-
-            "CARD|homolog|carbapenem;cephalosporin;cephamycin;penam|ACT-16|BAM34463.1", // NCBI|amr:amr|beta-lactam|blaACT|WP_023315250.1 | id: 100.0 qcov: 100.0 scov: 99.7 | refseq: False uni: True
-            "CARD|homolog|penam|BCL-1|ABU39980.1", // NCBI|amr:amr|beta-lactam|blaBCL|WP_065825670.1 | id: 100.0 qcov: 98.0 scov: 100.0 | refseq: False uni: True
-            "CARD|homolog|penam|BRO-2|CAA90891.1", // NCBI|amr:amr|beta-lactam|blaBRO|WP_003665544.1 | id: 100.0 qcov: 99.7 scov: 100.0 | refseq: False uni: False
-            "CARD|homolog|penam|CARB-23|AHJ02283.1", // NCBI|amr:amr|beta-lactam|blaCARB|WP_025442943.1 | id: 100.0 qcov: 91.3 scov: 100.0 | refseq: False uni: False
-            "CARD|homolog|penam|CARB-21|AGQ93789.1", // NCBI|amr:amr|beta-lactam|blaCARB|WP_025632811.1 | id: 100.0 qcov: 91.3 scov: 100.0 | refseq: False uni: False
-            "CARD|homolog|penam|CARB-2|AAZ91704.1", // NCBI|amr:amr|beta-lactam|blaPSE|WP_001931474.1 | id: 99.3 qcov: 100.0 scov: 100.0 | refseq: False uni: False
-            "CARD|homolog|penam|CARB-3|AAB19430.2", // NCBI|amr:amr|beta-lactam|blaPSE|WP_063859105.1 | id: 100.0 qcov: 94.7 scov: 100.0 | refseq: False uni: False
-
-            "CARD|homolog|penam|FAR-1|AAB81957.1", // NCBI|amr:amr|beta-lactam|blaFAR|WP_070064531.1 | id: 99.7 qcov: 100.0 scov: 95.8 | refseq: False uni: False
-            "CARD|homolog|penam;penem|LEN-4|AAN05031.1", // NCBI|amr:amr|beta-lactam|blaLEN|WP_008804981.1 | id: 99.6 qcov: 100.0 scov: 95.8 | refseq: False uni: False
-            "CARD|homolog|penam;penem|LEN-14|AAP93847.1", // NCBI|amr:amr|beta-lactam|blaLEN|WP_023297577.1 | id: 99.3 qcov: 100.0 scov: 53.1 | refseq: False uni: False
-            "CARD|homolog|penam;penem|LEN-3|AAN05030.1", // NCBI|amr:amr|beta-lactam|blaLEN|WP_032735535.1 | id: 99.6 qcov: 100.0 scov: 95.8 | refseq: False uni: False
-            "CARD|homolog|penam;penem|LEN-6|AAP93848.1", // NCBI|amr:amr|beta-lactam|blaLEN|WP_049156962.1 | id: 99.4 qcov: 99.4 scov: 54.5 | refseq: False uni: False
-
-            "CARD|homolog|cephamycin|CMY-59|BAJ17544.1", // NCBI|amr:amr|beta-lactam|blaCMY|WP_063859852.1 | id: 100.0 qcov: 96.5 scov: 100.0 | refseq: False uni: True
-            "CARD|homolog|cephamycin|CMY-98|AGH70380.1", // NCBI|amr:amr|beta-lactam|blaCMY|WP_122630837.1 | id: 98.1 qcov: 100.0 scov: 98.7 | refseq: False uni: True
-            "CARD|homolog|carbapenem|SFH-1|AAF09244.1", // NCBI|amr:amr|beta-lactam|blaSFH|WP_071766619.1 | id: 100.0 qcov: 100.0 scov: 92.5 | refseq: False uni: False
-
-            "CARD|homolog|carbapenem|MSI-1|AJP77057.1", // NCBI|amr:amr|beta-lactam|blaMSI|WP_071766402.1 | id: 100.0 qcov: 84.8 scov: 100.0 | refseq: False uni: True
-            "CARD|homolog|carbapenem|MSI-OXA|AJP77058.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_049291121.1 | id: 55.2 qcov: 93.8 scov: 98.1 | refseq: False uni: True
-            "CARD|homolog|carbapenem|Vcho_varG|AAF94716.1", // NCBI|amr:amr|beta-lactam|varG|WP_000778180.1 | id: 100.0 qcov: 95.9 scov: 100.0 | refseq: False uni: False
-            "CARD|homolog|cephamycin|CfxA6|ACT97371.1", // NCBI|amr:amr|beta-lactam|cfxA6|WP_117664257.1 | id: 100.0 qcov: 96.7 scov: 100.0 | refseq: False uni: False
-            "CARD|homolog|carbapenem;penam|BlaB-14|WP_034848068.1", // NCBI|amr:amr|beta-lactam|blaB|WP_078394827.1 | id: 100.0 qcov: 100.0 scov: 99.6 | refseq: False uni: False
-            "CARD|homolog|carbapenem;penam|BlaB-7|WP_063857829.1", // NCBI|amr:amr|beta-lactam|blaB|WP_078402391.1 | id: 100.0 qcov: 100.0 scov: 99.6 | refseq: False uni: True
-            "CARD|homolog|carbapenem;penam|BlaB-8|WP_059324801.1", // NCBI|amr:amr|beta-lactam|blaB|WP_078721108.1 | id: 100.0 qcov: 100.0 scov: 99.6 | refseq: False uni: True
-            "CARD|homolog|carbapenem;penam|BlaB-10|WP_063857822.1", // NCBI|amr:amr|beta-lactam|blaB|WP_078782085.1 | id: 100.0 qcov: 100.0 scov: 99.6 | refseq: False uni: True
-            "CARD|homolog|carbapenem;penam|BlaB-9|WP_059154943.1", // NCBI|amr:amr|beta-lactam|blaB|WP_081321989.1 | id: 100.0 qcov: 100.0 scov: 99.6 | refseq: False uni: True
-            "CARD|homolog|cephalosporin;penam|Abau_ampC_BLA|ACJ42146.1", // NCBI|amr:amr|beta-lactam|blaADC|WP_001211205.1 | id: 99.7 qcov: 100.0 scov: 100.0 | refseq: False uni: False
-
-            // The real source of CBI71171.1 should be "Characterization of novel antibiotic resistance genes identified by functional metagenomics on soil samples"
-            // fasta format of SSA/B/D is not available in "Functional metagenomics reveals wildlife as natural reservoirs of novel β-lactamases"
-            "CARD|homolog|cephalosporin;cephamycin;penam|SSA|CBI71171.1",
-
-            // 2024-05-02.2
-            "CARD|homolog|penam|OXA-18|AAB58555.1"
+            "NCBI|amr:amr|beta-lactam|ampC|WP_041692555.1", // class C beta-lactamase
+            "NCBI|amr:amr|beta-lactam|bla|WP_011270171.1", // class A beta-lactamase
+            "NCBI|amr:amr|beta-lactam|bla|WP_063842272.1", // class A beta-lactamase, subclass A2
+            "NCBI|amr:amr|beta-lactam|bla|WP_063842277.1", // class A beta-lactamase
         ]
     },
 
@@ -550,10 +719,10 @@
         },
         "added": {
             // "Overexpression of the Escherichia coli sugE gene confers resistance to a narrow range of quaternary ammonium compounds"
-            // Overexpression leads to resistance to a subset of toxic quaternary ammonium compounds such as cetylpyridinium, cetyldimethylethyl ammonium and cetrimide cations
+            // Overexpression leads to resistance to a subset of toxic quaternary ammonium compounds such as cetylpyridinium, cetyldimethylethyl ammonium and cetrimide cations.
             "sp|P69937|GDX_ECOLI": "sugE", // quaternary ammonium compound efflux SMR transporter SugE
 
-            // "Transcriptomic and biochemical analyses identify a family of chlorhexidine efflux proteins."
+            // "Transcriptomic and biochemical analyses identify a family of chlorhexidine efflux proteins"
             // "Homologs of the Acinetobacter baumannii AceI transporter represent a new family of bacterial multidrug efflux systems"
             // AceI homologs represent a new family of bacterial multidrug efflux pumps, which we have designated the proteobacterial antimicrobial compound efflux (PACE) family of transport proteins.
             "sp|P0DUT9|PACE_ACIBT": "aceI",
@@ -580,17 +749,17 @@
     // bleomycin
     "bleomycin": {
         "changed": {
-            // "BlmB and TlmB Provide Resistance to the Bleomycin Family of Antitumor Antibiotics by N-Acetylating Metal-Free Bleomycin, Tallysomycin, Phleomycin, and Zorbamycin"
-            // sequence identical to ABL74956.1, paired with tlmB, for consistency changed from ble-sh to tlmA.
-            // blmA and blmB have different resistance mechanisms, not a single pathway
-            "bleomycin@ble-Sh": "bleomycin@tlmA",
             "bleomycin@ble$": "bleomycin@ble*",
 
-            // "BLMA family bleomycin binding protein" is an umbrella term which includes BLMA, ZbmA and others. Kept in ble*.
+            // "BlmB and TlmB Provide Resistance to the Bleomycin Family of Antitumor Antibiotics by N-Acetylating Metal-Free Bleomycin, Tallysomycin, Phleomycin, and Zorbamycin"
+            // ** WP_063842998.1 (tlmA, ABL74956.1) is paired with WP_063856490.1 (tlmB, ABL74962.1), change ble-sh to tlmA **
+            "bleomycin@ble-Sh": "bleomycin@tlmA",
+
+            // ** "BLMA family bleomycin binding protein" is an umbrella term which includes BLMA, ZbmA and others, keep in ble* **
             // https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NF033156/
             // "bleomycin@blmA": [
-            //     "NCBI|amr:amr|bleomycin|ble|WP_063842962.1", // BLMA family bleomycin binding protein
-            //     "NCBI|amr:amr|bleomycin|ble|WP_063842967.1", // BLMA family bleomycin binding protein
+            // "NCBI|amr:amr|bleomycin|ble|WP_063842962.1", // BLMA family bleomycin binding protein
+            // "NCBI|amr:amr|bleomycin|ble|WP_063842967.1", // BLMA family bleomycin binding protein
             // ],
         },
     },
@@ -598,123 +767,128 @@
 
 
     // colistin
+    // ** alternative name: polymyxin **
     "colistin": {
         "changed": {
             "^peptide@": "colistin@",
         },
         "added": {
-            // "An undecaprenyl phosphate-aminoarabinose flippase required for polymyxin resistance in Escherichia coli."
-            "sp|P77690|ARNB_ECOLI": "arnB", // UDP-4-amino-4-deoxy-L-arabinose aminotransferase
-            "sp|P77757|ARNC_ECOLI": "arnC", // undecaprenyl-phosphate 4-deoxy-4-formamido-L-arabinose transferase
-            "sp|P77398|ARNA_ECOLI": "arnA", // bifunctional UDP-4-amino-4-deoxy-L-arabinose formyltransferase/UDP-glucuronic acid oxidase ArnA
-            "sp|P76472|ARND_ECOLI": "arnD", // 4-deoxy-4-formamido-L-arabinose-phosphoundecaprenol deformylase
-            "sp|P76473|ARNT_ECOLI": "arnT", // lipid IV(A) 4-amino-4-deoxy-L-arabinosyltransferase
-            "sp|Q47377|ARNE_ECOLI": "arnE", // 4-amino-4-deoxy-L-arabinose-phosphoundecaprenol flippase subunit ArnE
-            "sp|P76474|ARNF_ECOLI": "arnF", // 4-amino-4-deoxy-L-arabinose-phosphoundecaprenol flippase subunit ArnF
+            // "An undecaprenyl phosphate-aminoarabinose flippase required for polymyxin resistance in Escherichia coli"
+            // arnBCADTEF + ugd (pmrHFIJKLM + pmrE)
+            "sp|P77690|ARNB_ECOLI": "arnB", // UDP-4-amino-4-deoxy-L-arabinose--oxoglutarate aminotransferase OS=Escherichia coli (strain K12) OX=83333 GN=arnB PE=1 SV=3 | UDP-4-amino-4-deoxy-L-arabinose aminotransferase
+            "sp|P77757|ARNC_ECOLI": "arnC", // Undecaprenyl-phosphate 4-deoxy-4-formamido-L-arabinose transferase OS=Escherichia coli (strain K12) OX=83333 GN=arnC PE=1 SV=1 | undecaprenyl-phosphate 4-deoxy-4-formamido-L-arabinose transferase
+            "sp|P77398|ARNA_ECOLI": "arnA", // Bifunctional polymyxin resistance protein ArnA OS=Escherichia coli (strain K12) OX=83333 GN=arnA PE=1 SV=1 | bifunctional UDP-4-amino-4-deoxy-L-arabinose formyltransferase/UDP-glucuronic acid oxidase ArnA
+            "sp|P76472|ARND_ECOLI": "arnD", // Probable 4-deoxy-4-formamido-L-arabinose-phosphoundecaprenol deformylase ArnD OS=Escherichia coli (strain K12) OX=83333 GN=arnD PE=1 SV=1 | 4-deoxy-4-formamido-L-arabinose-phosphoundecaprenol deformylase
+            "sp|P76473|ARNT_ECOLI": "arnT", // Undecaprenyl phosphate-alpha-4-amino-4-deoxy-L-arabinose arabinosyl transferase OS=Escherichia coli (strain K12) OX=83333 GN=arnT PE=1 SV=1 | lipid IV(A) 4-amino-4-deoxy-L-arabinosyltransferase
+            "sp|Q47377|ARNE_ECOLI": "arnE", // Probable 4-amino-4-deoxy-L-arabinose-phosphoundecaprenol flippase subunit ArnE OS=Escherichia coli (strain K12) OX=83333 GN=arnE PE=1 SV=2 | unnamed protein product
+            "sp|P76474|ARNF_ECOLI": "arnF", // Probable 4-amino-4-deoxy-L-arabinose-phosphoundecaprenol flippase subunit ArnF OS=Escherichia coli (strain K12) OX=83333 GN=arnF PE=1 SV=2 | 4-amino-4-deoxy-L-arabinose-phosphoundecaprenol flippase subunit ArnF
+            "sp|P76373|UDG_ECOLI": "ugd", // UDP-glucose 6-dehydrogenase OS=Escherichia coli (strain K12) OX=83333 GN=ugd PE=1 SV=1 | UDP-glucose 6-dehydrogenase
 
-            // As a component of the Ara4N synthesis pathway, ugd genes have often been implicated in antimicrobial peptide resistance in other organisms
-            "sp|P76373|UDG_ECOLI": "ugd", // UDP-glucose 6-dehydrogenase
+            // "PmrA-PmrB-regulated genes necessary for 4-aminoarabinose lipid A modification and polymyxin resistance"
+            // arnBCADTEF + ugd (pmrHFIJKLM + pmrE)
+            "sp|Q8ZNF3|ARNB_SALTY": "arnB", // UDP-4-amino-4-deoxy-L-arabinose--oxoglutarate aminotransferase OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=arnB PE=1 SV=3 | UDP-4-amino-4-deoxy-L-arabinose aminotransferase
+            "sp|O52324|ARNC_SALTY": "arnC", // Undecaprenyl-phosphate 4-deoxy-4-formamido-L-arabinose transferase OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=arnC PE=2 SV=1 | undecaprenyl-phosphate 4-deoxy-4-formamido-L-arabinose transferase
+            "sp|O52325|ARNA_SALTY": "arnA", // Bifunctional polymyxin resistance protein ArnA OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=arnA PE=1 SV=1 | bifunctional UDP-4-amino-4-deoxy-L-arabinose formyltransferase/UDP-glucuronic acid oxidase ArnA
+            "sp|O52326|ARND_SALTY": "arnD", // Probable 4-deoxy-4-formamido-L-arabinose-phosphoundecaprenol deformylase ArnD OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=arnD PE=1 SV=1 | 4-deoxy-4-formamido-L-arabinose-phosphoundecaprenol deformylase
+            "sp|O52327|ARNT_SALTY": "arnT", // Undecaprenyl phosphate-alpha-4-amino-4-deoxy-L-arabinose arabinosyl transferase OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=arnT PE=1 SV=2 | Undecaprenyl phosphate-alpha-4-amino-4-deoxy-L-arabinose arabinosyl transferase
+            "sp|O52328|ARNE_SALTY": "arnE", // Probable 4-amino-4-deoxy-L-arabinose-phosphoundecaprenol flippase subunit ArnE OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=arnE PE=3 SV=1 | 4-amino-4-deoxy-L-arabinose-phosphoundecaprenol flippase subunit ArnE
+            "sp|Q8ZNF0|ARNF_SALTY": "arnF", // Probable 4-amino-4-deoxy-L-arabinose-phosphoundecaprenol flippase subunit ArnF OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=arnF PE=3 SV=1 | 4-amino-4-deoxy-L-arabinose-phosphoundecaprenol flippase subunit ArnF
+            "sp|Q04873|UDG_SALTY": "ugd", // UDP-glucose 6-dehydrogenase OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=udg PE=3 SV=1 | UDP-glucose 6-dehydrogenase
 
             // intrinsic lipid modification enzymes
-            "sp|P30845|EPTA_ECOLI": "eptA", // phosphoethanolamine transferase EptA
-            "sp|P37661|EPTB_ECOLI": "eptB", // kdo(2)-lipid A phosphoethanolamine 7''-transferase
+            "sp|P30845|EPTA_ECOLI": "eptA", // Phosphoethanolamine transferase EptA OS=Escherichia coli (strain K12) OX=83333 GN=eptA PE=1 SV=2 | phosphoethanolamine transferase EptA
+            "sp|P37661|EPTB_ECOLI": "eptB", // Kdo(2)-lipid A phosphoethanolamine 7''-transferase OS=Escherichia coli (strain K12) OX=83333 GN=eptB PE=1 SV=3 | kdo(2)-lipid A phosphoethanolamine 7''-transferase
+            "sp|P36555|EPTA_SALTY": "eptA", // Phosphoethanolamine transferase EptA OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=eptA PE=1 SV=1 | phosphoethanolamine transferase EptA
+            "sp|P43666|EPTB_SALTY": "eptB", // Kdo(2)-lipid A phosphoethanolamine 7''-transferase OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=eptB PE=3 SV=2 | kdo(2)-lipid A phosphoethanolamine 7''-transferase
 
             // "Structural and mechanistic insights into polymyxin resistance mediated by EptC originating from Escherichia coli"
-            // Previously, structural and mutational analyses of the E. coli EptC, a CptA homolog, revealed that the inability of EptC to confer colistin resistance was due to the lack of several disulfide bonds.
-            // "sp|P0CB39|EPTC_ECOLI": "cptA", // phosphoethanolamine transferase CptA
+            // "Identification and functional analysis of Salmonella enterica serovar Typhimurium PmrA-regulated genes"
+            // "More than mcr: canonical plasmid- and transposon-encoded mobilized colistin resistance genes represent a subset of phosphoethanolamine transferases"
+            // Unlike its homologs CjEptC (Campylobacter jejuni) and MCR-1, EcEptC is unable to mediate polymyxin resistance when overexpressed in E. coli.
+            // The inability of EcEptC to confer colistin resistance was due to the lack of several disulfide bonds.
+            // STM4118, a putative phosphoethanolamine phosphotransferase, had a minor effect on polymyxin resistance.
+            // CptA homologs (i.e., lineage I) did not have any predicted disulfide bonds.
+            // ** cptA, it is not clear whether this phosphotransferase confers polymyxin resistance, omit **
+            // "sp|P0CB39|EPTC_ECOLI": "cptA", // Phosphoethanolamine transferase EptC OS=Escherichia coli (strain K12) OX=83333 GN=eptC PE=1 SV=1 | phosphoethanolamine transferase CptA
+            // "sp|Q7CPC0|CPTA_SALTY": "cptA", // Phosphoethanolamine transferase CptA OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=cptA PE=1 SV=1 | phosphoethanolamine transferase CptA
 
             // "Crystallographic study of the phosphoethanolamine transferase EptC required for polymyxin resistance and motility in Campylobacter jejuni"
             // EptC, as described in Campylobacter jejuni, is a phosphoethanolamine transferase related to mobile colistin resistance proteins such as MCR-1. While it acts on lipid A, as MCR-1 does, it also modifies the flagellar rod protein FlgG, and several N-linked glycans appearing on other Campylobacter proteins.
-            // kept CjEptC since it differs from EcEptC by name (eptC vs cptA), even though eptC may not universally confer colistin resistance
-            // BlastRuleException, https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR007377/
-            "WP_044794277.1": "eptC", // lipid A/FlgG phosphoethanolamine transferase EptC [Campylobacter jejuni]
+            // https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR007377/
+            "WP_044794277.1": "eptC", // lipid A/FlgG phosphoethanolamine transferase EptC [Campylobacter jejuni] | lipid A/FlgG phosphoethanolamine transferase EptC
 
             // "Defining ICR-Mo, an intrinsic colistin resistance determinant from Moraxella osloensis"
-            // ICR-Mc (Accession No: AIT43666) from Moraxella catarrhalis
-            // https://www.ncbi.nlm.nih.gov/protein/AIT43666
-            "AIT43666.1": "icr", // Phosphoethanolamine transferase eptA [Moraxella catarrhalis]
-            // AXE82_07515 in M. osloensis (hereafter designated as icr-Mo
-            // https://www.ncbi.nlm.nih.gov/protein/987466349
-            "AME01623.1": "icr", // phosphoethanolamine transferase [Moraxella osloensis]
-
-            // "Distinct role of outer membrane protein A in the intrinsic resistance of Acinetobacter baumannii and Acinetobacter nosocomialis"
-            // "Klebsiella pneumoniae OmpA Confers Resistance to Antimicrobial Peptides"
-            // AnOmpA of A. nosocomialis ATCC 17903 (WP_016804646.1) shows 92% amino acid sequence identity to AbOmpA of A. baumannii ATCC 17978 (WP_000777879.1)
-            "WP_000777879.1": "ompA", // OmpA family protein [Acinetobacter baumannii]
-            "WP_016804646.1": "ompA", // OmpA family protein [Acinetobacter nosocomialis]
-            // BlastRuleException, https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR000802/
-            "WP_002898408.1": "ompA", // MULTISPECIES: porin OmpA [Klebsiella]
-            "WP_010989142.1": "ompA", // MULTISPECIES: porin OmpA [Salmonella]
+            // Expression of icr-Mo in E. coli significantly prevents the formation of reactive oxygen species (ROS) induced by colistin.
+            // ** MC25239_01256 (icr-Mc) in Moraxella catarrhalis, AXE82_07515 (icr-Mo) in M. osloensis **
+            // https://www.ncbi.nlm.nih.gov/nuccore/CP007669
+            "AIT43666.1": "icr", // Phosphoethanolamine transferase eptA [Moraxella catarrhalis] | phosphoethanolamine transferase
+            // https://www.ncbi.nlm.nih.gov/nuccore/CP014234
+            "AME01623.1": "icr", // phosphoethanolamine transferase [Moraxella osloensis] | phosphoethanolamine transferase
 
             // "Helicobacter pylori versus the Host: Remodeling of the Bacterial Outer Membrane Is Required for Survival in the Gastric Mucosa"
             // Mutants lacking lpxE, lpxF, or lpxE/F show a 16, 360 and 1020 fold increase in sensitivity to the cationic antimicrobial peptide polymyxin B, respectively.
-            "sp|Q9ZN40|LPXE_HELPJ": "lpxE", // Lipid A 1-phosphatase
-            "sp|Q9ZJ31|LPXF_HELPJ": "lpxF", // lipid A 4'-phosphatase
+            // https://www.uniprot.org/citations/22216004
+            "sp|Q9ZN40|LPXE_HELPJ": "lpxE", // Lipid A 1-phosphatase OS=Helicobacter pylori (strain J99 / ATCC 700824) OX=85963 GN=lpxE PE=3 SV=1 | Lipid A 1-phosphatase
+            "sp|Q9ZJ31|LPXF_HELPJ": "lpxF", // Lipid A 4'-phosphatase OS=Helicobacter pylori (strain J99 / ATCC 700824) OX=85963 GN=lpxF PE=3 SV=1 | lipid A 4'-phosphatase
 
             // alternative lpxEF
-            // BlastRuleEquivalog, https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR012016/
-            "WP_003038444.1": "lpxE", // lipid A 1-phosphatase LpxE [Francisella tularensis]
-            // equivalog, https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NF045633/
-            // inferred from mostly covered hit
-            "WP_003017156.1": "lpxF", // lipid A 4'-phosphatase LpxF [Francisella tularensis]
+            // https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR012016/
+            "WP_003038444.1": "lpxE", // lipid A 1-phosphatase LpxE [Francisella tularensis] | lipid A 1-phosphatase LpxE
+            // https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NF045633/
+            "WP_003017156.1": "lpxF", // lipid A 4'-phosphatase LpxF [Francisella tularensis] | lipid A 4'-phosphatase LpxF
 
             // "Pseudomonas aeruginosa High-Level Resistance to Polymyxins and Other Antimicrobial Peptides Requires cprA, a Gene That Is Disrupted in the PAO1 Strain"
             // CprA (cationic peptide resistance A), as found in Pseudomonas aeruginosa, is an SDR family oxidoreductase by homology. It participates in a response to antimicrobial cationic peptides such as polymyxin.
-            // BlastRuleEquivalog, https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR012951/
-            "WP_016253601.1": "cprA",
+            // ** frameshift induced truncation, can hardly be detected with raw reads? **
+            // https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR012951/
+            "WP_016253601.1": "cprA", // MULTISPECIES: cationic peptide resistance protein CprA [Pseudomonas] | cationic peptide resistance protein CprA
 
             // "Temperature-regulated efflux pump/potassium antiporter system mediates resistance to cationic antimicrobial peptides in Yersinia"
+            // E. coli C600 resistance to CAMPs was increased only if both RosA and RosB were present.
             // https://www.ncbi.nlm.nih.gov/nuccore/1197638
             "AAC60780.1": "rosB", // RosB [Yersinia enterocolitica (type O:8)]
             "AAC60781.1": "rosA", // RosA [Yersinia enterocolitica (type O:8)]
         },
         "discarded": [
-            // replaced with full ecoli arnBCADTEF operon + ugd
-            "CARD|homolog|peptide|arnA|AAG06942.1", // REF@NA@arnA@sp|P77398|ARNA_ECOLI | id: 69.7 qcov: 97.9 scov: 98.3 | refseq: True uni: True
-            "CARD|homolog|peptide|PmrF|AAC75314.1", // REF@NA@arnC@sp|P77757|ARNC_ECOLI | id: 100.0 qcov: 100.0 scov: 100.0 | refseq: False uni: False
-            "CARD|homolog|peptide|ArnT|CDO12042.1", // REF@NA@arnT@sp|P76473|ARNT_ECOLI | id: 63.3 qcov: 100.0 scov: 100.0 | refseq: False uni: False
-            "CARD|homolog|peptide|ugd|AAC75089.1", // REF@NA@ugd@sp|P76373|UDG_ECOLI | id: 100.0 qcov: 100.0 scov: 100.0 | refseq: False uni: True
+            // CARD
+            "CARD|homolog|peptide|MCR-3.20|BCG06510.1", // NCBI|amr:amr|colistin|mcr-3|WP_065801616.1 | id: 99.8 qcov: 100.0 scov: 82.6
 
-            // replaced with ecoli eptAB
-            "CARD|homolog|peptide|eptA|BAE78116.1", // REF@colistin@eptA@sp|P30845|EPTA_ECOLI | id: 100.0 qcov: 100.0 scov: 100.0 | refseq: True uni: True
-            "CARD|homolog|peptide|eptB|CCI79240.1", // REF@colistin@eptB@sp|P37661|EPTB_ECOLI | id: 81.6 qcov: 96.3 scov: 98.0 | refseq: False uni: True
+            // replaced by arnBCADTEF + ugd + eptAB
+            "CARD|homolog|peptide|ArnT|CDO12042.1", // REF|colistin|arnT|sp|P76473|ARNT_ECOLI | id: 63.3 qcov: 100.0 scov: 100.0
+            "CARD|homolog|peptide|PmrF|AAC75314.1", // REF|colistin|arnC|sp|O52324|ARNC_SALTY | id: 87.7 qcov: 98.8 scov: 97.2
+            "CARD|homolog|peptide|arnA|AAG06942.1", // REF|colistin|arnA|sp|P77398|ARNA_ECOLI | id: 69.7 qcov: 97.9 scov: 98.3
+            "CARD|homolog|peptide|ugd|AAC75089.1", // REF|colistin|ugd|sp|Q04873|UDG_SALTY | id: 88.9 qcov: 100.0 scov: 100.0
+            "CARD|homolog|peptide|eptA|BAE78116.1", // REF|colistin|eptA|sp|P36555|EPTA_SALTY | id: 82.4 qcov: 100.0 scov: 100.0
+            "CARD|homolog|peptide|eptB|CCI79240.1", // REF|colistin|eptB|sp|P43666|EPTB_SALTY | id: 82.3 qcov: 96.3 scov: 98.0
 
             // replaced by reference icr-Mc/Mo
-            "CARD|homolog|peptide|ICR-Mc|EGE18576.1", // REF@colistin@icr-Mc@WP_003673994.1 | id: 99.7 qcov: 100.0 scov: 100.0 | refseq: False uni: False
-            "CARD|homolog|peptide|ICR-Mo|WP_082741435.1", // NCBI|amr:amr|colistin|icr-Mo|WP_082741435.1 | id: 100.0 qcov: 100.0 scov: 100.0 | refseq: False uni: False
-
-            // This protein record was suppressed because it is no longer annotated on any genome, replaced by reference icr-Mc/Mo
             "NCBI|amr:amr|colistin|icr-Mo|WP_082741435.1", // REF@colistin@icr-Mo@WP_062333180.1 | id: 100.0 qcov: 98.2 scov: 100.0 | refseq: False uni: False
+            "CARD|homolog|peptide|ICR-Mc|EGE18576.1", // REF|colistin|icr|AIT43666.1 | id: 99.7 qcov: 100.0 scov: 100.0
+            "CARD|homolog|peptide|ICR-Mo|WP_082741435.1", // REF|colistin|icr|AME01623.1 | id: 100.0 qcov: 98.2 scov: 100.0
 
-            // replaced with Acinetobacter ompA and Klebsiella ompA
-            "CARD|homolog|peptide|OmpA|CDO13836.1",
-
-            // replaced by HP lpxEF
-            "CARD|homolog|peptide|pgpB|BAG33043.1",
-
-            // discarded
-            "CARD|homolog|peptide|MCR-3.20|BCG06510.1", // NCBI|amr:amr|colistin|mcr-3|WP_065801616.1 | id: 99.8 qcov: 100.0 scov: 82.6 | refseq: False uni: True
+            // replaced by lpxEF
+            "CARD|homolog|peptide|pgpB|BAG33043.1", // RecName: Full=Lipid A 4'-phosphatase
         ],
     },
 
 
 
     // defensin
+    // ** we keep dltABCD and mprF/lysX in defensin for consistency wrt. Gram +/-, but they also confer cross-resistance to colistin/bacitracin/bacteriocin/defensin (CAMPs), to some extend. **
     "defensin": {
         "added": {
             // "Inhibition of the ATP Synthase Eliminates the Intrinsic Resistance of Staphylococcus aureus towards Polymyxins"
             // d-alanylation of teichoic acids also is mediating resistance to PMB (ΔdltA MIC, 48 µg/ml), while inactivation of mprF did not display increased sensitivity to PMB (ΔmprF MIC, 384 µg/ml), vs WT PMB MIC, 512 µg/ml.
-            // kept dltABCD and mprF/lysX in defensin for consistency wtr Gram +/-, but they also confer cross resistance to polymyxin/defensin/bacitracin/bacteriocin (CAMPs), to some extend.
-            // "MprF-mediated biosynthesis of lysylphosphatidylglycerol, an important determinant in staphylococcal defensin resistance."
+            // "MprF-mediated biosynthesis of lysylphosphatidylglycerol, an important determinant in staphylococcal defensin resistance"
             // MprF is shown to affect resistance and susceptibility to moenomycin and vancomycin, resistance to human defensins (HNP1-3) and evasion of oxygen-independent neutrophil killing and susceptibility to methicillin, oxacillin, bacitracin, gentamicin, beta-lactams and synthetic peptides (hBD3, CAP18) and other cationic antimicrobial peptides.
             "sp|Q2G2M2|MPRF_STAA8": "mprF", // bifunctional lysylphosphatidylglycerol flippase/synthetase MprF
 
-            // "The two-domain LysX protein of Mycobacterium tuberculosis is required for production of lysinylated phosphatidylglycerol and resistance to cationic antimicrobial peptides."
+            // "The two-domain LysX protein of Mycobacterium tuberculosis is required for production of lysinylated phosphatidylglycerol and resistance to cationic antimicrobial peptides"
             // LPG synthesis contributes to the resistance to cationic antimicrobial peptides (CAMPs) and likely protects M.tuberculosis against the CAMPs produced by competiting microorganisms (bacteriocins).
             "sp|P9WFU7|LYSX_MYCTU": "lysX", // bifunctional lysylphosphatidylglycerol synthetase/lysine--tRNA ligase LysX
 
             // "The Bacterial Defensin Resistance Protein MprF Consists of Separable Domains for Lipid Lysinylation and Antimicrobial Peptide Repulsion"
-            // "Inactivation of the dlt operon in Staphylococcus aureus confers sensitivity to defensins, protegrins, and other antimicrobial peptides."
+            // "Inactivation of the dlt operon in Staphylococcus aureus confers sensitivity to defensins, protegrins, and other antimicrobial peptides"
             // MprF and DltABCD proteins protect many bacterial pathogens against CAMPs by reducing the negative net charge of bacterial cell envelopes
             "sp|P39581|DLTA_BACSU": "dltA", // D-alanine--poly(phosphoribitol) ligase subunit DltA
             "sp|P39580|DLTB_BACSU": "dltB", // D-alanyl-lipoteichoic acid biosynthesis protein DltB
@@ -727,16 +901,6 @@
             // equivalog, https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/TIGR01688/
             // inferred from mostly covered hit
             "WP_000395692.1": "dltC", // MULTISPECIES: D-alanine--poly(phosphoribitol) ligase subunit 2 [Staphylococcus]
-
-            // "GraXSR Proteins Interact with the VraFG ABC Transporter To Form a Five-Component System Required for Cationic Antimicrobial Peptide Sensing and Resistance in Staphylococcus aureus"
-            // for the Bra system, sensing involves the BraDE ABC transporter, but resistance only requires the VraDE ABC transporter (19); 
-            // for the Gra system, as shown here, sensing involves the VraFG transporter, but resistance involves the dlt and mprF genes. 
-            // In each case, the associated ABC transporter is only involved in sensing and not resistance per se, unlike the Bce system of B. subtilis where the ABC transporter has both functions
-            // sensing only -> discarded
-            // "WP_001637630.1": "vraF",
-            // "WP_020363729.1": "vraF",
-            // "WP_000143623.1": "vraG",
-            // "WP_002457535.1": "vraG",
 
             // "Peptide Antibiotic Sensing and Detoxification Modules of Bacillus subtilis"
             // YxdJK-LM is induced by a cationic antimicrobial peptide, LL-37.
@@ -777,13 +941,13 @@
     // doxorubicin
     "doxorubicin": {
         "added": {
-            // "Overexpression and functional characterization of an ABC (ATP-binding cassette) transporter encoded by the genes drrA and drrB of Mycobacterium tuberculosis."
+            // "Overexpression and functional characterization of an ABC (ATP-binding cassette) transporter encoded by the genes drrA and drrB of Mycobacterium tuberculosis"
             // When expressed in M. smegmatis, DrrAB conferred resistance to a number of clinically relevant, structurally unrelated antibiotics.
             // likely multidrug but kept for consistency
             "sp|P9WQL9|DRRA_MYCTU": "drrA", // MULTISPECIES: daunorubicin ABC transporter ATP-binding protein DrrA [Mycobacterium]
             "sp|P9WG23|DRRB_MYCTU": "drrB", // MULTISPECIES: daunorubicin ABC transporter permease DrrB [Mycobacterium]
 
-            // "Expression and characterization of DrrA and DrrB proteins of Streptomyces peucetius in Escherichia coli: DrrA is an ATP binding protein."
+            // "Expression and characterization of DrrA and DrrB proteins of Streptomyces peucetius in Escherichia coli: DrrA is an ATP binding protein"
             // Together, the DrrA and DrrB proteins conferred resistance to doxorubicin in E. coli.
             "sp|P32010|DRRA_STRPE": "drrA", // Daunorubicin/doxorubicin resistance ATP-binding protein DrrA
             "sp|P32011|DRRB_STRPE": "drrB", // daunorubicin/doxorubicin ABC transporter permease DrrB
@@ -796,11 +960,10 @@
     "edeine": {
         "added": {
             // "Self resistance to the atypical cationic antimicrobial peptide edeine of Brevibacillus brevis Vm4 by the N-acetyltransferase EdeQ"
-            // BlastRuleException, https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR007053/
-            "WP_016743538.1": "edeQ", // MULTISPECIES: edeine self-resistance N-acetyltransferase EdeQ [Bacillales]
+            // https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR007053/
+            "WP_016743538.1": "edeQ", // edeine self-resistance N-acetyltransferase EdeQ
         },
         "changed": {
-            // edeine self-resistance N-acetyltransferase EdeQ
             ".*@EdeQ": "edeine@edeQ",
         },
     },
@@ -811,11 +974,10 @@
     "factumycin": {
         "added": {
             // "Biosynthetic gene cluster and antimicrobial activity of the elfamycin antibiotic factumycin"
-            // BlastRuleException, https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR006372/
-            "WP_114508863.1": "facT", // factumycin efflux MFS transporter FacT [Streptomyces sp. WAC05292]
+            // https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR006372/
+            "WP_114508863.1": "facT", // factumycin efflux MFS transporter FacT
         },
         "changed": {
-            // factumycin efflux MFS transporter FacT
             ".*@facT": "factumycin@facT",
         },
     },
@@ -834,7 +996,7 @@
             // BlastRuleException, https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR006007/
             "WP_002224867.1": "farB", // fatty acid resistance MFS efflux transporter permease subunit FarB [Neisseria meningitidis]
 
-            // "The farAB-encoded efflux pump mediates resistance of gonococci to long-chained antibacterial fatty acids."
+            // "The farAB-encoded efflux pump mediates resistance of gonococci to long-chained antibacterial fatty acids"
             "sp|Q9RQ30|FARA_NEIGO": "farA",
             "sp|Q9RQ29|FARB_NEIGO": "farB",
 
@@ -889,10 +1051,11 @@
     // fosmidomycin
     "fosmidomycin": {
         "added": {
-            // "Cloning of a gene from Escherichia coli that confers resistance to fosmidomycin as a consequence of amplification."
+            // "Cloning of a gene from Escherichia coli that confers resistance to fosmidomycin as a consequence of amplification"
             // Confers the resistance against fosmidomycin.
-            // confers fosmidomycin, trimethoprim and carbonylcyanide m-chlorophenylhydrazone (CCCP) resistance, kept for consistency.
-            "sp|P52067|FSR_ECOLI": "fsr", // MULTISPECIES: fosmidomycin MFS transporter [Gammaproteobacteria]
+            // likely confers fosmidomycin, trimethoprim and carbonylcyanide m-chlorophenylhydrazone (CCCP) resistance, kept in fosmidomycin for consistency.
+            // https://www.uniprot.org/uniprotkb?query=%28lit_citation_id%3A8917080%29
+            "sp|P52067|FSR_ECOLI": "fsr", // fosmidomycin MFS transporter
         }
     },
 
@@ -993,11 +1156,11 @@
             // exception, inferred from mostly covered hit
             "WP_012296532.1": "erm(41)", // 23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(41) [Mycobacteroides abscessus]
 
-            // "Novel macrolide-specific ABC-type efflux transporter in Escherichia coli."
+            // "Novel macrolide-specific ABC-type efflux transporter in Escherichia coli"
             "sp|P75830|MACA_ECOLI": "macA", // macrolide transporter subunit MacA
             "sp|P75831|MACB_ECOLI": "macB", // macrolide ABC transporter ATP-binding protein/permease MacB
 
-            // "Streptomyces antibioticus contains at least three oleandomycin-resistance determinants, one of which shows similarity with proteins of the ABC-transporter superfamily."
+            // "Streptomyces antibioticus contains at least three oleandomycin-resistance determinants, one of which shows similarity with proteins of the ABC-transporter superfamily"
             // two-component ATP-binding + permease
             // https://www.ncbi.nlm.nih.gov/nuccore/L06249.1
             "AAA26793.1": "ole(C)-1", // ATP-binding protein
@@ -1044,7 +1207,7 @@
             "CARD|homolog|lincosamide;pleuromutilin;streptogramin_a;streptogramin|Cper_cplR|BAB80490.1", // REF@macrolide-lincosamide-streptogramin@cplR@WP_224383855.1 | id: 99.3 qcov: 96.8 scov: 100.0 | refseq: False uni: False
             "CARD|homolog|lincosamide;macrolide;streptogramin_a;streptogramin_b;streptogramin|Erm(41)|ABW06859.1", // REF@NA@rRNA@WP_012296532.1 | id: 98.6 qcov: 100.0 scov: 79.8 | refseq: False uni: True
 
-            // unlikely to be mef(E), do not match to the reference in "mefE is necessary for the erythromycin-resistant M phenotype in Streptococcus pneumoniae."
+            // unlikely to be mef(E), do not match to the reference in "mefE is necessary for the erythromycin-resistant M phenotype in Streptococcus pneumoniae"
             // the original mef(E) has been renamed into mef(A)
             "CARD|homolog|macrolide|mef(E)|AAK99775.1",
 
@@ -1154,11 +1317,11 @@
             "sp|P9WJX9|TAP_MYCTU": "tap", // MFS transporter | Multidrug efflux pump Tap
             "sp|O32859|TAP_MYCFO": "tap", // MFS transporter | Multidrug efflux pump Tap
 
-            // "mmr, a Mycobacterium tuberculosis gene conferring resistance to small cationic dyes and inhibitors."
+            // "mmr, a Mycobacterium tuberculosis gene conferring resistance to small cationic dyes and inhibitors"
             // Multidrug efflux pump. Confers resistance to tetraphenylphosphonium (TPP), erythromycin, ethidium bromide, acriflavine, safranin O, pyronin Y and methyl viologen.
             "sp|P9WGF1|MMR_MYCTU": "mmr", // MULTISPECIES: multidrug efflux SMR transporter Mmr [Mycobacterium]
 
-            // "Contribution of the Rv2333c efflux pump (the Stp protein) from Mycobacterium tuberculosis to intrinsic antibiotic resistance in Mycobacterium bovis BCG."
+            // "Contribution of the Rv2333c efflux pump (the Stp protein) from Mycobacterium tuberculosis to intrinsic antibiotic resistance in Mycobacterium bovis BCG"
             // Contributes to spectinomycin and tetracycline resistance.
             "sp|P9WG91|STP_MYCTU": "stp", // MULTISPECIES: multidrug resistance protein Stp [Mycobacterium]
 
@@ -1300,7 +1463,7 @@
             "WP_009967307.1": "ebrA", // MULTISPECIES: multidrug efflux SMR transporter subunit EbrA [Bacillus] // cnt: 5
             "WP_003245163.1": "ebrB", // MULTISPECIES: multidrug efflux SMR transporter subunit EbrB [Bacillus] // cnt: 5
 
-            // "A broad-specificity multidrug efflux pump requiring a pair of homologous SMR-type proteins."
+            // "A broad-specificity multidrug efflux pump requiring a pair of homologous SMR-type proteins"
             "WP_003232583.1": "ykkC", // MULTISPECIES: multidrug efflux SMR transporter subunit YkkC [Bacillus] // cnt: 5
             "WP_003245695.1": "ykkD", // MULTISPECIES: multidrug efflux SMR transporter subunit YkkD [Bacillus] // cnt: 5
 
@@ -1800,7 +1963,7 @@
             // In a previous study, Li et al. reported that deleting the Rv1877 homolog (which has 58% identity to Rv1877) in M. smegmatis resulted in increased susceptibility to EtBr, acriflavin, erythromycin and kanamycin
             // "sp|P9WG85|Y1877_MYCTU": "rv1877", // MULTISPECIES: Rv1877 family multidrug efflux MFS transporter [Mycobacterium] | Uncharacterized MFS-type transporter Rv1877
 
-            // "Mycobacterium tuberculosis Rv0191 is an efflux pump of major facilitator superfamily transporter regulated by Rv1353c."
+            // "Mycobacterium tuberculosis Rv0191 is an efflux pump of major facilitator superfamily transporter regulated by Rv1353c"
             // ΔMs0232 was more sensitive to chloramphenicol as the MIC values of WT, ΔMs0232 andΔMs0232:Rv0191 were determined as 32, 16 and 64/mL, respectively
             // Of note is that ΔMs0232 strain was also more susceptible to methylene blue, and complementation strain with Rv0191 was more resistant to EB and rhodamine 6G, suggesting Rv0191 can respond to more one antimicrobial agents.
             // "sp|P9WJX7|CHLEP_MYCTU": "rv0191", // MULTISPECIES: Rv0191 family MFS efflux transporter [Mycobacterium] | Chloramphenicol efflux pump Rv0191
@@ -1816,11 +1979,11 @@
             // "sp|P9WJB1|FLQE3_MYCTU": "rv2687c", // MULTISPECIES: ABC transporter ATP-binding protein [Mycobacterium] | Fluoroquinolones export permease protein Rv2687c
             // "sp|P9WJB3|FLQE2_MYCTU": "rv2686c", // MULTISPECIES: multidrug ABC transporter permease [Mycobacterium] | Fluoroquinolones export permease protein Rv2686c
 
-            // "Identification of a novel multidrug efflux pump of Mycobacterium tuberculosis."
+            // "Identification of a novel multidrug efflux pump of Mycobacterium tuberculosis"
             // overexpression of rv0194 increased the MICs of ampicillin, vancomycin, novobiocin, and erythromycin for M. smegmatis
             // "sp|O53645|MDREP_MYCTU": "rv0194", // ABC transporter ATP-binding protein [Mycobacterium tuberculosis] | Multidrug efflux ATP-binding/permease protein Rv0194
 
-            // "The expression of ABC efflux pump, Rv1217c-Rv1218c, and its association with multidrug resistance of Mycobacterium tuberculosis in China."
+            // "The expression of ABC efflux pump, Rv1217c-Rv1218c, and its association with multidrug resistance of Mycobacterium tuberculosis in China"
             // "Rv1218c, an ABC Transporter of Mycobacterium tuberculosis with Implications in Drug Discovery"
             // ethidium bromide, novobiocins, biarylpiperazines, bisanilopyrimidines (BAPS), pyrroles, and pyridones exhibited 4- to 8-fold decreases in their MICs for the ΔRv1218c mutant
             // Furthermore, correlation analysis revealed that the over-expression of both Rv1217c and Rv1218c resulted in the higher minimum inhibition concentrations (MICs) of rifampicin (RIF) (OR = 1.01, P < 0.05 of Rv1217c; OR = 1.23, P < 0.05 of Rv1218c), while the over-expression of Rv1218c only led to the higher MICs of isoniazid (INH)
@@ -1839,7 +2002,7 @@
             // putative -> discarded
             // "sp|Q99T13|Y1866_STAAM": "sav1866", // MULTISPECIES: SAV1866 family putative multidrug efflux ABC transporter [Staphylococcus] | Putative multidrug export ATP-binding/permease protein SAV1866
 
-            // "Function of a mycobacterial major facilitator superfamily pump requires a membrane-associated lipoprotein."
+            // "Function of a mycobacterial major facilitator superfamily pump requires a membrane-associated lipoprotein"
             // Involved in transport of aminoglycosides and tetracycline across the membrane (export): drug resistance by an export mechanism (conferes resistance to toxic compounds by removing them for the cells). Responsible for the translocation of the substrate across the membrane.
             // probable -> discarded
             // "sp|P9WJY3|MFS55_MYCTU": "rv1410c", // MULTISPECIES: aminoglycoside/tetracycline transporter [Mycobacterium] | Probable triacylglyceride transporter Rv1410c
@@ -1851,12 +2014,12 @@
             // uncharacterized -> discarded
             // "sp|P9WQJ1|Y1273_MYCTU": "rv1273c", // MULTISPECIES: ABC transporter ATP-binding protein [Mycobacterium] | Uncharacterized ABC transporter ATP-binding protein Rv1273c
 
-            // "The multidrug transporters belonging to major facilitator superfamily in Mycobacterium tuberculosis."
+            // "The multidrug transporters belonging to major facilitator superfamily in Mycobacterium tuberculosis"
             // Plasmids containing ORF Rv1634 conferred resistance to different fluoroquinolones (ciprofloxacin, norfloxacin, ofloxacin, and lomefloxacin) in M. smegmatis
             // probable -> discarded
             // "sp|P9WJX3|Y1634_MYCTU": "rv1634", // MULTISPECIES: MFS transporter [Mycobacterium] | Probable multidrug-efflux transporter Rv1634
 
-            // "A NiCoT family metal transporter of Mycobacterium tuberculosis (Rv2856/NicT) behaves as a drug efflux pump that facilitates cross- resistance to antibiotics."
+            // "A NiCoT family metal transporter of Mycobacterium tuberculosis (Rv2856/NicT) behaves as a drug efflux pump that facilitates cross- resistance to antibiotics"
             // In addition, acts as a drug efflux pump and contributes to moderate tolerance towards different classes of antibiotics, including fluoroquinolones, aminoglycosides and the anti-TB drug isoniazid, with a preference for fluoroquinolones
             // fluoroquinolones/isoniazid etc.
             // "sp|I6YEJ7|NICT_MYCTU": "nicT", // MULTISPECIES: HoxN/HupN/NixA family nickel/cobalt transporter [Mycobacterium] | Nickel transporter NicT
@@ -2177,15 +2340,15 @@
         },
         "added": {
             // "Metronidazole resistance and nim genes in anaerobes: A review"
-            // "Inducible Metronidazole Resistance and nim Genes in Clinical Bacteroides fragilis Group Isolates."
+            // "Inducible Metronidazole Resistance and nim Genes in Clinical Bacteroides fragilis Group Isolates"
             // https://www.uniprot.org/citations/15728943
             "tr|Q8GJ54|Q8GJ54_PHOVU": "nimF",
 
-            // "nimH, a novel nitroimidazole resistance gene contributing to metronidazole resistance in Bacteroides fragilis."
+            // "nimH, a novel nitroimidazole resistance gene contributing to metronidazole resistance in Bacteroides fragilis"
             // https://www.uniprot.org/citations/CI-5L64OPLKCE893
             "tr|A0A1V0EL73|A0A1V0EL73_BACFG": "nimH",
 
-            // "First description of a novel nim gene variant contributing to metronidazole resistance in Bacteroides fragilis in Ecuador."
+            // "First description of a novel nim gene variant contributing to metronidazole resistance in Bacteroides fragilis in Ecuador"
             // The new variant of the nim gene conferring metronidazole resistance described in this study was named nimL (GenBank accession number MK251988).
             // https://www.uniprot.org/citations/CI-4NOP51F8IUKJQ
             "tr|A0A482F9B4|A0A482F9B4_BACFG": "nimL",
@@ -2203,11 +2366,10 @@
     "novobiocin": {
         "added": {
             // "Identification of the novobiocin biosynthetic gene cluster of Streptomyces spheroides NCIB 11891"
-            // BlastRuleException, https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR006897/
-            "WP_069626133.1": "novA" // MULTISPECIES: NovA family novobiocin export ABC transporter [Streptomyces]
+            // https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR006897/
+            "WP_069626133.1": "novA" // NovA family novobiocin export ABC transporter
         },
         "changed": {
-            // "Identification of the novobiocin biosynthetic gene cluster of Streptomyces spheroides NCIB 11891."
             ".*@novA": "novobiocin@novA"
         }
     },
@@ -2227,7 +2389,7 @@
             "phenicol@cat(-TC|86|D|P|U|V)$": "phenicol@catA",
         },
         "added": {
-            // "CraA, a major facilitator superfamily efflux pump associated with chloramphenicol resistance in Acinetobacter baumannii."
+            // "CraA, a major facilitator superfamily efflux pump associated with chloramphenicol resistance in Acinetobacter baumannii"
             // In this work, we have identified a major facilitator superfamily efflux pump present in most A. baumannii strains, displaying strong substrate specificity toward chloramphenicol.
             "sp|D0CCT2|CRAA_ACIB2": "craA",
 
@@ -2267,11 +2429,13 @@
         "added": {
             // "Molecular analysis of the pac gene encoding a puromycin N-acetyl transferase from Streptomyces alboniger"
             // Detoxification of puromycin.
-            "sp|P13249|PUAC_STRAD": "pac",
+            // https://www.uniprot.org/uniprotkb?query=%28lit_citation_id%3A2676728%29
+            "sp|P13249|PUAC_STRAD": "pac", // GNAT family N-acetyltransferase
 
             // "The pur8 gene from the pur cluster of Streptomyces alboniger encodes a highly hydrophobic polypeptide which confers resistance to puromycin"
             // May be involved in active puromycin efflux energized by a proton-dependent electrochemical gradient. In addition, it could be implicated in secreting N-acetylpuromycin, the last intermediate of the puromycin biosynthesis pathway, to the environment.
-            "sp|P42670|PUR8_STRAD": "pur8",
+            // https://www.uniprot.org/uniprotkb?query=%28lit_citation_id%3A7916693%29
+            "sp|P42670|PUR8_STRAD": "pur8", // MFS transporter
         }
     },
 
@@ -2283,11 +2447,11 @@
             "^fluoroquinolone@": "quinolone@",
         },
         "added": {
-            // "Intrinsic resistance of Mycobacterium smegmatis to fluoroquinolones may be influenced by new pentapeptide protein MfpA."
+            // "Intrinsic resistance of Mycobacterium smegmatis to fluoroquinolones may be influenced by new pentapeptide protein MfpA"
             // MfpA, a pentapeptide-repeat protein in mycobacteria, protects gyrase from FQs
             "sp|A0QSY0|MFPA_MYCS2": "mfpA", // pentapeptide repeat-containing protein
 
-            // "A fluoroquinolone resistance protein from Mycobacterium tuberculosis that mimics DNA."
+            // "A fluoroquinolone resistance protein from Mycobacterium tuberculosis that mimics DNA"
             // The expression of MfpA, a member of the pentapeptide repeat family of proteins from Mycobacterium tuberculosis, causes resistance to ciprofloxacin and sparfloxacin. This protein binds to DNA gyrase and inhibits its activity.
             "sp|I6YBX3|MFPA_MYCTU": "mfpA", // pentapeptide repeat protein MfpA
 
@@ -2385,8 +2549,8 @@
     "surfactin": {
         "added": {
             // "Gene yerP, Involved in Surfactin Self-Resistance in Bacillus subtilis"
-            // BlastRuleException, https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR013984/
-            "WP_003242663.1": "srfP", // MULTISPECIES: surfactin resistance protein SrfP [Bacillales]
+            // https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR013984/
+            "WP_003242663.1": "srfP", // surfactin resistance protein SrfP
         },
     },
 
@@ -2430,7 +2594,7 @@
             // inferred from other hits
             "WP_152609570.1": "tet(65)", // MULTISPECIES: tetracycline efflux MFS transporter Tet(65) [Actinomycetes]
 
-            // "Metagenomic analysis of apple orchard soil reveals antibiotic resistance genes encoding predicted bifunctional proteins."
+            // "Metagenomic analysis of apple orchard soil reveals antibiotic resistance genes encoding predicted bifunctional proteins"
             // Sequence data obtained from this work were deposited in GenBank with the following accession numbers: AOTet43, GQ244501.
             // https://www.ncbi.nlm.nih.gov/nuccore/GQ244501
             // https://www.ncbi.nlm.nih.gov/protein/242129310
@@ -2490,8 +2654,8 @@
     "tuberactinomycin": {
         "added": {
             // "A diverse intrinsic antibiotic resistome from a cave bacterium"
-            // BlastRuleException, https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR008122/
-            "tr|A0A1I9ZKK5|A0A1I9ZKK5_9BACL": "cpaA" // capreomycin N-acetyltransferase CpaA [Paenibacillus sp. LC231]
+            // https://www.uniprot.org/citations/CI-89J8D8F9KIUHE
+            "tr|A0A1I9ZKK5|A0A1I9ZKK5_9BACL": "cpaA" // capreomycin N-acetyltransferase CpaA
         }
     },
 

@@ -1,0 +1,1051 @@
+########## albicidin ##########
+albD
+albF
+albG
+
+########## aminoglycoside ##########
+aac(2')-I
+aac(2')-II
+aac(3)*
+aac(3)-I
+aac(3)-II
+aac(3)-III
+aac(3)-IV
+aac(3)-VI
+aac(3)-VII
+aac(3)-VIII
+aac(3)-IX
+aac(3)-X
+aac(3)-XI
+aac(6')*
+aac(6')-I
+aac(6')-II
+aac(6')-III
+ant(2'')-I
+ant(3'')-I
+ant(3'')-II
+ant(4')-I
+ant(4')-II
+ant(6)*
+ant(6)-I
+ant(9)*
+ant(9)-I
+aph(2'')*
+aph(2'')-I
+aph(2'')-II
+aph(2'')-III
+aph(2'')-IV
+aph(3'')-I
+aph(3')*
+aph(3')-I
+aph(3')-II
+aph(3')-III
+aph(3')-IV
+aph(3')-V
+aph(3')-VI
+aph(3')-VII
+aph(3')-VIII
+aph(3')-IX
+aph(3')-XV
+aph(3')-XVI
+aph(4)-I
+aph(6)-I
+aph(7'')-I
+aph(9)-I
+rmt* rmtA rmtB rmtC rmtD rmtE rmtF rmtG rmtH
+apmA
+armA
+eis2
+fmrO
+gar
+grdA
+grm
+kamB
+kamC
+npmA
+npmB
+sgm
+
+########## avilamycin ##########
+aviRa aviRb
+emtA
+
+########## bacitracin ##########
+bahA
+bacA
+bcrA bcrB bcrC bcrD
+bceA bceB
+
+########## edeine ##########
+edeQ
+
+########## factumycin ##########
+facT
+
+########## fosmidomycin ##########
+fsr
+
+########## fusidic_acid ##########
+fusB fusC fusD fusF fusH
+
+########## ionophore ##########
+narA narB
+
+########## mupirocin ##########
+mupA mupB
+
+########## novobiocin ##########
+novA
+
+########## puromycin ##########
+pac
+pur8
+
+########## streptothricin ##########
+sat2 sat3 sat4
+satA
+sta
+
+########## surfactin ##########
+srfP
+
+########## tetracenomycin ##########
+tcmA
+
+########## thiostrepton ##########
+nshR tsnR
+
+########## tuberactinomycin ##########
+cph vph
+cpaA
+
+
+
+
+
+
+
+# # ########## colistin ##########
+# # mcr-1
+# # mcr-2
+# # mcr-3
+# # mcr-4
+# # mcr-5
+# # mcr-6
+# # mcr-7
+# # mcr-8
+# # mcr-9
+# # mcr-10
+# # almE almF almG
+# # arnA arnB arnC arnD arnE arnF arnT ugd
+# # rosA rosB
+# # eptA eptB eptC icr
+# # lpxE lpxF
+
+# # ########## MLS ##########
+# # sal(A)
+# # sal(B)
+# # sal(C)
+# # sal(D)
+# # sal(E)
+# # srm(B)
+# # tlr(C)
+# # vat(A)
+# # vat(B)
+# # vat(C)
+# # vat(D)
+# # vat(E)
+# # vat(F)
+# # vat(H)
+# # vat(I)
+# # vga(A)
+# # vga(B)
+# # vga(C)
+# # vga(D)
+# # vga(E)
+# # vga(F)
+# # vga(G)
+# # vgb(A)
+# # vgb(B)
+# # vgb(C)
+# # vmlR
+
+
+# # msr(A)
+# # msr(C)
+# # msr(D)
+# # msr(E)
+# # msr(F)
+# # msr(G)
+# # msr(H)
+# # msr(I)
+
+# # car(A)
+# # cfr(A)
+# # cfr(B)
+# # cfr(C)
+# # cfr(D)
+# # cfr(E)
+# # cfr*
+# # chrB
+# # cipA
+# # clbA
+# # clbB
+# # clbC
+
+# # cplR
+# # ere(A)
+# # ere(B)
+# # ere(D)
+# # erm(30)
+# # erm(31)
+# # erm(32)
+# # erm(33)
+# # erm(34)
+# # erm(35)
+# # erm(36)
+# # erm(37)
+# # erm(38)
+# # erm(39)
+# # erm(40)
+# # erm(41)
+# # erm(42)
+# # erm(43)
+# # erm(44)
+# # erm(45)
+# # erm(46)
+# # erm(47)
+# # erm(48)
+# # erm(49)
+# # erm(50)
+# # erm(51)
+# # erm(52)
+# # erm(53)
+# # erm(54)
+# # erm(55)
+# # erm(56)
+# # erm(A)
+# # erm(B)
+# # erm(C)
+# # erm(D)
+# # erm(E)
+# # erm(F)
+# # erm(G)
+# # erm(H)
+# # erm(K)
+# # erm(N)
+# # erm(O)
+# # erm(Q)
+# # erm(R)
+# # erm(S)
+# # erm(T)
+# # erm(U)
+# # erm(V)
+# # erm(W)
+# # erm(Y)
+# # erm(Z)
+# # estT
+# # llmA
+# # lmr(A)
+# # lmr(B)
+# # lmr(C)
+# # lnu(A)
+# # lnu(B)
+# # lnu(C)
+# # lnu(D)
+# # lnu(E)
+# # lnu(F)
+# # lnu(G)
+# # lnu(H)
+# # lnu(P)
+# # lsa(A)
+# # lsa(B)
+# # lsa(C)
+# # lsa(D)
+# # lsa(E)
+# # mef(A)
+# # mef(B)
+# # mef(C)
+# # mef(D)
+# # mef(E)
+# # mef(F)
+# # mef(H)
+# # mef(J)
+# # mgt
+# # mph(A)
+# # mph(B)
+# # mph(C)
+# # mph(E)
+# # mph(F)
+# # mph(G)
+# # mph(H)
+# # mph(I)
+# # mph(J)
+# # mph(K)
+# # mph(L)
+# # mph(M)
+# # mph(N)
+# # macA
+# # macB
+# # erm(X)
+# # mph(O)
+# # mrx(A)
+# # myrA
+# # ole(B)
+# # ole(C)-1
+# # ole(C)-2
+# # ole(D)
+# # ole(I)
+
+
+# # # ########## beta-lactam ##########
+# # mecA mecB mecC mecD
+# # bla* bla1 bla2 bla3
+# # varG cblA cepA cepS cepH cphA cfxA cfiA crxA hugA
+# # blaA blaAAK blaACC blaACI blaACT blaADC blaAER blaAFM blaAIM blaALG11 blaALG6 blaALI blaAMZ blaANA blaAQU blaARL blaAST blaASU1 blaAXC
+# # blaB blaB3SU1 blaB3SU2 blaBAT blaBBI blaBCL blaBEL blaBES blaBIC blaBIM blaBJP blaBKC blaBOR blaBPU blaBRO blaBSU blaBUT
+# # blaC blaCAE blaCAM blaCAR blaCARB blaCAU blaCBP blaCDA blaCDD blaCGA blaCHM blaCIA blaCKO blaCMA/CSA blaCME blaCMH blaCMY blaCPS blaCRD3 blaCRH blaCRP blaCSP blaCTX-M blaCVI
+# # blaDES blaDHA blaDHT2 blaDIM
+# # blaE blaEAM blaEBR blaEC blaECM blaECV blaEFM blaELM blaERP blaESP blaEVM blaEXO
+# # blaF blaFAR blaFEZ blaFIA blaFIM blaFONA blaFOX blaFPH blaFRI blaFTU 
+# # blaGES blaGIL blaGIM blaGMA blaGMB blaGOB blaGPC blaGRD23 blaGRD33 
+# # blaHBL blaHER blaHMB
+# # blaIDC blaIMI blaIMP blaIND 
+# # blaJOHN 
+# # blaKBL blaKHM blaKLUC blaKPC
+# # blaL blaL1 blaL2 blaLAP blaLAQ blaLCR/NPS blaLEN blaLHK blaLMB blaLRA blaLRG blaLUS blaLUT 
+# # blaM blaMAB blaMCA blaMIR blaMOC blaMOX blaMSI blaMUS blaMYO blaMYX 
+# # blaNDM blaNWM 
+# # blaOCH blaOHIO blaOKP blaORN blaORR blaOXA blaOXY
+# # blaP blaPAC blaPAD blaPAM blaPAU blaPDC blaPEDO blaPEN blaPER blaPFM blaPJM blaPLA blaPLN blaPME blaPNGM blaPOM blaPRC blaPSE blaPST blaPSV blaPSZ 
+# # blaR39 blaRAA blaRAD blaRAHN blaRASA blaRATA blaRCP blaRHO blaRM3 blaROB blaRSA1 blaRSA2 blaRSC1 blaRSD1 blaRSD2 blaRTG blaRUB 
+# # blaS blaSCO blaSED blaSFC blaSFDC blaSFH blaSGM blaSHD blaSHN blaSHV blaSHW blaSIE blaSIM blaSMB blaSME blaSPG blaSPM blaSPN79 blaSPR blaSPS blaSRT blaSTA 
+# # blaTEM blaTER blaTHIN blaTLA blaTMB blaTRU blaTTU blaTUS 
+# # blaVAM blaVCC blaVEB blaVHH blaVHW blaVIM blaVMB 
+# # blaWUS 
+# # blaYEM blaYOC blaYRC 
+# # blaZ blaZOG
+
+
+# # # ########## colistin ##########
+# # # mcr-1
+# # # mcr-2
+# # # mcr-3
+# # # mcr-4
+# # # mcr-5
+# # # mcr-6
+# # # mcr-7
+# # # mcr-8
+# # # mcr-9
+# # # mcr-10
+# # # almE almF almG
+# # # arnA arnB arnC arnD arnE arnF arnT ugd
+# # # eptA
+# # # eptB
+# # # eptC
+# # # lptA
+# # # icr-Mc
+# # # icr-Mo
+# # # ## Temperature-regulated efflux pump/potassium antiporter system mediates resistance to cationic antimicrobial peptides in Yersinia
+# # # rosA rosB 
+
+# # # ## Colistin and its role in the Era of antibiotic resistance: an extended review (2000–2019)
+# # # ## Additionally, lptD, lpsB, vacJ, and the locus of biotin synthesis, were identified in A. baumannii as contributors for polymyxins resistance. LptD (essential for the insertion of the newly synthesized LPS into the OM), was found implicated in polymyxins resistance in A. baumannii [Citation42,Citation48]. Bojkovic et al. [Citation48] reported that the removal of lptD results in the complete loss of LPS and reduction in polymyxin resistance in A. baumannii, whereas the lpsB gene protects A. baumannii from the bactericidal effect of colistin via encoding the glycosyltransferase that is responsible for the LPS synthesis [Citation49]. Nhu et al. [Citation50] revealed that a single mutation in vacJ (R166N) of A. baumannii contributes to a highly colistin-resistant phenotype.
+# # # ## Mutations in lic1, lic2A, lpsA, lgtF, and opsX genes that are involved in lipooligosaccharide (LOS) biosynthesis, have been shown to contribute to reducing the polymyxin resistance in Haemophilus influenza
+# # # lpsA lpsB
+
+# # # ## The Outer Membrane Proteins OmpA, CarO, and OprD of Acinetobacter baumannii Confer a Two-Pronged Defense in Facilitating Its Success as a Potent Human Pathogen
+# # # ## Outer membrane protein A contributes to antimicrobial resistance of Acinetobacter baumannii through the OmpA-like domain
+# # # ## Recently, resistance to colistin, a last-resort antibiotic, was also attributed to the presence of OmpA in A. baumannii. An isogenic mutant of OmpA resulted in loss of cell wall integrity, thus making the bacterium 20-fold more sensitive to colistin
+# # # ## Klebsiella pneumoniae OmpA Confers Resistance to Antimicrobial Peptides
+# # # ompA
+
+# # # ## Porphyromonas gingivalis resistance to polymyxin B is determined by the lipid A 4'-phosphatase, PGN_0524.
+# # # lpxF
+
+
+
+# # # In addition to L-Ara4N or PEtN modifications, 
+# # # deacylation of lipid A occurs to decrease the fluidity of LPS and, thus, the ability of cationic peptides to partition into the outer membrane leading to self-promoted uptake (Olaitan et al. 2014). 
+# # # In Salmonella, the activation of PhoP/Q system activates pagL, the product of which deacylates lipid A (Kawasaki et al. 2007). 
+# # # Conversely, the naxD gene in Francisella tularensis has also been shown to be responsible for deacylation of lipid A (Llewellyn et al. 2012). 
+# # # Further, PmrA-activated genes include lpxR, which is associated with deacylation of lipid A and is repressed by the sRNA micF (Papenfort et al. 2006; Reynolds et al. 2006; Corcoran et al. 2012). 
+# # # Additional modifications to lipid A include phosphorylation, dephosphorylation, glycylation, and glucosylation. 
+# # # It has also been shown that misR mutants in N. meningitidis lose all of their lipooligosaccharide (LOS) core HepII PEtn decorations leading to an increase in polymyxin B sensitivity (Tzeng et al. 2004). 
+# # # Similar to LPS, LOS is essential for maintaining the integrity of the outer membrane and provides protection from antimicrobial peptides. 
+# # # The waaP (rfaP) gene product is also involved in LPS core modification by phosphorylation of lipid A and was required for polymyxin resistance in S. enterica and P. aeruginosa (Yethon et al. 2000; Delucia et al. 2011; Tsai et al. 2012).
+# # # The tolA gene is involved in LPS production and this gene has been shown to be necessary for polymyxin B resistance in S. typhimurium (Paterson et al. 2009). Further, LPS modification loci—wzzst and wzzfep activated by PmrA/P, wbaP (rfbP), waaG (rfaG), waaI (rfaI), rfaH, waaJ (rfaJ), waaL (rfaL), or wzy (rfc)—are involved in synthesis of the LPS rough core in S. enterica and appear to be required for polymyxin B resistance, likely because of effects on phosphorylation and/or acylation of LPS (Delgado et al. 2006; Holzer et al. 2009; Ilg et al. 2009; Kong et al. 2011; Pescaretti et al. 2011). Similar mutations in waaL and rfbA (rffH) contribute to resistance to colistin in K. pneumoniae (Sassera et al. 2014). Similarly, in E. coli, five lipid A–modifying genes, ais (b2252), b2253 (yfbE, orf1), b2254 (yfbF, orf2), b2256 (yfbH, orf4), and crcA were associated with antimicrobial peptide resistance (Kruse et al. 2009). Overexpression of K. pneumoniae RamA, which regulates the lpxC, lpxL-2, and lpxO genes associated with lipid A biosynthesis, resulted in increased polymyxin B resistance because of LPS alterations (De Majumdar et al. 2015). An LPS synthesis gene encoding the glycosyltransferase, lpsB, has also been implicated in colistin resistance in A. baumannii (Hood et al. 2013). In addition, the S. typhimurium PhoP-activated gene, mgtA, is also required for resistance to the cationic antibiotic polymyxin B. MgtA controls modification of phosphate residues in the lipid A portion of the LPS (Park and Groisman 2014).
+
+
+
+# # ## Such alterations can be achieved by covalent modifications of the lipid A moiety of LPS through the addition of 
+# # 	## phosphoethanolamine (PEtN) --- eptABC 
+# # 	## 4-amino-4-deoxy-L-arabinose (L-Ara4N) --- arn + ugd operon
+# # 	## deacylation, 
+# # 	## hydroxylation and 
+# # 	## palmitoylation by pagP (palmitoylation does not contribute to polymyxin resistance)
+
+
+# # ## including dephosphorylation by LpxE and LpxF, 
+# # ## addition of phosphoethanolamine by EptA and 
+# # ## deacylation by LpxR (Table 1). 
+# # ## These modifications confer resistance to polymyxin B as well as other biologically relevant CAMPs
+
+
+
+# # ## In A. baumannii strain AB307, lpsB encodes a glycosyltransferase involved in the synthesis of the LPS core (33). SDS-PAGE analyses of LPS from the wild type and 5A7 confirmed that in Ab17978, disruption of lpsB results in production of a truncated LPS, which is complemented by providing a wild-type copy of lpsB in trans
+# # ## inactivation of lpsB compromises outer membrane integrity
+
+# # ## LpxT, however, catalyses the phosphorylation of lipid A at the 1-position forming 1-diphosphate lipid A increasing the negative charge of the bacterial surface. Here, we report that PmrA is involved in the regulation of LpxT.
+
+
+
+# # # ########## MLS ##########
+# # # # Macrolide-lincosamide-streptogramin B (MLSB) group antibiotics are recommended as first choice in the treatment of staphylococcal infections. 
+# # # # All of those drugs bind to the 50S subunit of bacterial ribosomes, thus cross-resistance is a major concern in this group of drugs. 
+# # # # The mechanisms associated to resistance are (a) ribosomal methylation due to the methylases encoded by erm genes, (b) active drug efflux due to msrA, msrB, vga, vgb gene activity, (c) enzymatic inactivation of the drug due to the activity of linA, vat, vatB genes. While the most common resistance genes are ermA, ermB, ermC, msrA and msrB genes; linA, vga, vgb, vat and vatB genes have also been found in some studies.
+# # # car(A) cfr(A) cfr(B) cfr(C) cfr(D) cfr(E) cfr* chrB cipA clbA clbB clbC
+# # # lsa(A) lsa(B) lsa(C) lsa(D) lsa(E)
+# # # sal(A) sal(B) sal(C) sal(D) sal(E)
+# # # vat(A) vat(B) vat(C) vat(D) vat(E) vat(F) vat(H) vat(I)
+# # # vga(A) vga(B) vga(C) vga(D) vga(E) vga(F) vga(G)
+# # # vgb(A) vgb(B) vgb(C)
+# # # vmlR
+# # # tlr(C)
+# # # ere(A) ere(B) ere(D) # ere(C) clustered with ere(A)
+# # # cplR
+# # # erm(30) erm(31) erm(32) erm(33) erm(34) erm(35) erm(36) erm(37) erm(38) erm(39) erm(40) erm(41) erm(42) erm(43) erm(44) erm(45) erm(46) erm(47) erm(48) erm(49) erm(50) erm(51) erm(52) erm(53) erm(54) erm(55) erm(56)
+# # # erm(A) erm(B) erm(C) erm(D) erm(E) erm(F) erm(G) erm(H) erm(K) erm(N) erm(O) erm(Q) erm(R) erm(S) erm(T) erm(U) erm(V) erm(W) erm(X) erm(Y) erm(Z)
+# # # llmA # cave
+# # # estT
+# # # lnu(A) lnu(AN2) lnu(B) lnu(C) lnu(D) lnu(E) lnu(F) lnu(G) lnu(H) lnu(P)
+# # # mef(A) mef(B) mef(C) mef(D) mef(EN2) mef(F) mef(H) mef(J)
+# # # mgt
+
+# # # macA macB
+# # # mph(A) mph(B) mph(C) mph(E) mph(F) mph(G) mph(H) mph(I) mph(J) mph(K) mph(L) mph(M) mph(N) mph(O)
+# # # ## todo
+# # # # eat(a) # mutant
+# # # # lmr(a)
+# # # # mdt(a)
+# # # # cmr # mepf
+# # # # mdf(a)
+# # # # gim(a)
+# # # # oleD2
+
+
+
+# # ########## quinolone ##########
+# # ## "Stability, denaturation and refolding of Mycobacterium tuberculosis MfpA, a DNA mimicking protein that confers antibiotic resistance."
+# # ## MfpA from Mycobacterium tuberculosis is a founding member of the pentapeptide repeat class of proteins (PRP) that is believed to confer bacterial resistance to the drug fluoroquinolone by mimicking the size, shape and surface charge of duplex DNA
+# # ## When present on multicopy plasmids confers increased resistance to fluoroquinolone antibiotics such as ciprofloxacin and sparfloxacin but not the quinolone nalidixic acid
+# # mfpA 
+
+
+
+# # ########## rifamycin ##########
+# # ## "HelR is a helicase-like protein that protects RNA polymerase from rifamycin antibiotics"
+# # ## Rifamycin antibiotics such as rifampin are potent inhibitors of prokaryotic RNA polymerase (RNAP) used to treat tuberculosis and other bacterial infections. Although resistance arises in the clinic principally through mutations in RNAP, many bacteria possess highly specific enzyme-mediated resistance mechanisms that modify and inactivate rifamycins. The expression of these enzymes is controlled by a 19-bp cis-acting rifamycin-associated element (RAE). Guided by the presence of RAE sequences, we identify a helicase-like protein, HelR, in Streptomyces venezuelae that confers broad-spectrum rifamycin resistance. We show that HelR also promotes tolerance to rifamycins, enabling bacterial evasion of the toxic properties of these antibiotics. HelR forms a complex with RNAP and rescues transcription inhibition by displacing rifamycins from RNAP, thereby providing resistance by target protection.
+# # helR 
+
+# # ## "Role of an RNA polymerase interacting protein, MsRbpA, from Mycobacterium smegmatis in phenotypic tolerance to rifampicin Free"
+# # ## The mode of action of MsRbpA in relieving RNA polymerase from rifampicin inhibition could be by shielding the polymerase against rifampicin or causing a conformational change in the binding site of rifampicin so that the interaction between RNA polymerase and rifampicin cannot take place. It should be mentioned here that we were unable to detect any interaction between MsRbpA and rifampicin in vitro
+# # ## MsRbpA rescues RNA polymerase from the inhibitory effect of rifampicin
+# # rbpA
+
+
+
+# # rphA
+# # rphB
+# # rphC
+# # rphD
+
+# # rgt
+# # rox
+# # iri
+# # arr
+
+
+
+
+
+
+# # ########## multidrug 
+# # ## In addition, acts as a drug efflux pump and contributes to moderate tolerance towards different classes of antibiotics, including fluoroquinolones, aminoglycosides and the anti-TB drug isoniazid, with a preference for fluoroquinolones
+# # ## FQ + AMI
+# # # nicT
+
+# # # ## There was an increase in the MICs of sparfloxacin (fourfold), nalidixic acid (fourfold), levofloxacin (twofold), ofloxacin (twofold) and apramycin (twofold) as compared to control
+# # # ## FQ + AM
+# # # rv1877
+
+
+# # # ## "Early genetic diagnosis of clarithromycin resistance in Helicobacter pylori"
+# # # ## "Efflux pumps potential drug targets to circumvent drug Resistance – Multi drug efflux pumps of Helicobacter pylori"
+# # # ## MA + BIOCIDE
+# # # hp1181 hp1184
+
+
+# # # ## ethidium bromide, novobiocins, biarylpiperazines, bisanilopyrimidines (BAPS), pyrroles, and pyridones exhibited 4- to 8-fold decreases in their MICs for the ΔRv1218c mutant
+# # # ## Furthermore, correlation analysis revealed that the over-expression of both Rv1217c and Rv1218c resulted in the higher minimum inhibition concentrations (MICs) of rifampicin (RIF) (OR = 1.01, P < 0.05 of Rv1217c; OR = 1.23, P < 0.05 of Rv1218c), while the over-expression of Rv1218c only led to the higher MICs of isoniazid (INH)
+# # # ## RIF + NOVO
+# # # rv1218c rv1217c
+
+# # # ## Insertion of the transposon in front of bcg0231 increased transcription of the gene and concomitantly the resistance of M. bovis BCG to ampicillin, streptomycin, and chloramphenicol by 32- to 64-fold.
+# # # ## BETA + CHL
+# # # rv0194
+
+
+# # -------------------------------------------------- third round --------------------------------------------------
+# # ## AadT reduced susceptibility to all eight antimicrobials tested when expressed in E. coli BL21 cells and promoted higher levels of tolerance to tetracycline, DAPI, ethanol and ethidium bromide than AmvA
+# # ## TET + BIO
+# # aadT
+
+# # ## Involved in sulfonamide (sulfathiazole) and bicyclomycin resistance
+# # ## SUL + BIC
+# # bcr
+
+# # ## Cmr (corynebacterial multidrug resistance), as described in Corynebacterium glutamicum, is an efflux transporter that provides resistance to erythromycin, tetracycline, puromycin, and bleomycin when expressed heterologously in Escherichia coli, yet strangely does not provide resistance to those same antibiotics in its species of origin, even when highly expressed. 
+# # ## MA + TET
+# # cmr
+
+# # ## Mdt(A) (multiple drug transporter), as described from Lactococcus lactis, was found to be plasmid-borne, and confers resistance or reduced susceptibility to erythromycin, lincosamides, streptogramins, and tetracyclines.
+# # ## MA + TET
+# # mdt(A)
+
+# # ## Cells harboring the Hsmr plasmid transport ethidium bromide in an uncoupler-sensitive process and gain resistance to ethidium bromide and acriflavine.
+# # ## DYE -> changed to biocide
+# # hsmR
+
+# # ## Biolog Phenotype MicroArray data indicated that mmp deletion increased susceptibility for phleomycin, bleomycin, capreomycin, amikacin, kanamycin, cetylpyridinium chloride, and several sulfa drugs. MSMEG_2619 (efpA) and MSMEG_3563 mask the effect of mmp deletion due to overlapping efflux capabilities.
+# # ## BLE + AMI
+# # mmp
+
+# # ## LfrA of Mycobacterium smegmatis is known to confer resistance to acriflavine, benzalkonium chloride, ethidium bromide and fluoroquinolones.
+# # ## FQ + BIO
+# # lfrA
+
+# # ## Expression of amvA in the heterologous host E. coli KAM32 caused decreased susceptibility to several agents, such as Acridine Orange, acriflavine, benzalkonium chloride, DAPI, deoxycholate, ethidium bromide, Methyl Viologen, SDS and TPPCl.
+# # ## AmvA, which participates in the efflux of erythromycin and different classes of disinfectants, detergents, and dyes but also confers modest resistance to quinolone-type antimicrobials
+# # ## FQ + BIO
+# # amvA 
+
+# # ## the abaQ mutant had 2- to 4-fold higher susceptibilities to trimethoprim and novobiocin (Table 2). The highest susceptibilities (approximately 8- to 32-fold) occurred in response to the quinolone-type antibiotics ciprofloxacin, levofloxacin, and nalidixic acid
+# # ## NOVO + FQ
+# # abaQ 
+
+# # ## AbeM, a member of the MATE family, extrudes aminoglycosides, fluoroquinolones, chloramphenicol, trimethoprim, ethidium bromide, and dyes
+# # ## AMI + FQ
+# # abeM 
+
+# # ## Inactivation of and trans complementation with the abeS gene indicated that it confers low-level resistance to chloramphenicol, fluoroquinolones, erythromycin, and novobiocin (3- to 8-fold decrease when the system is inactivated) and resistance to dyes and detergents.
+# # ## CHL + FQ
+# # abeS
+
+# # ## TMexCD1-TOprJ1 increased (by 4- to 32-fold) the MICs of tetracyclines (including tigecycline and eravacycline), quinolones, cephalosporins, and aminoglycosides for K. pneumoniae, Escherichia coli, and Salmonella
+# # ## ## TET + FQ
+# # tmexC tmexD toprJ
+
+# # ## The oqxAB gene generally locates on chromosome and/or plasmids flanked by IS26-like elements in clinical isolates of Enterobacteriaceae and Klebsiella pneumoniae, conferring low to intermediated resistance to quinoxalines, quinolones tigecycline, nitrofurantoin, several detergents and disinfectants (benzalkonium chloride, triclosan and SDS)
+# # ## FQ + TET
+# # oqxA oqxB
+
+# # ## review paper of PAO1
+# # mexA mexB oprM
+# # mexC mexD oprJ
+# # mexE mexF oprN # CHL, FQ
+# # mexG mexH mexI opmD # FQ, TET
+# # mexJ mexK oprM # MA, TET
+# # mexM mexN oprM
+# # mexP mexQ opmE
+# # mexV mexW opmM
+# # mexX mexY opmM oprA
+# # muxA muxB muxC opmB # MA, TET
+# # triA triB triC opmH
+# # pmpM # FQ, BIO
+
+# # aceI
+# # qac* qacA/B qacC qacE qacF/L qacG qacH qacJ qacK # QACs (benzalkonium, dequalinium), Diamidines (pentamidine), Biguanidines (chlorhexidine), Dyes (ethidum, rhodamine, acriflavine)	
+
+# # ## Confers resistance to a diverse group of cationic or zwitterionic lipophilic compounds such as ethidium bromide, tetraphenylphosphonium, rhodamine, daunomycin, benzalkonium, rifampicin, tetracycline, puromycin, and to chemically unrelated, clinically important antibiotics such as chloramphenicol, erythromycin, and certain aminoglycosides and fluoroquinolones.
+# # ## CHL + FQ
+# # mdfA 
+
+# # ## 50 folds in Streptomycin, 4 folds in TET
+# # ## AMI + TET
+# # ykkC ykkD
+
+# # ## Multidrug Efflux Pumps in Staphylococcus aureus: an Update
+# # sepA # QACs (e.g. benzalkonium chloride) Biguanidines (e.g. chlorhexidine) Dyes (e.g. acriflavine)		
+# # sdrM # Fluoroquinolones (norfloxacin), Dyes (ethidium, acriflavine)
+# # norA # Fluoroquinolones (norfloxacin, ciprofloxacin), QACs (benzalkonium), Dyes (ethidium, rhodamine)	
+# # norB # Fluoroquinolones (norfloxacin, ciprofloxacin, moxifloxacin), QACs (cetrimide), Dyes (ethidium)	
+# # norC # Fluoroquinolones (ciprofloxacin, moxifloxacin), Dyes (rhodamine)	
+# # mepA # Fluoroquinolones (norfloxacin, ciprofloxacin, moxifloxacin), Glycylcyclines (tigecycline), QACs (benzalkonium, cetrimide), Dyes (ethidium)	
+# # mdeA # Fluoroquinolones (norfloxacin, ciprofloxacin), QACs (benzalkonium, dequalinium), Dyes (ethidium)	
+# # lmrS # Lincomycin, Oxazolidinone (linezolid), Phenicols (chloramphenicol), QACs (tetraphenylphosphonium), Dyes (ethidium)
+
+# # ## LmrA producing cells showed an increased resistance to 17 out of 21 clinically most used antibiotics, including broad-spectrum antibiotics belonging to the classes of aminoglycosides, lincosamides, macrolides, quinolones, streptogramins and tetracyclines
+# # ## AMI + FQ
+# # lmrA 
+
+# # ## The lactococcal secondary multidrug transporter LmrP confers resistance to lincosamides, macrolides, streptogramins and tetracyclines
+# # ## MA + TET
+# # lmrP
+
+# # ## The ΔlmrCD strain was found to be significantly more sensitive to a series of MDR substrates, i.e. hoechst 33342, daunomycin, rhodamine 6G and cholate
+# # ## DYE + DAUN
+# # lmrC lmrD
+
+# # ## fluoroquinolone resistance and was involved in the level of susceptibility to dyes such as ethidium bromide and acridine orange.
+# # ## Insertional inactivation of the lde gene in CLIP 21369 indicated that the corresponding protein was responsible for fluoroquinolone resistance and was involved in the level of susceptibility to dyes such as ethidium bromide and acridine orange.
+# # ## FQ + DYE
+# # lde 
+
+# # ## Previous studies suggested that AbcA extrudes β-lactam antibiotics with lipophilic side chains; moenomycin, a glycophospholipid; daptomycin, a lipopeptide antibiotic; and dyes such as rhodamine, ethidium bromide, and Hoechst 33 342
+# # ## moenomycin A was consistently affected by abcA expression, whereas β-lactams were variably affected in MSSA and MRSA backgrounds
+# # ## MOE + BETA
+# # abcA
+
+# # ## Confers resistance to various antibiotics, including tetracycline, acriflavine, spectinomycin and p-aminosalicylate.
+# # ## TET + SPEC
+# # tap
+
+# # ## Multidrug efflux pump. Confers resistance to tetraphenylphosphonium (TPP), erythromycin, ethidium bromide, acriflavine, safranin O, pyronin Y and methyl viologen.
+# # ## MA + BIO
+# # mmr
+
+# # ## Contributes to spectinomycin and tetracycline resistance.
+# # ## SPEC + TET
+# # stp
+
+# # ## The expression of the efpA gene under the control of both promoters resulted in >32-fold-increased drug tolerance of M. smegmatis cells to many first-line (rifampicin, isoniazid, and streptomycin) and second-line (amikacin) antituberculosis drugs.
+# # ## RIF + ISO
+# # efpA
+
+# # ## The increased transcription of jefA leads to increased resistance to ethambutol and isoniazid in M. tuberculosis via efflux pump like mechanism and contributes in the development of resistance to these drugs.
+# # ## ISO + ETH
+# # jefA
+
+# # ## E. coli KAM32 host cells containing the cloned emmdR gene (KAM32/pEMMDR28) showed decreased susceptibilities to benzalkonium chloride, norfloxacin, ciprofloxacin, levofloxacin, ethidium bromide, acriflavine, rhodamine6G, and trimethoprim.
+# # ## FQ + BIO
+# # emmdR
+
+# # ## The inactivation of the transporter component axyB gene led to decreased MICs of cephalosporins (except cefepime), aztreonam, nalidixic acid, fluoroquinolones, and chloramphenicol.
+# # ## FQ + CHL
+# # axyA axyB axyM
+
+# # ## AheABC efflux pump of Aeromonas hydrophila extruded at least 13 substrates, including nine antibiotics
+# # ## When the multicopy pEX-AheABC plasmid was introduced into the ΔaheB::kan mutant, the same compounds were affected, but differences in MICs were often higher, reaching 33-fold for cefoperazone and 16-fold for cefuroxime, pristinamycin, and tributyltin, and thus were considered the preferential substrates of AheB
+# # ## knockout lead to 2 folds decrease in MIC of Erythromycin, 2 folds in Benzalkonium chloride
+# # ## BIO + MA
+# # aheA aheB aheC
+
+# # ## This experiment identified the AcrAB system as the major pump responsible for making the Mar mutants resistant to many agents, including tetracycline, chloramphenicol, ampicillin, nalidixic acid, and rifampin.
+# # # TET + CHL
+# # acrA acrB tolC
+
+# # ## Deletion of the acrD gene decreased the MICs of amikacin, gentamicin, neomycin, kanamycin, and tobramycin by a factor of two to eight, and ΔacrD cells accumulated higher levels of [3H]dihydrostreptomycin and [3H]gentamicin than did the parent strain.
+# # ## disruption of acrD in the K-12 strain JC7623 slightly increases susceptibility to erythromycin and puromycin
+# # ## When overproduced, AcrD significantly increased the resistance of the acrB mutant to oxacillin, cloxacillin, nafcillin, carbenicillin, sulbenicillin, aztreonam, sodium dodecyl sulfate and novobiocin
+# # ## MA + PURO
+# # acrD 
+
+# # ## we can confirm that AcrEF has a broad substrate specificity similar to that of AcrAB and includes specificities not only for ofloxacin, ciprofloxacin, tetracyclines, and chloramphenicol but also for oxacillin, cefuroxime, trimethoprim, macrolides or azalides, clindamycin, and linezolid (Table (Table1),1), as well as quinupristin-dalfopristin (MIC change, ≥2-fold), mupirocine (MIC change, ≥8-fold), and the newer fluoroquinolones moxifloxacin (MIC change, 8-fold) and clinafloxacin (MIC change, 8-fold)
+# # ## TET + CHL
+# # acrE acrF
+
+# # ## Efflux pumps in multidrug-resistant Acinetobacter baumannii: Current status and challenges in the discovery of efflux pumps inhibitors
+# # adeA adeB adeC # aminoglycosides, fluoroquinolones, β-lactams, chloramphenicol, trimethoprim, erythromycin and tetracyclines, ethidium bromide (EtBr)
+# # adeI adeJ adeK # β-lactams, tetracyclines, fluoroquinolones, chloramphenicol, trimethoprim, rifampin, fusidic acid, erythromycin, lincosamides, novobiocin, acridine, pyonine, safranine and sodium dodecyl sulphate (SDS)	
+# # adeF adeG adeH # tetracycline, tigecycline, nalidixic acid, fluoroquinolones, sulfonamides, EtBr, erythromycin and SDS	
+# # abeM # fluoroquinolones, aminoglycosides, chloramphenicol, erythromycin, doxorubicin, daunorubicin, ethidium bromide, rhodamine 6G, hoechst 33342, DAPI and TPPCI	
+# # abeS # acridine orange, acriflavine, benzalkonium chloride, β-lactams, chloramphenicol, ciprofloxacin, deoxycholate, ethidium bromide, tetraphenylphosphonium, erythromycin, novobiocin and SDS	
+# # amvA # erythromycin + dyes and detergent, This efflux pump is mainly associated with the efflux of other substrates such as dyes, detergents, and disinfectants.
+
+# # ## The MICs of antimicrobial agents for E. coli KAM32 carrying AdeT1 (E. coli KAM32/pAdeT1) and AdeT2 (E. coli KAM32/pAdeT2) were monitored and compared with the control strain (E. coli KAM32/pUC18) to obtain the fold differences in susceptibilities. Expression of AdeT1 or AdeT2 in E. coli KAM32 from the vector exhibited a similar fold higher resistance to erythromycin (6- and 5-fold, respectively), Acridine Orange (4- and 6-fold, respectively) and DAPI (4- and 4-fold, respectively).
+# # ## AdeT1-carrying E. coli cells displayed elevated MICs of chloramphenicol (5-fold), novobiocin (5-fold), gentamicin (4-fold), kanamycin (3-fold), acriflavine (4-fold), deoxycholate (4-fold), SDS (4-fold) and benzalkonium chloride (3-fold) (Table 2). AdeT2 also conferred a similar profile of increased MICs (Table 2).
+# # ## MA + CHL
+# # adeT
+
+# # ## Inactivation of adeE showed that it may be responsible for reduced susceptibility to amikacin, ceftazidime, chloramphenicol, ciprofloxacin, erythromycin, ethidium bromide, meropenem, rifampin, and tetracycline. However, unlike what was found for other similar efflux systems, the open reading frame for the outer membrane component was not found downstream of the adeDE gene cluster.
+# # ## CHL + MA
+# # adeD adeE
+
+# # ## The antibiotic substrate range of AxyXY-OprZ is wide and includes, in addition to AG, cefepime, fluoroquinolones, tetracyclines, and, to a lesser extent, carbapenems, ceftazidime, and erythromycin
+# # ## FQ + TET
+# # axyX axyY oprZ
+
+# # ## The recombinant plasmid carrying the hmrM gene conferred elevated resistance not only to norfloxacin but also to acriflavine, 4 ', 6-diamidino-2-phenylindole, doxorubicin, ethidium bromide, tetraphenylphosphonium chloride, Hoechst 33342, daunomycin, berberine, and sodium deoxycholate in Escherichia coli KAM32, a drug-hypersensitive strain.
+# # ## BIO + FQ
+# # hmrM
+
+# # ## One of these sequences, designated cme conferred resistance to ethidium bromide, safranin O, and erythromycin in E. faecalis.
+# # ## MA + DYE
+# # cme
+
+# # ## bexA alone was sufficient to confer to the E. coli host elevated levels of resistance to norfloxacin, ciprofloxacin, and ethidium bromide.
+# # ## FQ + DYE
+# # bexA
+
+# # ## tbtABM expelled not only TBT, but also antibiotics such as nalidixic acid, chloramphenicol, and sulfamethoxazole.
+# # ## FQ + CHL
+# # tbtA tbtB tbtM
+
+# # ## We observed 4-fold, 16-fold and 16-fold increases in MICs of norfloxacin, acriflavine and ethidium bromide, respectively
+# # ## FQ + DYE
+# # ssmE
+
+# # ## E. coli KAM32/pESM42 carrying the smfY showed significantly increased MICs of various drugs including DAPI, norfloxacin, benzalkonium chloride, acriflavine and ethidium bromide
+# # ## FQ + BIO
+# # smfY
+
+# # # ## Eﬄux pump-mediated drug resistance in Burkholderia
+# # ceoA ceoB opcM # Chloramphenicol, fluoroquinolones, trimethoprim	
+# # amrA amrB oprA oprM # Aminoglycosides, macrolides, cethromycin	
+# # bpeA bpeB oprB # Chloramphenicol, fluoroquinolones, macrolides, tetracyclines
+
+# # ## KAM32 harboring a recombinant plasmid carrying smdAB, structurally unrelated antimicrobial agents such as norfloxacin, tetracycline, 4′,6-diamidino-2-phenylindole (DAPI), and Hoechst 33342 showed elevated MICs.
+# # ## FQ + TET
+# # smdA smdB
+
+# # ## A fragment of chromosomal DNA from Enterococcus faecalis ATCC 29212 was cloned using Escherichia coli KAM32 host cells lacking major multidrug efflux pumps. E. coli KAM32 cells were sensitive to many antimicrobial agents, and the transformed cells harboring a recombinant plasmid became resistant to several structurally unrelated antimicrobial agents such as tetraphenylphosphonium chloride, 4',6-diamidino-2-phenylindole (DAPI), Hoechst 33342, acriflavine, benzalkonium chloride, norfloxacin and ethidium bromide.
+# # ## FQ + BIO
+# # emeA
+
+# # ## Sensitivities to doxorubicin, daunorubicin, Hoechst 33342, and ethidium were increased 32-, 8-, 4-, and 2-fold, respectively, when ef0789–ef0790 was deleted in E. faecalis 4205
+# # ## Overexpression of the transporter EfrCD resulted in increased resistance to tetracycline, rifampin, daunorubicin, doxorubicin, acriflavine, ethidium, and Hoechst 33342 (Table 3). EfrAB and EfrEF exhibited drug efflux spectra similar to that of EfrCD but were also capable of exporting the fluoroquinolones ciprofloxacin (a 2-fold MIC increase was conferred by EfrEF), norfloxacin (a 1.5-fold MIC increase was conferred by EfrAB and a 2-fold MIC increase by EfrEF), and ofloxacin (2-fold MIC increases were conferred by EfrAB and EfrEF)
+# # ## DO + BIO
+# # efrC efrD
+# # efrE efrF
+# # efrA efrB
+
+# # ## Taken together, these results show that BepDE is able to confer resistance to several toxic compounds, such as dyes, detergents, and antibiotics.
+# # ## BepFG may contribute to the resistance to some drugs, like DOC, SDS, and nalidixic acid, in the absence of BepDE
+# # ## FQ + BIO
+# # bepD bepE bepC
+# # bepF bepG bepC
+
+# # bmr1 # Causes the efflux of a variety of toxic substances, including such structurally diverse compounds as ethidium bromide, rhodamine and acridine dyes, tetraphenylphosphonium, puromycin, chloramphenicol, doxorubicin, and fluoroquinolone antibiotics.
+# # bmr2 # Causes the efflux of a variety of toxic substances, including such structurally diverse compounds as ethidium bromide, rhodamine and acridine dyes, tetraphenylphosphonium, puromycin, chloramphenicol, doxorubicin, and fluoroquinolone antibiotics.
+# # bmr3 # Confers resistance to puromycin, tosufloxacin and norfloxacin.
+
+# # ## An efflux transporter able to transport Hoechst 33342, ethidium bromide, doxorubicin and a number of other drugs in vitro into inside out vesicles.
+# # ## DYE + DOX
+# # bmrA
+
+# # ## Comparison of antibiotic susceptibility profiles showed that strain BM4715 was susceptible to norfloxacin and ciprofloxacin (MICs of 4 and 0.5 mg/L, respectively) whereas BM4716 was resistant (MICs of 128 and 32 mg/L, respectively) (Table 1). Besides these two FQs, no significant differences in MICs between the two isolates were observed for other antibiotics (Table 1). However, few changes were noted for some antiseptics and dyes, such as cetylperidinium chloride (4-fold), chlorehexidine (4-fold), and ethidium bromide (8-fold)
+# # ## BIO + FQ
+# # fepA
+
+# # ## Overproduction of the Salmonella-specific transporter MdsABC conferred resistance against novobiocin, acriflavine, crystal violet, ethidium bromide, methylene blue, rhodamine 6G, tetraphenylphosphonium bromide (TPP), benzalkonium bromide and SDS.
+# # ## NOVO + BIO
+# # mdsA mdsB mdsC 
+
+# # ## Overexpression of the emrAB genes conferred resistance against novobiocin, nalidixic acid, rhodamine 6G and DOC.
+# # ## NOVO + FQ
+# # emrA emrB emrC
+
+# # ## the mdtK gene to norfloxacin, doxorubicin and acriflavine
+# # ## DOX + FQ
+# # mdtK
+
+# # ## The plasmids carrying the acrD or mdtABC genes conferred resistance against novobiocin, SDS and DOC
+# # ## BIO + NOVO
+# # mdtA mdtB mdtC
+
+# # ## The smeABC genes were hyperexpressed in a mutant strain displaying resistance to several antimicrobials, including aminoglycosides, β-lactams, and fluoroquinolones
+# # ## AMI + BETA
+# # smeA smeB smeC
+
+# # ## ΔsmeE and ΔsmeF derivatives of ULA-511 (designated strains K1765 and K1793, respectively) showed increased susceptibility to a variety of structurally unrelated antimicrobials, including quinolones, tetracyclines, macrolides, chloramphenicol, and novobiocin (two to eightfold decrease in MICs), indicating that the SmeDEF efflux system contributed to intrinsic resistance to these agents.
+# # ## FQ + TET
+# # smeD smeE smeF
+
+# # ## Cloning and expression of smrA in Escherichia coli conferred increased resistance to structurally unrelated compounds, including fluoroquinolones, tetracycline, doxorubicin and multiple dyes
+# # ## FQ + TET
+# # smrA
+
+# # ## Among the compounds to which the VceABC proteins confer resistance in that mutant E. coli are the uncoupler cyanide m-chlorophenylhydrazone, the detergent sodium deoxycholate, phenylmercuric acetate, and several antibiotics such as chloramphenicol, nalixidic acid, erythromycin, and rifampicin.
+# # ## CHL + FQ
+# # vceA vceB vceC
+
+# # ## The most dramatic increase in antibiotic susceptibility was found with the double-knockout strain (SDEAB3/HASF300) in comparison to UOC-67. For SDEAB1 and HASF100, susceptibility to all compounds tested increased in comparison to UOC-67
+# # ## fluoroquinolones, SDS, novobiocin, ethidium bromide and chloramphenicol
+# # ## FQ + CHL
+# # sdeA sdeB hasF
+
+# # ## Clones that carried the sdeXY genes displayed reduced susceptibility to several antimicrobial agents including erythromycin, tetracycline, norfloxacin, benzalkonium chloride, ethidium bromide, acriflavine and rhodamine 6G
+# # ## MA + TET
+# # sdeX sdeY
+
+# # ## RIA_1614 (ranB) protein contributed to amikacin and streptomycin resistance and organic solvent tolerance
+# # ## AMI + BIO
+# # ranA ranB 
+
+# # ## The efflux phenotype of R6N (increased MICs of norfloxacin, ciprofloxacin, acriflavine, and ethidium bromide [EtBr]; fourfold reduction of norfloxacin MIC in the presence of reserpine
+# # ## FQ + DYE
+# # pmrA
+
+# # # ## Heterologous expression of PdrM let to elevated resistance to several antibacterial agents, norfloxacin, acriflavine, and 4′,6-diamidino-2-phenylindole (DAPI) in E. coli KAM32 cells
+# # ## FQ +DYE
+# # pdrM
+
+# # ## Inactivation of patA and patB by in vitro mariner mutagenesis conferred hypersusceptibility to ethidium bromide and acriflavine in all isolates tested and lowered the MICs of ciprofloxacin in the patAB-overproducing and/or fluoroquinolone-resistant isolates.
+# # ## FQ + DYE
+# # patA patB
+
+# # ## Confers resistance to norfloxacin, ciprofloxacin, ofloxacin, daunomycin, doxorubicin, streptomycin, kanamycin, ethidium bromide and acriflavine
+# # ## FQ + DOX
+# # norM
+
+# # ## mtrCDE-encoded multidrug efflux pump, which expels microbicides, such as bile salts, fatty acids, and multiple extrinsically administered drugs, from the cell
+# # ## MtrCDE multidrug efflux pump contributes significantly to clinically relevant levels of resistance to β-lactams and macrolides
+# # ## BETA + MA
+# # mtrC mtrD mtrE
+
+# # ## Using inside-out membrane vesicles, Torres et al. could show that BmrCD is able to transport the fluorescent substances Hoechst 33342, doxorubicin and mitoxantrone
+# # ## When overexpressed in E. coli membranes, BmrCD transports several drugs such as Hoechst 33342, doxorubicin or mitoxantrone 
+# # ## DOX + BIO
+# # bmrC bmrD
+
+# # ## resistant to ethidium bromide and acriflavin. It was responsible for fluoroquinolone resistance in E. coli when it was cloned under the control of the Plac promoter
+# # ## Altogether, these data suggest that fluoroquinolones are sub-strates of CdeA but cannot induce its overexpression in C. dif-ficile.  However,  it  is  possible  that  toxic  compounds  acting  asinducers  of  CdeA  are  commonly  found  in  the  digestive  tract.This, in patients treated by fluoroquinolones, could then possi-bly  lead  to  a  significant  efflux  of  fluoroquinolones  in  C.  diffi-cilein  vivo  and  thereby  facilitate  the  emergence  of  resistantmutants, notably gyrAmutants
+# # ## FQ + DYE
+# # cdeA
+
+# # ## In mutant 9B6, the MICs of fluoroquinolones were decreased 8-fold (ciprofloxacin) and 2-fold (norfloxacin and nalidixic acid); the MICs of two β-lactams were decreased 256-fold (cefotaxime) and 32-fold (ampicillin); and the MICs of erythromycin, rifampin, tetracycline, and EB were decreased 4-fold, 128-fold, 8-fold, and 8-fold, respectively.
+# # ## FQ + BETA
+# # cmeA cmeB cmeC
+
+# # ## The cmeF mutant of 11168 (11168F) showed a 2-fold decrease in the resistance to ampicillin, polymyxin B and EB.
+# # ## comparing with the cmeB mutant, the cmeB/cmeF double mutant showed a 2-fold increase in the susceptibility to ciprofloxacin, tetracycline, fusidic acid and acriflavine, and a 2–16-fold increase in the susceptibility to various detergents and bile salts
+# # ## In comparison with 21190B, the double mutant 21190B/F showed a 2-fold increase in the susceptibility to several antimicrobials (fusidic acid, acriflavine, polymyxin B and novobiocin) and showed a 2–128-fold increase in the susceptibility to detergents and bile salts
+# # ## BETA + POLY
+# # cmeD cmeE cmeF
+
+# # ## Introduction of the kdeA gene into cells of the drug-hypersusceptible E. coli strain KAM32 resulted in elevated minimum inhibitory concentrations of chloramphenicol, norfloxacin, acriflavine, and ethidium bromide.
+# # ## CHL + FQ
+# # kdeA 
+
+# # ## Introduction of the kexD gene into Escherichia coli KAM32 resulted in a MIC that was higher for erythromycin, novobiocin, rhodamine 6G, tetraphenylphosphonium chloride, and ethidium bromide than that of the control.
+# # ## MA + NOVO
+# # kexD
+
+# # ## The activation of the eefABC promoter was detected in four CMR mutants. These mutants showed increased resistance to erythromycin and ticarcillin, but not to fluoroquinolones, ketolides and detergents
+# # ## In contrast to acrAB tolC mutants, which are hypersusceptible to hydrophobic compounds (11, 26,34), EP665(pEP770) was able to grow on plates containing sodium dodecyl sulfate (SDS; 0.1%), DOC (0.05%), novobiocin (3 μg/ml), erythromycin (5 μg/ml), acriflavin (200 μg/ml), or ethidium bromide (10 μg/ml).
+# # ## MA + BETA
+# # eefA eefB eefC
+
+# # ## Cells of E. coli KAM32 harboring a recombinant plasmid (pTFM8) carrying the DNA fragment became resistant to fluoroquinolones, macrolides, ethidium bromide, 4',6-diamidino-2-phenylindole (DAPI) and tetraphenylphosphonium chloride (TPPCl)
+# # ## FQ + MA
+# # efmA
+
+# # ## The emhB gene disruption did not affect the resistance of P. fluorescens cLP6a to tetracycline, erythromycin, trimethoprim, or streptomycin, but it did decrease resistance to chloramphenicol and nalidixic acid, indicating that the EmhABC system also functions in the efflux of these compounds and has an unusual selectivity
+# # ## CHL + FQ
+# # emhA emhB emhC
+
+
+# # ## The KpnEF efflux pump mediates resistance to antibiotics and compounds such as cefepime, ceftriaxone, colistin, erythromycin, rifampin, tetracycline, streptomycin, SDS, deoxycholate, EtBr, acriflavine, benzalkonium chloride, chlorhexidine, and triclosan.
+# # ## BETA + POLY
+# # kpnE kpnF
+
+# # ## Some of these uncouplers are structurally unrelated, such as meta–chloro carbonylcyanide phenylhydrazone (CCCP) and tetrachlorosalicylanilide. It was later discovered that EmrD could also transport detergents such as benzalkonium and sodium dodecylsulfate
+# # ## Purified EmrD binds Hoechst33342 and doxorubicin with micromolar affinity
+# # ## BIO + DOX
+# # emrD 
+
+# # ## Interestingly, these homologues as well as EmrE confer resistance to streptomycin and tobramycin, two aminoglycoside antibiotics widely used in clinics
+# # ## We found that the resistance profiles of MrSmr and TfSmr are similar to that of EmrE, since both proteins show some resistance to the classical substrates of EmrE, ethidium bromide, acriflavine, and methyl viologen. Furthermore, screening for resistance to other substrates revealed two additional drugs, streptomycin and tobramycin. MrSmr, TfSmr, BpSmr, and EmrE show high resistance to these antibiotics. These findings are new, since until now these two antibiotics were not known as substrates of EmrE
+# # ## AMI + BIO
+# # emrE
+
+# # ## These results suggest that EmrKY worked as the efflux pump of tetracycline.
+# # ## its expression was increased in the presence of a subinhibitory concentration of tetracycline, chloramphenicol or salicylate, 
+# # ## TET + BIO
+# # emrK emrY
+
+# # ## The H pylori mutant increased its susceptibility. The MIC of four of the 10 tested kinds of antibiotics (amoxicillin, cefotaxime, ceftazidime, polymyxin B, ciprofloxacin, nalidixic acid, clarithromycin, norfloxacin, chloramphenicol, and gentamicin,) was decreased at least 8-fold in the H pylori LZ1026 mutant, 8-fold in clarithromycin, 32-fold in cefotaxime, 16-fold in chloramphenicol, 8-fold in gentamicin. The MICs were decreased after treatment with different antibiotics, which is consistent with the hypothesis that the product of hefA participates in multidrug efflux.
+# # ## AMI + CHL
+# # hefA hefB hefC
+
+# # ## Part of the tripartite efflux system MdtEF-TolC, which confers resistance to compounds such as rhodamine 6G, erythromycin, doxorubicin, ethidium bromide, TPP, SDS, deoxycholate, crystal violet and benzalkonium.1
+# # ## MA + BIO
+# # mdtE mdtF
+
+# # ## Could be involved in resistance to puromycin, acriflavine and tetraphenylarsonium chloride.
+# # ## PURO + BIO
+# # mdtN mdtO mdtP mdtQ
+
+# # ## yjiO conferred resistance to acriflavine (4-fold), chloramphenicol (2-fold), norfloxacin (2-fold), ethidium bromide (2-fold), and TPP (2-fold)
+# # ## CHL + FQ
+# # mdtM
+
+# # ## Multidrug resistance protein MdtG; Confers resistance to fosfomycin and deoxycholate
+# # ## FOS + BIO
+# # mdtG
+
+# # ## Escherichia coli cells transformed with a plasmid carrying the vcmA gene showed increased resistance against norfloxacin, ciprofloxacin, ofloxacin, daunomycin, doxorubicin, streptomycin, kanamycin, ethidium bromide, 4′,6-diamidino-2-phenylindole dihydrochloride, Hoechst 33342 and acriflavine.
+# # ## FQ + DOX
+# # vcmA 
+
+# # ## E. coli cells transformed with the gene showed elevated levels of resistance to a number of structurally dissimilar drugs, such as tetracycline, norfloxacin, ciprofloxacin, doxorubicin, daunomycin, 4′,6-diamidino-2-phenylindole, and Hoechst 33342.
+# # ## TET + FQ
+# # vcaM
+
+# # ## KAM32/pVCJ6 is more resistant not only against ethidium bromide but also against 4prime;,6prime;-diamino-2-phenylindole (DAPI), tetraphenylphosphonium chloride (TPPCl), and acriflavine compared with the KAM32 control
+# # ## BIO -> changed to biocide
+# # vmrA
+
+# # ## The MICs of acriflavine, DAPI,Hoechst  33342,  rhodamine  6G,  TPPCl,  ethidium  bro-mide,  chloramphenicol  and  ciprofloxacin  in  E.  coliKAM32/pAVC33 were 64-, 533-, 8-, 4-, 4-, 4-, 2- and 2-fold  higher,  respectively,  than  the  control.
+# # ## BIO + FQ
+# # vcrM
+
+# # ## The broad substrate specificity of the VexAB system was typical of many RND efflux systems and included detergents and antibiotics. In contrast, the VexCD efflux system had a substrate specificity that was limited to bile salts and the nonionic detergent Triton X-100
+# # ## The VexAB-TolCVc conferred elevated MICs of erythromycin, novobiocin, rhodamine6G,  TPPCl,  and  cholates
+# # ## MA + NOVO
+# # vexA vexB
+
+# # ## In contrast, VexCD-TolCV cconferred  elevated  MICs  of  cholates.
+# # ## According to table 5, 4 folds increase in NOVO
+# # ## NOVO + BIO
+# # vexC vexD
+
+# # ## Cells of E. coliKAM43  harbouring both vexEF and tolCVc showed  elevated  MICs  of  ery-thromycin,  novobiocin,  benzalkonium  chloride,  rho-damine  6G,  crystal  violet,  ethidium  bromide,  Hoechst33342,  tetraphenylphosphonium  chloride  (TPPCl)  andcholates
+# # ## MA + NOVO
+# # vexE vexF
+
+# # ## VexGH was implicated in resistance to ampicillin, bile acids, novobiocin and the nonionic detergent Triton X-100
+# # ## NOVO + BIO
+# # vexG vexH
+
+# # ## Characterization of all RND-type multidrug efflux transporters in Vibrio parahaemolyticus
+# # ## all characterized RND
+# # ## overexpression lead to at least one antibiotic compared to full KO strain
+# # vmeA vmeB vpoC
+# # vmeC vmeD
+# # vmeE vmeF
+# # vmeP vmeQ # cloxacillin (2)
+# # vmeL vmeM
+# # vmeY vmeZ
+# # vmeJ vmeK 
+# # vmeT vmeU vmeV # cloxacillin (16)
+
+# # ## BIO -> changed to biocide 
+# # vmeG vmeH vmeI
+
+# # ## We have previously shown that the TtgABC pump is able to extrude AMP, carbenicillin, nalidixic acid, chloramphenicol, and tetracycline
+# # ## AMP + BIO
+# # ttgA ttgB ttgC
+
+# # ##  whereas the TtgDEF pump is specific for organic solvents and does not extrude any of these antibiotics
+# # ## BIO -> changed to biocide
+# # ttgD ttgE ttgF
+
+# # ## However, the DOT-T1E-PS32 double mutant was somewhat more susceptible to these antibiotics than DOT-T1E-18, suggesting that the TtgGHI pump identified in this study plays a role in antibiotic extrusion. Apparently the extrusion of antibiotics by the TtgGHI pump is masked when the TtgABC pump is working in the cell.
+# # ## In a ttgABC-deficient P. putida, background ampicillin and other bactericidal compounds lead to cell death. Co-culture of E. coli and P. putida ΔttgABC allowed growth of the P. putida mutant in the presence of ampicillin because of induction of the indole-dependent efflux pump.
+# # ## AMP + BIO, but changed to biocide to match its main function and name, "solvent"
+# # srpA srpB srpC
+
+# # ## Antimicrobial Resistance in Listeria Species
+# # mdrL # Ethidium bromide, Macrolides, efotaxime, Heavy metals, Benzalkonium chloride
+# # mdrM # Rhodamine 6 G, Cholic acid -> changed to biocide
+# # mdrT # Tetraphenylphosphonium, Cholic acid, Bile -> changed to biocide
+
+# # ## pTrcHydgFE conferred broader resistance to deoxycholate (4-fold), nalidixic acid (2-fold), fosfomycin (2-fold), and SDS (2-fold) (Table 3) than pUCydgFE
+# # ## FQ + FOS
+# # mdtI mdtJ
+
+# # ## LieAB acts as an ethidium bromide importer consuming ATP for import
+# # ## No induction of the lieAB promoter was observed with several antibiotics (ampicillin, penicillin G, fosfomycin, bacitracin, cycloserin, erythromycin, chloramphenicol, kanamycin, tetracyclin, spectinomycin, nalidixic acid), antimicrobial compounds (benzalkonium, tert-butylhydroquinone, cravacrol, acriflavine) or dyes such as acridine orange. Likewise, no induction was observed with ethanol, DMSO, NaOH, EDTA, KCl, Triton X-100, SDS, deoxycholate or H2O2 (data not shown).
+# # # ## The MIC of aurantimycin A against wild type was 1.25 µg ml–1 and twofold higher (2.5 µg ml–1) in the corrected ΔlftR mutant LMSH26, in good agreement with LieAB derepression in this strain. In the absence of lieAB, the MIC of aurantimycin dropped to 0.156 µg ml–1, whether LftR was present or not
+# # ## AUR ONLY, kept in multidrug to ensure consistency with its header "multidrug"
+# # lieA lieB 
+
+# # ## yceL conferred resistance to norfloxacin (2-fold) and enoxacin (2-fold)
+# # ## MA ONLY, kept in multidrug to ensure consistency with its header "multidrug"
+# # mdtH
+
+# # ## yidY conferred chloramphenicol resistance (2-fold)
+# # ## CHL ONLY, kept in multidrug to ensure consistency with its header "multidrug"
+# # mdtL
+
+# # ## Complementation with pXDC50_lpeAB significantly increased macrolide MICs (8-fold for erythromycin, 32-fold for azithromycin, 32-fold for spiramycin) in comparison with ΔlpeAB mutants
+# # ## There was no effect of lpeAB deletion and complementation on Lp Paris strain susceptibility to clarithromycin (0.063 mg/L), clindamycin (32 mg/L), pristinamycin (0.125 mg/L), ciprofloxacin (0.016 mg/L) and rifampicin (0.0005 mg/L) MICs. Likewise, ΔlpeAB mutant strain had MICs similar to those of the WT strain for SDS (32 mg/L), crystal violet (4 mg/L), desoxycholate (16 mg/L), methylene blue (0.5 mg/L), rhodamine 6G (0.25 mg/L) and EtBr (8 mg/L).
+# # ## MA ONLY, kept in multidrug to ensure consistency with its header "multidrug"
+# # lpeA lpeB
+
+# # ## a drug-supersensitive acrB mutant of Escherichia coli showed two- to fourfold-increased resistance to acriflavine, erythromycin, and tetracycline upon heterologous expression of the pseA, pseB, and pseC genes (pseABC efflux genes).
+# # ## MA + TET
+# # pseA pseB pseC
+
+# # ## The disruption of hrdC rendered the cells hypersusceptible not only to ofloxacin, but also to tetracycline, cefsulodin, chloramphenicol, and EtBr, and it led to a higher intracellular accumulation of EtBr, suggesting that HrdC is a part of the putative efflux pump assembly.
+# # ## BETA + TET
+# # hrdC
+
+# # ## Susceptibilities to ethambutol, ciprofloxacin, ofloxacin, tetracycline, rifampin, ethidium bromide, doxorubicin, and tetraphenylphosphonium were not affected (data not shown). Consequently, the mmpL7 gene seems to be responsible for the INH resistance.
+# # ## The MIC of ethionamide, a structural analog of INH and a useful second-line antituberculosis drug, was also determined. The overexpression of the MmpL7 protein caused a fourfold increase in the MIC of ethionamide for M. smegmatis cells expressing the mmpL7 gene compared to the MIC for M. smegmatis cells containing the vector pSODIT-2 alone (100 μg/ml versus 25 μg/ml).
+# # ## isoniazid + ethionamide
+# # mmpL7
+
+# # ## Overexpression of the system confers non-target based resistance to azoles, clofazimine and bedaquiline, via an efflux mechanism
+# # ## azoles + clofazimine + bedaquiline
+# # mmpL5
+
+
+
+# # -------------------------------------------------- biocide --------------------------------------------------
+# # bcrB_(quaternary_ammonium_compound)
+# # bcrC_(quaternary_ammonium_compound)
+# # emrE_(quaternary_ammonium_compound)
+# # crcB
+# # smr
+# # sugE
+
+# # ## The recombinant plasmid produced elevated resistance against ethidium bromide, acriflavine, pyronine Y, and safranin O not only in Escherichia coli but also in B. subtilis.
+# # ebrA ebrB
+# # kmrA
+# # smvA
+
+
+
+# ##########
+# albicidin
+# aminoglycoside
+# avilamycin
+# bacitracin
+# bacteriocin
+# beta-lactam
+# biocide
+# bleomycin
+# colistin
+# defensin
+# doxorubicin
+# edeine
+# factumycin
+# fatty_acid
+# fosfomycin
+# fosmidomycin
+# fusidic_acid
+# glycopeptide
+# ionophore
+# linearmycin
+# macrolide-lincosamide-streptogramin
+# # # multidrug
+# mupirocin
+# nitroimidazole
+# novobiocin
+# phenicol
+# pleuromutilin
+# puromycin
+# quinolone
+# rifamycin
+# streptothricin
+# sulfonamide
+# surfactin
+# tetracenomycin
+# tetracycline
+# thiostrepton
+# trimethoprim
+# tuberactinomycin
+# tunicamycin
