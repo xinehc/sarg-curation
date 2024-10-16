@@ -1,4 +1,7 @@
-info*
 tmp*
+info*
+remark*
+assembly*
+blastrule*
 .ipynb_checkpoints*
 .DS_Store

@@ -58,10 +58,12 @@ ARO:3002578	38978	5850	2117	AAC(6')-Ib7	AAC(6')-Ib7	AKN19287.1	KR091911.1	AAC(6'
 ARO:3002579	38979	5456	2071	AAC(6')-Ib8	AAC(6')-Ib8	AIK02012.1	KF998105.1	AAC(6')	aminoglycoside antibiotic	antibiotic inactivation	AAC(6')-Ib8
 ARO:3002580	38980	463	993	AAC(6')-Ib9	AAC(6')-Ib9	AAD02244.1	AF043381.1	AAC(6')	aminoglycoside antibiotic	antibiotic inactivation	AAC(6')-Ib9
 ARO:3002547	38947	6152	1678	AAC(6')-Ib-cr1	AAC(6')-Ib-cr1	WP_071846215.1	NG_052213.1	AAC(6');AAC(6')-Ib-cr	aminoglycoside antibiotic;fluoroquinolone antibiotic	antibiotic inactivation	AAC(6')-Ib-cr1
-ARO:3005112	43327	6153	3840	AAC(6')-Ib-cr3	AAC(6')-Ib-cr3	ADY02579.1	HQ170516.1	AAC(6');AAC(6')-Ib-cr	aminoglycoside antibiotic;fluoroquinolone antibiotic	antibiotic inactivation	AAC(6')-Ib-cr3
-ARO:3005114	43329	6154	3841	AAC(6')-Ib-cr4	AAC(6')-Ib-cr4	KJX28101.1	JZKY01000061.1	AAC(6');AAC(6')-Ib-cr	aminoglycoside antibiotic;fluoroquinolone antibiotic	antibiotic inactivation	AAC(6')-Ib-cr4
+ARO:3007770	46553	8755	6020	aac(6')-Ib-cr10	aac(6')-Ib-cr10	WP_124042715.1	NG_067968.1	AAC(6');AAC(6')-Ib-cr	aminoglycoside antibiotic;fluoroquinolone antibiotic	antibiotic inactivation	aac(6')-Ib-cr10
+ARO:3007771	46554	8756	6021	aac(6')-Ib-cr11	aac(6')-Ib-cr11	WP_159241551.1	NG_067969.1	AAC(6');AAC(6')-Ib-cr	aminoglycoside antibiotic;fluoroquinolone antibiotic	antibiotic inactivation	aac(6')-Ib-cr11
+ARO:3005112	43327	8752	3840	AAC(6')-Ib-cr3	AAC(6')-Ib-cr3	WP_071766621.1	NG_052123.1	AAC(6');AAC(6')-Ib-cr	aminoglycoside antibiotic;fluoroquinolone antibiotic	antibiotic inactivation	AAC(6')-Ib-cr3
+ARO:3005114	43329	8753	3841	AAC(6')-Ib-cr4	AAC(6')-Ib-cr4	WP_065187000.1	NG_052463.1	AAC(6');AAC(6')-Ib-cr	aminoglycoside antibiotic;fluoroquinolone antibiotic	antibiotic inactivation	AAC(6')-Ib-cr4
 ARO:3005115	43331	6155	3842	AAC(6')-Ib-cr5	AAC(6')-Ib-cr5	ABX24471.1	EU161636.1	AAC(6');AAC(6')-Ib-cr	aminoglycoside antibiotic;fluoroquinolone antibiotic	antibiotic inactivation	AAC(6')-Ib-cr5
-ARO:3005116	43332	6156	3843	AAC(6')-Ib-cr6	AAC(6')-Ib-cr6	ACD56150.1	EU675686.2	AAC(6');AAC(6')-Ib-cr	aminoglycoside antibiotic;fluoroquinolone antibiotic	antibiotic inactivation	AAC(6')-Ib-cr6
+ARO:3005116	43332	8754	3843	AAC(6')-Ib-cr6	AAC(6')-Ib-cr6	WP_063840320.1	NG_047292.1	AAC(6');AAC(6')-Ib-cr	aminoglycoside antibiotic;fluoroquinolone antibiotic	antibiotic inactivation	AAC(6')-Ib-cr6
 ARO:3005117	43333	6157	3844	AAC(6')-Ib-cr7	AAC(6')-Ib-cr7	NON98701.1	JABGAB010000032.1	AAC(6');AAC(6')-Ib-cr	aminoglycoside antibiotic;fluoroquinolone antibiotic	antibiotic inactivation	AAC(6')-Ib-cr7
 ARO:3005118	43334	6158	3845	AAC(6')-Ib-cr8	AAC(6')-Ib-cr8	AZK52946.1	CP034250.1	AAC(6');AAC(6')-Ib-cr	aminoglycoside antibiotic;fluoroquinolone antibiotic	antibiotic inactivation	AAC(6')-Ib-cr8
 ARO:3005119	43335	6159	3846	AAC(6')-Ib-cr9	AAC(6')-Ib-cr9	AYD68572.1	MH569711.1	AAC(6');AAC(6')-Ib-cr	aminoglycoside antibiotic;fluoroquinolone antibiotic	antibiotic inactivation	AAC(6')-Ib-cr9
@@ -689,7 +691,7 @@ ARO:3002255	38655	4562	533	CARB-16	CARB-16	CCW43444.1	HF953351.1	CARB beta-lacta
 ARO:3002254	38654	862	1094	CARB-17	CARB-17	AIL92326.1	KJ934265.1	CARB beta-lactamase	penam	antibiotic inactivation	CARB-17
 ARO:3003174	39751	942	2039	CARB-18	CARB-18	AIL92327.1	KJ934266.1	CARB beta-lactamase	penam	antibiotic inactivation	CARB-18
 ARO:3003175	39752	1019	513	CARB-19	CARB-19	AIL92328.1	KJ934267.1	CARB beta-lactamase	penam	antibiotic inactivation	CARB-19
-ARO:3002241	38641	1096	1811	CARB-2	CARB-2	AAZ91704.1	DQ157752.1	CARB beta-lactamase	penam	antibiotic inactivation	CARB-2
+ARO:3002241	38641	8841	1811	CARB-2	CARB-2	AAA25741.1	M69058.1	CARB beta-lactamase	penam	antibiotic inactivation	CARB-2
 ARO:3003150	39727	5458	2110	CARB-20	CARB-20	ATI44679.1	CP023709.1	CARB beta-lactamase	penam	antibiotic inactivation	CARB-20
 ARO:3003176	39753	1264	906	CARB-21	CARB-21	AGQ93789.1	CP006005.1	CARB beta-lactamase	penam	antibiotic inactivation	CARB-21
 ARO:3003151	39728	4727	1201	CARB-22	CARB-22	BAC61820.1	BA000032.2	CARB beta-lactamase	penam	antibiotic inactivation	CARB-22
@@ -727,6 +729,9 @@ ARO:3005586	44048	6811	4436	CARB-52	CARB-52	WP_150823467.1	NG_066506.1	CARB beta
 ARO:3005587	44049	6812	4437	CARB-53	CARB-53	WP_188331863.1	NG_070729.1	CARB beta-lactamase	penam	antibiotic inactivation	CARB-53
 ARO:3005588	44050	6813	4438	CARB-54	CARB-54	WP_179284317.1	NG_070176.1	CARB beta-lactamase	penam	antibiotic inactivation	CARB-54
 ARO:3005589	44051	6814	4439	CARB-55	CARB-55	WP_071846358.1	NG_052478.1	CARB beta-lactamase	penam	antibiotic inactivation	CARB-55
+ARO:3007803	46589	8847	6027	CARB-56	CARB-56	QVO43826.1	MZ092819.1	CARB beta-lactamase	penam	antibiotic inactivation	CARB-56
+ARO:3007836	46623	8880	6060	CARB-57	CARB-57	QVO43827.1	MZ092820.1	CARB beta-lactamase	penam	antibiotic inactivation	CARB-57
+ARO:3007837	46625	8881	6061	CARB-58	CARB-58	QYJ63007.1	MT990446.1	CARB beta-lactamase	penam	antibiotic inactivation	CARB-58
 ARO:3002245	38645	1736	641	CARB-6	CARB-6	AAD19217.1	AF030945.1	CARB beta-lactamase	penam	antibiotic inactivation	CARB-6
 ARO:3002246	38646	1814	1443	CARB-7	CARB-7	AAM74565.1	AF409092.1	CARB beta-lactamase	penam	antibiotic inactivation	CARB-7
 ARO:3002247	38647	1894	1661	CARB-8	CARB-8	AAO59455.1	AY178993.1	CARB beta-lactamase	penam	antibiotic inactivation	CARB-8
@@ -806,6 +811,7 @@ ARO:3004768	42882	5766	3570	CIA-1	CIA-1	BAL40892.1	AB639753.1	CIA beta-lactamase
 ARO:3004769	42884	5767	3571	CIA-2	CIA-2	BAL40893.1	AB674566.1	CIA beta-lactamase	carbapenem;cephalosporin	antibiotic inactivation	CIA-2
 ARO:3004770	42885	5768	3572	CIA-3	CIA-3	BAL40894.1	AB674567.1	CIA beta-lactamase	carbapenem;cephalosporin	antibiotic inactivation	CIA-3
 ARO:3004771	42886	5769	3573	CIA-4	CIA-4	BAL40895.1	AB674568.1	CIA beta-lactamase	carbapenem;cephalosporin	antibiotic inactivation	CIA-4
+ARO:3007840	46629	8883	6063	CIM-1	CIM-1	WP_123865086.1	NZ_CP033828.1	CIM beta-lactamase	carbapenem;cephalosporin	antibiotic inactivation	CIM-1
 ARO:3003907	40612	5212	2386	cipA	cipA	ACX65640.1	CP001793.1	Cfr 23S ribosomal RNA methyltransferase	lincosamide antibiotic;oxazolidinone antibiotic;phenicol antibiotic;pleuromutilin antibiotic;streptogramin A antibiotic;streptogramin antibiotic	antibiotic target alteration	cipA
 ARO:3004773	42888	5770	3574	CKO-1	CKO-1	AAL85333.1	AF477396.1	CKO beta-lactamase	penam	antibiotic inactivation	CKO-1
 ARO:3002814	39248	4248	571	clbA	clbA	AGZ55247.1	CP006845.1	Cfr 23S ribosomal RNA methyltransferase	lincosamide antibiotic;oxazolidinone antibiotic;phenicol antibiotic;pleuromutilin antibiotic;streptogramin A antibiotic;streptogramin antibiotic	antibiotic target alteration	clbA
@@ -858,8 +864,8 @@ ARO:3002114	38514	1360	1029	CMY-102	CMY-102	AHA80103.1	KF526115.1	CMY beta-lacta
 ARO:3002115	38515	1441	1747	CMY-103	CMY-103	AHA80104.1	KF526116.1	CMY beta-lactamase	cephamycin	antibiotic inactivation	CMY-103
 ARO:3002116	38516	1546	658	CMY-104	CMY-104	AGR82311.1	KF150216.1	CMY beta-lactamase	cephamycin	antibiotic inactivation	CMY-104
 ARO:3002117	38517	1623	208	CMY-105	CMY-105	AHL39330.1	KJ207205.1	CMY beta-lactamase	cephamycin	antibiotic inactivation	CMY-105
-ARO:3002118	38518	6844	4469	CMY-106	CMY-106	WP_063859654.1	NG_048776.1	CMY beta-lactamase	cephamycin	antibiotic inactivation	CMY-106
 ARO:3002118	38518	8352	2082	CMY-106	CMY-106	AJH76980.1	KM983294.1	CMY beta-lactamase	cephamycin	antibiotic inactivation	CMY-106
+ARO:3002118	38518	6844	4469	CMY-106	CMY-106	WP_063859654.1	NG_048776.1	CMY beta-lactamase	cephamycin	antibiotic inactivation	CMY-106
 ARO:3002119	38519	8387	3892	CMY-107	CMY-107	WP_032494240.1	KR061886.1	CMY beta-lactamase	cephamycin	antibiotic inactivation	CMY-107
 ARO:3002120	38520	1775	1504	CMY-108	CMY-108	AGZ20169.1	KF564648.1	CMY beta-lactamase	cephamycin	antibiotic inactivation	CMY-108
 ARO:3002121	38521	6845	4470	CMY-109	CMY-109	WP_032948363.1	NG_048779.1	CMY beta-lactamase	cephamycin	antibiotic inactivation	CMY-109
@@ -1408,7 +1414,7 @@ ARO:3003760	40417	3537	2272	Enterococcus faecalis cls with mutation conferring r
 ARO:3003813	40502	5210	2312	Enterococcus faecalis drmA with mutation conferring daptomycin resistance	Enterococcus faecalis drmA with mutation conferring daptomycin resistance	AAO81566.1	AE016830.1	daptomycin resistant drmA	peptide antibiotic	antibiotic target alteration	Efae_drmA_DAP
 ARO:3003800	40485	5218	2302	Enterococcus faecalis gdpD with mutation conferring daptomycin resistance	Enterococcus faecalis gdpD with mutation conferring daptomycin resistance	AAO81656.1	AE016830.1	daptomycin resistant gdpD	peptide antibiotic	antibiotic target alteration	Efae_gdpD_DAP
 ARO:3003805	40490	5214	2305	Enterococcus faecalis gshF with mutation conferring daptomycin resistance	Enterococcus faecalis gshF with mutation conferring daptomycin resistance	AMR95642.1	CP014949.1	daptomycin resistant gshF	peptide antibiotic	antibiotic target alteration	Efae_gshF_DAP
-ARO:3003077	39624	4744	953	Enterococcus faecalis liaF mutant conferring daptomycin resistance	Enterococcus faecalis liaF mutant conferring daptomycin resistance	AAO82601.1	AE016830.1	daptomycin resistant liaF	peptide antibiotic	antibiotic efflux;antibiotic target alteration	Efae_liaF_DAP
+ARO:3003077	39624	8887	953	Enterococcus faecalis liaF mutant conferring daptomycin resistance	Enterococcus faecalis liaF mutant conferring daptomycin resistance	WP_002381168.1	NC_004668.1	daptomycin resistant liaF	peptide antibiotic	antibiotic efflux;antibiotic target alteration	Efae_liaF_DAP
 ARO:3003792	40477	5215	2297	Enterococcus faecalis liaR mutant conferring daptomycin resistance	Enterococcus faecalis liaR mutant conferring daptomycin resistance	AAO82599.1	AE016830.1	daptomycin resistant liaR	peptide antibiotic	antibiotic efflux;antibiotic target alteration	Efae_liaR_DAP
 ARO:3003791	40476	4629	2296	Enterococcus faecalis liaS mutant conferring daptomycin resistance	Enterococcus faecalis liaS mutant conferring daptomycin resistance	AAO82600.1	AE016830.1	daptomycin resistant liaS	peptide antibiotic	antibiotic efflux;antibiotic target alteration	Efae_liaS_DAP
 ARO:3003815	40504	5209	2313	Enterococcus faecalis YvlB with mutation conferring daptomycin resistance	Enterococcus faecalis YvlB with mutation conferring daptomycin resistance	AAO81526.1	AE016830.1	daptomycin resistant YvlB	peptide antibiotic	antibiotic target alteration	Efae_YvlB_DAP
@@ -1512,7 +1518,7 @@ ARO:3003294	39878	4695	1545	Escherichia coli gyrA conferring resistance to fluor
 ARO:3004335	41503	4469	2851	Escherichia coli gyrA with mutation conferring resistance to triclosan	Escherichia coli gyrA with mutation conferring resistance to triclosan	AAC75291.1	U00096.3	triclosan resistant gyrA	disinfecting agents and antiseptics	antibiotic target alteration	Ecol_gyrA_TRC
 ARO:3003303	39887	2063	111	Escherichia coli gyrB conferring resistance to aminocoumarin	Escherichia coli gyrB conferring resistance to aminocoumarin	BAE77595.1	AP009048.1	aminocoumarin resistant gyrB	aminocoumarin antibiotic	antibiotic target alteration	Ecol_gyrB_AMU
 ARO:3004126	41252	8289	2788	Escherichia coli LamB	Escherichia coli LamB	BAB38442.1	BA000007.3	Sugar Porin (SP)	fluoroquinolone antibiotic;tetracycline antibiotic	reduced permeability to antibiotic;resistance by absence	Ecol_LamB
-ARO:3001328	37727	561	37	Escherichia coli mdfA	Escherichia coli mdfA	AFH35853.1	JQ394987.1	major facilitator superfamily (MFS) antibiotic efflux pump	disinfecting agents and antiseptics;tetracycline antibiotic	antibiotic efflux	Ecol_mdfA
+ARO:3001328	37727	561	37	Escherichia coli mdfA	Escherichia coli mdfA	AFH35853.1	JQ394987.1	major facilitator superfamily (MFS) antibiotic efflux pump	disinfecting agents and antiseptics;phenicol antibiotic;tetracycline antibiotic	antibiotic efflux	Ecol_mdfA
 ARO:3004127	41253	5859	2789	Escherichia coli mipA	Escherichia coli mipA	NP_310518.1	NC_002695.2	MipA-interacting Protein	aminoglycoside antibiotic;fluoroquinolone antibiotic	reduced permeability to antibiotic;resistance by absence	Ecol_mipA
 ARO:3003775	40451	3548	2284	Escherichia coli murA with mutation conferring resistance to fosfomycin	Escherichia coli murA with mutation conferring resistance to fosfomycin	AIL15701.1	CP009072.1	antibiotic-resistant murA transferase	phosphonic acid antibiotic	antibiotic target alteration	Ecol_murA_FOF
 ARO:3003751	40407	5371	2267	Escherichia coli nfsA mutations conferring resistance to nitrofurantoin	Escherichia coli nfsA mutations conferring resistance to nitrofurantoin	AAC73938.1	U00096.3	antibiotic resistant nfsA	nitrofuran antibiotic	antibiotic target alteration	Ecol_nfsA_NIT
@@ -1526,11 +1532,11 @@ ARO:3004109	41230	4487	2776	Escherichia coli rob	Escherichia coli rob	NP_418813.
 ARO:3003288	39872	5493	627	Escherichia coli rpoB mutants conferring resistance to rifampicin	Escherichia coli rpoB mutants conferring resistance to rifampicin	BAB38333.1	BA000007.3	rifamycin-resistant beta-subunit of RNA polymerase (rpoB)	peptide antibiotic;rifamycin antibiotic	antibiotic target alteration;antibiotic target replacement	Ecol_rpoB_RIF
 ARO:3003381	39965	2074	1005	Escherichia coli soxR with mutation conferring antibiotic resistance	Escherichia coli soxR with mutation conferring antibiotic resistance	AAC77033.1	U00096.1	ATP-binding cassette (ABC) antibiotic efflux pump;major facilitator superfamily (MFS) antibiotic efflux pump;resistance-nodulation-cell division (RND) antibiotic efflux pump	cephalosporin;disinfecting agents and antiseptics;fluoroquinolone antibiotic;glycylcycline;penam;phenicol antibiotic;rifamycin antibiotic;tetracycline antibiotic	antibiotic efflux;antibiotic target alteration	Ecol_soxR_MULT
 ARO:3003511	40113	5276	2066	Escherichia coli soxS with mutation conferring antibiotic resistance	Escherichia coli soxS with mutation conferring antibiotic resistance	AAC77032.1	U00096.3	ATP-binding cassette (ABC) antibiotic efflux pump;General Bacterial Porin with reduced permeability to beta-lactams;major facilitator superfamily (MFS) antibiotic efflux pump;resistance-nodulation-cell division (RND) antibiotic efflux pump	carbapenem;cephalosporin;cephamycin;disinfecting agents and antiseptics;fluoroquinolone antibiotic;glycylcycline;monobactam;penam;penem;phenicol antibiotic;rifamycin antibiotic;tetracycline antibiotic	antibiotic efflux;antibiotic target alteration;reduced permeability to antibiotic	Ecol_soxS_MULT
-ARO:3003893	40595	3671	2376	Escherichia coli UhpA with mutation conferring resistance to fosfomycin	Escherichia coli uhpA with mutation conferring resistance to fosfomycin	CDJ73205.1	HG738867.1	antibiotic-resistant UhpT	phosphonic acid antibiotic	antibiotic target alteration	Ecol_uhpA_FOF
 ARO:3003893	40595	3668	2374	Escherichia coli UhpA with mutation conferring resistance to fosfomycin	Escherichia coli uhpA with mutation conferring resistance to fosfomycin	CDJ73205.1	HG738867.1	antibiotic-resistant UhpT	phosphonic acid antibiotic	antibiotic target alteration	Ecol_uhpA_FOF
+ARO:3003893	40595	3671	2376	Escherichia coli UhpA with mutation conferring resistance to fosfomycin	Escherichia coli uhpA with mutation conferring resistance to fosfomycin	CDJ73205.1	HG738867.1	antibiotic-resistant UhpT	phosphonic acid antibiotic	antibiotic target alteration	Ecol_uhpA_FOF
 ARO:3003890	40592	3667	2373	Escherichia coli UhpT with mutation conferring resistance to fosfomycin	Escherichia coli UhpT with mutation conferring resistance to fosfomycin	CDJ73208.1	HG738867.1	antibiotic-resistant UhpT	phosphonic acid antibiotic	antibiotic target alteration	Ecol_UhpT_FOF
 ARO:3003717	40371	3432	2232	ESP-1	ESP-1	AJP77085.1	KP109681.1	ESP beta-lactamase	carbapenem	antibiotic inactivation	ESP-1
-ARO:3007459	46222	8670	5948	EstT	EstT	UXD71803.1	CP094932.1	macrolide esterase	glycylcycline;macrolide antibiotic;tetracycline antibiotic	antibiotic inactivation	EstT
+ARO:3007459	46222	8670	5948	EstT	EstT	UXD71803.1	CP094932.1	macrolide esterase	macrolide antibiotic	antibiotic inactivation	EstT
 ARO:3000832	37212	5466	1015	evgA	evgA	BAB36671.1	BA000007.3	major facilitator superfamily (MFS) antibiotic efflux pump;resistance-nodulation-cell division (RND) antibiotic efflux pump	fluoroquinolone antibiotic;macrolide antibiotic;penam;tetracycline antibiotic	antibiotic efflux	evgA
 ARO:3000833	37213	178	1318	evgS	evgS	AAC75429.1	U00096.1	major facilitator superfamily (MFS) antibiotic efflux pump;resistance-nodulation-cell division (RND) antibiotic efflux pump	fluoroquinolone antibiotic;macrolide antibiotic;penam;tetracycline antibiotic	antibiotic efflux	evgS
 ARO:3006886	45348	6975	4600	EVM-1	EVM-1	WP_122630823.1	NG_062205.1	EVM beta-lactamase	carbapenem	antibiotic inactivation	EVM-1
@@ -1661,7 +1667,18 @@ ARO:3006172	44634	7001	4626	GES-43	GES-43	WP_148044414.1	NG_065871.1	GES beta-la
 ARO:3006173	44635	7002	4627	GES-44	GES-44	WP_188331868.1	NG_070735.1	GES beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	GES-44
 ARO:3006174	44636	7003	4628	GES-45	GES-45	WP_188331869.1	NG_070736.1	GES beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	GES-45
 ARO:3006175	44637	7004	4629	GES-46	GES-46	WP_197749401.1	NG_071202.1	GES beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	GES-46
+ARO:3007825	46612	8869	6049	GES-47	GES-47	BCT36862.1	LC612389.1	GES beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	GES-47
+ARO:3007826	46613	8870	6050	GES-48	GES-48	BCT36863.1	LC612390.1	GES beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	GES-48
+ARO:3007827	46614	8871	6051	GES-49	GES-49	BCY26593.1	LC637995.1	GES beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	GES-49
 ARO:3002334	38734	1866	1353	GES-5	GES-5	AAR97270.1	AY494717.1	GES beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	GES-5
+ARO:3007828	46615	8872	6052	GES-50	GES-50	BDB58072.1	LC654878.1	GES beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	GES-50
+ARO:3007829	46616	8873	6053	GES-51	GES-51	BDB58073.1	LC654879.1	GES beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	GES-51
+ARO:3007830	46617	8874	6054	GES-52	GES-52	UOM32505.1	ON166564.1	GES beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	GES-52
+ARO:3007831	46618	8875	6055	GES-53	GES-53	UQM94989.1	ON418962.1	GES beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	GES-53
+ARO:3007832	46619	8876	6056	GES-54	GES-54	BDI54505.1	LC709174.1	GES beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	GES-54
+ARO:3007833	46620	8877	6057	GES-55	GES-55	UUF81220.1	ON714048.1	GES beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	GES-55
+ARO:3007834	46621	8878	6058	GES-56	GES-56	UUT09019.1	OP158701.1	GES beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	GES-56
+ARO:3007835	46622	8886	6059	GES-57	GES-57	UYS49421.1	OP716785.1	GES beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	GES-57
 ARO:3002335	38735	1969	1828	GES-6	GES-6	AAR97271.1	AY494718.1	GES beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	GES-6
 ARO:3002336	38736	8194	483	GES-7	GES-7	AAP22974.1	AY260546.3	GES beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	GES-7
 ARO:3002337	38737	790	932	GES-8	GES-8	AAK18183.1	AF329699.1	GES beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	GES-8
@@ -2379,90 +2396,97 @@ ARO:3003389	39973	2070	1721	Mycobacterium leprae folP with mutation conferring r
 ARO:3003298	39882	2059	36	Mycobacterium leprae gyrA conferring resistance to fluoroquinolones	Mycobacterium leprae gyrA conferring resistance to fluoroquinolones	CAC29514.1	AL450380.1	fluoroquinolone resistant gyrA	fluoroquinolone antibiotic;nybomycin-like antibiotic	antibiotic target alteration	Mlep_gyrA_FLO
 ARO:3003304	39888	2066	1710	Mycobacterium leprae gyrB conferring resistance to fluoroquinolones	Mycobacterium leprae gyrB conferring resistance to fluoroquinolones	CAC29513.1	AL450380.1	fluoroquinolone resistant gyrB	aminocoumarin antibiotic;fluoroquinolone antibiotic	antibiotic target alteration	Mlep_gyrB_FLO
 ARO:3003284	39868	4581	624	Mycobacterium leprae rpoB mutations conferring resistance to rifampicin	Mycobacterium leprae rpoB mutations conferring resistance to rifampicin	CAC30845.1	AL450380.1	rifamycin-resistant beta-subunit of RNA polymerase (rpoB)	peptide antibiotic;rifamycin antibiotic	antibiotic target alteration;antibiotic target replacement	Mlep_rpoB_RIF
-ARO:3003481	40077	3261	2070	Mycobacterium tuberculosis 16S rRNA mutation conferring resistance to amikacin	Mycobacterium tuberculosis 16S rRNA mutation conferring resistance to amikacin		AL123456.3	16s rRNA with mutation conferring resistance to aminoglycoside antibiotics	aminoglycoside antibiotic;glycopeptide antibiotic;glycylcycline;nucleoside antibiotic;peptide antibiotic;tetracycline antibiotic	antibiotic target alteration	Mtub_16S_AMK
-ARO:3004853	42989	5921	3651	Mycobacterium tuberculosis 16S rRNA mutation conferring resistance to capreomycin	Mycobacterium tuberculosis 16S rRNA mutation conferring resistance to capreomycin		AL123456.3	16s rRNA with mutation conferring resistance to aminoglycoside antibiotics	aminoglycoside antibiotic;glycopeptide antibiotic;glycylcycline;nucleoside antibiotic;peptide antibiotic;tetracycline antibiotic	antibiotic target alteration	Mtub_16S_CAP
-ARO:3003436	40020	3263	2132	Mycobacterium tuberculosis 16S rRNA mutation conferring resistance to kanamycin	Mycobacterium tuberculosis 16S rRNA mutation conferring resistance to kanamycin		AL123456.3	16s rRNA with mutation conferring resistance to aminoglycoside antibiotics	aminoglycoside antibiotic;glycopeptide antibiotic;glycylcycline;nucleoside antibiotic;peptide antibiotic;tetracycline antibiotic	antibiotic target alteration	Mtub_16S_KAN
-ARO:3003480	40076	4123	2131	Mycobacterium tuberculosis 16S rRNA mutation conferring resistance to streptomycin	Mycobacterium tuberculosis 16S rRNA mutation conferring resistance to streptomycin		AL123456.3	16s rRNA with mutation conferring resistance to aminoglycoside antibiotics	aminoglycoside antibiotic;glycopeptide antibiotic;glycylcycline;nucleoside antibiotic;peptide antibiotic;tetracycline antibiotic	antibiotic target alteration	Mtub_16S_STR
-ARO:3003437	40021	3260	2133	Mycobacterium tuberculosis 16S rRNA mutation conferring resistance to viomycin	Mycobacterium tuberculosis 16S rRNA mutation conferring resistance to viomycin		AL123456.3	16s rRNA with mutation conferring resistance to peptide antibiotics	aminoglycoside antibiotic;glycopeptide antibiotic;glycylcycline;nucleoside antibiotic;peptide antibiotic;tetracycline antibiotic	antibiotic target alteration	Mtub_16S_VIO
+ARO:3003481	40077	8764	2070	Mycobacterium tuberculosis 16S rRNA mutation conferring resistance to amikacin	Mycobacterium tuberculosis 16S rRNA mutation conferring resistance to amikacin		NC_000962.3	16s rRNA with mutation conferring resistance to aminoglycoside antibiotics	aminoglycoside antibiotic;glycopeptide antibiotic;glycylcycline;nucleoside antibiotic;peptide antibiotic;tetracycline antibiotic	antibiotic target alteration	Mtub_16S_AMK
+ARO:3004853	42989	8768	3651	Mycobacterium tuberculosis 16S rRNA mutation conferring resistance to capreomycin	Mycobacterium tuberculosis 16S rRNA mutation conferring resistance to capreomycin		NC_000962.3	16s rRNA with mutation conferring resistance to aminoglycoside antibiotics	aminoglycoside antibiotic;glycopeptide antibiotic;glycylcycline;nucleoside antibiotic;peptide antibiotic;tetracycline antibiotic	antibiotic target alteration	Mtub_16S_CAP
+ARO:3003436	40020	8765	2132	Mycobacterium tuberculosis 16S rRNA mutation conferring resistance to kanamycin	Mycobacterium tuberculosis 16S rRNA mutation conferring resistance to kanamycin		NC_000962.3	16s rRNA with mutation conferring resistance to aminoglycoside antibiotics	aminoglycoside antibiotic;glycopeptide antibiotic;glycylcycline;nucleoside antibiotic;peptide antibiotic;tetracycline antibiotic	antibiotic target alteration	Mtub_16S_KAN
+ARO:3003480	40076	8766	2131	Mycobacterium tuberculosis 16S rRNA mutation conferring resistance to streptomycin	Mycobacterium tuberculosis 16S rRNA mutation conferring resistance to streptomycin		NC_000962.3	16s rRNA with mutation conferring resistance to aminoglycoside antibiotics	aminoglycoside antibiotic;glycopeptide antibiotic;glycylcycline;nucleoside antibiotic;peptide antibiotic;tetracycline antibiotic	antibiotic target alteration	Mtub_16S_STR
+ARO:3003437	40021	8767	2133	Mycobacterium tuberculosis 16S rRNA mutation conferring resistance to viomycin	Mycobacterium tuberculosis 16S rRNA mutation conferring resistance to viomycin		NC_000962.3	16s rRNA with mutation conferring resistance to peptide antibiotics	aminoglycoside antibiotic;glycopeptide antibiotic;glycylcycline;nucleoside antibiotic;peptide antibiotic;tetracycline antibiotic	antibiotic target alteration	Mtub_16S_VIO
 ARO:3007536	46307	8695	5972	Mycobacterium tuberculosis 16S rRNA (rrnS) mutation conferring resistance to amikacin	Mycobacterium tuberculosis 16S rRNA (rrnS) mutation conferring resistance to amikacin		NC_000962.3	16s rRNA with mutation conferring resistance to aminoglycoside antibiotics	aminoglycoside antibiotic;glycopeptide antibiotic;glycylcycline;nucleoside antibiotic;peptide antibiotic;tetracycline antibiotic	antibiotic target alteration	Mtub_16rrnS_AMK
 ARO:3007537	46308	8696	5974	Mycobacterium tuberculosis 16S rRNA (rrnS) mutation conferring resistance to kanamycin	Mycobacterium tuberculosis 16S rRNA (rrnS) mutation conferring resistance to kanamycin		NC_000962.3	16s rRNA with mutation conferring resistance to aminoglycoside antibiotics	aminoglycoside antibiotic;glycopeptide antibiotic;glycylcycline;nucleoside antibiotic;peptide antibiotic;tetracycline antibiotic	antibiotic target alteration	Mtub_16rrnS_KAN
-ARO:3004937	43123	6024	3745	Mycobacterium tuberculosis 23S rRNA mutation conferring resistance to capreomycin	Mycobacterium tuberculosis 23S rRNA mutation conferring resistance to capreomycin		AL123456.3	23s rRNA with mutation conferring resistance to aminoglycoside antibiotics	aminoglycoside antibiotic;glycopeptide antibiotic;lincosamide antibiotic;macrolide antibiotic;phenicol antibiotic;pleuromutilin antibiotic;streptogramin A antibiotic;streptogramin B antibiotic;streptogramin antibiotic	antibiotic target alteration	Mtub_23S_CAP
-ARO:3004951	43137	6019	3741	Mycobacterium tuberculosis aftA mutations confer resistance to ethambutol	Mycobacterium tuberculosis aftA mutations confer resistance to ethambutol	CCP46621.1	AL123456.3	ethambutol resistant aftA	polyamine antibiotic	antibiotic target alteration	Mtub_aftA_EMB
-ARO:3004921	43107	5999	3723	Mycobacterium tuberculosis ahpC mutations confer resistance to isoniazid	Mycobacterium tuberculosis ahpC mutations confer resistance to isoniazid	CCP45220.1	AL123456.3	Isoniazid resistant ahpC	isoniazid-like antibiotic	antibiotic target alteration	Mtub_ahpC_INH
-ARO:3004945	43131	6023	3744	Mycobacterium tuberculosis ald mutations confer resistance to cycloserine	Mycobacterium tuberculosis ald mutations confer resistance to cycloserine	CCP45579.1	AL123456.3	cycloserine resistant ald	cycloserine-like antibiotic	antibiotic target alteration	Mtub_ald_DCS
-ARO:3004947	43133	6021	3743	Mycobacterium tuberculosis alr with mutation conferring resistance to cycloserine	Mycobacterium tuberculosis alr with mutation conferring resistance to cycloserine	CCP46245.1	AL123456.3	cycloserine resistant alr	cycloserine-like antibiotic	antibiotic target alteration	Mtub_alr_DCS
-ARO:3004957	43143	5982	3705	Mycobacterium tuberculosis clpC1 with mutation conferring resistance to pyrazinamide	Mycobacterium tuberculosis clpC1 with mutation conferring resistance to pyrazinamide	CCP46419.1	AL123456.3	pyrazinamide resistant clpC1	pyrazine antibiotic	antibiotic target alteration	Mtub_clpC1_PZA
-ARO:3004941	43127	6020	3742	Mycobacterium tuberculosis ddlA mutations confer resistance to cycloserine	Mycobacterium tuberculosis ddlA mutations confer resistance to cycloserine	CCP45786.1	AL123456.3	cycloserine resistant ddlA	cycloserine-like antibiotic	antibiotic target alteration	Mtub_ddlA_DCS
+ARO:3004937	43123	8769	3745	Mycobacterium tuberculosis 23S rRNA mutation conferring resistance to capreomycin	Mycobacterium tuberculosis 23S rRNA mutation conferring resistance to capreomycin		NC_000962.3	23s rRNA with mutation conferring resistance to aminoglycoside antibiotics	aminoglycoside antibiotic;glycopeptide antibiotic;lincosamide antibiotic;macrolide antibiotic;phenicol antibiotic;pleuromutilin antibiotic;streptogramin A antibiotic;streptogramin B antibiotic;streptogramin antibiotic	antibiotic target alteration	Mtub_23S_CAP
+ARO:3004951	43137	8770	3741	Mycobacterium tuberculosis aftA mutations confer resistance to ethambutol	Mycobacterium tuberculosis aftA mutations confer resistance to ethambutol	NP_218309.1	NC_000962.3	ethambutol resistant aftA	polyamine antibiotic	antibiotic target alteration	Mtub_aftA_EMB
+ARO:3004921	43107	8771	3723	Mycobacterium tuberculosis ahpC mutations confer resistance to isoniazid	Mycobacterium tuberculosis ahpC mutations confer resistance to isoniazid	NP_216944.1	NC_000962.3	Isoniazid resistant ahpC	isoniazid-like antibiotic	antibiotic target alteration	Mtub_ahpC_INH
+ARO:3004945	43131	8821	3744	Mycobacterium tuberculosis ald mutations confer resistance to cycloserine	Mycobacterium tuberculosis ald mutations confer resistance to cycloserine	NP_217296.1	NC_000962.3	cycloserine resistant ald	cycloserine-like antibiotic	antibiotic target alteration	Mtub_ald_DCS
+ARO:3004947	43133	8822	3743	Mycobacterium tuberculosis alr with mutation conferring resistance to cycloserine	Mycobacterium tuberculosis alr with mutation conferring resistance to cycloserine	NP_217940.1	NC_000962.3	cycloserine resistant alr	cycloserine-like antibiotic	antibiotic target alteration	Mtub_alr_DCS
+ARO:3004957	43143	8823	3705	Mycobacterium tuberculosis clpC1 with mutation conferring resistance to pyrazinamide	Mycobacterium tuberculosis clpC1 with mutation conferring resistance to pyrazinamide	YP_177995.1	NC_000962.3	pyrazinamide resistant clpC1	pyrazine antibiotic	antibiotic target alteration	Mtub_clpC1_PZA
+ARO:3004941	43127	8824	3742	Mycobacterium tuberculosis ddlA mutations confer resistance to cycloserine	Mycobacterium tuberculosis ddlA mutations confer resistance to cycloserine	NP_217497.1	NC_000962.3	cycloserine resistant ddlA	cycloserine-like antibiotic	antibiotic target alteration	Mtub_ddlA_DCS
 ARO:3007661	46441	8721	6000	Mycobacterium tuberculosis ddn mutation conferring resistance to nitroimidazole antibiotics	Mycobacterium tuberculosis ddn mutation conferring resistance to nitroimidazole antibiotics	NP_218064.1	NC_000962.3	antibiotic resistant Mycobacterium tuberculosis nitroreductase	nitroimidazole antibiotic	antibiotic target alteration	Mtub_ddn_MULT
-ARO:3004918	43104	5997	3721	Mycobacterium tuberculosis eccB5 conferring resistance to fluoroquinolones	Mycobacterium tuberculosis eccB5 conferring resistance to fluoroquinolones	CCP44549.1	AL123456.3	fluoroquinolone resistant eccB5	fluoroquinolone antibiotic	antibiotic target alteration	Mtub_eccB5_FLO
-ARO:3004919	43105	5998	3722	Mycobacterium tuberculosis eccC5 conferring resistance to fluoroquinolones	Mycobacterium tuberculosis eccC5 conferring resistance to fluoroquinolones	CCP44550.1	AL123456.3	fluoroquinolone resistant eccC5	fluoroquinolone antibiotic	antibiotic target alteration	Mtub_eccC5_FLO
-ARO:3004963	43149	5984	3707	Mycobacterium tuberculosis eis mutations confer resistance to kanamycin	Mycobacterium tuberculosis eis mutations confer resistance to kanamycin	CCP45207.1	AL123456.3	kanamycin resistant eis	aminoglycoside antibiotic	antibiotic target alteration	Mtub_eis_KAN
-ARO:3003453	40046	2081	1354	Mycobacterium tuberculosis embA mutant conferring resistance to ethambutol	Mycobacterium tuberculosis embA mutant conferring resistance to ethambutol	AFN51820.1	CP003248.1	ethambutol resistant embA	polyamine antibiotic	antibiotic target alteration	Mtub_embA_EMB
-ARO:3003326	39910	2078	196	Mycobacterium tuberculosis embB mutant conferring resistance to ethambutol	Mycobacterium tuberculosis embB mutant conferring resistance to ethambutol	CCP46624.1	AL123456.1	ethambutol resistant embB	polyamine antibiotic	antibiotic target alteration	Mtub_embB_EMB
-ARO:3003465	40058	3327	821	Mycobacterium tuberculosis embB with mutation conferring resistance to rifampicin	Mycobacterium tuberculosis embB with mutation conferring resistance to rifampicin	AAK48268.1	AE000516.1	rifamycin-resistant arabinosyltransferase	polyamine antibiotic;rifamycin antibiotic	antibiotic target alteration	Mtub_embB_RIF
-ARO:3003327	39911	8264	1432	Mycobacterium tuberculosis embC mutant conferring resistance to ethambutol	Mycobacterium tuberculosis embC mutant conferring resistance to ethambutol	AFN51819.1	CP003248.2	ethambutol resistant embC	polyamine antibiotic	antibiotic target alteration	Mtub_embC_EMB
-ARO:3003455	40048	4712	1339	Mycobacterium tuberculosis embR mutant conferring resistance to ethambutol	Mycobacterium tuberculosis embR mutant conferring resistance to ethambutol	CCP44023.1	AL123456.3	ethambutol resistant embR	polyamine antibiotic	antibiotic target alteration	Mtub_embR_EMB
-ARO:3005105	43320	6148	3836	Mycobacterium tuberculosis ethA mutations conferring resistance to isoniazid	Mycobacterium tuberculosis ethA mutations conferring resistance to isoniazid	NP_218371.1	NC_000962.3	isoniazid resistant ethA	isoniazid-like antibiotic;thioamide antibiotic	antibiotic target alteration	Mtub_ethA_INH
-ARO:3005178	43531	8227	3895	Mycobacterium tuberculosis ethA mutations conferring resistance to perchlozone	Mycobacterium tuberculosis ethA mutations conferring resistance to perchlozone	NP_218371.1	NC_000962.3	perchlozone resistant ethA	isoniazid-like antibiotic;thioamide antibiotic;thiosemicarbazone antibiotic	antibiotic target alteration	Mtub_ethA_PCL
-ARO:3005106	43321	6149	3837	Mycobacterium tuberculosis ethA mutations conferring resistance to prothionamide	Mycobacterium tuberculosis ethA mutations conferring resistance to prothionamide	NP_218371.1	NC_000962.3	prothionamide resistant ethA	isoniazid-like antibiotic;thioamide antibiotic	antibiotic target alteration	Mtub_ethA_PTO
-ARO:3003458	40051	4455	100	Mycobacterium tuberculosis ethA with mutation conferring resistance to ethionamide	Mycobacterium tuberculosis ethA with mutation conferring resistance to ethionamide	AAK48336.1	AE000516.2	ethionamide resistant ethA	isoniazid-like antibiotic;thioamide antibiotic	antibiotic target alteration	Mtub_ethA_ETO
-ARO:3004933	43119	6017	3739	Mycobacterium tuberculosis fabG1 mutation conferring resistance to ethionamide	Mycobacterium tuberculosis fabG1 mutation conferring resistance to ethionamide	CCP44243.1	AL123456.3	Ethionamide resistant fabG1	thioamide antibiotic	antibiotic target alteration	Mtub_fabG1_ETO
-ARO:3004922	43108	6000	3724	Mycobacterium tuberculosis fabG1 mutations confer resistance to isoniazid	Mycobacterium tuberculosis fabG1 mutations confer resistance to isoniazid	CCP44243.1	AL123456.3	isoniazid resistant fabG1	isoniazid-like antibiotic	antibiotic target alteration	Mtub_fabG1_INH
-ARO:3004157	41304	5391	2804	Mycobacterium tuberculosis folC with mutation conferring resistance to para-aminosalicylic acid	Mycobacterium tuberculosis folC with mutation conferring resistance to para-aminosalicylic acid	CCP45240.1	AL123456.3	aminosalicylate resistant dihydrofolate synthase	salicylic acid antibiotic	antibiotic target alteration	Mtub_folC_PAS
-ARO:3004923	43109	8338	3725	Mycobacterium tuberculosis furA mutations confer resistance to isoniazid	Mycobacterium tuberculosis furA mutations confer resistance to isoniazid	CCP44676.1	AL123456.3	isoniazid resistant furA	isoniazid-like antibiotic	antibiotic target alteration	Mtub_furA_INH
-ARO:3003470	40063	8134	489	Mycobacterium tuberculosis gidB mutation conferring resistance to streptomycin	Mycobacterium tuberculosis gidB mutation conferring resistance to streptomycin	CCP46748.1	AL123456.3	antibiotic resistant gidB	aminoglycoside antibiotic	antibiotic target alteration	Mtub_gidB_STR
-ARO:3004977	43164	5990	3714	Mycobacterium tuberculosis gpsI with mutations conferring resistance to pyrazinamide	Mycobacterium tuberculosis gpsI with mutations conferring resistance to pyrazinamide	CCP45582.1	AL123456.3	pyrazinamide resistant gpsI	pyrazine antibiotic	antibiotic target alteration	Mtub_gpsI_PZA
-ARO:3003295	39879	2055	1935	Mycobacterium tuberculosis gyrA conferring resistance to fluoroquinolones	Mycobacterium tuberculosis gyrA conferring resistance to fluoroquinolones	CCP42728.1	AL123456.1	fluoroquinolone resistant gyrA	fluoroquinolone antibiotic;nybomycin-like antibiotic	antibiotic target alteration	Mtub_gyrA_FLO
-ARO:3003459	40052	5872	2109	Mycobacterium tuberculosis gyrB mutant conferring resistance to fluoroquinolones	Mycobacterium tuberculosis gyrB mutant conferring resistance to fluoroquinolones	CAA55486.1	X78888.1	fluoroquinolone resistant gyrB	aminocoumarin antibiotic;fluoroquinolone antibiotic	antibiotic target alteration	Mtub_gyrB_FLO
-ARO:3004924	43110	8339	3726	Mycobacterium tuberculosis inbR mutations conferring resistance to isoniazid	Mycobacterium tuberculosis inbR mutations conferring resistance to isoniazid	CCP43004.1	AL123456.3	isoniazid resistant inbR	isoniazid-like antibiotic	antibiotic target alteration	Mtub_inbR_INH
-ARO:3004876	43062	5975	3702	Mycobacterium tuberculosis inhA mutations conferring resistance to ethionamide	Mycobacterium tuberculosis inhA mutations conferring resistance to ethionamide	CCP44244.1	AL123456.3	inhA with mutations with conferring resistance to ethionamide	disinfecting agents and antiseptics;isoniazid-like antibiotic;thioamide antibiotic	antibiotic target alteration	Mtub_inhA_ETO
-ARO:3003393	39977	2085	1574	Mycobacterium tuberculosis inhA mutations conferring resistance to isoniazid	Mycobacterium tuberculosis inhA mutations conferring resistance to isoniazid	CCP44244.1	AL123456.1	isoniazid resistant inhA	disinfecting agents and antiseptics;isoniazid-like antibiotic	antibiotic target alteration	Mtub_inhA_INH
-ARO:3003448	40041	2099	366	Mycobacterium tuberculosis iniA mutant conferring resistance to ethambutol	Mycobacterium tuberculosis iniA mutant conferring resistance to ethambutol	CCP43072.1	AL123456.1	Ethambutol resistant iniA	polyamine antibiotic	antibiotic efflux;antibiotic target alteration	Mtub_iniA_EMB
-ARO:3004135	41262	5509	2834	Mycobacterium tuberculosis iniB with mutation conferring resistance to ethambutol	Mycobacterium tuberculosis iniB with mutation conferring resistance to ethambutol	CCP43071.1	AL123456.3	Ethambutol resistant iniB	polyamine antibiotic	antibiotic efflux;antibiotic target alteration	Mtub_iniB_EMB
-ARO:3003451	40044	2100	505	Mycobacterium tuberculosis iniC mutant conferring resistance to ethambutol	Mycobacterium tuberculosis iniC mutant conferring resistance to ethambutol	CCP43073.1	AL123456.1	Ethambutol resistant iniC	polyamine antibiotic	antibiotic efflux;antibiotic target alteration	Mtub_iniC_EMB
-ARO:3003784	40467	3555	2290	Mycobacterium tuberculosis intrinsic murA conferring resistance to fosfomycin	Mycobacterium tuberculosis intrinsic murA conferring resistance to fosfomycin	CCE36834.1	HE608151.1	antibiotic-resistant murA transferase	phosphonic acid antibiotic	antibiotic target alteration	Mtub_murA_FOF
-ARO:3003463	40056	2084	1943	Mycobacterium tuberculosis kasA mutant conferring resistance to isoniazid	Mycobacterium tuberculosis kasA mutant conferring resistance to isoniazid	CCP45025.1	AL123456.1	antibiotic resistant kasA	disinfecting agents and antiseptics;isoniazid-like antibiotic	antibiotic target alteration	Mtub_kasA_INH
-ARO:3003392	39976	5483	1176	Mycobacterium tuberculosis katG mutations conferring resistance to isoniazid	Mycobacterium tuberculosis katG mutations conferring resistance to isoniazid	CCP44675.1	AL123456.3	isoniazid resistant katG	isoniazid-like antibiotic	antibiotic target alteration	Mtub_katG_INH
-ARO:3005102	43317	6146	3834	Mycobacterium tuberculosis katG mutations conferring resistance to prothionamide	Mycobacterium tuberculosis katG mutations conferring resistance to prothionamide	CCP44675.1	AL123456.3	prothionamide resistant katG	thioamide antibiotic	antibiotic target alteration	Mtub_katG_PTO
-ARO:3004978	43165	5991	3715	Mycobacterium tuberculosis mas mutations confer resistance to pyrazinamide	Mycobacterium tuberculosis mas mutations confer resistance to pyrazinamide	CCP45743.1	AL123456.3	pyrazinamide resistant mas	pyrazine antibiotic	antibiotic target alteration	Mtub_mas_PZA
-ARO:3004929	43115	6026	3732	Mycobacterium tuberculosis mmaA3 mutations conferring resistance to isoniazid	Mycobacterium tuberculosis mmaA3 mutations conferring resistance to isoniazid	CCP43386.1	AL123456.3	isoniazid resistant mmaA3	isoniazid-like antibiotic	antibiotic target alteration	Mtub_mmaA3_INH
-ARO:3004925	43111	6003	3727	Mycobacterium tuberculosis mshA mutations conferring resistance to isoniazid	Mycobacterium tuberculosis mshA mutations conferring resistance to isoniazid	CCP43220.1	AL123456.3	isoniazid resistant mshA	isoniazid-like antibiotic	antibiotic target alteration	Mtub_mshA_INH
+ARO:3004918	43104	8825	3721	Mycobacterium tuberculosis eccB5 conferring resistance to fluoroquinolones	Mycobacterium tuberculosis eccB5 conferring resistance to fluoroquinolones	NP_216298.1	NC_000962.3	fluoroquinolone resistant eccB5	fluoroquinolone antibiotic	antibiotic target alteration	Mtub_eccB5_FLO
+ARO:3004919	43105	8826	3722	Mycobacterium tuberculosis eccC5 conferring resistance to fluoroquinolones	Mycobacterium tuberculosis eccC5 conferring resistance to fluoroquinolones	YP_007410461.1	NC_000962.3	fluoroquinolone resistant eccC5	fluoroquinolone antibiotic	antibiotic target alteration	Mtub_eccC5_FLO
+ARO:3004963	43149	8827	3707	Mycobacterium tuberculosis eis mutations confer resistance to kanamycin	Mycobacterium tuberculosis eis mutations confer resistance to kanamycin	NP_216932.2	NC_000962.3	kanamycin resistant eis	aminoglycoside antibiotic	antibiotic target alteration	Mtub_eis_KAN
+ARO:3003453	40046	8804	1354	Mycobacterium tuberculosis embA mutant conferring resistance to ethambutol	Mycobacterium tuberculosis embA mutant conferring resistance to ethambutol	NP_218311.1	NC_000962.3	ethambutol resistant embA	polyamine antibiotic	antibiotic target alteration	Mtub_embA_EMB
+ARO:3003326	39910	8805	196	Mycobacterium tuberculosis embB mutant conferring resistance to ethambutol	Mycobacterium tuberculosis embB mutant conferring resistance to ethambutol	NP_218312.1	NC_000962.3	ethambutol resistant embB	polyamine antibiotic	antibiotic target alteration	Mtub_embB_EMB
+ARO:3003465	40058	8806	821	Mycobacterium tuberculosis embB with mutation conferring resistance to rifampicin	Mycobacterium tuberculosis embB with mutation conferring resistance to rifampicin	NP_218312.1	NC_000962.3	rifamycin-resistant arabinosyltransferase	polyamine antibiotic;rifamycin antibiotic	antibiotic target alteration	Mtub_embB_RIF
+ARO:3003327	39911	8808	1432	Mycobacterium tuberculosis embC mutant conferring resistance to ethambutol	Mycobacterium tuberculosis embC mutant conferring resistance to ethambutol	NP_218310.1	NC_000962.3	ethambutol resistant embC	polyamine antibiotic	antibiotic target alteration	Mtub_embC_EMB
+ARO:3003455	40048	8809	1339	Mycobacterium tuberculosis embR mutant conferring resistance to ethambutol	Mycobacterium tuberculosis embR mutant conferring resistance to ethambutol	NP_215783.1	NC_000962.3	ethambutol resistant embR	polyamine antibiotic	antibiotic target alteration	Mtub_embR_EMB
+ARO:3005105	43320	8810	3836	Mycobacterium tuberculosis ethA mutations conferring resistance to isoniazid	Mycobacterium tuberculosis ethA mutations conferring resistance to isoniazid	NP_218371.1	NC_000962.3	isoniazid resistant ethA	isoniazid-like antibiotic;thioamide antibiotic	antibiotic target alteration	Mtub_ethA_INH
+ARO:3005178	43531	8811	3895	Mycobacterium tuberculosis ethA mutations conferring resistance to perchlozone	Mycobacterium tuberculosis ethA mutations conferring resistance to perchlozone	NP_218371.1	NC_000962.3	perchlozone resistant ethA	isoniazid-like antibiotic;thioamide antibiotic;thiosemicarbazone antibiotic	antibiotic target alteration	Mtub_ethA_PCL
+ARO:3005106	43321	8812	3837	Mycobacterium tuberculosis ethA mutations conferring resistance to prothionamide	Mycobacterium tuberculosis ethA mutations conferring resistance to prothionamide	NP_218371.1	NC_000962.3	prothionamide resistant ethA	isoniazid-like antibiotic;thioamide antibiotic	antibiotic target alteration	Mtub_ethA_PTO
+ARO:3003458	40051	8813	100	Mycobacterium tuberculosis ethA with mutation conferring resistance to ethionamide	Mycobacterium tuberculosis ethA with mutation conferring resistance to ethionamide	NP_218371.1	NC_000962.3	ethionamide resistant ethA	isoniazid-like antibiotic;thioamide antibiotic	antibiotic target alteration	Mtub_ethA_ETO
+ARO:3004933	43119	8814	3739	Mycobacterium tuberculosis fabG1 mutation conferring resistance to ethionamide	Mycobacterium tuberculosis fabG1 mutation conferring resistance to ethionamide	NP_215999.1	NC_000962.3	ethionamide resistant fabG1	thioamide antibiotic	antibiotic target alteration	Mtub_fabG1_ETO
+ARO:3004922	43108	8815	3724	Mycobacterium tuberculosis fabG1 mutations confer resistance to isoniazid	Mycobacterium tuberculosis fabG1 mutations confer resistance to isoniazid	NP_215999.1	NC_000962.3	isoniazid resistant fabG1	isoniazid-like antibiotic	antibiotic target alteration	Mtub_fabG1_INH
+ARO:3007811	46597	8855	6035	Mycobacterium tuberculosis fabG1 with mutations conferring resistance to prothionamide	Mycobacterium tuberculosis fabG1 with mutations conferring resistance to prothionamide	NP_215999.1	NC_000962.3	prothionamide resistant fabG1	thioamide antibiotic	antibiotic target alteration	Mtub_fabG1_PTO
+ARO:3004157	41304	8816	2804	Mycobacterium tuberculosis folC with mutation conferring resistance to para-aminosalicylic acid	Mycobacterium tuberculosis folC with mutation conferring resistance to para-aminosalicylic acid	NP_216963.1	NC_000962.3	aminosalicylate resistant dihydrofolate synthase	salicylic acid antibiotic	antibiotic target alteration	Mtub_folC_PAS
+ARO:3004923	43109	8817	3725	Mycobacterium tuberculosis furA mutations confer resistance to isoniazid	Mycobacterium tuberculosis furA mutations confer resistance to isoniazid	NP_216425.2	NC_000962.3	isoniazid resistant furA	isoniazid-like antibiotic	antibiotic target alteration	Mtub_furA_INH
+ARO:3003470	40063	8818	489	Mycobacterium tuberculosis gidB mutation conferring resistance to streptomycin	Mycobacterium tuberculosis gidB mutation conferring resistance to streptomycin	NP_218436.2	NC_000962.3	antibiotic resistant gidB	aminoglycoside antibiotic	antibiotic target alteration	Mtub_gidB_STR
+ARO:3004977	43164	8819	3714	Mycobacterium tuberculosis gpsI with mutations conferring resistance to pyrazinamide	Mycobacterium tuberculosis gpsI with mutations conferring resistance to pyrazinamide	NP_217299.1	NC_000962.3	pyrazinamide resistant gpsI	pyrazine antibiotic	antibiotic target alteration	Mtub_gpsI_PZA
+ARO:3003295	39879	8820	1935	Mycobacterium tuberculosis gyrA conferring resistance to fluoroquinolones	Mycobacterium tuberculosis gyrA conferring resistance to fluoroquinolones	NP_214520.1	NC_000962.3	fluoroquinolone resistant gyrA	fluoroquinolone antibiotic;nybomycin-like antibiotic	antibiotic target alteration	Mtub_gyrA_FLO
+ARO:3007806	46592	8850	6030	Mycobacterium tuberculosis gyrA mutations conferring resistance to moxifloxacin	Mycobacterium tuberculosis gyrA mutations conferring resistance to moxifloxacin	NP_214520.1	NC_000962.3	fluoroquinolone resistant gyrA	fluoroquinolone antibiotic;nybomycin-like antibiotic	antibiotic target alteration	Mtub_gyrA_MXF
+ARO:3007807	46593	8851	6031	Mycobacterium tuberculosis gyrA mutations conferring resistance to ofloxacin	Mycobacterium tuberculosis gyrA mutations conferring resistance to ofloxacin	NP_214520.1	NC_000962.3	fluoroquinolone resistant gyrA	fluoroquinolone antibiotic;nybomycin-like antibiotic	antibiotic target alteration	Mtub_gyrA_OFX
+ARO:3003459	40052	8772	2109	Mycobacterium tuberculosis gyrB mutant conferring resistance to fluoroquinolones	Mycobacterium tuberculosis gyrB mutant conferring resistance to fluoroquinolones	NP_214519.2	NC_000962.3	fluoroquinolone resistant gyrB	aminocoumarin antibiotic;fluoroquinolone antibiotic	antibiotic target alteration	Mtub_gyrB_FLO
+ARO:3007810	46596	8854	6034	Mycobacterium tuberculosis gyrB mutations conferring resistance to levofloxacin	Mycobacterium tuberculosis gyrB mutations conferring resistance to levofloxacin	NP_214519.2	NC_000962.3	fluoroquinolone resistant gyrB	aminocoumarin antibiotic;fluoroquinolone antibiotic	antibiotic target alteration	Mtub_gyrB_LEV
+ARO:3007808	46594	8852	6032	Mycobacterium tuberculosis gyrB mutations conferring resistance to ofloxacin	Mycobacterium tuberculosis gyrB mutations conferring resistance to ofloxacin	NP_214519.2	NC_000962.3	fluoroquinolone resistant gyrB	aminocoumarin antibiotic;fluoroquinolone antibiotic	antibiotic target alteration	Mtub_gyrB_OFX
+ARO:3004924	43110	8773	3726	Mycobacterium tuberculosis inbR mutations conferring resistance to isoniazid	Mycobacterium tuberculosis inbR mutations conferring resistance to isoniazid	YP_177706.1	NC_000962.3	isoniazid resistant inbR	isoniazid-like antibiotic	antibiotic target alteration	Mtub_inbR_INH
+ARO:3004876	43062	8774	3702	Mycobacterium tuberculosis inhA mutations conferring resistance to ethionamide	Mycobacterium tuberculosis inhA mutations conferring resistance to ethionamide	NP_216000.1	NC_000962.3	inhA with mutations with conferring resistance to ethionamide	disinfecting agents and antiseptics;isoniazid-like antibiotic;thioamide antibiotic	antibiotic target alteration	Mtub_inhA_ETO
+ARO:3003393	39977	8828	1574	Mycobacterium tuberculosis inhA mutations conferring resistance to isoniazid	Mycobacterium tuberculosis inhA mutations conferring resistance to isoniazid	NP_216000.1	NC_000962.3	isoniazid resistant inhA	disinfecting agents and antiseptics;isoniazid-like antibiotic	antibiotic target alteration	Mtub_inhA_INH
+ARO:3003448	40041	8829	366	Mycobacterium tuberculosis iniA mutant conferring resistance to ethambutol	Mycobacterium tuberculosis iniA mutant conferring resistance to ethambutol	NP_214856.1	NC_000962.3	ethambutol resistant iniA	polyamine antibiotic	antibiotic efflux;antibiotic target alteration	Mtub_iniA_EMB
+ARO:3007798	46582	8845	6024	Mycobacterium tuberculosis iniA mutations conferring resistance to isoniazid	Mycobacterium tuberculosis iniA mutations conferring resistance to isoniazid	NP_214856.1	NC_000962.3	isoniazid resistant iniA	isoniazid-like antibiotic	antibiotic efflux;antibiotic target alteration	Mtub_iniA_INH
+ARO:3004135	41262	8830	2834	Mycobacterium tuberculosis iniB with mutation conferring resistance to ethambutol	Mycobacterium tuberculosis iniB with mutation conferring resistance to ethambutol	NP_214855.1	NC_000962.3	Ethambutol resistant iniB	polyamine antibiotic	antibiotic efflux;antibiotic target alteration	Mtub_iniB_EMB
+ARO:3003451	40044	8831	505	Mycobacterium tuberculosis iniC mutant conferring resistance to ethambutol	Mycobacterium tuberculosis iniC mutant conferring resistance to ethambutol	NP_214857.1	NC_000962.3	Ethambutol resistant iniC	polyamine antibiotic	antibiotic efflux;antibiotic target alteration	Mtub_iniC_EMB
+ARO:3003784	40467	8840	2290	Mycobacterium tuberculosis intrinsic murA conferring resistance to fosfomycin	Mycobacterium tuberculosis intrinsic murA conferring resistance to fosfomycin	NP_215831.1	NC_000962.3	antibiotic-resistant murA transferase	phosphonic acid antibiotic	antibiotic target alteration	Mtub_murA_FOF
+ARO:3003463	40056	8832	1943	Mycobacterium tuberculosis kasA mutant conferring resistance to isoniazid	Mycobacterium tuberculosis kasA mutant conferring resistance to isoniazid	NP_216761.1	NC_000962.3	antibiotic resistant kasA	disinfecting agents and antiseptics;isoniazid-like antibiotic	antibiotic target alteration	Mtub_kasA_INH
+ARO:3003392	39976	8833	1176	Mycobacterium tuberculosis katG mutations conferring resistance to isoniazid	Mycobacterium tuberculosis katG mutations conferring resistance to isoniazid	NP_216424.1	NC_000962.3	isoniazid resistant katG	isoniazid-like antibiotic	antibiotic target alteration	Mtub_katG_INH
+ARO:3005102	43317	8834	3834	Mycobacterium tuberculosis katG mutations conferring resistance to prothionamide	Mycobacterium tuberculosis katG mutations conferring resistance to prothionamide	NP_216424.1	NC_000962.3	prothionamide resistant katG	thioamide antibiotic	antibiotic target alteration	Mtub_katG_PTO
+ARO:3004978	43165	8835	3715	Mycobacterium tuberculosis mas mutations confer resistance to pyrazinamide	Mycobacterium tuberculosis mas mutations confer resistance to pyrazinamide	NP_217456.1	NC_000962.3	pyrazinamide resistant mas	pyrazine antibiotic	antibiotic target alteration	Mtub_mas_PZA
+ARO:3004929	43115	8836	3732	Mycobacterium tuberculosis mmaA3 mutations conferring resistance to isoniazid	Mycobacterium tuberculosis mmaA3 mutations conferring resistance to isoniazid	NP_215157.1	NC_000962.3	isoniazid resistant mmaA3	isoniazid-like antibiotic	antibiotic target alteration	Mtub_mmaA3_INH
+ARO:3004925	43111	8837	3727	Mycobacterium tuberculosis mshA mutations conferring resistance to isoniazid	Mycobacterium tuberculosis mshA mutations conferring resistance to isoniazid	NP_215000.1	NC_000962.3	isoniazid resistant mshA	isoniazid-like antibiotic	antibiotic target alteration	Mtub_mshA_INH
 ARO:3005108	43323	6150	3838	Mycobacterium tuberculosis mshA mutations conferring resistance to prothionamide	Mycobacterium tuberculosis mshA mutations conferring resistance to prothionamide	NP_215000.1	NC_000962.3	prothionamide resistant mshA	thioamide antibiotic	antibiotic target alteration	Mtub_mshA_PTO
-ARO:3004934	43120	6016	3738	Mycobacterium tuberculosis mshC mutations conferring resistance to ethionamide	Mycobacterium tuberculosis mshC mutations conferring resistance to ethionamide	CCP44905.1	AL123456.3	ethionamide resistant mshC	thioamide antibiotic	antibiotic target alteration	Mtub_mshC_ETO
-ARO:3004927	43113	6005	3729	Mycobacterium tuberculosis mshC mutations conferring resistance to isoniazid	Mycobacterium tuberculosis mshC mutations conferring resistance to isoniazid	CCP44905.1	AL123456.3	isoniazid resistant mshC	isoniazid-like antibiotic	antibiotic target alteration	Mtub_mshC_INH
+ARO:3004934	43120	8838	3738	Mycobacterium tuberculosis mshC mutations conferring resistance to ethionamide	Mycobacterium tuberculosis mshC mutations conferring resistance to ethionamide	NP_216646.1	NC_000962.3	ethionamide resistant mshC	thioamide antibiotic	antibiotic target alteration	Mtub_mshC_ETO
+ARO:3004927	43113	8839	3729	Mycobacterium tuberculosis mshC mutations conferring resistance to isoniazid	Mycobacterium tuberculosis mshC mutations conferring resistance to isoniazid	NP_216646.1	NC_000962.3	isoniazid resistant mshC	isoniazid-like antibiotic	antibiotic target alteration	Mtub_mshC_INH
 ARO:3004928	43114	6033	3731	Mycobacterium tuberculosis mymA mutations conferring resistance to isoniazid	Mycobacterium tuberculosis mymA mutations conferring resistance to isoniazid	NP_217599.1	NC_000962.3	isoniazid resistant mymA	isoniazid-like antibiotic	antibiotic target alteration	Mtub_mymA_INH
-ARO:3004930	43116	6012	3734	Mycobacterium tuberculosis nat mutations conferring resistance to isoniazid	Mycobacterium tuberculosis nat mutations conferring resistance to isoniazid	CCP46388.1	AL123456.3	isoniazid resistant nat	isoniazid-like antibiotic	antibiotic target alteration	Mtub_nat_INH
-ARO:3003461	40054	4726	1203	Mycobacterium tuberculosis ndh with mutation conferring resistance to isoniazid	Mycobacterium tuberculosis ndh with mutation conferring resistance to isoniazid	CCP44620.1	AL123456.3	antibiotic resistant ndh	isoniazid-like antibiotic	antibiotic target alteration	Mtub_ndh_INH
-ARO:3004935	43121	6015	3737	Mycobacterium tuberculosis nudC mutations conferring resistance to ethionamide	Mycobacterium tuberculosis nudC mutations conferring resistance to ethionamide	CCP46014.1	AL123456.3	ethionamide resistant nudC	thioamide antibiotic	antibiotic target alteration	Mtub_nudC_ETO
-ARO:3004931	43117	5979	3703	Mycobacterium tuberculosis nudC mutations conferring resistance to isoniazid	Mycobacterium tuberculosis nudC mutations conferring resistance to isoniazid	CCP46014.1	AL123456.3	isoniazid resistant nudC	isoniazid-like antibiotic	antibiotic target alteration	Mtub_nudC_INH
-ARO:3003394	39978	4593	851	Mycobacterium tuberculosis pncA mutations conferring resistance to pyrazinamide	Mycobacterium tuberculosis pncA mutations conferring resistance to pyrazinamide	CCP44816.1	AL123456.1	Pyrazinamide resistant pncA	pyrazine antibiotic	antibiotic target alteration	Mtub_pncA_PZA
-ARO:3004960	43146	5983	3706	Mycobacterium tuberculosis ponA1 mutations confer resistance to rifabutin	Mycobacterium tuberculosis ponA1 mutations confer resistance to rifabutin	CCP42772.1	AL123456.3	rifamycin resistant ponA1	rifamycin antibiotic	antibiotic target alteration	Mtub_ponA1_RFB
-ARO:3004975	43162	5988	3712	Mycobacterium tuberculosis ppsC mutations confer resistance to pyrazinamide	Mycobacterium tuberculosis ppsC mutations confer resistance to pyrazinamide	CCP45736.1	AL123456.3	antibiotic resistant polyketide synthase genes	pyrazine antibiotic	antibiotic target alteration	Mtub_ppsC_PZA
-ARO:3004976	43163	5989	3713	Mycobacterium tuberculosis ppsD mutations confer resistance to pyrazinamide	Mycobacterium tuberculosis ppsD mutations confer resistance to pyrazinamide	CCP45737.1	AL123456.3	antibiotic resistant polyketide synthase genes	pyrazine antibiotic	antibiotic target alteration	Mtub_ppsD_PZA
-ARO:3004184	41337	5511	2827	Mycobacterium tuberculosis ribD with mutation conferring resistance to para-aminosalicylic acid	Mycobacterium tuberculosis ribD with mutation conferring resistance to para-aminosalicylic acid	CCP45469.1	AL123456.3	aminosalicylate resistant dihydrofolate reductase	salicylic acid antibiotic	antibiotic target replacement	Mtub_ribD_PAS
-ARO:3004999	43186	6029	3747	Mycobacterium tuberculosis rpoA mutations confer resistance to rifampicin	Mycobacterium tuberculosis rpoA mutations confer resistance to rifampicin	CCP46279.1	AL123456.3	rifampicin resistant rpoA	rifamycin antibiotic	antibiotic target alteration	Mtub_rpoA_RIF
-ARO:3003283	39867	4199	1237	Mycobacterium tuberculosis rpoB mutants conferring resistance to rifampicin	Mycobacterium tuberculosis rpoB mutants conferring resistance to rifampicin	CCP43410.1	AL123456.3	rifamycin-resistant beta-subunit of RNA polymerase (rpoB)	peptide antibiotic;rifamycin antibiotic	antibiotic target alteration;antibiotic target replacement	Mtub_rpoB_RIF
-ARO:3004994	43181	6028	3746	Mycobacterium tuberculosis rpoC mutations confer resistance to rifampicin	Mycobacterium tuberculosis rpoC mutations confer resistance to rifampicin	CCP43411.1	AL123456.3	rifampicin resistant rpoC	rifamycin antibiotic	antibiotic target alteration	Mtub_rpoC_RIF
-ARO:3004721	42776	5598	3403	Mycobacterium tuberculosis rpsA mutations conferring resistance to pyrazinamide	Mycobacterium tuberculosis rpsA mutations conferring resistance to pyrazinamide	CCP44394.1	AL123456.3	pyrazinamide resistant rpsA	pyrazine antibiotic	antibiotic target alteration	Mtub_rpsA_PZA
-ARO:3003395	39979	2087	1197	Mycobacterium tuberculosis rpsL mutations conferring resistance to Streptomycin	Mycobacterium tuberculosis rpsL mutations conferring resistance to Streptomycin	AAK44936.1	AE000516.1	antibiotic-resistant rpsL	aminoglycoside antibiotic	antibiotic target alteration	Mtub_rpsL_STR
-ARO:3004981	43168	5992	3716	Mycobacterium tuberculosis Rv0191 mutations confer resistance to pyrazinamide	Mycobacterium tuberculosis Rv0191 mutations confer resistance to pyrazinamide	CCP42918.1	AL123456.3	pyrazinamide resistant Rv0191	pyrazine antibiotic	antibiotic target alteration	Mtub_Rv0191_PZA
-ARO:3004955	43141	6014	3736	Mycobacterium tuberculosis Rv0565c mutation conferring resistance to ethionamide	Mycobacterium tuberculosis Rv0565c mutation conferring resistance to ethionamide	CCP43303.1	AL123456.3	Ethionamide resistant Rv0565c	thioamide antibiotic	antibiotic target alteration	Mtub_Rv0565_ETO
+ARO:3004930	43116	8777	3734	Mycobacterium tuberculosis nat mutations conferring resistance to isoniazid	Mycobacterium tuberculosis nat mutations conferring resistance to isoniazid	YP_177989.1	NC_000962.3	isoniazid resistant nat	isoniazid-like antibiotic	antibiotic target alteration	Mtub_nat_INH
+ARO:3003461	40054	8780	1203	Mycobacterium tuberculosis ndh with mutation conferring resistance to isoniazid	Mycobacterium tuberculosis ndh with mutation conferring resistance to isoniazid	NP_216370.1	NC_000962.3	antibiotic resistant ndh	isoniazid-like antibiotic	antibiotic target alteration	Mtub_ndh_INH
+ARO:3004935	43121	8782	3737	Mycobacterium tuberculosis nudC mutations conferring resistance to ethionamide	Mycobacterium tuberculosis nudC mutations conferring resistance to ethionamide	NP_217715.1	NC_000962.3	ethionamide resistant nudC	thioamide antibiotic	antibiotic target alteration	Mtub_nudC_ETO
+ARO:3004931	43117	8784	3703	Mycobacterium tuberculosis nudC mutations conferring resistance to isoniazid	Mycobacterium tuberculosis nudC mutations conferring resistance to isoniazid	NP_217715.1	NC_000962.3	isoniazid resistant nudC	isoniazid-like antibiotic	antibiotic target alteration	Mtub_nudC_INH
+ARO:3003394	39978	8786	851	Mycobacterium tuberculosis pncA mutations conferring resistance to pyrazinamide	Mycobacterium tuberculosis pncA mutations conferring resistance to pyrazinamide	NP_216559.1	NC_000962.3	Pyrazinamide resistant pncA	pyrazine antibiotic	antibiotic target alteration	Mtub_pncA_PZA
+ARO:3004960	43146	8789	3706	Mycobacterium tuberculosis ponA1 mutations confer resistance to rifabutin	Mycobacterium tuberculosis ponA1 mutations confer resistance to rifabutin	YP_177687.1	NC_000962.3	rifamycin resistant ponA1	rifamycin antibiotic	antibiotic target alteration	Mtub_ponA1_RFB
+ARO:3004975	43162	8791	3712	Mycobacterium tuberculosis ppsC mutations confer resistance to pyrazinamide	Mycobacterium tuberculosis ppsC mutations confer resistance to pyrazinamide	NP_217449.1	NC_000962.3	antibiotic resistant polyketide synthase genes	pyrazine antibiotic	antibiotic target alteration	Mtub_ppsC_PZA
+ARO:3004976	43163	8793	3713	Mycobacterium tuberculosis ppsD mutations confer resistance to pyrazinamide	Mycobacterium tuberculosis ppsD mutations confer resistance to pyrazinamide	NP_217450.1	NC_000962.3	antibiotic resistant polyketide synthase genes	pyrazine antibiotic	antibiotic target alteration	Mtub_ppsD_PZA
+ARO:3004184	41337	8796	2827	Mycobacterium tuberculosis ribD with mutation conferring resistance to para-aminosalicylic acid	Mycobacterium tuberculosis ribD with mutation conferring resistance to para-aminosalicylic acid	NP_217187.1	NC_000962.3	aminosalicylate resistant dihydrofolate reductase	salicylic acid antibiotic	antibiotic target replacement	Mtub_ribD_PAS
+ARO:3004999	43186	8797	3747	Mycobacterium tuberculosis rpoA mutations confer resistance to rifampicin	Mycobacterium tuberculosis rpoA mutations confer resistance to rifampicin	NP_217974.1	NC_000962.3	rifampicin resistant rpoA	rifamycin antibiotic	antibiotic target alteration	Mtub_rpoA_RIF
+ARO:3003283	39867	8799	1237	Mycobacterium tuberculosis rpoB mutants conferring resistance to rifampicin	Mycobacterium tuberculosis rpoB mutations conferring resistance to rifampicin	NP_215181.1	NC_000962.3	rifamycin-resistant beta-subunit of RNA polymerase (rpoB)	peptide antibiotic;rifamycin antibiotic	antibiotic target alteration;antibiotic target replacement	Mtub_rpoB_RIF
+ARO:3004994	43181	8801	3746	Mycobacterium tuberculosis rpoC mutations confer resistance to rifampicin	Mycobacterium tuberculosis rpoC mutations confer resistance to rifampicin	NP_215182.1	NC_000962.3	rifampicin resistant rpoC	rifamycin antibiotic	antibiotic target alteration	Mtub_rpoC_RIF
+ARO:3004721	42776	8802	3403	Mycobacterium tuberculosis rpsA mutations conferring resistance to pyrazinamide	Mycobacterium tuberculosis rpsA mutations conferring resistance to pyrazinamide	NP_216146.1	NC_000962.3	pyrazinamide resistant rpsA	pyrazine antibiotic	antibiotic target alteration	Mtub_rpsA_PZA
+ARO:3003395	39979	8803	1197	Mycobacterium tuberculosis rpsL mutations conferring resistance to Streptomycin	Mycobacterium tuberculosis rpsL mutations conferring resistance to Streptomycin	NP_215196.1	NC_000962.3	antibiotic-resistant rpsL	aminoglycoside antibiotic	antibiotic target alteration	Mtub_rpsL_STR
+ARO:3004981	43168	8775	3716	Mycobacterium tuberculosis Rv0191 mutations confer resistance to pyrazinamide	Mycobacterium tuberculosis Rv0191 mutations confer resistance to pyrazinamide	NP_214705.1	NC_000962.3	pyrazinamide resistant Rv0191	pyrazine antibiotic	antibiotic target alteration	Mtub_Rv0191_PZA
+ARO:3004955	43141	8884	3736	Mycobacterium tuberculosis Rv0565c mutation conferring resistance to ethionamide	Mycobacterium tuberculosis Rv0565c mutation conferring resistance to ethionamide	NP_215079.1	NC_000962.3	Ethionamide resistant Rv0565c	thioamide antibiotic	antibiotic target alteration	Mtub_Rv0565_ETO
 ARO:3007674	46455	8727	6004	Mycobacterium tuberculosis Rv0678 with mutation conferring resistance to bedaquiline	Mycobacterium tuberculosis Rv0678 with mutation conferring resistance to bedaquiline	NP_215192.1	NC_000962.3	bedaquiline resistant Rv0678	diarylquinoline antibiotic	antibiotic target alteration	Mtub_Rv0678_BDQ
-ARO:3007185	45924	8482	5801	Mycobacterium tuberculosis Rv1258c mutations confer resistance to ethambutol and capreomycin	Mycobacterium tuberculosis Rv1258c mutations confer resistance to ethambutol and capreomycin	AAK45555.1	AE000516.2	multidrug resistant Rv1258c	aminoglycoside antibiotic;isoniazid-like antibiotic;polyamine antibiotic;pyrazine antibiotic	antibiotic target alteration	Mtub_tap_EMCM
-ARO:3007186	45925	8483	5802	Mycobacterium tuberculosis Rv1258c mutations confer resistance to pyrazinamide, isoniazid, and streptomycin	Mycobacterium tuberculosis Rv1258c mutations confer resistance to pyrazinamide, isoniazid, and streptomycin	AAK45555.1	AE000516.2	multidrug resistant Rv1258c	aminoglycoside antibiotic;isoniazid-like antibiotic;polyamine antibiotic;pyrazine antibiotic	antibiotic target alteration	Mtub_tap_MULT
-ARO:3004971	43157	5986	3710	Mycobacterium tuberculosis Rv1258c mutations confer resistance to streptomycin	Mycobacterium tuberculosis Rv1258c mutations confer resistance to streptomycin	CCP44014.1	AL123456.3	streptomycin resistant Rv1258c	aminoglycoside antibiotic	antibiotic target alteration	Mtub_tap_STR
-ARO:3004984	43171	8337	3717	Mycobacterium tuberculosis Rv1667 mutations confer resistance to pyrazinamide	Mycobacterium tuberculosis Rv1667 mutations confer resistance to pyrazinamide	CCP44432.1	AL123456.3	pyrazinamide resistant Rv1667	pyrazine antibiotic	antibiotic target alteration	Mtub_Rv1667_PZA
+ARO:3007185	45924	8790	5801	Mycobacterium tuberculosis Rv1258c mutations confer resistance to ethambutol and capreomycin	Mycobacterium tuberculosis Rv1258c mutations confer resistance to ethambutol and capreomycin	NP_215774.1	NC_000962.3	multidrug resistant Rv1258c	aminoglycoside antibiotic;isoniazid-like antibiotic;polyamine antibiotic;pyrazine antibiotic	antibiotic target alteration	Mtub_tap_EMCM
+ARO:3007186	45925	8788	5802	Mycobacterium tuberculosis Rv1258c mutations confer resistance to pyrazinamide, isoniazid, and streptomycin	Mycobacterium tuberculosis Rv1258c mutations confer resistance to pyrazinamide, isoniazid, and streptomycin	NP_215774.1	NC_000962.3	multidrug resistant Rv1258c	aminoglycoside antibiotic;isoniazid-like antibiotic;polyamine antibiotic;pyrazine antibiotic	antibiotic target alteration	Mtub_tap_MULT
+ARO:3004971	43157	8787	3710	Mycobacterium tuberculosis Rv1258c mutations confer resistance to streptomycin	Mycobacterium tuberculosis Rv1258c mutations confer resistance to streptomycin	NP_215774.1	NC_000962.3	streptomycin resistant Rv1258c	aminoglycoside antibiotic	antibiotic target alteration	Mtub_tap_STR
+ARO:3004984	43171	8779	3717	Mycobacterium tuberculosis Rv1667 mutations confer resistance to pyrazinamide	Mycobacterium tuberculosis Rv1667 mutations confer resistance to pyrazinamide	NP_216185.1	NC_000962.3	pyrazinamide resistant Rv1667	pyrazine antibiotic	antibiotic target alteration	Mtub_Rv1667_PZA
 ARO:3007692	46479	8741	6012	Mycobacterium tuberculosis Rv2535c with mutation conferring resistance to bedaquiline	Mycobacterium tuberculosis Rv2535c with mutation conferring resistance to bedaquiline	NP_217051.1	NC_000962.3	bedaquiline resistant Rv2535c	diarylquinoline antibiotic;fluoroquinolone antibiotic	antibiotic target alteration	Mtub_Rv2535_BDQ
-ARO:3004987	43174	5994	3718	Mycobacterium tuberculosis Rv2731 mutations confer resistance to pyrazinamide	Mycobacterium tuberculosis Rv2731 mutations confer resistance to pyrazinamide	CCP45529.1	AL123456.3	pyrazinamide resistant Rv2731	pyrazine antibiotic	antibiotic target alteration	Mtub_Rv2731_PZA
-ARO:3004993	43180	5996	3720	Mycobacterium tuberculosis Rv3169 mutations confer resistance to pyrazinamide	Mycobacterium tuberculosis Rv3169 mutations confer resistance to pyrazinamide	CCP45980.1	AL123456.3	pyrazinamide resistant Rv3169	pyrazine antibiotic	antibiotic target alteration	Mtub_Rv3169_PZA
-ARO:3004932	43118	6013	3735	Mycobacterium tuberculosis sigI mutations conferring resistance to isoniazid	Mycobacterium tuberculosis sigI mutations conferring resistance to isoniazid	CCP43945.1	AL123456.3	isoniazid resistant sigI	isoniazid-like antibiotic	antibiotic target alteration	Mtub_sigI_INH
-ARO:3004153	41300	5390	2803	Mycobacterium tuberculosis thyA with mutation conferring resistance to para-aminosalicylic acid	Mycobacterium tuberculosis thyA with mutation conferring resistance to para-aminosalicylic acid	CCP45563.1	AL123456.3	aminosalicylate resistant thymidylate synthase	salicylic acid antibiotic	antibiotic target alteration	Mtub_thyA_PAS
-ARO:3003445	40038	2076	1849	Mycobacterium tuberculosis tlyA mutations conferring resistance to aminoglycosides	Mycobacterium tuberculosis tlyA mutations conferring resistance to aminoglycosides	AAK46002.1	AE000516.1	Antibiotic resistant tlyA	aminoglycoside antibiotic	antibiotic target alteration	Mtub_tlyA_AMG
-ARO:3004950	43136	6018	3740	Mycobacterium tuberculosis ubiA mutations confer resistance to ethambutol	Mycobacterium tuberculosis ubiA mutations confer resistance to ethambutol	CCP46635.1	AL123456.3	ethambutol resistant ubiA	polyamine antibiotic	antibiotic target alteration	Mtub_ubiA_EMB
-ARO:3003325	39909	3355	2144	Mycobacterium tuberculosis variant bovis embB with mutation conferring resistance to ethambutol	Mycobacterium tuberculosis variant bovis embB with mutation conferring resistance to ethambutol	CDO45096.1	BX248333.1	ethambutol resistant embB	polyamine antibiotic	antibiotic target alteration	Mbov_embB_EMB
-ARO:3003779	40461	4632	2288	Mycobacterium tuberculosis variant bovis ndh with mutation conferring resistance to isoniazid	Mycobacterium tuberculosis variant bovis ndh with mutation conferring resistance to isoniazid	CAL71877.1	AM408590.1	antibiotic resistant ndh	isoniazid-like antibiotic	antibiotic target alteration	Mbov_ndh_INH
-ARO:3004968	43154	6025	3709	Mycobacterium tuberculosis whib7 mutation conferring resistance to streptomycin	Mycobacterium tuberculosis whib7 mutation conferring resistance to streptomycin	CCP46011.1	AL123456.3	streptomycin resistant whib7	aminoglycoside antibiotic	antibiotic target alteration	Mtub_whib7_STR
-ARO:3004967	43153	5985	3708	Mycobacterium tuberculosis whib7 mutations confer resistance to kanamycin	Mycobacterium tuberculosis whib7 mutations confer resistance to kanamycin	CCP46011.1	AL123456.3	Kanamycin resistant whib7	aminoglycoside antibiotic	antibiotic target alteration	Mtub_whib7_KAN
+ARO:3004987	43174	8781	3718	Mycobacterium tuberculosis Rv2731 mutations confer resistance to pyrazinamide	Mycobacterium tuberculosis Rv2731 mutations confer resistance to pyrazinamide	NP_217247.1	NC_000962.3	pyrazinamide resistant Rv2731	pyrazine antibiotic	antibiotic target alteration	Mtub_Rv2731_PZA
+ARO:3004993	43180	8783	3720	Mycobacterium tuberculosis Rv3169 mutations confer resistance to pyrazinamide	Mycobacterium tuberculosis Rv3169 mutations confer resistance to pyrazinamide	NP_217685.1	NC_000962.3	pyrazinamide resistant Rv3169	pyrazine antibiotic	antibiotic target alteration	Mtub_Rv3169_PZA
+ARO:3004932	43118	8785	3735	Mycobacterium tuberculosis sigI mutations conferring resistance to isoniazid	Mycobacterium tuberculosis sigI mutations conferring resistance to isoniazid	NP_215249.1	NC_000962.3	isoniazid resistant sigI	isoniazid-like antibiotic	antibiotic target alteration	Mtub_sigI_INH
+ARO:3004153	41300	8792	2803	Mycobacterium tuberculosis thyA with mutation conferring resistance to para-aminosalicylic acid	Mycobacterium tuberculosis thyA with mutation conferring resistance to para-aminosalicylic acid	NP_217280.1	NC_000962.3	aminosalicylate resistant thymidylate synthase	salicylic acid antibiotic	antibiotic target alteration	Mtub_thyA_PAS
+ARO:3003445	40038	8794	1849	Mycobacterium tuberculosis tlyA mutations conferring resistance to aminoglycosides	Mycobacterium tuberculosis tlyA mutations conferring resistance to aminoglycosides	NP_216210.1	NC_000962.3	Antibiotic resistant tlyA	aminoglycoside antibiotic	antibiotic target alteration	Mtub_tlyA_AMG
+ARO:3007805	46591	8849	6029	Mycobacterium tuberculosis tlyA mutations conferring resistance to capreomycin	Mycobacterium tuberculosis tlyA mutations conferring resistance to capreomycin	NP_216210.1	NC_000962.3	Antibiotic resistant tlyA	aminoglycoside antibiotic	antibiotic target alteration	Mtub_tlyA_CAP
+ARO:3004950	43136	8795	3740	Mycobacterium tuberculosis ubiA mutations confer resistance to ethambutol	Mycobacterium tuberculosis ubiA mutations confer resistance to ethambutol	NP_218323.1	NC_000962.3	ethambutol resistant ubiA	polyamine antibiotic	antibiotic target alteration	Mtub_ubiA_EMB
+ARO:3003325	39909	8807	2144	Mycobacterium tuberculosis variant bovis embB with mutation conferring resistance to ethambutol	Mycobacterium tuberculosis variant bovis embB with mutation conferring resistance to ethambutol	NP_218312.1	NC_000962.3	ethambutol resistant embB	polyamine antibiotic	antibiotic target alteration	Mbov_embB_EMB
+ARO:3003779	40461	8778	2288	Mycobacterium tuberculosis variant bovis ndh with mutation conferring resistance to isoniazid	Mycobacterium tuberculosis variant bovis ndh with mutation conferring resistance to isoniazid	NP_216370.1	NC_000962.3	antibiotic resistant ndh	isoniazid-like antibiotic	antibiotic target alteration	Mbov_ndh_INH
+ARO:3004968	43154	8798	3709	Mycobacterium tuberculosis whib7 mutation conferring resistance to streptomycin	Mycobacterium tuberculosis whib7 mutation conferring resistance to streptomycin	YP_177940.1	NC_000962.3	streptomycin resistant whib7	aminoglycoside antibiotic	antibiotic target alteration	Mtub_whib7_STR
+ARO:3004967	43153	8800	3708	Mycobacterium tuberculosis whib7 mutations confer resistance to kanamycin	Mycobacterium tuberculosis whib7 mutations confer resistance to kanamycin	YP_177940.1	NC_000962.3	Kanamycin resistant whib7	aminoglycoside antibiotic	antibiotic target alteration	Mtub_whib7_KAN
 ARO:3003239	39823	3254	2084	Mycobacteroides abscessus 16S rRNA mutation conferring resistance to amikacin	Mycobacteroides abscessus 16S rRNA mutation conferring resistance to amikacin		CU458896.1	16s rRNA with mutation conferring resistance to aminoglycoside antibiotics	aminoglycoside antibiotic;glycopeptide antibiotic;glycylcycline;nucleoside antibiotic;peptide antibiotic;tetracycline antibiotic	antibiotic target alteration	Mabs_16S_AMK
 ARO:3003240	39824	3256	2128	Mycobacteroides abscessus 16S rRNA mutation conferring resistance to gentamicin	Mycobacteroides abscessus 16S rRNA mutation conferring resistance to gentamicin		CU458896.1	16s rRNA with mutation conferring resistance to aminoglycoside antibiotics	aminoglycoside antibiotic;glycopeptide antibiotic;glycylcycline;nucleoside antibiotic;peptide antibiotic;tetracycline antibiotic	antibiotic target alteration	Mabs_16S_GEN
 ARO:3003236	39820	3257	2090	Mycobacteroides abscessus 16S rRNA mutation conferring resistance to kanamycin	Mycobacteroides abscessus 16S rRNA mutation conferring resistance to kanamycin		CU458896.1	16s rRNA with mutation conferring resistance to aminoglycoside antibiotics	aminoglycoside antibiotic;glycopeptide antibiotic;glycylcycline;nucleoside antibiotic;peptide antibiotic;tetracycline antibiotic	antibiotic target alteration	Mabs_16S_KAN
@@ -2549,7 +2573,7 @@ ARO:3002359	38759	8233	1168	NDM-9	NDM-9	AGU91756.1	KC999080.2	CMY beta-lactamase
 ARO:3003495	40097	4136	2076	Neisseria gonorrhoeae 16S rRNA mutation conferring resistance to spectinomycin	Neisseria gonorrhoeae 16S rRNA mutation conferring resistance to spectinomycin		CP020418.1	16s rRNA with mutation conferring resistance to aminoglycoside antibiotics	aminoglycoside antibiotic;glycopeptide antibiotic;glycylcycline;nucleoside antibiotic;peptide antibiotic;tetracycline antibiotic	antibiotic target alteration	Ngon_16S_SPT
 ARO:3004836	42966	5918	3646	Neisseria gonorrhoeae 23S rRNA with mutation conferring resistance to azithromycin	Neisseria gonorrhoeae 23S rRNA with mutation conferring resistance to azithromycin		NR_103957.1	23S rRNA with mutation conferring resistance to macrolide antibiotics	glycopeptide antibiotic;lincosamide antibiotic;macrolide antibiotic;phenicol antibiotic;pleuromutilin antibiotic;streptogramin A antibiotic;streptogramin B antibiotic;streptogramin antibiotic	antibiotic target alteration	Ngon_23S_AZM
 ARO:3004873	43059	5974	3701	Neisseria gonorrhoeae folP with mutation conferring resistance to sulfonamides	Neisseria gonorrhoeae folP with mutation conferring resistance to sulfonamides	KAE9504908.1	WHPL01000002.1	sulfonamide resistant dihydropteroate synthase folP	sulfonamide antibiotic;sulfone antibiotic	antibiotic target alteration	Ngon_folP_SLF
-ARO:3003928	40637	5269	2404	Neisseria gonorrhoeae gyrA conferring resistance to fluoroquinolones	Neisseria gonorrhoeae gyrA conferring resistance to fluoroquinolones	AAW89357.1	AE004969.1	fluoroquinolone resistant gyrA	fluoroquinolone antibiotic;nybomycin-like antibiotic	antibiotic target alteration	Ngon_gyrA_FLO
+ARO:3003928	40637	5269	2404	Neisseria gonorrhoeae gyrA with mutations conferring resistance to fluoroquinolones	Neisseria gonorrhoeae gyrA with mutations conferring resistance to fluoroquinolones	AAW89357.1	AE004969.1	fluoroquinolone resistant gyrA	fluoroquinolone antibiotic;nybomycin-like antibiotic	antibiotic target alteration	Ngon_gyrA_FLO
 ARO:3004859	42995	8367	3654	Neisseria gonorrhoeae gyrB conferring resistance to zoliflodacin	Neisseria gonorrhoeae gyrB conferring resistance to zoliflodacin	CNT74515.1	CQOZ01000008.1	Zoliflodacin resistant gyrB	aminocoumarin antibiotic;zoliflodacin-like antibiotic	antibiotic target alteration	Ngon_gyrB_ZOL
 ARO:3005004	43192	6036	3749	Neisseria gonorrhoeae mtrC with mutation conferring resistance to azithromycin	Neisseria gonorrhoeae mtrC with mutation conferring resistance to azithromycin	QIH19826.1	CP043871.1	resistance-nodulation-cell division (RND) antibiotic efflux pump	macrolide antibiotic;penam	antibiotic efflux	Ngon_mtrC_AZM
 ARO:3004851	42987	8361	3649	Neisseria gonorrhoeae mtrR with mutation conferring resistance	Neisseria gonorrhoeae mtrR with mutation conferring resistance	ACF30254.1	CP001050.1	resistance-nodulation-cell division (RND) antibiotic efflux pump	macrolide antibiotic	antibiotic efflux	Ngon_mtrR_AZM
@@ -3005,6 +3029,7 @@ ARO:3001597	37997	5686	3491	OXA-406	OXA-406	AJD07402.1	KJ584915.1	OXA beta-lacta
 ARO:3001598	37998	5687	3492	OXA-407	OXA-407	AJD07403.1	KJ584916.1	OXA beta-lactamase;OXA-51-like beta-lactamase	carbapenem;penam	antibiotic inactivation	OXA-407
 ARO:3001599	37999	5688	3493	OXA-408	OXA-408	AJD07404.1	KJ584917.1	OXA beta-lactamase;OXA-51-like beta-lactamase	carbapenem;penam	antibiotic inactivation	OXA-408
 ARO:3001600	38000	5689	3494	OXA-409	OXA-409	AJD07405.1	KJ584918.1	OXA beta-lactamase;OXA-51-like beta-lactamase	carbapenem;penam	antibiotic inactivation	OXA-409
+ARO:3001601	38001	8758	6023	OXA-410	OXA-410	HCT5551642.1	DAKAKM010000001.1	OXA beta-lactamase	penam	antibiotic inactivation	OXA-410
 ARO:3001602	38002	5690	3495	OXA-411	OXA-411	AJD07406.1	KJ584920.1	OXA beta-lactamase;OXA-51-like beta-lactamase	carbapenem;penam	antibiotic inactivation	OXA-411
 ARO:3001603	38003	5691	3496	OXA-412	OXA-412	AJD07407.1	KJ584921.1	OXA beta-lactamase;OXA-51-like beta-lactamase	carbapenem;penam	antibiotic inactivation	OXA-412
 ARO:3001604	38004	5692	3497	OXA-413	OXA-413	AJD07408.1	KJ584922.1	OXA beta-lactamase;OXA-51-like beta-lactamase	carbapenem;penam	antibiotic inactivation	OXA-413
@@ -4139,7 +4164,7 @@ ARO:3004470	41688	4458	2904	poxtA	poxtA	AVI44920.1	MF095097.1	Miscellaneous ABC-
 ARO:3002812	39246	285	2058	pp-flo	pp-flo	BAA07072.1	D37826.1	major facilitator superfamily (MFS) antibiotic efflux pump	phenicol antibiotic	antibiotic efflux	pp-flo
 ARO:3007085	45648	8440	5769	PRC-1	PRC-1	QTV22830.1	MW854031.1	PRC beta-lactamase	cephalosporin;penam	antibiotic inactivation	PRC-1
 ARO:3004161	41308	4155	2808	Propionibacteria 23S rRNA with mutation conferring resistance to macrolide antibiotics	Propionibacteria 23S rRNA with mutation conferring resistance to macrolide antibiotics		Y10819.1	23S rRNA with mutation conferring resistance to macrolide antibiotics	glycopeptide antibiotic;lincosamide antibiotic;macrolide antibiotic;phenicol antibiotic;pleuromutilin antibiotic;streptogramin A antibiotic;streptogramin B antibiotic;streptogramin antibiotic	antibiotic target alteration	Prop_23S_MAC
-ARO:3007491	46259	8683	5961	Pseudomonas aeruginosa ampR with mutation conferring resistance to aztreonam	Pseudomonas aeruginosa ampR with mutation conferring resistance to aztreonam	P24734.3	AE004091.2	PDC beta-lactamase;ampC-type beta-lactamase	carbapenem;cephalosporin;monobactam;penam	antibiotic inactivation	Paer_ampR_ATM
+ARO:3007491	46259	8683	5961	Pseudomonas aeruginosa ampR with mutation conferring resistance to aztreonam	Pseudomonas aeruginosa ampR with mutation conferring resistance to aztreonam	P24734.3	AE004091.2	PDC beta-lactamase;ampR transcriptional regulator with mutation conferring resistance to monobactam antibiotics	carbapenem;cephalosporin;monobactam	antibiotic inactivation;antibiotic target alteration	Paer_ampR_ATM
 ARO:3002678	39112	295	1316	Pseudomonas aeruginosa catB6	Pseudomonas aeruginosa catB6	CAA11473.1	AJ223604.1	chloramphenicol acetyltransferase (CAT)	phenicol antibiotic	antibiotic inactivation	Paer_catB6
 ARO:3002679	39113	4740	1042	Pseudomonas aeruginosa catB7	Pseudomonas aeruginosa catB7	NP_249397.1	NC_002516.2	chloramphenicol acetyltransferase (CAT)	phenicol antibiotic	antibiotic inactivation	Paer_catB7
 ARO:3004054	41119	4526	2685	Pseudomonas aeruginosa CpxR	Pseudomonas aeruginosa CpxR	SIP52035.1	LT673656.1	resistance-nodulation-cell division (RND) antibiotic efflux pump	aminocoumarin antibiotic;aminoglycoside antibiotic;carbapenem;cephalosporin;cephamycin;diaminopyrimidine antibiotic;fluoroquinolone antibiotic;macrolide antibiotic;monobactam;penam;penem;peptide antibiotic;phenicol antibiotic;sulfonamide antibiotic;tetracycline antibiotic	antibiotic efflux	Paer_CpxR
@@ -4283,6 +4308,8 @@ ARO:3006980	45442	8012	5637	RAHN-2	RAHN-2	WP_063864601.1	NG_049976.1	RAHN beta-l
 ARO:3000823	37203	289	1665	ramA	ramA	AFK13828.1	JQ727668.1	General Bacterial Porin with reduced permeability to beta-lactams;resistance-nodulation-cell division (RND) antibiotic efflux pump	carbapenem;cephalosporin;cephamycin;disinfecting agents and antiseptics;fluoroquinolone antibiotic;glycylcycline;monobactam;penam;penem;phenicol antibiotic;rifamycin antibiotic;tetracycline antibiotic	antibiotic efflux;reduced permeability to antibiotic	ramA
 ARO:3005091	43304	6125	3825	RanA	RanA	ADZ12699.1	CP002562.1	ATP-binding cassette (ABC) antibiotic efflux pump	aminoglycoside antibiotic	antibiotic efflux	RanA
 ARO:3005090	43302	6124	3824	RanB	RanB	ADZ12700.1	CP002562.1	ATP-binding cassette (ABC) antibiotic efflux pump	aminoglycoside antibiotic	antibiotic efflux	RanB
+ARO:3007801	46586	8762	6025	RATA-1	RATA-1	WFS34552.1	CP121209.1	RATA beta-lactamase	carbapenem	antibiotic inactivation	RATA-1
+ARO:3007802	46587	8763	6026	RATA-2	RATA-2	WFS32678.1	CP121210.1	RATA beta-lactamase	carbapenem	antibiotic inactivation	RATA-2
 ARO:3000245	36384	356	1425	RbpA	RbpA	ADV91011.1	HQ203032.1	RbpA bacterial RNA polymerase-binding protein	rifamycin antibiotic	antibiotic target protection	RbpA
 ARO:3003563	40170	3306	882	RCP-1	RCP-1	CAA33795.1	X15791.1	RCP beta-lactamase	penam	antibiotic inactivation	RCP-1
 ARO:3002883	39317	4461	134	rgt1438	rgt1438	AFO53532.1	JX028276.1	rifampin glycosyltransferase	rifamycin antibiotic	antibiotic inactivation	rgt1438
@@ -4371,207 +4398,207 @@ ARO:3007509	46278	8687	5965	Shigella flexneri acrA	Shigella flexneri acrA	NP_706
 ARO:3003940	40664	5265	2411	Shigella flexneri gyrA conferring resistance to fluoroquinolones	Shigella flexneri gyrA conferring resistance to fluoroquinolones	AAN43827.1	AE005674.2	fluoroquinolone resistant gyrA	fluoroquinolone antibiotic;nybomycin-like antibiotic	antibiotic target alteration	Sfle_gyrA_FLO
 ARO:3003941	40666	5263	2412	Shigella flexneri parC conferring resistance to fluoroquinolones	Shigella flexneri parC conferring resistance to fluoroquinolones	AAN44541.1	AE005674.2	fluoroquinolone resistant parC	fluoroquinolone antibiotic	antibiotic target alteration	Sfle_parC_FLO
 ARO:3006994	45456	8026	5651	SHN-1	SHN-1	WP_011497575.1	NG_059313.1	SHN beta-lactamase	carbapenem	antibiotic inactivation	SHN-1
-ARO:3001059	37439	1469	1028	SHV-1	SHV-1	ACR66323.1	FJ668814.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-1
-ARO:3001338	37738	1542	583	SHV-100	SHV-100	CAQ03505.1	AM941846.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-100
-ARO:3001150	37530	1620	202	SHV-101	SHV-101	ABV72593.1	EU155018.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-101
-ARO:3001151	37531	1697	766	SHV-102	SHV-102	ABS72342.1	EU024485.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-102
-ARO:3001152	37532	1772	1060	SHV-103	SHV-103	ABS72351.1	EU032604.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-103
-ARO:3001153	37533	1850	1538	SHV-104	SHV-104	ABX71158.1	EU274581.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-104
-ARO:3001154	37534	1941	93	SHV-105	SHV-105	ACI22621.1	FJ194944.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-105
-ARO:3001155	37535	2019	915	SHV-106	SHV-106	CAQ03506.1	AM941847.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-106
-ARO:3001156	37536	818	1490	SHV-107	SHV-107	CAQ03507.1	AM941848.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-107
-ARO:3001157	37537	899	679	SHV-108	SHV-108	ADR80606.1	HM751100.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-108
-ARO:3001158	37538	985	1133	SHV-109	SHV-109	ACM04459.1	EU418913.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-109
-ARO:3001070	37450	1062	578	SHV-11	SHV-11	CAA66729.1	X98101.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-11
-ARO:3001159	37539	1143	1573	SHV-110	SHV-110	AEK48094.1	HQ877615.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-110
-ARO:3001160	37540	1230	1705	SHV-111	SHV-111	BAF95849.1	AB372881.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-111
-ARO:3001161	37541	1310	370	SHV-112	SHV-112	ACC99191.1	EU477409.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-112
-ARO:3001164	37544	8027	5652	SHV-115	SHV-115	WP_156404661.1	NG_067162.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-115
-ARO:3001165	37545	8028	5653	SHV-116	SHV-116	WP_117062210.1	NG_068211.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-116
-ARO:3001340	37740	1387	1216	SHV-119	SHV-119	AIG51284.1	KJ776406.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-119
-ARO:3001071	37451	8444	103	SHV-12	SHV-12	AHN60527.1	KF976405.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-12
-ARO:3001167	37547	1543	1800	SHV-120	SHV-120	AEG79634.1	JF812965.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-120
-ARO:3001168	37548	1621	214	SHV-121	SHV-121	AEI83429.1	HQ661362.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-121
-ARO:3001169	37549	4356	895	SHV-122	SHV-122	ADR80609.1	HM751103.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-122
-ARO:3001170	37550	1773	1578	SHV-123	SHV-123	ACV32633.1	GQ390805.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-123
-ARO:3001171	37551	1851	877	SHV-124	SHV-124	ACV32634.1	GQ390806.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-124
-ARO:3001172	37552	1942	1430	SHV-125	SHV-125	ACV32635.1	GQ390807.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-125
-ARO:3001173	37553	2020	1334	SHV-126	SHV-126	ACV32636.1	GQ390808.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-126
-ARO:3001174	37554	828	1893	SHV-127	SHV-127	ACV32637.1	GQ390809.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-127
-ARO:3001175	37555	900	265	SHV-128	SHV-128	ADE58494.1	GU932590.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-128
-ARO:3001176	37556	986	701	SHV-129	SHV-129	ADE08533.1	GU827715.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-129
-ARO:3001072	37452	1063	1466	SHV-13	SHV-13	AAD43815.1	AF164577.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-13
-ARO:3001341	37741	8029	5654	SHV-132	SHV-132	WP_063864620.1	NG_050009.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-132
-ARO:3001177	37557	1144	449	SHV-133	SHV-133	BAI94487.1	AB551737.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-133
-ARO:3001178	37558	1231	998	SHV-134	SHV-134	ADM25824.1	HM559945.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-134
-ARO:3001179	37559	1311	1468	SHV-135	SHV-135	ADR66517.1	HQ637576.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-135
-ARO:3001181	37561	1388	238	SHV-137	SHV-137	AEI83430.1	HQ661363.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-137
-ARO:3001073	37453	1471	791	SHV-14	SHV-14	AAG17550.1	AF226622.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-14
-ARO:3001182	37562	6223	1555	SHV-140	SHV-140	AEK80394.1	JN051143.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-140
-ARO:3001183	37563	1634	818	SHV-141	SHV-141	AFC60795.1	JQ388884.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-141
-ARO:3001184	37564	1711	657	SHV-142	SHV-142	AEX99752.1	JQ029959.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-142
-ARO:3001344	37744	4699	1533	SHV-143	SHV-143	AFQ32277.1	JQ341060.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-143
-ARO:3001345	37745	1871	1984	SHV-144	SHV-144	AFK93491.1	JQ926986.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-144
-ARO:3001185	37565	1943	2008	SHV-145	SHV-145	AFN88952.1	JX013655.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-145
-ARO:3001346	37746	8030	5655	SHV-146	SHV-146	WP_063864631.1	NG_050020.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-146
-ARO:3001186	37566	2021	1319	SHV-147	SHV-147	AFQ23953.1	JX121114.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-147
-ARO:3001187	37567	829	1753	SHV-148	SHV-148	AFQ23954.1	JX121115.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-148
-ARO:3001188	37568	915	1262	SHV-149	SHV-149	AFQ23955.1	JX121116.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-149
-ARO:3001074	37454	8259	369	SHV-15	SHV-15	CAB37325.2	AJ011428.2	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-15
-ARO:3001189	37569	1064	806	SHV-150	SHV-150	AFQ23956.1	JX121117.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-150
-ARO:3001190	37570	1145	1732	SHV-151	SHV-151	AFQ23957.1	JX121118.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-151
-ARO:3001191	37571	1232	242	SHV-152	SHV-152	AFQ23958.1	JX121119.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-152
-ARO:3001192	37572	1312	610	SHV-153	SHV-153	AFQ23959.1	JX121120.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-153
-ARO:3001193	37573	1389	1628	SHV-154	SHV-154	AFQ23960.1	JX121121.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-154
-ARO:3001194	37574	1472	1953	SHV-155	SHV-155	AFQ23961.1	JX121122.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-155
-ARO:3001195	37575	1558	488	SHV-156	SHV-156	AFQ23962.1	JX121123.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-156
-ARO:3001196	37576	1635	830	SHV-157	SHV-157	AFQ23963.1	JX121124.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-157
-ARO:3001197	37577	1712	1080	SHV-158	SHV-158	AFQ23964.1	JX121125.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-158
-ARO:3001198	37578	1788	1776	SHV-159	SHV-159	AFQ23965.1	JX121126.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-159
-ARO:3001075	37455	8247	1739	SHV-16	SHV-16	AAC98092.2	AF072684.2	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-16
-ARO:3001199	37579	1944	1933	SHV-160	SHV-160	AFQ23966.1	JX121127.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-160
-ARO:3001200	37580	2022	832	SHV-161	SHV-161	AFQ23967.1	JX121128.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-161
-ARO:3001201	37581	830	286	SHV-162	SHV-162	AFQ23968.1	JX121129.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-162
-ARO:3001202	37582	916	2036	SHV-163	SHV-163	AFQ23969.1	JX121130.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-163
-ARO:3001347	37747	988	244	SHV-164	SHV-164	CCK86744.1	HE981194.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-164
-ARO:3001203	37583	1065	2021	SHV-165	SHV-165	AFQ23970.1	JX121131.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-165
-ARO:3001204	37584	1146	1412	SHV-167	SHV-167	BAM28879.1	AB733453.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-167
-ARO:3001352	37752	1233	1199	SHV-168	SHV-168	AFW16978.1	JX870080.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-168
-ARO:3001355	37755	8031	5656	SHV-171	SHV-171	WP_070984444.1	NG_068212.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-171
-ARO:3001356	37756	1313	750	SHV-172	SHV-172	AHA80958.1	KF513177.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-172
-ARO:3001357	37757	1390	1208	SHV-173	SHV-173	AHA80959.1	KF513178.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-173
-ARO:3001361	37761	1473	2012	SHV-178	SHV-178	AHA80963.1	KF705209.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-178
-ARO:3001362	37762	1559	2057	SHV-179	SHV-179	AHA80962.1	KF705208.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-179
-ARO:3001076	37456	1636	74	SHV-18	SHV-18	AAF64386.1	AF132290.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-18
-ARO:3001350	37750	3768	293	SHV-180	SHV-180	AJO16040.1	KP050487.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-180
-ARO:3001364	37764	2124	125	SHV-182	SHV-182	AJO16042.1	KP050489.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-182
-ARO:3001351	37751	1945	1798	SHV-183	SHV-183	CDN33427.1	HG934764.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-183
-ARO:3003152	39729	2023	529	SHV-185	SHV-185	AIS67768.1	KM233164.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-185
-ARO:3003153	39730	832	917	SHV-186	SHV-186	AIS67769.1	KM233165.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-186
-ARO:3003154	39731	917	1557	SHV-187	SHV-187	CEA29750.1	LN515533.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-187
-ARO:3003155	39732	989	344	SHV-188	SHV-188	CEA29751.1	LN515534.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-188
-ARO:3003156	39733	2125	1968	SHV-189	SHV-189	AJO16047.1	KP050494.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-189
-ARO:3001077	37457	1147	1438	SHV-19	SHV-19	AAF34333.1	AF117743.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-19
-ARO:3003590	40200	8032	5657	SHV-190	SHV-190	WP_063864666.1	NG_050056.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-190
-ARO:3003591	40201	8033	5658	SHV-191	SHV-191	WP_063864667.1	NG_050057.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-191
-ARO:3005239	43595	6325	3961	SHV-193	SHV-193	WP_063864668.1	NG_050058.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-193
-ARO:3005223	43579	6308	3945	SHV-194	SHV-194	WP_065419573.1	NG_051169.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-194
-ARO:3005210	43566	6288	3925	SHV-195	SHV-195	WP_068981648.1	NG_051484.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-195
-ARO:3005229	43585	6314	3951	SHV-196	SHV-196	WP_069280714.1	NG_051521.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-196
-ARO:3005214	43570	6292	3929	SHV-197	SHV-197	WP_072081993.1	NG_052582.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-197
-ARO:3005209	43565	6287	3924	SHV-198	SHV-198	WP_088245226.1	NG_055284.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-198
-ARO:3005232	43588	6317	3954	SHV-199	SHV-199	WP_094009815.1	NG_055503.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-199
-ARO:3005237	43593	6323	3959	SHV-1b-b	SHV-1b-b	WP_063864669.1	NG_050059.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-1b-b
-ARO:3001060	37440	1234	1053	SHV-2	SHV-2	AAD37413.1	AF148851.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-2
-ARO:3001078	37458	1314	825	SHV-20	SHV-20	AAF34334.1	AF117744.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-20
-ARO:3005248	43604	6334	3970	SHV-200	SHV-200	WP_096807447.1	NG_055588.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-200
-ARO:3005211	43567	6289	3926	SHV-201	SHV-201	WP_122630838.1	NG_062244.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-201
-ARO:3005253	43609	8394	3975	SHV-202	SHV-202	WP_122630839.1	MF804906.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-202
-ARO:3005249	43605	6335	3971	SHV-203	SHV-203	WP_099156054.1	NG_055668.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-203
-ARO:3005213	43569	6291	3928	SHV-204	SHV-204	WP_109791212.1	NG_057611.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-204
-ARO:3005207	43563	6285	3922	SHV-205	SHV-205	WP_122630863.1	NG_062276.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-205
-ARO:3005227	43583	6312	3949	SHV-206	SHV-206	WP_004143591.1	NG_062278.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-206
-ARO:3005236	43592	6322	3958	SHV-207	SHV-207	WP_064733493.1	NG_062279.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-207
-ARO:3005226	43582	6311	3948	SHV-208	SHV-208	WP_122630865.1	NG_062280.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-208
-ARO:3005242	43598	6328	3964	SHV-209	SHV-209	WP_122630866.1	NG_062281.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-209
-ARO:3001079	37459	1391	374	SHV-21	SHV-21	AAF34335.1	AF117745.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-21
-ARO:3005225	43581	6310	3947	SHV-210	SHV-210	WP_115196748.1	NG_062282.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-210
-ARO:3005230	43586	6315	3952	SHV-211	SHV-211	WP_023341517.1	NG_062283.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-211
-ARO:3005212	43568	6290	3927	SHV-212	SHV-212	WP_122630867.1	NG_062284.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-212
-ARO:3005251	43607	6337	3973	SHV-213	SHV-213	WP_122630868.1	NG_062285.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-213
-ARO:3005235	43591	6321	3957	SHV-214	SHV-214	WP_122630869.1	NG_062286.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-214
-ARO:3005243	43599	6329	3965	SHV-215	SHV-215	WP_122630870.1	NG_062287.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-215
-ARO:3005215	43571	6293	3930	SHV-216	SHV-216	WP_122630871.1	NG_062288.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-216
-ARO:3005250	43606	6336	3972	SHV-217	SHV-217	WP_122630872.1	NG_062289.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-217
-ARO:3005238	43594	6324	3960	SHV-218	SHV-218	WP_122630873.1	NG_062290.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-218
-ARO:3005231	43587	6316	3953	SHV-219	SHV-219	WP_122630874.1	NG_062291.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-219
-ARO:3001080	37460	1474	1158	SHV-22	SHV-22	AAF34336.1	AF117746.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-22
-ARO:3005224	43580	6309	3946	SHV-220	SHV-220	WP_109232473.1	NG_062292.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-220
-ARO:3005252	43608	6338	3974	SHV-221	SHV-221	WP_122630875.1	NG_062293.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-221
-ARO:3005208	43564	6286	3923	SHV-222	SHV-222	WP_122630876.1	NG_062294.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-222
-ARO:3005234	43590	6319	3956	SHV-223	SHV-223	WP_117241614.1	NG_062295.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-223
-ARO:3005240	43596	6326	3962	SHV-224	SHV-224	WP_104159136.1	NG_062296.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-224
-ARO:3005241	43597	6327	3963	SHV-225	SHV-225	WP_122630877.1	NG_062297.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-225
-ARO:3005228	43584	6313	3950	SHV-226	SHV-226	WP_122630878.1	NG_062298.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-226
-ARO:3005233	43589	6318	3955	SHV-227	SHV-227	WP_122630879.1	NG_062299.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-227
-ARO:3005247	43603	6333	3969	SHV-228	SHV-228	WP_122630880.1	NG_062300.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-228
-ARO:3001081	37461	1560	1599	SHV-23	SHV-23	AAF34337.1	AF117747.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-23
-ARO:3001082	37462	1637	57	SHV-24	SHV-24	BAA84973.1	AB023477.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-24
-ARO:3001083	37463	8205	1014	SHV-25	SHV-25	AAF37209.2	AF208796.2	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-25
-ARO:3001084	37464	1789	1448	SHV-26	SHV-26	AAF36719.1	AF227204.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-26
-ARO:3001085	37465	1873	1919	SHV-27	SHV-27	AAG01039.1	AF293345.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-27
-ARO:3001086	37466	1946	1742	SHV-28	SHV-28	AAG15384.1	AF299299.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-28
-ARO:3001087	37467	2024	1927	SHV-29	SHV-29	AAG49894.1	AF301532.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-29
-ARO:3001061	37441	833	1597	SHV-2A	SHV-2A	CAA66730.1	X98102.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-2A
-ARO:3001062	37442	5455	2103	SHV-3	SHV-3	ANA06389.1	KX092356.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-3
-ARO:3001088	37468	918	619	SHV-30	SHV-30	AAT75225.1	AY661885.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-30
-ARO:3001089	37469	8197	1259	SHV-31	SHV-31	AAP33454.2	AY277255.2	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-31
-ARO:3001090	37470	1066	306	SHV-32	SHV-32	AAK69828.1	AY037778.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-32
-ARO:3001091	37471	1148	887	SHV-33	SHV-33	AFN82060.1	JX268631.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-33
-ARO:3001092	37472	1235	1286	SHV-34	SHV-34	AAK64187.1	AY036620.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-34
-ARO:3001093	37473	1315	210	SHV-35	SHV-35	AAL68926.1	AY070258.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-35
-ARO:3001094	37474	1392	424	SHV-36	SHV-36	AAL82592.1	AF467947.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-36
-ARO:3001095	37475	1475	684	SHV-37	SHV-37	AAL82593.1	AF467948.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-37
-ARO:3001096	37476	1561	527	SHV-38	SHV-38	AAL79576.1	AY079099.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-38
-ARO:3001097	37477	1638	1477	SHV-39	SHV-39	AAN77730.1	AY150585.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-39
-ARO:3001063	37443	5835	3627	SHV-4	SHV-4	SPD96731.1	LT985229.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-4
-ARO:3001098	37478	1714	1685	SHV-40	SHV-40	AAN04882.1	AF535128.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-40
-ARO:3001099	37479	1790	66	SHV-41	SHV-41	AAN04883.1	AF535129.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-41
-ARO:3001100	37480	1874	72	SHV-42	SHV-42	AAN04884.1	AF535130.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-42
-ARO:3001101	37481	1947	768	SHV-43	SHV-43	AAL40899.1	AY065991.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-43
-ARO:3001102	37482	2025	1970	SHV-44	SHV-44	AAP82228.1	AY259119.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-44
-ARO:3001103	37483	834	1621	SHV-45	SHV-45	AAN39364.1	AF547625.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-45
-ARO:3001104	37484	919	788	SHV-46	SHV-46	AAO53445.1	AY210887.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-46
-ARO:3001105	37485	991	1487	SHV-48	SHV-48	AAP03063.1	AY263404.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-48
-ARO:3001106	37486	1067	469	SHV-49	SHV-49	AAS98184.1	AY528718.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-49
-ARO:3001064	37444	1149	1827	SHV-5	SHV-5	CAA39164.1	X55640.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-5
-ARO:3001107	37487	1236	1945	SHV-50	SHV-50	AAP41108.1	AY288915.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-50
-ARO:3001108	37488	1316	1527	SHV-51	SHV-51	AAP41944.1	AY289548.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-51
-ARO:3001109	37489	1393	4	SHV-52	SHV-52	AEJ08681.1	HQ845196.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-52
-ARO:3001110	37490	8428	890	SHV-53	SHV-53	AAT01223.1	AY590467.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-53
-ARO:3001111	37491	8263	1195	SHV-55	SHV-55	CAI10727.2	AJ863560.2	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-55
-ARO:3001112	37492	1639	161	SHV-56	SHV-56	ACB73258.1	EU586041.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-56
-ARO:3001113	37493	1715	770	SHV-57	SHV-57	AAO66446.1	AY223863.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-57
-ARO:3001114	37494	1791	1095	SHV-59	SHV-59	AAV66328.1	AY790341.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-59
-ARO:3001065	37445	1875	351	SHV-6	SHV-6	CAA71948.1	Y11069.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-6
-ARO:3001115	37495	1948	1429	SHV-60	SHV-60	BAF92780.1	AB302939.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-60
-ARO:3001116	37496	8137	194	SHV-61	SHV-61	CAI30650.2	AJ866284.2	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-61
-ARO:3001117	37497	8207	711	SHV-62	SHV-62	CAI30651.2	AJ866285.2	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-62
-ARO:3001118	37498	920	1461	SHV-63	SHV-63	ABY56290.1	EU342351.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-63
-ARO:3001119	37499	992	123	SHV-64	SHV-64	ABA06586.1	DQ174304.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-64
-ARO:3001120	37500	1068	1322	SHV-65	SHV-65	ABA06587.1	DQ174305.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-65
-ARO:3001121	37501	1150	992	SHV-66	SHV-66	ABA06588.1	DQ174306.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-66
-ARO:3001122	37502	1237	447	SHV-67	SHV-67	ABA06589.1	DQ174307.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-67
-ARO:3001123	37503	1317	437	SHV-69	SHV-69	ABA06590.1	DQ174308.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-69
-ARO:3001066	37446	1394	1985	SHV-7	SHV-7	AAA87176.1	U20270.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-7
-ARO:3001124	37504	1485	1644	SHV-70	SHV-70	AAY42633.1	DQ013287.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-70
-ARO:3001125	37505	8237	1062	SHV-71	SHV-71	CAJ47126.2	AM176546.2	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-71
-ARO:3001126	37506	8162	723	SHV-72	SHV-72	CAJ47127.2	AM176547.2	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-72
-ARO:3001127	37507	8211	1727	SHV-73	SHV-73	CAJ47128.2	AM176548.2	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-73
-ARO:3001128	37508	8225	1026	SHV-74	SHV-74	CAJ47129.2	AM176549.2	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-74
-ARO:3001129	37509	8231	595	SHV-75	SHV-75	CAJ47130.2	AM176550.2	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-75
-ARO:3001130	37510	8230	1043	SHV-76	SHV-76	CAJ47131.2	AM176551.2	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-76
-ARO:3001131	37511	8138	994	SHV-77	SHV-77	CAJ47132.2	AM176552.2	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-77
-ARO:3001132	37512	8187	310	SHV-78	SHV-78	CAJ47133.2	AM176553.2	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-78
-ARO:3001133	37513	8240	76	SHV-79	SHV-79	CAJ47134.2	AM176554.2	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-79
-ARO:3001067	37447	993	371	SHV-8	SHV-8	AAB51384.1	U92041.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-8
-ARO:3001134	37514	8142	1439	SHV-80	SHV-80	CAJ47135.2	AM176555.2	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-80
-ARO:3001135	37515	8204	1239	SHV-81	SHV-81	CAJ47136.2	AM176556.2	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-81
-ARO:3001136	37516	8206	565	SHV-82	SHV-82	CAJ47137.2	AM176557.2	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-82
-ARO:3001137	37517	8139	439	SHV-83	SHV-83	CAJ47138.2	AM176558.2	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-83
-ARO:3001138	37518	1395	1639	SHV-84	SHV-84	CAJ32371.1	AM087453.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-84
-ARO:3001139	37519	1486	1520	SHV-85	SHV-85	ABC54571.1	DQ322460.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-85
-ARO:3001140	37520	1564	1603	SHV-86	SHV-86	ABC58727.1	DQ328802.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-86
-ARO:3001141	37521	1641	188	SHV-89	SHV-89	ABA60809.1	DQ193536.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-89
-ARO:3001068	37448	1717	557	SHV-9	SHV-9	AAB37395.2	S82452.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-9
-ARO:3001144	37524	1793	148	SHV-92	SHV-92	ABH04327.1	DQ836922.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-92
-ARO:3001145	37525	1877	961	SHV-93	SHV-93	ABN49110.1	EF373969.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-93
-ARO:3001146	37526	1950	1346	SHV-94	SHV-94	ABN49111.1	EF373970.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-94
-ARO:3001147	37527	2028	1654	SHV-95	SHV-95	ABN49113.1	EF373972.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-95
-ARO:3001148	37528	841	955	SHV-96	SHV-96	ABN49112.1	EF373971.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-96
-ARO:3001149	37529	922	749	SHV-97	SHV-97	ABN49114.1	EF373973.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-97
-ARO:3001336	37736	994	1941	SHV-98	SHV-98	CAQ03503.1	AM941844.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-98
-ARO:3001337	37737	1070	1475	SHV-99	SHV-99	CAQ03504.1	AM941845.1	SHV beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SHV-99
+ARO:3001059	37439	1469	1028	SHV-1	SHV-1	ACR66323.1	FJ668814.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-1
+ARO:3001338	37738	1542	583	SHV-100	SHV-100	CAQ03505.1	AM941846.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-100
+ARO:3001150	37530	1620	202	SHV-101	SHV-101	ABV72593.1	EU155018.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-101
+ARO:3001151	37531	1697	766	SHV-102	SHV-102	ABS72342.1	EU024485.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-102
+ARO:3001152	37532	1772	1060	SHV-103	SHV-103	ABS72351.1	EU032604.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-103
+ARO:3001153	37533	1850	1538	SHV-104	SHV-104	ABX71158.1	EU274581.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-104
+ARO:3001154	37534	1941	93	SHV-105	SHV-105	ACI22621.1	FJ194944.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-105
+ARO:3001155	37535	2019	915	SHV-106	SHV-106	CAQ03506.1	AM941847.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-106
+ARO:3001156	37536	818	1490	SHV-107	SHV-107	CAQ03507.1	AM941848.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-107
+ARO:3001157	37537	899	679	SHV-108	SHV-108	ADR80606.1	HM751100.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-108
+ARO:3001158	37538	985	1133	SHV-109	SHV-109	ACM04459.1	EU418913.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-109
+ARO:3001070	37450	1062	578	SHV-11	SHV-11	CAA66729.1	X98101.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-11
+ARO:3001159	37539	1143	1573	SHV-110	SHV-110	AEK48094.1	HQ877615.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-110
+ARO:3001160	37540	1230	1705	SHV-111	SHV-111	BAF95849.1	AB372881.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-111
+ARO:3001161	37541	1310	370	SHV-112	SHV-112	ACC99191.1	EU477409.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-112
+ARO:3001164	37544	8027	5652	SHV-115	SHV-115	WP_156404661.1	NG_067162.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-115
+ARO:3001165	37545	8028	5653	SHV-116	SHV-116	WP_117062210.1	NG_068211.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-116
+ARO:3001340	37740	1387	1216	SHV-119	SHV-119	AIG51284.1	KJ776406.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-119
+ARO:3001071	37451	8444	103	SHV-12	SHV-12	AHN60527.1	KF976405.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-12
+ARO:3001167	37547	1543	1800	SHV-120	SHV-120	AEG79634.1	JF812965.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-120
+ARO:3001168	37548	1621	214	SHV-121	SHV-121	AEI83429.1	HQ661362.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-121
+ARO:3001169	37549	4356	895	SHV-122	SHV-122	ADR80609.1	HM751103.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-122
+ARO:3001170	37550	1773	1578	SHV-123	SHV-123	ACV32633.1	GQ390805.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-123
+ARO:3001171	37551	1851	877	SHV-124	SHV-124	ACV32634.1	GQ390806.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-124
+ARO:3001172	37552	1942	1430	SHV-125	SHV-125	ACV32635.1	GQ390807.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-125
+ARO:3001173	37553	2020	1334	SHV-126	SHV-126	ACV32636.1	GQ390808.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-126
+ARO:3001174	37554	828	1893	SHV-127	SHV-127	ACV32637.1	GQ390809.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-127
+ARO:3001175	37555	900	265	SHV-128	SHV-128	ADE58494.1	GU932590.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-128
+ARO:3001176	37556	986	701	SHV-129	SHV-129	ADE08533.1	GU827715.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-129
+ARO:3001072	37452	1063	1466	SHV-13	SHV-13	AAD43815.1	AF164577.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-13
+ARO:3001341	37741	8029	5654	SHV-132	SHV-132	WP_063864620.1	NG_050009.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-132
+ARO:3001177	37557	1144	449	SHV-133	SHV-133	BAI94487.1	AB551737.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-133
+ARO:3001178	37558	1231	998	SHV-134	SHV-134	ADM25824.1	HM559945.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-134
+ARO:3001179	37559	1311	1468	SHV-135	SHV-135	ADR66517.1	HQ637576.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-135
+ARO:3001181	37561	1388	238	SHV-137	SHV-137	AEI83430.1	HQ661363.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-137
+ARO:3001073	37453	1471	791	SHV-14	SHV-14	AAG17550.1	AF226622.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-14
+ARO:3001182	37562	6223	1555	SHV-140	SHV-140	AEK80394.1	JN051143.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-140
+ARO:3001183	37563	1634	818	SHV-141	SHV-141	AFC60795.1	JQ388884.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-141
+ARO:3001184	37564	1711	657	SHV-142	SHV-142	AEX99752.1	JQ029959.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-142
+ARO:3001344	37744	4699	1533	SHV-143	SHV-143	AFQ32277.1	JQ341060.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-143
+ARO:3001345	37745	1871	1984	SHV-144	SHV-144	AFK93491.1	JQ926986.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-144
+ARO:3001185	37565	1943	2008	SHV-145	SHV-145	AFN88952.1	JX013655.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-145
+ARO:3001346	37746	8030	5655	SHV-146	SHV-146	WP_063864631.1	NG_050020.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-146
+ARO:3001186	37566	2021	1319	SHV-147	SHV-147	AFQ23953.1	JX121114.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-147
+ARO:3001187	37567	829	1753	SHV-148	SHV-148	AFQ23954.1	JX121115.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-148
+ARO:3001188	37568	915	1262	SHV-149	SHV-149	AFQ23955.1	JX121116.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-149
+ARO:3001074	37454	8259	369	SHV-15	SHV-15	CAB37325.2	AJ011428.2	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-15
+ARO:3001189	37569	1064	806	SHV-150	SHV-150	AFQ23956.1	JX121117.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-150
+ARO:3001190	37570	1145	1732	SHV-151	SHV-151	AFQ23957.1	JX121118.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-151
+ARO:3001191	37571	1232	242	SHV-152	SHV-152	AFQ23958.1	JX121119.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-152
+ARO:3001192	37572	1312	610	SHV-153	SHV-153	AFQ23959.1	JX121120.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-153
+ARO:3001193	37573	1389	1628	SHV-154	SHV-154	AFQ23960.1	JX121121.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-154
+ARO:3001194	37574	1472	1953	SHV-155	SHV-155	AFQ23961.1	JX121122.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-155
+ARO:3001195	37575	1558	488	SHV-156	SHV-156	AFQ23962.1	JX121123.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-156
+ARO:3001196	37576	1635	830	SHV-157	SHV-157	AFQ23963.1	JX121124.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-157
+ARO:3001197	37577	1712	1080	SHV-158	SHV-158	AFQ23964.1	JX121125.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-158
+ARO:3001198	37578	1788	1776	SHV-159	SHV-159	AFQ23965.1	JX121126.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-159
+ARO:3001075	37455	8247	1739	SHV-16	SHV-16	AAC98092.2	AF072684.2	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-16
+ARO:3001199	37579	1944	1933	SHV-160	SHV-160	AFQ23966.1	JX121127.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-160
+ARO:3001200	37580	2022	832	SHV-161	SHV-161	AFQ23967.1	JX121128.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-161
+ARO:3001201	37581	830	286	SHV-162	SHV-162	AFQ23968.1	JX121129.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-162
+ARO:3001202	37582	916	2036	SHV-163	SHV-163	AFQ23969.1	JX121130.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-163
+ARO:3001347	37747	988	244	SHV-164	SHV-164	CCK86744.1	HE981194.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-164
+ARO:3001203	37583	1065	2021	SHV-165	SHV-165	AFQ23970.1	JX121131.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-165
+ARO:3001204	37584	1146	1412	SHV-167	SHV-167	BAM28879.1	AB733453.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-167
+ARO:3001352	37752	1233	1199	SHV-168	SHV-168	AFW16978.1	JX870080.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-168
+ARO:3001355	37755	8031	5656	SHV-171	SHV-171	WP_070984444.1	NG_068212.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-171
+ARO:3001356	37756	1313	750	SHV-172	SHV-172	AHA80958.1	KF513177.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-172
+ARO:3001357	37757	1390	1208	SHV-173	SHV-173	AHA80959.1	KF513178.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-173
+ARO:3001361	37761	1473	2012	SHV-178	SHV-178	AHA80963.1	KF705209.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-178
+ARO:3001362	37762	1559	2057	SHV-179	SHV-179	AHA80962.1	KF705208.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-179
+ARO:3001076	37456	1636	74	SHV-18	SHV-18	AAF64386.1	AF132290.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-18
+ARO:3001350	37750	3768	293	SHV-180	SHV-180	AJO16040.1	KP050487.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-180
+ARO:3001364	37764	2124	125	SHV-182	SHV-182	AJO16042.1	KP050489.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-182
+ARO:3001351	37751	1945	1798	SHV-183	SHV-183	CDN33427.1	HG934764.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-183
+ARO:3003152	39729	2023	529	SHV-185	SHV-185	AIS67768.1	KM233164.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-185
+ARO:3003153	39730	832	917	SHV-186	SHV-186	AIS67769.1	KM233165.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-186
+ARO:3003154	39731	917	1557	SHV-187	SHV-187	CEA29750.1	LN515533.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-187
+ARO:3003155	39732	989	344	SHV-188	SHV-188	CEA29751.1	LN515534.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-188
+ARO:3003156	39733	2125	1968	SHV-189	SHV-189	AJO16047.1	KP050494.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-189
+ARO:3001077	37457	8843	1438	SHV-19	SHV-19	HBU8935839.1	DAGGWD010000033.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-19
+ARO:3003590	40200	8032	5657	SHV-190	SHV-190	WP_063864666.1	NG_050056.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-190
+ARO:3003591	40201	8033	5658	SHV-191	SHV-191	WP_063864667.1	NG_050057.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-191
+ARO:3005239	43595	6325	3961	SHV-193	SHV-193	WP_063864668.1	NG_050058.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-193
+ARO:3005223	43579	6308	3945	SHV-194	SHV-194	WP_065419573.1	NG_051169.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-194
+ARO:3005210	43566	6288	3925	SHV-195	SHV-195	WP_068981648.1	NG_051484.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-195
+ARO:3005229	43585	6314	3951	SHV-196	SHV-196	WP_069280714.1	NG_051521.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-196
+ARO:3005214	43570	6292	3929	SHV-197	SHV-197	WP_072081993.1	NG_052582.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-197
+ARO:3005209	43565	6287	3924	SHV-198	SHV-198	WP_088245226.1	NG_055284.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-198
+ARO:3005232	43588	6317	3954	SHV-199	SHV-199	WP_094009815.1	NG_055503.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-199
+ARO:3005237	43593	6323	3959	SHV-1b-b	SHV-1b-b	WP_063864669.1	NG_050059.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-1b-b
+ARO:3001060	37440	1234	1053	SHV-2	SHV-2	AAD37413.1	AF148851.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-2
+ARO:3001078	37458	1314	825	SHV-20	SHV-20	AAF34334.1	AF117744.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-20
+ARO:3005248	43604	6334	3970	SHV-200	SHV-200	WP_096807447.1	NG_055588.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-200
+ARO:3005211	43567	6289	3926	SHV-201	SHV-201	WP_122630838.1	NG_062244.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-201
+ARO:3005253	43609	8394	3975	SHV-202	SHV-202	WP_122630839.1	MF804906.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-202
+ARO:3005249	43605	6335	3971	SHV-203	SHV-203	WP_099156054.1	NG_055668.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-203
+ARO:3005213	43569	6291	3928	SHV-204	SHV-204	WP_109791212.1	NG_057611.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-204
+ARO:3005207	43563	6285	3922	SHV-205	SHV-205	WP_122630863.1	NG_062276.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-205
+ARO:3005227	43583	6312	3949	SHV-206	SHV-206	WP_004143591.1	NG_062278.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-206
+ARO:3005236	43592	6322	3958	SHV-207	SHV-207	WP_064733493.1	NG_062279.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-207
+ARO:3005226	43582	6311	3948	SHV-208	SHV-208	WP_122630865.1	NG_062280.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-208
+ARO:3005242	43598	6328	3964	SHV-209	SHV-209	WP_122630866.1	NG_062281.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-209
+ARO:3001079	37459	1391	374	SHV-21	SHV-21	AAF34335.1	AF117745.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-21
+ARO:3005225	43581	6310	3947	SHV-210	SHV-210	WP_115196748.1	NG_062282.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-210
+ARO:3005230	43586	6315	3952	SHV-211	SHV-211	WP_023341517.1	NG_062283.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-211
+ARO:3005212	43568	6290	3927	SHV-212	SHV-212	WP_122630867.1	NG_062284.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-212
+ARO:3005251	43607	6337	3973	SHV-213	SHV-213	WP_122630868.1	NG_062285.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-213
+ARO:3005235	43591	6321	3957	SHV-214	SHV-214	WP_122630869.1	NG_062286.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-214
+ARO:3005243	43599	6329	3965	SHV-215	SHV-215	WP_122630870.1	NG_062287.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-215
+ARO:3005215	43571	6293	3930	SHV-216	SHV-216	WP_122630871.1	NG_062288.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-216
+ARO:3005250	43606	6336	3972	SHV-217	SHV-217	WP_122630872.1	NG_062289.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-217
+ARO:3005238	43594	6324	3960	SHV-218	SHV-218	WP_122630873.1	NG_062290.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-218
+ARO:3005231	43587	6316	3953	SHV-219	SHV-219	WP_122630874.1	NG_062291.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-219
+ARO:3001080	37460	1474	1158	SHV-22	SHV-22	AAF34336.1	AF117746.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-22
+ARO:3005224	43580	6309	3946	SHV-220	SHV-220	WP_109232473.1	NG_062292.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-220
+ARO:3005252	43608	6338	3974	SHV-221	SHV-221	WP_122630875.1	NG_062293.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-221
+ARO:3005208	43564	6286	3923	SHV-222	SHV-222	WP_122630876.1	NG_062294.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-222
+ARO:3005234	43590	6319	3956	SHV-223	SHV-223	WP_117241614.1	NG_062295.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-223
+ARO:3005240	43596	6326	3962	SHV-224	SHV-224	WP_104159136.1	NG_062296.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-224
+ARO:3005241	43597	6327	3963	SHV-225	SHV-225	WP_122630877.1	NG_062297.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-225
+ARO:3005228	43584	6313	3950	SHV-226	SHV-226	WP_122630878.1	NG_062298.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-226
+ARO:3005233	43589	6318	3955	SHV-227	SHV-227	WP_122630879.1	NG_062299.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-227
+ARO:3005247	43603	6333	3969	SHV-228	SHV-228	WP_122630880.1	NG_062300.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-228
+ARO:3001081	37461	1560	1599	SHV-23	SHV-23	AAF34337.1	AF117747.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-23
+ARO:3001082	37462	1637	57	SHV-24	SHV-24	BAA84973.1	AB023477.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-24
+ARO:3001083	37463	8205	1014	SHV-25	SHV-25	AAF37209.2	AF208796.2	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-25
+ARO:3001084	37464	1789	1448	SHV-26	SHV-26	AAF36719.1	AF227204.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-26
+ARO:3001085	37465	1873	1919	SHV-27	SHV-27	AAG01039.1	AF293345.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-27
+ARO:3001086	37466	1946	1742	SHV-28	SHV-28	AAG15384.1	AF299299.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-28
+ARO:3001087	37467	2024	1927	SHV-29	SHV-29	AAG49894.1	AF301532.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-29
+ARO:3001061	37441	833	1597	SHV-2A	SHV-2A	CAA66730.1	X98102.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-2A
+ARO:3001062	37442	5455	2103	SHV-3	SHV-3	ANA06389.1	KX092356.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-3
+ARO:3001088	37468	918	619	SHV-30	SHV-30	AAT75225.1	AY661885.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-30
+ARO:3001089	37469	8197	1259	SHV-31	SHV-31	AAP33454.2	AY277255.2	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-31
+ARO:3001090	37470	1066	306	SHV-32	SHV-32	AAK69828.1	AY037778.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-32
+ARO:3001091	37471	1148	887	SHV-33	SHV-33	AFN82060.1	JX268631.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-33
+ARO:3001092	37472	1235	1286	SHV-34	SHV-34	AAK64187.1	AY036620.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-34
+ARO:3001093	37473	1315	210	SHV-35	SHV-35	AAL68926.1	AY070258.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-35
+ARO:3001094	37474	1392	424	SHV-36	SHV-36	AAL82592.1	AF467947.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-36
+ARO:3001095	37475	1475	684	SHV-37	SHV-37	AAL82593.1	AF467948.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-37
+ARO:3001096	37476	1561	527	SHV-38	SHV-38	AAL79576.1	AY079099.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-38
+ARO:3001097	37477	1638	1477	SHV-39	SHV-39	AAN77730.1	AY150585.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-39
+ARO:3001063	37443	5835	3627	SHV-4	SHV-4	SPD96731.1	LT985229.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-4
+ARO:3001098	37478	1714	1685	SHV-40	SHV-40	AAN04882.1	AF535128.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-40
+ARO:3001099	37479	1790	66	SHV-41	SHV-41	AAN04883.1	AF535129.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-41
+ARO:3001100	37480	1874	72	SHV-42	SHV-42	AAN04884.1	AF535130.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-42
+ARO:3001101	37481	1947	768	SHV-43	SHV-43	AAL40899.1	AY065991.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-43
+ARO:3001102	37482	2025	1970	SHV-44	SHV-44	AAP82228.1	AY259119.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-44
+ARO:3001103	37483	834	1621	SHV-45	SHV-45	AAN39364.1	AF547625.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-45
+ARO:3001104	37484	919	788	SHV-46	SHV-46	AAO53445.1	AY210887.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-46
+ARO:3001105	37485	991	1487	SHV-48	SHV-48	AAP03063.1	AY263404.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-48
+ARO:3001106	37486	1067	469	SHV-49	SHV-49	AAS98184.1	AY528718.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-49
+ARO:3001064	37444	1149	1827	SHV-5	SHV-5	CAA39164.1	X55640.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-5
+ARO:3001107	37487	1236	1945	SHV-50	SHV-50	AAP41108.1	AY288915.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-50
+ARO:3001108	37488	1316	1527	SHV-51	SHV-51	AAP41944.1	AY289548.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-51
+ARO:3001109	37489	1393	4	SHV-52	SHV-52	AEJ08681.1	HQ845196.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-52
+ARO:3001110	37490	8428	890	SHV-53	SHV-53	AAT01223.1	AY590467.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-53
+ARO:3001111	37491	8263	1195	SHV-55	SHV-55	CAI10727.2	AJ863560.2	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-55
+ARO:3001112	37492	1639	161	SHV-56	SHV-56	ACB73258.1	EU586041.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-56
+ARO:3001113	37493	1715	770	SHV-57	SHV-57	AAO66446.1	AY223863.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-57
+ARO:3001114	37494	1791	1095	SHV-59	SHV-59	AAV66328.1	AY790341.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-59
+ARO:3001065	37445	8842	351	SHV-6	SHV-6	HBX2855210.1	DAGOBI010000132.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-6
+ARO:3001115	37495	1948	1429	SHV-60	SHV-60	BAF92780.1	AB302939.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-60
+ARO:3001116	37496	8137	194	SHV-61	SHV-61	CAI30650.2	AJ866284.2	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-61
+ARO:3001117	37497	8207	711	SHV-62	SHV-62	CAI30651.2	AJ866285.2	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-62
+ARO:3001118	37498	920	1461	SHV-63	SHV-63	ABY56290.1	EU342351.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-63
+ARO:3001119	37499	992	123	SHV-64	SHV-64	ABA06586.1	DQ174304.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-64
+ARO:3001120	37500	1068	1322	SHV-65	SHV-65	ABA06587.1	DQ174305.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-65
+ARO:3001121	37501	1150	992	SHV-66	SHV-66	ABA06588.1	DQ174306.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-66
+ARO:3001122	37502	1237	447	SHV-67	SHV-67	ABA06589.1	DQ174307.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-67
+ARO:3001123	37503	1317	437	SHV-69	SHV-69	ABA06590.1	DQ174308.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-69
+ARO:3001066	37446	1394	1985	SHV-7	SHV-7	AAA87176.1	U20270.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-7
+ARO:3001124	37504	1485	1644	SHV-70	SHV-70	AAY42633.1	DQ013287.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-70
+ARO:3001125	37505	8237	1062	SHV-71	SHV-71	CAJ47126.2	AM176546.2	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-71
+ARO:3001126	37506	8162	723	SHV-72	SHV-72	CAJ47127.2	AM176547.2	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-72
+ARO:3001127	37507	8211	1727	SHV-73	SHV-73	CAJ47128.2	AM176548.2	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-73
+ARO:3001128	37508	8225	1026	SHV-74	SHV-74	CAJ47129.2	AM176549.2	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-74
+ARO:3001129	37509	8231	595	SHV-75	SHV-75	CAJ47130.2	AM176550.2	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-75
+ARO:3001130	37510	8230	1043	SHV-76	SHV-76	CAJ47131.2	AM176551.2	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-76
+ARO:3001131	37511	8138	994	SHV-77	SHV-77	CAJ47132.2	AM176552.2	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-77
+ARO:3001132	37512	8187	310	SHV-78	SHV-78	CAJ47133.2	AM176553.2	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-78
+ARO:3001133	37513	8240	76	SHV-79	SHV-79	CAJ47134.2	AM176554.2	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-79
+ARO:3001067	37447	993	371	SHV-8	SHV-8	AAB51384.1	U92041.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-8
+ARO:3001134	37514	8142	1439	SHV-80	SHV-80	CAJ47135.2	AM176555.2	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-80
+ARO:3001135	37515	8204	1239	SHV-81	SHV-81	CAJ47136.2	AM176556.2	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-81
+ARO:3001136	37516	8206	565	SHV-82	SHV-82	CAJ47137.2	AM176557.2	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-82
+ARO:3001137	37517	8139	439	SHV-83	SHV-83	CAJ47138.2	AM176558.2	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-83
+ARO:3001138	37518	8846	1639	SHV-84	SHV-84	HBU8836957.1	DAGGVK010000093.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-84
+ARO:3001139	37519	1486	1520	SHV-85	SHV-85	ABC54571.1	DQ322460.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-85
+ARO:3001140	37520	1564	1603	SHV-86	SHV-86	ABC58727.1	DQ328802.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-86
+ARO:3001141	37521	1641	188	SHV-89	SHV-89	ABA60809.1	DQ193536.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-89
+ARO:3001068	37448	1717	557	SHV-9	SHV-9	AAB37395.2	S82452.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-9
+ARO:3001144	37524	1793	148	SHV-92	SHV-92	ABH04327.1	DQ836922.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-92
+ARO:3001145	37525	1877	961	SHV-93	SHV-93	ABN49110.1	EF373969.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-93
+ARO:3001146	37526	1950	1346	SHV-94	SHV-94	ABN49111.1	EF373970.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-94
+ARO:3001147	37527	2028	1654	SHV-95	SHV-95	ABN49113.1	EF373972.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-95
+ARO:3001148	37528	841	955	SHV-96	SHV-96	ABN49112.1	EF373971.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-96
+ARO:3001149	37529	922	749	SHV-97	SHV-97	ABN49114.1	EF373973.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-97
+ARO:3001336	37736	994	1941	SHV-98	SHV-98	CAQ03503.1	AM941844.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-98
+ARO:3001337	37737	1070	1475	SHV-99	SHV-99	CAQ03504.1	AM941845.1	SHV beta-lactamase	cephalosporin;penam	antibiotic inactivation	SHV-99
 ARO:3000846	37226	1152	1282	SIM-1	SIM-1	ACT66697.1	GQ288397.1	SIM beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SIM-1
 ARO:3005494	43956	8034	5659	SIM-2	SIM-2	WP_063864722.1	NG_050132.1	SIM beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	SIM-2
 ARO:3003556	40159	3312	419	SLB-1	SLB-1	AAT90846.1	AY590118.1	SHW beta-lactamase	cephalosporin;penam	antibiotic inactivation	SLB-1
@@ -4896,6 +4923,7 @@ ARO:3004576	42495	8448	3279	tet(61)	tet(61)	ARX76269.1	KY887560.1	tetracycline-r
 ARO:3007492	46260	8684	5962	tet(62)	tet(62)	QIQ10744.1	MN340018.1	major facilitator superfamily (MFS) antibiotic efflux pump	tetracycline antibiotic	antibiotic efflux	tet(62)
 ARO:3007493	46261	8685	5963	tet(63)	tet(63)	QJR33972.1	CP053076.1	major facilitator superfamily (MFS) antibiotic efflux pump	tetracycline antibiotic	antibiotic efflux	tet(63)
 ARO:3007494	46262	8686	5964	tet(64)	tet(64)	WP_124470450.1	NG_071182.1	major facilitator superfamily (MFS) antibiotic efflux pump	tetracycline antibiotic	antibiotic efflux	tet(64)
+ARO:3007838	46626	8885	6062	tet(65)	tet(65)	WPF67354.1	CP123906.1	major facilitator superfamily (MFS) antibiotic efflux pump	tetracycline antibiotic	antibiotic efflux	tet(65)
 ARO:3000165	36304	5213	1808	tet(A)	tet(A)	AAN06707.1	AF534183.1	major facilitator superfamily (MFS) antibiotic efflux pump	tetracycline antibiotic	antibiotic efflux	tet(A)
 ARO:3004032	41064	3976	2643	tetA(46)	tetA(46)	AET10444.1	HQ652506.1	ATP-binding cassette (ABC) antibiotic efflux pump	tetracycline antibiotic	antibiotic efflux	tetA(46)
 ARO:3003980	40861	3853	2517	tetA(58)	tetA(58)	APB03214.1	KX531044.1	major facilitator superfamily (MFS) antibiotic efflux pump	tetracycline antibiotic	antibiotic efflux	tetA(58)
@@ -5100,6 +5128,7 @@ ARO:3004460	41671	4432	2899	Vibrio anguillarum chloramphenicol acetyltransferase
 ARO:3004118	41242	8288	2783	Vibrio cholerae OmpT	Vibrio cholerae OmpT	AAC28105.1	AF079766.2	General Bacterial Porin with reduced permeability to peptide antibiotics	peptide antibiotic	reduced permeability to antibiotic	Vcho_OmpT
 ARO:3004117	41241	4097	2782	Vibrio cholerae OmpU	Vibrio cholerae OmpU	AID70696.1	KJ699300.1	General Bacterial Porin with reduced permeability to peptide antibiotics	peptide antibiotic	reduced permeability to antibiotic	Vcho_OmpU
 ARO:3004289	41453	4194	2842	Vibrio cholerae varG	Vibrio cholerae varG	AAF94716.1	AE003852.1	Subclass B1 Vibrio cholerae varG beta-lactamase	carbapenem	antibiotic inactivation	Vcho_varG
+ARO:3007794	46577	8757	6022	Vibrio vulnificus rpoB mutants conferring resistance to rifampin	Vibrio vulnificus rpoB mutants conferring resistance to rifampin	WP_011079201.1	NC_004459.3	rifamycin-resistant beta-subunit of RNA polymerase (rpoB)	peptide antibiotic;rifamycin antibiotic	antibiotic target alteration;antibiotic target replacement	Vvul_rpoB_RIF
 ARO:3002271	38671	1962	1211	VIM-1	VIM-1	AAN63496.1	AF317511.1	VIM beta-lactamase	carbapenem;cephalosporin;cephamycin;penam;penem	antibiotic inactivation	VIM-1
 ARO:3002280	38680	2040	1274	VIM-10	VIM-10	AAS13761.1	AY524989.1	VIM beta-lactamase	carbapenem;cephalosporin;cephamycin;penam;penem	antibiotic inactivation	VIM-10
 ARO:3002281	38681	8189	530	VIM-11	VIM-11	AAT36613.1	AY605049.2	VIM beta-lactamase	carbapenem;cephalosporin;cephamycin;penam;penem	antibiotic inactivation	VIM-11
@@ -5169,7 +5198,21 @@ ARO:3005518	43980	8094	5719	VIM-70	VIM-70	WP_164461303.1	NG_068039.1	VIM beta-la
 ARO:3005519	43981	8095	5720	VIM-71	VIM-71	WP_179284394.1	NG_070223.1	VIM beta-lactamase	carbapenem;cephalosporin;cephamycin;penam;penem	antibiotic inactivation	VIM-71
 ARO:3005520	43982	8096	5721	VIM-72	VIM-72	WP_188331881.1	NG_070756.1	VIM beta-lactamase	carbapenem;cephalosporin;cephamycin;penam;penem	antibiotic inactivation	VIM-72
 ARO:3005521	43983	8097	5722	VIM-73	VIM-73	WP_188331882.1	NG_070757.1	VIM beta-lactamase	carbapenem;cephalosporin;cephamycin;penam;penem	antibiotic inactivation	VIM-73
+ARO:3007804	46590	8848	6028	VIM-74	VIM-74	QTG68659.1	MW811442.1	VIM beta-lactamase	carbapenem;cephalosporin;cephamycin;penam;penem	antibiotic inactivation	VIM-74
+ARO:3007812	46598	8856	6036	VIM-75	VIM-75	QYZ89894.1	MZ748327.1	VIM beta-lactamase	carbapenem;cephalosporin;cephamycin;penam;penem	antibiotic inactivation	VIM-75
+ARO:3007813	46599	8857	6037	VIM-76	VIM-76	BDA82255.1	LC648428.1	VIM beta-lactamase	carbapenem;cephalosporin;cephamycin;penam;penem	antibiotic inactivation	VIM-76
+ARO:3007814	46600	8858	6038	VIM-77	VIM-77	WP_231869637.1	NG_078035.1	VIM beta-lactamase	carbapenem;cephalosporin;cephamycin;penam;penem	antibiotic inactivation	VIM-77
+ARO:3007815	46602	8859	6039	VIM-78	VIM-78	UBK22127.1	OK180983.1	VIM beta-lactamase	carbapenem;cephalosporin;cephamycin;penam;penem	antibiotic inactivation	VIM-78
+ARO:3007816	46603	8860	6040	VIM-79	VIM-79	UBL87558.1	OK217280.1	VIM beta-lactamase	carbapenem;cephalosporin;cephamycin;penam;penem	antibiotic inactivation	VIM-79
 ARO:3002278	38678	1084	262	VIM-8	VIM-8	AAS13759.1	AY524987.1	VIM beta-lactamase	carbapenem;cephalosporin;cephamycin;penam;penem	antibiotic inactivation	VIM-8
+ARO:3007817	46604	8861	6041	VIM-80	VIM-80	MBC9045152.1	JACTAE010000183.1	VIM beta-lactamase	carbapenem;cephalosporin;cephamycin;penam;penem	antibiotic inactivation	VIM-80
+ARO:3007818	46605	8862	6042	VIM-81	VIM-81	UNZ81762.1	ON059758.1	VIM beta-lactamase	carbapenem;cephalosporin;cephamycin;penam;penem	antibiotic inactivation	VIM-81
+ARO:3007819	46606	8863	6043	VIM-82	VIM-82	WP_238839790.1	NG_088450.1	VIM beta-lactamase	carbapenem;cephalosporin;cephamycin;penam;penem	antibiotic inactivation	VIM-82
+ARO:3007820	46607	8864	6044	VIM-83	VIM-83	UWI53403.1	OP353772.1	VIM beta-lactamase	carbapenem;cephalosporin;cephamycin;penam;penem	antibiotic inactivation	VIM-83
+ARO:3007821	46608	8865	6045	VIM-84	VIM-84	UWQ12890.1	ON688661.1	VIM beta-lactamase	carbapenem;cephalosporin;cephamycin;penam;penem	antibiotic inactivation	VIM-84
+ARO:3007822	46609	8866	6046	VIM-85	VIM-85	UWQ12891.1	ON688662.1	VIM beta-lactamase	carbapenem;cephalosporin;cephamycin;penam;penem	antibiotic inactivation	VIM-85
+ARO:3007823	46610	8867	6047	VIM-86	VIM-86	WAU52774.1	OP998371.1	VIM beta-lactamase	carbapenem;cephalosporin;cephamycin;penam;penem	antibiotic inactivation	VIM-86
+ARO:3007824	46611	8868	6048	VIM-87	VIM-87	EME7055635.1	ABPYXB010000003.1	VIM beta-lactamase	carbapenem;cephalosporin;cephamycin;penam;penem	antibiotic inactivation	VIM-87
 ARO:3002279	38679	1166	1857	VIM-9	VIM-9	AAS13760.1	AY524988.1	VIM beta-lactamase	carbapenem;cephalosporin;cephamycin;penam;penem	antibiotic inactivation	VIM-9
 ARO:3005015	43204	6048	3758	VMB-1	VMB-1	QGQ32905.1	MN719868.1	VMB beta-lactamase	carbapenem;cephalosporin;penam	antibiotic inactivation	VMB-1
 ARO:3004476	41736	5366	2907	vmlR	vmlR	NP_388442.1	NC_000964.3	Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins	lincosamide antibiotic;nucleoside antibiotic;pleuromutilin antibiotic;streptogramin A antibiotic;streptogramin B antibiotic;streptogramin antibiotic	antibiotic target protection	vmlR
