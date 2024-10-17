@@ -2,7 +2,7 @@
 
 ## Introduction
 
-SARG+ is a manually curated database of Antibiotic Resistance Genes (ARGs), designed to enhance read-based environmental surveillance at species-level resolution. It extends existing databases including [NDARO](https://www.ncbi.nlm.nih.gov/pathogens/antimicrobial-resistance/), [CARD](https://card.mcmaster.ca/), and [SARG](https://smile.hku.hk/ARGs/Indexing) by including a comprehensive collection of protein sequences from RefSeq that are annotated through the same evidence sources (BlastRules or Hidden Markov Models provided by the NCBI Prokaryotic Genome Annotation Pipeline, [PGAP](https://github.com/ncbi/pgap)) as experimentally validated ARGs. This expansion addresses the limitations of existing databases, which often include only a single or a few representative sequences per ARG, and allows for the use of more stringent identity thresholds while maintaining sensitivity.
+SARG+ is a manually curated database of Antibiotic Resistance Genes (ARGs), designed to enhance read-based environmental surveillance at species-level resolution. It extends existing databases ([NDARO](https://www.ncbi.nlm.nih.gov/pathogens/antimicrobial-resistance/), [CARD](https://card.mcmaster.ca/), and [SARG](https://smile.hku.hk/ARGs/Indexing)) by incorporating a comprehensive collection of protein sequences from RefSeq that are annotated through the same evidence sources (BlastRules or Hidden Markov Models provided by the NCBI Prokaryotic Genome Annotation Pipeline, [PGAP](https://github.com/ncbi/pgap)) as experimentally validated ARGs. This expansion addresses the limitations of existing databases, which often include only a single or a few representative sequences per ARG, and allows for the use of more stringent cutoffs while maintaining sensitivity.
 
 **SARG+** ([sarg.fa](https://github.com/xinehc/sarg-curation/blob/master/sarg.fa)) consists of two components:
 
@@ -13,7 +13,7 @@ SARG+ is a manually curated database of Antibiotic Resistance Genes (ARGs), desi
 
 ### Install Dependencies
 
-Create a new environment with the necessary dependencies:
+Create a new conda environment with the necessary dependencies:
 
 ```bash
 conda create -n sarg-curation -c bioconda -c conda-forge blast diamond mmseqs2 seqkit
@@ -55,7 +55,7 @@ rm -rf tmp/protein
 
 ### Download NDARO and CARD
 
-NDARO can be download manually from https://www.ncbi.nlm.nih.gov/pathogens/refgene/ (click `Download` for both the metadata `refgenes.tsv` and reference protein sequences `refgene_catalog.zip`). CARD can be download from https://card.mcmaster.ca/download. These files need to be unzipped and placed in the [reference](https://github.com/xinehc/sarg-curation/tree/master/reference) folder.
+NDARO can be downloaded manually from https://www.ncbi.nlm.nih.gov/pathogens/refgene/ (click `Download` for both the metadata `refgenes.tsv` and reference protein sequences `refgene_catalog.zip`). CARD can be obtained from https://card.mcmaster.ca/download. These files need to be unzipped and placed in the [reference](https://github.com/xinehc/sarg-curation/tree/master/reference) folder.
 
 
 ## Run
@@ -69,29 +69,29 @@ We provide a series of Jupyter notebooks for step-wise construction of SARG+:
 3. **`b1-get-remarks.ipynb`**
    - Retrieves annotation evidence of SARG+ sequences.
 4. **`b2-parse-remarks.ipynb`**
-   - Find sequences annotated through the same evidence sources (BlastRules and Hidden Markov Models) as the reference sequences.
+   - Finds sequences annotated through the same evidence sources (BlastRules and Hidden Markov Models) as the reference sequences.
 5. **`b3-remove-dups.ipynb`**
    - Removes duplicated and cross-mapped sequences by clustering.
 
 > [!NOTE]
-> Scripts `z0` and `z1` are for checks and are not required for building SARG+.
+> Scripts `z0` and `z1` are used for testing and are not required for building SARG+.
 
 ## Output
 
-- **Summary File:** `misc/sarg.tsv` provides a summary of SARG+ reference sequences, including their types, subtypes, and sources.
+- **Summary File:** `misc/summary.tsv` provides a summary of SARG+ reference sequences, including their types, subtypes, and sources.
 - **Evidence File:** `misc/evidence.tsv` lists all evidence used for creating SARG+ extension.
-- **Counts:** `misc/sarg.txt` (and `misc/sarg_ref.txt`, `misc/sarg_ext.txt`) display counts of different ARG subtypes for SARG+, SARG+ reference, and SARG+ extension, respectively.
+- **Counts:** `misc/sarg.txt`, `misc/sarg_ref.txt`, and `misc/sarg_ext.txt` display the counts of different ARGs for SARG+, SARG+ reference, and SARG+ extension, respectively.
 - **FASTA Files:**
   - `sarg.fa`: The combined reference and extension database.
-  - `misc/sarg_ref.fa`: The reference component of SARG+.
-  - `misc/sarg_ext.fa`: The extension component of SARG+.
+  - `sarg_ref.fa`: The reference component of SARG+.
+  - `sarg_ext.fa`: The extension component of SARG+.
 
 ## Contribution
 
-New ARG sequences can be integrated into SARG+ by editing [sarg.json](https://github.com/xinehc/sarg-curation/blob/master/sarg.json) and [reference/reference.fasta](https://github.com/xinehc/sarg-curation/blob/master/reference/reference.fasta).
+New ARG sequences can be integrated into SARG+ by editing [`sarg.json`](https://github.com/xinehc/sarg-curation/blob/master/sarg.json) and [`reference/reference.fasta`](https://github.com/xinehc/sarg-curation/blob/master/reference/reference.fasta).
 
-- **`sarg.json`:** Indicates the ARG class (type), corresponding literature, rationale, and links for new sequences.
-- **`reference.fasta`:** Contains the protein sequences of these new genes.
+- **`sarg.json`**: Specifies the ARG type (class/family) for each new gene, relevant literature, rationales, and links to sequences.
+- **`reference.fasta`**: Contains the protein sequences of these new genes.
 
 For example:
 
@@ -122,32 +122,35 @@ For example:
 }
 ```
 
-If you spot any suspicious cases or wish to add sequences to SARG+, you may consider creating a pull request by editing `sarg.json` and `reference/reference.fasta`, or leave an issue. We will update SARG+ on a regular basis.
+If you spot any suspicious cases or wish to add sequences to SARG+, please consider creating a pull request by editing `sarg.json` and `reference/reference.fasta`, or opening an issue. We will update SARG+ regularly.
 
 ## FAQ
 
 ### Does SARG+ cover point mutations?
 
-No, we excluded all ARGs related to point mutations of essential genes (mainly antibiotic targets). Examples include mutations in *gyrA*, *parC*, and *rpoB*.
+No, we exclude all ARGs related to point mutations in essential genes (mainly antibiotic targets). Examples include mutations in ***gyrA***, ***parC***, and ***rpoB***.
 
-### Why doesn't SARG+ include detailed gene numbers like *bla<sub>OXA-1</sub>*?
+### Why doesn't SARG+ include detailed gene numbers like ***bla***<sub>**OXA-1**</sub>?
 
-We group highly similar genes into ARG subtype clusters to reduce false identifications. *bla<sub>OXA-1</sub>* and *bla<sub>OXA-1024</sub>* differ by a single amino acid, a subtle difference that is challenging to detect with read data. By default, we use 95% identity and 95% query/subject cover as cutoffs for clustering.
+We group highly similar ARG subtypes (genes) into clusters to reduce the chance of false identifications. For instance, ***bla***<sub>**OXA-1**</sub> and ***bla***<sub>**OXA-1024**</sub> differ by a single amino acid, and this subtle difference can be difficult to detect using reads. By default, we apply 95% identity and 95% query/subject cover as cutoffs for subtype clustering.
 
 ### Why does SARG+ exclude fused genes?
 
-SARG+ is designed for read-based ARG profiling. Fused genes can lead to ambiguities when aligned by reads. For example, the fused gene *aac(3)-Ib-cr* contains an additional quinolone resistance-determining region. Reads, especially short reads, may not reliably distinguish these subtle differences, potentially leading to false positives.
-
+SARG+ is designed for read-based ARG profiling. Fused genes can create ambiguities when being aligned using reads. For example, [WP_071593228.1](https://www.ncbi.nlm.nih.gov/protein/WP_071593228.1) (***catB/aac(6')-I***) likely results from the fusion of [WP_264840997.1](https://www.ncbi.nlm.nih.gov/protein/WP_264840997.1) (***catB***) and [WP_033917551.1](https://www.ncbi.nlm.nih.gov/protein/WP_033917551.1) (***aac(6')-I***). Reads, especially short ones, may not reliably distinguish between these genes, potentially leading to false identifications.
 
 ### Which other genes are omitted?
 
-We omit regulators (e.g., activators, repressors) since they do not confer direct antibiotic resistance (with exceptions like *tipA* and *albAB*, which are self-regulated sequesters). We also remove genes that are putatively accessory, such as *vanZ*.
+We omit regulators (e.g., activators, repressors) since they do not confer direct antibiotic resistance (with the exceptions of ***tipA*** and ***albAB***, which function as self-regulated sequesters). We also remove genes that are putatively accessory, such as ***vanZ***.
 
-### Why have some gene names changed?
+### Why some genes have uncommon names?
 
-To ensure ARGs are identifiable through the combination of ARG type and subtype, we have standardized gene names. For example:
+We standardize gene names to ensure all of them are identifiable through a combination of ARG type and subtype. For example:
 
-- *mdtP* refers to both a component of RND efflux pumps in *E. coli* and an MFS transporter in *Bacillus*. To avoid confusion, we renamed the *Bacillus* version to *mdt(P)*, aligning it with *mdt(A)* (also an MFS transporter).
-- Some genes were mislabeled in RefSeq; for instance, *efr* was misspelled as *erf*. We corrected these cases.
-- *qacA* and *qacB* are clustered to *qacA/B* due to their high sequence similarity.
-- Naming consistency is a primary goal in SARG+, so some gene names have been modified to reflect this. For example, *tnrB2* and *tnrB3* have been renamed to *tnrB-1* and *tnrB-2* to reflect their two-component nature of ABC transporters.
+- ***mdtP*** refers to both a component of RND efflux pumps in *Escherichia coli* and an MFS transporter in *Bacillus subtilis*. To avoid confusion, we rename the *Bacillus* version to ***mdt(P)***, aligning it with ***mdt(A)*** (also an MFS transporter).
+- Some genes are mislabeled by RefSeq; for example, ***efrCD*** is misspelled as ***erfCD***. We correct such cases.
+- ***qacA*** and ***qacB*** are renamed to ***qacA/B*** due to their high sequence similarity.
+
+Maintaining naming consistency is a key goal of SARG+, so we modify some gene names accordingly. For instance:
+
+- ***tnrB2*** and ***tnrB3*** are renamed to ***tnrB-1*** and ***tnrB-2*** to reflect their two-component nature as ABC transporters.
+- ***cap21*** refers to ***orf21*** of a biosynthetic gene cluster ([AB476988](https://www.ncbi.nlm.nih.gov/nuccore/AB476988)) in *Streptomyces griseus*, which lacks a proper name.
