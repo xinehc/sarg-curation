@@ -55,8 +55,7 @@ rm -rf tmp/protein
 
 ### Download NDARO and CARD
 
-NDARO can be downloaded manually from https://www.ncbi.nlm.nih.gov/pathogens/refgene/ (click `Download` for both the metadata `refgenes.tsv` and reference protein sequences `refgene_catalog.zip`). CARD can be obtained from https://card.mcmaster.ca/download. These files need to be unzipped and placed in the [reference](https://github.com/xinehc/sarg-curation/tree/master/reference) folder.
-
+NDARO need to be downloaded manually from https://www.ncbi.nlm.nih.gov/pathogens/refgene/ (click `Download` for both the metadata `refgenes.tsv` and the reference protein sequences `reference_protein.faa`). CARD can be obtained from https://card.mcmaster.ca/download. These files need to be unzipped and placed in the [reference](https://github.com/xinehc/sarg-curation/tree/master/reference) folder.
 
 ## Run
 
