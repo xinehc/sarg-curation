@@ -80,7 +80,7 @@ We provide a series of Jupyter notebooks for step-wise construction of SARG+:
 - **Summary File:** `misc/summary.tsv` provides a summary of SARG+ reference sequences, including their types, subtypes, and sources.
 - **Evidence File:** `misc/evidence.tsv` lists all evidence used for creating SARG+ extension.
 - **Counts:** `misc/sarg.txt`, `misc/sarg_ref.txt`, and `misc/sarg_ext.txt` display the counts of different ARGs for SARG+, SARG+ reference, and SARG+ extension, respectively.
-- **FASTA Files:**
+- **Sequences:**
   - `sarg.fa`: The combined reference and extension database.
   - `sarg_ref.fa`: The reference component of SARG+.
   - `sarg_ext.fa`: The extension component of SARG+.
