@@ -1,4 +1,4 @@
-type	subtype	name	evidence	symbol	source	cnt
+type	subtype	name	evidence	symbol	identifier	cnt
 aminocoumarin	novA	NovA family novobiocin export ABC transporter	NBR006897	NA	NA	11
 aminoglycoside	aac(2')-I	aminoglycoside N-acetyltransferase AAC(2')-Ia	NF000108.1	aac(2')-Ia	NA	6
 aminoglycoside	aac(2')-I	aminoglycoside N-acetyltransferase AAC(2')-Ib	NF000010.1	aac(2')-Ib	NA	34
