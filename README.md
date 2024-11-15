@@ -99,13 +99,13 @@ NDARO need to be downloaded manually from https://www.ncbi.nlm.nih.gov/pathogens
 
 We provide a series of Jupyter notebooks for step-wise construction of SARG+:
 
-1. **`a0-parse-refs.ipynb`**
+1. `a0-parse-refs.ipynb`
    - Parses NDARO and CARD metadata and sequences to create a raw reference. Curates the reference according to `sarg.json`, producing the initial SARG+ reference database.
-2. **`a1-standardize-headers.ipynb`**
+2. `a1-standardize-headers.ipynb`
    - Standardizes the headers of SARG+ reference sequences according to `nr`.
-4. **`b0-parse-evidence.ipynb`**
+4. `b0-parse-evidence.ipynb`
    - Finds sequences annotated through the same evidence sources (BlastRules and Hidden Markov Models) as SARG+ reference sequences.
-5. **`b1-remove-dups.ipynb`**
+5. `b1-remove-dups.ipynb`
    - Removes duplicated and cross-mapped sequences by clustering.
 
 > [!NOTE]
@@ -118,15 +118,15 @@ We provide a series of Jupyter notebooks for step-wise construction of SARG+:
 - **Counts:** `misc/sarg.txt`, `misc/sarg_ref.txt`, and `misc/sarg_ext.txt` display the counts of different ARGs for SARG+, SARG+ reference, and SARG+ extension, respectively.
 - **Sequences:**
   - `sarg.fa`: combined reference and extension sequences.
-  - `sarg_ref.fa`: The reference component of SARG+.
-  - `sarg_ext.fa`: The extension component of SARG+.
+  - `sarg_ref.fa`: the reference component of SARG+.
+  - `sarg_ext.fa`: the extension component of SARG+.
 
 ## Contribution
 
 New ARG sequences can be integrated into SARG+ by editing [`sarg.json`](https://github.com/xinehc/sarg-curation/blob/master/sarg.json) and [`reference/reference.fasta`](https://github.com/xinehc/sarg-curation/blob/master/reference/reference.fasta).
 
-- **`sarg.json`**: Specifies the ARG type (class/family) for each new gene, relevant literature, rationales, and links to sequences.
-- **`reference.fasta`**: Contains the protein sequences of these new genes.
+- `sarg.json`: Specifies the ARG type (class/family) for each new gene, relevant literature, rationales, and links to sequences.
+- `reference.fasta`: Contains the protein sequences of these new genes.
 
 For example:
 
