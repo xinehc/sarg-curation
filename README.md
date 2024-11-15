@@ -16,14 +16,14 @@ SARG+ is a manually curated database of Antibiotic Resistance Genes (ARGs), desi
 Create a new conda environment with the necessary dependencies:
 
 ```bash
-conda create -n sarg-curation -c bioconda -c conda-forge blast diamond mmseqs2 seqkit tqdm
+conda create -n sarg-curation -c bioconda -c conda-forge blast diamond mmseqs2 seqkit wget tqdm biopython pandas
 conda activate sarg-curation
 ```
 
 Install additional Python modules and Jupyter for running the notebooks:
 
 ```bash
-conda install jupyter regex json5 biopython wget
+conda install jupyter regex json5
 ```
 
 ### Download NCBI Databases
