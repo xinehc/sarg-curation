@@ -16,7 +16,7 @@ SARG+ is a manually curated database of Antibiotic Resistance Genes (ARGs), desi
 Create a new conda environment with the necessary dependencies:
 
 ```bash
-conda create -n sarg-curation -c bioconda -c conda-forge blast diamond mmseqs2 seqkit
+conda create -n sarg-curation -c bioconda -c conda-forge blast diamond mmseqs2 seqkit tqdm
 conda activate sarg-curation
 ```
 
@@ -27,11 +27,10 @@ conda install jupyter regex json5 biopython wget
 ```
 
 ### Download NCBI Databases
-
-Download the `nr`, `env_nr`, and `refseq_protein` databases from [NCBI FTP](https://ftp.ncbi.nlm.nih.gov/blast/db/) and extract sequences:
-
 > [!NOTE]
 > Extracting sequences and creating `diamond` databases can be time-consuming. Consider running `blastdbcmd` and `diamond makedb` in parallel to utilize multiple cores.
+
+Download `nr` and `env_nr` from [NCBI FTP](https://ftp.ncbi.nlm.nih.gov/blast/db/) and extract sequences:
 
 ```bash
 for db in nr env_nr
@@ -48,6 +47,8 @@ blastdbcmd -db tmp/protein/nr/nr -entry all > tmp/nr.fa
 blastdbcmd -db tmp/protein/env_nr/env_nr -entry all > tmp/env_nr.fa
 rm -rf tmp/protein
 ```
+
+Download `refseq_protein` from [NCBI RefSeq](https://ftp.ncbi.nlm.nih.gov/refseq/release/) and extract annotation evidence:
 
 ```bash
 for kingdom in archaea bacteria
