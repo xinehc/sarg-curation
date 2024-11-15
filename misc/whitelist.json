@@ -1,15 +1,8 @@
 {
-    "16S rRNA (adenine(1518)-N(6)/adenine(1519)-N(6))-dimethyltransferase RsmA": {
-        "gene": "",
-        "remark": [
-            "TIGR00755.1 | rsmA | NA | 1"
-        ],
-        "reviewed": "*"
-    },
     "23S rRNA (adenine(2503)-C(8))-methyltransferase Cfr": {
         "gene": "phenicol@cfr(A)",
         "remark": [
-            "NBR012187 | cfr | NA | 32",
+            "NBR012187 | cfr | NA | 33",
             "NF011024.0 | cfr | PRK14453 | 6"
         ],
         "reviewed": "phenicol@cfr(A)"
@@ -17,30 +10,59 @@
     "23S ribosomal RNA methyltransferase Erm": {
         "gene": "macrolide-lincosamide-streptogramin@erm(X)",
         "remark": [
-            "NF000499.1 | erm | NA | 2216"
+            "NF000499.1 | erm | NA | 2529"
         ],
         "reviewed": "macrolide-lincosamide-streptogramin@erm*"
     },
     "4-deoxy-4-formamido-L-arabinose-phosphoundecaprenol deformylase": {
         "gene": "colistin@arnD",
         "remark": [
-            "NF011923.2 | arnD | PRK15394 | 5465"
+            "NF011923.2 | arnD | PRK15394 | 5515"
         ],
         "reviewed": "colistin@arnD"
+    },
+    "50S ribosomal protein L11 methyltransferase": {
+        "gene": "",
+        "remark": [
+            "NF001784.0 | NA | PRK00517 | 4094",
+            "NF001785.0 | prmA | PRK00517 | 6668",
+            "NF001786.0 | NA | PRK00517 | 1143",
+            "NF001790.0 | NA | PRK00517 | 222",
+            "TIGR00406.1 | prmA | NA | 34084"
+        ],
+        "reviewed": "*"
+    },
+    "AAA family ATPase": {
+        "gene": "aminoglycoside@aph(2'')*",
+        "remark": [
+            "NF009880.0 | NA | PRK13341 | 14",
+            "NF009881.0 | NA | PRK13341 | 915",
+            "NF009882.0 | NA | PRK13341 | 11",
+            "NF009883.0 | NA | PRK13341 | 201"
+        ],
+        "reviewed": "*"
     },
     "AAC(3)-I family aminoglycoside N-acetyltransferase": {
         "gene": "",
         "remark": [
-            "NF033083.0 | NA | NA | 748"
+            "NF033083.0 | NA | NA | 774"
         ],
         "reviewed": "aminoglycoside@aac(3)-I"
     },
     "AAC(3)-IV family aminoglycoside N-acetyltransferase": {
         "gene": "",
         "remark": [
-            "NF033081.0 | aac(3)-IV | NA | 74"
+            "NF033081.0 | aac(3)-IV | NA | 77"
         ],
         "reviewed": "aminoglycoside@aac(3)-IV"
+    },
+    "ABC transporter ATP-binding protein": {
+        "gene": "bacitracin@bceA | bacteriocin@anrA | bacteriocin@nsrF | bacteriocin@psdA | bacteriocin@rapA | bacteriocin@ysaC | defensin@derA | defensin@yxdL | lugdunin@lugG",
+        "remark": [
+            "NF007921.0 | NA | PRK10636 | 8659",
+            "NF008358.0 | NA | PRK11147 | 8774"
+        ],
+        "reviewed": "*"
     },
     "ABC transporter ATP-binding protein VirB": {
         "gene": "",
@@ -52,14 +74,22 @@
     "ABC transporter ATP-binding protein VraF": {
         "gene": "",
         "remark": [
-            "NBR013184 | vraF | NA | 226"
+            "NBR013184 | vraF | NA | 229"
+        ],
+        "reviewed": "*"
+    },
+    "ABC transporter permease": {
+        "gene": "avilamycin@aviABC-2 | bacitracin@bceB | bacteriocin@anrB | bacteriocin@rapB | bacteriocin@ysaB | friulimicin@expA",
+        "remark": [
+            "NF011648.0 | NA | PRK15066 | 8193",
+            "NF038017.1 | NA | NA | 7221"
         ],
         "reviewed": "*"
     },
     "ABC-F type ribosomal protection protein Msr(E)": {
         "gene": "",
         "remark": [
-            "NBR013518 | msr(E) | NA | 82"
+            "NBR013518 | msr(E) | NA | 84"
         ],
         "reviewed": "macrolide-lincosamide-streptogramin@msr(E)"
     },
@@ -73,7 +103,14 @@
     "ABC-F type ribosomal protection-like protein Eat(A)": {
         "gene": "",
         "remark": [
-            "NBR011669 | eat(A) | NA | 204"
+            "NBR011669 | eat(A) | NA | 207"
+        ],
+        "reviewed": "*"
+    },
+    "AI-2E family transporter": {
+        "gene": "",
+        "remark": [
+            "NF008930.0 | NA | PRK12287 | 3590"
         ],
         "reviewed": "*"
     },
@@ -87,14 +124,14 @@
     "ANT(3'')-II family aminoglycoside nucleotidyltransferase": {
         "gene": "",
         "remark": [
-            "NF033220.1 | NA | NA | 232"
+            "NF033220.1 | NA | NA | 235"
         ],
         "reviewed": "aminoglycoside@ant(3'')-II"
     },
     "ANT(4')-I family aminoglycoside nucleotidyltransferase": {
         "gene": "",
         "remark": [
-            "NF033061.1 | NA | NA | 313"
+            "NF033061.1 | NA | NA | 336"
         ],
         "reviewed": "aminoglycoside@ant(4')-I"
     },
@@ -108,7 +145,7 @@
     "APH(2'')-Ia/If/Ih family aminoglycoside O-phosphotransferase": {
         "gene": "",
         "remark": [
-            "NF033692.1 | aph(2'')-I | NA | 11"
+            "NF033692.1 | aph(2'')-I | NA | 12"
         ],
         "reviewed": "aminoglycoside@aph(2'')-I"
     },
@@ -122,45 +159,60 @@
     "APH(2'')-If/Ih family aminoglycoside O-phosphotransferase": {
         "gene": "",
         "remark": [
-            "NF000498.2 | aph(2'')-If | NA | 14"
+            "NF000498.2 | aph(2'')-I | NA | 15"
         ],
         "reviewed": "aminoglycoside@aph(2'')-I"
     },
     "APH(3'') family aminoglycoside O-phosphotransferase": {
         "gene": "",
         "remark": [
-            "NF032896.1 | NA | NA | 850"
+            "NF032896.1 | NA | NA | 1157"
         ],
         "reviewed": "aminoglycoside@aph(3'')*"
     },
     "APH(3') family aminoglycoside O-phosphotransferase": {
         "gene": "",
         "remark": [
-            "NF033068.1 | NA | NA | 1502"
+            "NF033068.1 | NA | NA | 1594"
         ],
         "reviewed": "aminoglycoside@aph(3')*"
     },
     "APH(3')-V family aminoglycoside O-phosphotransferase": {
         "gene": "",
         "remark": [
-            "NF032897.1 | NA | NA | 17"
+            "NF032897.1 | NA | NA | 28"
         ],
         "reviewed": "aminoglycoside@aph(3')-V"
     },
     "APH(6) family putative aminoglycoside O-phosphotransferase": {
         "gene": "aminoglycoside@aph(6)*",
         "remark": [
-            "NF012160.0 | NA | NA | 338"
+            "NF012160.0 | NA | NA | 342"
         ],
         "reviewed": "aminoglycoside@aph(6)*"
     },
     "APH(6)-I family aminoglycoside O-phosphotransferase": {
         "gene": "",
         "remark": [
-            "NF012171.0 | NA | NA | 357",
-            "NF033614.1 | NA | NA | 32"
+            "NF012171.0 | NA | NA | 394",
+            "NF033614.1 | NA | NA | 33"
         ],
         "reviewed": "aminoglycoside@aph(6)-I"
+    },
+    "ATP-binding cassette domain-containing protein": {
+        "gene": "",
+        "remark": [
+            "NF012235.0 | NA | NF012235.0 | 1"
+        ],
+        "reviewed": "*"
+    },
+    "ATP-binding protein": {
+        "gene": "macrolide-lincosamide-streptogramin@ole(C)-1",
+        "remark": [
+            "NF005304.0 | NA | PRK06835 | 3098",
+            "NF009043.0 | NA | PRK12377 | 694"
+        ],
+        "reviewed": "*"
     },
     "AacA48 family aminoglycoside 6'-N-acetyltransferase": {
         "gene": "",
@@ -172,14 +224,14 @@
     "AadA family aminoglycoside 3''-O-nucleotidyltransferase": {
         "gene": "aminoglycoside@ant(3'')-I",
         "remark": [
-            "NF012157.0 | NA | NA | 531"
+            "NF012157.0 | NA | NA | 540"
         ],
         "reviewed": "aminoglycoside@ant(3'')-I"
     },
     "AadS family aminoglycoside 6-adenylyltransferase": {
         "gene": "",
         "remark": [
-            "NF033387.1 | NA | NA | 371"
+            "NF033387.1 | NA | NA | 376"
         ],
         "reviewed": "aminoglycoside@ant(6)*"
     },
@@ -193,21 +245,21 @@
     "AdeA/AdeI family multidrug efflux RND transporter periplasmic adaptor subunit": {
         "gene": "",
         "remark": [
-            "NF000313.1 | NA | NA | 97"
+            "NF000313.1 | NA | NA | 99"
         ],
         "reviewed": "*"
     },
     "AdeB/AdeJ family multidrug efflux RND transporter permease subunit": {
         "gene": "",
         "remark": [
-            "NF000314.1 | NA | NA | 17"
+            "NF000314.1 | NA | NA | 20"
         ],
         "reviewed": "*"
     },
     "AdeC/AdeK/OprM family multidrug efflux complex outer membrane factor": {
         "gene": "multidrug@axyM | multidrug@ttgC",
         "remark": [
-            "NF000315.1 | adeC | NA | 2484"
+            "NF000315.1 | adeC | NA | 2488"
         ],
         "reviewed": "*"
     },
@@ -217,6 +269,13 @@
             "NF033626.2 | bla | NA | 40"
         ],
         "reviewed": "beta-lactam@bla*"
+    },
+    "BLMA family bleomycin binding protein": {
+        "gene": "bleomycin@ble*",
+        "remark": [
+            "NF000028.1 | ble | NA | 1"
+        ],
+        "reviewed": "bleomycin@ble*"
     },
     "BLMT family bleomycin binding protein": {
         "gene": "",
@@ -228,56 +287,56 @@
     "BcII family subclass B1 metallo-beta-lactamase": {
         "gene": "beta-lactam@bla2",
         "remark": [
-            "NF033095.1 | bla2 | NA | 505"
+            "NF033095.1 | bla2 | NA | 511"
         ],
         "reviewed": "beta-lactam@bla2"
     },
     "Bcr/CflA family multidrug efflux MFS transporter": {
         "gene": "",
         "remark": [
-            "NF008314.0 | NA | PRK11102 | 9405"
+            "NF008314.0 | NA | PRK11102 | 10147"
         ],
         "reviewed": "*"
     },
     "BlaB family subclass B1 metallo-beta-lactamase": {
         "gene": "",
         "remark": [
-            "NF033107.1 | blaB | NA | 19"
+            "NF033107.1 | blaB | NA | 22"
         ],
         "reviewed": "beta-lactam@blaB"
     },
     "BlaB/IND/MUS family subclass B1 metallo-beta-lactamase": {
         "gene": "",
         "remark": [
-            "NF012146.1 | bla | NA | 212"
+            "NF012146.1 | bla | NA | 218"
         ],
         "reviewed": "beta-lactam@bla*"
     },
     "BlaZ-like penicillin-hydrolyzing class A beta-lactamase": {
         "gene": "",
         "remark": [
-            "NF033141.0 | bla | NA | 104"
+            "NF033141.0 | bla | NA | 105"
         ],
         "reviewed": "beta-lactam@bla*"
     },
     "CARB/PSE/RTG family carbenicillin-hydrolyzing class A beta-lactamase": {
         "gene": "",
         "remark": [
-            "NF000481.1 | blaCARB | NA | 117"
+            "NF000481.1 | blaCARB | NA | 120"
         ],
         "reviewed": "beta-lactam@blaCARB"
     },
     "CAU/MBL1b family subclass B3 metallo-beta-lactamase": {
         "gene": "",
         "remark": [
-            "NF000427.2 | blaCAU | NA | 45"
+            "NF000427.2 | blaCAU | NA | 46"
         ],
         "reviewed": "beta-lactam@blaCAU"
     },
     "CGA/CIA family class A beta-lactamase": {
         "gene": "",
         "remark": [
-            "NF000447.2 | bla-A | NA | 314"
+            "NF000447.2 | bla-A | NA | 318"
         ],
         "reviewed": "beta-lactam@bla*"
     },
@@ -291,14 +350,14 @@
     "CMY-1/MOX family class C beta-lactamase": {
         "gene": "",
         "remark": [
-            "NF000239.3 | blaMOX | NA | 154"
+            "NF000239.3 | blaMOX | NA | 155"
         ],
         "reviewed": "beta-lactam@blaMOX"
     },
     "CMY2-MIR-ACT-EC family cephalosporin-hydrolyzing class C beta-lactamase": {
         "gene": "beta-lactam@bla*",
         "remark": [
-            "NF041662.1 | ampC | NA | 133",
+            "NF041662.1 | ampC | NA | 137",
             "NF041666.1 | ampC | NA | 9"
         ],
         "reviewed": "beta-lactam@bla*"
@@ -306,7 +365,7 @@
     "CMY2/MIR/ACT/EC family class C beta-lactamase": {
         "gene": "",
         "remark": [
-            "NF012173.1 | ampC | NA | 230"
+            "NF012173.1 | ampC | NA | 235"
         ],
         "reviewed": "beta-lactam@bla*"
     },
@@ -317,45 +376,38 @@
         ],
         "reviewed": "beta-lactam@blaCMA/CSA"
     },
-    "CTX-M family extended-spectrum class A beta-lactamase": {
-        "gene": "",
-        "remark": [
-            "NF033089.1 | blaCTX-M | NA | 124"
-        ],
-        "reviewed": "beta-lactam@blaCTX-M"
-    },
     "CfiA family subclass B1 metallo-beta-lactamase": {
         "gene": "",
         "remark": [
-            "NF000322.2 | cfiA | NA | 6"
+            "NF000322.2 | cfiA | NA | 7"
         ],
         "reviewed": "beta-lactam@cfiA"
     },
     "Cfr family 23S rRNA (adenine(2503)-C(8))-methyltransferase": {
         "gene": "phenicol@cfr*",
         "remark": [
-            "NF000424.4 | NA | NA | 574"
+            "NF000424.4 | NA | NA | 608"
         ],
         "reviewed": "phenicol@cfr*"
     },
     "CmlA/FloR family chloramphenicol efflux MFS transporter": {
-        "gene": "",
+        "gene": "phenicol@cml*",
         "remark": [
-            "NF033134.0 | cml | NA | 1378"
+            "NF033134.0 | cml | NA | 1419"
         ],
-        "reviewed": "*"
+        "reviewed": "phenicol@cml*"
     },
     "Cmx/CmrA family chloramphenicol efflux MFS transporter": {
         "gene": "",
         "remark": [
-            "NF033135.1 | NA | NA | 6301"
+            "NF033135.1 | NA | NA | 9984"
         ],
         "reviewed": "*"
     },
     "CphA family subclass B2 metallo-beta-lactamase": {
         "gene": "",
         "remark": [
-            "NF000329.2 | NA | NA | 550"
+            "NF000329.2 | NA | NA | 564"
         ],
         "reviewed": "beta-lactam@cphA"
     },
@@ -369,7 +421,7 @@
     "D-Ala-D-Ala dipeptidase VanX": {
         "gene": "",
         "remark": [
-            "NF033115.1 | vanX | NA | 819"
+            "NF033115.1 | vanX | NA | 1109"
         ],
         "reviewed": "glycopeptide@vanX"
     },
@@ -383,7 +435,7 @@
     "D-alanine--(R)-lactate ligase": {
         "gene": "",
         "remark": [
-            "NF000206.1 | vanA | NA | 664"
+            "NF000206.1 | vanA | NA | 871"
         ],
         "reviewed": "glycopeptide@vanA"
     },
@@ -404,7 +456,7 @@
     "D-alanine--poly(phosphoribitol) ligase subunit 2": {
         "gene": "defensin@dltC",
         "remark": [
-            "TIGR01688.1 | dltC | NA | 430"
+            "TIGR01688.1 | dltC | NA | 438"
         ],
         "reviewed": "defensin@dltC"
     },
@@ -414,6 +466,20 @@
             "NF012145.1 | blaDIM | NA | 54"
         ],
         "reviewed": "beta-lactam@blaDIM"
+    },
+    "DMT family transporter": {
+        "gene": "",
+        "remark": [
+            "NF038012.1 | NA | NA | 23758"
+        ],
+        "reviewed": "*"
+    },
+    "DNA methyltransferase": {
+        "gene": "",
+        "remark": [
+            "NF010253.0 | NA | PRK13699 | 1158"
+        ],
+        "reviewed": "*"
     },
     "DfrA12/DfrA21 family trimethoprim-resistant dihydrofolate reductase": {
         "gene": "",
@@ -425,42 +491,55 @@
     "DfrD/DfrG/DfrK family trimethoprim-resistant dihydrofolate reductase": {
         "gene": "",
         "remark": [
-            "NF000332.1 | dfr | NA | 76"
+            "NF000332.1 | dfr | NA | 78"
         ],
         "reviewed": "trimethoprim@dfr*"
     },
     "EmmdR/YeeO family multidrug/toxin efflux MATE transporter": {
         "gene": "",
         "remark": [
-            "NF007562.1 | NA | PRK10189 | 2644"
+            "NF007562.1 | NA | PRK10189 | 2683"
         ],
         "reviewed": "*"
     },
     "EmrE family multidrug efflux SMR transporter": {
         "gene": "",
         "remark": [
-            "NF007087.1 | NA | PRK09541 | 181"
+            "NF007087.1 | NA | PRK09541 | 183"
         ],
         "reviewed": "multidrug@emrE"
     },
     "EmtA family 23S rRNA (guanine(2470)) methyltransferase": {
         "gene": "",
         "remark": [
-            "NF033398.1 | NA | NA | 19"
+            "NF033398.1 | NA | NA | 20"
         ],
         "reviewed": "avilamycin@emtA"
     },
     "ErmE/ErmH/ErmO/ErmR family 23S rRNA (adenine(2058)-N(6))-methyltransferase": {
         "gene": "",
         "remark": [
-            "NF000337.1 | erm | NA | 939"
+            "NF000337.1 | erm | NA | 1475"
         ],
         "reviewed": "macrolide-lincosamide-streptogramin@erm*"
+    },
+    "FAD-dependent oxidoreductase": {
+        "gene": "",
+        "remark": [
+            "NF004789.0 | NA | PRK06134 | 3412",
+            "NF004833.1 | NA | PRK06185 | 19",
+            "NF004834.1 | NA | PRK06185 | 6",
+            "NF004835.0 | NA | PRK06185 | 1437",
+            "NF007450.0 | NA | PRK10015 | 936",
+            "NF009476.0 | NA | PRK12839 | 519",
+            "NF009477.0 | NA | PRK12843 | 480"
+        ],
+        "reviewed": "*"
     },
     "FOX/MOX family class C beta-lactamase": {
         "gene": "",
         "remark": [
-            "NF012172.1 | ampC | NA | 324"
+            "NF012172.1 | ampC | NA | 336"
         ],
         "reviewed": "beta-lactam@bla*"
     },
@@ -474,7 +553,7 @@
     "FosA/FosA2 family fosfomycin resistance glutathione transferase": {
         "gene": "",
         "remark": [
-            "NF000026.1 | fosA | NA | 717"
+            "NF000026.1 | fosA | NA | 730"
         ],
         "reviewed": "fosfomycin@fosA"
     },
@@ -495,14 +574,14 @@
     "FosA8 family fosfomycin resistance glutathione transferase": {
         "gene": "",
         "remark": [
-            "NF033933.0 | NA | NA | 45"
+            "NF033933.0 | NA | NA | 46"
         ],
         "reviewed": "fosfomycin@fosA"
     },
     "FosB/FosD family fosfomycin resistance bacillithiol transferase": {
         "gene": "fosfomycin@fos*",
         "remark": [
-            "NF000493.1 | fosB | NA | 343"
+            "NF000493.1 | fosB | NA | 349"
         ],
         "reviewed": "fosfomycin@fos*"
     },
@@ -516,28 +595,28 @@
     "FosG/FosC2-related fosfomycin resistance glutathione transferase": {
         "gene": "fosfomycin@fos*",
         "remark": [
-            "NF000124.1 | fos | NA | 65"
+            "NF000124.1 | fos | NA | 68"
         ],
         "reviewed": "fosfomycin@fos*"
     },
     "FosM family fosfomycin resistance protein": {
         "gene": "",
         "remark": [
-            "NF038306.1 | fosM | NA | 935"
+            "NF038306.1 | fosM | NA | 996"
         ],
         "reviewed": "fosfomycin@fosM"
     },
     "FosX/FosE/FosI family fosfomycin resistance hydrolase": {
         "gene": "fosfomycin@fos*",
         "remark": [
-            "NF000222.1 | fosX | NA | 865"
+            "NF000222.1 | fosX | NA | 895"
         ],
         "reviewed": "fosfomycin@fos*"
     },
     "FusB family fusidic acid resistance EF-G-binding protein": {
         "gene": "",
         "remark": [
-            "NF000340.1 | NA | NA | 3"
+            "NF000340.1 | NA | NA | 4"
         ],
         "reviewed": "fusidic_acid@fusB"
     },
@@ -547,6 +626,14 @@
             "NF000341.1 | NA | NA | 14"
         ],
         "reviewed": "fusidic_acid@fusC"
+    },
+    "GNAT family N-acetyltransferase": {
+        "gene": "aminoglycoside@aac(2')* | aminonucleoside@pac",
+        "remark": [
+            "NF007338.0 | NA | PRK09831 | 1314",
+            "NF007644.0 | NA | PRK10314 | 3882"
+        ],
+        "reviewed": "*"
     },
     "Gar/GrdA family gentamicin resistance ATP-binding protein": {
         "gene": "",
@@ -558,23 +645,56 @@
     "HARLDQ motif MBL-fold protein": {
         "gene": "",
         "remark": [
-            "NF000405.1 | NA | NA | 366"
+            "NF000405.1 | NA | NA | 374"
+        ],
+        "reviewed": "*"
+    },
+    "K5 polysaccharide biosynthesis UDP-glucose dehydrogenase KfiD": {
+        "gene": "",
+        "remark": [
+            "NBR015542 | kfiD | NA | 22"
         ],
         "reviewed": "*"
     },
     "Lsa family ABC-F type ribosomal protection protein": {
         "gene": "",
         "remark": [
-            "NF000167.2 | NA | NA | 1956"
+            "NF000167.2 | NA | NA | 2040"
         ],
         "reviewed": "macrolide-lincosamide-streptogramin@lsa*"
+    },
+    "MATE family efflux transporter": {
+        "gene": "multidrug@norM | multidrug@vcmB | multidrug@vcmH | multidrug@vcmN",
+        "remark": [
+            "NF007130.1 | NA | PRK09575 | 1703"
+        ],
+        "reviewed": "*"
     },
     "MATE family efflux transporter DinF": {
         "gene": "biocide@dinF | multidrug@vcmD",
         "remark": [
-            "NF007690.0 | dinF | PRK10367 | 7284"
+            "NF007690.0 | dinF | PRK10367 | 7405"
         ],
         "reviewed": "biocide@dinF"
+    },
+    "MBL fold metallo-hydrolase": {
+        "gene": "",
+        "remark": [
+            "NF002553.0 | NA | PRK02113 | 708"
+        ],
+        "reviewed": "*"
+    },
+    "MFS transporter": {
+        "gene": "albicidin@albF | aminocoumarin@couR5 | aminonucleoside@pur8 | bicyclomycin@bcmT | macrolide-lincosamide-streptogramin@pep | macrolide-lincosamide-streptogramin@ptr | methylenomycin@mmr | multidrug@aadT | multidrug@tap",
+        "remark": [
+            "NF002962.0 | NA | PRK03633 | 3461",
+            "NF003477.0 | NA | PRK05122 | 1663",
+            "NF008963.0 | NA | PRK12307 | 263",
+            "NF037955.1 | NA | NA | 9350",
+            "NF037960.1 | NA | NA | 294",
+            "NF043065.1 | NA | NA | 51"
+        ],
+        "reviewed": "*"
     },
     "MUS/TUS/MOC family subclass B1 metallo-beta-lactamase": {
         "gene": "",
@@ -586,42 +706,42 @@
     "MdfA family multidrug efflux MFS transporter": {
         "gene": "",
         "remark": [
-            "NF011931.1 | NA | PRK15402 | 204"
+            "NF011931.1 | NA | PRK15402 | 206"
         ],
         "reviewed": "multidrug@mdfA"
     },
     "MdtA/MuxA family multidrug efflux RND transporter periplasmic adaptor subunit": {
         "gene": "",
         "remark": [
-            "NF008589.1 | NA | PRK11556 | 11250"
+            "NF008589.1 | NA | PRK11556 | 11384"
         ],
         "reviewed": "*"
     },
     "MdtB/MuxB family multidrug efflux RND transporter permease subunit": {
         "gene": "",
         "remark": [
-            "NF007798.0 | NA | PRK10503 | 11668"
+            "NF007798.0 | NA | PRK10503 | 11807"
         ],
         "reviewed": "*"
     },
     "MdtK family multidrug efflux MATE transporter": {
         "gene": "",
         "remark": [
-            "NBR000789 | mdtK | NA | 1288"
+            "NBR000789 | mdtK | NA | 1310"
         ],
         "reviewed": "multidrug@mdtK"
     },
     "MdtL family multidrug efflux MFS transporter": {
         "gene": "",
         "remark": [
-            "NF007782.0 | NA | PRK10473 | 635"
+            "NF007782.0 | NA | PRK10473 | 645"
         ],
         "reviewed": "multidrug@mdtL"
     },
     "MdtP family multidrug efflux transporter outer membrane subunit": {
         "gene": "",
         "remark": [
-            "NF007390.0 | NA | PRK09915 | 1510"
+            "NF007390.0 | NA | PRK09915 | 1529"
         ],
         "reviewed": "multidrug@mdtP"
     },
@@ -642,7 +762,7 @@
     "MexW/MexI family multidrug efflux RND transporter permease subunit": {
         "gene": "",
         "remark": [
-            "NF000251.1 | NA | NA | 2361"
+            "NF000251.1 | NA | NA | 2395"
         ],
         "reviewed": "*"
     },
@@ -656,32 +776,49 @@
     "MexX/AxyX family multidrug efflux RND transporter periplasmic adaptor subunit": {
         "gene": "multidrug@amrA",
         "remark": [
-            "NF007132.1 | NA | PRK09578 | 782"
+            "NF007132.1 | NA | PRK09578 | 785"
         ],
         "reviewed": "*"
     },
     "Mph(E)/Mph(G) family macrolide 2'-phosphotransferase": {
         "gene": "",
         "remark": [
-            "NF000241.1 | mph | NA | 62"
+            "NF000241.1 | mph | NA | 63"
         ],
         "reviewed": "macrolide-lincosamide-streptogramin@mph*"
     },
     "Msr family ABC-F type ribosomal protection protein": {
         "gene": "",
         "remark": [
-            "NF000168.2 | NA | NA | 690"
+            "NF000168.2 | NA | NA | 713"
         ],
         "reviewed": "macrolide-lincosamide-streptogramin@msr*"
+    },
+    "N-acetyltransferase": {
+        "gene": "",
+        "remark": [
+            "NF005840.0 | NA | PRK07757 | 3069",
+            "NF007527.0 | yhhY | PRK10140 | 1808",
+            "NF007853.0 | NA | PRK10562 | 5833",
+            "NF010241.0 | NA | PRK13688 | 1852"
+        ],
+        "reviewed": "*"
     },
     "NAD(+)--rifampin ADP-ribosyltransferase": {
         "gene": "rifamycin@arr",
         "remark": [
-            "NF000066.1 | arr | NA | 9",
-            "NF000318.1 | arr | NA | 216",
-            "NF033144.1 | arr | NA | 5602"
+            "NF000066.1 | arr | NA | 11",
+            "NF000318.1 | arr | NA | 223",
+            "NF033144.1 | arr | NA | 6061"
         ],
         "reviewed": "rifamycin@arr"
+    },
+    "NAD(P)-dependent oxidoreductase": {
+        "gene": "",
+        "remark": [
+            "NF004045.0 | NA | PRK05562 | 581"
+        ],
+        "reviewed": "*"
     },
     "NimABCDEF family 5-nitroimidazole reductase": {
         "gene": "",
@@ -700,14 +837,21 @@
     "NshR family nosiheptide/thiostrepton resistance 23S rRNA methyltransferase": {
         "gene": "thiostrepton@nshR",
         "remark": [
-            "NF000035.1 | NA | NA | 4"
+            "NF000035.1 | NA | NA | 9"
         ],
         "reviewed": "thiostrepton@nshR"
     },
     "NshR/TsnR family 23S rRNA methyltransferase": {
         "gene": "thiostrepton@tsr",
         "remark": [
-            "NF000477.1 | nshR | NA | 150"
+            "NF000477.1 | nshR | NA | 211"
+        ],
+        "reviewed": "*"
+    },
+    "PACE efflux transporter": {
+        "gene": "",
+        "remark": [
+            "NF033664.1 | NA | NA | 9947"
         ],
         "reviewed": "*"
     },
@@ -735,7 +879,7 @@
     "PEDO-3 family subclass B1 metallo-beta-lactamase": {
         "gene": "",
         "remark": [
-            "NF000453.2 | blaB1PEDO | NA | 13"
+            "NF000453.2 | blaB1PEDO | NA | 14"
         ],
         "reviewed": "beta-lactam@blaPEDO"
     },
@@ -749,7 +893,7 @@
     "PEN-A family class A beta-lactamase": {
         "gene": "",
         "remark": [
-            "NF041143.1 | blaPEN-A | NA | 89"
+            "NF041143.1 | blaPEN-A | NA | 90"
         ],
         "reviewed": "beta-lactam@blaPEN"
     },
@@ -791,35 +935,28 @@
     "QacCGHJ group quaternary ammonium compound efflux SMR transporter": {
         "gene": "",
         "remark": [
-            "NF000384.1 | qac | NA | 32"
+            "NF000384.1 | qac | NA | 33"
         ],
         "reviewed": "biocide@qac*"
     },
     "Qnr family pentapeptide repeat protein": {
         "gene": "",
         "remark": [
-            "NF033086.2 | NA | NA | 1965"
+            "NF033086.2 | NA | NA | 2016"
         ],
         "reviewed": "quinolone@qnr*"
     },
     "QnrA family quinolone resistance pentapeptide repeat protein": {
         "gene": "",
         "remark": [
-            "NF000071.4 | NA | NA | 35"
+            "NF000071.4 | NA | NA | 37"
         ],
         "reviewed": "quinolone@qnrA"
-    },
-    "QnrB family quinolone resistance pentapeptide repeat protein": {
-        "gene": "",
-        "remark": [
-            "NF000420.1 | NA | NA | 83"
-        ],
-        "reviewed": "quinolone@qnrB"
     },
     "QnrD family quinolone resistance pentapeptide repeat protein": {
         "gene": "",
         "remark": [
-            "NF000139.2 | NA | NA | 24"
+            "NF000139.2 | NA | NA | 26"
         ],
         "reviewed": "quinolone@qnrD"
     },
@@ -840,9 +977,16 @@
     "QnrVC family quinolone resistance pentapeptide repeat protein": {
         "gene": "",
         "remark": [
-            "NF000421.1 | NA | NA | 36"
+            "NF000421.1 | NA | NA | 37"
         ],
         "reviewed": "quinolone@qnrVC"
+    },
+    "RNA methyltransferase": {
+        "gene": "avilamycin@aviRb",
+        "remark": [
+            "NF011034.0 | NA | PRK14464 | 2253"
+        ],
+        "reviewed": "*"
     },
     "RND transporter MmpL1": {
         "gene": "",
@@ -854,7 +998,7 @@
     "RND transporter MmpL2": {
         "gene": "",
         "remark": [
-            "NBR000229 | mmpL2 | NA | 162"
+            "NBR000229 | mmpL2 | NA | 163"
         ],
         "reviewed": "*"
     },
@@ -868,7 +1012,7 @@
     "Rmt family 16S rRNA (guanine(1405)-N(7))-methyltransferase": {
         "gene": "aminoglycoside@grmA | aminoglycoside@krm",
         "remark": [
-            "NF000466.2 | NA | NA | 26"
+            "NF000466.2 | NA | NA | 29"
         ],
         "reviewed": "aminoglycoside@rmt*"
     },
@@ -900,6 +1044,102 @@
         ],
         "reviewed": "aminoglycoside@rmtF"
     },
+    "SDR family oxidoreductase": {
+        "gene": "",
+        "remark": [
+            "NBR013279 | tniO | NA | 4",
+            "NF004110.0 | NA | PRK05599 | 456",
+            "NF004196.0 | NA | PRK05650 | 2927",
+            "NF004284.0 | NA | PRK05693 | 2995",
+            "NF004324.0 | NA | PRK05717 | 1690",
+            "NF004513.0 | NA | PRK05854 | 4675",
+            "NF004514.1 | NA | PRK05855 | 10042",
+            "NF004521.0 | NA | PRK05866 | 1030",
+            "NF004522.0 | NA | PRK05867 | 278",
+            "NF004528.0 | NA | PRK05875 | 905",
+            "NF004534.0 | NA | PRK05884 | 642",
+            "NF004649.0 | NA | PRK05993 | 5212",
+            "NF004765.0 | NA | PRK06101 | 833",
+            "NF004774.0 | NA | PRK06114 | 1989",
+            "NF004777.0 | NA | PRK06123 | 2811",
+            "NF004778.0 | NA | PRK06124 | 1839",
+            "NF004782.0 | NA | PRK06128 | 2626",
+            "NF004791.0 | NA | PRK06138 | 799",
+            "NF004792.0 | NA | PRK06139 | 2605",
+            "NF004818.0 | NA | PRK06172 | 3169",
+            "NF004825.0 | NA | PRK06181 | 6760",
+            "NF005065.0 | NA | PRK06482 | 3704",
+            "NF005075.0 | NA | PRK06500 | 3455",
+            "NF005214.0 | NA | PRK06701 | 10674",
+            "NF005372.1 | NA | PRK06914 | 1306",
+            "NF005395.0 | NA | PRK06940 | 1250",
+            "NF005400.0 | NA | PRK06947 | 1372",
+            "NF005402.0 | NA | PRK06949 | 1530",
+            "NF005403.0 | NA | PRK06953 | 2103",
+            "NF005436.0 | NA | PRK07023 | 2055",
+            "NF005437.0 | NA | PRK07024 | 3563",
+            "NF005446.0 | NA | PRK07035 | 3615",
+            "NF005449.0 | NA | PRK07041 | 3484",
+            "NF005467.0 | NA | PRK07060 | 1134",
+            "NF005468.0 | NA | PRK07062 | 4577",
+            "NF005469.0 | NA | PRK07063 | 3502",
+            "NF005473.0 | NA | PRK07069 | 1443",
+            "NF005474.0 | NA | PRK07074 | 1285",
+            "NF005489.0 | NA | PRK07102 | 3228",
+            "NF005495.0 | NA | PRK07109 | 3100",
+            "NF005539.0 | NA | PRK07201 | 4584",
+            "NF005594.0 | NA | PRK07326 | 2035",
+            "NF005672.0 | NA | PRK07454 | 941",
+            "NF005681.0 | NA | PRK07478 | 1294",
+            "NF005711.0 | NA | PRK07523 | 1288",
+            "NF005752.0 | NA | PRK07576 | 2005",
+            "NF005753.0 | NA | PRK07577 | 1947",
+            "NF005853.0 | NA | PRK07774 | 1986",
+            "NF005854.0 | NA | PRK07775 | 1756",
+            "NF005861.0 | NA | PRK07791 | 2374",
+            "NF005868.0 | NA | PRK07806 | 254",
+            "NF005873.0 | NA | PRK07814 | 1804",
+            "NF005880.0 | NA | PRK07831 | 6743",
+            "NF005881.0 | NA | PRK07832 | 2045",
+            "NF005893.0 | NA | PRK07856 | 8083",
+            "NF005939.0 | NA | PRK07985 | 351",
+            "NF005950.0 | NA | PRK08017 | 2835",
+            "NF006035.0 | NA | PRK08177 | 3125",
+            "NF006073.0 | NA | PRK08219 | 10076",
+            "NF006099.0 | NA | PRK08251 | 4879",
+            "NF006115.0 | NA | PRK08264 | 24",
+            "NF006116.0 | NA | PRK08264 | 49",
+            "NF006117.0 | NA | PRK08264 | 1741",
+            "NF006118.0 | NA | PRK08264 | 192",
+            "NF006119.0 | NA | PRK08264 | 1645",
+            "NF006120.0 | NA | PRK08264 | 80",
+            "NF006123.0 | NA | PRK08267 | 5201",
+            "NF006133.0 | NA | PRK08278 | 705",
+            "NF006159.0 | NA | PRK08303 | 2481",
+            "NF006213.0 | NA | PRK08340 | 75",
+            "NF006366.0 | NA | PRK08589 | 1319",
+            "NF006384.0 | NA | PRK08628 | 4610",
+            "NF006431.0 | NA | PRK08703 | 364",
+            "NF006464.0 | NA | PRK08862 | 887",
+            "NF006532.0 | NA | PRK09009 | 1933",
+            "NF006565.0 | NA | PRK09072 | 5046",
+            "NF006597.0 | NA | PRK09134 | 7539",
+            "NF006693.0 | NA | PRK09242 | 1432",
+            "NF006776.0 | NA | PRK09291 | 3008",
+            "NF007273.0 | NA | PRK09730 | 2862",
+            "NF009383.0 | bdcA | PRK12742 | 2512",
+            "NF009384.0 | NA | PRK12743 | 5761",
+            "NF009385.0 | NA | PRK12744 | 5717",
+            "NF009387.0 | NA | PRK12746 | 471",
+            "NF009389.0 | NA | PRK12748 | 3692",
+            "NF009465.0 | NA | PRK12826 | 50",
+            "NF009468.0 | NA | PRK12826 | 1488",
+            "NF009469.0 | NA | PRK12826 | 636",
+            "NF009499.0 | NA | PRK12859 | 445",
+            "NF038213.1 | NA | NA | 174"
+        ],
+        "reviewed": "*"
+    },
     "SFH-related subclass B2 metallo-beta-lactamase": {
         "gene": "",
         "remark": [
@@ -910,49 +1150,49 @@
     "SHV/LEN/OKP family class A beta-lactamase": {
         "gene": "",
         "remark": [
-            "NF012143.0 | blaSHV | NA | 16"
+            "NF012143.0 | blaSHV | NA | 17"
         ],
         "reviewed": "beta-lactam@blaSHV"
     },
     "SRT/SST family class C beta-lactamase": {
         "gene": "beta-lactam@blaSRT",
         "remark": [
-            "NF000423.2 | blaSRT | NA | 176"
+            "NF000423.2 | blaSRT | NA | 177"
         ],
         "reviewed": "beta-lactam@blaSRT"
     },
     "Sal family ABC-F type ribosomal protection protein": {
         "gene": "",
         "remark": [
-            "NF000169.2 | sal | NA | 216"
+            "NF000169.2 | sal | NA | 219"
         ],
         "reviewed": "macrolide-lincosamide-streptogramin@sal*"
     },
     "SmQnr family pentapeptide repeat protein": {
         "gene": "quinolone@qnr*",
         "remark": [
-            "NF038182.1 | smqnr | NA | 230"
+            "NF038182.1 | smqnr | NA | 231"
         ],
         "reviewed": "quinolone@qnr*"
     },
     "SmdA family multidrug ABC transporter permease/ATP-binding protein": {
         "gene": "",
         "remark": [
-            "NF008055.0 | NA | PRK10789 | 5134"
+            "NF008055.0 | NA | PRK10789 | 5195"
         ],
         "reviewed": "multidrug@smdA"
     },
     "SmdB family multidrug efflux ABC transporter permease/ATP-binding protein": {
         "gene": "",
         "remark": [
-            "NF008056.1 | NA | PRK10790 | 5228"
+            "NF008056.1 | NA | PRK10790 | 5282"
         ],
         "reviewed": "multidrug@smdB"
     },
     "SmvA family efflux MFS transporter": {
         "gene": "",
         "remark": [
-            "NF011571.1 | NA | PRK14995 | 444"
+            "NF011571.1 | NA | PRK14995 | 449"
         ],
         "reviewed": "biocide@smvA"
     },
@@ -966,7 +1206,7 @@
     "Tet(A)/Tet(B)/Tet(C) family tetracycline efflux MFS transporter": {
         "gene": "",
         "remark": [
-            "NF012174.0 | tet | NA | 968"
+            "NF012174.0 | tet | NA | 984"
         ],
         "reviewed": "tetracycline@tet*"
     },
@@ -980,7 +1220,7 @@
     "Tet(L)/Tet(K)/Tet(45) family tetracycline efflux MFS transporter": {
         "gene": "",
         "remark": [
-            "NF012175.1 | tet | NA | 426"
+            "NF012175.1 | tet | NA | 434"
         ],
         "reviewed": "tetracycline@tet*"
     },
@@ -994,78 +1234,123 @@
     "TlrC/CarA/OleB/SrmB family ABC-F type ribosomal protection protein": {
         "gene": "",
         "remark": [
-            "NF000171.1 | NA | NA | 680"
+            "NF000171.1 | NA | NA | 1192"
         ],
         "reviewed": "*"
     },
     "UDP-4-amino-4-deoxy-L-arabinose aminotransferase": {
         "gene": "colistin@arnB",
         "remark": [
-            "NF008658.2 | arnB | PRK11658 | 6037"
+            "NF008658.2 | arnB | PRK11658 | 6090"
         ],
         "reviewed": "colistin@arnB"
     },
     "UDP-glucose 6-dehydrogenase": {
         "gene": "colistin@ugd",
         "remark": [
-            "NBR012415 | rkpK | NA | 73",
-            "NBR012913 | NA | NA | 236",
-            "NBR012914 | NA | NA | 276",
-            "NF011631.0 | ugd | PRK15057 | 3064"
+            "NBR012415 | rkpK | NA | 75",
+            "NBR012913 | NA | NA | 241",
+            "NBR012914 | NA | NA | 277",
+            "NF011631.0 | ugd | PRK15057 | 3103"
         ],
         "reviewed": "colistin@ugd"
     },
     "UDP-glucose 6-dehydrogenase HasB": {
         "gene": "",
         "remark": [
-            "NBR008027 | hasB | NA | 97"
+            "NBR008027 | hasB | NA | 98"
+        ],
+        "reviewed": "*"
+    },
+    "VOC family protein": {
+        "gene": "",
+        "remark": [
+            "NF008551.0 | NA | PRK11478 | 12573",
+            "NF008678.0 | NA | PRK11700 | 481",
+            "NF008679.0 | NA | PRK11700 | 10",
+            "NF008680.0 | NA | PRK11700 | 496",
+            "NF008681.0 | NA | PRK11700 | 1484",
+            "NF008682.0 | NA | PRK11700 | 1589",
+            "NF008683.0 | NA | PRK11700 | 2086"
         ],
         "reviewed": "*"
     },
     "VanH-A/VanH-Pt family D-lactate dehydrogenase": {
         "gene": "",
         "remark": [
-            "NF000371.1 | vanH | NA | 11"
+            "NF000371.1 | vanH | NA | 12"
         ],
         "reviewed": "glycopeptide@vanH"
     },
     "VanH-AOV family D-lactate dehydrogenase": {
         "gene": "",
         "remark": [
-            "NF000112.1 | vanH | NA | 25"
+            "NF000112.1 | vanH | NA | 33"
         ],
         "reviewed": "glycopeptide@vanH"
     },
     "Vat family streptogramin A O-acetyltransferase": {
         "gene": "",
         "remark": [
-            "NF000311.1 | NA | NA | 3276"
+            "NF000311.1 | NA | NA | 3358"
         ],
         "reviewed": "macrolide-lincosamide-streptogramin@vat*"
     },
     "Vga family ABC-F type ribosomal protection protein": {
         "gene": "",
         "remark": [
-            "NF000170.2 | NA | NA | 815"
+            "NF000170.2 | NA | NA | 835"
         ],
         "reviewed": "macrolide-lincosamide-streptogramin@vga*"
+    },
+    "acetyltransferase": {
+        "gene": "",
+        "remark": [
+            "NF007807.0 | NA | PRK10514 | 6901",
+            "NF010621.0 | NA | PRK14014 | 589"
+        ],
+        "reviewed": "*"
+    },
+    "adenylyl-sulfate kinase": {
+        "gene": "",
+        "remark": [
+            "NF004041.0 | NA | PRK05541 | 687",
+            "TIGR00455.1 | cysC | NA | 32699"
+        ],
+        "reviewed": "*"
+    },
+    "alanine racemase": {
+        "gene": "",
+        "remark": [
+            "NF000791.0 | NA | PRK00053 | 1348",
+            "NF000792.0 | NA | PRK00053 | 89",
+            "TIGR00492.1 | alr | NA | 86244"
+        ],
+        "reviewed": "*"
+    },
+    "alpha/beta fold putative hydrolase EstX": {
+        "gene": "macrolide-lincosamide-streptogramin@estX",
+        "remark": [
+            "NF033124.1 | estX | NA | 53"
+        ],
+        "reviewed": "macrolide-lincosamide-streptogramin@estX"
     },
     "aminoglycoside 3-N-acetyltransferase": {
         "gene": "",
         "remark": [
-            "NF033082.0 | aac(3) | NA | 1002"
+            "NF033082.0 | aac(3) | NA | 1236"
         ],
         "reviewed": "aminoglycoside@aac(3)*"
     },
     "aminoglycoside 6'-N-acetyltransferase": {
         "gene": "aminoglycoside@aac(6')* | aminoglycoside@aac(6')-I",
         "remark": [
-            "NF000021.4 | aac(6') | NA | 121",
-            "NF000225.3 | aac(6') | NA | 179",
+            "NF000021.4 | aac(6') | NA | 122",
+            "NF000225.3 | aac(6') | NA | 268",
             "NF012165.0 | aac(6') | NA | 7",
             "NF033075.0 | aacA | NA | 39",
             "NF033076.0 | aac(6') | NA | 2",
-            "NF043067.1 | aac(6') | NA | 2752",
+            "NF043067.1 | aac(6') | NA | 2839",
             "NG_052139.1 | aac(6') | NA | 1",
             "NG_052175.1 | aac(6') | NA | 1",
             "NG_052178.1 | aac(6') | NA | 1",
@@ -1121,7 +1406,7 @@
     "aminoglycoside 6'-N-acetyltransferase AAC(6')-29": {
         "gene": "",
         "remark": [
-            "NF000050.2 | aac(6')-29 | NA | 26",
+            "NF000050.2 | aac(6')-29 | NA | 27",
             "NG_052220.1 | aac(6')-29 | NA | 1"
         ],
         "reviewed": "aminoglycoside@aac(6')*"
@@ -1136,7 +1421,7 @@
     "aminoglycoside 6'-N-acetyltransferase AAC(6')-35": {
         "gene": "aminoglycoside@aac(6')*",
         "remark": [
-            "NBR016120 | aac(6')-35 | NA | 31"
+            "NBR016120 | aac(6')-35 | NA | 32"
         ],
         "reviewed": "aminoglycoside@aac(6')*"
     },
@@ -1144,14 +1429,14 @@
         "gene": "",
         "remark": [
             "NF000274.2 | ant(6) | NA | 2",
-            "NF033084.2 | ant(6) | NA | 681"
+            "NF033084.2 | ant(6) | NA | 723"
         ],
         "reviewed": "aminoglycoside@ant(6)*"
     },
     "aminoglycoside 6-adenylyltransferase AadK": {
         "gene": "aminoglycoside@ant(6)*",
         "remark": [
-            "NF000312.1 | aadK | NA | 135"
+            "NF000312.1 | aadK | NA | 136"
         ],
         "reviewed": "aminoglycoside@ant(6)*"
     },
@@ -1165,16 +1450,30 @@
     "aminoglycoside O-phosphotransferase APH(2'')-Ia": {
         "gene": "",
         "remark": [
-            "NF000508.1 | aph(2'')-Ia | NA | 142"
+            "NF000508.1 | aph(2'')-Ia | NA | 147"
         ],
         "reviewed": "aminoglycoside@aph(2'')-I"
+    },
+    "aminoglycoside adenylyltransferase family protein": {
+        "gene": "",
+        "remark": [
+            "NF010309.0 | NA | PRK13746 | 2427"
+        ],
+        "reviewed": "*"
     },
     "aminoglycoside nucleotidyltransferase ANT(9)": {
         "gene": "aminoglycoside@ant(9)*",
         "remark": [
-            "NF012212.1 | ant(9) | NA | 246"
+            "NF012212.1 | ant(9) | NA | 251"
         ],
         "reviewed": "aminoglycoside@ant(9)*"
+    },
+    "aminoglycoside nucleotidyltransferase ANT(9)-Ia": {
+        "gene": "",
+        "remark": [
+            "NG_047397.1 | ant(9) | NA | 1"
+        ],
+        "reviewed": "aminoglycoside@ant(9)-I"
     },
     "bacitracin resistance ABC transporter permease subunit BcrB": {
         "gene": "",
@@ -1186,42 +1485,42 @@
     "bacitracin resistance undecaprenyl-diphosphatase": {
         "gene": "bacitracin@bacA",
         "remark": [
-            "NBR007033 | uppP | NA | 128"
+            "NBR007033 | uppP | NA | 130"
         ],
         "reviewed": "bacitracin@bacA"
     },
     "bifunctional UDP-4-amino-4-deoxy-L-arabinose formyltransferase/UDP-glucuronic acid oxidase ArnA": {
         "gene": "colistin@arnA",
         "remark": [
-            "NF005998.1 | arnA | PRK08125 | 7947"
+            "NF005998.1 | arnA | PRK08125 | 8026"
         ],
         "reviewed": "colistin@arnA"
     },
     "bifunctional UDP-4-keto-pentose/UDP-xylose synthase": {
         "gene": "",
         "remark": [
-            "NF008872.0 | NA | PRK11908 | 1526"
+            "NF008872.0 | NA | PRK11908 | 1547"
         ],
         "reviewed": "*"
     },
     "bifunctional lysylphosphatidylglycerol flippase/synthetase MprF": {
         "gene": "defensin@mprF",
         "remark": [
-            "NF033480.1 | mprF | NA | 16993"
+            "NF033480.1 | mprF | NA | 17315"
         ],
         "reviewed": "defensin@mprF"
     },
     "bifunctional lysylphosphatidylglycerol synthetase/lysine--tRNA ligase LysX": {
         "gene": "defensin@lysX",
         "remark": [
-            "NF002821.0 | lysX | PRK02983 | 5506"
+            "NF002821.0 | lysX | PRK02983 | 7307"
         ],
         "reviewed": "defensin@lysX"
     },
     "bleomycin binding protein Ble-MBL": {
         "gene": "bleomycin@ble*",
         "remark": [
-            "NF012202.0 | ble | NA | 29"
+            "NF012202.0 | ble | NA | 30"
         ],
         "reviewed": "bleomycin@ble*"
     },
@@ -1249,14 +1548,14 @@
     "chloramphenicol hydrolase": {
         "gene": "phenicol@estDL136",
         "remark": [
-            "NF033149.0 | estDL136 | NA | 31"
+            "NF033149.0 | estDL136 | NA | 33"
         ],
         "reviewed": "phenicol@estDL136"
     },
     "chloramphenicol/florfenicol efflux MFS transporter FexA": {
         "gene": "phenicol@fexA",
         "remark": [
-            "NF000218.1 | fexA | NA | 118",
+            "NF000218.1 | fexA | NA | 121",
             "NG_047857.1 | fexA | NA | 1"
         ],
         "reviewed": "phenicol@fexA"
@@ -1271,15 +1570,15 @@
     "chloramphenicol/florfenicol efflux MFS transporter FloR": {
         "gene": "phenicol@floR",
         "remark": [
-            "NF000219.1 | floR | NA | 391"
+            "NF000219.1 | floR | NA | 399"
         ],
         "reviewed": "phenicol@floR"
     },
     "class A beta-lactamase": {
         "gene": "beta-lactam@blaF | beta-lactam@blaM | beta-lactam@blaR39 | beta-lactam@blaS | beta-lactam@hugA",
         "remark": [
-            "NF012167.0 | bla | NA | 1772",
-            "NF033103.1 | bla | NA | 17849",
+            "NF012167.0 | bla | NA | 1860",
+            "NF033103.1 | bla | NA | 21381",
             "NG_047483.1 | bla | NA | 1",
             "NG_047487.1 | bla | NA | 1"
         ],
@@ -1288,14 +1587,14 @@
     "class A beta-lactamase BlaIII": {
         "gene": "beta-lactam@bla3",
         "remark": [
-            "NF041270.1 | blaIII | NA | 408"
+            "NF041270.1 | blaIII | NA | 416"
         ],
         "reviewed": "beta-lactam@bla3"
     },
     "class A beta-lactamase, subclass A2": {
         "gene": "",
         "remark": [
-            "NF012099.1 | bla | NA | 1552",
+            "NF012099.1 | bla | NA | 1581",
             "NG_047486.1 | bla | NA | 1"
         ],
         "reviewed": "beta-lactam@bla*"
@@ -1303,7 +1602,7 @@
     "class C beta-lactamase": {
         "gene": "beta-lactam@blaE",
         "remark": [
-            "NF033085.1 | ampC | NA | 8247",
+            "NF033085.1 | ampC | NA | 8393",
             "NG_047492.1 | ampC | NA | 1"
         ],
         "reviewed": "beta-lactam@bla*"
@@ -1311,65 +1610,98 @@
     "class D beta-lactamase": {
         "gene": "",
         "remark": [
-            "NF000270.1 | blaOXA | NA | 2168",
+            "NF000270.1 | blaOXA | NA | 2228",
             "NF000463.2 | blaOXA | NA | 41",
-            "NF012161.0 | blaOXA | NA | 3576"
+            "NF012161.0 | blaOXA | NA | 3719"
         ],
         "reviewed": "beta-lactam@bla*"
+    },
+    "class I SAM-dependent methyltransferase": {
+        "gene": "aminoglycoside@cmnU | aminoglycoside@kmr | macrolide-lincosamide-streptogramin@llmA",
+        "remark": [
+            "NF005379.0 | NA | PRK06922 | 1284"
+        ],
+        "reviewed": "*"
     },
     "cryptic aminoglycoside N-acetyltransferase AAC(6')-Iy/Iaa": {
         "gene": "aminoglycoside@aac(6')-I",
         "remark": [
-            "NF000140.3 | aac(6') | NA | 223"
+            "NF000140.3 | aac(6') | NA | 226"
         ],
         "reviewed": "aminoglycoside@aac(6')-I"
     },
     "cryptic aminoglycoside nucleotidyltransferase ANT(3'')/ANT(9)": {
         "gene": "",
         "remark": [
-            "NF012135.0 | aadA | NA | 287"
+            "NF012135.0 | aadA | NA | 292"
         ],
         "reviewed": "*"
     },
     "daunorubicin/doxorubicin transporter ATP-binding protein DrrA": {
         "gene": "",
         "remark": [
-            "NBR015783 | drrA | NA | 12"
+            "NBR015783 | drrA | NA | 14"
+        ],
+        "reviewed": "*"
+    },
+    "dihydrofolate reductase": {
+        "gene": "",
+        "remark": [
+            "NBR007133 | dfrA | NA | 21",
+            "NBR015286 | folA | NA | 8"
         ],
         "reviewed": "*"
     },
     "dihydrofolate reductase DfrA": {
         "gene": "",
         "remark": [
-            "NBR013731 | dfrA | NA | 128"
+            "NBR013731 | dfrA | NA | 129"
+        ],
+        "reviewed": "*"
+    },
+    "dihydropteroate synthase": {
+        "gene": "",
+        "remark": [
+            "NF008625.0 | folP | PRK11613 | 3302",
+            "TIGR01496.1 | folP | NA | 82242"
         ],
         "reviewed": "*"
     },
     "efflux RND transporter permease subunit VexD": {
         "gene": "",
         "remark": [
-            "NBR006337 | vexD | NA | 417"
+            "NBR006337 | vexD | NA | 423"
         ],
         "reviewed": "multidrug@vexD"
     },
     "efflux RND transporter permease subunit VexK": {
         "gene": "",
         "remark": [
-            "NBR006338 | vexK | NA | 275"
+            "NBR006338 | vexK | NA | 278"
         ],
         "reviewed": "multidrug@vexK"
+    },
+    "endonuclease/exonuclease/phosphatase family protein": {
+        "gene": "",
+        "remark": [
+            "NF003839.0 | NA | PRK05421 | 1090",
+            "NF003840.0 | NA | PRK05421 | 2679",
+            "NF003841.0 | NA | PRK05421 | 866",
+            "NF003842.0 | NA | PRK05421 | 648"
+        ],
+        "reviewed": "*"
     },
     "fluoroquinolone efflux MFS transporter QepA": {
         "gene": "",
         "remark": [
-            "NF012169.0 | qepA | NA | 13"
+            "NF012169.0 | qepA | NA | 14"
         ],
         "reviewed": "quinolone@qepA"
     },
     "fosfomycin resistance glutathione transferase": {
         "gene": "",
         "remark": [
-            "NF000496.1 | fos | NA | 1953"
+            "NF000496.1 | fos | NA | 1979"
         ],
         "reviewed": "fosfomycin@fos*"
     },
@@ -1383,14 +1715,45 @@
     "fosmidomycin MFS transporter": {
         "gene": "fosmidomycin@fsr",
         "remark": [
-            "NBR011163 | fsr | NA | 820"
+            "NBR011163 | fsr | NA | 824"
         ],
         "reviewed": "fosmidomycin@fsr"
+    },
+    "glutathione transferase": {
+        "gene": "",
+        "remark": [
+            "NBR015855 | gst | NA | 83",
+            "NF011693.0 | yfcF | PRK15113 | 5522"
+        ],
+        "reviewed": "*"
+    },
+    "glycosyltransferase": {
+        "gene": "",
+        "remark": [
+            "NF007482.0 | NA | PRK10073 | 2856",
+            "NF010008.0 | NA | PRK13481 | 70"
+        ],
+        "reviewed": "*"
+    },
+    "guanitoxin biosynthesis MBL fold metallo-hydrolase GntH": {
+        "gene": "",
+        "remark": [
+            "NF041257.1 | gntH | NA | 630"
+        ],
+        "reviewed": "*"
+    },
+    "isoleucine--tRNA ligase": {
+        "gene": "",
+        "remark": [
+            "NBR006932 | ileS2 | NA | 509",
+            "TIGR00392.1 | ileS | NA | 94032"
+        ],
+        "reviewed": "*"
     },
     "kdo(2)-lipid A phosphoethanolamine 7''-transferase": {
         "gene": "colistin@eptB",
         "remark": [
-            "NF008593.0 | eptB | PRK11560 | 3924"
+            "NF008593.0 | eptB | PRK11560 | 3972"
         ],
         "reviewed": "colistin@eptB"
     },
@@ -1406,56 +1769,75 @@
         "remark": [
             "NBR012617 | lpxF | NA | 30",
             "NBR012618 | lpxF | NA | 10",
-            "NBR012655 | lpxF | NA | 602"
+            "NBR012655 | lpxF | NA | 616"
         ],
         "reviewed": "colistin@lpxF"
     },
     "lipid A/FlgG phosphoethanolamine transferase EptC": {
         "gene": "colistin@eptC",
         "remark": [
-            "NBR007377 | eptC | NA | 325"
+            "NBR007377 | eptC | NA | 334"
         ],
         "reviewed": "colistin@eptC"
     },
     "lipid IV(A) 4-amino-4-deoxy-L-arabinosyltransferase": {
         "gene": "colistin@arnT",
         "remark": [
-            "NF009784.2 | arnT | PRK13279 | 9912"
+            "NF009784.2 | arnT | PRK13279 | 10005"
         ],
         "reviewed": "colistin@arnT"
+    },
+    "lipoprotein": {
+        "gene": "",
+        "remark": [
+            "NBR006358 | NA | NA | 36",
+            "NF007824.1 | NA | PRK10533 | 2239",
+            "NF007894.1 | NA | PRK10598 | 2516",
+            "NF033168.1 | NA | NA | 117",
+            "NF033169.1 | NA | NA | 156",
+            "NF038029.1 | NA | NA | 3126"
+        ],
+        "reviewed": "*"
+    },
+    "lysophospholipid acyltransferase family protein": {
+        "gene": "",
+        "remark": [
+            "NF006487.0 | NA | PRK08905 | 3397"
+        ],
+        "reviewed": "*"
     },
     "macrolide ABC transporter ATP-binding protein/permease MacB": {
         "gene": "macrolide-lincosamide-streptogramin@macB",
         "remark": [
-            "NF007826.0 | macB | PRK10535 | 4991"
+            "NF007826.0 | macB | PRK10535 | 5043"
         ],
         "reviewed": "macrolide-lincosamide-streptogramin@macB"
     },
     "macrolide-inactivating glycosyltransferase": {
         "gene": "macrolide-lincosamide-streptogramin@mgt",
         "remark": [
-            "NF033129.1 | mgt | NA | 1232"
+            "NF033129.1 | mgt | NA | 2542"
         ],
         "reviewed": "macrolide-lincosamide-streptogramin@mgt"
     },
     "metallo-beta-lactamase": {
         "gene": "",
         "remark": [
-            "NF012229.1 | bla | NA | 32"
+            "NF012229.1 | bla | NA | 31"
         ],
         "reviewed": "beta-lactam@bla*"
     },
     "metallothiol transferase FosB": {
         "gene": "",
         "remark": [
-            "NF003152.0 | fosB | PRK04101 | 1185"
+            "NF003152.0 | fosB | PRK04101 | 1258"
         ],
         "reviewed": "fosfomycin@fosB"
     },
     "multidrug ABC transporter ATP-binding protein/permease ErfC": {
         "gene": "multidrug@efrC",
         "remark": [
-            "NBR014477 | erfC | NA | 103"
+            "NBR014477 | erfC | NA | 104"
         ],
         "reviewed": "multidrug@efrC"
     },
@@ -1465,6 +1847,13 @@
             "NBR014478 | erfD | NA | 86"
         ],
         "reviewed": "multidrug@efrD"
+    },
+    "multidrug ABC transporter permease/ATP-binding protein": {
+        "gene": "",
+        "remark": [
+            "NF007813.0 | NA | PRK10522 | 5926"
+        ],
+        "reviewed": "*"
     },
     "multidrug efflux ABC transporter ATP-binding protein": {
         "gene": "",
@@ -1483,14 +1872,14 @@
     "multidrug efflux ABC transporter LmrCD subunit D": {
         "gene": "multidrug@lmrD",
         "remark": [
-            "NBR006698 | lmrD | NA | 67"
+            "NBR006698 | lmrD | NA | 68"
         ],
         "reviewed": "multidrug@lmrD"
     },
     "multidrug efflux ABC transporter VcaM": {
         "gene": "",
         "remark": [
-            "NBR006392 | vcaM | NA | 204"
+            "NBR006392 | vcaM | NA | 209"
         ],
         "reviewed": "multidrug@vcaM"
     },
@@ -1504,35 +1893,35 @@
     "multidrug efflux ABC transporter permease/ATP-binding subunit SmdB": {
         "gene": "",
         "remark": [
-            "NBR006373 | smdB | NA | 176"
+            "NBR006373 | smdB | NA | 177"
         ],
         "reviewed": "multidrug@smdB"
     },
     "multidrug efflux MFS transporter Bcr": {
         "gene": "",
         "remark": [
-            "NBR008105 | bcr | NA | 626"
+            "NBR008105 | bcr | NA | 634"
         ],
         "reviewed": "multidrug@bcr"
     },
     "multidrug efflux MFS transporter Blt": {
         "gene": "multidrug@bmr2",
         "remark": [
-            "NBR006669 | blt | NA | 135"
+            "NBR006669 | blt | NA | 138"
         ],
         "reviewed": "multidrug@bmr2"
     },
     "multidrug efflux MFS transporter Bmr": {
         "gene": "multidrug@bmr1",
         "remark": [
-            "NBR006668 | bmr | NA | 122"
+            "NBR006668 | bmr | NA | 121"
         ],
         "reviewed": "multidrug@bmr1"
     },
     "multidrug efflux MFS transporter EmeA": {
         "gene": "",
         "remark": [
-            "NBR006670 | emeA | NA | 74"
+            "NBR006670 | emeA | NA | 76"
         ],
         "reviewed": "multidrug@emeA"
     },
@@ -1553,7 +1942,7 @@
     "multidrug efflux RND transporter AdeIJK outer membrane channel subunit AdeK": {
         "gene": "",
         "remark": [
-            "NF033143.1 | adeK | NA | 503"
+            "NF033143.1 | adeK | NA | 508"
         ],
         "reviewed": "multidrug@adeK"
     },
@@ -1581,21 +1970,21 @@
     "multidrug efflux RND transporter periplasmic adaptor subunit SdeX": {
         "gene": "",
         "remark": [
-            "NBR006431 | sdeX | NA | 113"
+            "NBR006431 | sdeX | NA | 115"
         ],
         "reviewed": "multidrug@sdeX"
     },
     "multidrug efflux RND transporter periplasmic adaptor subunit SmeA": {
         "gene": "",
         "remark": [
-            "NBR006489 | smeA | NA | 210"
+            "NBR006489 | smeA | NA | 211"
         ],
         "reviewed": "multidrug@smeA"
     },
     "multidrug efflux RND transporter periplasmic adaptor subunit TMexC": {
         "gene": "",
         "remark": [
-            "NBR014289 | tmexC | NA | 26"
+            "NBR014289 | tmexC | NA | 28"
         ],
         "reviewed": "multidrug@tmexC"
     },
@@ -1609,28 +1998,38 @@
     "multidrug efflux RND transporter periplasmic adaptor subunit VexC": {
         "gene": "",
         "remark": [
-            "NBR006122 | vexC | NA | 232"
+            "NBR006122 | vexC | NA | 233"
         ],
         "reviewed": "multidrug@vexC"
+    },
+    "multidrug efflux RND transporter permease subunit": {
+        "gene": "multidrug@amrB",
+        "remark": [
+            "NF000282.2 | NA | NA | 13556",
+            "NF007131.0 | NA | PRK09577 | 958",
+            "NF007133.0 | NA | PRK09579 | 2024",
+            "NF033617.1 | NA | NA | 8707"
+        ],
+        "reviewed": "*"
     },
     "multidrug efflux RND transporter permease subunit AdeB": {
         "gene": "",
         "remark": [
-            "NBR005908 | adeB | NA | 441"
+            "NBR005908 | adeB | NA | 446"
         ],
         "reviewed": "multidrug@adeB"
     },
     "multidrug efflux RND transporter permease subunit AdeE": {
         "gene": "",
         "remark": [
-            "NBR006458 | adeE | NA | 265"
+            "NBR006458 | adeE | NA | 270"
         ],
         "reviewed": "multidrug@adeE"
     },
     "multidrug efflux RND transporter permease subunit AdeJ": {
         "gene": "",
         "remark": [
-            "NBR006465 | adeJ | NA | 496"
+            "NBR006465 | adeJ | NA | 501"
         ],
         "reviewed": "multidrug@adeJ"
     },
@@ -1644,21 +2043,21 @@
     "multidrug efflux RND transporter permease subunit EefB": {
         "gene": "",
         "remark": [
-            "NBR006610 | eefB | NA | 1041"
+            "NBR006610 | eefB | NA | 1056"
         ],
         "reviewed": "multidrug@eefB"
     },
     "multidrug efflux RND transporter permease subunit SdeB": {
         "gene": "",
         "remark": [
-            "NBR006120 | sdeB | NA | 337"
+            "NBR006120 | sdeB | NA | 341"
         ],
         "reviewed": "multidrug@sdeB"
     },
     "multidrug efflux RND transporter permease subunit SdeY": {
         "gene": "",
         "remark": [
-            "NBR006430 | sdeY | NA | 141"
+            "NBR006430 | sdeY | NA | 143"
         ],
         "reviewed": "multidrug@sdeY"
     },
@@ -1672,49 +2071,49 @@
     "multidrug efflux RND transporter permease subunit SmeE": {
         "gene": "",
         "remark": [
-            "NBR006420 | smeE | NA | 337"
+            "NBR006420 | smeE | NA | 341"
         ],
         "reviewed": "multidrug@smeE"
     },
     "multidrug efflux RND transporter permease subunit TMexD": {
         "gene": "",
         "remark": [
-            "NBR014290 | tmexD | NA | 70"
+            "NBR014290 | tmexD | NA | 51"
         ],
         "reviewed": "multidrug@tmexD"
     },
     "multidrug efflux RND transporter permease subunit TbtB": {
         "gene": "",
         "remark": [
-            "NBR008264 | tbtB | NA | 18"
+            "NBR008264 | tbtB | NA | 17"
         ],
         "reviewed": "multidrug@tbtB"
     },
     "multidrug efflux RND transporter permease subunit VexB": {
         "gene": "",
         "remark": [
-            "NBR006335 | vexB | NA | 140"
+            "NBR006335 | vexB | NA | 147"
         ],
         "reviewed": "multidrug@vexB"
     },
     "multidrug efflux transporter outer membrane subunit EmrC": {
         "gene": "biocide@emrC | multidrug@emrC",
         "remark": [
-            "NBR006605 | emrC | NA | 282"
+            "NBR006605 | emrC | NA | 285"
         ],
         "reviewed": "multidrug@emrC"
     },
     "multidrug efflux transporter outer membrane subunit OpcM": {
         "gene": "",
         "remark": [
-            "NBR006501 | opcM | NA | 573"
+            "NBR006501 | opcM | NA | 574"
         ],
         "reviewed": "multidrug@oprC"
     },
     "multidrug efflux transporter outer membrane subunit SmeC": {
         "gene": "",
         "remark": [
-            "NBR006491 | smeC | NA | 268"
+            "NBR006491 | smeC | NA | 270"
         ],
         "reviewed": "multidrug@smeC"
     },
@@ -1728,38 +2127,97 @@
     "multidrug resistance ABC transporter ATP-binding protein/permease BmrA": {
         "gene": "multidrug@bmrA",
         "remark": [
-            "NBR009245 | bmrA | NA | 201"
+            "NBR009245 | bmrA | NA | 203"
         ],
         "reviewed": "multidrug@bmrA"
     },
     "multidrug resistance ABC transporter ATP-binding protein/permease BmrD": {
         "gene": "multidrug@bmrD",
         "remark": [
-            "NBR009236 | bmrD | NA | 238"
+            "NBR009236 | bmrD | NA | 242"
         ],
         "reviewed": "multidrug@bmrD"
     },
     "multidrug transporter subunit MdtN": {
         "gene": "",
         "remark": [
-            "NF007785.0 | mdtN | PRK10476 | 2768"
+            "NF007785.0 | mdtN | PRK10476 | 2822"
         ],
         "reviewed": "multidrug@mdtN"
     },
     "multidrug/spermidine efflux SMR transporter subunit MdtI": {
         "gene": "multidrug@mdtI",
         "remark": [
-            "NBR008223 | mdtI | NA | 209",
-            "NF007934.1 | mdtI | PRK10650 | 1410"
+            "NBR008223 | mdtI | NA | 210",
+            "NF007934.1 | mdtI | PRK10650 | 1431"
         ],
         "reviewed": "multidrug@mdtI"
     },
     "multidrug/spermidine efflux SMR transporter subunit MdtJ": {
         "gene": "multidrug@mdtJ",
         "remark": [
-            "NF007767.1 | mdtJ | PRK10452 | 1649"
+            "NF007767.1 | mdtJ | PRK10452 | 1665"
         ],
         "reviewed": "multidrug@mdtJ"
+    },
+    "nucleotide exchange factor GrpE": {
+        "gene": "",
+        "remark": [
+            "NBR014091 | gprE | NA | 30",
+            "NF007655.0 | grpE | PRK10325 | 796",
+            "NF010737.0 | grpE | PRK14139 | 3744",
+            "NF010738.0 | grpE | PRK14140 | 9865",
+            "NF010739.0 | grpE | PRK14141 | 3353",
+            "NF010740.0 | grpE | PRK14142 | 829",
+            "NF010741.0 | grpE | PRK14143 | 956",
+            "NF010742.0 | grpE | PRK14144 | 107",
+            "NF010743.0 | grpE | PRK14145 | 36",
+            "NF010744.0 | grpE | PRK14146 | 126",
+            "NF010745.0 | grpE | PRK14147 | 767",
+            "NF010746.0 | grpE | PRK14148 | 51",
+            "NF010747.0 | grpE | PRK14149 | 1997",
+            "NF010748.0 | grpE | PRK14150 | 5176",
+            "NF010749.0 | grpE | PRK14151 | 1669",
+            "NF010750.0 | grpE | PRK14153 | 87",
+            "NF010751.0 | grpE | PRK14154 | 15",
+            "NF010752.0 | grpE | PRK14155 | 425",
+            "NF010753.0 | grpE | PRK14156 | 1138",
+            "NF010754.0 | grpE | PRK14157 | 542",
+            "NF010755.0 | grpE | PRK14158 | 72",
+            "NF010756.0 | grpE | PRK14159 | 326",
+            "NF010757.0 | grpE | PRK14160 | 742",
+            "NF010758.0 | grpE | PRK14161 | 70",
+            "NF010759.0 | grpE | PRK14162 | 1784",
+            "NF010760.0 | grpE | PRK14163 | 3905",
+            "NF010761.0 | grpE | PRK14164 | 2596",
+            "NF013212.1 | grpE | PF01025.19 | 13",
+            "NF013212.3 | grpE | PF01025.22 | 34",
+            "NF013212.4 | grpE | PF01025.23 | 36",
+            "NF013212.5 | grpE | PF01025.24 | 6877"
+        ],
+        "reviewed": "*"
+    },
+    "nucleotidyltransferase": {
+        "gene": "",
+        "remark": [
+            "NF010191.0 | NA | PRK13670 | 14170",
+            "NF010192.0 | NA | PRK13671 | 381"
+        ],
+        "reviewed": "*"
+    },
+    "peptidoglycan bridge formation glycyltransferase FemX": {
+        "gene": "",
+        "remark": [
+            "NBR005746 | femX | NA | 927"
+        ],
+        "reviewed": "*"
+    },
+    "peptidoglycan bridge formation glycyltransferase FemY": {
+        "gene": "",
+        "remark": [
+            "NBR005747 | femY | NA | 26"
+        ],
+        "reviewed": "*"
     },
     "phleomycin/bleomycin binding protein Ble-Sh": {
         "gene": "bleomycin@tlmA",
@@ -1768,24 +2226,44 @@
         ],
         "reviewed": "bleomycin@tlmA"
     },
+    "phosphoenolpyruvate synthase": {
+        "gene": "rifamycin@rphB",
+        "remark": [
+            "NF004878.0 | NA | PRK06241 | 1",
+            "NF004879.0 | ppsA | PRK06241 | 4916",
+            "NF004880.0 | NA | PRK06241 | 39",
+            "NF004881.0 | NA | PRK06241 | 615",
+            "NF004882.0 | NA | PRK06241 | 222",
+            "NF004883.0 | NA | PRK06241 | 153",
+            "NF005057.0 | ppsA | PRK06464 | 28219"
+        ],
+        "reviewed": "*"
+    },
+    "phosphoethanolamine transferase": {
+        "gene": "colistin@icr",
+        "remark": [
+            "NBR011246 | opgE | NA | 912"
+        ],
+        "reviewed": "*"
+    },
     "phosphoethanolamine--lipid A transferase": {
         "gene": "",
         "remark": [
-            "NF028537.1 | NA | NA | 2761"
+            "NF028537.1 | NA | NA | 2804"
         ],
         "reviewed": "*"
     },
     "putative multidrug efflux protein AdeT1": {
         "gene": "",
         "remark": [
-            "NBR006899 | adeT1 | NA | 314"
+            "NBR006899 | adeT1 | NA | 315"
         ],
         "reviewed": "multidrug@adeT"
     },
     "quaternary ammonium compound efflux SMR transporter EmrC": {
         "gene": "",
         "remark": [
-            "NBR012193 | emrC | NA | 13"
+            "NBR012193 | emrC | NA | 14"
         ],
         "reviewed": "biocide@emrC"
     },
@@ -1796,45 +2274,52 @@
         ],
         "reviewed": "biocide@qacF/L"
     },
+    "radical SAM protein": {
+        "gene": "",
+        "remark": [
+            "NF045502.1 | NA | NA | 3792"
+        ],
+        "reviewed": "*"
+    },
     "ribosomal protection-like ABC-F family protein": {
         "gene": "macrolide-lincosamide-streptogramin@vmlR | pleuromutilin@tva(D)",
         "remark": [
-            "NF000355.4 | abc-f | NA | 30407"
+            "NF000355.4 | abc-f | NA | 33411"
         ],
         "reviewed": "*"
     },
     "rifampin monooxygenase": {
         "gene": "",
         "remark": [
-            "NF033145.1 | rox | NA | 4253"
+            "NF033145.1 | rox | NA | 6711"
         ],
         "reviewed": "rifamycin@rox"
     },
     "rifamycin-inactivating phosphotransferase": {
         "gene": "",
         "remark": [
-            "NF041857.1 | rph | NA | 2843"
+            "NF041857.1 | rph | NA | 4721"
         ],
         "reviewed": "rifamycin@rph*"
     },
     "rifamycin-inactivating phosphotransferase Rph": {
         "gene": "rifamycin@rphA",
         "remark": [
-            "NF000283.1 | rph | NA | 6"
+            "NF000283.1 | rph | NA | 14"
         ],
         "reviewed": "rifamycin@rphA"
     },
     "serine racemase VanT catalytic subunit": {
         "gene": "",
         "remark": [
-            "NF033131.1 | vanT | NA | 701"
+            "NF033131.1 | vanT | NA | 719"
         ],
         "reviewed": "glycopeptide@vanT"
     },
     "siderophore RND transporter MmpL4": {
         "gene": "",
         "remark": [
-            "NBR000231 | mmpL4 | NA | 138"
+            "NBR000231 | mmpL4 | NA | 139"
         ],
         "reviewed": "*"
     },
@@ -1848,8 +2333,8 @@
     "subclass B1 metallo-beta-lactamase": {
         "gene": "",
         "remark": [
-            "NF000450.2 | bla-B1-FLAV | NA | 208",
-            "NF033088.2 | bla | NA | 2007"
+            "NF000450.2 | bla-B1-FLAV | NA | 226",
+            "NF033088.2 | bla | NA | 2069"
         ],
         "reviewed": "beta-lactam@bla*"
     },
@@ -1863,28 +2348,28 @@
     "subclass B2 metallo-beta-lactamase": {
         "gene": "",
         "remark": [
-            "NF033087.1 | bla | NA | 31"
+            "NF033087.1 | bla | NA | 32"
         ],
         "reviewed": "beta-lactam@bla*"
     },
     "subclass B3 metallo-beta-lactamase": {
         "gene": "",
         "remark": [
-            "NF033105.1 | bla | NA | 3145"
+            "NF033105.1 | bla | NA | 3242"
         ],
         "reviewed": "beta-lactam@bla*"
     },
     "tetracenomycin C efflux MFS transporter": {
         "gene": "tetracenomycin@tcmA",
         "remark": [
-            "NF000025.1 | tcmA | NA | 1"
+            "NF000025.1 | tcmA | NA | 6"
         ],
         "reviewed": "tetracenomycin@tcmA"
     },
     "tetracycline destructase": {
         "gene": "",
         "remark": [
-            "NF033476.1 | NA | NA | 26"
+            "NF033476.1 | NA | NA | 27"
         ],
         "reviewed": "*"
     },
@@ -1933,7 +2418,7 @@
     "tetracycline efflux Na+/H+ antiporter family transporter Tet(35)": {
         "gene": "tetracycline@tet(35)",
         "remark": [
-            "NF000013.1 | tet(35) | NA | 298"
+            "NF000013.1 | tet(35) | NA | 306"
         ],
         "reviewed": "tetracycline@tet(35)"
     },
@@ -1947,14 +2432,14 @@
     "tetracycline resistance ribosomal protection mosaic protein Tet(O/W/32/O)": {
         "gene": "tetracycline@tet(W)",
         "remark": [
-            "NBR013892 | tet(O/W/32/O) | NA | 26"
+            "NBR013892 | tet(O/W/32/O) | NA | 34"
         ],
         "reviewed": "tetracycline@tet(W)"
     },
     "tetracycline resistance ribosomal protection protein": {
         "gene": "",
         "remark": [
-            "NF012153.1 | tet | NA | 277"
+            "NF012153.1 | tet | NA | 282"
         ],
         "reviewed": "tetracycline@tet*"
     },
@@ -1968,14 +2453,14 @@
     "tetracycline-inactivating monooxygenase Tet(X)": {
         "gene": "",
         "remark": [
-            "NF033111.2 | tet(X) | NA | 124"
+            "NF033111.2 | tet(X) | NA | 129"
         ],
         "reviewed": "tetracycline@tet(X)"
     },
     "toxic metabolite efflux MATE transporter YeeO": {
         "gene": "",
         "remark": [
-            "NBR006667 | yeeO | NA | 1365"
+            "NBR006667 | yeeO | NA | 1374"
         ],
         "reviewed": "*"
     },
@@ -1996,75 +2481,91 @@
     "trimethoprim-sensitive dihydrofolate reductase DfrC": {
         "gene": "",
         "remark": [
-            "NF000155.1 | dfrC | NA | 58"
+            "NF000155.1 | dfrC | NA | 59"
+        ],
+        "reviewed": "*"
+    },
+    "type 3 dihydrofolate reductase": {
+        "gene": "",
+        "remark": [
+            "NF008037.0 | folA | PRK10769 | 5937"
         ],
         "reviewed": "*"
     },
     "type A chloramphenicol O-acetyltransferase": {
         "gene": "phenicol@catA",
         "remark": [
-            "NF000491.1 | catA | NA | 3458"
+            "NF000491.1 | catA | NA | 3631"
         ],
         "reviewed": "phenicol@catA"
     },
     "type B chloramphenicol O-acetyltransferase": {
         "gene": "phenicol@catB",
         "remark": [
-            "NF000490.1 | catB | NA | 1904"
+            "NF000490.1 | catB | NA | 1934"
         ],
         "reviewed": "phenicol@catB"
     },
     "type C chloramphenicol O-acetyltransferase": {
         "gene": "phenicol@catC",
         "remark": [
-            "NBR014235 | catC | NA | 391"
+            "NBR014235 | catC | NA | 404"
         ],
         "reviewed": "phenicol@catC"
     },
     "undecaprenyl-diphosphatase UppP": {
         "gene": "bacitracin@bacA",
         "remark": [
-            "TIGR00753.1 | uppP | NA | 1091"
+            "TIGR00753.1 | uppP | NA | 1116"
         ],
         "reviewed": "bacitracin@bacA"
     },
     "undecaprenyl-diphosphate phosphatase": {
         "gene": "bacitracin@bacA",
         "remark": [
-            "NF001388.0 | bacA | PRK00281 | 2705",
-            "NF001389.0 | NA | PRK00281 | 13506",
-            "NF001390.0 | NA | PRK00281 | 8651",
-            "NF001391.0 | NA | PRK00281 | 5350",
-            "NF001392.0 | NA | PRK00281 | 11524",
-            "NF001393.0 | NA | PRK00281 | 5232",
-            "NF001394.0 | NA | PRK00281 | 1619",
-            "NF001395.0 | NA | PRK00281 | 898",
-            "NF001396.0 | NA | PRK00281 | 114",
-            "NF001397.0 | NA | PRK00281 | 447",
-            "NF001398.0 | NA | PRK00281 | 56",
-            "NF008813.0 | ybjG | PRK11837 | 2675"
+            "NF001388.0 | bacA | PRK00281 | 2746",
+            "NF001389.0 | NA | PRK00281 | 13806",
+            "NF001390.0 | NA | PRK00281 | 8908",
+            "NF001391.0 | NA | PRK00281 | 5413",
+            "NF001392.0 | NA | PRK00281 | 14834",
+            "NF001393.0 | NA | PRK00281 | 5347",
+            "NF001394.0 | NA | PRK00281 | 1643",
+            "NF001395.0 | NA | PRK00281 | 1140",
+            "NF001396.0 | NA | PRK00281 | 108",
+            "NF001397.0 | NA | PRK00281 | 452",
+            "NF001398.0 | NA | PRK00281 | 57",
+            "NF008813.0 | ybjG | PRK11837 | 2705"
         ],
         "reviewed": "bacitracin@bacA"
     },
     "undecaprenyl-diphosphate phosphatase UppP": {
         "gene": "bacitracin@bacA",
         "remark": [
-            "NBR007282 | uppP | NA | 215"
+            "NBR007282 | uppP | NA | 223"
         ],
         "reviewed": "bacitracin@bacA"
     },
     "undecaprenyl-phosphate 4-deoxy-4-formamido-L-arabinose transferase": {
         "gene": "colistin@arnC",
         "remark": [
-            "NF007986.1 | arnC | PRK10714 | 3881"
+            "NF007986.1 | arnC | PRK10714 | 3914"
         ],
         "reviewed": "colistin@arnC"
     },
     "viomycin phosphotransferase": {
         "gene": "tuberactinomycin@vph",
         "remark": [
-            "NF000088.1 | vph | NA | 265"
+            "NF000088.1 | vph | NA | 434"
         ],
         "reviewed": "tuberactinomycin@vph"
+    },
+    "xanthine phosphoribosyltransferase": {
+        "gene": "",
+        "remark": [
+            "NF006613.0 | gpt | PRK09177 | 6317",
+            "NF006671.0 | NA | PRK09219 | 11468",
+            "TIGR01744.1 | xpt | NA | 1904"
+        ],
+        "reviewed": "*"
     }
 }

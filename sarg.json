@@ -226,7 +226,6 @@
             // https://www.ncbi.nlm.nih.gov/nuccore/EU255259
             "ABW87807.1": "spcM", // SpcM [Streptomyces spectabilis] | SpcM
 
-
             // "Mechanism of multiple aminoglycoside resistance of kasugamycin-producing Streptomyces kasugaensis MB273: involvement of two types of acetyltransferases in resistance to astromicin group antibiotics"
             // "Enzymatic 2'-N-Acetylation of Arbekacin and Antibiotic Activity of Its Product"
             // S. lividans TK21/pANT12 containing an AAC(2') gene was resistant to a variety of 2'-NH2-containing AGs.
@@ -788,6 +787,7 @@
 
             // replaced by refseq blaCIM
             "CARD|homolog|carbapenem;cephalosporin|CIM-1|WP_123865086.1", // CIM family subclass B1 metallo-beta-lactamase
+            "NCBI|amr:amr|beta-lactam|blaCIB|WP_123865086.1", // CIM family subclass B1 metallo-beta-lactamase
 
             // no refseq available, possibly fused with blaMSI-1 (WP_071766402.1), not similar to any blaOXA
             "CARD|homolog|carbapenem|MSI-OXA|AJP77058.1", // OXA-85-like beta-lactamase
@@ -1354,6 +1354,10 @@
             // "The evolution of substrate discrimination in macrolide antibiotic resistance enzymes"
             // https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR011665/ is not available, evidenced by CARD
             "WP_050815728.1": "mph(O)", // macrolide 2'-phosphotransferase MphO [Brachybacterium paraconglomeratum] | macrolide 2'-phosphotransferase MphO
+
+            // "The global distribution of the macrolide esterase EstX from the alpha/beta hydrolase superfamily"
+            // EstX is capable of hydrolyzing four 16-membered ring macrolides, encompassing both veterinary (tylosin, tidipirosin, and tilmicosin) and human-use (leucomycin A5) antibiotics.
+            "WVE62698.1": "estX", // EstX | alpha/beta fold putative hydrolase EstX
 
             // "A diverse intrinsic antibiotic resistome from a cave bacterium"
             // https://www.uniprot.org/citations/CI-89J8D8F9KIUHE
@@ -3437,9 +3441,6 @@
 
 
     "discarded": [
-        // penicillin binding protein PBP or related
-        "pbp2m",
-
         // porin or related
         "Bpse_Omp38", "Kpne_OmpK37", "OmpA",
 
@@ -3450,6 +3451,9 @@
         "vanW", // vanW is an accessory gene, with unknown function, found on vancomycin resistance operons.
         "vanY", // VanY is a D,D-carboxypeptidase that cleaves removes the terminal D-Ala from peptidoglycan for the addition of D-Lactate. The D-Ala-D-Lac peptidoglycan subunits have reduced binding affinity with vancomycin compared to D-Ala-D-Ala.
         "vanZ", // VanZ is a teicoplanin resistance gene that is an accessory protein. VanZ prevents the incorporation of the terminal D-Ala into peptidoglycan subunits.
+
+        // penicillin binding protein PBP or related
+        // "pbp2m",
 
         // merR-like transcriptional regulator
         // "Structural basis and dynamics of multidrug recognition in a minimal bacterial multidrug resistance system"
@@ -3469,7 +3473,7 @@
 
         // Antibiotic-induced cell wall stress leads to activation of IreK-mediated phosphorylation signaling pathways to mitigate and repair the damage.
         // ** likely regulator **
-        "IreK", // serine/threonine protein kinase IreK
+        "IreK",
 
         // "Genomic epidemiology of Streptococcus agalactiae ST283 in Southeast Asia"
         // "Macrolide Resistance Gene mreA of Streptococcus agalactiae Encodes a Flavokinase"

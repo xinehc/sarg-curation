@@ -34,23 +34,60 @@ Download the `nr`, `env_nr`, and `refseq_protein` databases from [NCBI FTP](http
 > Extracting sequences and creating `diamond` databases can be time-consuming. Consider running `blastdbcmd` and `diamond makedb` in parallel to utilize multiple cores.
 
 ```bash
-mkdir -p tmp/protein
-for folder in nr env_nr refseq_protein; do
-    mkdir -p tmp/protein/$folder
+for db in nr env_nr
+do
     curl ftp://ftp.ncbi.nlm.nih.gov/blast/db/ \
         | grep -o '[^ ]*.gz$' \
-        | grep ^$folder \
-        | xargs -P 32 -I {} wget -qN --show-progress https://ftp.ncbi.nlm.nih.gov/blast/db/{} -P tmp/protein/$folder
+        | grep ^$db \
+        | xargs -P 48 -I {} wget -qN --show-progress https://ftp.ncbi.nlm.nih.gov/blast/db/{} -P tmp/protein/$db
 
-    for file in tmp/protein/$folder/*.tar.gz; do tar -xvf $file -C tmp/protein/$folder; done
-    rm -rf tmp/protein/$folder/*.tar.gz
+    for file in tmp/protein/$db/*.tar.gz; do tar -xvf $file -C tmp/protein/$db; done
 done
 
 blastdbcmd -db tmp/protein/nr/nr -entry all > tmp/nr.fa
 blastdbcmd -db tmp/protein/env_nr/env_nr -entry all > tmp/env_nr.fa
-blastdbcmd -db tmp/protein/refseq_protein/refseq_protein -entry all > tmp/refseq_protein.fa
-diamond makedb --in tmp/refseq_protein.fa --db tmp/refseq_protein
 rm -rf tmp/protein
+```
+
+```bash
+for kingdom in archaea bacteria
+do
+    curl ftp://ftp.ncbi.nlm.nih.gov/refseq/release/${kingdom}/ \
+        | grep '[^ ]*wp_protein.*.gz$' -o \
+        | xargs -P 48 -I {} wget -qN --show-progress https://ftp.ncbi.nlm.nih.gov/refseq/release/${kingdom}/{} -P tmp/refseq
+done
+
+cat tmp/refseq/*.faa.gz > tmp/refseq_protein.faa.gz
+diamond makedb --in tmp/refseq_protein.faa.gz --db tmp/refseq_protein
+rm -rf tmp/refseq_protein.faa.gz
+
+python -c "
+import gzip
+import glob
+import pandas as pd
+
+from Bio import SeqIO
+from tqdm.contrib.concurrent import process_map
+
+def parser(file):
+    lines = []
+    with gzip.open(file, 'rt') as f:
+        for record in SeqIO.parse(f, 'genbank'):
+            header = record.description.rsplit(' [')[0].split('MULTISPECIES: ')[-1]
+            if 'structured_comment' in record.annotations:
+                annotation = record.annotations['structured_comment']['Evidence-For-Name-Assignment']
+                identifier, evidence = annotation.get('Source Identifier', 'NA'), annotation.get('Evidence Accession', 'NA')
+            else:
+                identifier, evidence = 'NA', 'NA'
+
+            gene = [x for x in record.features if x.type == 'gene']
+            symbol = gene[0].qualifiers['gene'][0] if gene else 'NA'
+
+            lines.append([record.id, header, evidence, symbol, identifier])
+    pd.DataFrame(lines).to_csv(file.replace('.gpff.gz', '.tsv'), sep='\t', header=None, index=False)
+
+r = process_map(parser, glob.glob('tmp/refseq/*.gpff.gz'), max_workers=48, chunksize=1)
+"
 ```
 
 ### Download NDARO and CARD
@@ -64,12 +101,10 @@ We provide a series of Jupyter notebooks for step-wise construction of SARG+:
 1. **`a0-parse-refs.ipynb`**
    - Parses NDARO and CARD metadata and sequences to create a raw reference. Curates the reference according to `sarg.json`, producing the initial SARG+ reference database.
 2. **`a1-standardize-headers.ipynb`**
-   - Standardizes headers of the SARG+ reference according to `nr`.
-3. **`b1-get-remarks.ipynb`**
-   - Retrieves annotation evidence of SARG+ sequences.
-4. **`b2-parse-remarks.ipynb`**
-   - Finds sequences annotated through the same evidence sources (BlastRules and Hidden Markov Models) as the reference sequences.
-5. **`b3-remove-dups.ipynb`**
+   - Standardizes the headers of SARG+ reference sequences according to `nr`.
+4. **`b0-parse-evidence.ipynb`**
+   - Finds sequences annotated through the same evidence sources (BlastRules and Hidden Markov Models) as SARG+ reference sequences.
+5. **`b1-remove-dups.ipynb`**
    - Removes duplicated and cross-mapped sequences by clustering.
 
 > [!NOTE]
@@ -81,7 +116,7 @@ We provide a series of Jupyter notebooks for step-wise construction of SARG+:
 - **Evidence File:** `misc/evidence.tsv` lists all evidence used for creating SARG+ extension.
 - **Counts:** `misc/sarg.txt`, `misc/sarg_ref.txt`, and `misc/sarg_ext.txt` display the counts of different ARGs for SARG+, SARG+ reference, and SARG+ extension, respectively.
 - **Sequences:**
-  - `sarg.fa`: The combined reference and extension database.
+  - `sarg.fa`: combined reference and extension sequences.
   - `sarg_ref.fa`: The reference component of SARG+.
   - `sarg_ext.fa`: The extension component of SARG+.
 

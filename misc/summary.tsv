@@ -7,7 +7,7 @@ albicidin	albG	REF|albicidin|albG|CAE52332.1	SARG|albicidin|albG|WP_012916028.1	
 aminocoumarin	couR5	REF|aminocoumarin|couR5|AAG29799.1	SARG|aminocoumarin|couR5|WP_109005058.1	MFS transporter
 aminocoumarin	novA	CARD|homolog|aminocoumarin|novA|AAF67494.2	SARG|aminocoumarin|novA|WP_069626133.1	NovA family novobiocin export ABC transporter
 aminocoumarin	simX	REF|aminocoumarin|simX|AAK06799.1	SARG|aminocoumarin|simX|AAK06799.1	putative export protein SimEx
-aminoglycoside	aac(2')*	REF|aminoglycoside|aac(2')*|BAD22574.1	SARG|aminoglycoside|aac(2')*|BAD22574.1	aminoglycoside 2'-N-acetyltransferase
+aminoglycoside	aac(2')*	REF|aminoglycoside|aac(2')*|BAD22574.1	SARG|aminoglycoside|aac(2')*|WP_381528018.1	GNAT family N-acetyltransferase
 aminoglycoside	aac(2')-I	NCBI|amr:amr|aminoglycoside|aac(2')-I(A267)|WP_025297907.1	SARG|aminoglycoside|aac(2')-I|WP_025297907.1	aminoglycoside N-acetyltransferase AAC(2')-I(A267)
 aminoglycoside	aac(2')-I	NCBI|amr:amr|aminoglycoside|aac(2')-Ia|WP_004918308.1	SARG|aminoglycoside|aac(2')-I|WP_004918308.1	aminoglycoside N-acetyltransferase AAC(2')-Ia
 aminoglycoside	aac(2')-I	NCBI|amr:amr|aminoglycoside|aac(2')-Ib|WP_003881640.1	SARG|aminoglycoside|aac(2')-I|WP_003881640.1	aminoglycoside N-acetyltransferase AAC(2')-Ib
@@ -1154,6 +1154,7 @@ beta-lactam	blaADC	NCBI|amr:amr|beta-lactam|blaADC|WP_125052776.1	SARG|beta-lact
 beta-lactam	blaADC	NCBI|amr:amr|beta-lactam|blaADC|WP_128268232.1	SARG|beta-lactam|blaADC|WP_128268232.1	extended-spectrum class C beta-lactamase ADC-183
 beta-lactam	blaADC	NCBI|amr:amr|beta-lactam|blaADC|WP_130173437.1	SARG|beta-lactam|blaADC|WP_130173437.1	extended-spectrum class C beta-lactamase ADC-207
 beta-lactam	blaADC	NCBI|amr:amr|beta-lactam|blaADC|WP_132038428.1	SARG|beta-lactam|blaADC|WP_132038428.1	extended-spectrum class C beta-lactamase ADC-235
+beta-lactam	blaADC	NCBI|amr:amr|beta-lactam|blaADC|WP_133238964.1	SARG|beta-lactam|blaADC|WP_133238964.1	ADC family extended-spectrum class C beta-lactamase
 beta-lactam	blaADC	NCBI|amr:amr|beta-lactam|blaADC|WP_133972424.1	SARG|beta-lactam|blaADC|WP_133972424.1	extended-spectrum class C beta-lactamase ADC-194
 beta-lactam	blaADC	NCBI|amr:amr|beta-lactam|blaADC|WP_136512052.1	SARG|beta-lactam|blaADC|WP_136512052.1	extended-spectrum class C beta-lactamase ADC-109
 beta-lactam	blaADC	NCBI|amr:amr|beta-lactam|blaADC|WP_136512053.1	SARG|beta-lactam|blaADC|WP_136512053.1	extended-spectrum class C beta-lactamase ADC-110
@@ -1190,6 +1191,7 @@ beta-lactam	blaADC	NCBI|amr:amr|beta-lactam|blaADC|WP_160164835.1	SARG|beta-lact
 beta-lactam	blaADC	NCBI|amr:amr|beta-lactam|blaADC|WP_160164836.1	SARG|beta-lactam|blaADC|WP_160164836.1	extended-spectrum class C beta-lactamase ADC-229
 beta-lactam	blaADC	NCBI|amr:amr|beta-lactam|blaADC|WP_160164837.1	SARG|beta-lactam|blaADC|WP_160164837.1	extended-spectrum class C beta-lactamase ADC-230
 beta-lactam	blaADC	NCBI|amr:amr|beta-lactam|blaADC|WP_160164838.1	SARG|beta-lactam|blaADC|WP_160164838.1	extended-spectrum class C beta-lactamase ADC-231
+beta-lactam	blaADC	NCBI|amr:amr|beta-lactam|blaADC|WP_161298866.1	SARG|beta-lactam|blaADC|WP_161298866.1	ADC family extended-spectrum class C beta-lactamase
 beta-lactam	blaADC	NCBI|amr:amr|beta-lactam|blaADC|WP_174749605.1	SARG|beta-lactam|blaADC|WP_174749605.1	extended-spectrum class C beta-lactamase ADC-311
 beta-lactam	blaADC	NCBI|amr:amr|beta-lactam|blaADC|WP_176673601.1	SARG|beta-lactam|blaADC|WP_176673601.1	extended-spectrum class C beta-lactamase ADC-236
 beta-lactam	blaADC	NCBI|amr:amr|beta-lactam|blaADC|WP_199947622.1	SARG|beta-lactam|blaADC|WP_199947622.1	extended-spectrum class C beta-lactamase ADC-270
@@ -1255,6 +1257,10 @@ beta-lactam	blaADC	NCBI|amr:amr|beta-lactam|blaADC|WP_334264835.1	SARG|beta-lact
 beta-lactam	blaADC	NCBI|amr:amr|beta-lactam|blaADC|WP_338424097.1	SARG|beta-lactam|blaADC|WP_338424097.1	extended-spectrum class C beta-lactamase ADC-351
 beta-lactam	blaADC	NCBI|amr:amr|beta-lactam|blaADC|WP_338424098.1	SARG|beta-lactam|blaADC|WP_338424098.1	extended-spectrum class C beta-lactamase ADC-352
 beta-lactam	blaADC	NCBI|amr:amr|beta-lactam|blaADC|WP_338424099.1	SARG|beta-lactam|blaADC|WP_338424099.1	extended-spectrum class C beta-lactamase ADC-353
+beta-lactam	blaADC	NCBI|amr:amr|beta-lactam|blaADC|WP_375516050.1	SARG|beta-lactam|blaADC|WP_375516050.1	ADC family extended-spectrum class C beta-lactamase
+beta-lactam	blaADC	NCBI|amr:amr|beta-lactam|blaADC|WP_375516051.1	SARG|beta-lactam|blaADC|WP_375516051.1	ADC family extended-spectrum class C beta-lactamase
+beta-lactam	blaADC	NCBI|amr:amr|beta-lactam|blaADC|WP_375516052.1	SARG|beta-lactam|blaADC|WP_375516052.1	ADC family extended-spectrum class C beta-lactamase
+beta-lactam	blaADC	NCBI|amr:amr|beta-lactam|blaADC|WP_375516053.1	SARG|beta-lactam|blaADC|WP_375516053.1	ADC family extended-spectrum class C beta-lactamase
 beta-lactam	blaAER	NCBI|amr:amr|beta-lactam|blaAER|WP_063857819.1	SARG|beta-lactam|blaAER|WP_063857819.1	carbenicillin-hydrolyzing class A beta-lactamase AER-1
 beta-lactam	blaAFM	NCBI|amr:amr|beta-lactam|blaAFM|WP_069953510.1	SARG|beta-lactam|blaAFM|WP_069953510.1	subclass B1 metallo-beta-lactamase AFM-1
 beta-lactam	blaAFM	NCBI|amr:amr|beta-lactam|blaAFM|WP_204376224.1	SARG|beta-lactam|blaAFM|WP_204376224.1	subclass B1 metallo-beta-lactamase AFM-2
@@ -1288,6 +1294,7 @@ beta-lactam	blaAXC	NCBI|amr:amr|beta-lactam|blaAXC|WP_150823464.1	SARG|beta-lact
 beta-lactam	blaAXC	NCBI|amr:amr|beta-lactam|blaAXC|WP_150823465.1	SARG|beta-lactam|blaAXC|WP_150823465.1	carbapenem-hydrolyzing class A beta-lactamase AXC-5
 beta-lactam	blaAXC	NCBI|amr:amr|beta-lactam|blaAXC|WP_213994577.1	SARG|beta-lactam|blaAXC|WP_213994577.1	carbapenem-hydrolyzing class A beta-lactamase AXC-6
 beta-lactam	blaAXC	NCBI|amr:amr|beta-lactam|blaAXC|WP_231873785.1	SARG|beta-lactam|blaAXC|WP_231873785.1	carbapenem-hydrolyzing class A beta-lactamase AXC-7
+beta-lactam	blaAXC	NCBI|amr:amr|beta-lactam|blaAXC|WP_375516054.1	SARG|beta-lactam|blaAXC|WP_375516054.1	AXC family carbapenem-hydrolyzing class A beta-lactamase
 beta-lactam	blaB	NCBI|amr:amr|beta-lactam|blaB|WP_019051344.1	SARG|beta-lactam|blaB|WP_019051344.1	subclass B1 metallo-beta-lactamase BlaB-19
 beta-lactam	blaB	NCBI|amr:amr|beta-lactam|blaB|WP_021348010.1	SARG|beta-lactam|blaB|WP_021348010.1	subclass B1 metallo-beta-lactamase BlaB-17
 beta-lactam	blaB	NCBI|amr:amr|beta-lactam|blaB|WP_029728367.1	SARG|beta-lactam|blaB|WP_029728367.1	subclass B1 metallo-beta-lactamase BlaB-21
@@ -1422,6 +1429,7 @@ beta-lactam	blaCMH	NCBI|amr:amr|beta-lactam|blaCMH|WP_058650678.1	SARG|beta-lact
 beta-lactam	blaCMH	NCBI|amr:amr|beta-lactam|blaCMH|WP_058660625.1	SARG|beta-lactam|blaCMH|WP_058660625.1	class C beta-lactamase CMH-18
 beta-lactam	blaCMH	NCBI|amr:amr|beta-lactam|blaCMH|WP_058678916.1	SARG|beta-lactam|blaCMH|WP_058678916.1	class C beta-lactamase CMH-19
 beta-lactam	blaCMH	NCBI|amr:amr|beta-lactam|blaCMH|WP_058680758.1	SARG|beta-lactam|blaCMH|WP_058680758.1	class C beta-lactamase CMH-20
+beta-lactam	blaCMH	NCBI|amr:amr|beta-lactam|blaCMH|WP_058683930.1	SARG|beta-lactam|blaCMH|WP_058683930.1	CMH family class C beta-lactamase
 beta-lactam	blaCMH	NCBI|amr:amr|beta-lactam|blaCMH|WP_063859580.1	SARG|beta-lactam|blaCMH|WP_063859580.1	extended-spectrum class C beta-lactamase CMH-1
 beta-lactam	blaCMH	NCBI|amr:amr|beta-lactam|blaCMH|WP_063859588.1	SARG|beta-lactam|blaCMH|WP_063859588.1	class C beta-lactamase CMH-2
 beta-lactam	blaCMH	NCBI|amr:amr|beta-lactam|blaCMH|WP_095907254.1	SARG|beta-lactam|blaCMH|WP_095907254.1	class C beta-lactamase CMH-22
@@ -1622,6 +1630,13 @@ beta-lactam	blaCMY	NCBI|amr:amr|beta-lactam|blaCMY|WP_274293082.1	SARG|beta-lact
 beta-lactam	blaCMY	NCBI|amr:amr|beta-lactam|blaCMY|WP_281461078.1	SARG|beta-lactam|blaCMY|WP_281461078.1	class C beta-lactamase CMY-186
 beta-lactam	blaCMY	NCBI|amr:amr|beta-lactam|blaCMY|WP_328703055.1	SARG|beta-lactam|blaCMY|WP_328703055.1	class C beta-lactamase CMY-190
 beta-lactam	blaCMY	NCBI|amr:amr|beta-lactam|blaCMY|WP_338424100.1	SARG|beta-lactam|blaCMY|WP_338424100.1	class C beta-lactamase CMY-188
+beta-lactam	blaCMY	NCBI|amr:amr|beta-lactam|blaCMY|WP_392713123.1	SARG|beta-lactam|blaCMY|WP_392713123.1	CMY-2 family class C beta-lactamase
+beta-lactam	blaCMY	NCBI|amr:amr|beta-lactam|blaCMY|WP_394294888.1	SARG|beta-lactam|blaCMY|WP_394294888.1	class C beta-lactamase CMY-194
+beta-lactam	blaCMY	NCBI|amr:amr|beta-lactam|blaCMY|WP_394294889.1	SARG|beta-lactam|blaCMY|WP_394294889.1	class C beta-lactamase CMY-195
+beta-lactam	blaCMY	NCBI|amr:amr|beta-lactam|blaCMY|WP_394294890.1	SARG|beta-lactam|blaCMY|WP_394294890.1	class C beta-lactamase CMY-196
+beta-lactam	blaCMY	NCBI|amr:amr|beta-lactam|blaCMY|WP_394294891.1	SARG|beta-lactam|blaCMY|WP_394294891.1	class C beta-lactamase CMY-197
+beta-lactam	blaCMY	NCBI|amr:amr|beta-lactam|blaCMY|WP_394294892.1	SARG|beta-lactam|blaCMY|WP_394294892.1	class C beta-lactamase CMY-198
+beta-lactam	blaCMY	NCBI|amr:amr|beta-lactam|blaCMY|WP_394294893.1	SARG|beta-lactam|blaCMY|WP_394294893.1	class C beta-lactamase CMY-199
 beta-lactam	blaCMY	NCBI|amr:amr|beta-lactam|blaLAT|WP_032489027.1	SARG|beta-lactam|blaCMY|WP_032489027.1	CMY-2 family cephalosporin-hydrolyzing class C beta-lactamase LAT-3
 beta-lactam	blaCMY	NCBI|amr:amr|beta-lactam|blaLAT|WP_063860798.1	SARG|beta-lactam|blaCMY|WP_063860798.1	CMY-2 family cephalosporin-hydrolyzing class C beta-lactamase LAT-1
 beta-lactam	blaCPS	NCBI|amr:amr|beta-lactam|blaCPS|WP_063857696.1	SARG|beta-lactam|blaCPS|WP_063857696.1	subclass B3 metallo-beta-lactamase CPS-1
@@ -1875,6 +1890,7 @@ beta-lactam	blaCTX-M	NCBI|amr:amr|beta-lactam|blaCTX-M|WP_257102135.1	SARG|beta-
 beta-lactam	blaCTX-M	NCBI|amr:amr|beta-lactam|blaCTX-M|WP_262697122.1	SARG|beta-lactam|blaCTX-M|WP_262697122.1	extended-spectrum class A beta-lactamase CTX-M-257
 beta-lactam	blaCTX-M	NCBI|amr:amr|beta-lactam|blaCTX-M|WP_262697123.1	SARG|beta-lactam|blaCTX-M|WP_262697123.1	extended-spectrum class A beta-lactamase CTX-M-258
 beta-lactam	blaCTX-M	NCBI|amr:amr|beta-lactam|blaCTX-M|WP_263598085.1	SARG|beta-lactam|blaCTX-M|WP_263598085.1	extended-spectrum class A beta-lactamase CTX-M-259
+beta-lactam	blaCTX-M	NCBI|amr:amr|beta-lactam|blaCTX-M|WP_271147295.1	SARG|beta-lactam|blaCTX-M|WP_271147295.1	CTX-M family extended-spectrum class A beta-lactamase
 beta-lactam	blaCTX-M	NCBI|amr:amr|beta-lactam|blaCTX-M|WP_279383147.1	SARG|beta-lactam|blaCTX-M|WP_279383147.1	extended-spectrum class A beta-lactamase CTX-M-260
 beta-lactam	blaCTX-M	NCBI|amr:amr|beta-lactam|blaCTX-M|WP_290468346.1	SARG|beta-lactam|blaCTX-M|WP_290468346.1	extended-spectrum class A beta-lactamase CTX-M-262
 beta-lactam	blaCTX-M	NCBI|amr:amr|beta-lactam|blaCTX-M|WP_290468347.1	SARG|beta-lactam|blaCTX-M|WP_290468347.1	extended-spectrum class A beta-lactamase CTX-M-263
@@ -1886,10 +1902,18 @@ beta-lactam	blaCTX-M	NCBI|amr:amr|beta-lactam|blaCTX-M|WP_318245545.1	SARG|beta-
 beta-lactam	blaCTX-M	NCBI|amr:amr|beta-lactam|blaCTX-M|WP_322263690.1	SARG|beta-lactam|blaCTX-M|WP_322263690.1	extended-spectrum class A beta-lactamase CTX-M-270
 beta-lactam	blaCTX-M	NCBI|amr:amr|beta-lactam|blaCTX-M|WP_328703056.1	SARG|beta-lactam|blaCTX-M|WP_328703056.1	extended-spectrum class A beta-lactamase CTX-M-247
 beta-lactam	blaCTX-M	NCBI|amr:amr|beta-lactam|blaCTX-M|WP_328703057.1	SARG|beta-lactam|blaCTX-M|WP_328703057.1	extended-spectrum class A beta-lactamase CTX-M-249
+beta-lactam	blaCTX-M	NCBI|amr:amr|beta-lactam|blaCTX-M|WP_375516055.1	SARG|beta-lactam|blaCTX-M|WP_375516055.1	CTX-M family extended-spectrum class A beta-lactamase
+beta-lactam	blaCTX-M	NCBI|amr:amr|beta-lactam|blaCTX-M|WP_375516056.1	SARG|beta-lactam|blaCTX-M|WP_375516056.1	CTX-M family extended-spectrum class A beta-lactamase
+beta-lactam	blaCTX-M	NCBI|amr:amr|beta-lactam|blaCTX-M|WP_394294894.1	SARG|beta-lactam|blaCTX-M|WP_394294894.1	extended-spectrum class A beta-lactamase CTX-M-274
+beta-lactam	blaCTX-M	NCBI|amr:amr|beta-lactam|blaCTX-M|WP_394294895.1	SARG|beta-lactam|blaCTX-M|WP_394294895.1	extended-spectrum class A beta-lactamase CTX-M-275
+beta-lactam	blaCTX-M	NCBI|amr:amr|beta-lactam|blaCTX-M|WP_394294896.1	SARG|beta-lactam|blaCTX-M|WP_394294896.1	extended-spectrum class A beta-lactamase CTX-M-276
+beta-lactam	blaCTX-M	NCBI|amr:amr|beta-lactam|blaCTX-M|WP_394294897.1	SARG|beta-lactam|blaCTX-M|WP_394294897.1	extended-spectrum class A beta-lactamase CTX-M-277
+beta-lactam	blaCTX-M	NCBI|amr:amr|beta-lactam|blaCTX-M|WP_394294898.1	SARG|beta-lactam|blaCTX-M|WP_394294898.1	extended-spectrum class A beta-lactamase CTX-M-278
 beta-lactam	blaCVI	NCBI|amr:amr|beta-lactam|blaCVI|WP_164461288.1	SARG|beta-lactam|blaCVI|WP_164461288.1	subclass B2 metallo-beta-lactamase CVI-1
 beta-lactam	blaDES	NCBI|amr:amr|beta-lactam|blaDES|WP_063860095.1	SARG|beta-lactam|blaDES|WP_063860095.1	extended-spectrum class A beta-lactamase DES-1
 beta-lactam	blaDHA	NCBI|amr:amr|beta-lactam|blaDHA|WP_004236386.1	SARG|beta-lactam|blaDHA|WP_004236386.1	extended-spectrum class C beta-lactamase DHA-1
 beta-lactam	blaDHA	NCBI|amr:amr|beta-lactam|blaDHA|WP_004240455.1	SARG|beta-lactam|blaDHA|WP_004240455.1	class C beta-lactamase DHA-13
+beta-lactam	blaDHA	NCBI|amr:amr|beta-lactam|blaDHA|WP_024474547.1	SARG|beta-lactam|blaDHA|WP_024474547.1	DHA family class C beta-lactamase
 beta-lactam	blaDHA	NCBI|amr:amr|beta-lactam|blaDHA|WP_025151790.1	SARG|beta-lactam|blaDHA|WP_025151790.1	class C beta-lactamase DHA-12
 beta-lactam	blaDHA	NCBI|amr:amr|beta-lactam|blaDHA|WP_032097955.1	SARG|beta-lactam|blaDHA|WP_032097955.1	class C beta-lactamase DHA-4
 beta-lactam	blaDHA	NCBI|amr:amr|beta-lactam|blaDHA|WP_032490957.1	SARG|beta-lactam|blaDHA|WP_032490957.1	class C beta-lactamase DHA-3
@@ -1919,6 +1943,7 @@ beta-lactam	blaDHA	NCBI|amr:amr|beta-lactam|blaDHA|WP_148044412.1	SARG|beta-lact
 beta-lactam	blaDHA	NCBI|amr:amr|beta-lactam|blaDHA|WP_283624015.1	SARG|beta-lactam|blaDHA|WP_283624015.1	class C beta-lactamase DHA-30
 beta-lactam	blaDHA	NCBI|amr:amr|beta-lactam|blaDHA|WP_311033305.1	SARG|beta-lactam|blaDHA|WP_311033305.1	class C beta-lactamase DHA-31
 beta-lactam	blaDHA	NCBI|amr:amr|beta-lactam|blaDHA|WP_318245546.1	SARG|beta-lactam|blaDHA|WP_318245546.1	class C beta-lactamase DHA-33
+beta-lactam	blaDHA	NCBI|amr:amr|beta-lactam|blaDHA|WP_394294899.1	SARG|beta-lactam|blaDHA|WP_394294899.1	class C beta-lactamase DHA-34
 beta-lactam	blaDHT2	NCBI|amr:amr|beta-lactam|blaDHT2|WP_122630829.1	SARG|beta-lactam|blaDHT2|WP_122630829.1	subclass B3 metallo-beta-lactamase DHT2-1
 beta-lactam	blaDIM	NCBI|amr:amr|beta-lactam|blaDIM|WP_063860203.1	SARG|beta-lactam|blaDIM|WP_063860203.1	subclass B1 metallo-beta-lactamase DIM-1
 beta-lactam	blaDYB	NCBI|amr:amr|beta-lactam|blaDYB|WP_338373280.1	SARG|beta-lactam|blaDYB|WP_338373280.1	subclass B1 metallo-beta-lactamase DYB-1
@@ -2062,6 +2087,9 @@ beta-lactam	blaGES	NCBI|amr:amr|beta-lactam|blaGES|WP_279240773.1	SARG|beta-lact
 beta-lactam	blaGES	NCBI|amr:amr|beta-lactam|blaGES|WP_290468350.1	SARG|beta-lactam|blaGES|WP_290468350.1	class A beta-lactamase GES-59
 beta-lactam	blaGES	NCBI|amr:amr|beta-lactam|blaGES|WP_323579967.1	SARG|beta-lactam|blaGES|WP_323579967.1	class A beta-lactamase GES-61
 beta-lactam	blaGES	NCBI|amr:amr|beta-lactam|blaGES|WP_367187948.1	SARG|beta-lactam|blaGES|WP_367187948.1	extended-spectrum class A beta-lactamase GES-60
+beta-lactam	blaGES	NCBI|amr:amr|beta-lactam|blaGES|WP_368780598.1	SARG|beta-lactam|blaGES|WP_368780598.1	GES family class A beta-lactamase
+beta-lactam	blaGES	NCBI|amr:amr|beta-lactam|blaGES|WP_375516057.1	SARG|beta-lactam|blaGES|WP_375516057.1	GES family class A beta-lactamase
+beta-lactam	blaGES	NCBI|amr:amr|beta-lactam|blaGES|WP_394294900.1	SARG|beta-lactam|blaGES|WP_394294900.1	class A beta-lactamase GES-65
 beta-lactam	blaGIL	NCBI|amr:amr|beta-lactam|blaGIL|WP_063860521.1	SARG|beta-lactam|blaGIL|WP_063860521.1	broad-spectrum class A beta-lactamase GIL-1
 beta-lactam	blaGIM	NCBI|amr:amr|beta-lactam|blaGIM|WP_015588753.1	SARG|beta-lactam|blaGIM|WP_015588753.1	subclass B1 metallo-beta-lactamase GIM-1
 beta-lactam	blaGIM	NCBI|amr:amr|beta-lactam|blaGIM|WP_063860522.1	SARG|beta-lactam|blaGIM|WP_063860522.1	subclass B1 metallo-beta-lactamase GIM-2
@@ -2261,6 +2289,8 @@ beta-lactam	blaIMP	NCBI|amr:amr|beta-lactam|blaIMP|WP_285798245.1	SARG|beta-lact
 beta-lactam	blaIMP	NCBI|amr:amr|beta-lactam|blaIMP|WP_311033306.1	SARG|beta-lactam|blaIMP|WP_311033306.1	subclass B1 metallo-beta-lactamase IMP-102
 beta-lactam	blaIMP	NCBI|amr:amr|beta-lactam|blaIMP|WP_319861626.1	SARG|beta-lactam|blaIMP|WP_319861626.1	subclass B1 metallo-beta-lactamase IMP-50
 beta-lactam	blaIMP	NCBI|amr:amr|beta-lactam|blaIMP|WP_328703058.1	SARG|beta-lactam|blaIMP|WP_328703058.1	subclass B1 metallo-beta-lactamase IMP-101
+beta-lactam	blaIMP	NCBI|amr:amr|beta-lactam|blaIMP|WP_375516058.1	SARG|beta-lactam|blaIMP|WP_375516058.1	IMP family subclass B1 metallo-beta-lactamase
+beta-lactam	blaIMP	NCBI|amr:amr|beta-lactam|blaIMP|WP_394294901.1	SARG|beta-lactam|blaIMP|WP_394294901.1	subclass B1 metallo-beta-lactamase IMP-105
 beta-lactam	blaIND	NCBI|amr:amr|beta-lactam|blaIND|WP_002979282.1	SARG|beta-lactam|blaIND|WP_002979282.1	IND family subclass B1 metallo-beta-lactamase CGB-1
 beta-lactam	blaIND	NCBI|amr:amr|beta-lactam|blaIND|WP_027372425.1	SARG|beta-lactam|blaIND|WP_027372425.1	subclass B1 metallo-beta-lactamase IND-15
 beta-lactam	blaIND	NCBI|amr:amr|beta-lactam|blaIND|WP_034735890.1	SARG|beta-lactam|blaIND|WP_034735890.1	subclass B1 metallo-beta-lactamase IND-2
@@ -2508,6 +2538,18 @@ beta-lactam	blaKPC	NCBI|amr:amr|beta-lactam|blaKPC|WP_367187953.1	SARG|beta-lact
 beta-lactam	blaKPC	NCBI|amr:amr|beta-lactam|blaKPC|WP_367187954.1	SARG|beta-lactam|blaKPC|WP_367187954.1	inhibitor-resistant extended-spectrum class A beta-lactamase KPC-226
 beta-lactam	blaKPC	NCBI|amr:amr|beta-lactam|blaKPC|WP_367187955.1	SARG|beta-lactam|blaKPC|WP_367187955.1	inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-227
 beta-lactam	blaKPC	NCBI|amr:amr|beta-lactam|blaKPC|WP_367187956.1	SARG|beta-lactam|blaKPC|WP_367187956.1	inhibitor-resistant extended-spectrum class A beta-lactamase KPC-230
+beta-lactam	blaKPC	NCBI|amr:amr|beta-lactam|blaKPC|WP_375516059.1	SARG|beta-lactam|blaKPC|WP_375516059.1	KPC family carbapenem-hydrolyzing class A beta-lactamase
+beta-lactam	blaKPC	NCBI|amr:amr|beta-lactam|blaKPC|WP_375516060.1	SARG|beta-lactam|blaKPC|WP_375516060.1	KPC family carbapenem-hydrolyzing class A beta-lactamase
+beta-lactam	blaKPC	NCBI|amr:amr|beta-lactam|blaKPC|WP_375516061.1	SARG|beta-lactam|blaKPC|WP_375516061.1	KPC family carbapenem-hydrolyzing class A beta-lactamase
+beta-lactam	blaKPC	NCBI|amr:amr|beta-lactam|blaKPC|WP_375516062.1	SARG|beta-lactam|blaKPC|WP_375516062.1	KPC family carbapenem-hydrolyzing class A beta-lactamase
+beta-lactam	blaKPC	NCBI|amr:amr|beta-lactam|blaKPC|WP_376797688.1	SARG|beta-lactam|blaKPC|WP_376797688.1	KPC family carbapenem-hydrolyzing class A beta-lactamase
+beta-lactam	blaKPC	NCBI|amr:amr|beta-lactam|blaKPC|WP_394294902.1	SARG|beta-lactam|blaKPC|WP_394294902.1	carbapenem-hydrolyzing class A beta-lactamase KPC-236
+beta-lactam	blaKPC	NCBI|amr:amr|beta-lactam|blaKPC|WP_394294903.1	SARG|beta-lactam|blaKPC|WP_394294903.1	carbapenem-hydrolyzing class A beta-lactamase KPC-237
+beta-lactam	blaKPC	NCBI|amr:amr|beta-lactam|blaKPC|WP_394294904.1	SARG|beta-lactam|blaKPC|WP_394294904.1	carbapenem-hydrolyzing class A beta-lactamase KPC-238
+beta-lactam	blaKPC	NCBI|amr:amr|beta-lactam|blaKPC|WP_394294905.1	SARG|beta-lactam|blaKPC|WP_394294905.1	carbapenem-hydrolyzing class A beta-lactamase KPC-239
+beta-lactam	blaKPC	NCBI|amr:amr|beta-lactam|blaKPC|WP_394294906.1	SARG|beta-lactam|blaKPC|WP_394294906.1	carbapenem-hydrolyzing class A beta-lactamase KPC-240
+beta-lactam	blaKPC	NCBI|amr:amr|beta-lactam|blaKPC|WP_394294907.1	SARG|beta-lactam|blaKPC|WP_394294907.1	carbapenem-hydrolyzing class A beta-lactamase KPC-241
+beta-lactam	blaKPC	NCBI|amr:amr|beta-lactam|blaKPC|WP_394294908.1	SARG|beta-lactam|blaKPC|WP_394294908.1	carbapenem-hydrolyzing class A beta-lactamase KPC-242
 beta-lactam	blaL	NCBI|amr:amr|beta-lactam|blaL|WP_030877515.1	SARG|beta-lactam|blaL|WP_030877515.1	BlaL family class A beta-lactamase
 beta-lactam	blaL	NCBI|amr:amr|beta-lactam|blaL|WP_030892446.1	SARG|beta-lactam|blaL|WP_030892446.1	BlaL family class A beta-lactamase
 beta-lactam	blaL	NCBI|amr:amr|beta-lactam|blaL|WP_065102178.1	SARG|beta-lactam|blaL|WP_065102178.1	BlaL family class A beta-lactamase
@@ -2750,6 +2792,10 @@ beta-lactam	blaNDM	NCBI|amr:amr|beta-lactam|blaNDM|WP_338424113.1	SARG|beta-lact
 beta-lactam	blaNDM	NCBI|amr:amr|beta-lactam|blaNDM|WP_338424114.1	SARG|beta-lactam|blaNDM|WP_338424114.1	subclass B1 metallo-beta-lactamase NDM-68
 beta-lactam	blaNDM	NCBI|amr:amr|beta-lactam|blaNDM|WP_367187963.1	SARG|beta-lactam|blaNDM|WP_367187963.1	subclass B1 metallo-beta-lactamase NDM-69
 beta-lactam	blaNDM	NCBI|amr:amr|beta-lactam|blaNDM|WP_367187964.1	SARG|beta-lactam|blaNDM|WP_367187964.1	subclass B1 metallo-beta-lactamase NDM-70
+beta-lactam	blaNDM	NCBI|amr:amr|beta-lactam|blaNDM|WP_375516063.1	SARG|beta-lactam|blaNDM|WP_375516063.1	NDM family subclass B1 metallo-beta-lactamase
+beta-lactam	blaNDM	NCBI|amr:amr|beta-lactam|blaNDM|WP_375516064.1	SARG|beta-lactam|blaNDM|WP_375516064.1	NDM family subclass B1 metallo-beta-lactamase
+beta-lactam	blaNDM	NCBI|amr:amr|beta-lactam|blaNDM|WP_394294909.1	SARG|beta-lactam|blaNDM|WP_394294909.1	subclass B1 metallo-beta-lactamase NDM-73
+beta-lactam	blaNDM	NCBI|amr:amr|beta-lactam|blaNDM|WP_394294910.1	SARG|beta-lactam|blaNDM|WP_394294910.1	subclass B1 metallo-beta-lactamase NDM-74
 beta-lactam	blaNWM	NCBI|amr:amr|beta-lactam|blaNWM|WP_256875606.1	SARG|beta-lactam|blaNWM|WP_256875606.1	subclass B3 metallo-beta-lactamase NWM-1
 beta-lactam	blaOCH	NCBI|amr:amr|beta-lactam|blaOCH|WP_029376317.1	SARG|beta-lactam|blaOCH|WP_029376317.1	OCH family extended-spectrum class C beta-lactamase
 beta-lactam	blaOCH	NCBI|amr:amr|beta-lactam|blaOCH|WP_029925205.1	SARG|beta-lactam|blaOCH|WP_029925205.1	extended-spectrum class C beta-lactamase OCH-7
@@ -3005,7 +3051,7 @@ beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_032034809.1	SARG|beta-lact
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_032037742.1	SARG|beta-lactam|blaOXA|WP_032037742.1	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase OXA-441
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_032051604.1	SARG|beta-lactam|blaOXA|WP_032051604.1	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase OXA-374
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_032053762.1	SARG|beta-lactam|blaOXA|WP_032053762.1	OXA-213 family carbapenem-hydrolyzing class D beta-lactamase OXA-819
-beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_032057042.1	SARG|beta-lactam|blaOXA|WP_032057042.1	unnamed protein product
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_032057042.1	SARG|beta-lactam|blaOXA|WP_032057042.1	OXA-213 family carbapenem-hydrolyzing class D beta-lactamase OXA-820
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_032058439.1	SARG|beta-lactam|blaOXA|WP_032058439.1	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase OXA-378
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_032061328.1	SARG|beta-lactam|blaOXA|WP_032061328.1	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase OXA-855
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_032410229.1	SARG|beta-lactam|blaOXA|WP_032410229.1	OXA-10 family class D beta-lactamase OXA-663
@@ -3032,20 +3078,26 @@ beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_032879257.1	SARG|beta-lact
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_033841866.1	SARG|beta-lactam|blaOXA|WP_033841866.1	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase OXA-254
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_033887259.1	SARG|beta-lactam|blaOXA|WP_033887259.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1034
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_033937969.1	SARG|beta-lactam|blaOXA|WP_033937969.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1033
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_033949287.1	SARG|beta-lactam|blaOXA|WP_033949287.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_033954903.1	SARG|beta-lactam|blaOXA|WP_033954903.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-485
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_033955867.1	SARG|beta-lactam|blaOXA|WP_033955867.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1125
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_033968246.1	SARG|beta-lactam|blaOXA|WP_033968246.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1133
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_033978625.1	SARG|beta-lactam|blaOXA|WP_033978625.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1135
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_033984473.1	SARG|beta-lactam|blaOXA|WP_033984473.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_033989974.1	SARG|beta-lactam|blaOXA|WP_033989974.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-846
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_034002900.1	SARG|beta-lactam|blaOXA|WP_034002900.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1245
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_034005326.1	SARG|beta-lactam|blaOXA|WP_034005326.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-906
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_034006563.1	SARG|beta-lactam|blaOXA|WP_034006563.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-850
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_034015617.1	SARG|beta-lactam|blaOXA|WP_034015617.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_034021370.1	SARG|beta-lactam|blaOXA|WP_034021370.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1199
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_034022424.1	SARG|beta-lactam|blaOXA|WP_034022424.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_034025854.1	SARG|beta-lactam|blaOXA|WP_034025854.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1025
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_034027761.1	SARG|beta-lactam|blaOXA|WP_034027761.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1022
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_034033256.1	SARG|beta-lactam|blaOXA|WP_034033256.1	OXA-2 family class D beta-lactamase OXA-415
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_034033411.1	SARG|beta-lactam|blaOXA|WP_034033411.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1023
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_034047652.1	SARG|beta-lactam|blaOXA|WP_034047652.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_034072939.1	SARG|beta-lactam|blaOXA|WP_034072939.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1253
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_034080731.1	SARG|beta-lactam|blaOXA|WP_034080731.1	OXA-50-var family class D beta-lactamase
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_034081711.1	SARG|beta-lactam|blaOXA|WP_034081711.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-937
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_034612711.1	SARG|beta-lactam|blaOXA|WP_034612711.1	OXA-274 family carbapenem-hydrolyzing class D beta-lactamase OXA-668
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_034670108.1	SARG|beta-lactam|blaOXA|WP_034670108.1	OXA-23 family carbapenem-hydrolyzing class D beta-lactamase OXA-818
@@ -3065,6 +3117,7 @@ beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_040068451.1	SARG|beta-lact
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_042016119.1	SARG|beta-lactam|blaOXA|WP_042016119.1	class D beta-lactamase OXA-1163
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_042088348.1	SARG|beta-lactam|blaOXA|WP_042088348.1	OXA-229 family carbapenem-hydrolyzing class D beta-lactamase OXA-1001
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_042962442.1	SARG|beta-lactam|blaOXA|WP_042962442.1	OXA-61 family class D beta-lactamase OXA-450
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_043099627.1	SARG|beta-lactam|blaOXA|WP_043099627.1	OXA-50-var family class D beta-lactamase
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_043907054.1	SARG|beta-lactam|blaOXA|WP_043907054.1	OXA-48 family carbapenem-hydrolyzing class D beta-lactamase OXA-232
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_044600959.1	SARG|beta-lactam|blaOXA|WP_044600959.1	OXA-61 family class D beta-lactamase OXA-594
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_044779552.1	SARG|beta-lactam|blaOXA|WP_044779552.1	OXA-184 family class D beta-lactamase OXA-638
@@ -3099,6 +3152,7 @@ beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_052805187.1	SARG|beta-lact
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_052815145.1	SARG|beta-lactam|blaOXA|WP_052815145.1	class D beta-lactamase OXA-1159
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_052858477.1	SARG|beta-lactam|blaOXA|WP_052858477.1	OXA-184 family class D beta-lactamase OXA-637
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_053498400.1	SARG|beta-lactam|blaOXA|WP_053498400.1	class D beta-lactamase OXA-114h
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_053814856.1	SARG|beta-lactam|blaOXA|WP_053814856.1	OXA-50-var family class D beta-lactamase
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_053872444.1	SARG|beta-lactam|blaOXA|WP_053872444.1	OXA-184 family class D beta-lactamase OXA-639
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_053921012.1	SARG|beta-lactam|blaOXA|WP_053921012.1	OXA-61 family class D beta-lactamase OXA-603
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_054428802.1	SARG|beta-lactam|blaOXA|WP_054428802.1	OXA-364 family class D beta-lactamase OXA-455
@@ -3124,7 +3178,10 @@ beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_058052637.1	SARG|beta-lact
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_058061931.1	SARG|beta-lactam|blaOXA|WP_058061931.1	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase OXA-497
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_058132644.1	SARG|beta-lactam|blaOXA|WP_058132644.1	OXA-2 family class D beta-lactamase OXA-543
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_058142895.1	SARG|beta-lactam|blaOXA|WP_058142895.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1027
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_058145768.1	SARG|beta-lactam|blaOXA|WP_058145768.1	OXA-50-var family class D beta-lactamase
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_058176185.1	SARG|beta-lactam|blaOXA|WP_058176185.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_058177653.1	SARG|beta-lactam|blaOXA|WP_058177653.1	OXA-2 family extended-spectrum class D beta-lactamase OXA-141
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_058199927.1	SARG|beta-lactam|blaOXA|WP_058199927.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_058354753.1	SARG|beta-lactam|blaOXA|WP_058354753.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1024
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_058375744.1	SARG|beta-lactam|blaOXA|WP_058375744.1	OXA-62 family carbapenem-hydrolyzing class D beta-lactamase OXA-157
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_058842180.1	SARG|beta-lactam|blaOXA|WP_058842180.1	OXA-48 family carbapenem-hydrolyzing class D beta-lactamase OXA-436
@@ -3421,6 +3478,8 @@ beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_071593233.1	SARG|beta-lact
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_071846203.1	SARG|beta-lactam|blaOXA|WP_071846203.1	OXA-2 family class D beta-lactamase OXA-540
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_071846384.1	SARG|beta-lactam|blaOXA|WP_071846384.1	OXA-2 family class D beta-lactamase OXA-541
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_072678505.1	SARG|beta-lactam|blaOXA|WP_072678505.1	class D beta-lactamase OXA-732
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_073647622.1	SARG|beta-lactam|blaOXA|WP_073647622.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_074206779.1	SARG|beta-lactam|blaOXA|WP_074206779.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_075040046.1	SARG|beta-lactam|blaOXA|WP_075040046.1	OXA-23 family carbapenem-hydrolyzing class D beta-lactamase OXA-817
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_075071939.1	SARG|beta-lactam|blaOXA|WP_075071939.1	carbapenem-hydrolyzing class D beta-lactamase OXA-1089
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_075112279.1	SARG|beta-lactam|blaOXA|WP_075112279.1	OXA-12 family class D beta-lactamase OXA-959
@@ -3471,6 +3530,7 @@ beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_094009803.1	SARG|beta-lact
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_094009804.1	SARG|beta-lactam|blaOXA|WP_094009804.1	OXA-48 family class D beta-lactamase OXA-515
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_094009808.1	SARG|beta-lactam|blaOXA|WP_094009808.1	OXA-48 family carbapenem-hydrolyzing class D beta-lactamase OXA-519
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_094009811.1	SARG|beta-lactam|blaOXA|WP_094009811.1	OXA-48 family class D beta-lactamase OXA-566
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_094069128.1	SARG|beta-lactam|blaOXA|WP_094069128.1	OXA-62 family carbapenem-hydrolyzing class D beta-lactamase
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_094776403.1	SARG|beta-lactam|blaOXA|WP_094776403.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1254
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_094865115.1	SARG|beta-lactam|blaOXA|WP_094865115.1	carbapenem-hydrolyzing class D beta-lactamase OXA-198
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_096735335.1	SARG|beta-lactam|blaOXA|WP_096735335.1	OXA-274 family carbapenem-hydrolyzing class D beta-lactamase OXA-667
@@ -3479,6 +3539,7 @@ beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_099156044.1	SARG|beta-lact
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_099156052.1	SARG|beta-lactam|blaOXA|WP_099156052.1	OXA-48 family class D beta-lactamase OXA-567
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_099337823.1	SARG|beta-lactam|blaOXA|WP_099337823.1	class D beta-lactamase OXA-568
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_100507493.1	SARG|beta-lactam|blaOXA|WP_100507493.1	OXA-258 family carbapenem-hydrolyzing class D beta-lactamase OXA-925
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_100882964.1	SARG|beta-lactam|blaOXA|WP_100882964.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_100886243.1	SARG|beta-lactam|blaOXA|WP_100886243.1	OXA-229 family carbapenem-hydrolyzing class D beta-lactamase OXA-895
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_101150415.1	SARG|beta-lactam|blaOXA|WP_101150415.1	OXA-12 family class D beta-lactamase OXA-726
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_101663562.1	SARG|beta-lactam|blaOXA|WP_101663562.1	OXA-213 family carbapenem-hydrolyzing class D beta-lactamase OXA-1224
@@ -3490,6 +3551,7 @@ beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_104009853.1	SARG|beta-lact
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_104052979.1	SARG|beta-lactam|blaOXA|WP_104052979.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1255
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_104074618.1	SARG|beta-lactam|blaOXA|WP_104074618.1	OXA-213 family carbapenem-hydrolyzing class D beta-lactamase OXA-1166
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_104442312.1	SARG|beta-lactam|blaOXA|WP_104442312.1	carbapenem-hydrolyzing class D beta-lactamase OXA-1036
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_105248276.1	SARG|beta-lactam|blaOXA|WP_105248276.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_109545048.1	SARG|beta-lactam|blaOXA|WP_109545048.1	carbapenem-hydrolyzing class D beta-lactamase OXA-542
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_109545071.1	SARG|beta-lactam|blaOXA|WP_109545071.1	OXA-143 family carbapenem-hydrolyzing class D beta-lactamase OXA-649
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_109545072.1	SARG|beta-lactam|blaOXA|WP_109545072.1	OXA-372 family carbapenem-hydrolyzing class D beta-lactamase OXA-641
@@ -3541,6 +3603,7 @@ beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_111280830.1	SARG|beta-lact
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_111672907.1	SARG|beta-lactam|blaOXA|WP_111672907.1	OXA-23 family carbapenem-hydrolyzing class D beta-lactamase OXA-657
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_114158997.1	SARG|beta-lactam|blaOXA|WP_114158997.1	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase OXA-854
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_114225343.1	SARG|beta-lactam|blaOXA|WP_114225343.1	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase OXA-739
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_114230457.1	SARG|beta-lactam|blaOXA|WP_114230457.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_114252036.1	SARG|beta-lactam|blaOXA|WP_114252036.1	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase OXA-853
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_114268491.1	SARG|beta-lactam|blaOXA|WP_114268491.1	class D beta-lactamase OXA-926
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_114272532.1	SARG|beta-lactam|blaOXA|WP_114272532.1	OXA-727 family class D beta-lactamase OXA-727
@@ -3617,6 +3680,7 @@ beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_124213927.1	SARG|beta-lact
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_125052736.1	SARG|beta-lactam|blaOXA|WP_125052736.1	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase OXA-834
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_125064048.1	SARG|beta-lactam|blaOXA|WP_125064048.1	OXA-2 family class D beta-lactamase OXA-1083
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_126205827.1	SARG|beta-lactam|blaOXA|WP_126205827.1	OXA-184 family class D beta-lactamase OXA-785
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_126558944.1	SARG|beta-lactam|blaOXA|WP_126558944.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_126584556.1	SARG|beta-lactam|blaOXA|WP_126584556.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1020
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_126622689.1	SARG|beta-lactam|blaOXA|WP_126622689.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1131
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_126861771.1	SARG|beta-lactam|blaOXA|WP_126861771.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1029
@@ -3663,6 +3727,7 @@ beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_128268277.1	SARG|beta-lact
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_128268278.1	SARG|beta-lactam|blaOXA|WP_128268278.1	OXA-184 family class D beta-lactamase OXA-783
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_128268279.1	SARG|beta-lactam|blaOXA|WP_128268279.1	OXA-61 family class D beta-lactamase OXA-786
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_128296272.1	SARG|beta-lactam|blaOXA|WP_128296272.1	class D beta-lactamase OXA-1037
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_128621242.1	SARG|beta-lactam|blaOXA|WP_128621242.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_133973918.1	SARG|beta-lactam|blaOXA|WP_133973918.1	OXA-213 family carbapenem-hydrolyzing class D beta-lactamase OXA-822
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_134696937.1	SARG|beta-lactam|blaOXA|WP_134696937.1	class D beta-lactamase OXA-1153
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_136512073.1	SARG|beta-lactam|blaOXA|WP_136512073.1	class D beta-lactamase OXA-114k
@@ -3774,6 +3839,7 @@ beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_152315504.1	SARG|beta-lact
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_152315505.1	SARG|beta-lactam|blaOXA|WP_152315505.1	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase OXA-892
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_154205474.1	SARG|beta-lactam|blaOXA|WP_154205474.1	OXA-22 family class D beta-lactamase OXA-899
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_154205589.1	SARG|beta-lactam|blaOXA|WP_154205589.1	OXA-60 family carbapenem-hydrolyzing class D beta-lactamase OXA-898
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_154772606.1	SARG|beta-lactam|blaOXA|WP_154772606.1	OXA-1258 family class D beta-lactamase
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_156404658.1	SARG|beta-lactam|blaOXA|WP_156404658.1	OXA-9 family oxacillin-hydrolyzing class D beta-lactamase OXA-896
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_161507793.1	SARG|beta-lactam|blaOXA|WP_161507793.1	OXA-427 family carbapenem-hydrolyzing class D beta-lactamase OXA-917
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_162278338.1	SARG|beta-lactam|blaOXA|WP_162278338.1	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase OXA-909
@@ -3787,6 +3853,7 @@ beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_168370988.1	SARG|beta-lact
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_171476790.1	SARG|beta-lactam|blaOXA|WP_171476790.1	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase OXA-916
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_171865690.1	SARG|beta-lactam|blaOXA|WP_171865690.1	class D beta-lactamase OXA-1143
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_171889086.1	SARG|beta-lactam|blaOXA|WP_171889086.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1246
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_171892704.1	SARG|beta-lactam|blaOXA|WP_171892704.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_178317675.1	SARG|beta-lactam|blaOXA|WP_178317675.1	carbapenem-hydrolyzing class D beta-lactamase OXA-900
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_179284333.1	SARG|beta-lactam|blaOXA|WP_179284333.1	OXA-48 family class D beta-lactamase OXA-918
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_179284336.1	SARG|beta-lactam|blaOXA|WP_179284336.1	OXA-48 family class D beta-lactamase OXA-920
@@ -3798,6 +3865,7 @@ beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_188331877.1	SARG|beta-lact
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_188331878.1	SARG|beta-lactam|blaOXA|WP_188331878.1	OXA-48 family class D beta-lactamase OXA-929
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_190259776.1	SARG|beta-lactam|blaOXA|WP_190259776.1	OXA-229 family carbapenem-hydrolyzing class D beta-lactamase OXA-931
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_194293137.1	SARG|beta-lactam|blaOXA|WP_194293137.1	OXA-23 family carbapenem-hydrolyzing class D beta-lactamase OXA-893
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_194355408.1	SARG|beta-lactam|blaOXA|WP_194355408.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_196658681.1	SARG|beta-lactam|blaOXA|WP_196658681.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1019
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_199935335.1	SARG|beta-lactam|blaOXA|WP_199935335.1	OXA-229 family carbapenem-hydrolyzing class D beta-lactamase OXA-1194
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_200582679.1	SARG|beta-lactam|blaOXA|WP_200582679.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1188
@@ -3826,6 +3894,8 @@ beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_219860728.1	SARG|beta-lact
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_219860730.1	SARG|beta-lactam|blaOXA|WP_219860730.1	OXA-2 family class D beta-lactamase OXA-1017
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_223146972.1	SARG|beta-lactam|blaOXA|WP_223146972.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1018
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_223146973.1	SARG|beta-lactam|blaOXA|WP_223146973.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1031
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_225025027.1	SARG|beta-lactam|blaOXA|WP_225025027.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_229998008.1	SARG|beta-lactam|blaOXA|WP_229998008.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_231869587.1	SARG|beta-lactam|blaOXA|WP_231869587.1	OXA-1 family class D beta-lactamase OXA-1042
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_231869591.1	SARG|beta-lactam|blaOXA|WP_231869591.1	OXA-48 family class D beta-lactamase OXA-933
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_231869592.1	SARG|beta-lactam|blaOXA|WP_231869592.1	OXA-48 family class D beta-lactamase OXA-934
@@ -3928,6 +3998,7 @@ beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_242934119.1	SARG|beta-lact
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_242934120.1	SARG|beta-lactam|blaOXA|WP_242934120.1	OXA-63 family oxacillin-hydrolyzing class D beta-lactamase OXA-1107
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_249828065.1	SARG|beta-lactam|blaOXA|WP_249828065.1	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase OXA-1117
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_249828066.1	SARG|beta-lactam|blaOXA|WP_249828066.1	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase OXA-1118
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_252649526.1	SARG|beta-lactam|blaOXA|WP_252649526.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_252655163.1	SARG|beta-lactam|blaOXA|WP_252655163.1	OXA-48 family class D beta-lactamase OXA-1012
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_253114439.1	SARG|beta-lactam|blaOXA|WP_253114439.1	OXA-134 family carbapenem-hydrolyzing class D beta-lactamase OXA-1110
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_253147258.1	SARG|beta-lactam|blaOXA|WP_253147258.1	OXA-134 family carbapenem-hydrolyzing class D beta-lactamase OXA-1112
@@ -4008,9 +4079,15 @@ beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_311033319.1	SARG|beta-lact
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_311033320.1	SARG|beta-lactam|blaOXA|WP_311033320.1	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase OXA-1219
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_311033321.1	SARG|beta-lactam|blaOXA|WP_311033321.1	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase OXA-1220
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_311055936.1	SARG|beta-lactam|blaOXA|WP_311055936.1	OXA-10 family class D beta-lactamase OXA-1247
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_311917963.1	SARG|beta-lactam|blaOXA|WP_311917963.1	OXA-1258 family class D beta-lactamase
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_318245554.1	SARG|beta-lactam|blaOXA|WP_318245554.1	OXA-23 family carbapenem-hydrolyzing class D beta-lactamase OXA-1223
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_321088985.1	SARG|beta-lactam|blaOXA|WP_321088985.1	OXA-1258 family class D beta-lactamase
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_321091447.1	SARG|beta-lactam|blaOXA|WP_321091447.1	OXA-1258 family class D beta-lactamase
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_321093950.1	SARG|beta-lactam|blaOXA|WP_321093950.1	OXA-1258 family class D beta-lactamase
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_321097101.1	SARG|beta-lactam|blaOXA|WP_321097101.1	OXA-1258 family class D beta-lactamase
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_328703066.1	SARG|beta-lactam|blaOXA|WP_328703066.1	OXA-48 family class D beta-lactamase OXA-1167
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_328703067.1	SARG|beta-lactam|blaOXA|WP_328703067.1	OXA-24 family carbapenem-hydrolyzing class D beta-lactamase OXA-1225
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_331706252.1	SARG|beta-lactam|blaOXA|WP_331706252.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_334377767.1	SARG|beta-lactam|blaOXA|WP_334377767.1	OXA-213 family carbapenem-hydrolyzing class D beta-lactamase OXA-1237
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_338424115.1	SARG|beta-lactam|blaOXA|WP_338424115.1	OXA-48 family class D beta-lactamase OXA-1226
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_338424116.1	SARG|beta-lactam|blaOXA|WP_338424116.1	OXA-62 family carbapenem-hydrolyzing class D beta-lactamase OXA-1227
@@ -4026,6 +4103,7 @@ beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_338424125.1	SARG|beta-lact
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_338424126.1	SARG|beta-lactam|blaOXA|WP_338424126.1	class D beta-lactamase OXA-1238
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_338424127.1	SARG|beta-lactam|blaOXA|WP_338424127.1	carbapenem-hydrolyzing class D beta-lactamase OXA-1239
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_338424128.1	SARG|beta-lactam|blaOXA|WP_338424128.1	OXA-48 family class D beta-lactamase OXA-1240
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_367086563.1	SARG|beta-lactam|blaOXA|WP_367086563.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_367187965.1	SARG|beta-lactam|blaOXA|WP_367187965.1	OXA-23 family carbapenem-hydrolyzing class D beta-lactamase OXA-1241
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_367187966.1	SARG|beta-lactam|blaOXA|WP_367187966.1	OXA-48 family class D beta-lactamase OXA-1242
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_367187967.1	SARG|beta-lactam|blaOXA|WP_367187967.1	OXA-2 family class D beta-lactamase OXA-1243
@@ -4035,6 +4113,28 @@ beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_367187970.1	SARG|beta-lact
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_367187971.1	SARG|beta-lactam|blaOXA|WP_367187971.1	OXA-258 family class D beta-lactamase OXA-1251
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_367187972.1	SARG|beta-lactam|blaOXA|WP_367187972.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1256
 beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_367187973.1	SARG|beta-lactam|blaOXA|WP_367187973.1	OXA-10 family class D beta-lactamase OXA-1257
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_375516065.1	SARG|beta-lactam|blaOXA|WP_375516065.1	OXA-23 family carbapenem-hydrolyzing class D beta-lactamase
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_375516066.1	SARG|beta-lactam|blaOXA|WP_375516066.1	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_375516067.1	SARG|beta-lactam|blaOXA|WP_375516067.1	OXA-213 family carbapenem-hydrolyzing class D beta-lactamase
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_375516068.1	SARG|beta-lactam|blaOXA|WP_375516068.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_375516069.1	SARG|beta-lactam|blaOXA|WP_375516069.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_375516070.1	SARG|beta-lactam|blaOXA|WP_375516070.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_375516071.1	SARG|beta-lactam|blaOXA|WP_375516071.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_375516072.1	SARG|beta-lactam|blaOXA|WP_375516072.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_375516073.1	SARG|beta-lactam|blaOXA|WP_375516073.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_375516074.1	SARG|beta-lactam|blaOXA|WP_375516074.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_375516075.1	SARG|beta-lactam|blaOXA|WP_375516075.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_375516076.1	SARG|beta-lactam|blaOXA|WP_375516076.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_375516077.1	SARG|beta-lactam|blaOXA|WP_375516077.1	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_375516078.1	SARG|beta-lactam|blaOXA|WP_375516078.1	OXA-10 family class D beta-lactamase
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_375516079.1	SARG|beta-lactam|blaOXA|WP_375516079.1	OXA-24 family carbapenem-hydrolyzing class D beta-lactamase
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_375516080.1	SARG|beta-lactam|blaOXA|WP_375516080.1	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_394294911.1	SARG|beta-lactam|blaOXA|WP_394294911.1	OXA-48 family class D beta-lactamase OXA-1304
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_394294912.1	SARG|beta-lactam|blaOXA|WP_394294912.1	OXA-48 family class D beta-lactamase OXA-1305
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_394294913.1	SARG|beta-lactam|blaOXA|WP_394294913.1	OXA-48 family class D beta-lactamase OXA-1306
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_394294914.1	SARG|beta-lactam|blaOXA|WP_394294914.1	OXA-48 family class D beta-lactamase OXA-1307
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_394294915.1	SARG|beta-lactam|blaOXA|WP_394294915.1	OXA-48 family class D beta-lactamase OXA-1308
+beta-lactam	blaOXA	NCBI|amr:amr|beta-lactam|blaOXA|WP_394294916.1	SARG|beta-lactam|blaOXA|WP_394294916.1	OXA-48 family class D beta-lactamase OXA-1309
 beta-lactam	blaOXY	NCBI|amr:amr|beta-lactam|blaOXY|WP_004099854.1	SARG|beta-lactam|blaOXY|WP_004099854.1	extended-spectrum class A beta-lactamase OXY-2-4
 beta-lactam	blaOXY	NCBI|amr:amr|beta-lactam|blaOXY|WP_004111091.1	SARG|beta-lactam|blaOXY|WP_004111091.1	extended-spectrum class A beta-lactamase OXY-2-11
 beta-lactam	blaOXY	NCBI|amr:amr|beta-lactam|blaOXY|WP_004130122.1	SARG|beta-lactam|blaOXY|WP_004130122.1	extended-spectrum class A beta-lactamase OXY-4-1
@@ -4136,6 +4236,7 @@ beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_003110141.1	SARG|beta-lact
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_003118203.1	SARG|beta-lactam|blaPDC|WP_003118203.1	class C beta-lactamase PDC-8
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_003119095.1	SARG|beta-lactam|blaPDC|WP_003119095.1	extended-spectrum class C beta-lactamase PDC-5
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_003121934.1	SARG|beta-lactam|blaPDC|WP_003121934.1	extended-spectrum class C beta-lactamase PDC-3
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_003124046.1	SARG|beta-lactam|blaPDC|WP_003124046.1	PDC family class C beta-lactamase
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_003132320.1	SARG|beta-lactam|blaPDC|WP_003132320.1	class C beta-lactamase PDC-19a
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_003137570.1	SARG|beta-lactam|blaPDC|WP_003137570.1	class C beta-lactamase PDC-34
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_003454242.1	SARG|beta-lactam|blaPDC|WP_003454242.1	class C beta-lactamase PDC-374
@@ -4213,6 +4314,7 @@ beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_054379352.1	SARG|beta-lact
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_057388025.1	SARG|beta-lactam|blaPDC|WP_057388025.1	class C beta-lactamase PDC-197
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_058128316.1	SARG|beta-lactam|blaPDC|WP_058128316.1	class C beta-lactamase PDC-119
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_058129018.1	SARG|beta-lactam|blaPDC|WP_058129018.1	class C beta-lactamase PDC-104
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_058134661.1	SARG|beta-lactam|blaPDC|WP_058134661.1	PDC family class C beta-lactamase
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_058135553.1	SARG|beta-lactam|blaPDC|WP_058135553.1	class C beta-lactamase PDC-455
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_058157026.1	SARG|beta-lactam|blaPDC|WP_058157026.1	class C beta-lactamase PDC-271
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_058161279.1	SARG|beta-lactam|blaPDC|WP_058161279.1	class C beta-lactamase PDC-207
@@ -4307,6 +4409,7 @@ beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_073647245.1	SARG|beta-lact
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_073669325.1	SARG|beta-lactam|blaPDC|WP_073669325.1	class C beta-lactamase PDC-285
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_077248206.1	SARG|beta-lactam|blaPDC|WP_077248206.1	class C beta-lactamase PDC-175
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_077248207.1	SARG|beta-lactam|blaPDC|WP_077248207.1	class C beta-lactamase PDC-176
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_083555577.1	SARG|beta-lactam|blaPDC|WP_083555577.1	PDC family class C beta-lactamase
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_085562393.1	SARG|beta-lactam|blaPDC|WP_085562393.1	class C beta-lactamase PDC-177
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_085562394.1	SARG|beta-lactam|blaPDC|WP_085562394.1	class C beta-lactamase PDC-178
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_087587950.1	SARG|beta-lactam|blaPDC|WP_087587950.1	class C beta-lactamase PDC-179
@@ -4446,6 +4549,7 @@ beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_132710363.1	SARG|beta-lact
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_133452685.1	SARG|beta-lactam|blaPDC|WP_133452685.1	class C beta-lactamase PDC-433
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_134254706.1	SARG|beta-lactam|blaPDC|WP_134254706.1	class C beta-lactamase PDC-319
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_134265631.1	SARG|beta-lactam|blaPDC|WP_134265631.1	class C beta-lactamase PDC-402
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_134295295.1	SARG|beta-lactam|blaPDC|WP_134295295.1	PDC family class C beta-lactamase
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_134450540.1	SARG|beta-lactam|blaPDC|WP_134450540.1	class C beta-lactamase PDC-408
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_134600670.1	SARG|beta-lactam|blaPDC|WP_134600670.1	inhibitor-resistant class C beta-lactamase PDC-423
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_136828312.1	SARG|beta-lactam|blaPDC|WP_136828312.1	class C beta-lactamase PDC-528
@@ -4513,6 +4617,7 @@ beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_150823490.1	SARG|beta-lact
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_150823491.1	SARG|beta-lactam|blaPDC|WP_150823491.1	class C beta-lactamase PDC-384
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_150823492.1	SARG|beta-lactam|blaPDC|WP_150823492.1	class C beta-lactamase PDC-385
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_150823493.1	SARG|beta-lactam|blaPDC|WP_150823493.1	class C beta-lactamase PDC-386
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_151130601.1	SARG|beta-lactam|blaPDC|WP_151130601.1	PDC family class C beta-lactamase
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_152315506.1	SARG|beta-lactam|blaPDC|WP_152315506.1	inhibitor-resistant extended-spectrum class C beta-lactamase PDC-387
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_152315507.1	SARG|beta-lactam|blaPDC|WP_152315507.1	class C beta-lactamase PDC-388
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_164461293.1	SARG|beta-lactam|blaPDC|WP_164461293.1	class C beta-lactamase PDC-389
@@ -4615,10 +4720,12 @@ beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_223146978.1	SARG|beta-lact
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_223146979.1	SARG|beta-lactam|blaPDC|WP_223146979.1	class C beta-lactamase PDC-494
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_223146980.1	SARG|beta-lactam|blaPDC|WP_223146980.1	class C beta-lactamase PDC-495
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_223146981.1	SARG|beta-lactam|blaPDC|WP_223146981.1	class C beta-lactamase PDC-496
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_225025112.1	SARG|beta-lactam|blaPDC|WP_225025112.1	PDC family class C beta-lactamase
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_231869635.1	SARG|beta-lactam|blaPDC|WP_231869635.1	inhibitor-resistant extended-spectrum class C beta-lactamase PDC-497
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_231873782.1	SARG|beta-lactam|blaPDC|WP_231873782.1	class C beta-lactamase PDC-498
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_231873783.1	SARG|beta-lactam|blaPDC|WP_231873783.1	class C beta-lactamase PDC-499
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_231873784.1	SARG|beta-lactam|blaPDC|WP_231873784.1	inhibitor-resistant class C beta-lactamase PDC-500
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_234575440.1	SARG|beta-lactam|blaPDC|WP_234575440.1	PDC family class C beta-lactamase
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_240067736.1	SARG|beta-lactam|blaPDC|WP_240067736.1	class C beta-lactamase PDC-501
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_240067737.1	SARG|beta-lactam|blaPDC|WP_240067737.1	class C beta-lactamase PDC-502
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_240067738.1	SARG|beta-lactam|blaPDC|WP_240067738.1	class C beta-lactamase PDC-503
@@ -4712,6 +4819,38 @@ beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_340638822.1	SARG|beta-lact
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_340638823.1	SARG|beta-lactam|blaPDC|WP_340638823.1	class C beta-lactamase PDC-599
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_340638824.1	SARG|beta-lactam|blaPDC|WP_340638824.1	class C beta-lactamase PDC-600
 beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_367187974.1	SARG|beta-lactam|blaPDC|WP_367187974.1	class C beta-lactamase PDC-601
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_368038732.1	SARG|beta-lactam|blaPDC|WP_368038732.1	class C beta-lactamase PDC-602
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_375516081.1	SARG|beta-lactam|blaPDC|WP_375516081.1	class C beta-lactamase PDC-603
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_375516082.1	SARG|beta-lactam|blaPDC|WP_375516082.1	class C beta-lactamase PDC-604
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_375516083.1	SARG|beta-lactam|blaPDC|WP_375516083.1	class C beta-lactamase PDC-605
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_375516084.1	SARG|beta-lactam|blaPDC|WP_375516084.1	class C beta-lactamase PDC-606
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_375516085.1	SARG|beta-lactam|blaPDC|WP_375516085.1	class C beta-lactamase PDC-607
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_375516086.1	SARG|beta-lactam|blaPDC|WP_375516086.1	PDC family class C beta-lactamase
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_375516087.1	SARG|beta-lactam|blaPDC|WP_375516087.1	PDC family class C beta-lactamase
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_375516088.1	SARG|beta-lactam|blaPDC|WP_375516088.1	PDC family class C beta-lactamase
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_375516089.1	SARG|beta-lactam|blaPDC|WP_375516089.1	PDC family class C beta-lactamase
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_375516090.1	SARG|beta-lactam|blaPDC|WP_375516090.1	PDC family class C beta-lactamase
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_375516091.1	SARG|beta-lactam|blaPDC|WP_375516091.1	PDC family class C beta-lactamase
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_375516092.1	SARG|beta-lactam|blaPDC|WP_375516092.1	PDC family class C beta-lactamase
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_375516093.1	SARG|beta-lactam|blaPDC|WP_375516093.1	PDC family class C beta-lactamase
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_375516094.1	SARG|beta-lactam|blaPDC|WP_375516094.1	PDC family class C beta-lactamase
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_375516095.1	SARG|beta-lactam|blaPDC|WP_375516095.1	PDC family class C beta-lactamase
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_375516096.1	SARG|beta-lactam|blaPDC|WP_375516096.1	PDC family class C beta-lactamase
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_375516097.1	SARG|beta-lactam|blaPDC|WP_375516097.1	PDC family class C beta-lactamase
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_375516098.1	SARG|beta-lactam|blaPDC|WP_375516098.1	PDC family class C beta-lactamase
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_375516099.1	SARG|beta-lactam|blaPDC|WP_375516099.1	PDC family class C beta-lactamase
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_375516100.1	SARG|beta-lactam|blaPDC|WP_375516100.1	PDC family class C beta-lactamase
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_375516101.1	SARG|beta-lactam|blaPDC|WP_375516101.1	PDC family class C beta-lactamase
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_375516102.1	SARG|beta-lactam|blaPDC|WP_375516102.1	PDC family class C beta-lactamase
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_375516103.1	SARG|beta-lactam|blaPDC|WP_375516103.1	PDC family class C beta-lactamase
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_375516104.1	SARG|beta-lactam|blaPDC|WP_375516104.1	PDC family class C beta-lactamase
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_375516105.1	SARG|beta-lactam|blaPDC|WP_375516105.1	PDC family class C beta-lactamase
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_375516106.1	SARG|beta-lactam|blaPDC|WP_375516106.1	PDC family class C beta-lactamase
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_375516107.1	SARG|beta-lactam|blaPDC|WP_375516107.1	PDC family class C beta-lactamase
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_375516108.1	SARG|beta-lactam|blaPDC|WP_375516108.1	PDC family class C beta-lactamase
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_375516109.1	SARG|beta-lactam|blaPDC|WP_375516109.1	PDC family class C beta-lactamase
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_375516110.1	SARG|beta-lactam|blaPDC|WP_375516110.1	PDC family class C beta-lactamase
+beta-lactam	blaPDC	NCBI|amr:amr|beta-lactam|blaPDC|WP_376797689.1	SARG|beta-lactam|blaPDC|WP_376797689.1	PDC family class C beta-lactamase
 beta-lactam	blaPEDO	NCBI|amr:amr|beta-lactam|blaB1PEDO|WP_063864592.1	SARG|beta-lactam|blaPEDO|WP_063864592.1	subclass B1 metallo-beta-lactamase PEDO-3
 beta-lactam	blaPEDO	NCBI|amr:amr|beta-lactam|blaB3PEDO|WP_063864590.1	SARG|beta-lactam|blaPEDO|WP_063864590.1	subclass B3 metallo-beta-lactamase PEDO-1
 beta-lactam	blaPEDO	NCBI|amr:amr|beta-lactam|blaB3PEDO|WP_063864591.1	SARG|beta-lactam|blaPEDO|WP_063864591.1	subclass B3 metallo-beta-lactamase PEDO-2
@@ -4757,6 +4896,7 @@ beta-lactam	blaPEN	NCBI|amr:amr|beta-lactam|blaPEN-B|WP_262697188.1	SARG|beta-la
 beta-lactam	blaPEN	NCBI|amr:amr|beta-lactam|blaPEN-B|WP_262697189.1	SARG|beta-lactam|blaPEN|WP_262697189.1	class A beta-lactamase PEN-B3
 beta-lactam	blaPEN	NCBI|amr:amr|beta-lactam|blaPEN-E|WP_011882713.1	SARG|beta-lactam|blaPEN|WP_011882713.1	PEN-E family class A beta-lactamase
 beta-lactam	blaPEN	NCBI|amr:amr|beta-lactam|blaPEN-F|WP_011659342.1	SARG|beta-lactam|blaPEN|WP_011659342.1	PEN-F family class A beta-lactamase
+beta-lactam	blaPEN	NCBI|amr:amr|beta-lactam|blaPEN-G|WP_006766281.1	SARG|beta-lactam|blaPEN|WP_006766281.1	PEN family class A beta-lactamase, Bcc-type
 beta-lactam	blaPEN	NCBI|amr:amr|beta-lactam|blaPEN-H|WP_029226214.1	SARG|beta-lactam|blaPEN|WP_029226214.1	PEN-H family class A beta-lactamase
 beta-lactam	blaPEN	NCBI|amr:amr|beta-lactam|blaPEN-I|WP_063854501.1	SARG|beta-lactam|blaPEN|WP_063854501.1	PEN-I family class A beta-lactamase
 beta-lactam	blaPEN	NCBI|amr:amr|beta-lactam|blaPEN-J|WP_010108817.1	SARG|beta-lactam|blaPEN|WP_010108817.1	PEN-J family class A beta-lactamase
@@ -4780,6 +4920,8 @@ beta-lactam	blaPER	NCBI|amr:amr|beta-lactam|blaPER|WP_136512105.1	SARG|beta-lact
 beta-lactam	blaPER	NCBI|amr:amr|beta-lactam|blaPER|WP_156404659.1	SARG|beta-lactam|blaPER|WP_156404659.1	extended-spectrum class A beta-lactamase PER-14
 beta-lactam	blaPER	NCBI|amr:amr|beta-lactam|blaPER|WP_168247906.1	SARG|beta-lactam|blaPER|WP_168247906.1	extended-spectrum class A beta-lactamase PER-15
 beta-lactam	blaPER	NCBI|amr:amr|beta-lactam|blaPER|WP_202089433.1	SARG|beta-lactam|blaPER|WP_202089433.1	extended-spectrum class A beta-lactamase PER-16
+beta-lactam	blaPER	NCBI|amr:amr|beta-lactam|blaPER|WP_277857067.1	SARG|beta-lactam|blaPER|WP_277857067.1	PER family extended-spectrum class A beta-lactamase
+beta-lactam	blaPER	NCBI|amr:amr|beta-lactam|blaPER|WP_394294917.1	SARG|beta-lactam|blaPER|WP_394294917.1	extended-spectrum class A beta-lactamase PER-18
 beta-lactam	blaPFM	NCBI|amr:amr|beta-lactam|blaPFM|WP_057012521.1	SARG|beta-lactam|blaPFM|WP_057012521.1	subclass B2 metallo-beta-lactamase PFM-2
 beta-lactam	blaPFM	NCBI|amr:amr|beta-lactam|blaPFM|WP_148044470.1	SARG|beta-lactam|blaPFM|WP_148044470.1	subclass B2 metallo-beta-lactamase PFM-1
 beta-lactam	blaPFM	NCBI|amr:amr|beta-lactam|blaPFM|WP_156404660.1	SARG|beta-lactam|blaPFM|WP_156404660.1	subclass B2 metallo-beta-lactamase PFM-3
@@ -5292,6 +5434,7 @@ beta-lactam	blaTEM	NCBI|amr:amr|beta-lactam|blaTEM|WP_109791210.1	SARG|beta-lact
 beta-lactam	blaTEM	NCBI|amr:amr|beta-lactam|blaTEM|WP_109874025.1	SARG|beta-lactam|blaTEM|WP_109874025.1	extended-spectrum class A beta-lactamase TEM-7
 beta-lactam	blaTEM	NCBI|amr:amr|beta-lactam|blaTEM|WP_109963600.1	SARG|beta-lactam|blaTEM|WP_109963600.1	extended-spectrum class A beta-lactamase TEM-5
 beta-lactam	blaTEM	NCBI|amr:amr|beta-lactam|blaTEM|WP_110174956.1	SARG|beta-lactam|blaTEM|WP_110174956.1	class A beta-lactamase TEM-235
+beta-lactam	blaTEM	NCBI|amr:amr|beta-lactam|blaTEM|WP_110924831.1	SARG|beta-lactam|blaTEM|WP_110924831.1	TEM family class A beta-lactamase
 beta-lactam	blaTEM	NCBI|amr:amr|beta-lactam|blaTEM|WP_116786831.1	SARG|beta-lactam|blaTEM|WP_116786831.1	extended-spectrum class A beta-lactamase TEM-236
 beta-lactam	blaTEM	NCBI|amr:amr|beta-lactam|blaTEM|WP_122630841.1	SARG|beta-lactam|blaTEM|WP_122630841.1	class A beta-lactamase TEM-237
 beta-lactam	blaTEM	NCBI|amr:amr|beta-lactam|blaTEM|WP_131419583.1	SARG|beta-lactam|blaTEM|WP_131419583.1	class A beta-lactamase TEM-238
@@ -5314,6 +5457,11 @@ beta-lactam	blaTEM	NCBI|amr:amr|beta-lactam|blaTEM|WP_262697192.1	SARG|beta-lact
 beta-lactam	blaTEM	NCBI|amr:amr|beta-lactam|blaTEM|WP_262697193.1	SARG|beta-lactam|blaTEM|WP_262697193.1	class A beta-lactamase TEM-249
 beta-lactam	blaTEM	NCBI|amr:amr|beta-lactam|blaTEM|WP_279240809.1	SARG|beta-lactam|blaTEM|WP_279240809.1	class A beta-lactamase TEM-250
 beta-lactam	blaTEM	NCBI|amr:amr|beta-lactam|blaTEM|WP_355410643.1	SARG|beta-lactam|blaTEM|WP_355410643.1	class A beta-lactamase TEM-252
+beta-lactam	blaTEM	NCBI|amr:amr|beta-lactam|blaTEM|WP_373610049.1	SARG|beta-lactam|blaTEM|WP_373610049.1	TEM family class A beta-lactamase
+beta-lactam	blaTEM	NCBI|amr:amr|beta-lactam|blaTEM|WP_373639220.1	SARG|beta-lactam|blaTEM|WP_373639220.1	TEM family class A beta-lactamase
+beta-lactam	blaTEM	NCBI|amr:amr|beta-lactam|blaTEM|WP_375516111.1	SARG|beta-lactam|blaTEM|WP_375516111.1	TEM family class A beta-lactamase
+beta-lactam	blaTEM	NCBI|amr:amr|beta-lactam|blaTEM|WP_375516112.1	SARG|beta-lactam|blaTEM|WP_375516112.1	TEM family class A beta-lactamase
+beta-lactam	blaTEM	NCBI|amr:amr|beta-lactam|blaTEM|WP_394294918.1	SARG|beta-lactam|blaTEM|WP_394294918.1	class A beta-lactamase TEM-258
 beta-lactam	blaTER	NCBI|amr:amr|beta-lactam|blaTER|WP_063865145.1	SARG|beta-lactam|blaTER|WP_063865145.1	class A beta-lactamase TER-1
 beta-lactam	blaTER	NCBI|amr:amr|beta-lactam|blaTER|WP_063865146.1	SARG|beta-lactam|blaTER|WP_063865146.1	class A beta-lactamase TER-2
 beta-lactam	blaTHIN	NCBI|amr:amr|beta-lactam|blaTHIN-B|WP_063842948.1	SARG|beta-lactam|blaTHIN|WP_063842948.1	subclass B3 metallo-beta-lactamase THIN-B
@@ -5361,6 +5509,11 @@ beta-lactam	blaVEB	NCBI|amr:amr|beta-lactam|blaVEB|WP_231869593.1	SARG|beta-lact
 beta-lactam	blaVEB	NCBI|amr:amr|beta-lactam|blaVEB|WP_262697194.1	SARG|beta-lactam|blaVEB|WP_262697194.1	extended-spectrum class A beta-lactamase VEB-31
 beta-lactam	blaVEB	NCBI|amr:amr|beta-lactam|blaVEB|WP_328703082.1	SARG|beta-lactam|blaVEB|WP_328703082.1	extended-spectrum class A beta-lactamase VEB-33
 beta-lactam	blaVEB	NCBI|amr:amr|beta-lactam|blaVEB|WP_338424141.1	SARG|beta-lactam|blaVEB|WP_338424141.1	extended-spectrum class A beta-lactamase VEB-34
+beta-lactam	blaVEB	NCBI|amr:amr|beta-lactam|blaVEB|WP_346819020.1	SARG|beta-lactam|blaVEB|WP_346819020.1	VEB family extended-spectrum class A beta-lactamase
+beta-lactam	blaVEB	NCBI|amr:amr|beta-lactam|blaVEB|WP_394294919.1	SARG|beta-lactam|blaVEB|WP_394294919.1	extended-spectrum class A beta-lactamase VEB-35
+beta-lactam	blaVEB	NCBI|amr:amr|beta-lactam|blaVEB|WP_394294920.1	SARG|beta-lactam|blaVEB|WP_394294920.1	extended-spectrum class A beta-lactamase VEB-36
+beta-lactam	blaVEB	NCBI|amr:amr|beta-lactam|blaVEB|WP_394294921.1	SARG|beta-lactam|blaVEB|WP_394294921.1	extended-spectrum class A beta-lactamase VEB-37
+beta-lactam	blaVEB	NCBI|amr:amr|beta-lactam|blaVEB|WP_394294922.1	SARG|beta-lactam|blaVEB|WP_394294922.1	extended-spectrum class A beta-lactamase VEB-39
 beta-lactam	blaVHH	NCBI|amr:amr|beta-lactam|blaVHH|WP_063865164.1	SARG|beta-lactam|blaVHH|WP_063865164.1	carbenicillin-hydrolyzing class A beta-lactamase VHH-1
 beta-lactam	blaVHW	NCBI|amr:amr|beta-lactam|blaVHW|WP_063865165.1	SARG|beta-lactam|blaVHW|WP_063865165.1	carbenicillin-hydrolyzing class A beta-lactamase VHW-1
 beta-lactam	blaVIM	NCBI|amr:amr|beta-lactam|blaVIM|WP_003108247.1	SARG|beta-lactam|blaVIM|WP_003108247.1	subclass B1 metallo-beta-lactamase VIM-2
@@ -5448,6 +5601,10 @@ beta-lactam	blaVIM	NCBI|amr:amr|beta-lactam|blaVIM|WP_260890415.1	SARG|beta-lact
 beta-lactam	blaVIM	NCBI|amr:amr|beta-lactam|blaVIM|WP_262697195.1	SARG|beta-lactam|blaVIM|WP_262697195.1	taniborbactam-resistant subclass B1 metallo-beta-lactamase VIM-83
 beta-lactam	blaVIM	NCBI|amr:amr|beta-lactam|blaVIM|WP_274293093.1	SARG|beta-lactam|blaVIM|WP_274293093.1	subclass B1 metallo-beta-lactamase VIM-86
 beta-lactam	blaVIM	NCBI|amr:amr|beta-lactam|blaVIM|WP_338424142.1	SARG|beta-lactam|blaVIM|WP_338424142.1	subclass B1 metallo-beta-lactamase VIM-87
+beta-lactam	blaVIM	NCBI|amr:amr|beta-lactam|blaVIM|WP_377642835.1	SARG|beta-lactam|blaVIM|WP_377642835.1	VIM family subclass B1 metallo-beta-lactamase
+beta-lactam	blaVIM	NCBI|amr:amr|beta-lactam|blaVIM|WP_394294923.1	SARG|beta-lactam|blaVIM|WP_394294923.1	subclass B1 metallo-beta-lactamase VIM-88
+beta-lactam	blaVIM	NCBI|amr:amr|beta-lactam|blaVIM|WP_394294924.1	SARG|beta-lactam|blaVIM|WP_394294924.1	subclass B1 metallo-beta-lactamase VIM-89
+beta-lactam	blaVIM	NCBI|amr:amr|beta-lactam|blaVIM|WP_394294925.1	SARG|beta-lactam|blaVIM|WP_394294925.1	subclass B1 metallo-beta-lactamase VIM-90
 beta-lactam	blaVMB	NCBI|amr:amr|beta-lactam|blaVMB|WP_172692932.1	SARG|beta-lactam|blaVMB|WP_172692932.1	subclass B1 metallo-beta-lactamase VMB-1
 beta-lactam	blaWUS	NCBI|amr:amr|beta-lactam|blaWUS|WP_249828070.1	SARG|beta-lactam|blaWUS|WP_249828070.1	subclass B1 metallo-beta-lactamase WUS-1
 beta-lactam	blaYEM	NCBI|amr:amr|beta-lactam|blaYEM|WP_004874166.1	SARG|beta-lactam|blaYEM|WP_004874166.1	subclass B2 metallo-beta-lactamase YEM-1
@@ -5544,6 +5701,7 @@ beta-lactam	mecC	NCBI|amr:amr|beta-lactam|mecC2|WP_128268231.1	SARG|beta-lactam|
 beta-lactam	mecC	NCBI|amr:amr|beta-lactam|mecC3|WP_069996660.1	SARG|beta-lactam|mecC|WP_069996660.1	PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecC3
 beta-lactam	mecC	NCBI|amr:amr|beta-lactam|mecC|WP_000725529.1	SARG|beta-lactam|mecC|WP_000725529.1	PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecC
 beta-lactam	mecD	NCBI|amr:amr|beta-lactam|mecD|WP_087587946.1	SARG|beta-lactam|mecD|WP_087587946.1	PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecD
+beta-lactam	pbp2m	NCBI|amr:amr|beta-lactam|pbp2m|WP_049151672.1	SARG|beta-lactam|pbp2m|WP_049151672.1	penicillin-binding protein PBP2M
 beta-lactam	varG	NCBI|amr:amr|beta-lactam|varG|WP_000778180.1	SARG|beta-lactam|varG|WP_000778180.1	VarG family subclass B1-like metallo-beta-lactamase
 bicyclomycin	bcmT	REF|bicyclomycin|bcmT|AXQ04971.1	SARG|bicyclomycin|bcmT|WP_099202839.1	MFS transporter
 biocide	aceI	REF|multidrug|aceI|sp|P0DUT9|PACE_ACIBT	SARG|biocide|aceI|WP_005135057.1	chlorhexidine efflux PACE transporter AceI
@@ -5781,7 +5939,7 @@ colistin	mcr-8	NCBI|amr:amr|colistin|mcr-8|WP_118860654.1	SARG|colistin|mcr-8|WP
 colistin	mcr-8	NCBI|amr:amr|colistin|mcr-8|WP_150823497.1	SARG|colistin|mcr-8|WP_150823497.1	phosphoethanolamine--lipid A transferase MCR-8.3
 colistin	mcr-9	NCBI|amr:amr|colistin|mcr-9|AYW01299.1	SARG|colistin|mcr-9|WP_001572373.1	phosphoethanolamine--lipid A transferase MCR-9.1
 colistin	mcr-9	NCBI|amr:amr|colistin|mcr-9|MBO4175406.1	SARG|colistin|mcr-9|WP_044704969.1	phosphoethanolamine--lipid A transferase MCR-9.2
-colistin	mcr-9	NCBI|amr:amr|colistin|mcr-9|QKF95689.1	SARG|colistin|mcr-9|WP_179284395.1	phosphoethanolamine--lipid A transferase MCR-9.3
+colistin	mcr-9	NCBI|amr:amr|colistin|mcr-9|QKF95689.1	SARG|colistin|mcr-9|QKF95689.1	phosphoethanolamine--lipid A transferase MCR-9.3
 colistin	rosA	REF|colistin|rosA|AAC60781.1	SARG|colistin|rosA|AAC60781.1	RosA
 colistin	ugd	REF|colistin|ugd|sp|P76373|UDG_ECOLI	SARG|colistin|ugd|WP_000704857.1	UDP-glucose 6-dehydrogenase
 colistin	ugd	REF|colistin|ugd|sp|Q04873|UDG_SALTY	SARG|colistin|ugd|WP_000704831.1	UDP-glucose 6-dehydrogenase
@@ -6156,6 +6314,7 @@ macrolide-lincosamide-streptogramin	erm(X)	NCBI|amr:amr|lincosamide/macrolide/st
 macrolide-lincosamide-streptogramin	erm(Y)	NCBI|amr:amr|lincosamide/macrolide/streptogramin|erm(Y)|WP_063844932.1	SARG|macrolide-lincosamide-streptogramin|erm(Y)|WP_063844932.1	23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(Y)
 macrolide-lincosamide-streptogramin	erm(Z)	NCBI|amr:amr|lincosamide/macrolide/streptogramin|erm(Z)|WP_063796790.1	SARG|macrolide-lincosamide-streptogramin|erm(Z)|WP_063796790.1	23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(Z)
 macrolide-lincosamide-streptogramin	estT	NCBI|amr:amr|macrolide|estT|WP_185148407.1	SARG|macrolide-lincosamide-streptogramin|estT|WP_185148407.1	macrolide hydrolase EstT
+macrolide-lincosamide-streptogramin	estX	REF|macrolide-lincosamide-streptogramin|estX|WVE62698.1	SARG|macrolide-lincosamide-streptogramin|estX|WP_001456218.1	alpha/beta fold putative hydrolase EstX
 macrolide-lincosamide-streptogramin	llmA	CARD|homolog|lincosamide|LlmA_23S_CLI|APB03216.1	SARG|macrolide-lincosamide-streptogramin|llmA|WP_071218328.1	class I SAM-dependent methyltransferase
 macrolide-lincosamide-streptogramin	lmr(A)	REF|macrolide-lincosamide-streptogramin|lmr(A)|ABX00596.1	SARG|macrolide-lincosamide-streptogramin|lmr(A)|WP_079164356.1	lincomycin efflux MFS transporter Lmr(A)
 macrolide-lincosamide-streptogramin	lmr(B)	REF|macrolide-lincosamide-streptogramin|lmr(B)|AAF40441.1	SARG|macrolide-lincosamide-streptogramin|lmr(B)|WP_011015308.1	MDR family MFS transporter
@@ -6298,7 +6457,7 @@ macrolide-lincosamide-streptogramin	vat(E)	NCBI|amr:amr|streptogramin|vat(E)|WP_
 macrolide-lincosamide-streptogramin	vat(E)	NCBI|amr:amr|streptogramin|vat(E)|WP_063856934.1	SARG|macrolide-lincosamide-streptogramin|vat(E)|WP_063856934.1	streptogramin A O-acetyltransferase Vat(E)
 macrolide-lincosamide-streptogramin	vat(F)	NCBI|amr:amr|streptogramin|vat(F)|WP_005164767.1	SARG|macrolide-lincosamide-streptogramin|vat(F)|WP_005164767.1	streptogramin A O-acetyltransferase Vat(F)
 macrolide-lincosamide-streptogramin	vat(H)	NCBI|amr:amr|streptogramin|vat(H)|WP_063856935.1	SARG|macrolide-lincosamide-streptogramin|vat(H)|WP_063856935.1	streptogramin A O-acetyltransferase Vat(H)
-macrolide-lincosamide-streptogramin	vat(I)	NCBI|amr:amr|streptogramin|vatI|WP_071218948.1	SARG|macrolide-lincosamide-streptogramin|vat(I)|WP_071218948.1	streptogramin A O-acetyltransferase Vat(I)
+macrolide-lincosamide-streptogramin	vat(I)	NCBI|amr:amr|streptogramin|vat(I)|WP_071218948.1	SARG|macrolide-lincosamide-streptogramin|vat(I)|WP_071218948.1	streptogramin A O-acetyltransferase Vat(I)
 macrolide-lincosamide-streptogramin	vga(A)	NCBI|amr:amr|lincosamide|vga(A)|WP_002440627.1	SARG|macrolide-lincosamide-streptogramin|vga(A)|WP_002440627.1	ABC-F type ribosomal protection protein Vga(A)
 macrolide-lincosamide-streptogramin	vga(A)	NCBI|amr:amr|lincosamide|vga(A)|WP_002449123.1	SARG|macrolide-lincosamide-streptogramin|vga(A)|WP_002449123.1	ABC-F type ribosomal protection protein Vga(A)-LC
 macrolide-lincosamide-streptogramin	vga(A)	NCBI|amr:amr|lincosamide|vga(A)|WP_012579073.1	SARG|macrolide-lincosamide-streptogramin|vga(A)|WP_012579073.1	ABC-F type ribosomal protection protein Vga(A)
@@ -6816,6 +6975,7 @@ phenicol	cfr(D)	NCBI|amr:amr|phenicol/lincosamide/oxazolidinone/pleuromutilin/st
 phenicol	cfr(E)	NCBI|amr:amr|phenicol/lincosamide/oxazolidinone/pleuromutilin/streptogramin|cfr(E)|WP_105119688.1	SARG|phenicol|cfr(E)|WP_105119688.1	23S rRNA (adenine(2503)-C(8))-methyltransferase Cfr(E)
 phenicol	cfr*	NCBI|amr:amr|phenicol/lincosamide/oxazolidinone/pleuromutilin/streptogramin|cfr|WP_011987126.1	SARG|phenicol|cfr*|WP_011987126.1	Cfr family 23S rRNA (adenine(2503)-C(8))-methyltransferase
 phenicol	cml*	NCBI|amr:amr|phenicol|cml|WP_011552636.1	SARG|phenicol|cml*|WP_011552636.1	Cml family chloramphenicol efflux MFS transporter
+phenicol	cml*	NCBI|amr:amr|phenicol|cml|WP_031633255.1	SARG|phenicol|cml*|WP_031633255.1	CmlA/FloR family chloramphenicol efflux MFS transporter
 phenicol	cml*	NCBI|amr:amr|phenicol|cml|WP_061345584.1	SARG|phenicol|cml*|WP_061345584.1	Cml family chloramphenicol efflux MFS transporter
 phenicol	cml*	NCBI|amr:amr|phenicol|cml|WP_115421099.1	SARG|phenicol|cml*|WP_115421099.1	Cml family chloramphenicol efflux MFS transporter
 phenicol	cmlA	NCBI|amr:amr|phenicol|cmlA1|WP_000095725.1	SARG|phenicol|cmlA|WP_000095725.1	chloramphenicol efflux MFS transporter CmlA1
@@ -6989,9 +7149,11 @@ quinolone	qnrB	NCBI|amr:amr|quinolone|qnrB|WP_125353308.1	SARG|quinolone|qnrB|WP
 quinolone	qnrB	NCBI|amr:amr|quinolone|qnrB|WP_149691965.1	SARG|quinolone|qnrB|WP_149691965.1	quinolone resistance pentapeptide repeat protein QnrB98
 quinolone	qnrB	NCBI|amr:amr|quinolone|qnrB|WP_174771641.1	SARG|quinolone|qnrB|WP_174771641.1	quinolone resistance pentapeptide repeat protein QnrB93
 quinolone	qnrB	NCBI|amr:amr|quinolone|qnrB|WP_187259598.1	SARG|quinolone|qnrB|WP_187259598.1	quinolone resistance pentapeptide repeat protein QnrB97
+quinolone	qnrB	NCBI|amr:amr|quinolone|qnrB|WP_195994689.1	SARG|quinolone|qnrB|WP_195994689.1	QnrB family quinolone resistance pentapeptide repeat protein
 quinolone	qnrB	NCBI|amr:amr|quinolone|qnrB|WP_213133914.1	SARG|quinolone|qnrB|WP_213133914.1	quinolone resistance pentapeptide repeat protein QnrB89
 quinolone	qnrB	NCBI|amr:amr|quinolone|qnrB|WP_284957973.1	SARG|quinolone|qnrB|WP_284957973.1	quinolone resistance pentapeptide repeat protein QnrB84
 quinolone	qnrB	NCBI|amr:amr|quinolone|qnrB|WP_367187981.1	SARG|quinolone|qnrB|WP_367187981.1	quinolone resistance pentapeptide repeat protein QnrB99
+quinolone	qnrB	NCBI|amr:amr|quinolone|qnrB|WP_369462156.1	SARG|quinolone|qnrB|WP_369462156.1	QnrB family quinolone resistance pentapeptide repeat protein
 quinolone	qnrC	NCBI|amr:amr|quinolone|qnrC|WP_032492368.1	SARG|quinolone|qnrC|WP_032492368.1	QnrC family quinolone resistance pentapeptide repeat protein
 quinolone	qnrD	NCBI|amr:amr|quinolone|qnrD|WP_012634451.1	SARG|quinolone|qnrD|WP_012634451.1	quinolone resistance pentapeptide repeat protein QnrD1
 quinolone	qnrD	NCBI|amr:amr|quinolone|qnrD|WP_032495680.1	SARG|quinolone|qnrD|WP_032495680.1	quinolone resistance pentapeptide repeat protein QnrD2
