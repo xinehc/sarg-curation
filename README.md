@@ -16,14 +16,14 @@ SARG+ is a manually curated database of Antibiotic Resistance Genes (ARGs), desi
 Create a new conda environment with the necessary dependencies:
 
 ```bash
-conda create -n sarg-curation -c bioconda -c conda-forge blast diamond mmseqs2 seqkit wget tqdm biopython pandas
+conda create -n sarg-curation -c bioconda -c conda-forge blast diamond mmseqs2 seqkit
 conda activate sarg-curation
 ```
 
 Install additional Python modules and Jupyter for running the notebooks:
 
 ```bash
-conda install jupyter regex json5
+conda install jupyter regex json5 wget tqdm biopython pandas
 ```
 
 ### Download NCBI Databases
@@ -157,7 +157,7 @@ For example:
 }
 ```
 
-If you spot any suspicious cases or wish to add sequences to SARG+, please consider creating a pull request by editing `sarg.json` and `reference/reference.fasta`, or opening an issue. We will update SARG+ regularly.
+If you spot any suspicious cases or wish to add sequences to SARG+, please consider creating a pull request by editing `sarg.json` and `reference/reference.fasta`, or opening an issue.
 
 ## FAQ
 
