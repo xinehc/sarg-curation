@@ -93,7 +93,7 @@ r = process_map(parser, glob.glob('tmp/refseq/*.gpff.gz'), max_workers=48, chunk
 
 ### Download NDARO and CARD
 
-NDARO need to be downloaded manually from https://www.ncbi.nlm.nih.gov/pathogens/refgene/ (click `Download` for both the metadata `refgenes.tsv` and the reference protein sequences `reference_protein.faa`). CARD can be obtained from https://card.mcmaster.ca/download. These files need to be unzipped and placed in the [reference](https://github.com/xinehc/sarg-curation/tree/master/reference) folder.
+NDARO need to be downloaded manually from https://www.ncbi.nlm.nih.gov/pathogens/refgene/ (click `Download` for both the metadata `refgenes.tsv` and the reference protein sequences `protein.faa`). CARD can be obtained from https://card.mcmaster.ca/download. These files need to be unzipped and placed in the [reference](https://github.com/xinehc/sarg-curation/tree/master/reference) folder.
 
 ## Run
 
