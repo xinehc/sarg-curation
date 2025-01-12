@@ -675,18 +675,13 @@
             "beta-lactam@blaEXO": [
                 "NCBI|amr:amr|beta-lactam|bla2a|WP_063842239.1", // Exo family class A beta-lactamase
             ],
-        },
-        "added": {
-            // "Identification and characterization of CIM-1, a carbapenemase that adds to the family of resistance factors against last resort antibiotics"
-            // CIM-1 was able to confer resistance upon E. coli to all the β-lactam antibiotics tested apart from cefepime, albeit at lower levels (lower MIC values) compared to IND-2 and NDM-4.
-            // The sequence identity between the top 100 homologues and CIM-1 is between 100% (Accession number: WP_123865086.1) and 54% (Accession number: WP_035589998.1).
-            // https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NF041441/
-            "WP_123865086.1": "blaCIM", // CIM family subclass B1 metallo-beta-lactamase [Chryseobacterium indologenes] | CIM family subclass B1 metallo-beta-lactamase
+            "beta-lactam@blaCIM": [
+                "NCBI|amr:amr|beta-lactam|blaCIB|WP_123865086.1", // CIM family subclass B1 metallo-beta-lactamase
+            ],
         },
         "discarded": [
             // CARD
-            "CARD|homolog|carbapenem;cephalosporin;cephamycin;penam|ACT-16|BAM34463.1", // NCBI|amr:amr|beta-lactam|blaACT|WP_023315250.1 | id: 100.0 qcov: 100.0 scov: 99.7
-            "CARD|homolog|carbapenem;cephalosporin;monobactam;penam|KPC-9|ACM91559.1", // NCBI|amr:amr|beta-lactam|blaKPC|WP_111672911.1 | id: 100.0 qcov: 100.0 scov: 96.9
+            "CARD|homolog|carbapenem;cephalosporin;monobactam;penicillin_beta-lactam|KPC-9|ACM91559.1", // NCBI|amr:amr|beta-lactam|blaKPC|WP_111672911.1 | id: 100.0 qcov: 100.0 scov: 96.9
             "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-73|AKR18013.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_179284389.1 | id: 100.0 qcov: 100.0 scov: 93.5
             "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-75|AKR18015.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_040184286.1 | id: 99.7 qcov: 100.0 scov: 93.5
             "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-76|AKR18016.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_034051361.1 | id: 99.7 qcov: 100.0 scov: 93.5
@@ -703,97 +698,85 @@
             "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-89|AKR18029.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_019485213.1 | id: 99.2 qcov: 100.0 scov: 93.5
             "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-90|AKR18030.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_003132320.1 | id: 99.2 qcov: 100.0 scov: 93.5
             "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-91|AKR18031.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_104009834.1 | id: 99.2 qcov: 100.0 scov: 93.4
-            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-92|AKR18032.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_340638824.1 | id: 99.7 qcov: 100.0 scov: 93.4
+            "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-92|AKR18032.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_375516083.1 | id: 100.0 qcov: 100.0 scov: 93.4
             "CARD|homolog|carbapenem;cephalosporin;monobactam|PDC-93|AKR18033.1", // NCBI|amr:amr|beta-lactam|blaPDC|WP_088245224.1 | id: 100.0 qcov: 100.0 scov: 93.5
-            "CARD|homolog|carbapenem;cephalosporin;penam|GOB-2|AAF89152.1", // NCBI|amr:amr|beta-lactam|blaGOB|WP_063860523.1 | id: 99.2 qcov: 100.0 scov: 86.9
-            "CARD|homolog|carbapenem;cephalosporin;penam|GOB-3|AAF89147.1", // NCBI|amr:amr|beta-lactam|blaGOB|WP_078411523.1 | id: 100.0 qcov: 100.0 scov: 86.9
-            "CARD|homolog|carbapenem;cephalosporin;penam|GOB-4|AAF89149.1", // NCBI|amr:amr|beta-lactam|blaGOB|WP_078691374.1 | id: 100.0 qcov: 100.0 scov: 86.9
-            "CARD|homolog|carbapenem;cephalosporin;penam|GOB-5|AAF89146.1", // NCBI|amr:amr|beta-lactam|blaGOB|WP_049037557.1 | id: 100.0 qcov: 100.0 scov: 86.9
-            "CARD|homolog|carbapenem;cephalosporin;penam|GOB-6|AAF89148.1", // NCBI|amr:amr|beta-lactam|blaGOB|WP_069147617.1 | id: 100.0 qcov: 100.0 scov: 86.9
-            "CARD|homolog|carbapenem;cephalosporin;penam|GOB-7|AAF89153.1", // NCBI|amr:amr|beta-lactam|blaGOB|WP_034866180.1 | id: 100.0 qcov: 100.0 scov: 86.9
-            "CARD|homolog|carbapenem;penam|BlaB-10|WP_063857822.1", // NCBI|amr:amr|beta-lactam|blaB|WP_078782085.1 | id: 100.0 qcov: 100.0 scov: 99.6
-            "CARD|homolog|carbapenem;penam|BlaB-14|WP_034848068.1", // NCBI|amr:amr|beta-lactam|blaB|WP_078394827.1 | id: 100.0 qcov: 100.0 scov: 99.6
-            "CARD|homolog|carbapenem;penam|BlaB-7|WP_063857829.1", // NCBI|amr:amr|beta-lactam|blaB|WP_078402391.1 | id: 100.0 qcov: 100.0 scov: 99.6
-            "CARD|homolog|carbapenem;penam|BlaB-8|WP_059324801.1", // NCBI|amr:amr|beta-lactam|blaB|WP_078721108.1 | id: 100.0 qcov: 100.0 scov: 99.6
-            "CARD|homolog|carbapenem;penam|BlaB-9|WP_059154943.1", // NCBI|amr:amr|beta-lactam|blaB|WP_081321989.1 | id: 100.0 qcov: 100.0 scov: 99.6
-            "CARD|homolog|carbapenem;penam|OXA-198|ADT70779.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_094865115.1 | id: 100.0 qcov: 98.5 scov: 100.0
+            "CARD|homolog|carbapenem;cephalosporin;penicillin_beta-lactam|ACT-16|BAM34463.1", // NCBI|amr:amr|beta-lactam|blaACT|WP_023315250.1 | id: 100.0 qcov: 100.0 scov: 99.7
+            "CARD|homolog|carbapenem;cephalosporin;penicillin_beta-lactam|GOB-2|AAF89152.1", // NCBI|amr:amr|beta-lactam|blaGOB|WP_063860523.1 | id: 99.2 qcov: 100.0 scov: 86.9
+            "CARD|homolog|carbapenem;cephalosporin;penicillin_beta-lactam|GOB-3|AAF89147.1", // NCBI|amr:amr|beta-lactam|blaGOB|WP_078411523.1 | id: 100.0 qcov: 100.0 scov: 86.9
+            "CARD|homolog|carbapenem;cephalosporin;penicillin_beta-lactam|GOB-4|AAF89149.1", // NCBI|amr:amr|beta-lactam|blaGOB|WP_078691374.1 | id: 100.0 qcov: 100.0 scov: 86.9
+            "CARD|homolog|carbapenem;cephalosporin;penicillin_beta-lactam|GOB-5|AAF89146.1", // NCBI|amr:amr|beta-lactam|blaGOB|WP_049037557.1 | id: 100.0 qcov: 100.0 scov: 86.9
+            "CARD|homolog|carbapenem;cephalosporin;penicillin_beta-lactam|GOB-6|AAF89148.1", // NCBI|amr:amr|beta-lactam|blaGOB|WP_069147617.1 | id: 100.0 qcov: 100.0 scov: 86.9
+            "CARD|homolog|carbapenem;cephalosporin;penicillin_beta-lactam|GOB-7|AAF89153.1", // NCBI|amr:amr|beta-lactam|blaGOB|WP_034866180.1 | id: 100.0 qcov: 100.0 scov: 86.9
+            "CARD|homolog|carbapenem;penicillin_beta-lactam|BlaB-10|WP_063857822.1", // NCBI|amr:amr|beta-lactam|blaB|WP_078782085.1 | id: 100.0 qcov: 100.0 scov: 99.6
+            "CARD|homolog|carbapenem;penicillin_beta-lactam|BlaB-14|WP_034848068.1", // NCBI|amr:amr|beta-lactam|blaB|WP_078394827.1 | id: 100.0 qcov: 100.0 scov: 99.6
+            "CARD|homolog|carbapenem;penicillin_beta-lactam|BlaB-7|WP_063857829.1", // NCBI|amr:amr|beta-lactam|blaB|WP_078402391.1 | id: 100.0 qcov: 100.0 scov: 99.6
+            "CARD|homolog|carbapenem;penicillin_beta-lactam|BlaB-8|WP_059324801.1", // NCBI|amr:amr|beta-lactam|blaB|WP_078721108.1 | id: 100.0 qcov: 100.0 scov: 99.6
+            "CARD|homolog|carbapenem;penicillin_beta-lactam|BlaB-9|WP_059154943.1", // NCBI|amr:amr|beta-lactam|blaB|WP_081321989.1 | id: 100.0 qcov: 100.0 scov: 99.6
+            "CARD|homolog|carbapenem;penicillin_beta-lactam|OXA-198|ADT70779.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_094865115.1 | id: 100.0 qcov: 98.5 scov: 100.0
             "CARD|homolog|carbapenem|MSI-1|AJP77057.1", // NCBI|amr:amr|beta-lactam|blaMSI|WP_071766402.1 | id: 100.0 qcov: 84.8 scov: 100.0
             "CARD|homolog|carbapenem|SFH-1|AAF09244.1", // NCBI|amr:amr|beta-lactam|blaSFH|WP_071766619.1 | id: 100.0 qcov: 100.0 scov: 92.5
             "CARD|homolog|carbapenem|Vcho_varG|AAF94716.1", // NCBI|amr:amr|beta-lactam|varG|WP_000778180.1 | id: 100.0 qcov: 95.9 scov: 100.0
-            "CARD|homolog|cephalosporin;cephamycin;monobactam;oxacephem;penam|ACC-1|CAB46491.1", // NCBI|amr:amr|beta-lactam|blaACC|WP_032491956.1 | id: 100.0 qcov: 100.0 scov: 99.0
-            "CARD|homolog|cephalosporin;monobactam;penam;penem|TEM-117|AAN05026.1", // NCBI|amr:amr|beta-lactam|blaTEM|WP_063864805.1 | id: 99.6 qcov: 100.0 scov: 88.8
-            "CARD|homolog|cephalosporin;monobactam;penam;penem|TEM-118|AAN05029.1", // NCBI|amr:amr|beta-lactam|blaTEM|WP_032490103.1 | id: 99.6 qcov: 100.0 scov: 91.3
-            "CARD|homolog|cephalosporin;monobactam;penam;penem|TEM-192|AEQ59620.1", // NCBI|amr:amr|beta-lactam|blaTEM|WP_063865138.1 | id: 99.2 qcov: 100.0 scov: 87.8
-            "CARD|homolog|cephalosporin;monobactam;penam;penem|TEM-199|AFN69127.1", // NCBI|amr:amr|beta-lactam|blaTEM|WP_032488414.1 | id: 99.6 qcov: 100.0 scov: 99.0
-            "CARD|homolog|cephalosporin;monobactam;penam;penem|TEM-42|CAA66659.1", // NCBI|amr:amr|beta-lactam|blaTEM|WP_063864914.1 | id: 99.3 qcov: 100.0 scov: 98.3
-            "CARD|homolog|cephalosporin;monobactam;penam;penem|TEM-59|AAD45935.1", // NCBI|amr:amr|beta-lactam|blaTEM|WP_063864990.1 | id: 99.6 qcov: 100.0 scov: 96.9
-            "CARD|homolog|cephalosporin;monobactam;penam;penem|TEM-75|AAN05028.1", // NCBI|amr:amr|beta-lactam|blaTEM|WP_032494853.1 | id: 99.6 qcov: 100.0 scov: 91.6
-            "CARD|homolog|cephalosporin;monobactam;penam;penem|TEM-7|AAO33760.1", // NCBI|amr:amr|beta-lactam|blaTEM|WP_109874025.1 | id: 100.0 qcov: 100.0 scov: 91.3
-            "CARD|homolog|cephalosporin;monobactam;penam;penem|TEM-89|AAK71474.1", // NCBI|amr:amr|beta-lactam|blaTEM|WP_032488414.1 | id: 99.6 qcov: 100.0 scov: 97.2
-            "CARD|homolog|cephalosporin;monobactam;penam|ACC-3|AAF86697.1", // NCBI|amr:amr|beta-lactam|blaACC|WP_063857697.1 | id: 87.8 qcov: 100.0 scov: 96.7
-            "CARD|homolog|cephalosporin;monobactam;penam|ACC-4|ABP49606.1", // NCBI|amr:amr|beta-lactam|blaACC|WP_063857708.1 | id: 100.0 qcov: 100.0 scov: 99.0
-            "CARD|homolog|cephalosporin;monobactam;penam|ACC-5|CCK86740.1", // NCBI|amr:amr|beta-lactam|blaACC|WP_039189232.1 | id: 99.7 qcov: 100.0 scov: 99.0
+            "CARD|homolog|cephalosporin;monobactam;penicillin_beta-lactam|ACC-1|CAB46491.1", // NCBI|amr:amr|beta-lactam|blaACC|WP_032491956.1 | id: 100.0 qcov: 100.0 scov: 99.0
+            "CARD|homolog|cephalosporin;monobactam;penicillin_beta-lactam|ACC-3|AAF86697.1", // NCBI|amr:amr|beta-lactam|blaACC|WP_063857697.1 | id: 87.8 qcov: 100.0 scov: 96.7
+            "CARD|homolog|cephalosporin;monobactam;penicillin_beta-lactam|ACC-4|ABP49606.1", // NCBI|amr:amr|beta-lactam|blaACC|WP_063857708.1 | id: 100.0 qcov: 100.0 scov: 99.0
+            "CARD|homolog|cephalosporin;monobactam;penicillin_beta-lactam|ACC-5|CCK86740.1", // NCBI|amr:amr|beta-lactam|blaACC|WP_039189232.1 | id: 99.7 qcov: 100.0 scov: 99.0
+            "CARD|homolog|cephalosporin;monobactam;penicillin_beta-lactam|TEM-118|AAN05029.1", // NCBI|amr:amr|beta-lactam|blaTEM|WP_032490103.1 | id: 99.6 qcov: 100.0 scov: 91.3
+            "CARD|homolog|cephalosporin;monobactam;penicillin_beta-lactam|TEM-199|AFN69127.1", // NCBI|amr:amr|beta-lactam|blaTEM|WP_032488414.1 | id: 99.6 qcov: 100.0 scov: 99.0
+            "CARD|homolog|cephalosporin;monobactam;penicillin_beta-lactam|TEM-42|CAA66659.1", // NCBI|amr:amr|beta-lactam|blaTEM|WP_063864914.1 | id: 99.3 qcov: 100.0 scov: 98.3
+            "CARD|homolog|cephalosporin;monobactam;penicillin_beta-lactam|TEM-59|AAD45935.1", // NCBI|amr:amr|beta-lactam|blaTEM|WP_063864990.1 | id: 99.6 qcov: 100.0 scov: 96.9
+            "CARD|homolog|cephalosporin;monobactam;penicillin_beta-lactam|TEM-75|AAN05028.1", // NCBI|amr:amr|beta-lactam|blaTEM|WP_032494853.1 | id: 99.6 qcov: 100.0 scov: 91.6
+            "CARD|homolog|cephalosporin;monobactam;penicillin_beta-lactam|TEM-7|AAO33760.1", // NCBI|amr:amr|beta-lactam|blaTEM|WP_109874025.1 | id: 100.0 qcov: 100.0 scov: 91.3
+            "CARD|homolog|cephalosporin;monobactam;penicillin_beta-lactam|TEM-89|AAK71474.1", // NCBI|amr:amr|beta-lactam|blaTEM|WP_032488414.1 | id: 99.6 qcov: 100.0 scov: 97.2
             "CARD|homolog|cephalosporin;monobactam|TLA-1|AAD37403.1", // NCBI|amr:amr|beta-lactam|blaTLA|WP_032494759.1 | id: 100.0 qcov: 95.9 scov: 100.0
-            "CARD|homolog|cephalosporin;penam|Abau_ampC_BLA|ACJ42146.1", // NCBI|amr:amr|beta-lactam|blaADC|WP_001211205.1 | id: 99.7 qcov: 100.0 scov: 100.0
-            "CARD|homolog|cephalosporin;penam|OKP-B-12|CAG25831.1", // NCBI|amr:amr|beta-lactam|blaOKP-B|WP_032456002.1 | id: 99.2 qcov: 99.6 scov: 91.6
-            "CARD|homolog|cephalosporin;penam|OKP-B-14|ABL75154.1", // NCBI|amr:amr|beta-lactam|blaOKP-B|WP_004205995.1 | id: 99.6 qcov: 100.0 scov: 96.2
-            "CARD|homolog|cephalosporin;penam|SHV-123|ACV32633.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_002904004.1 | id: 99.3 qcov: 100.0 scov: 94.8
-            "CARD|homolog|cephalosporin;penam|SHV-124|ACV32634.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_011117369.1 | id: 99.6 qcov: 100.0 scov: 94.8
-            "CARD|homolog|cephalosporin;penam|SHV-125|ACV32635.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_069280714.1 | id: 99.6 qcov: 100.0 scov: 94.8
-            "CARD|homolog|cephalosporin;penam|SHV-126|ACV32636.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_063864616.1 | id: 99.6 qcov: 100.0 scov: 94.8
-            "CARD|homolog|cephalosporin;penam|SHV-127|ACV32637.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_004179754.1 | id: 99.3 qcov: 100.0 scov: 94.8
-            "CARD|homolog|cephalosporin;penam|SHV-140|AEK80394.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_021440083.1 | id: 99.7 qcov: 100.0 scov: 99.3
-            "CARD|homolog|cephalosporin;penam|SHV-167|BAM28879.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_109791212.1 | id: 100.0 qcov: 100.0 scov: 98.6
-            "CARD|homolog|cephalosporin;penam|SHV-20|AAF34334.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_367187977.1 | id: 99.2 qcov: 100.0 scov: 90.9
-            "CARD|homolog|cephalosporin;penam|SHV-21|AAF34335.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_367187977.1 | id: 98.8 qcov: 100.0 scov: 90.9
-            "CARD|homolog|cephalosporin;penam|SHV-22|AAF34336.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_063864692.1 | id: 99.2 qcov: 100.0 scov: 90.9
-            "CARD|homolog|cephalosporin;penam|SHV-23|AAF34337.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_063864692.1 | id: 98.8 qcov: 100.0 scov: 90.9
-            "CARD|homolog|cephalosporin;penam|SHV-53|AAT01223.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_063864654.1 | id: 99.6 qcov: 100.0 scov: 84.6
-            "CARD|homolog|cephalosporin;penam|SHV-83|CAJ47138.2", // NCBI|amr:amr|beta-lactam|blaSHV|WP_021440083.1 | id: 100.0 qcov: 100.0 scov: 99.3
+            "CARD|homolog|cephalosporin;penicillin_beta-lactam|Abau_ampC_BLA|ACJ42146.1", // NCBI|amr:amr|beta-lactam|blaADC|WP_001211205.1 | id: 99.7 qcov: 100.0 scov: 100.0
+            "CARD|homolog|cephalosporin;penicillin_beta-lactam|OKP-B-12|CAG25831.1", // NCBI|amr:amr|beta-lactam|blaOKP-B|WP_032456002.1 | id: 99.2 qcov: 99.6 scov: 91.6
+            "CARD|homolog|cephalosporin;penicillin_beta-lactam|OKP-B-14|ABL75154.1", // NCBI|amr:amr|beta-lactam|blaOKP-B|WP_004205995.1 | id: 99.6 qcov: 100.0 scov: 96.2
+            "CARD|homolog|cephalosporin;penicillin_beta-lactam|SHV-123|ACV32633.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_002904004.1 | id: 99.3 qcov: 100.0 scov: 94.8
+            "CARD|homolog|cephalosporin;penicillin_beta-lactam|SHV-124|ACV32634.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_011117369.1 | id: 99.6 qcov: 100.0 scov: 94.8
+            "CARD|homolog|cephalosporin;penicillin_beta-lactam|SHV-125|ACV32635.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_069280714.1 | id: 99.6 qcov: 100.0 scov: 94.8
+            "CARD|homolog|cephalosporin;penicillin_beta-lactam|SHV-126|ACV32636.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_063864616.1 | id: 99.6 qcov: 100.0 scov: 94.8
+            "CARD|homolog|cephalosporin;penicillin_beta-lactam|SHV-127|ACV32637.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_004179754.1 | id: 99.3 qcov: 100.0 scov: 94.8
+            "CARD|homolog|cephalosporin;penicillin_beta-lactam|SHV-140|AEK80394.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_021440083.1 | id: 99.7 qcov: 100.0 scov: 99.3
+            "CARD|homolog|cephalosporin;penicillin_beta-lactam|SHV-167|BAM28879.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_109791212.1 | id: 100.0 qcov: 100.0 scov: 98.6
+            "CARD|homolog|cephalosporin;penicillin_beta-lactam|SHV-53|AAT01223.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_063864654.1 | id: 99.6 qcov: 100.0 scov: 84.6
+            "CARD|homolog|cephalosporin;penicillin_beta-lactam|SHV-83|CAJ47138.2", // NCBI|amr:amr|beta-lactam|blaSHV|WP_021440083.1 | id: 100.0 qcov: 100.0 scov: 99.3
             "CARD|homolog|cephalosporin|BUT-1|AAN17791.1", // NCBI|amr:amr|beta-lactam|blaBUT|WP_104531864.1 | id: 100.0 qcov: 96.5 scov: 100.0
+            "CARD|homolog|cephalosporin|CMY-59|BAJ17544.1", // NCBI|amr:amr|beta-lactam|blaCMY|WP_063859852.1 | id: 100.0 qcov: 96.5 scov: 100.0
+            "CARD|homolog|cephalosporin|CMY-98|AGH70380.1", // NCBI|amr:amr|beta-lactam|blaCMY|WP_122630837.1 | id: 98.1 qcov: 100.0 scov: 98.7
             "CARD|homolog|cephalosporin|CTX-M-106|ADZ31262.1", // NCBI|amr:amr|beta-lactam|blaCTX-M|WP_063859949.1 | id: 99.3 qcov: 100.0 scov: 99.7
-            "CARD|homolog|cephalosporin|CTX-M-107|AEM44650.1", // NCBI|amr:amr|beta-lactam|blaCTX-M|WP_000239590.1 | id: 99.7 qcov: 100.0 scov: 98.6
+            "CARD|homolog|cephalosporin|CTX-M-107|AEM44650.1", // NCBI|amr:amr|beta-lactam|blaCTX-M|WP_394294894.1 | id: 100.0 qcov: 100.0 scov: 98.6
             "CARD|homolog|cephalosporin|CTX-M-108|AEM44651.1", // NCBI|amr:amr|beta-lactam|blaCTX-M|WP_000239590.1 | id: 99.7 qcov: 100.0 scov: 98.6
             "CARD|homolog|cephalosporin|CTX-M-109|AEM44654.1", // NCBI|amr:amr|beta-lactam|blaCTX-M|WP_000239590.1 | id: 99.7 qcov: 99.7 scov: 98.6
             "CARD|homolog|cephalosporin|CTX-M-11|AAF93177.1", // NCBI|amr:amr|beta-lactam|blaCTX-M|WP_011091028.1 | id: 98.9 qcov: 100.0 scov: 96.9
             "CARD|homolog|cephalosporin|CTX-M-152|AHY20039.1", // NCBI|amr:amr|beta-lactam|blaCTX-M|WP_064543755.1 | id: 100.0 qcov: 100.0 scov: 99.7
             "CARD|homolog|cephalosporin|CTX-M-45|BAA28282.1", // NCBI|amr:amr|beta-lactam|blaCTX-M|WP_085562401.1 | id: 87.2 qcov: 100.0 scov: 100.0
-            "CARD|homolog|cephamycin|CMY-59|BAJ17544.1", // NCBI|amr:amr|beta-lactam|blaCMY|WP_063859852.1 | id: 100.0 qcov: 96.5 scov: 100.0
-            "CARD|homolog|cephamycin|CMY-98|AGH70380.1", // NCBI|amr:amr|beta-lactam|blaCMY|WP_122630837.1 | id: 98.1 qcov: 100.0 scov: 98.7
-            "CARD|homolog|cephamycin|CfxA6|ACT97371.1", // NCBI|amr:amr|beta-lactam|cfxA6|WP_117664257.1 | id: 100.0 qcov: 96.7 scov: 100.0
-            "CARD|homolog|penam;penem|LEN-14|AAP93847.1", // NCBI|amr:amr|beta-lactam|blaLEN|WP_063860826.1 | id: 99.3 qcov: 100.0 scov: 53.1
-            "CARD|homolog|penam;penem|LEN-3|AAN05030.1", // NCBI|amr:amr|beta-lactam|blaLEN|WP_032735535.1 | id: 99.6 qcov: 100.0 scov: 95.8
-            "CARD|homolog|penam;penem|LEN-4|AAN05031.1", // NCBI|amr:amr|beta-lactam|blaLEN|WP_008804981.1 | id: 99.6 qcov: 100.0 scov: 95.8
-            "CARD|homolog|penam;penem|LEN-6|AAP93848.1", // NCBI|amr:amr|beta-lactam|blaLEN|WP_049156962.1 | id: 99.4 qcov: 99.4 scov: 54.5
-            "CARD|homolog|penam|BCL-1|ABU39980.1", // NCBI|amr:amr|beta-lactam|blaBCL|WP_065825670.1 | id: 100.0 qcov: 98.0 scov: 100.0
-            "CARD|homolog|penam|BRO-2|CAA90891.1", // NCBI|amr:amr|beta-lactam|blaBRO|WP_003665544.1 | id: 100.0 qcov: 99.7 scov: 100.0
-            "CARD|homolog|penam|CARB-21|AGQ93789.1", // NCBI|amr:amr|beta-lactam|blaCARB|WP_025632811.1 | id: 100.0 qcov: 91.3 scov: 100.0
-            "CARD|homolog|penam|CARB-23|AHJ02283.1", // NCBI|amr:amr|beta-lactam|blaCARB|WP_025442943.1 | id: 100.0 qcov: 91.3 scov: 100.0
-            "CARD|homolog|penam|CARB-3|AAB19430.2", // NCBI|amr:amr|beta-lactam|blaPSE|WP_063859105.1 | id: 100.0 qcov: 94.7 scov: 100.0
-            "CARD|homolog|penam|CARB-58|QYJ63007.1", // NCBI|amr:amr|beta-lactam|blaPSE|WP_231869590.1 | id: 100.0 qcov: 87.5 scov: 100.0
-            "CARD|homolog|penam|FAR-1|AAB81957.1", // NCBI|amr:amr|beta-lactam|blaFAR|WP_070064531.1 | id: 100.0 qcov: 100.0 scov: 95.8
-            "CARD|homolog|penam|OXA-116|ABW95047.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_122630900.1 | id: 100.0 qcov: 100.0 scov: 95.6
-            "CARD|homolog|penam|OXA-140|ALL27283.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_069280711.1 | id: 100.0 qcov: 100.0 scov: 85.1
-            "CARD|homolog|penam|OXA-16|AAB97924.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_064056056.1 | id: 99.6 qcov: 100.0 scov: 96.6
-            "CARD|homolog|penam|OXA-18|AAB58555.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_277915723.1 | id: 100.0 qcov: 97.8 scov: 100.0
-            "CARD|homolog|penam|OXA-290|ENU29139.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_081398973.1 | id: 100.0 qcov: 100.0 scov: 95.0
-            "CARD|homolog|penam|OXA-33|AAG23871.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_032491311.1 | id: 100.0 qcov: 100.0 scov: 92.8
-            "CARD|homolog|penam|OXA-34|AAK15582.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_001007673.1 | id: 99.6 qcov: 100.0 scov: 93.5
-            "CARD|homolog|penam|OXA-36|AAG24866.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_240067729.1 | id: 99.6 qcov: 100.0 scov: 89.5
-            "CARD|homolog|penam|OXA-410|HCT5551642.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_001021776.1 | id: 99.6 qcov: 100.0 scov: 100.0
-            "CARD|homolog|penam|OXA-481|AKF41838.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_001046004.1 | id: 99.6 qcov: 100.0 scov: 98.5
-            "CARD|homolog|penam|OXA-664|EOR02560.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_104442312.1 | id: 94.8 qcov: 100.0 scov: 82.8
-            "CARD|homolog|penam|OXA-85|AAP69916.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_032835180.1 | id: 100.0 qcov: 100.0 scov: 97.3
-
-            // replaced by refseq blaCIM
-            "CARD|homolog|carbapenem;cephalosporin|CIM-1|WP_123865086.1", // CIM family subclass B1 metallo-beta-lactamase
-            "NCBI|amr:amr|beta-lactam|blaCIB|WP_123865086.1", // CIM family subclass B1 metallo-beta-lactamase
+            "CARD|homolog|cephalosporin|CfxA6|ACT97371.1", // NCBI|amr:amr|beta-lactam|cfxA6|WP_117664257.1 | id: 100.0 qcov: 96.7 scov: 100.0
+            "CARD|homolog|penicillin_beta-lactam|BCL-1|ABU39980.1", // NCBI|amr:amr|beta-lactam|blaBCL|WP_065825670.1 | id: 100.0 qcov: 98.0 scov: 100.0
+            "CARD|homolog|penicillin_beta-lactam|BRO-2|CAA90891.1", // NCBI|amr:amr|beta-lactam|blaBRO|WP_003665544.1 | id: 100.0 qcov: 99.7 scov: 100.0
+            "CARD|homolog|penicillin_beta-lactam|CARB-21|AGQ93789.1", // NCBI|amr:amr|beta-lactam|blaCARB|WP_025632811.1 | id: 100.0 qcov: 91.3 scov: 100.0
+            "CARD|homolog|penicillin_beta-lactam|CARB-23|AHJ02283.1", // NCBI|amr:amr|beta-lactam|blaCARB|WP_025442943.1 | id: 100.0 qcov: 91.3 scov: 100.0
+            "CARD|homolog|penicillin_beta-lactam|CARB-3|AAB19430.2", // NCBI|amr:amr|beta-lactam|blaPSE|WP_063859105.1 | id: 100.0 qcov: 94.7 scov: 100.0
+            "CARD|homolog|penicillin_beta-lactam|CARB-58|QYJ63007.1", // NCBI|amr:amr|beta-lactam|blaPSE|WP_231869590.1 | id: 100.0 qcov: 87.5 scov: 100.0
+            "CARD|homolog|penicillin_beta-lactam|FAR-1|AAB81957.1", // NCBI|amr:amr|beta-lactam|blaFAR|WP_070064531.1 | id: 100.0 qcov: 100.0 scov: 95.8
+            "CARD|homolog|penicillin_beta-lactam|LEN-14|AAP93847.1", // NCBI|amr:amr|beta-lactam|blaLEN|WP_063860826.1 | id: 99.3 qcov: 100.0 scov: 53.1
+            "CARD|homolog|penicillin_beta-lactam|LEN-3|AAN05030.1", // NCBI|amr:amr|beta-lactam|blaLEN|WP_032735535.1 | id: 99.6 qcov: 100.0 scov: 95.8
+            "CARD|homolog|penicillin_beta-lactam|LEN-4|AAN05031.1", // NCBI|amr:amr|beta-lactam|blaLEN|WP_008804981.1 | id: 99.6 qcov: 100.0 scov: 95.8
+            "CARD|homolog|penicillin_beta-lactam|OXA-116|ABW95047.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_122630900.1 | id: 100.0 qcov: 100.0 scov: 95.6
+            "CARD|homolog|penicillin_beta-lactam|OXA-140|ALL27283.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_069280711.1 | id: 100.0 qcov: 100.0 scov: 85.1
+            "CARD|homolog|penicillin_beta-lactam|OXA-16|AAB97924.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_064056056.1 | id: 99.6 qcov: 100.0 scov: 96.6
+            "CARD|homolog|penicillin_beta-lactam|OXA-18|AAB58555.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_277915723.1 | id: 100.0 qcov: 97.8 scov: 100.0
+            "CARD|homolog|penicillin_beta-lactam|OXA-290|ENU29139.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_081398973.1 | id: 100.0 qcov: 100.0 scov: 95.0
+            "CARD|homolog|penicillin_beta-lactam|OXA-33|AAG23871.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_032491311.1 | id: 100.0 qcov: 100.0 scov: 92.8
+            "CARD|homolog|penicillin_beta-lactam|OXA-34|AAK15582.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_001007673.1 | id: 99.6 qcov: 100.0 scov: 93.5
+            "CARD|homolog|penicillin_beta-lactam|OXA-481|AKF41838.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_001046004.1 | id: 99.6 qcov: 100.0 scov: 98.5
+            "CARD|homolog|penicillin_beta-lactam|OXA-664|EOR02560.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_104442312.1 | id: 94.8 qcov: 100.0 scov: 82.8
+            "CARD|homolog|penicillin_beta-lactam|OXA-85|AAP69916.1", // NCBI|amr:amr|beta-lactam|blaOXA|WP_032835180.1 | id: 100.0 qcov: 100.0 scov: 97.3
 
             // no refseq available, possibly fused with blaMSI-1 (WP_071766402.1), not similar to any blaOXA
             "CARD|homolog|carbapenem|MSI-OXA|AJP77058.1", // OXA-85-like beta-lactamase
 
             // identical to WP_063842272.1, bla*
-            "CARD|homolog|cephalosporin;cephamycin;penam|SSA|CBI71171.1", // class A beta-lactamase, subclass A2
+            "CARD|homolog|cephalosporin;penicillin_beta-lactam|SSA|CBI71171.1", // class A beta-lactamase, subclass A2
 
             // putative mid node
             "NCBI|amr:amr|beta-lactam|ampC|WP_041692555.1", // class C beta-lactamase
@@ -2865,27 +2848,27 @@
 
             "CARD|homolog|fluoroquinolone|Abau_AbaQ|ACJ41547.2", // multidrug efflux MFS transporter AbaQ
             "CARD|homolog|disinfecting_agents_and_antiseptics;macrolide|Abau_AmvA|ACQ82816.1", // multidrug efflux MFS transporter AmvA
-            "CARD|homolog|cephalosporin;cephamycin;fluoroquinolone;penam|AcrE|AAC76297.1", // multidrug efflux RND transporter periplasmic adaptor subunit AcrE
-            "CARD|homolog|cephalosporin;cephamycin;fluoroquinolone;penam|AcrF|AAC76298.1", // multidrug efflux RND transporter permease subunit AcrF
+            "CARD|homolog|cephalosporin;fluoroquinolone;penicillin_beta-lactam|AcrE|AAC76297.1", // multidrug efflux RND transporter periplasmic adaptor subunit AcrE
+            "CARD|homolog|cephalosporin;fluoroquinolone;penicillin_beta-lactam|AcrF|AAC76298.1", // multidrug efflux RND transporter permease subunit AcrF
             "CARD|homolog|aminoglycoside;cephalosporin;fluoroquinolone;macrolide|AxyX|EGP45232.2", // multidrug efflux RND transporter periplasmic adaptor subunit AxyX
             "CARD|homolog|aminoglycoside;cephalosporin;fluoroquinolone;macrolide|AxyY|EGP45231.1", // multidrug efflux RND transporter permease subunit AxyY
-            "CARD|homolog|cephalosporin;disinfecting_agents_and_antiseptics;fluoroquinolone;glycylcycline;penam;phenicol;rifamycin;tetracycline|Eclo_acrA|ABG77965.1", // multidrug efflux RND transporter periplasmic adaptor subunit AcrA
-            "CARD|homolog|cephalosporin;disinfecting_agents_and_antiseptics;fluoroquinolone;glycylcycline;penam;phenicol;rifamycin;tetracycline|Ecol_acrA|AAC73565.1", // unnamed protein product
+            "CARD|homolog|cephalosporin;disinfecting_agents_and_antiseptics;fluoroquinolone;glycylcycline;penicillin_beta-lactam;phenicol;rifamycin;tetracycline|Eclo_acrA|ABG77965.1", // multidrug efflux RND transporter periplasmic adaptor subunit AcrA
+            "CARD|homolog|cephalosporin;disinfecting_agents_and_antiseptics;fluoroquinolone;glycylcycline;penicillin_beta-lactam;phenicol;rifamycin;tetracycline|Ecol_acrA|AAC73565.1", // unnamed protein product
             "CARD|homolog|macrolide|Ecol_emrE|CAA77936.1", // multidrug efflux SMR transporter EmrE
             "CARD|homolog|disinfecting_agents_and_antiseptics;phenicol;tetracycline|Ecol_mdfA|AFH35853.1", // MdfA
             "CARD|homolog|aminoglycoside;cephalosporin;disinfecting_agents_and_antiseptics;macrolide;peptide;rifamycin;tetracycline|Kpne_KpnE|BAH63251.1", // multidrug efflux SMR transporter subunit KpnE
             "CARD|homolog|aminoglycoside;cephalosporin;disinfecting_agents_and_antiseptics;macrolide;peptide;rifamycin;tetracycline|Kpne_KpnF|BAH63252.1", // multidrug efflux SMR transporter subunit KpnF
-            "CARD|homolog|aminoglycoside;carbapenem;cephalosporin;fluoroquinolone;macrolide;penam;penem;peptide|Kpne_KpnG|EHL92831.1", // multidrug efflux MFS transporter periplasmic adaptor subunit EmrA
-            "CARD|homolog|aminoglycoside;carbapenem;cephalosporin;fluoroquinolone;macrolide;penam;penem;peptide|Kpne_KpnH|EOU56998.1", // multidrug efflux MFS transporter permease subunit EmrB
-            "CARD|homolog|cephalosporin;disinfecting_agents_and_antiseptics;fluoroquinolone;glycylcycline;penam;phenicol;rifamycin;tetracycline|Kpne_acrA|CAC41008.1", // AcrA protein
+            "CARD|homolog|aminoglycoside;carbapenem;cephalosporin;fluoroquinolone;macrolide;penicillin_beta-lactam;peptide|Kpne_KpnG|EHL92831.1", // multidrug efflux MFS transporter periplasmic adaptor subunit EmrA
+            "CARD|homolog|aminoglycoside;carbapenem;cephalosporin;fluoroquinolone;macrolide;penicillin_beta-lactam;peptide|Kpne_KpnH|EOU56998.1", // multidrug efflux MFS transporter permease subunit EmrB
+            "CARD|homolog|cephalosporin;disinfecting_agents_and_antiseptics;fluoroquinolone;glycylcycline;penicillin_beta-lactam;phenicol;rifamycin;tetracycline|Kpne_acrA|CAC41008.1", // AcrA protein
             "CARD|homolog|macrolide|LpeA|CAH14032.1", // multidrug efflux RND transporter periplasmic adaptor subunit LpeA
             "CARD|homolog|macrolide|LpeB|CAH14033.1", // multidrug efflux RND transporter permease subunit LpeB
             "CARD|homolog|fluoroquinolone|MdtK|AML99881.1", // Multidrug resistance protein MdtK
-            "CARD|homolog|carbapenem;cephalosporin;cephamycin;monobactam;penam;penem|MdtQ|WMY66391.1", // multidrug resistance outer membrane protein MdtQ
-            "CARD|homolog|aminocoumarin;carbapenem;cephalosporin;cephamycin;diaminopyrimidine;fluoroquinolone;macrolide;monobactam;penam;penem;peptide;phenicol;sulfonamide;tetracycline|MexA|AAG03814.1", // multidrug efflux RND transporter periplasmic adaptor subunit MexA
-            "CARD|homolog|aminocoumarin;carbapenem;cephalosporin;cephamycin;diaminopyrimidine;fluoroquinolone;macrolide;monobactam;penam;penem;peptide;phenicol;sulfonamide;tetracycline|MexB|AAA74437.1", // envD homologue; ORFB
-            "CARD|homolog|aminocoumarin;aminoglycoside;cephalosporin;diaminopyrimidine;fluoroquinolone;macrolide;penam;phenicol;tetracycline|MexC|AAB41956.1", // multidrug efflux RND transporter periplasmic adaptor subunit MexC
-            "CARD|homolog|aminocoumarin;aminoglycoside;cephalosporin;diaminopyrimidine;fluoroquinolone;macrolide;penam;phenicol;tetracycline|MexD|AAB41957.1", // RND family exporter MexD
+            "CARD|homolog|carbapenem;cephalosporin;monobactam;penicillin_beta-lactam|MdtQ|WMY66391.1", // multidrug resistance outer membrane protein MdtQ
+            "CARD|homolog|aminocoumarin;carbapenem;cephalosporin;diaminopyrimidine;fluoroquinolone;macrolide;monobactam;penicillin_beta-lactam;peptide;phenicol;sulfonamide;tetracycline|MexA|AAG03814.1", // multidrug efflux RND transporter periplasmic adaptor subunit MexA
+            "CARD|homolog|aminocoumarin;carbapenem;cephalosporin;diaminopyrimidine;fluoroquinolone;macrolide;monobactam;penicillin_beta-lactam;peptide;phenicol;sulfonamide;tetracycline|MexB|AAA74437.1", // envD homologue; ORFB
+            "CARD|homolog|aminocoumarin;aminoglycoside;cephalosporin;diaminopyrimidine;fluoroquinolone;macrolide;penicillin_beta-lactam;phenicol;tetracycline|MexC|AAB41956.1", // multidrug efflux RND transporter periplasmic adaptor subunit MexC
+            "CARD|homolog|aminocoumarin;aminoglycoside;cephalosporin;diaminopyrimidine;fluoroquinolone;macrolide;penicillin_beta-lactam;phenicol;tetracycline|MexD|AAB41957.1", // RND family exporter MexD
             "CARD|homolog|diaminopyrimidine;fluoroquinolone;phenicol|MexE|AAG05881.1", // multidrug efflux RND transporter periplasmic adaptor subunit MexE
             "CARD|homolog|diaminopyrimidine;fluoroquinolone;phenicol|MexF|AAG05882.1", // multidrug efflux RND transporter permease subunit MexF
             "CARD|homolog|disinfecting_agents_and_antiseptics;fluoroquinolone;tetracycline|MexG|AAG07592.1", // multidrug efflux RND transporter inhibitory subunit MexG
@@ -2902,8 +2885,8 @@
             "CARD|homolog|disinfecting_agents_and_antiseptics;fluoroquinolone;tetracycline|OpmD|AAG07595.1", // multidrug efflux transporter outer membrane subunit OpmD
             "CARD|homolog|disinfecting_agents_and_antiseptics|OpmH|AAG08359.1", // efflux transporter outer membrane subunit OpmH
             "CARD|homolog|aminoglycoside;carbapenem;fluoroquinolone;macrolide;tetracycline|OprA|BAM10414.1", // multidrug efflux transporter outer membrane subunit OprA
-            "CARD|homolog|aminocoumarin;aminoglycoside;cephalosporin;diaminopyrimidine;fluoroquinolone;macrolide;penam;phenicol;tetracycline|OprJ|AAB41958.1", // outer membrane protein OprJ
-            "CARD|homolog|aminocoumarin;aminoglycoside;carbapenem;cephalosporin;cephamycin;diaminopyrimidine;disinfecting_agents_and_antiseptics;fluoroquinolone;macrolide;monobactam;penam;penem;peptide;phenicol;sulfonamide;tetracycline|OprM|AAG03816.1", // multidrug efflux RND transporter outer membrane channel subunit OprM
+            "CARD|homolog|aminocoumarin;aminoglycoside;cephalosporin;diaminopyrimidine;fluoroquinolone;macrolide;penicillin_beta-lactam;phenicol;tetracycline|OprJ|AAB41958.1", // outer membrane protein OprJ
+            "CARD|homolog|aminocoumarin;aminoglycoside;carbapenem;cephalosporin;diaminopyrimidine;disinfecting_agents_and_antiseptics;fluoroquinolone;macrolide;monobactam;penicillin_beta-lactam;peptide;phenicol;sulfonamide;tetracycline|OprM|AAG03816.1", // multidrug efflux RND transporter outer membrane channel subunit OprM
             "CARD|homolog|diaminopyrimidine;fluoroquinolone;phenicol|OprN|AAG05883.1", // multidrug efflux RND transporter outer membrane subunit OprN
             "CARD|homolog|aminoglycoside;cephalosporin;fluoroquinolone;macrolide|OprZ|EGP45230.2", // multidrug efflux RND transporter outer membrane subunit OprZ
             "CARD|homolog|aminoglycoside|Paer_emrE|AAG08375.1", // multidrug efflux SMR transporter
@@ -2914,16 +2897,16 @@
             "CARD|homolog|aminoglycoside;fluoroquinolone;isoniazid-like|Rv2856|NP_217372.1", // HoxN/HupN/NixA family nickel/cobalt transporter
             "CARD|homolog|aminoglycoside;diaminopyrimidine;macrolide;oxazolidinone;phenicol|Saur_LmrS|AAW38464.1", // multidrug efflux MFS transporter LmrS
             "CARD|homolog|fluoroquinolone|Saur_norA|BAA14147.1", // multidrug efflux MFS transporter NorA
-            "CARD|homolog|cephalosporin;disinfecting_agents_and_antiseptics;fluoroquinolone;glycylcycline;penam;phenicol;rifamycin;tetracycline|Sfle_acrA|NP_706356.2", // multidrug efflux RND transporter periplasmic adaptor subunit AcrA
-            "CARD|homolog|aminocoumarin;aminoglycoside;carbapenem;cephalosporin;cephamycin;disinfecting_agents_and_antiseptics;fluoroquinolone;glycylcycline;macrolide;penam;penem;peptide;phenicol;rifamycin;tetracycline|TolC|ACN32294.1", // CG Site No. 97; alternate names colE1-i, mtcB, refI, tol-8
+            "CARD|homolog|cephalosporin;disinfecting_agents_and_antiseptics;fluoroquinolone;glycylcycline;penicillin_beta-lactam;phenicol;rifamycin;tetracycline|Sfle_acrA|NP_706356.2", // multidrug efflux RND transporter periplasmic adaptor subunit AcrA
+            "CARD|homolog|aminocoumarin;aminoglycoside;carbapenem;cephalosporin;disinfecting_agents_and_antiseptics;fluoroquinolone;glycylcycline;macrolide;penicillin_beta-lactam;peptide;phenicol;rifamycin;tetracycline|TolC|ACN32294.1", // CG Site No. 97; alternate names colE1-i, mtcB, refI, tol-8
             "CARD|homolog|disinfecting_agents_and_antiseptics|TriA|AAG03546.1", // triclosan efflux RND transporter adaptor protein TriA
             "CARD|homolog|disinfecting_agents_and_antiseptics|TriB|AAG03547.1", // triclosan efflux RND transporter adaptor protein TriB
             "CARD|homolog|disinfecting_agents_and_antiseptics|TriC|AAG03548.1", // triclosan efflux RND transporter permease subunit TriC
             "CARD|homolog|disinfecting_agents_and_antiseptics;macrolide;tetracycline|aadT|AMD83542.1", // MFS transporter
-            "CARD|homolog|cephalosporin;penam;peptide|abcA|XP_753111.1", // ABC drug exporter AbcA
+            "CARD|homolog|cephalosporin;penicillin_beta-lactam;peptide|abcA|XP_753111.1", // ABC drug exporter AbcA
             "CARD|homolog|disinfecting_agents_and_antiseptics;fluoroquinolone|abeM|BAD89844.2", // multidrug efflux MATE transporter AbeM
             "CARD|homolog|aminocoumarin;macrolide|abeS|ACJ59254.1", // multidrug efflux SMR transporter AbeS
-            "CARD|homolog|cephalosporin;disinfecting_agents_and_antiseptics;fluoroquinolone;glycylcycline;penam;phenicol;rifamycin;tetracycline|acrB|AAC73564.1", // unnamed protein product
+            "CARD|homolog|cephalosporin;disinfecting_agents_and_antiseptics;fluoroquinolone;glycylcycline;penicillin_beta-lactam;phenicol;rifamycin;tetracycline|acrB|AAC73564.1", // unnamed protein product
             "CARD|homolog|aminoglycoside|acrD|BAA16344.1", // multidrug efflux RND transporter permease AcrD
             "CARD|homolog|glycylcycline;tetracycline|adeA|AAL14439.1", // multidrug efflux RND transporter periplasmic adaptor subunit AdeA
             "CARD|homolog|glycylcycline;tetracycline|adeB|AAL14440.1", // AdeB RND protein
@@ -2931,9 +2914,9 @@
             "CARD|homolog|fluoroquinolone;tetracycline|adeF|CAJ77856.1", // multidrug efflux RND transporter permease subunit AdeG
             "CARD|homolog|fluoroquinolone;tetracycline|adeG|CAJ77857.1", // multidrug efflux RND transporter periplasmic adaptor subunit AdeF
             "CARD|homolog|fluoroquinolone;tetracycline|adeH|CAJ77855.1", // multidrug efflux system outer membrane protein
-            "CARD|homolog|carbapenem;cephalosporin;diaminopyrimidine;fluoroquinolone;lincosamide;macrolide;penem;phenicol;rifamycin;tetracycline|adeI|ACJ41739.1", // multidrug efflux RND transporter periplasmic adaptor subunit AdeI
-            "CARD|homolog|carbapenem;cephalosporin;diaminopyrimidine;fluoroquinolone;lincosamide;macrolide;penem;phenicol;rifamycin;tetracycline|adeJ|AAX14802.1", // AdeJ
-            "CARD|homolog|carbapenem;cephalosporin;diaminopyrimidine;fluoroquinolone;lincosamide;macrolide;penem;phenicol;rifamycin;tetracycline|adeK|AAX14803.1", // multidrug efflux RND transporter outer membrane channel subunit AdeK
+            "CARD|homolog|carbapenem;cephalosporin;diaminopyrimidine;fluoroquinolone;lincosamide;macrolide;penicillin_beta-lactam;phenicol;rifamycin;tetracycline|adeI|ACJ41739.1", // multidrug efflux RND transporter periplasmic adaptor subunit AdeI
+            "CARD|homolog|carbapenem;cephalosporin;diaminopyrimidine;fluoroquinolone;lincosamide;macrolide;penicillin_beta-lactam;phenicol;rifamycin;tetracycline|adeJ|AAX14802.1", // AdeJ
+            "CARD|homolog|carbapenem;cephalosporin;diaminopyrimidine;fluoroquinolone;lincosamide;macrolide;penicillin_beta-lactam;phenicol;rifamycin;tetracycline|adeK|AAX14803.1", // multidrug efflux RND transporter outer membrane channel subunit AdeK
             "CARD|homolog|aminoglycoside;macrolide|amrA|CAH35803.1", // MexX/AxyX family multidrug efflux RND transporter periplasmic adaptor subunit
             "CARD|homolog|aminoglycoside;macrolide|amrB|CAH35802.1", // multidrug efflux RND transporter permease subunit
             "CARD|homolog|bicyclomycin-like|bcr-1|ALV80601.1", // Bcr/CflA family multidrug efflux MFS transporter
@@ -2960,15 +2943,15 @@
             "CARD|homolog|fluoroquinolone;nitroimidazole;tetracycline|hp1181|AAD08227.1", // multidrug-efflux transporter
             "CARD|homolog|lincosamide|lmrD|AYV52072.1", // multidrug efflux ABC transporter LmrCD subunit D
             "CARD|homolog|lincosamide;macrolide;streptogramin_a;streptogramin;tetracycline|lmrP|ABF33001.1", // MFS transporter
-            "CARD|homolog|aminoglycoside;disinfecting_agents_and_antiseptics;fluoroquinolone;penam;tetracycline|mdeA|WP_002289367.1", // multidrug efflux MFS transporter MdeA
-            "CARD|homolog|carbapenem;cephalosporin;cephamycin;monobactam;penam;penem;phenicol|mdsA|AAL19306.1", // multidrug efflux RND transporter periplasmic adaptor subunit MdsA
-            "CARD|homolog|carbapenem;cephalosporin;cephamycin;monobactam;penam;penem;phenicol|mdsB|AAL19305.1", // multidrug efflux RND transporter permease subunit MdsB
-            "CARD|homolog|carbapenem;cephalosporin;cephamycin;monobactam;penam;penem;phenicol|mdsC|AAL19304.1", // multidrug efflux transporter outer membrane subunit MdsC
+            "CARD|homolog|aminoglycoside;disinfecting_agents_and_antiseptics;fluoroquinolone;penicillin_beta-lactam;tetracycline|mdeA|WP_002289367.1", // multidrug efflux MFS transporter MdeA
+            "CARD|homolog|carbapenem;cephalosporin;monobactam;penicillin_beta-lactam;phenicol|mdsA|AAL19306.1", // multidrug efflux RND transporter periplasmic adaptor subunit MdsA
+            "CARD|homolog|carbapenem;cephalosporin;monobactam;penicillin_beta-lactam;phenicol|mdsB|AAL19305.1", // multidrug efflux RND transporter permease subunit MdsB
+            "CARD|homolog|carbapenem;cephalosporin;monobactam;penicillin_beta-lactam;phenicol|mdsC|AAL19304.1", // multidrug efflux transporter outer membrane subunit MdsC
             "CARD|homolog|aminocoumarin|mdtA|AAC75135.2", // multidrug efflux RND transporter subunit MdtA
             "CARD|homolog|aminocoumarin|mdtB|AAC75136.1", // multidrug efflux RND transporter permease subunit MdtB
             "CARD|homolog|aminocoumarin|mdtC|AAC75137.1", // multidrug efflux RND transporter permease subunit MdtC
-            "CARD|homolog|fluoroquinolone;macrolide;penam|mdtE|BAE77781.1", // multidrug transporter subunit MdtE
-            "CARD|homolog|fluoroquinolone;macrolide;penam|mdtF|AAC76539.1", // multidrug efflux pump RND permease MdtF
+            "CARD|homolog|fluoroquinolone;macrolide;penicillin_beta-lactam|mdtE|BAE77781.1", // multidrug transporter subunit MdtE
+            "CARD|homolog|fluoroquinolone;macrolide;penicillin_beta-lactam|mdtF|AAC76539.1", // multidrug efflux pump RND permease MdtF
             "CARD|homolog|phosphonic_acid|mdtG|ABV18113.1", // multidrug efflux MFS transporter MdtG
             "CARD|homolog|fluoroquinolone|mdtH|AAC74149.2", // multidrug efflux MFS transporter MdtH
             "CARD|homolog|disinfecting_agents_and_antiseptics;fluoroquinolone;lincosamide;nucleoside;phenicol|mdtM|AAC77293.1", // multidrug efflux MFS transporter MdtM
@@ -2980,11 +2963,11 @@
             "CARD|homolog|phenicol|mexN|BAE06006.1", // RND multidrug efflux transporter MexN
             "CARD|homolog|carbapenem;diaminopyrimidine;disinfecting_agents_and_antiseptics;macrolide;phenicol;tetracycline|mexP|BAE06007.1", // multidrug efflux RND transporter periplasmic adaptor subunit MexP
             "CARD|homolog|carbapenem;diaminopyrimidine;disinfecting_agents_and_antiseptics;macrolide;phenicol;tetracycline|mexQ|BAE06008.1", // RND multidrug efflux transporter MexQ
-            "CARD|homolog|aminoglycoside;carbapenem;cephalosporin;cephamycin;disinfecting_agents_and_antiseptics;fluoroquinolone;macrolide;penam;phenicol;tetracycline|mexX|BAA34299.1", // MexX
-            "CARD|homolog|aminoglycoside;carbapenem;cephalosporin;cephamycin;disinfecting_agents_and_antiseptics;fluoroquinolone;macrolide;penam;phenicol;tetracycline|mexY|BAA34300.1", // MexY
-            "CARD|homolog|macrolide;penam|mtrC|AAF42063.1", // multidrug efflux RND transporter periplasmic adaptor subunit MtrC
-            "CARD|homolog|macrolide;penam|mtrD|AAF42062.1", // multidrug efflux RND transporter permease subunit MtrD
-            "CARD|homolog|macrolide;penam|mtrE|CAA64891.1", // mtrE
+            "CARD|homolog|aminoglycoside;carbapenem;cephalosporin;disinfecting_agents_and_antiseptics;fluoroquinolone;macrolide;penicillin_beta-lactam;phenicol;tetracycline|mexX|BAA34299.1", // MexX
+            "CARD|homolog|aminoglycoside;carbapenem;cephalosporin;disinfecting_agents_and_antiseptics;fluoroquinolone;macrolide;penicillin_beta-lactam;phenicol;tetracycline|mexY|BAA34300.1", // MexY
+            "CARD|homolog|macrolide|mtrC|AAF42063.1", // multidrug efflux RND transporter periplasmic adaptor subunit MtrC
+            "CARD|homolog|macrolide|mtrD|AAF42062.1", // multidrug efflux RND transporter permease subunit MtrD
+            "CARD|homolog|macrolide|mtrE|CAA64891.1", // mtrE
             "CARD|homolog|disinfecting_agents_and_antiseptics;fluoroquinolone|norA|AAS68233.1", // multidrug efflux MFS transporter NorA
             "CARD|homolog|fluoroquinolone|norB|CCQ22388.1", // multidrug efflux MFS transporter NorB
             "CARD|homolog|disinfecting_agents_and_antiseptics;fluoroquinolone|norC|AGP27106.1", // multidrug efflux MFS transporter NorC
@@ -2995,9 +2978,9 @@
             "CARD|homolog|fluoroquinolone|pmrA|AAK99679.1", // multidrug efflux MFS transporter PmrA
             "CARD|homolog|disinfecting_agents_and_antiseptics;fluoroquinolone|sdrM|BAB43261.1", // multidrug efflux MFS transporter SdrM
             "CARD|homolog|disinfecting_agents_and_antiseptics|sepA|WP_042355600.1", // multidrug efflux transporter SepA
-            "CARD|homolog|aminoglycoside;cephalosporin;cephamycin;penam|smeA|AAD51344.1", // SmeA
-            "CARD|homolog|aminoglycoside;cephalosporin;cephamycin;penam|smeB|AAD51345.1", // SmeB
-            "CARD|homolog|aminoglycoside;cephalosporin;cephamycin;penam|smeC|AAD51346.1", // SmeC
+            "CARD|homolog|aminoglycoside;cephalosporin;penicillin_beta-lactam|smeA|AAD51344.1", // SmeA
+            "CARD|homolog|aminoglycoside;cephalosporin;penicillin_beta-lactam|smeB|AAD51345.1", // SmeB
+            "CARD|homolog|aminoglycoside;cephalosporin;penicillin_beta-lactam|smeC|AAD51346.1", // SmeC
             "CARD|homolog|fluoroquinolone;macrolide;phenicol;tetracycline|smeD|CAC14594.1", // multidrug efflux RND transporter periplasmic adaptor subunit SmeD
             "CARD|homolog|fluoroquinolone;macrolide;phenicol;tetracycline|smeE|CAC14595.1", // putative RND protein
             "CARD|homolog|fluoroquinolone;macrolide;phenicol;tetracycline|smeF|CAC14596.1", // multidrug efflux RND transporter outer membrane subunit SmeF
@@ -3451,9 +3434,6 @@
         "vanW", // vanW is an accessory gene, with unknown function, found on vancomycin resistance operons.
         "vanY", // VanY is a D,D-carboxypeptidase that cleaves removes the terminal D-Ala from peptidoglycan for the addition of D-Lactate. The D-Ala-D-Lac peptidoglycan subunits have reduced binding affinity with vancomycin compared to D-Ala-D-Ala.
         "vanZ", // VanZ is a teicoplanin resistance gene that is an accessory protein. VanZ prevents the incorporation of the terminal D-Ala into peptidoglycan subunits.
-
-        // penicillin binding protein PBP or related
-        // "pbp2m",
 
         // merR-like transcriptional regulator
         // "Structural basis and dynamics of multidrug recognition in a minimal bacterial multidrug resistance system"
