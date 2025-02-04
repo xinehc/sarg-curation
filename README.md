@@ -2,7 +2,7 @@
 
 ## Introduction
 
-SARG+ is a manually curated database of Antibiotic Resistance Genes (ARGs), designed to enhance read-based environmental surveillance at species-level resolution. It extends existing databases ([NDARO](https://www.ncbi.nlm.nih.gov/pathogens/antimicrobial-resistance/), [CARD](https://card.mcmaster.ca/), and [SARG](https://smile.hku.hk/ARGs/Indexing)) by incorporating a comprehensive collection of protein sequences from RefSeq that are annotated through the same evidence sources (BlastRules or Hidden Markov Models provided by the NCBI Prokaryotic Genome Annotation Pipeline, [PGAP](https://github.com/ncbi/pgap)) as experimentally validated ARGs. This expansion addresses the limitations of existing databases, which often include only a single or a few representative sequences per ARG, and allows for the use of more stringent cutoffs while maintaining sensitivity.
+SARG+ is a manually curated database of Antibiotic Resistance Genes (ARGs), designed to enhance read-based environmental surveillance at species-level resolution. It extends existing databases ([NDARO](https://www.ncbi.nlm.nih.gov/pathogens/antimicrobial-resistance/), [CARD](https://card.mcmaster.ca/), and [SARG](https://smile.hku.hk/ARGs/Indexing)) by incorporating a comprehensive collection of protein sequences from RefSeq that are annotated through the same evidence (BlastRules or Hidden Markov Models provided by the NCBI Prokaryotic Genome Annotation Pipeline, [PGAP](https://github.com/ncbi/pgap)) as experimentally validated ARGs. This expansion addresses the limitations of existing databases, which often include only a single or a few representative sequences per ARG, and allows for the use of more stringent cutoffs while maintaining sensitivity.
 
 **SARG+** ([sarg.fa](https://github.com/xinehc/sarg-curation/blob/master/sarg.fa)) consists of two components:
 
@@ -27,8 +27,8 @@ conda install jupyter regex json5 wget tqdm biopython pandas
 ```
 
 ### Download NCBI Databases
-> [!NOTE]
-> Extracting sequences and creating `diamond` databases can be time-consuming. Consider running `blastdbcmd` and `diamond makedb` in parallel to utilize multiple cores.
+> [!TIP]
+> Extracting sequences and annotation evidence can be time-consuming. To take advantage of multiple CPU cores, run `blastdbcmd` and `diamond makedb` in parallel.
 
 Download `nr` and `env_nr` from [NCBI FTP](https://ftp.ncbi.nlm.nih.gov/blast/db/) and extract sequences:
 
@@ -93,7 +93,7 @@ r = process_map(parser, glob.glob('tmp/refseq/*.gpff.gz'), max_workers=48, chunk
 
 ### Download NDARO and CARD
 
-NDARO need to be downloaded manually from https://www.ncbi.nlm.nih.gov/pathogens/refgene/ (click `Download` for both the metadata `refgenes.tsv` and the reference protein sequences `protein.faa`). CARD can be obtained from https://card.mcmaster.ca/download. These files need to be unzipped and placed in the [reference](https://github.com/xinehc/sarg-curation/tree/master/reference) folder.
+NDARO need to be downloaded from https://www.ncbi.nlm.nih.gov/pathogens/refgene/ (`refgenes.tsv` and `protein.faa`). CARD can be obtained from https://card.mcmaster.ca/download (`aro_index.tsv` and `protein_fasta_protein_homolog_model.fasta`). These files need to be manually unzipped and placed in the [reference](https://github.com/xinehc/sarg-curation/tree/master/reference) folder.
 
 ## Run
 
@@ -102,9 +102,9 @@ We provide a series of Jupyter notebooks for step-wise construction of SARG+:
 1. `a0-parse-refs.ipynb`
    - Parses NDARO and CARD metadata and sequences to create a raw reference. Curates the reference according to `sarg.json`, producing the initial SARG+ reference database.
 2. `a1-standardize-headers.ipynb`
-   - Standardizes the headers of SARG+ reference sequences according to `nr`.
+   - Standardizes the headers of SARG+ reference sequences according to `nr` and `env_nr`.
 4. `b0-parse-evidence.ipynb`
-   - Finds sequences annotated through the same evidence sources (BlastRules and Hidden Markov Models) as SARG+ reference sequences.
+   - Finds sequences annotated through the same evidence (BlastRules and Hidden Markov Models) as SARG+ reference sequences.
 5. `b1-remove-dups.ipynb`
    - Removes duplicated and cross-mapped sequences by clustering.
 
@@ -163,11 +163,11 @@ If you spot any suspicious cases or wish to add sequences to SARG+, please consi
 
 ### Does SARG+ cover point mutations?
 
-No, we exclude all ARGs related to point mutations in essential genes (mainly antibiotic targets). Examples include mutations in ***gyrA***, ***parC***, and ***rpoB***.
+No, all ARGs related to point mutations of essential genes (mainly antibiotic targets) are excluded. Examples include mutations of ***gyrA***, ***parC***, and ***rpoB***.
 
-### Why doesn't SARG+ include detailed gene numbers like ***bla***<sub>**OXA-1**</sub>?
+### Why doesn't SARG+ include detailed gene/allele numbers like ***bla***<sub>**OXA-1**</sub>?
 
-We group highly similar ARG subtypes (genes) into clusters to reduce the chance of false identifications. For instance, ***bla***<sub>**OXA-1**</sub> and ***bla***<sub>**OXA-1024**</sub> differ by a single amino acid, and this subtle difference can be difficult to detect using reads. By default, we apply 95% identity and 95% query/subject cover as cutoffs for subtype clustering.
+Highly similar ARGs are grouped into subtype clusters to reduce the chance of false identifications. For instance, the two alleles of ***bla***<sub>**OXA**</sub>, ***bla***<sub>**OXA-1**</sub> and ***bla***<sub>**OXA-1024**</sub>, differ by a single amino acid, and this subtle difference can be difficult to detect using reads. By default, we apply 95% identity and 95% query/subject cover as cutoffs for subtype clustering.
 
 ### Why does SARG+ exclude fused genes?
 
@@ -185,7 +185,7 @@ We standardize gene names to ensure all of them are identifiable through a combi
 - Some genes are mislabeled by RefSeq; for example, ***efrCD*** is misspelled as ***erfCD***. We correct such cases.
 - ***qacA*** and ***qacB*** are renamed to ***qacA/B*** due to their high sequence similarity.
 
-Maintaining naming consistency is a key goal of SARG+, so we modify some gene names accordingly. For instance:
+Maintaining naming consistency is a key goal of SARG+, so some gene names are modified accordingly. For instance:
 
 - ***tnrB2*** and ***tnrB3*** are renamed to ***tnrB-1*** and ***tnrB-2*** to reflect their two-component nature as ABC transporters.
 - ***cap21*** refers to ***orf21*** of a biosynthetic gene cluster ([AB476988](https://www.ncbi.nlm.nih.gov/nuccore/AB476988)) in *Streptomyces griseus*, which lacks a proper name.
