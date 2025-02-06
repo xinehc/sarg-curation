@@ -1,34 +1,35 @@
-type	subtype	name	evidence	symbol	identifier	cnt
-aminocoumarin	novA	NovA family novobiocin export ABC transporter	NBR006897	NA	NA	49
+type	subtype	name	evidence	symbol	identifier	count
+aminocoumarin	novA	NovA family novobiocin export ABC transporter	NBR006897	NA	NA	52
 aminoglycoside	aac(2')-I	aminoglycoside N-acetyltransferase AAC(2')-Ia	NF000108.1	aac(2')-Ia	NA	6
-aminoglycoside	aac(2')-I	aminoglycoside N-acetyltransferase AAC(2')-Ib	NF000010.1	aac(2')-Ib	NA	34
+aminoglycoside	aac(2')-I	aminoglycoside N-acetyltransferase AAC(2')-Ib	NF000010.1	aac(2')-Ib	NA	38
 aminoglycoside	aac(2')-I	aminoglycoside N-acetyltransferase AAC(2')-Ic	NF000034.1	aac(2')-Ic	NA	25
 aminoglycoside	aac(2')-I	aminoglycoside N-acetyltransferase AAC(2')-Id	NF000042.1	aac(2')-Id	NA	2
 aminoglycoside	aac(2')-II	kasugamycin N-acetyltransferase AAC(2')-IIa	NF000100.2	aac(2')-IIa	NA	4
-aminoglycoside	aac(2')-II	kasugamycin N-acetyltransferase AAC(2')-IIb	NF033472.1	aac(2')-IIb	NA	117
-aminoglycoside	aac(3)*	aminoglycoside 3-N-acetyltransferase	NF033082.0	aac(3)	NA	1236
-aminoglycoside	aac(3)-I	AAC(3)-I family aminoglycoside N-acetyltransferase	NF033083.0	NA	NA	774
+aminoglycoside	aac(2')-II	kasugamycin N-acetyltransferase AAC(2')-IIb	NF033472.1	aac(2')-IIb	NA	118
+aminoglycoside	aac(3)*	aminoglycoside 3-N-acetyltransferase	NF033082.0	aac(3)	NA	1349
+aminoglycoside	aac(3)-I	AAC(3)-I family aminoglycoside N-acetyltransferase	NF033083.0	NA	NA	781
 aminoglycoside	aac(3)-I	aminoglycoside N-acetyltransferase AAC(3)-Ia	NBR011598	aac(3)-Ia	NA	5
 aminoglycoside	aac(3)-I	aminoglycoside N-acetyltransferase AAC(3)-Id	NBR011601	aac(3)-Id	NA	1
 aminoglycoside	aac(3)-I	aminoglycoside N-acetyltransferase AAC(3)-If	NBR011602	aac(3)-If	NA	1
 aminoglycoside	aac(3)-I	aminoglycoside N-acetyltransferase AAC(3)-Ih	NBR011603	aac(3)-Ih	NA	6
+aminoglycoside	aac(3)-I	aminoglycoside N-acetyltransferase AAC(3)-Ii	NBR011604	aac(3)-Ii	NA	1
 aminoglycoside	aac(3)-II	aminoglycoside N-acetyltransferase AAC(3)-IIa	NBR011605	aac(3)-IIa	NA	1
-aminoglycoside	aac(3)-II	aminoglycoside N-acetyltransferase AAC(3)-IId	NBR011608	aac(3)-IId	NA	44
-aminoglycoside	aac(3)-II	aminoglycoside N-acetyltransferase AAC(3)-IIe	NBR011609	aac(3)-IIe	NA	40
+aminoglycoside	aac(3)-II	aminoglycoside N-acetyltransferase AAC(3)-IId	NBR011608	aac(3)-IId	NA	47
+aminoglycoside	aac(3)-II	aminoglycoside N-acetyltransferase AAC(3)-IIe	NBR011609	aac(3)-IIe	NA	43
 aminoglycoside	aac(3)-II	aminoglycoside N-acetyltransferase AAC(3)-IIg	NBR012242	aac(3)-IIg	NA	4
 aminoglycoside	aac(3)-III	aminoglycoside N-acetyltransferase AAC(3)-IIIa	NBR011611	aac(3)-IIIa	NA	2
-aminoglycoside	aac(3)-IV	AAC(3)-IV family aminoglycoside N-acetyltransferase	NF033081.0	aac(3)-IV	NA	77
+aminoglycoside	aac(3)-IV	AAC(3)-IV family aminoglycoside N-acetyltransferase	NF033081.0	aac(3)-IV	NA	78
 aminoglycoside	aac(3)-IV	aminoglycoside N-acetyltransferase AAC(3)-IVa	NBR011610	aac(3)-IVa	NA	46
 aminoglycoside	aac(3)-IV	aminoglycoside N-acetyltransferase AAC(3)-IVb	NBR012952	aac(3)-IVb	NA	6
 aminoglycoside	aac(3)-VI	aminoglycoside N-acetyltransferase AAC(3)-VIa	NF033612.0	aac(3)-VIa	NA	12
-aminoglycoside	aac(3)-VIII	aminoglycoside N-acetyltransferase AAC(3)-VIII	NF033180.1	aac(3)-VIII	NA	20
-aminoglycoside	aac(3)-XI	aminoglycoside N-acetyltransferase AAC(3)-XI	NF000482.1	aac(3)-XI	NA	7
-aminoglycoside	aac(6')*	aminoglycoside 6'-N-acetyltransferase	NF000021.4	aac(6')	NA	122
-aminoglycoside	aac(6')*	aminoglycoside 6'-N-acetyltransferase	NF000225.3	aac(6')	NA	268
+aminoglycoside	aac(3)-VIII	aminoglycoside N-acetyltransferase AAC(3)-VIII	NF033180.1	aac(3)-VIII	NA	22
+aminoglycoside	aac(3)-XI	aminoglycoside N-acetyltransferase AAC(3)-XI	NF000482.1	aac(3)-XI	NA	8
+aminoglycoside	aac(6')*	aminoglycoside 6'-N-acetyltransferase	NF000021.4	aac(6')	NA	125
+aminoglycoside	aac(6')*	aminoglycoside 6'-N-acetyltransferase	NF000225.3	aac(6')	NA	336
 aminoglycoside	aac(6')*	aminoglycoside 6'-N-acetyltransferase	NF012165.0	aac(6')	NA	7
 aminoglycoside	aac(6')*	aminoglycoside 6'-N-acetyltransferase	NF033075.0	aacA	NA	39
 aminoglycoside	aac(6')*	aminoglycoside 6'-N-acetyltransferase	NF033076.0	aac(6')	NA	2
-aminoglycoside	aac(6')*	aminoglycoside 6'-N-acetyltransferase	NF043067.1	aac(6')	NA	2839
+aminoglycoside	aac(6')*	aminoglycoside 6'-N-acetyltransferase	NF043067.1	aac(6')	NA	2937
 aminoglycoside	aac(6')*	aminoglycoside 6'-N-acetyltransferase	NG_052139.1	aac(6')	NA	1
 aminoglycoside	aac(6')*	aminoglycoside 6'-N-acetyltransferase	NG_052175.1	aac(6')	NA	1
 aminoglycoside	aac(6')*	aminoglycoside 6'-N-acetyltransferase	NG_052178.1	aac(6')	NA	1
@@ -81,79 +82,81 @@ aminoglycoside	aac(6')*	aminoglycoside 6'-N-acetyltransferase	NG_054690.1	aac(6'
 aminoglycoside	aac(6')*	aminoglycoside 6'-N-acetyltransferase AAC(6')-29	NF000050.2	aac(6')-29	NA	27
 aminoglycoside	aac(6')*	aminoglycoside 6'-N-acetyltransferase AAC(6')-29	NG_052220.1	aac(6')-29	NA	1
 aminoglycoside	aac(6')*	aminoglycoside 6'-N-acetyltransferase AAC(6')-30	NF033077.0	aacA30	NA	4
-aminoglycoside	aac(6')*	aminoglycoside 6'-N-acetyltransferase AAC(6')-35	NBR016120	aac(6')-35	NA	32
-aminoglycoside	aac(6')*	aminoglycoside N-acetyltransferase AAC(6')-31	NF000118.3	aac(6')-31	NA	6
+aminoglycoside	aac(6')*	aminoglycoside 6'-N-acetyltransferase AAC(6')-35	NBR016120	aac(6')-35	NA	35
+aminoglycoside	aac(6')*	aminoglycoside 6'-N-acetyltransferase AacA37	NF000152.2	aacA37	NA	1
+aminoglycoside	aac(6')*	aminoglycoside N-acetyltransferase AAC(6')-31	NF000118.3	aac(6')-31	NA	7
 aminoglycoside	aac(6')-I	AAC(6')-Ia family aminoglycoside 6'-N-acetyltransferase	NF033078.2	aac(6')	NA	10
-aminoglycoside	aac(6')-I	AAC(6')-Ib family aminoglycoside 6'-N-acetyltransferase	NF033074.0	aac(6')-Ib	NA	115
+aminoglycoside	aac(6')-I	AAC(6')-Ib family aminoglycoside 6'-N-acetyltransferase	NF033074.0	aac(6')-Ib	NA	128
 aminoglycoside	aac(6')-I	AAC(6')-Ighjkrstuvwx family aminoglycoside N-acetyltransferase	NF000224.3	aac(6')-I	NA	56
 aminoglycoside	aac(6')-I	AacA48 family aminoglycoside 6'-N-acetyltransferase	NF033130.1	NA	NA	2
-aminoglycoside	aac(6')-I	aminoglycoside N-acetyltransferase AAC(6')-Iak	NF000497.1	aac(6')-Iak	NA	5
+aminoglycoside	aac(6')-I	aminoglycoside N-acetyltransferase AAC(6')-Iak	NF000497.1	aac(6')-Iak	NA	6
 aminoglycoside	aac(6')-I	aminoglycoside N-acetyltransferase AAC(6')-Ian	NF000431.1	aac(6')-Ian	NA	8
 aminoglycoside	aac(6')-I	aminoglycoside N-acetyltransferase AAC(6')-If	NF000110.2	aac(6')-If	NA	5
-aminoglycoside	aac(6')-I	aminoglycoside N-acetyltransferase AAC(6')-Ii	NF000165.3	aac(6')	NA	114
+aminoglycoside	aac(6')-I	aminoglycoside N-acetyltransferase AAC(6')-Ii	NF000165.3	aac(6')	NA	116
 aminoglycoside	aac(6')-I	aminoglycoside N-acetyltransferase AAC(6')-Il	NF000158.2	aac(6')-Il	NA	5
 aminoglycoside	aac(6')-I	aminoglycoside N-acetyltransferase AAC(6')-Im	NF000016.1	aac(6')-Im	NA	5
 aminoglycoside	aac(6')-I	aminoglycoside N-acetyltransferase AAC(6')-Iz	NF000138.1	aac(6')-Iz	NA	28
-aminoglycoside	aac(6')-I	cryptic aminoglycoside N-acetyltransferase AAC(6')-Iy/Iaa	NF000140.3	aac(6')	NA	226
+aminoglycoside	aac(6')-I	cryptic aminoglycoside N-acetyltransferase AAC(6')-Iy/Iaa	NF000140.3	aac(6')	NA	227
 aminoglycoside	aac(6')-II	aminoglycoside N-acetyltransferase AAC(6')-IIc	NF000135.2	aac(6')-IIc	NA	7
 aminoglycoside	aac(6')-III	tobramycin N-acetyltransferase AAC(6')-III	NF038102.1	aac(6')-III	NA	45
 aminoglycoside	ant(2'')-I	aminoglycoside nucleotidyltransferase ANT(2'')-Ia	NF000064.3	aadB	NA	36
 aminoglycoside	ant(3'')-I	ANT(3'')-I family aminoglycoside adenylyltransferase	NF045972.1	NA	NA	18
 aminoglycoside	ant(3'')-I	ANT(3'')-I family aminoglycoside nucleotidyltransferase AadA33	NBR016731	aadA33	NA	9
 aminoglycoside	ant(3'')-I	ANT(3'')-I family aminoglycoside nucleotidyltransferase AadA36	NBR016732	aadA36	NA	18
-aminoglycoside	ant(3'')-I	ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1	NF033126.1	aadA1	NA	37
-aminoglycoside	ant(3'')-I	AadA family aminoglycoside 3''-O-nucleotidyltransferase	NF012157.0	NA	NA	540
+aminoglycoside	ant(3'')-I	ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1	NF033126.1	aadA1	NA	39
+aminoglycoside	ant(3'')-I	AadA family aminoglycoside 3''-O-nucleotidyltransferase	NF012157.0	NA	NA	559
 aminoglycoside	ant(3'')-I	aminoglycoside nucleotidyltransferase ANT(3'')-Ib	NBR012953	ant(3'')-Ib	NA	3
-aminoglycoside	ant(3'')-II	ANT(3'')-II family aminoglycoside nucleotidyltransferase	NF033220.1	NA	NA	235
-aminoglycoside	ant(4')-I	ANT(4')-I family aminoglycoside nucleotidyltransferase	NF033061.1	NA	NA	336
+aminoglycoside	ant(3'')-II	ANT(3'')-II family aminoglycoside nucleotidyltransferase	NF033220.1	NA	NA	250
+aminoglycoside	ant(4')-I	ANT(4')-I family aminoglycoside nucleotidyltransferase	NF033061.1	NA	NA	345
 aminoglycoside	ant(4')-I	aminoglycoside O-nucleotidyltransferase ANT(4')-Ia	NF000181.1	aadD1	NA	88
 aminoglycoside	ant(4')-I	aminoglycoside O-nucleotidyltransferase ANT(4')-Ib	NF000079.1	aadD2	NA	11
 aminoglycoside	ant(4')-II	ANT(4')-II family aminoglycoside nucleotidyltransferase	NF028535.0	ant(4')	NA	5
-aminoglycoside	ant(6)*	AadS family aminoglycoside 6-adenylyltransferase	NF033387.1	NA	NA	376
+aminoglycoside	ant(6)*	AadS family aminoglycoside 6-adenylyltransferase	NF033387.1	NA	NA	390
 aminoglycoside	ant(6)*	aminoglycoside 6-adenylyltransferase	NF000274.2	ant(6)	NA	2
-aminoglycoside	ant(6)*	aminoglycoside 6-adenylyltransferase	NF033084.2	ant(6)	NA	723
+aminoglycoside	ant(6)*	aminoglycoside 6-adenylyltransferase	NF033084.2	ant(6)	NA	743
 aminoglycoside	ant(6)*	aminoglycoside 6-adenylyltransferase AadK	NF000312.1	aadK	NA	136
 aminoglycoside	ant(6)*	streptomycin adenylyltransferase Str	NF000062.1	str	NA	35
 aminoglycoside	ant(6)-I	aminoglycoside nucleotidyltransferase ANT(6)-Ig	NF033221.1	ant(6)-Ig	NA	8
-aminoglycoside	ant(9)*	aminoglycoside nucleotidyltransferase ANT(9)	NF012212.1	ant(9)	NA	251
-aminoglycoside	ant(9)-I	aminoglycoside nucleotidyltransferase ANT(9)-Ic	NF045909.1	ant(9)-Ic	NA	43
+aminoglycoside	ant(9)*	aminoglycoside nucleotidyltransferase ANT(9)	NF012212.1	ant(9)	NA	259
+aminoglycoside	ant(9)-I	aminoglycoside nucleotidyltransferase ANT(9)-Ic	NF045909.1	ant(9)-Ic	NA	44
 aminoglycoside	aph(2'')*	APH(2'')-Ie/IVa family aminoglycoside O-phosphotransferase	NF000076.3	aph(2'')	NA	1
-aminoglycoside	aph(2'')-I	APH(2'')-Ia/If/Ih family aminoglycoside O-phosphotransferase	NF033692.1	aph(2'')-I	NA	12
+aminoglycoside	aph(2'')-I	APH(2'')-Ia/If/Ih family aminoglycoside O-phosphotransferase	NF033692.1	aph(2'')-I	NA	11
 aminoglycoside	aph(2'')-I	APH(2'')-If/Ih family aminoglycoside O-phosphotransferase	NF000498.2	aph(2'')-I	NA	15
-aminoglycoside	aph(2'')-I	aminoglycoside O-phosphotransferase APH(2'')-Ia	NF000508.1	aph(2'')-Ia	NA	147
+aminoglycoside	aph(2'')-I	aminoglycoside O-phosphotransferase APH(2'')-Ia	NF000508.1	aph(2'')-Ia	NA	150
 aminoglycoside	aph(2'')-I	aminoglycoside O-phosphotransferase APH(2'')-Ig	NF000132.2	aph(2'')-Ig	NA	4
 aminoglycoside	aph(2'')-II	aminoglycoside O-phosphotransferase APH(2'')-IIa	NF000015.3	aph(2'')-IIa	NA	8
 aminoglycoside	aph(2'')-III	aminoglycoside O-phosphotransferase APH(2'')-IIIa	NF000044.2	aph(2'')-IIIa	NA	8
-aminoglycoside	aph(3'')*	APH(3'') family aminoglycoside O-phosphotransferase	NF032896.1	NA	NA	1157
-aminoglycoside	aph(3'')-I	aminoglycoside O-phosphotransferase APH(3'')-Ia	NF032894.1	aph(3'')-Ia	NA	9
-aminoglycoside	aph(3'')-I	aminoglycoside O-phosphotransferase APH(3'')-Ib	NF032895.1	aph(3'')-Ib	NA	263
-aminoglycoside	aph(3')*	APH(3') family aminoglycoside O-phosphotransferase	NF033068.1	NA	NA	1594
-aminoglycoside	aph(3')-I	APH(3')-I family aminoglycoside O-phosphotransferase	NF033059.2	NA	NA	435
-aminoglycoside	aph(3')-II	APH(3')-II family aminoglycoside O-phosphotransferase	NF032898.2	NA	NA	1278
+aminoglycoside	aph(3'')*	APH(3'') family aminoglycoside O-phosphotransferase	NF032896.1	NA	NA	1296
+aminoglycoside	aph(3'')-I	aminoglycoside O-phosphotransferase APH(3'')-Ia	NF032894.1	aph(3'')-Ia	NA	13
+aminoglycoside	aph(3'')-I	aminoglycoside O-phosphotransferase APH(3'')-Ib	NF032895.1	aph(3'')-Ib	NA	285
+aminoglycoside	aph(3')*	APH(3') family aminoglycoside O-phosphotransferase	NF033068.1	NA	NA	1645
+aminoglycoside	aph(3')-I	APH(3')-I family aminoglycoside O-phosphotransferase	NF033059.2	NA	NA	455
+aminoglycoside	aph(3')-II	APH(3')-II family aminoglycoside O-phosphotransferase	NF032898.2	NA	NA	1335
 aminoglycoside	aph(3')-II	aminoglycoside O-phosphotransferase APH(3')-IId	NBR014706	aph(3')-IId	NA	19
-aminoglycoside	aph(3')-III	aminoglycoside O-phosphotransferase APH(3')-IIIa	NF033064.0	aph(3')-IIIa	NA	100
-aminoglycoside	aph(3')-IV	aminoglycoside O-phosphotransferase APH(3')-IVa	NF033065.0	aph(3')-IVa	NA	14
-aminoglycoside	aph(3')-V	APH(3')-V family aminoglycoside O-phosphotransferase	NF032897.1	NA	NA	28
-aminoglycoside	aph(3')-VI	APH(3')-VI family aminoglycoside O-phosphotransferase	NF033062.0	NA	NA	80
+aminoglycoside	aph(3')-III	aminoglycoside O-phosphotransferase APH(3')-IIIa	NF033064.0	aph(3')-IIIa	NA	101
+aminoglycoside	aph(3')-IV	aminoglycoside O-phosphotransferase APH(3')-IVa	NF033065.0	aph(3')-IVa	NA	15
+aminoglycoside	aph(3')-V	APH(3')-V family aminoglycoside O-phosphotransferase	NF032897.1	NA	NA	29
+aminoglycoside	aph(3')-VI	APH(3')-VI family aminoglycoside O-phosphotransferase	NF033062.0	NA	NA	81
 aminoglycoside	aph(3')-VII	aminoglycoside O-phosphotransferase APH(3')-VIIa	NF033067.1	aph(3')-VIIa	NA	2
-aminoglycoside	aph(3')-VIII	aminoglycoside O-phosphotransferase APH(3')-VIIIa	NF033066.0	aph(3')-VIIIa	NA	10
+aminoglycoside	aph(3')-VIII	aminoglycoside O-phosphotransferase APH(3')-VIIIa	NF033066.0	aph(3')-VIIIa	NA	12
 aminoglycoside	aph(3')-XV	aminoglycoside O-phosphotransferase APH(3')-XV	NF033063.0	aph(3')-XV	NA	8
 aminoglycoside	aph(4)-I	aminoglycoside O-phosphotransferase APH(4)-Ia	NF000107.2	aph(4)-Ia	NA	39
-aminoglycoside	aph(6)*	APH(6) family putative aminoglycoside O-phosphotransferase	NF012160.0	NA	NA	342
-aminoglycoside	aph(6)-I	APH(6)-I family aminoglycoside O-phosphotransferase	NF012171.0	NA	NA	394
+aminoglycoside	aph(6)*	APH(6) family putative aminoglycoside O-phosphotransferase	NF012160.0	NA	NA	349
+aminoglycoside	aph(6)-I	APH(6)-I family aminoglycoside O-phosphotransferase	NF012171.0	NA	NA	421
 aminoglycoside	aph(6)-I	APH(6)-I family aminoglycoside O-phosphotransferase	NF033614.1	NA	NA	33
 aminoglycoside	aph(6)-I	aminoglycoside O-phosphotransferase APH(6)-Ic	NF000011.2	aph(6)-Ic	NA	21
-aminoglycoside	aph(7'')-I	aminoglycoside O-phosphotransferase APH(7'')-Ia	NF000137.2	aph(7'')-Ia	NA	21
-aminoglycoside	aph(9)-I	aminoglycoside O-phosphotransferase APH(9)-Ia	NF000052.4	aph(9)-Ia	NA	42
+aminoglycoside	aph(7'')-I	aminoglycoside O-phosphotransferase APH(7'')-Ia	NF000137.2	aph(7'')-Ia	NA	23
+aminoglycoside	aph(9)-I	aminoglycoside O-phosphotransferase APH(9)-Ia	NF000052.4	aph(9)-Ia	NA	43
+aminoglycoside	aph(9)-I	aminoglycoside O-phosphotransferase APH(9)-Ib	NF000029.2	aph(9)-Ib	NA	1
 aminoglycoside	apmA	aminocyclitol acetyltransferase ApmA	NF000084.1	apmA	NA	1
-aminoglycoside	armA	16S rRNA (guanine(1405)-N(7))-methyltransferase ArmA	NBR015259	armA	NA	33
+aminoglycoside	armA	16S rRNA (guanine(1405)-N(7))-methyltransferase ArmA	NBR015259	armA	NA	35
 aminoglycoside	eis	amikacin resistance N-acetyltransferase Eis2	NBR006238	eis2	NA	43
 aminoglycoside	eis	enhanced intracellular survival protein Eis	NF002364.0	NA	PRK01346	127
-aminoglycoside	eis	enhanced intracellular survival protein Eis	NF002368.0	NA	PRK01346	441
+aminoglycoside	eis	enhanced intracellular survival protein Eis	NF002368.0	NA	PRK01346	457
 aminoglycoside	gar	gentamicin resistance ATP-binding protein Gar	NBR013258	gar	NA	1
-aminoglycoside	kamB	16S rRNA (adenine(1408)-N(1))-methyltransferase KamB	NF000363.1	kamB	NA	33
+aminoglycoside	kamB	16S rRNA (adenine(1408)-N(1))-methyltransferase KamB	NF000363.1	kamB	NA	36
 aminoglycoside	npmA	16S rRNA (adenine(1408)-N(1))-methyltransferase NpmA	NF000030.1	npmA	NA	1
-aminoglycoside	rmt*	Rmt family 16S rRNA (guanine(1405)-N(7))-methyltransferase	NF000466.2	NA	NA	29
+aminoglycoside	rmt*	Rmt family 16S rRNA (guanine(1405)-N(7))-methyltransferase	NF000466.2	NA	NA	31
 aminoglycoside	rmtB	RmtB family 16S rRNA (guanine(1405)-N(7))-methyltransferase	NF033209.1	NA	NA	9
 aminoglycoside	rmtC	RmtC family 16S rRNA (guanine(1405)-N(7))-methyltransferase	NF000150.1	NA	NA	3
 aminoglycoside	rmtD	RmtD family 16S rRNA (guanine(1405)-N(7))-methyltransferase	NF000007.1	NA	NA	2
@@ -162,23 +165,23 @@ aminoglycoside	rmtF	RmtF family 16S rRNA (guanine(1405)-N(7))-methyltransferase	
 aminoglycoside	rmtG	RmtG family 16S rRNA (guanine(1405)-N(7))-methyltransferase	NF000114.1	NA	NA	1
 avilamycin	emtA	EmtA family 23S rRNA (guanine(2470)) methyltransferase	NF033398.1	NA	NA	20
 bacitracin	bacA	bacitracin resistance undecaprenyl-diphosphatase	NBR007033	uppP	NA	130
-bacitracin	bacA	undecaprenyl-diphosphatase UppP	TIGR00753.1	uppP	NA	1116
-bacitracin	bacA	undecaprenyl-diphosphate phosphatase	NF001388.0	bacA	PRK00281	2746
-bacitracin	bacA	undecaprenyl-diphosphate phosphatase	NF001389.0	NA	PRK00281	13806
-bacitracin	bacA	undecaprenyl-diphosphate phosphatase	NF001390.0	NA	PRK00281	8908
-bacitracin	bacA	undecaprenyl-diphosphate phosphatase	NF001391.0	NA	PRK00281	5413
-bacitracin	bacA	undecaprenyl-diphosphate phosphatase	NF001392.0	NA	PRK00281	14834
-bacitracin	bacA	undecaprenyl-diphosphate phosphatase	NF001393.0	NA	PRK00281	5347
-bacitracin	bacA	undecaprenyl-diphosphate phosphatase	NF001394.0	NA	PRK00281	1643
-bacitracin	bacA	undecaprenyl-diphosphate phosphatase	NF001395.0	NA	PRK00281	1140
+bacitracin	bacA	undecaprenyl-diphosphatase UppP	TIGR00753.1	uppP	NA	1146
+bacitracin	bacA	undecaprenyl-diphosphate phosphatase	NF001388.0	bacA	PRK00281	2804
+bacitracin	bacA	undecaprenyl-diphosphate phosphatase	NF001389.0	NA	PRK00281	14104
+bacitracin	bacA	undecaprenyl-diphosphate phosphatase	NF001390.0	NA	PRK00281	8992
+bacitracin	bacA	undecaprenyl-diphosphate phosphatase	NF001391.0	NA	PRK00281	5479
+bacitracin	bacA	undecaprenyl-diphosphate phosphatase	NF001392.0	NA	PRK00281	16047
+bacitracin	bacA	undecaprenyl-diphosphate phosphatase	NF001393.0	NA	PRK00281	5413
+bacitracin	bacA	undecaprenyl-diphosphate phosphatase	NF001394.0	NA	PRK00281	1685
+bacitracin	bacA	undecaprenyl-diphosphate phosphatase	NF001395.0	NA	PRK00281	1228
 bacitracin	bacA	undecaprenyl-diphosphate phosphatase	NF001396.0	NA	PRK00281	108
-bacitracin	bacA	undecaprenyl-diphosphate phosphatase	NF001397.0	NA	PRK00281	452
+bacitracin	bacA	undecaprenyl-diphosphate phosphatase	NF001397.0	NA	PRK00281	448
 bacitracin	bacA	undecaprenyl-diphosphate phosphatase	NF001398.0	NA	PRK00281	57
-bacitracin	bacA	undecaprenyl-diphosphate phosphatase	NF008813.0	ybjG	PRK11837	2705
-bacitracin	bacA	undecaprenyl-diphosphate phosphatase UppP	NBR007282	uppP	NA	223
-bacitracin	bahA	bacitracin amidohydrolase BahA	NBR007700	bahA	NA	42
+bacitracin	bacA	undecaprenyl-diphosphate phosphatase	NF008813.0	ybjG	PRK11837	2756
+bacitracin	bacA	undecaprenyl-diphosphate phosphatase UppP	NBR007282	uppP	NA	225
+bacitracin	bahA	bacitracin amidohydrolase BahA	NBR007700	bahA	NA	38
 bacitracin	bceA	bacitracin ABC transporter ATP-binding protein BceA	NBR009268	bceA	NA	80
-bacitracin	bceB	bacitracin ABC transporter permease BceB	NBR009270	bceB	NA	160
+bacitracin	bceB	bacitracin ABC transporter permease BceB	NBR009270	bceB	NA	161
 bacitracin	bcrA	bacitracin ABC transporter ATP-binding protein BcrA	NBR016205	bcrA	NA	63
 bacitracin	bcrA	bacitracin resistance ABC transporter ATP-binding subunit BcrA	NBR006381	bcrA	NA	27
 bacitracin	bcrB	bacitracin ABC transporter permease BcrB	NBR016206	bcrB	NA	5
@@ -187,218 +190,219 @@ bacitracin	bcrC	bacitracin resistance undecaprenyl-diphosphatase BcrC	NBR006380	
 bacitracin	bcrC	undecaprenyl-diphosphate phosphatase BcrC	NBR013692	bcrC	NA	69
 bacitracin	bcrD	bacitracin resistance undecaprenyl-diphosphatase BcrD	NBR016204	bcrD	NA	68
 bacteriocin	psdA	lantibiotic ABC transporter ATP-binding protein PsdA	NBR010050	psdA	NA	87
-bacteriocin	psdB	lantibiotic ABC transporter permease PsdB	NBR010051	psdB	NA	147
-bacteriocin	vraD	peptide resistance ABC transporter ATP-binding subunit VraD	NBR008291	vraD	NA	163
-bacteriocin	vraE	peptide resistance ABC transporter permease subunit VraE	NBR008292	vraE	NA	503
-beta-lactam	bla*	BKC/GPC family carbapenem-hydrolyzing class A beta-lactamase	NF033626.2	bla	NA	40
-beta-lactam	bla*	BlaB/IND/MUS family subclass B1 metallo-beta-lactamase	NF012146.1	bla	NA	218
-beta-lactam	bla*	BlaZ-like penicillin-hydrolyzing class A beta-lactamase	NF033141.0	bla	NA	105
-beta-lactam	bla*	CGA/CIA family class A beta-lactamase	NF000447.2	bla-A	NA	318
-beta-lactam	bla*	CMY2-MIR-ACT-EC family cephalosporin-hydrolyzing class C beta-lactamase	NF041662.1	ampC	NA	137
-beta-lactam	bla*	CMY2-MIR-ACT-EC family cephalosporin-hydrolyzing class C beta-lactamase	NF041666.1	ampC	NA	9
-beta-lactam	bla*	CMY2/MIR/ACT/EC family class C beta-lactamase	NF012173.1	ampC	NA	235
-beta-lactam	bla*	FOX/MOX family class C beta-lactamase	NF012172.1	ampC	NA	336
+bacteriocin	psdB	lantibiotic ABC transporter permease PsdB	NBR010051	psdB	NA	148
+bacteriocin	vraD	peptide resistance ABC transporter ATP-binding subunit VraD	NBR008291	vraD	NA	165
+bacteriocin	vraE	peptide resistance ABC transporter permease subunit VraE	NBR008292	vraE	NA	515
+beta-lactam	bla*	BKC/GPC family carbapenem-hydrolyzing class A beta-lactamase	NF033626.2	bla	NA	39
+beta-lactam	bla*	BlaB/IND/MUS family subclass B1 metallo-beta-lactamase	NF012146.1	bla	NA	213
+beta-lactam	bla*	BlaZ-like penicillin-hydrolyzing class A beta-lactamase	NF033141.0	bla	NA	106
+beta-lactam	bla*	CGA/CIA family class A beta-lactamase	NF000447.2	bla-A	NA	323
+beta-lactam	bla*	CMY2-MIR-ACT-EC family cephalosporin-hydrolyzing class C beta-lactamase	NF041662.1	ampC	NA	141
+beta-lactam	bla*	CMY2-MIR-ACT-EC family cephalosporin-hydrolyzing class C beta-lactamase	NF041666.1	ampC	NA	10
+beta-lactam	bla*	CMY2/MIR/ACT/EC family class C beta-lactamase	NF012173.1	ampC	NA	238
+beta-lactam	bla*	FOX/MOX family class C beta-lactamase	NF012172.1	ampC	NA	375
 beta-lactam	bla*	MUS/TUS/MOC family subclass B1 metallo-beta-lactamase	NF012137.0	bla	NA	11
 beta-lactam	bla*	PLA/ORN/TER family class A beta-lactamase	NF000275.2	bla	NA	9
 beta-lactam	bla*	SFH-related subclass B2 metallo-beta-lactamase	NF012225.0	bla	NA	5
 beta-lactam	bla*	carbapenem-hydrolyzing class A beta-lactamase	NF000538.0	bla	NA	6
-beta-lactam	bla*	cephalosporin-hydrolyzing class C beta-lactamase	NF041663.1	ampC	NA	32
-beta-lactam	bla*	class A beta-lactamase	NF012167.0	bla	NA	1860
-beta-lactam	bla*	class A beta-lactamase	NF033103.1	bla	NA	21381
+beta-lactam	bla*	cephalosporin-hydrolyzing class C beta-lactamase	NF041663.1	ampC	NA	33
+beta-lactam	bla*	class A beta-lactamase	NF012167.0	bla	NA	1912
+beta-lactam	bla*	class A beta-lactamase	NF033103.1	bla	NA	23059
 beta-lactam	bla*	class A beta-lactamase	NG_047483.1	bla	NA	1
 beta-lactam	bla*	class A beta-lactamase	NG_047487.1	bla	NA	1
-beta-lactam	bla*	class A beta-lactamase, subclass A2	NF012099.1	bla	NA	1581
+beta-lactam	bla*	class A beta-lactamase, subclass A2	NF012099.1	bla	NA	1602
 beta-lactam	bla*	class A beta-lactamase, subclass A2	NG_047486.1	bla	NA	1
-beta-lactam	bla*	class C beta-lactamase	NF033085.1	ampC	NA	8393
+beta-lactam	bla*	class C beta-lactamase	NF033085.1	ampC	NA	8702
 beta-lactam	bla*	class C beta-lactamase	NG_047492.1	ampC	NA	1
-beta-lactam	bla*	class D beta-lactamase	NF000270.1	blaOXA	NA	2228
+beta-lactam	bla*	class D beta-lactamase	NF000270.1	blaOXA	NA	2289
 beta-lactam	bla*	class D beta-lactamase	NF000463.2	blaOXA	NA	41
-beta-lactam	bla*	class D beta-lactamase	NF012161.0	blaOXA	NA	3719
+beta-lactam	bla*	class D beta-lactamase	NF012161.0	blaOXA	NA	3816
 beta-lactam	bla*	metallo-beta-lactamase	NF012229.1	bla	NA	31
-beta-lactam	bla*	subclass B1 metallo-beta-lactamase	NF000450.2	bla-B1-FLAV	NA	226
-beta-lactam	bla*	subclass B1 metallo-beta-lactamase	NF033088.2	bla	NA	2069
-beta-lactam	bla*	subclass B1 metallo-beta-lactamase, long type	NF041269.1	bla	NA	23
-beta-lactam	bla*	subclass B2 metallo-beta-lactamase	NF033087.1	bla	NA	32
-beta-lactam	bla*	subclass B3 metallo-beta-lactamase	NF033105.1	bla	NA	3242
-beta-lactam	bla1	class A beta-lactamase Bla1	NF033096.1	bla	NA	747
-beta-lactam	bla2	BcII family subclass B1 metallo-beta-lactamase	NF033095.1	bla2	NA	511
-beta-lactam	bla3	class A beta-lactamase BlaIII	NF041270.1	blaIII	NA	416
+beta-lactam	bla*	subclass B1 metallo-beta-lactamase	NF000450.2	bla-B1-FLAV	NA	222
+beta-lactam	bla*	subclass B1 metallo-beta-lactamase	NF033088.2	bla	NA	2110
+beta-lactam	bla*	subclass B1 metallo-beta-lactamase, long type	NF041269.1	bla	NA	20
+beta-lactam	bla*	subclass B2 metallo-beta-lactamase	NF033087.1	bla	NA	34
+beta-lactam	bla*	subclass B3 metallo-beta-lactamase	NF033105.1	bla	NA	3305
+beta-lactam	bla1	class A beta-lactamase Bla1	NF033096.1	bla	NA	787
+beta-lactam	bla2	BcII family subclass B1 metallo-beta-lactamase	NF033095.1	bla2	NA	517
+beta-lactam	bla3	class A beta-lactamase BlaIII	NF041270.1	blaIII	NA	427
 beta-lactam	blaA	class A beta-lactamase BlaA	NF033152.0	blaA	NA	37
 beta-lactam	blaACC	ACC family cephalosporin-hydrolyzing class C beta-lactamase	NF000397.2	blaACC	NA	8
 beta-lactam	blaACI	ACI family class A beta-lactamase	NF000448.2	blaACI	NA	15
-beta-lactam	blaACT	ACT family cephalosporin-hydrolyzing class C beta-lactamase	NF000385.4	blaACT	NA	575
-beta-lactam	blaADC	ADC family extended-spectrum class C beta-lactamase	NF000425.2	blaADC	NA	576
+beta-lactam	blaACT	ACT family cephalosporin-hydrolyzing class C beta-lactamase	NF000385.4	blaACT	NA	588
+beta-lactam	blaADC	ADC family extended-spectrum class C beta-lactamase	NF000425.2	blaADC	NA	611
 beta-lactam	blaAFM	AFM family subclass B1 metallo-beta-lactamase	NF033736.2	blaAFM	NA	1
 beta-lactam	blaAIM	AIM family subclass B3 metallo-beta-lactamase	NF000439.2	blaAIM	NA	11
-beta-lactam	blaALI	ALI family subclass B1 metallo-beta-lactamase	NF033582.2	blaALI	NA	26
-beta-lactam	blaAMZ	AMZ family class C beta-lactamase	NF041741.1	blaAMZ	NA	43
-beta-lactam	blaAQU	AQU family class C beta-lactamase	NF033467.0	blaAQU	NA	38
+beta-lactam	blaALI	ALI family subclass B1 metallo-beta-lactamase	NF033582.2	blaALI	NA	27
+beta-lactam	blaAMZ	AMZ family class C beta-lactamase	NF041741.1	blaAMZ	NA	44
+beta-lactam	blaAQU	AQU family class C beta-lactamase	NF033467.0	blaAQU	NA	43
 beta-lactam	blaARL	ARL family class A beta-lactamase	NF033386.1	blaARL	NA	11
-beta-lactam	blaASDC	ASDC family class C beta-lactamase	NF047361.1	blaASDC	NA	62
+beta-lactam	blaASDC	ASDC family class C beta-lactamase	NF047361.1	blaASDC	NA	63
 beta-lactam	blaAXC	AXC family carbapenem-hydrolyzing class A beta-lactamase	NF033929.1	blaAXC	NA	23
-beta-lactam	blaB	BlaB family subclass B1 metallo-beta-lactamase	NF033107.1	blaB	NA	22
-beta-lactam	blaBBI	BBI family class A beta-lactamase	NF033714.1	blaBBI	NA	38
+beta-lactam	blaB	BlaB family subclass B1 metallo-beta-lactamase	NF033107.1	blaB	NA	30
+beta-lactam	blaBBI	BBI family class A beta-lactamase	NF033714.1	blaBBI	NA	41
 beta-lactam	blaBCL	BCL family class A beta-lactamase	NF033060.0	blaBCL	NA	14
 beta-lactam	blaBEL	BEL family extended-spectrum class A beta-lactamase	NF000398.2	blaBEL	NA	2
 beta-lactam	blaBES	BES family class A beta-lactamase	NF000451.2	blaBES	NA	1
-beta-lactam	blaBJP	BJP family subclass B3 metallo-beta-lactamase	NF012140.0	blaBJP	NA	234
+beta-lactam	blaBJP	BJP family subclass B3 metallo-beta-lactamase	NF012140.0	blaBJP	NA	240
 beta-lactam	blaBMHC	BMHC family subclass B1 metallo-beta-lactamase	NF045721.1	blaBMHC	NA	1
 beta-lactam	blaBOR	BOR family class A beta-lactamase	NF040659.1	blaBOR	NA	13
-beta-lactam	blaBPU	BPU family class D beta-lactamase	NF012098.1	blaBPU	NA	351
+beta-lactam	blaBPU	BPU family class D beta-lactamase	NF012098.1	blaBPU	NA	357
 beta-lactam	blaBUT	BUT family class C beta-lactamase	NF038238.1	blaBUT	NA	9
 beta-lactam	blaC	class A beta-lactamase BlaC	NF041154.1	blaC	NA	41
-beta-lactam	blaCAE	CAE family broad-spectrum class A beta-lactamase	NF041590.1	blaCAE	NA	4
-beta-lactam	blaCAR	CAR family subclass B3 metallo-beta-lactamase	NF000469.2	blaCAR	NA	148
-beta-lactam	blaCARB	CARB family carbenicillin-hydrolyzing class A beta-lactamase	NF000188.2	blaCARB	NA	150
-beta-lactam	blaCARB	CARB/PSE/RTG family carbenicillin-hydrolyzing class A beta-lactamase	NF000481.1	blaCARB	NA	120
+beta-lactam	blaCAE	CAE family broad-spectrum class A beta-lactamase	NF041590.1	blaCAE	NA	5
+beta-lactam	blaCAR	CAR family subclass B3 metallo-beta-lactamase	NF000469.2	blaCAR	NA	166
+beta-lactam	blaCARB	CARB family carbenicillin-hydrolyzing class A beta-lactamase	NF000188.2	blaCARB	NA	154
+beta-lactam	blaCARB	CARB/PSE/RTG family carbenicillin-hydrolyzing class A beta-lactamase	NF000481.1	blaCARB	NA	129
 beta-lactam	blaCAU	CAU/MBL1b family subclass B3 metallo-beta-lactamase	NF000427.2	blaCAU	NA	46
 beta-lactam	blaCBP	CBP family penicillin-hydrolyzing class A beta-lactamase	NF000517.2	blaCBP	NA	6
-beta-lactam	blaCDD	CDD family class D beta-lactamase	NF033866.1	blaCDD	NA	61
-beta-lactam	blaCHM	CHM family subclass B1 metallo-beta-lactamase	NF041758.1	blaCHM	NA	114
+beta-lactam	blaCDD	CDD family class D beta-lactamase	NF033866.1	blaCDD	NA	64
+beta-lactam	blaCHM	CHM family subclass B1 metallo-beta-lactamase	NF041758.1	blaCHM	NA	116
 beta-lactam	blaCIA	CIA family extended-spectrum class A beta-lactamase	NF000446.2	blaCIA	NA	3
 beta-lactam	blaCIM	CIM family subclass B1 metallo-beta-lactamase	NF041441.1	blaCIM	NA	5
 beta-lactam	blaCMA/CSA	CMA family class C beta-lactamase	NF033700.1	blaCMA	NA	19
 beta-lactam	blaCMA/CSA	CSA family class C beta-lactamase	NF033698.1	blaCSA	NA	62
-beta-lactam	blaCME	CME family extended-spectrum class A beta-lactamase	NF000511.2	blaCME	NA	53
-beta-lactam	blaCMH	CMH family class C beta-lactamase	NF000419.2	blaCMH	NA	87
-beta-lactam	blaCMY	CMY-2 family class C beta-lactamase	NF000191.1	blaCMY	NA	344
-beta-lactam	blaCPS	CPS family subclass B3 metallo-beta-lactamase	NF000454.2	blaCPS	NA	27
+beta-lactam	blaCME	CME family extended-spectrum class A beta-lactamase	NF000511.2	blaCME	NA	61
+beta-lactam	blaCMH	CMH family class C beta-lactamase	NF000419.2	blaCMH	NA	88
+beta-lactam	blaCMY	CMY-2 family class C beta-lactamase	NF000191.1	blaCMY	NA	350
+beta-lactam	blaCPS	CPS family subclass B3 metallo-beta-lactamase	NF000454.2	blaCPS	NA	29
 beta-lactam	blaCRH	CRH family carbapenem-hydrolyzing class A beta-lactamase	NF033211.1	blaCRH	NA	15
 beta-lactam	blaCRP	CRP family carbapenem-hydrolyzing class A beta-lactamase	NF040548.1	blaCRP	NA	6
 beta-lactam	blaCSR	CSR family subclass B3 metallo-beta-lactamase-like protein	NF047339.1	blaCSR	NA	111
-beta-lactam	blaCTX-M	CTX-M family extended-spectrum class A beta-lactamase	NF033089.1	blaCTX-M	NA	128
-beta-lactam	blaCVI	CVI family subclass B2 metallo-beta-lactamase	NF038046.1	blaCVI	NA	6
-beta-lactam	blaDHA	DHA family class C beta-lactamase	NF012102.1	blaDHA	NA	87
+beta-lactam	blaCTX-M	CTX-M family extended-spectrum class A beta-lactamase	NF033089.1	blaCTX-M	NA	137
+beta-lactam	blaCVI	CVI family subclass B2 metallo-beta-lactamase	NF038046.1	blaCVI	NA	7
+beta-lactam	blaDHA	DHA family class C beta-lactamase	NF012102.1	blaDHA	NA	88
 beta-lactam	blaDIM	DIM family subclass B1 metallo-beta-lactamase	NF000445.2	blaDIM	NA	1
-beta-lactam	blaDIM	DIM/SIM/IMP family subclass B1 metallo-beta-lactamase	NF012145.1	blaDIM	NA	54
+beta-lactam	blaDIM	DIM/SIM/IMP family subclass B1 metallo-beta-lactamase	NF012145.1	blaDIM	NA	56
 beta-lactam	blaDYB	DYB family subclass B1 metallo-beta-lactamase	NF045731.1	blaDYB	NA	5
 beta-lactam	blaEAM	EAM family subclass B3 metallo-beta-lactamase	NF040470.1	blaEAM	NA	4
 beta-lactam	blaEBR	EBR family subclass B1 metallo-beta-lactamase	NF000444.3	blaEBR	NA	29
-beta-lactam	blaEC	BlaEC family class C beta-lactamase	NF000185.2	NA	NA	1085
-beta-lactam	blaECM	ECM family subclass B3 metallo-beta-lactamase	NF040468.1	blaECM	NA	8
+beta-lactam	blaEC	BlaEC family class C beta-lactamase	NF000185.2	NA	NA	1107
+beta-lactam	blaECM	ECM family subclass B3 metallo-beta-lactamase	NF040468.1	blaECM	NA	9
 beta-lactam	blaEFM	EFM family subclass B3 metallo-beta-lactamase	NF040469.1	blaEFM	NA	10
 beta-lactam	blaESP	ESP-1 family subclass B3 metallo-beta-lactamase	NF000455.2	blaESP	NA	9
-beta-lactam	blaEXO	Exo family class A beta-lactamase	NF033099.1	bla2a	NA	60
+beta-lactam	blaEXO	Exo family class A beta-lactamase	NF033099.1	bla2a	NA	76
 beta-lactam	blaFEZ	FEZ family subclass B3 metallo-beta-lactamase	NF000216.2	blaFEZ	NA	7
-beta-lactam	blaFONA	FONA family class A beta-lactamase	NF000323.2	blaFONA	NA	32
-beta-lactam	blaFOX	FOX family cephalosporin-hydrolyzing class C beta-lactamase	NF000399.2	blaFOX	NA	24
+beta-lactam	blaFONA	FONA family class A beta-lactamase	NF000323.2	blaFONA	NA	33
+beta-lactam	blaFOX	FOX family cephalosporin-hydrolyzing class C beta-lactamase	NF000399.2	blaFOX	NA	25
 beta-lactam	blaFRI	FRI family carbapenem-hydrolyzing class A beta-lactamase	NF000428.4	blaFRI	NA	1
 beta-lactam	blaFTU	FTU family class A beta-lactamase	NF000513.2	blaFTU	NA	15
 beta-lactam	blaGES	GES family class A beta-lactamase	NF012103.0	blaGES	NA	8
-beta-lactam	blaGIL	GIL family class A beta-lactamase	NF000505.2	blaGIL	NA	23
+beta-lactam	blaGIL	GIL family class A beta-lactamase	NF000505.2	blaGIL	NA	22
 beta-lactam	blaGMA	GMA family class A beta-lactamase	NF040812.1	blaGMA	NA	1
-beta-lactam	blaGOB	GOB family subclass B3 metallo-beta-lactamase	NF012101.1	blaGOB	NA	16
+beta-lactam	blaGOB	GOB family subclass B3 metallo-beta-lactamase	NF012101.1	blaGOB	NA	27
 beta-lactam	blaHBL	HBL family class A beta-lactamase	NF040780.1	blaHBL	NA	4
 beta-lactam	blaHER	HER family class A beta-lactamase	NF040940.1	blaHER	NA	27
 beta-lactam	blaHMB	HMB family subclass B1 metallo-beta-lactamase	NF041161.1	blaHMB	NA	1
 beta-lactam	blaIDC	IDC family class C beta-lactamase	NF038069.1	blaIDC	NA	1
-beta-lactam	blaIMI	IMI family carbapenem-hydrolyzing class A beta-lactamase	NF000400.3	blaIMI	NA	1
-beta-lactam	blaIMP	IMP family subclass B1 metallo-beta-lactamase	NF012147.1	blaIMP	NA	11
-beta-lactam	blaIND	IND family subclass B1 metallo-beta-lactamase	NF012149.0	blaIND	NA	143
+beta-lactam	blaIMI	IMI family carbapenem-hydrolyzing class A beta-lactamase	NF000400.3	blaIMI	NA	3
+beta-lactam	blaIMP	IMP family subclass B1 metallo-beta-lactamase	NF012147.1	blaIMP	NA	12
+beta-lactam	blaIND	IND family subclass B1 metallo-beta-lactamase	NF012149.0	blaIND	NA	144
 beta-lactam	blaKHM	KHM family subclass B1 metallo-beta-lactamase	NF041632.1	blaKHM	NA	8
 beta-lactam	blaKLUC	KLUC family extended-spectrum class A beta-lactamase	NF000452.2	blaKLUC	NA	2
-beta-lactam	blaKPC	KPC family carbapenem-hydrolyzing class A beta-lactamase	NF012141.0	blaKPC	NA	30
+beta-lactam	blaKPC	KPC family carbapenem-hydrolyzing class A beta-lactamase	NF012141.0	blaKPC	NA	34
 beta-lactam	blaL	BlaL family class A beta-lactamase	NF033101.0	NA	NA	4
-beta-lactam	blaL1	L1 family subclass B3 metallo-beta-lactamase	NF033106.1	blaL1	NA	317
-beta-lactam	blaL2	L2 family extended-spectrum class A beta-lactamase	NF000232.1	blaL2	NA	400
-beta-lactam	blaLAP	LAP family class A beta-lactamase	NF000383.2	blaLAP	NA	14
-beta-lactam	blaLAQ	LAQ family class C beta-lactamase	NF040478.1	blaLAQ	NA	18
-beta-lactam	blaLEN	LEN family class A beta-lactamase	NF000233.2	blaLEN	NA	89
+beta-lactam	blaL1	L1 family subclass B3 metallo-beta-lactamase	NF033106.1	blaL1	NA	322
+beta-lactam	blaL2	L2 family extended-spectrum class A beta-lactamase	NF000232.1	blaL2	NA	410
+beta-lactam	blaLAP	LAP family class A beta-lactamase	NF000383.2	blaLAP	NA	20
+beta-lactam	blaLAQ	LAQ family class C beta-lactamase	NF040478.1	blaLAQ	NA	19
+beta-lactam	blaLEN	LEN family class A beta-lactamase	NF000233.2	blaLEN	NA	90
 beta-lactam	blaLHK	LHK family class C beta-lactamase	NF033569.1	blaLHK	NA	20
 beta-lactam	blaLUT	LUT family class A beta-lactamase	NF000324.2	blaLUT	NA	8
 beta-lactam	blaMAB	MAB family class A beta-lactamase	NF041113.1	blaMAB	NA	78
 beta-lactam	blaMCA	MCA family class C beta-lactamase	NF033406.1	blaMCA	NA	17
-beta-lactam	blaMIR	MIR family cephalosporin-hydrolyzing class C beta-lactamase	NF000187.3	blaMIR	NA	57
-beta-lactam	blaMOX	CMY-1/MOX family class C beta-lactamase	NF000239.3	blaMOX	NA	155
+beta-lactam	blaMIR	MIR family cephalosporin-hydrolyzing class C beta-lactamase	NF000187.3	blaMIR	NA	58
+beta-lactam	blaMOX	CMY-1/MOX family class C beta-lactamase	NF000239.3	blaMOX	NA	176
 beta-lactam	blaMUN	MUN family extended-spectrum class A beta-lactamase	NF045651.1	blaMUN	NA	3
 beta-lactam	blaMUS	MUS family subclass B1 metallo-beta-lactamase	NF000441.2	blaMUS	NA	11
-beta-lactam	blaNDM	NDM family subclass B1 metallo-beta-lactamase	NF000259.2	blaNDM	NA	26
-beta-lactam	blaOCH	OCH family extended-spectrum class C beta-lactamase	NF000264.2	blaOCH	NA	60
-beta-lactam	blaOKP	OKP family broad-spectrum class A beta-lactamase	NF000265.2	blaOKP	NA	152
+beta-lactam	blaNDM	NDM family subclass B1 metallo-beta-lactamase	NF000259.2	blaNDM	NA	28
+beta-lactam	blaOCH	OCH family extended-spectrum class C beta-lactamase	NF000264.2	blaOCH	NA	61
+beta-lactam	blaOKP	OKP family broad-spectrum class A beta-lactamase	NF000265.2	blaOKP	NA	164
 beta-lactam	blaORN	ORN family class A beta-lactamase	NF038401.1	blaORN	NA	13
-beta-lactam	blaOXA	OXA-1 family class D beta-lactamase	NF000388.2	blaOXA	NA	92
-beta-lactam	blaOXA	OXA-10 family class D beta-lactamase	NF000386.2	blaOXA	NA	30
+beta-lactam	blaOXA	OXA-1 family class D beta-lactamase	NF000388.2	blaOXA	NA	95
+beta-lactam	blaOXA	OXA-10 family class D beta-lactamase	NF000386.2	blaOXA	NA	31
 beta-lactam	blaOXA	OXA-1036 family carbapenem-hydrolyzing class D beta-lactamase	NF040529.1	blaOXA	NA	8
-beta-lactam	blaOXA	OXA-1043 family class D beta-lactamase	NF040600.1	blaOXA	NA	518
-beta-lactam	blaOXA	OXA-1090 family carbapenem-hydrolyzing class D beta-lactamase	NF040784.1	blaOXA	NA	58
+beta-lactam	blaOXA	OXA-1043 family class D beta-lactamase	NF040600.1	blaOXA	NA	528
+beta-lactam	blaOXA	OXA-1090 family carbapenem-hydrolyzing class D beta-lactamase	NF040784.1	blaOXA	NA	62
 beta-lactam	blaOXA	OXA-1091 family oxacillin-hydrolyzing class D beta-lactamase	NF040803.1	blaOXA	NA	33
 beta-lactam	blaOXA	OXA-114 family class D beta-lactamase	NF033818.0	blaOXA	NA	19
-beta-lactam	blaOXA	OXA-12 family class D beta-lactamase	NF033702.0	blaOXA	NA	340
+beta-lactam	blaOXA	OXA-12 family class D beta-lactamase	NF033702.0	blaOXA	NA	351
 beta-lactam	blaOXA	OXA-1238 family class D beta-lactamase	NF045807.1	blaOXA	NA	2
 beta-lactam	blaOXA	OXA-1258 family class D beta-lactamase	NF047460.1	blaOXA	NA	3
-beta-lactam	blaOXA	OXA-134 family carbapenem-hydrolyzing class D beta-lactamase	NF000436.2	blaOXA	NA	42
+beta-lactam	blaOXA	OXA-1327 family class D beta-lactamase	NF047782.1	blaOXA	NA	19
+beta-lactam	blaOXA	OXA-134 family carbapenem-hydrolyzing class D beta-lactamase	NF000436.2	blaOXA	NA	43
 beta-lactam	blaOXA	OXA-143 family carbapenem-hydrolyzing class D beta-lactamase	NF000464.2	blaOXA	NA	4
 beta-lactam	blaOXA	OXA-184 family class D beta-lactamase	NF000461.2	blaOXA	NA	53
-beta-lactam	blaOXA	OXA-198 family carbapenem-hydrolyzing class D beta-lactamase	NF040806.1	blaOXA	NA	3
+beta-lactam	blaOXA	OXA-198 family carbapenem-hydrolyzing class D beta-lactamase	NF040806.1	blaOXA	NA	4
 beta-lactam	blaOXA	OXA-2 family class D beta-lactamase	NF000267.2	blaOXA	NA	14
 beta-lactam	blaOXA	OXA-211 family carbapenem-hydrolyzing class D beta-lactamase	NF000417.2	blaOXA	NA	51
-beta-lactam	blaOXA	OXA-213 family carbapenem-hydrolyzing class D beta-lactamase	NF000269.2	blaOXA	NA	158
+beta-lactam	blaOXA	OXA-213 family carbapenem-hydrolyzing class D beta-lactamase	NF000269.2	blaOXA	NA	156
 beta-lactam	blaOXA	OXA-214 family carbapenem-hydrolyzing class D beta-lactamase	NF000418.2	blaOXA	NA	7
-beta-lactam	blaOXA	OXA-22 family class D beta-lactamase	NF033509.1	blaOXA	NA	47
+beta-lactam	blaOXA	OXA-22 family class D beta-lactamase	NF033509.1	blaOXA	NA	46
 beta-lactam	blaOXA	OXA-229 family carbapenem-hydrolyzing class D beta-lactamase	NF000501.2	blaOXA	NA	25
-beta-lactam	blaOXA	OXA-23 family carbapenem-hydrolyzing class D beta-lactamase	NF000266.2	blaOXA	NA	32
-beta-lactam	blaOXA	OXA-24 family carbapenem-hydrolyzing class D beta-lactamase	NF000434.2	blaOXA	NA	5
+beta-lactam	blaOXA	OXA-23 family carbapenem-hydrolyzing class D beta-lactamase	NF000266.2	blaOXA	NA	31
+beta-lactam	blaOXA	OXA-24 family carbapenem-hydrolyzing class D beta-lactamase	NF000434.2	blaOXA	NA	8
 beta-lactam	blaOXA	OXA-258 family class D beta-lactamase	NF045795.1	blaOXA	NA	7
-beta-lactam	blaOXA	OXA-266 family class D beta-lactamase	NF033653.1	blaOXA	NA	11
+beta-lactam	blaOXA	OXA-266 family class D beta-lactamase	NF033653.1	blaOXA	NA	12
 beta-lactam	blaOXA	OXA-274 family carbapenem-hydrolyzing class D beta-lactamase	NF033648.1	blaOXA	NA	12
 beta-lactam	blaOXA	OXA-286 family carbapenem-hydrolyzing class D beta-lactamase	NF000520.2	blaOXA	NA	28
-beta-lactam	blaOXA	OXA-294 family class D beta-lactamase	NF038386.1	blaOXA	NA	21
+beta-lactam	blaOXA	OXA-294 family class D beta-lactamase	NF038386.1	blaOXA	NA	22
 beta-lactam	blaOXA	OXA-364 family class D beta-lactamase	NF033815.0	blaOXA	NA	9
 beta-lactam	blaOXA	OXA-42 family class D beta-lactamase	NF040531.1	blaOXA	NA	40
-beta-lactam	blaOXA	OXA-427 family carbapenem-hydrolyzing class D beta-lactamase	NF038217.2	blaOXA	NA	9
+beta-lactam	blaOXA	OXA-427 family carbapenem-hydrolyzing class D beta-lactamase	NF038217.2	blaOXA	NA	11
 beta-lactam	blaOXA	OXA-46 family oxacillin-hydrolyzing class D beta-lactamase	NF033104.0	blaOXA	NA	2
 beta-lactam	blaOXA	OXA-48 family class D beta-lactamase	NF000387.2	blaOXA	NA	43
 beta-lactam	blaOXA	OXA-493 family class D beta-lactamase	NF000462.2	blaOXA	NA	85
 beta-lactam	blaOXA	OXA-5 family class D beta-lactamase	NF040527.2	blaOXA	NA	5
 beta-lactam	blaOXA	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase	NF000432.2	blaOXA	NA	102
 beta-lactam	blaOXA	OXA-50-var family class D beta-lactamase	NF047495.1	blaOXA	NA	5
-beta-lactam	blaOXA	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase	NF000268.2	blaOXA	NA	103
+beta-lactam	blaOXA	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase	NF000268.2	blaOXA	NA	111
 beta-lactam	blaOXA	OXA-548 family class D beta-lactamase	NF040530.1	blaOXA	NA	39
 beta-lactam	blaOXA	OXA-55 family carbapenem-hydrolyzing class D beta-lactamase	NF033667.1	blaOXA	NA	62
 beta-lactam	blaOXA	OXA-576 family class D beta-lactamase	NF033613.1	blaOXA	NA	1
-beta-lactam	blaOXA	OXA-58 family carbapenem-hydrolyzing class D beta-lactamase	NF000500.2	blaOXA	NA	4
-beta-lactam	blaOXA	OXA-60 family carbapenem-hydrolyzing class D beta-lactamase	NF000395.3	blaOXA	NA	43
-beta-lactam	blaOXA	OXA-61 family class D beta-lactamase	NF000435.2	blaOXA	NA	42
-beta-lactam	blaOXA	OXA-62 family carbapenem-hydrolyzing class D beta-lactamase	NF000430.2	blaOXA	NA	39
+beta-lactam	blaOXA	OXA-58 family carbapenem-hydrolyzing class D beta-lactamase	NF000500.2	blaOXA	NA	5
+beta-lactam	blaOXA	OXA-60 family carbapenem-hydrolyzing class D beta-lactamase	NF000395.3	blaOXA	NA	42
+beta-lactam	blaOXA	OXA-61 family class D beta-lactamase	NF000435.2	blaOXA	NA	46
+beta-lactam	blaOXA	OXA-62 family carbapenem-hydrolyzing class D beta-lactamase	NF000430.2	blaOXA	NA	41
 beta-lactam	blaOXA	OXA-63 family oxacillin-hydrolyzing class D beta-lactamase	NF000429.2	blaOXA	NA	3
 beta-lactam	blaOXA	OXA-679 family carbapenem-hydrolyzing class D beta-lactamase	NF038333.1	blaOXA	NA	2
 beta-lactam	blaOXA	OXA-727 family class D beta-lactamase	NF033666.1	blaOXA	NA	2
 beta-lactam	blaOXA	OXA-732 family class D beta-lactamase	NF040805.1	blaOXA	NA	1
 beta-lactam	blaOXA	OXA-837 family class D beta-lactamase	NF042983.1	blaOXA	NA	15
-beta-lactam	blaOXA	OXA-85 family oxacillin-hydrolyzing class D beta-lactamase	NF000502.2	blaOXA	NA	2
-beta-lactam	blaOXA	OXA-9 family oxacillin-hydrolyzing class D beta-lactamase	NF040532.1	blaOXA	NA	7
-beta-lactam	blaOXA	OXA-919 family class D beta-lactamase	NF038183.1	blaOXA	NA	17
-beta-lactam	blaOXY	OXY family extended-spectrum class A beta-lactamase	NF000271.2	blaOXY	NA	52
-beta-lactam	blaP	class A beta-lactamase BlaP	NF012156.1	blaP	NA	46
+beta-lactam	blaOXA	OXA-85 family oxacillin-hydrolyzing class D beta-lactamase	NF000502.2	blaOXA	NA	3
+beta-lactam	blaOXA	OXA-9 family oxacillin-hydrolyzing class D beta-lactamase	NF040532.1	blaOXA	NA	8
+beta-lactam	blaOXA	OXA-919 family class D beta-lactamase	NF038183.1	blaOXA	NA	18
+beta-lactam	blaOXY	OXY family extended-spectrum class A beta-lactamase	NF000271.2	blaOXY	NA	53
+beta-lactam	blaP	class A beta-lactamase BlaP	NF012156.1	blaP	NA	47
 beta-lactam	blaPAC	PAC family class C beta-lactamase	NF033159.0	blaPAC	NA	2
-beta-lactam	blaPAD	PAD family carbapenem-hydrolyzing class A beta-lactamase	NF040472.1	blaPAD	NA	3
+beta-lactam	blaPAD	PAD family carbapenem-hydrolyzing class A beta-lactamase	NF040472.1	blaPAD	NA	4
 beta-lactam	blaPAM	PAM family subclass B3 metallo-beta-lactamase	NF040644.1	blaPAM	NA	8
 beta-lactam	blaPAU	PAU family class A beta-lactamase	NF033867.1	blaPAU	NA	1
-beta-lactam	blaPDC	PDC family class C beta-lactamase	NF000422.6	blaPDC	NA	162
+beta-lactam	blaPDC	PDC family class C beta-lactamase	NF000422.6	blaPDC	NA	163
 beta-lactam	blaPDC	PDC variant family class C beta-lactamase	NF000519.2	blaPDC	NA	4
 beta-lactam	blaPEDO	PEDO-1 family subclass B3 metallo-beta-lactamase	NF000457.2	blaB3PEDO	NA	5
-beta-lactam	blaPEDO	PEDO-2 family subclass B3 metallo-beta-lactamase	NF000458.2	blaB3PEDO	NA	14
-beta-lactam	blaPEDO	PEDO-3 family subclass B1 metallo-beta-lactamase	NF000453.2	blaB1PEDO	NA	14
-beta-lactam	blaPEN	PEN family class A beta-lactamase, Bcc-type	NF000320.3	blaPEN-bcc	NA	579
-beta-lactam	blaPEN	PEN family class A beta-lactamase, Bpc-type	NF000321.3	blaPEN-bpc	NA	57
+beta-lactam	blaPEDO	PEDO-2 family subclass B3 metallo-beta-lactamase	NF000458.2	blaB3PEDO	NA	13
+beta-lactam	blaPEDO	PEDO-3 family subclass B1 metallo-beta-lactamase	NF000453.2	blaB1PEDO	NA	15
+beta-lactam	blaPEN	PEN family class A beta-lactamase, Bcc-type	NF000320.3	blaPEN-bcc	NA	582
+beta-lactam	blaPEN	PEN family class A beta-lactamase, Bpc-type	NF000321.3	blaPEN-bpc	NA	58
 beta-lactam	blaPEN	PEN-A family class A beta-lactamase	NF041143.1	blaPEN-A	NA	90
-beta-lactam	blaPEN	PEN-B family class A beta-lactamase	NF041138.1	blaPEN-B	NA	126
+beta-lactam	blaPEN	PEN-B family class A beta-lactamase	NF041138.1	blaPEN-B	NA	127
 beta-lactam	blaPEN	PEN-N family class A beta-lactamase	NF041253.1	blaPEN-N	NA	65
 beta-lactam	blaPER	PER family extended-spectrum class A beta-lactamase	NF000389.2	blaPER	NA	14
 beta-lactam	blaPFM	PFM family subclass B2 metallo-beta-lactamase	NF038003.1	blaPFM	NA	7
 beta-lactam	blaPJM	PJM family subclass B3 metallo-beta-lactamase	NF040874.1	blaPJM	NA	2
-beta-lactam	blaPLA	PLA family class A beta-lactamase	NF038398.1	blaPLA	NA	10
+beta-lactam	blaPLA	PLA family class A beta-lactamase	NF038398.1	blaPLA	NA	11
 beta-lactam	blaPME	PME family extended-spectrum class A beta-lactamase	NF000414.2	blaPME	NA	1
 beta-lactam	blaPNC	PNC family class C beta-lactamase	NF045671.1	blaPNC	NA	60
 beta-lactam	blaPOM	POM family subclass B3 metallo-beta-lactamase	NF000438.2	blaPOM	NA	13
 beta-lactam	blaPRC	PRC family class C beta-lactamase	NF038359.1	blaPRC	NA	22
-beta-lactam	blaPSE	PSE family carbenicillin-hydrolyzing class A beta-lactamase	NF000480.2	blaPSE	NA	38
+beta-lactam	blaPSE	PSE family carbenicillin-hydrolyzing class A beta-lactamase	NF000480.2	blaPSE	NA	40
 beta-lactam	blaPST	PST family subclass B1 metallo-beta-lactamase	NF033584.1	blaPST	NA	52
 beta-lactam	blaPSV	PSV family class A beta-lactamase	NF033174.0	blaPSV	NA	17
 beta-lactam	blaPSZ	PSZ family class C beta-lactamase	NF041665.1	blaPSZ	NA	30
 beta-lactam	blaRAA	RAA family extended-spectrum beta-lactamase	NF040467.1	blaRAA	NA	3
 beta-lactam	blaRAD	RAD family carbapenem-hydrolyzing class D beta-lactamase	NF041187.1	blaRAD	NA	3
-beta-lactam	blaRAHN	RAHN family extended-spectrum class A beta-lactamase	NF040934.1	blaRAHN	NA	25
+beta-lactam	blaRAHN	RAHN family extended-spectrum class A beta-lactamase	NF040934.1	blaRAHN	NA	24
 beta-lactam	blaRASA	RASA family extended-spectrum class A beta-lactamase	NF040609.1	blaRASA	NA	2
 beta-lactam	blaRATA	RATA family class A beta-lactamase	NF041445.1	blaRATA	NA	8
 beta-lactam	blaRCP	RCP family class A beta-lactamase	NF033466.0	blaRCP	NA	8
@@ -407,230 +411,230 @@ beta-lactam	blaROB	ROB family class A beta-lactamase	NF033568.1	blaROB	NA	9
 beta-lactam	blaRTG	RTG family carbenicillin-hydrolyzing class A beta-lactamase	NF000284.1	blaRTG	NA	9
 beta-lactam	blaRUB	RUB family broad-spectrum class A beta-lactamase	NF033204.1	blaRUB	NA	2
 beta-lactam	blaSCO	SCO family class A beta-lactamase	NF000327.2	blaSCO	NA	3
-beta-lactam	blaSED	SED family class A beta-lactamase	NF000328.2	blaSED	NA	49
-beta-lactam	blaSFDC	SFDC family class C beta-lactamase	NF038366.1	blaSFDC	NA	54
-beta-lactam	blaSGM	SGM family class A beta-lactamase	NF000512.2	blaSGM	NA	140
-beta-lactam	blaSHV	SHV family class A beta-lactamase	NF000285.3	blaSHV	NA	258
+beta-lactam	blaSED	SED family class A beta-lactamase	NF000328.2	blaSED	NA	51
+beta-lactam	blaSFDC	SFDC family class C beta-lactamase	NF038366.1	blaSFDC	NA	55
+beta-lactam	blaSGM	SGM family class A beta-lactamase	NF000512.2	blaSGM	NA	142
+beta-lactam	blaSHV	SHV family class A beta-lactamase	NF000285.3	blaSHV	NA	299
 beta-lactam	blaSHV	SHV/LEN/OKP family class A beta-lactamase	NF012143.0	blaSHV	NA	17
 beta-lactam	blaSMB	SMB-1 family subclass B3 metallo-beta-lactamase	NF000287.1	blaSMB	NA	10
+beta-lactam	blaSPI	SPI family subclass B1 metallo-beta-lactamase	NF047753.1	blaSPI	NA	5
 beta-lactam	blaSPM	SPM family subclass B1 metallo-beta-lactamase	NF012150.3	blaSPM	NA	1
-beta-lactam	blaSPR	SPR family subclass B3 metallo-beta-lactamase	NF041137.2	blaSPR	NA	95
-beta-lactam	blaSRT	SRT/SST family class C beta-lactamase	NF000423.2	blaSRT	NA	177
-beta-lactam	blaTEM	TEM family class A beta-lactamase	NF000531.2	blaTEM	NA	222
-beta-lactam	blaTER	TER family class A beta-lactamase	NF038400.1	blaTER	NA	27
+beta-lactam	blaSPR	SPR family subclass B3 metallo-beta-lactamase	NF041137.2	blaSPR	NA	101
+beta-lactam	blaSRT	SRT/SST family class C beta-lactamase	NF000423.2	blaSRT	NA	180
+beta-lactam	blaTEM	TEM family class A beta-lactamase	NF000531.2	blaTEM	NA	276
+beta-lactam	blaTER	TER family class A beta-lactamase	NF038400.1	blaTER	NA	30
 beta-lactam	blaTHIN	THIN family subclass B3 metallo-beta-lactamase	NF000440.2	blaTHIN	NA	1
 beta-lactam	blaTLA	TLA family extended-spectrum class A beta-lactamase	NF000298.2	blaTLA	NA	2
 beta-lactam	blaTTU	TTU family subclass B1 metallo-beta-lactamase	NF033585.1	blaTTU	NA	7
 beta-lactam	blaTUS	TUS family subclass B1 metallo-beta-lactamase	NF000442.2	blaTUS	NA	4
 beta-lactam	blaVCC	VCC family carbapenem-hydrolyzing class A beta-lactamase	NF000518.2	blaVCC	NA	1
 beta-lactam	blaVEB	VEB family extended-spectrum class A beta-lactamase	NF000390.2	blaVEB	NA	14
-beta-lactam	blaVIM	VIM family subclass B1 metallo-beta-lactamase	NF012100.0	blaVIM	NA	13
+beta-lactam	blaVIM	VIM family subclass B1 metallo-beta-lactamase	NF012100.0	blaVIM	NA	12
 beta-lactam	blaVMB	VMB family subclass B1 metallo-beta-lactamase	NF038184.1	blaVMB	NA	4
 beta-lactam	blaWUS	WUS family subclass B1 metallo-beta-lactamase	NF040860.1	blaWUS	NA	2
 beta-lactam	blaYEM	YEM family subclass B2 metallo-beta-lactamase	NF038166.1	blaYEM	NA	5
 beta-lactam	blaYRC	YRC family class C beta-lactamase	NF038089.1	blaYRC	NA	8
 beta-lactam	blaZ	mecC-type penicillin-hydrolyzing class A beta-lactamase BlaZ	NF033140.0	blaZ	NA	5
-beta-lactam	blaZ	penicillin-hydrolyzing class A beta-lactamase BlaZ	NF033139.1	blaZ	NA	339
+beta-lactam	blaZ	penicillin-hydrolyzing class A beta-lactamase BlaZ	NF033139.1	blaZ	NA	346
 beta-lactam	cblA	CblA family class A beta-lactamase	NF033098.1	NA	NA	34
 beta-lactam	cepA	CepA family extended-spectrum class A beta-lactamase	NF033102.1	NA	NA	23
 beta-lactam	cfiA	CfiA family subclass B1 metallo-beta-lactamase	NF000322.2	cfiA	NA	7
-beta-lactam	cfxA	CfxA family broad-spectrum class A beta-lactamase	NF033100.1	NA	NA	135
-beta-lactam	cphA	CphA family subclass B2 metallo-beta-lactamase	NF000329.2	NA	NA	564
+beta-lactam	cfxA	CfxA family broad-spectrum class A beta-lactamase	NF033100.1	NA	NA	134
+beta-lactam	cphA	CphA family subclass B2 metallo-beta-lactamase	NF000329.2	NA	NA	595
 beta-lactam	mec*	PBP2a family beta-lactam-resistant peptidoglycan transpeptidase	NF000237.1	mec	NA	3
-beta-lactam	mecA	PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecA	NF000409.1	mecA	NA	246
-beta-lactam	mecA	PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecA1	NF000410.1	mecA1	NA	102
+beta-lactam	mecA	PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecA	NF000409.1	mecA	NA	247
+beta-lactam	mecA	PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecA1	NF000410.1	mecA1	NA	104
 beta-lactam	mecA	PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecA2	NF000408.1	mecA2	NA	4
 beta-lactam	mecB	PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecB	NF000406.1	mecB	NA	10
 beta-lactam	mecC	PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecC	NF000407.1	mecC	NA	4
-beta-lactam	mecD	PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecD	NF033378.1	mecD	NA	1
+beta-lactam	mecD	PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecD	NF033378.1	mecD	NA	2
 beta-lactam	pbp2m	penicillin-binding protein PBP2M	NBR016714	pbp2m	NA	40
-beta-lactam	varG	VarG family subclass B1-like metallo-beta-lactamase	NF033574.1	NA	NA	240
-biocide	aceI	AceI family chlorhexidine efflux PACE transporter	NF033663.1	NA	NA	13
-biocide	aceI	chlorhexidine efflux PACE transporter AceI	NBR006334	aceI	NA	551
+beta-lactam	varG	VarG family subclass B1-like metallo-beta-lactamase	NF033574.1	NA	NA	242
+biocide	aceI	AceI family chlorhexidine efflux PACE transporter	NF033663.1	NA	NA	15
+biocide	aceI	chlorhexidine efflux PACE transporter AceI	NBR006334	aceI	NA	561
 biocide	bcrB	quaternary ammonium compound efflux SMR transporter BcrB	NF033469.1	bcrB	NA	6
 biocide	bcrC	quaternary ammonium compound efflux SMR transporter BcrC	NF033470.1	bcrC	NA	5
-biocide	dinF	MATE family efflux transporter DinF	NF007690.0	dinF	PRK10367	7405
+biocide	dinF	MATE family efflux transporter DinF	NF007690.0	dinF	PRK10367	7609
 biocide	ebrA	multidrug efflux SMR transporter subunit EbrA	NBR006347	ebrA	NA	53
-biocide	ebrB	multidrug efflux SMR transporter subunit EbrB	NBR006346	ebrB	NA	68
+biocide	ebrB	multidrug efflux SMR transporter subunit EbrB	NBR006346	ebrB	NA	67
 biocide	emrC	quaternary ammonium compound efflux SMR transporter EmrC	NBR012193	emrC	NA	14
 biocide	emrE	quaternary ammonium compound efflux SMR transporter EmrE	NBR012247	emrE	NA	2
 biocide	farA	fatty acid resistance MFS efflux transporter adaptor subunit FarA	NBR006006	farA	NA	164
-biocide	farB	fatty acid resistance MFS efflux transporter permease subunit FarB	NBR006007	farB	NA	191
-biocide	farE	fatty acid efflux MMPL transporter FarE	NBR010361	farE	NA	653
+biocide	farB	fatty acid resistance MFS efflux transporter permease subunit FarB	NBR006007	farB	NA	190
+biocide	farE	fatty acid efflux MMPL transporter FarE	NBR010361	farE	NA	664
 biocide	hsmR	multidrug efflux SMR transporter protein HsmR	NBR008238	hsmR	NA	4
-biocide	kmrA	efflux MFS transporter KmrA	NBR006512	kmrA	NA	718
+biocide	kmrA	efflux MFS transporter KmrA	NBR006512	kmrA	NA	736
 biocide	mdrM	multidrug efflux MFS transporter MdrM	NBR014718	mdrM	NA	166
 biocide	mdrT	cholic acid efflux MFS transporter MdrT	NBR014711	mdrT	NA	126
-biocide	opmH	efflux transporter outer membrane subunit OpmH	NBR006712	opmH	NA	184
+biocide	opmH	efflux transporter outer membrane subunit OpmH	NBR006712	opmH	NA	186
 biocide	qac*	Qac family quaternary ammonium compound efflux SMR transporter	NF033137.0	NA	NA	30
 biocide	qac*	Qac-pB8 family quaternary ammonium compound efflux SMR transporter	NF000148.1	qac	NA	6
 biocide	qac*	QacCGHJ group quaternary ammonium compound efflux SMR transporter	NF000384.1	qac	NA	33
-biocide	qacA/B	QacA/B family quaternary ammonium compound efflux MFS transporter	NF000089.1	qac	NA	108
+biocide	qacA/B	QacA/B family quaternary ammonium compound efflux MFS transporter	NF000089.1	qac	NA	111
 biocide	qacC	quaternary ammonium compound efflux SMR transporter QacC	NF000023.1	qacC	NA	25
-biocide	qacE	quaternary ammonium compound efflux SMR transporter QacE	NBR007065	qacE	NA	14
-biocide	qacE	quaternary ammonium compound efflux SMR transporter QacE	NF000276.2	qacE	NA	149
+biocide	qacE	quaternary ammonium compound efflux SMR transporter QacE	NBR007065	qacE	NA	15
+biocide	qacE	quaternary ammonium compound efflux SMR transporter QacE	NF000276.2	qacE	NA	163
 biocide	qacF/L	quaternary ammonium compound efflux SMR transporter QacL	NF000067.2	qac	NA	39
-biocide	qacG	quaternary ammonium compound efflux SMR transporter QacG	NF000277.1	qacG	NA	21
+biocide	qacG	quaternary ammonium compound efflux SMR transporter QacG	NF000277.1	qacG	NA	23
 biocide	qacG	quaternary ammonium compound efflux SMR transporter QacG2	NF000278.1	qacG2	NA	5
 biocide	qacH	quaternary ammonium compound efflux SMR transporter QacH	NBR012192	qacH	NA	33
 biocide	qacH	quaternary ammonium compound efflux SMR transporter QacH	NF000279.1	qacH	NA	11
 biocide	qacJ	quaternary ammonium compound efflux SMR transporter QacJ	NF012170.0	qacJ	NA	7
-biocide	qacK	quaternary ammonium compound efflux SMR transporter QacK	NF033136.1	qacK	NA	11
-biocide	sepA	multidrug efflux transporter SepA	NBR005973	sepA	NA	96
+biocide	qacK	quaternary ammonium compound efflux SMR transporter QacK	NF033136.1	qacK	NA	12
+biocide	sepA	multidrug efflux transporter SepA	NBR005973	sepA	NA	98
 biocide	smr	multidrug efflux SMR transporter Smr	NF000280.1	smr	NA	9
-biocide	smvA	SmvA family efflux MFS transporter	NF011571.1	NA	PRK14995	449
-biocide	smvA	methyl viologen efflux MFS transporter SmvA	NBR006371	smvA	NA	276
-biocide	srpA	solvent efflux RND transporter periplasmic adaptor subunit SrpA	NBR006423	srpA	NA	27
-biocide	srpB	solvent efflux RND transporter permease subunit SrpB	NBR006424	srpB	NA	35
-biocide	srpC	solvent efflux RND transporter outer membrane subunit SrpC	NBR006425	srpC	NA	32
-biocide	sugE	SugE family quaternary ammonium compound efflux SMR transporter	NBR014491	NA	NA	26
-biocide	sugE	quaternary ammonium compound efflux SMR transporter SugE	NBR000812	sugE	NA	1
-biocide	sugE	quaternary ammonium compound efflux SMR transporter SugE	NF008512.0	sugE	PRK11431	8385
+biocide	smvA	SmvA family efflux MFS transporter	NF011571.1	NA	PRK14995	451
+biocide	smvA	methyl viologen efflux MFS transporter SmvA	NBR006371	smvA	NA	278
+biocide	srpA	solvent efflux RND transporter periplasmic adaptor subunit SrpA	NBR006423	srpA	NA	29
+biocide	srpB	solvent efflux RND transporter permease subunit SrpB	NBR006424	srpB	NA	37
+biocide	srpC	solvent efflux RND transporter outer membrane subunit SrpC	NBR006425	srpC	NA	33
+biocide	sugE	SugE family quaternary ammonium compound efflux SMR transporter	NBR014491	NA	NA	27
+biocide	sugE	quaternary ammonium compound efflux SMR transporter SugE	NF008512.0	sugE	PRK11431	8541
 biocide	sugE	quaternary ammonium compound efflux SMR transporter SugE1	NBR014707	sugE1	NA	32
 biocide	sugE	quaternary ammonium compound efflux SMR transporter SugE2	NBR014709	sugE2	NA	38
-biocide	triA	triclosan efflux RND transporter adaptor protein TriA	NBR006711	triA	NA	147
-biocide	triB	triclosan efflux RND transporter adaptor protein TriB	NBR006450	triB	NA	134
-biocide	triC	triclosan efflux RND transporter permease subunit TriC	NBR006449	triC	NA	225
+biocide	triA	triclosan efflux RND transporter adaptor protein TriA	NBR006711	triA	NA	152
+biocide	triB	triclosan efflux RND transporter adaptor protein TriB	NBR006450	triB	NA	137
+biocide	triC	triclosan efflux RND transporter permease subunit TriC	NBR006449	triC	NA	228
 biocide	ttgE	multidrug efflux RND transporter permease subunit TtgE	NBR008252	ttgE	NA	2
-biocide	vcrM	sodium-coupled multidrug efflux MATE transporter VcrM	NBR006003	vcrM	NA	156
-biocide	vmeG	efflux RND transporter periplasmic adaptor subunit VmeG	NBR006396	vmeG	NA	144
-biocide	vmeH	efflux RND transporter periplasmic adaptor subunit VmeH	NBR006397	vmeH	NA	174
-biocide	vmeI	efflux RND transporter permease subunit VmeI	NBR006395	vmeI	NA	625
-biocide	vmrA	sodium-coupled multidrug efflux MATE transporter VmrA	NBR006324	vmrA	NA	314
-bleomycin	ble*	BLMA family bleomycin binding protein	NF000028.1	ble	NA	1
+biocide	vcrM	sodium-coupled multidrug efflux MATE transporter VcrM	NBR006003	vcrM	NA	160
+biocide	vmeG	efflux RND transporter periplasmic adaptor subunit VmeG	NBR006396	vmeG	NA	149
+biocide	vmeH	efflux RND transporter periplasmic adaptor subunit VmeH	NBR006397	vmeH	NA	181
+biocide	vmeI	efflux RND transporter permease subunit VmeI	NBR006395	vmeI	NA	646
+biocide	vmrA	sodium-coupled multidrug efflux MATE transporter VmrA	NBR006324	vmrA	NA	332
+bleomycin	ble*	BLMA family bleomycin binding protein	NF000028.1	ble	NA	2
 bleomycin	ble*	BLMT family bleomycin binding protein	NF000005.4	ble	NA	16
-bleomycin	ble*	bleomycin binding protein Ble-MBL	NF012202.0	ble	NA	30
-bleomycin	bleO	bleomycin binding protein	NF000027.1	bleO	NA	65
+bleomycin	ble*	bleomycin binding protein Ble-MBL	NF012202.0	ble	NA	50
+bleomycin	bleO	bleomycin binding protein	NF000027.1	bleO	NA	66
 bleomycin	blmB	bleomycin family antibiotic N-acetyltransferase BlmB	NF000483.1	blmB	NA	3
 bleomycin	tlmA	phleomycin/bleomycin binding protein Ble-Sh	NF000489.1	ble-Sh	NA	4
 bleomycin	zbmA	zorbamycin binding protein ZbmA	NF000479.1	zbmA	NA	1
-colistin	almE	lipid A modification system glycine--protein ligase AlmE	NBR000499	almE	NA	326
+colistin	almE	lipid A modification system glycine--protein ligase AlmE	NBR000499	almE	NA	334
 colistin	almF	lipid A modification system glycine carrier protein AlmF	NBR000498	almF	NA	37
-colistin	almG	glycine--lipid A transferase AlmG	NBR000175	almG	NA	198
-colistin	arnA	bifunctional UDP-4-amino-4-deoxy-L-arabinose formyltransferase/UDP-glucuronic acid oxidase ArnA	NF005998.1	arnA	PRK08125	8026
-colistin	arnB	UDP-4-amino-4-deoxy-L-arabinose aminotransferase	NF008658.2	arnB	PRK11658	6090
-colistin	arnC	undecaprenyl-phosphate 4-deoxy-4-formamido-L-arabinose transferase	NF007986.1	arnC	PRK10714	3914
-colistin	arnD	4-deoxy-4-formamido-L-arabinose-phosphoundecaprenol deformylase	NF011923.2	arnD	PRK15394	5515
-colistin	arnE	4-amino-4-deoxy-L-arabinose-phosphoundecaprenol flippase subunit ArnE	NF011625.2	arnE	PRK15051	2933
-colistin	arnF	4-amino-4-deoxy-L-arabinose-phosphoundecaprenol flippase subunit ArnF	NF002816.2	arnF	PRK02971	4092
-colistin	arnT	lipid IV(A) 4-amino-4-deoxy-L-arabinosyltransferase	NF009784.2	arnT	PRK13279	10005
-colistin	cprA	cationic peptide resistance protein CprA	NBR012951	cprA	NA	369
-colistin	eptA	phosphoethanolamine transferase EptA	NF008619.0	eptA	PRK11598	5856
-colistin	eptA	phosphoethanolamine--lipid A transferase EptA	NF007160.0	eptA	PRK09598	2597
-colistin	eptB	kdo(2)-lipid A phosphoethanolamine 7''-transferase	NF008593.0	eptB	PRK11560	3972
-colistin	eptC	lipid A/FlgG phosphoethanolamine transferase EptC	NBR007377	eptC	NA	334
-colistin	lpxE	lipid A 1-phosphatase LpxE	NBR012013	lpxE	NA	285
-colistin	lpxE	lipid A 1-phosphatase LpxE	NBR012014	lpxE	NA	98
+colistin	almG	glycine--lipid A transferase AlmG	NBR000175	almG	NA	203
+colistin	arnA	bifunctional UDP-4-amino-4-deoxy-L-arabinose formyltransferase/UDP-glucuronic acid oxidase ArnA	NF005998.1	arnA	PRK08125	8238
+colistin	arnB	UDP-4-amino-4-deoxy-L-arabinose aminotransferase	NF008658.2	arnB	PRK11658	6264
+colistin	arnC	undecaprenyl-phosphate 4-deoxy-4-formamido-L-arabinose transferase	NF007986.1	arnC	PRK10714	4024
+colistin	arnD	4-deoxy-4-formamido-L-arabinose-phosphoundecaprenol deformylase	NF011923.2	arnD	PRK15394	5666
+colistin	arnE	4-amino-4-deoxy-L-arabinose-phosphoundecaprenol flippase subunit ArnE	NF011625.2	arnE	PRK15051	3007
+colistin	arnF	4-amino-4-deoxy-L-arabinose-phosphoundecaprenol flippase subunit ArnF	NF002816.2	arnF	PRK02971	4197
+colistin	arnT	lipid IV(A) 4-amino-4-deoxy-L-arabinosyltransferase	NF009784.2	arnT	PRK13279	10297
+colistin	cprA	cationic peptide resistance protein CprA	NBR012951	cprA	NA	380
+colistin	eptA	phosphoethanolamine transferase EptA	NF008619.0	eptA	PRK11598	5992
+colistin	eptA	phosphoethanolamine--lipid A transferase EptA	NF007160.0	eptA	PRK09598	2644
+colistin	eptB	kdo(2)-lipid A phosphoethanolamine 7''-transferase	NF008593.0	eptB	PRK11560	4068
+colistin	eptC	lipid A/FlgG phosphoethanolamine transferase EptC	NBR007377	eptC	NA	335
+colistin	lpxE	lipid A 1-phosphatase LpxE	NBR012013	lpxE	NA	289
+colistin	lpxE	lipid A 1-phosphatase LpxE	NBR012014	lpxE	NA	101
 colistin	lpxE	lipid A 1-phosphatase LpxE	NBR012015	lpxE	NA	7
-colistin	lpxE	lipid A 1-phosphatase LpxE	NBR012016	lpxE	NA	53
-colistin	lpxE	lipid A 1-phosphatase LpxE	NF007159.0	lpxE	PRK09597	1838
+colistin	lpxE	lipid A 1-phosphatase LpxE	NBR012016	lpxE	NA	54
+colistin	lpxE	lipid A 1-phosphatase LpxE	NF007159.0	lpxE	PRK09597	1839
 colistin	lpxF	lipid A 4'-phosphatase	NBR012617	lpxF	NA	30
 colistin	lpxF	lipid A 4'-phosphatase	NBR012618	lpxF	NA	10
-colistin	lpxF	lipid A 4'-phosphatase	NBR012655	lpxF	NA	616
-colistin	lpxF	lipid A 4'-phosphatase LpxF	NF045633.1	lpxF	NA	44
-colistin	mcr-1	MCR-1 family phosphoethanolamine--lipid A transferase	NF000465.1	NA	NA	28
+colistin	lpxF	lipid A 4'-phosphatase	NBR012655	lpxF	NA	617
+colistin	lpxF	lipid A 4'-phosphatase LpxF	NF045633.1	lpxF	NA	46
+colistin	mcr-1	MCR-1 family phosphoethanolamine--lipid A transferase	NF000465.1	NA	NA	31
 colistin	mcr-10	MCR-10 family phosphoethanolamine--lipid A transferase	NF033862.2	NA	NA	9
 colistin	mcr-2	MCR-2 family phosphoethanolamine--lipid A transferase	NF012159.0	NA	NA	1
-colistin	mcr-3	MCR-3 family phosphoethanolamine--lipid A transferase	NF033408.5	mcr-3	NA	32
-colistin	mcr-3	MCR-3-related phosphoethanolamine--lipid A transferase	NF033409.0	NA	NA	252
+colistin	mcr-3	MCR-3 family phosphoethanolamine--lipid A transferase	NF033408.5	mcr-3	NA	36
+colistin	mcr-3	MCR-3-related phosphoethanolamine--lipid A transferase	NF033409.0	NA	NA	266
 colistin	mcr-4	MCR-4 family phosphoethanolamine--lipid A transferase	NF033462.1	NA	NA	3
 colistin	mcr-5	MCR-5 family phosphoethanolamine--lipid A transferase	NF033463.1	NA	NA	6
 colistin	mcr-8	MCR-8 family phosphoethanolamine--lipid A transferase	NF033669.1	NA	NA	4
 colistin	mcr-9	MCR-9 family phosphoethanolamine--lipid A transferase	NF033836.1	NA	NA	16
-colistin	ugd	UDP-glucose 6-dehydrogenase	NBR012415	rkpK	NA	75
-colistin	ugd	UDP-glucose 6-dehydrogenase	NBR012913	NA	NA	241
-colistin	ugd	UDP-glucose 6-dehydrogenase	NBR012914	NA	NA	277
-colistin	ugd	UDP-glucose 6-dehydrogenase	NF011631.0	ugd	PRK15057	3103
-defensin	dltA	D-alanine--poly(phosphoribitol) ligase subunit DltA	NF003417.0	dltA	PRK04813	871
-defensin	dltA	D-alanine--poly(phosphoribitol) ligase subunit DltA	TIGR01734.1	dltA	NA	7678
-defensin	dltB	D-alanyl-lipoteichoic acid biosynthesis protein DltB	TIGR04091.1	dltB	NA	6689
-defensin	dltB	PG:teichoic acid D-alanyltransferase DltB	NBR007633	dltB	NA	223
-defensin	dltC	D-alanine--poly(phosphoribitol) ligase subunit 2	TIGR01688.1	dltC	NA	438
+colistin	ugd	UDP-glucose 6-dehydrogenase	NBR012415	rkpK	NA	76
+colistin	ugd	UDP-glucose 6-dehydrogenase	NBR012913	NA	NA	246
+colistin	ugd	UDP-glucose 6-dehydrogenase	NBR012914	NA	NA	280
+colistin	ugd	UDP-glucose 6-dehydrogenase	NF011631.0	ugd	PRK15057	3168
+defensin	dltA	D-alanine--poly(phosphoribitol) ligase subunit DltA	NF003417.0	dltA	PRK04813	890
+defensin	dltA	D-alanine--poly(phosphoribitol) ligase subunit DltA	TIGR01734.1	dltA	NA	7824
+defensin	dltB	D-alanyl-lipoteichoic acid biosynthesis protein DltB	TIGR04091.1	dltB	NA	6801
+defensin	dltB	PG:teichoic acid D-alanyltransferase DltB	NBR007633	dltB	NA	226
+defensin	dltC	D-alanine--poly(phosphoribitol) ligase subunit 2	TIGR01688.1	dltC	NA	452
 defensin	dltC	D-alanine--poly(phosphoribitol) ligase subunit DltC	NBR006815	dltC	NA	46
-defensin	dltC	D-alanine--poly(phosphoribitol) ligase subunit DltC	NF003464.0	dltC	PRK05087	1668
-defensin	dltD	D-alanyl-lipoteichoic acid biosynthesis protein DltD	TIGR04092.1	dltD	NA	8455
-defensin	lysX	bifunctional lysylphosphatidylglycerol synthetase/lysine--tRNA ligase LysX	NF002821.0	lysX	PRK02983	7307
-defensin	mprF	bifunctional lysylphosphatidylglycerol flippase/synthetase MprF	NF033480.1	mprF	NA	17315
-defensin	pmtC	phenol-soluble modulin export ABC transporter ATP-binding protein PmtC	NF047568.1	pmtC	NA	664
-defensin	pmtD	phenol-soluble modulin export ABC transporter permease subunit PmtD	NBR000384	pmtD	NA	2
-defensin	pmtD	phenol-soluble modulin export ABC transporter permease subunit PmtD	NF047564.1	pmtD	NA	553
+defensin	dltC	D-alanine--poly(phosphoribitol) ligase subunit DltC	NF003464.0	dltC	PRK05087	1689
+defensin	dltD	D-alanyl-lipoteichoic acid biosynthesis protein DltD	TIGR04092.1	dltD	NA	8598
+defensin	lysX	bifunctional lysylphosphatidylglycerol synthetase/lysine--tRNA ligase LysX	NF002821.0	lysX	PRK02983	8001
+defensin	mprF	bifunctional lysylphosphatidylglycerol flippase/synthetase MprF	NF033480.1	mprF	NA	17735
+defensin	pmtC	phenol-soluble modulin export ABC transporter ATP-binding protein PmtC	NF047568.1	pmtC	NA	671
+defensin	pmtD	phenol-soluble modulin export ABC transporter permease subunit PmtD	NF047564.1	pmtD	NA	559
 defensin	yxdL	ABC transporter ATP-binding protein YxdL	NBR010150	yxdL	NA	121
-defensin	yxdM	ABC transporter permease YxdM	NBR010151	yxdM	NA	471
-edeine	edeQ	edeine self-resistance N-acetyltransferase EdeQ	NBR007053	edeQ	NA	23
-factumycin	facT	factumycin efflux MFS transporter FacT	NBR006372	facT	NA	3
-fosfomycin	abaF	fosfomycin efflux MFS transporter AbaF	NBR009389	abaF	NA	684
+defensin	yxdM	ABC transporter permease YxdM	NBR010151	yxdM	NA	475
+edeine	edeQ	edeine self-resistance N-acetyltransferase EdeQ	NBR007053	edeQ	NA	25
+factumycin	facT	factumycin efflux MFS transporter FacT	NBR006372	facT	NA	5
+fosfomycin	abaF	fosfomycin efflux MFS transporter AbaF	NBR009389	abaF	NA	712
 fosfomycin	fomA	fosfomycin resistance kinase FomA	NF000338.1	fomA	NA	4
-fosfomycin	fomB	FomB family phosphonate monophosphate kinase	NF000361.1	NA	NA	122
+fosfomycin	fomB	FomB family phosphonate monophosphate kinase	NF000361.1	NA	NA	137
 fosfomycin	fos*	Fos family putative thiol transferase	NF000125.1	NA	NA	13
-fosfomycin	fos*	FosB/FosD family fosfomycin resistance bacillithiol transferase	NF000493.1	fosB	NA	349
-fosfomycin	fos*	FosG/FosC2-related fosfomycin resistance glutathione transferase	NF000124.1	fos	NA	68
-fosfomycin	fos*	FosX/FosE/FosI family fosfomycin resistance hydrolase	NF000222.1	fosX	NA	895
-fosfomycin	fos*	fosfomycin resistance glutathione transferase	NF000496.1	fos	NA	1979
+fosfomycin	fos*	FosB/FosD family fosfomycin resistance bacillithiol transferase	NF000493.1	fosB	NA	355
+fosfomycin	fos*	FosG/FosC2-related fosfomycin resistance glutathione transferase	NF000124.1	fos	NA	69
+fosfomycin	fos*	FosX/FosE/FosI family fosfomycin resistance hydrolase	NF000222.1	fosX	NA	908
+fosfomycin	fos*	fosfomycin resistance glutathione transferase	NF000496.1	fos	NA	2043
 fosfomycin	fos*	fosfomycin resistance glutathione transferase FosLL	NF033405.1	fosLL	NA	46
 fosfomycin	fosA	FosA family fosfomycin resistance glutathione transferase	NF000094.1	NA	NA	99
-fosfomycin	fosA	FosA family fosfomycin resistance glutathione transferase	NF000221.4	NA	NA	297
+fosfomycin	fosA	FosA family fosfomycin resistance glutathione transferase	NF000221.4	NA	NA	308
 fosfomycin	fosA	FosA family fosfomycin resistance glutathione transferase	NF000339.2	fos	NA	105
-fosfomycin	fosA	FosA/FosA2 family fosfomycin resistance glutathione transferase	NF000026.1	fosA	NA	730
+fosfomycin	fosA	FosA/FosA2 family fosfomycin resistance glutathione transferase	NF000026.1	fosA	NA	744
 fosfomycin	fosA	FosA3/FosA4 family fosfomycin resistance glutathione transferase	NF000075.1	fosA	NA	26
-fosfomycin	fosA	FosA5 family fosfomycin resistance glutathione transferase	NF040540.1	fosA	NA	320
-fosfomycin	fosA	FosA7 family fosfomycin resistance glutathione transferase	NF032892.0	NA	NA	56
+fosfomycin	fosA	FosA5 family fosfomycin resistance glutathione transferase	NF040540.1	fosA	NA	328
+fosfomycin	fosA	FosA7 family fosfomycin resistance glutathione transferase	NF032892.0	NA	NA	59
 fosfomycin	fosA	FosA8 family fosfomycin resistance glutathione transferase	NF033933.0	NA	NA	46
 fosfomycin	fosB	FosB family fosfomycin resistance bacillithiol transferase	NF000063.1	NA	NA	45
-fosfomycin	fosB	FosB family fosfomycin resistance bacillithiol transferase	NF000098.1	fosB	NA	48
+fosfomycin	fosB	FosB family fosfomycin resistance bacillithiol transferase	NF000098.1	fosB	NA	49
 fosfomycin	fosB	FosB1/FosB3 family fosfomycin resistance bacillithiol transferase	NF000085.1	fosB	NA	9
-fosfomycin	fosB	FosBx1 family fosfomycin resistance bacillithiol transferase	NF041541.1	fosB	NA	290
-fosfomycin	fosB	metallothiol transferase FosB	NF003152.0	fosB	PRK04101	1258
+fosfomycin	fosB	FosBx1 family fosfomycin resistance bacillithiol transferase	NF041541.1	fosB	NA	296
+fosfomycin	fosB	metallothiol transferase FosB	NF003152.0	fosB	PRK04101	1290
 fosfomycin	fosC	FosC2 family fosfomycin resistance glutathione transferase	NF000074.1	NA	NA	3
-fosfomycin	fosF	fosfomycin resistance glutathione transferase FosF	NF000494.1	fosF	NA	2
+fosfomycin	fosF	fosfomycin resistance glutathione transferase FosF	NF000494.1	fosF	NA	3
 fosfomycin	fosG	FosG family fosfomycin resistance glutathione transferase	NF000467.1	NA	NA	3
 fosfomycin	fosK	fosfomycin resistance glutathione transferase FosK	NF000495.1	fosK	NA	2
-fosfomycin	fosM	FosM family fosfomycin resistance protein	NF038306.1	fosM	NA	996
-fosfomycin	fosX	fosfomycin resistance hydrolase FosX	NBR013810	fosX	NA	144
+fosfomycin	fosM	FosM family fosfomycin resistance protein	NF038306.1	fosM	NA	1041
+fosfomycin	fosX	fosfomycin resistance hydrolase FosX	NBR013810	fosX	NA	145
 fosfomycin	fosX	fosfomycin resistance hydrolase FosXCC	NF041542.1	fosXCC	NA	6
 fosfomycin	fosY	fosfomycin resistance bacillithiol transferase FosY	NF040802.1	fosY	NA	2
-fosmidomycin	fsr	fosmidomycin MFS transporter	NBR011163	fsr	NA	824
-fusidic_acid	fusB	FusB family fusidic acid resistance EF-G-binding protein	NF000340.1	NA	NA	4
-fusidic_acid	fusC	FusC family fusidic acid resistance EF-G-binding protein	NF000341.1	NA	NA	14
+fosmidomycin	fsr	fosmidomycin MFS transporter	NBR011163	fsr	NA	843
+fusidic_acid	fusB	FusB family fusidic acid resistance EF-G-binding protein	NF000340.1	NA	NA	5
+fusidic_acid	fusC	FusC family fusidic acid resistance EF-G-binding protein	NF000341.1	NA	NA	15
 fusidic_acid	fusD	FusD family fusidic acid resistance EF-G-binding protein	NF000460.1	NA	NA	16
 fusidic_acid	fusF	fusidic acid resistance EF-G-binding protein FusF	NF000503.1	fusF	NA	18
-fusidic_acid	fusH	fusidic acid esterase FusH	NF000157.1	fusH	NA	22
-glycopeptide	vanA	D-alanine--(R)-lactate ligase	NF000206.1	vanA	NA	871
-glycopeptide	vanA	D-alanine--(R)-lactate ligase VanA	NF012217.1	vanA	NA	10
-glycopeptide	vanA	D-alanine--(R)-lactate ligase VanA-Ao2	NF000092.1	vanA-Ao2	NA	26
-glycopeptide	vanA	D-alanine--(R)-lactate ligase VanA-Sc	NF000129.1	vanA-Sc	NA	213
+fusidic_acid	fusH	fusidic acid esterase FusH	NF000157.1	fusH	NA	28
+glycopeptide	vanA	D-alanine--(R)-lactate ligase	NF000206.1	vanA	NA	938
+glycopeptide	vanA	D-alanine--(R)-lactate ligase VanA	NF012217.1	vanA	NA	12
+glycopeptide	vanA	D-alanine--(R)-lactate ligase VanA-Ao2	NF000092.1	vanA-Ao2	NA	33
+glycopeptide	vanA	D-alanine--(R)-lactate ligase VanA-Sc	NF000129.1	vanA-Sc	NA	254
 glycopeptide	vanB	D-alanine--(R)-lactate ligase VanB	NF012216.1	vanB	NA	29
-glycopeptide	vanC	D-alanine--D-serine ligase	NF000207.3	vanC	NA	31
-glycopeptide	vanC	D-alanine--D-serine ligase VanC	NF012214.1	vanC	NA	62
-glycopeptide	vanC	D-alanine--D-serine ligase VanC1	NF012213.0	vanC1	NA	21
+glycopeptide	vanC	D-alanine--D-serine ligase	NF000207.3	vanC	NA	33
+glycopeptide	vanC	D-alanine--D-serine ligase VanC	NF012214.1	vanC	NA	63
+glycopeptide	vanC	D-alanine--D-serine ligase VanC1	NF012213.0	vanC1	NA	22
 glycopeptide	vanD	D-alanine--(R)-lactate ligase VanD	NF012215.1	vanD	NA	15
 glycopeptide	vanE	D-alanine--D-serine ligase VanE	NF000036.1	vanE	NA	2
 glycopeptide	vanF	D-alanine--(R)-lactate ligase VanF	NF000144.1	vanF	NA	3
-glycopeptide	vanG	D-alanine--D-serine ligase VanG	NF000091.3	vanG	NA	615
-glycopeptide	vanH	D-lactate dehydrogenase VanH	NF000492.1	vanH	NA	349
+glycopeptide	vanG	D-alanine--D-serine ligase VanG	NF000091.3	vanG	NA	629
+glycopeptide	vanH	D-lactate dehydrogenase VanH	NF000492.1	vanH	NA	390
+glycopeptide	vanH	D-lactate dehydrogenase VanH-Ac1	NF000151.1	vanH-Ac1	NA	1
 glycopeptide	vanH	D-lactate dehydrogenase VanH-D	NF000004.1	vanH-D	NA	14
-glycopeptide	vanH	D-lactate dehydrogenase VanH-Sc	NF000128.1	vanH-Sc	NA	26
-glycopeptide	vanH	VanH-A/VanH-Pt family D-lactate dehydrogenase	NF000371.1	vanH	NA	12
-glycopeptide	vanH	VanH-AOV family D-lactate dehydrogenase	NF000112.1	vanH	NA	33
+glycopeptide	vanH	D-lactate dehydrogenase VanH-Sc	NF000128.1	vanH-Sc	NA	32
+glycopeptide	vanH	VanH-A/VanH-Pt family D-lactate dehydrogenase	NF000371.1	vanH	NA	13
+glycopeptide	vanH	VanH-AOV family D-lactate dehydrogenase	NF000112.1	vanH	NA	40
 glycopeptide	vanI	D-alanine--(R)-lactate ligase VanI	NF000372.1	vanI	NA	11
-glycopeptide	vanJ	teicoplanin resistance protein VanJ	NF000373.1	vanJ	NA	23
+glycopeptide	vanJ	teicoplanin resistance protein VanJ	NF000373.1	vanJ	NA	25
 glycopeptide	vanK	peptidoglycan bridge formation peptidyltransferase VanK-I	NBR016126	vanK-I	NA	1
 glycopeptide	vanM	D-alanine--(R)-lactate ligase VanM	NF000470.1	vanM	NA	2
 glycopeptide	vanN	D-alanine--D-serine ligase VanN	NF000093.1	vanN	NA	5
-glycopeptide	vanO	D-alanine--(R)-lactate ligase VanO	NF000374.1	vanO	NA	10
+glycopeptide	vanO	D-alanine--(R)-lactate ligase VanO	NF000374.1	vanO	NA	11
 glycopeptide	vanP	putative D-alanine--(R)-lactate ligase VanP	NBR016122	vanP	NA	1
-glycopeptide	vanT	membrane-bound serine racemase VanT	NF033132.1	vanT	NA	173
-glycopeptide	vanT	serine racemase VanT catalytic subunit	NF033131.1	vanT	NA	719
-glycopeptide	vanX	D-Ala-D-Ala dipeptidase VanX	NF033115.1	vanX	NA	1109
+glycopeptide	vanT	membrane-bound serine racemase VanT	NF033132.1	vanT	NA	181
+glycopeptide	vanT	serine racemase VanT catalytic subunit	NF033131.1	vanT	NA	727
+glycopeptide	vanX	D-Ala-D-Ala dipeptidase VanX	NF033115.1	vanX	NA	1218
 glycopeptide	vanXY	D,D-carboxypeptidase/D,D-dipeptidase VanXY	NF000380.1	vanXY	NA	79
 glycopeptide	vanXY	D-Ala-D-Ala dipeptidase/D-Ala-D-Ala carboxypeptidase VanXY-G	NF000149.1	vanXY	NA	2
-ionophore	narA	ionophore ABC transporter ATP-binding subunit NarA	NBR016135	narA	NA	26
+ionophore	narA	ionophore ABC transporter ATP-binding subunit NarA	NBR016135	narA	NA	27
 ionophore	narB	ionophore ABC transporter permease subunit NarB	NBR016136	narB	NA	46
-linearmycin	lnrL	linearmycin resistance ATP-binding protein LnrL	NBR009409	lnrL	NA	185
-linearmycin	lnrM	linearmycin resistance permease LnrM	NBR009410	lnrM	NA	158
-linearmycin	lnrN	linearmycin resistance permease LnrN	NBR009411	lnrN	NA	167
-macrolide-lincosamide-streptogramin	car(A)	ABC-F type ribosomal protection protein Car(A)	NF000166.1	car(A)	NA	48
+linearmycin	lnrL	linearmycin resistance ATP-binding protein LnrL	NBR009409	lnrL	NA	187
+linearmycin	lnrM	linearmycin resistance permease LnrM	NBR009410	lnrM	NA	160
+linearmycin	lnrN	linearmycin resistance permease LnrN	NBR009411	lnrN	NA	168
+macrolide-lincosamide-streptogramin	car(A)	ABC-F type ribosomal protection protein Car(A)	NF000166.1	car(A)	NA	62
 macrolide-lincosamide-streptogramin	chrB	23S rRNA (guanine(748)-N(1))-methyltransferase ChrB	NF000488.1	chrB	NA	3
-macrolide-lincosamide-streptogramin	cplR	ABC-F type ribosomal protection protein CplR	NF043038.1	cplR	NA	458
+macrolide-lincosamide-streptogramin	cplR	ABC-F type ribosomal protection protein CplR	NF043038.1	cplR	NA	465
 macrolide-lincosamide-streptogramin	ere(A)	EreA family erythromycin esterase	NF000208.1	ere(A)	NA	6
 macrolide-lincosamide-streptogramin	ere(B)	EreB family erythromycin esterase	NF000209.1	ere(B)	NA	1
 macrolide-lincosamide-streptogramin	ere(D)	EreD family erythromycin esterase	NF000516.1	ere(D)	NA	15
@@ -643,479 +647,480 @@ macrolide-lincosamide-streptogramin	erm(45)	23S rRNA (adenine(2058)-N(6))-methyl
 macrolide-lincosamide-streptogramin	erm(46)	23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(46)	NF042988.1	erm(46)	NA	16
 macrolide-lincosamide-streptogramin	erm(52)	23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(52)	NBR016119	erm(52)	NA	4
 macrolide-lincosamide-streptogramin	erm(56)	23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(56)'	NBR016254	erm(56)	NA	3
-macrolide-lincosamide-streptogramin	erm(A)	23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(A)	NF012222.1	erm(A)	NA	110
-macrolide-lincosamide-streptogramin	erm(B)	23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(B)	NF012220.1	erm(B)	NA	381
-macrolide-lincosamide-streptogramin	erm(C)	23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(C)	NF012219.1	erm(C)	NA	100
-macrolide-lincosamide-streptogramin	erm(F)	23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(F)	NF012223.0	erm(F)	NA	108
+macrolide-lincosamide-streptogramin	erm(A)	23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(A)	NF012222.1	erm(A)	NA	111
+macrolide-lincosamide-streptogramin	erm(B)	23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(B)	NF012220.1	erm(B)	NA	384
+macrolide-lincosamide-streptogramin	erm(C)	23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(C)	NF012219.1	erm(C)	NA	102
+macrolide-lincosamide-streptogramin	erm(F)	23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(F)	NF012223.0	erm(F)	NA	109
 macrolide-lincosamide-streptogramin	erm(G)	23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(G)	NF045543.1	erm(G)	NA	36
-macrolide-lincosamide-streptogramin	erm(O)	23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(O)	NF000087.1	erm(O)	NA	262
+macrolide-lincosamide-streptogramin	erm(N)	23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(N)	NBR016671	erm(N)	NA	1
+macrolide-lincosamide-streptogramin	erm(O)	23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(O)	NF000087.1	erm(O)	NA	306
 macrolide-lincosamide-streptogramin	erm(S)	23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(S)	NF000024.1	erm(S)	NA	5
-macrolide-lincosamide-streptogramin	erm(V)	23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(V)	NF000047.1	erm(V)	NA	23
-macrolide-lincosamide-streptogramin	erm*	23S ribosomal RNA methyltransferase Erm	NF000499.1	erm	NA	2529
-macrolide-lincosamide-streptogramin	erm*	ErmE/ErmH/ErmO/ErmR family 23S rRNA (adenine(2058)-N(6))-methyltransferase	NF000337.1	erm	NA	1475
-macrolide-lincosamide-streptogramin	estT	macrolide hydrolase EstT	NF041759.1	estT	NA	119
-macrolide-lincosamide-streptogramin	estX	alpha/beta fold putative hydrolase EstX	NF033124.1	estX	NA	53
-macrolide-lincosamide-streptogramin	lmr(A)	lincomycin efflux MFS transporter Lmr(A)	NF000031.1	lmr(A)	NA	14
-macrolide-lincosamide-streptogramin	lmr(B)	lincomycin efflux MFS transporter Lmr(B)	NF000060.1	lmr(B)	NA	246
-macrolide-lincosamide-streptogramin	lmr(C)	ABC-F type ribosomal protection protein LmrC	NBR009393	lmrC	NA	2
+macrolide-lincosamide-streptogramin	erm(V)	23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(V)	NF000047.1	erm(V)	NA	34
+macrolide-lincosamide-streptogramin	erm*	23S ribosomal RNA methyltransferase Erm	NF000499.1	erm	NA	2647
+macrolide-lincosamide-streptogramin	erm*	ErmE/ErmH/ErmO/ErmR family 23S rRNA (adenine(2058)-N(6))-methyltransferase	NF000337.1	erm	NA	1624
+macrolide-lincosamide-streptogramin	estT	macrolide hydrolase EstT	NF041759.1	estT	NA	124
+macrolide-lincosamide-streptogramin	estX	alpha/beta fold putative hydrolase EstX	NF033124.1	estX	NA	55
+macrolide-lincosamide-streptogramin	lmr(A)	lincomycin efflux MFS transporter Lmr(A)	NF000031.1	lmr(A)	NA	16
+macrolide-lincosamide-streptogramin	lmr(B)	lincomycin efflux MFS transporter Lmr(B)	NF000060.1	lmr(B)	NA	248
+macrolide-lincosamide-streptogramin	lmr(C)	ABC-F type ribosomal protection protein LmrC	NBR009393	lmrC	NA	4
 macrolide-lincosamide-streptogramin	lnu(A)	lincosamide nucleotidyltransferase Lnu(A)	NF000236.1	lnu(A)	NA	38
 macrolide-lincosamide-streptogramin	lnu(A)	lincosamide nucleotidyltransferase Lnu(AN2)	NF000153.1	lnu(AN2)	NA	9
-macrolide-lincosamide-streptogramin	lnu(B)	lincosamide nucleotidyltransferase Lnu(B)	NF000235.3	lnu(B)	NA	33
-macrolide-lincosamide-streptogramin	lnu(C)	lincosamide nucleotidyltransferase Lnu(C)	NF000141.1	lnu(C)	NA	28
+macrolide-lincosamide-streptogramin	lnu(B)	lincosamide nucleotidyltransferase Lnu(B)	NF000235.3	lnu(B)	NA	36
+macrolide-lincosamide-streptogramin	lnu(C)	lincosamide nucleotidyltransferase Lnu(C)	NF000141.1	lnu(C)	NA	29
 macrolide-lincosamide-streptogramin	lnu(D)	lincosamide nucleotidyltransferase Lnu(D)	NF000017.1	lnu(D)	NA	1
-macrolide-lincosamide-streptogramin	lnu(F)	lincosamide nucleotidyltransferase Lnu(F)	NF000119.1	lnu(F)	NA	26
+macrolide-lincosamide-streptogramin	lnu(F)	lincosamide nucleotidyltransferase Lnu(F)	NF000119.1	lnu(F)	NA	28
 macrolide-lincosamide-streptogramin	lnu(G)	lincosamide nucleotidyltransferase Lnu(G)	NF033182.0	lnu(G)	NA	23
-macrolide-lincosamide-streptogramin	lnu(H)	lincosamide nucleotidyltransferase Lnu(H)	NF040958.1	lnu(H)	NA	43
+macrolide-lincosamide-streptogramin	lnu(H)	lincosamide nucleotidyltransferase Lnu(H)	NF040958.1	lnu(H)	NA	44
 macrolide-lincosamide-streptogramin	lnu(I)	lincosamide nucleotidyltransferase Lnu(I)	NBR016563	lnu(I)	NA	26
 macrolide-lincosamide-streptogramin	lsa(A)	ABC-F type ribosomal protection protein Lsa(A)	NBR011667	lsa(A)	NA	168
 macrolide-lincosamide-streptogramin	lsa(B)	ABC-F type ribosomal protection protein Lsa(B)	NBR011668	lsa(B)	NA	1
 macrolide-lincosamide-streptogramin	lsa(C)	ABC-F type ribosomal protection protein Lsa(C)	NBR011670	lsa(C)	NA	43
-macrolide-lincosamide-streptogramin	lsa(D)	ABC-F type ribosomal protection protein Lsa(D)	NBR013523	lsa(D)	NA	51
-macrolide-lincosamide-streptogramin	lsa(E)	ABC-F type ribosomal protection protein Lsa(E)	NBR011671	lsa(E)	NA	78
-macrolide-lincosamide-streptogramin	lsa*	Lsa family ABC-F type ribosomal protection protein	NF000167.2	NA	NA	2040
-macrolide-lincosamide-streptogramin	macA	MacA family efflux pump subunit	NF000344.1	NA	NA	1181
-macrolide-lincosamide-streptogramin	macA	macrolide transporter subunit MacA	NF008606.0	macA	PRK11578	4728
-macrolide-lincosamide-streptogramin	macB	MacB family efflux pump subunit	NF000345.1	NA	NA	15505
-macrolide-lincosamide-streptogramin	macB	macrolide ABC transporter ATP-binding protein/permease MacB	NF007826.0	macB	PRK10535	5043
-macrolide-lincosamide-streptogramin	mef(A)	macrolide efflux MFS transporter Mef(A)	NF000245.1	mef(A)	NA	307
+macrolide-lincosamide-streptogramin	lsa(D)	ABC-F type ribosomal protection protein Lsa(D)	NBR013523	lsa(D)	NA	68
+macrolide-lincosamide-streptogramin	lsa(E)	ABC-F type ribosomal protection protein Lsa(E)	NBR011671	lsa(E)	NA	82
+macrolide-lincosamide-streptogramin	lsa*	Lsa family ABC-F type ribosomal protection protein	NF000167.2	NA	NA	2105
+macrolide-lincosamide-streptogramin	macA	MacA family efflux pump subunit	NF000344.1	NA	NA	1194
+macrolide-lincosamide-streptogramin	macA	macrolide transporter subunit MacA	NF008606.0	macA	PRK11578	4850
+macrolide-lincosamide-streptogramin	macB	MacB family efflux pump subunit	NF000345.1	NA	NA	15919
+macrolide-lincosamide-streptogramin	macB	macrolide ABC transporter ATP-binding protein/permease MacB	NF007826.0	macB	PRK10535	5140
+macrolide-lincosamide-streptogramin	mef(A)	macrolide efflux MFS transporter Mef(A)	NF000245.1	mef(A)	NA	311
 macrolide-lincosamide-streptogramin	mef(B)	macrolide efflux MFS transporter Mef(B)	NF000051.1	mef(B)	NA	9
 macrolide-lincosamide-streptogramin	mef(C)	macrolide efflux MFS transporter Mef(C)	NF000246.1	mef(C)	NA	10
 macrolide-lincosamide-streptogramin	mef(D)	macrolide efflux MFS transporter Mef(D)	NBR013515	mef(D)	NA	2
 macrolide-lincosamide-streptogramin	mef(E)	macrolide efflux MFS transporter Mef(En2)	NF000154.1	mef(En2)	NA	33
 macrolide-lincosamide-streptogramin	mef(F)	macrolide efflux MFS transporter Mef(F)	NBR013522	mef(F)	NA	6
 macrolide-lincosamide-streptogramin	mef(H)	macrolide efflux MFS transporter Mef(H)	NBR015235	mef(H)	NA	7
-macrolide-lincosamide-streptogramin	mgt	macrolide-inactivating glycosyltransferase	NF033129.1	mgt	NA	2542
-macrolide-lincosamide-streptogramin	mph(A)	Mph(A) family macrolide 2'-phosphotransferase	NF000254.1	NA	NA	118
+macrolide-lincosamide-streptogramin	mgt	macrolide-inactivating glycosyltransferase	NF033129.1	mgt	NA	2885
+macrolide-lincosamide-streptogramin	mph(A)	Mph(A) family macrolide 2'-phosphotransferase	NF000254.1	NA	NA	125
 macrolide-lincosamide-streptogramin	mph(B)	Mph(B) family macrolide 2'-phosphotransferase	NF000242.2	NA	NA	50
-macrolide-lincosamide-streptogramin	mph(C)	Mph(C) family macrolide 2'-phosphotransferase	NF000240.1	NA	NA	158
-macrolide-lincosamide-streptogramin	mph(E)	Mph(E) family macrolide 2'-phosphotransferase	NF012158.1	NA	NA	68
+macrolide-lincosamide-streptogramin	mph(C)	Mph(C) family macrolide 2'-phosphotransferase	NF000240.1	NA	NA	160
+macrolide-lincosamide-streptogramin	mph(E)	Mph(E) family macrolide 2'-phosphotransferase	NF012158.1	NA	NA	71
 macrolide-lincosamide-streptogramin	mph(F)	Mph(F) family macrolide 2'-phosphotransferase	NF000255.1	NA	NA	1
-macrolide-lincosamide-streptogramin	mph(I)	macrolide 2'-phosphotransferase MphI	NBR011662	mphI	NA	32
-macrolide-lincosamide-streptogramin	mph(J)	macrolide 2'-phosphotransferase MphJ	NBR011663	mphJ	NA	38
-macrolide-lincosamide-streptogramin	mph(K)	macrolide 2'-phosphotransferase MphK	NBR011661	mphK	NA	247
-macrolide-lincosamide-streptogramin	mph(L)	macrolide 2'-phosphotransferase MphL	NF038057.1	mphL	NA	148
+macrolide-lincosamide-streptogramin	mph(I)	macrolide 2'-phosphotransferase MphI	NBR011662	mphI	NA	33
+macrolide-lincosamide-streptogramin	mph(J)	macrolide 2'-phosphotransferase MphJ	NBR011663	mphJ	NA	41
+macrolide-lincosamide-streptogramin	mph(K)	macrolide 2'-phosphotransferase MphK	NBR011661	mphK	NA	250
+macrolide-lincosamide-streptogramin	mph(L)	macrolide 2'-phosphotransferase MphL	NF038057.1	mphL	NA	150
 macrolide-lincosamide-streptogramin	mph(M)	macrolide 2'-phosphotransferase MphM	NF038056.1	mphM	NA	76
 macrolide-lincosamide-streptogramin	mph(N)	macrolide 2'-phosphotransferase MphN	NBR011666	mphN	NA	11
-macrolide-lincosamide-streptogramin	mph(O)	macrolide 2'-phosphotransferase MphO	NBR011665	mphO	NA	14
-macrolide-lincosamide-streptogramin	mph*	Mph(E)/Mph(G) family macrolide 2'-phosphotransferase	NF000241.1	mph	NA	63
-macrolide-lincosamide-streptogramin	mrx(A)	macrolide resistance MFS transporter Mrx(A)	NBR014692	mrx(A)	NA	138
-macrolide-lincosamide-streptogramin	mrx(F)	macrolide resistance MFS transporter Mrx(F)	NBR014694	mrx(F)	NA	8
-macrolide-lincosamide-streptogramin	msr(A)	ABC-F type ribosomal protection protein Msr(A)	NF000256.1	msr(A)	NA	94
-macrolide-lincosamide-streptogramin	msr(C)	ABC-F type ribosomal protection protein Msr(C)	NBR013516	msr(C)	NA	151
-macrolide-lincosamide-streptogramin	msr(D)	ABC-F type ribosomal protection protein Msr(D)	NBR013517	msr(D)	NA	159
-macrolide-lincosamide-streptogramin	msr(E)	ABC-F type ribosomal protection protein Msr(E)	NBR013518	msr(E)	NA	84
+macrolide-lincosamide-streptogramin	mph(O)	macrolide 2'-phosphotransferase MphO	NBR011665	mphO	NA	15
+macrolide-lincosamide-streptogramin	mph*	Mph(E)/Mph(G) family macrolide 2'-phosphotransferase	NF000241.1	mph	NA	65
+macrolide-lincosamide-streptogramin	mrx(A)	macrolide resistance MFS transporter Mrx(A)	NBR014692	mrx(A)	NA	144
+macrolide-lincosamide-streptogramin	mrx(F)	macrolide resistance MFS transporter Mrx(F)	NBR014694	mrx(F)	NA	9
+macrolide-lincosamide-streptogramin	msr(A)	ABC-F type ribosomal protection protein Msr(A)	NF000256.1	msr(A)	NA	95
+macrolide-lincosamide-streptogramin	msr(C)	ABC-F type ribosomal protection protein Msr(C)	NBR013516	msr(C)	NA	153
+macrolide-lincosamide-streptogramin	msr(D)	ABC-F type ribosomal protection protein Msr(D)	NBR013517	msr(D)	NA	162
+macrolide-lincosamide-streptogramin	msr(E)	ABC-F type ribosomal protection protein Msr(E)	NBR013518	msr(E)	NA	87
 macrolide-lincosamide-streptogramin	msr(F)	ABC-F type ribosomal protection protein Msr(F)	NBR013519	msr(F)	NA	5
 macrolide-lincosamide-streptogramin	msr(G)	ABC-F type ribosomal protection protein Msr(G)	NBR013521	msr(G)	NA	11
 macrolide-lincosamide-streptogramin	msr(H)	ABC-F type ribosomal protection protein Msr(H)	NBR013520	msr(H)	NA	1
 macrolide-lincosamide-streptogramin	msr(I)	ABC-F type ribosomal protection protein Msr(I)	NBR015492	msr(I)	NA	7
-macrolide-lincosamide-streptogramin	msr*	Msr family ABC-F type ribosomal protection protein	NF000168.2	NA	NA	713
+macrolide-lincosamide-streptogramin	msr*	Msr family ABC-F type ribosomal protection protein	NF000168.2	NA	NA	737
 macrolide-lincosamide-streptogramin	myrA	23S rRNA (guanine(748)-N(1))-methyltransferase MyrA	NF000476.1	myrA	NA	4
 macrolide-lincosamide-streptogramin	ole(I)	OleI family self-immunity macrolide glycosyltransferase	NF000362.1	NA	NA	3
-macrolide-lincosamide-streptogramin	sal(A)	ABC-F type ribosomal protection protein Sal(A)	NBR015487	sal(A)	NA	95
+macrolide-lincosamide-streptogramin	sal(A)	ABC-F type ribosomal protection protein Sal(A)	NBR015487	sal(A)	NA	97
 macrolide-lincosamide-streptogramin	sal(B)	ABC-F type ribosomal protection protein Sal(B)	NBR015488	sal(B)	NA	27
 macrolide-lincosamide-streptogramin	sal(C)	ABC-F type ribosomal protection protein Sal(C)	NBR015489	sal(C)	NA	7
 macrolide-lincosamide-streptogramin	sal(D)	ABC-F type ribosomal protection protein Sal(D)	NBR015490	sal(D)	NA	13
 macrolide-lincosamide-streptogramin	sal(E)	ABC-F type ribosomal protection protein Sal(E)	NBR015491	sal(E)	NA	5
-macrolide-lincosamide-streptogramin	sal*	Sal family ABC-F type ribosomal protection protein	NF000169.2	sal	NA	219
+macrolide-lincosamide-streptogramin	sal*	Sal family ABC-F type ribosomal protection protein	NF000169.2	sal	NA	222
 macrolide-lincosamide-streptogramin	vat(C)	streptogramin A O-acetyltransferase Vat(C)	NF000097.1	vat(C)	NA	2
 macrolide-lincosamide-streptogramin	vat(D)	streptogramin A O-acetyltransferase Vat(D)	NF000111.1	vat(D)	NA	4
 macrolide-lincosamide-streptogramin	vat(E)	streptogramin A O-acetyltransferase Vat(E)	NF000020.1	vat(E)	NA	7
-macrolide-lincosamide-streptogramin	vat(F)	streptogramin A O-acetyltransferase Vat(F)	NF000147.1	vat(F)	NA	41
+macrolide-lincosamide-streptogramin	vat(F)	streptogramin A O-acetyltransferase Vat(F)	NF000147.1	vat(F)	NA	43
 macrolide-lincosamide-streptogramin	vat(H)	streptogramin A O-acetyltransferase Vat(H)	NF000504.1	vat(H)	NA	1
 macrolide-lincosamide-streptogramin	vat(I)	streptogramin A O-acetyltransferase Vat(I)	NF033468.1	vat(I)	NA	67
-macrolide-lincosamide-streptogramin	vat*	Vat family streptogramin A O-acetyltransferase	NF000311.1	NA	NA	3358
-macrolide-lincosamide-streptogramin	vga(F)	ABC-F type ribosomal protection protein Vga(F)	NF045691.1	vga(F)	NA	177
-macrolide-lincosamide-streptogramin	vga*	Vga family ABC-F type ribosomal protection protein	NF000170.2	NA	NA	835
-macrolide-lincosamide-streptogramin	vmlR	ABC-F type ribosomal protection protein VmlR	NBR007204	vmlR	NA	252
-multidrug	abaQ	multidrug efflux MFS transporter AbaQ	NBR006903	abaQ	NA	254
-multidrug	abeM	multidrug efflux MATE transporter AbeM	NBR006000	abeM	NA	250
-multidrug	abeS	multidrug efflux SMR transporter AbeS	NBR013508	abeS	NA	86
-multidrug	acrA	efflux RND transporter adaptor subunit AcrA	NBR011687	acrA	NA	45
-multidrug	acrA	multidrug efflux RND transporter periplasmic adaptor subunit AcrA	NBR006455	acrA	NA	1129
-multidrug	acrA	multidrug efflux RND transporter periplasmic adaptor subunit AcrA	NF011604.1	acrA	PRK15030	250
-multidrug	acrB	efflux RND transporter permease AcrB	NBR011128	acrB	NA	1249
-multidrug	acrB	efflux RND transporter permease AcrB	NBR011688	acrB	NA	102
-multidrug	acrB	multidrug efflux RND transporter permease subunit AcrB	NF011706.2	acrB	PRK15127	1294
-multidrug	acrD	multidrug efflux RND transporter permease AcrD	NF007842.1	acrD	PRK10555	6178
-multidrug	acrE	multidrug efflux RND transporter periplasmic adaptor subunit AcrE	NBR006456	acrE	NA	800
-multidrug	acrF	multidrug efflux RND transporter permease subunit AcrF	NBR006454	acrF	NA	2029
-multidrug	adeA	multidrug efflux RND transporter periplasmic adaptor subunit AdeA	NBR005909	adeA	NA	238
-multidrug	adeB	multidrug efflux RND transporter permease subunit AdeB	NBR005908	adeB	NA	446
+macrolide-lincosamide-streptogramin	vat*	Vat family streptogramin A O-acetyltransferase	NF000311.1	NA	NA	3473
+macrolide-lincosamide-streptogramin	vga(F)	ABC-F type ribosomal protection protein Vga(F)	NF045691.1	vga(F)	NA	205
+macrolide-lincosamide-streptogramin	vga*	Vga family ABC-F type ribosomal protection protein	NF000170.2	NA	NA	841
+macrolide-lincosamide-streptogramin	vmlR	ABC-F type ribosomal protection protein VmlR	NBR007204	vmlR	NA	257
+multidrug	abaQ	multidrug efflux MFS transporter AbaQ	NBR006903	abaQ	NA	267
+multidrug	abeM	multidrug efflux MATE transporter AbeM	NBR006000	abeM	NA	265
+multidrug	abeS	multidrug efflux SMR transporter AbeS	NBR013508	abeS	NA	90
+multidrug	acrA	efflux RND transporter adaptor subunit AcrA	NBR011687	acrA	NA	46
+multidrug	acrA	multidrug efflux RND transporter periplasmic adaptor subunit AcrA	NBR006455	acrA	NA	1156
+multidrug	acrA	multidrug efflux RND transporter periplasmic adaptor subunit AcrA	NF011604.1	acrA	PRK15030	251
+multidrug	acrB	efflux RND transporter permease AcrB	NBR011128	acrB	NA	1277
+multidrug	acrB	efflux RND transporter permease AcrB	NBR011688	acrB	NA	104
+multidrug	acrB	multidrug efflux RND transporter permease subunit AcrB	NF011706.2	acrB	PRK15127	1317
+multidrug	acrD	multidrug efflux RND transporter permease AcrD	NF007842.1	acrD	PRK10555	6321
+multidrug	acrE	multidrug efflux RND transporter periplasmic adaptor subunit AcrE	NBR006456	acrE	NA	818
+multidrug	acrF	multidrug efflux RND transporter permease subunit AcrF	NBR006454	acrF	NA	2082
+multidrug	adeA	multidrug efflux RND transporter periplasmic adaptor subunit AdeA	NBR005909	adeA	NA	263
+multidrug	adeB	multidrug efflux RND transporter permease subunit AdeB	NBR005908	adeB	NA	474
 multidrug	adeC	multidrug efflux RND transporter AdeABC outer membrane channel subunit AdeC	NF033142.1	adeC	NA	84
-multidrug	adeC	multidrug efflux RND transporter outer membrane channel subunit AdeC	NBR005907	adeC	NA	88
+multidrug	adeC	multidrug efflux RND transporter outer membrane channel subunit AdeC	NBR005907	adeC	NA	94
 multidrug	adeD	multidrug efflux RND transporter periplasmic adaptor subunit AdeD	NBR006457	adeD	NA	183
 multidrug	adeE	multidrug efflux RND transporter permease subunit AdeE	NBR006458	adeE	NA	270
-multidrug	adeF	multidrug efflux RND transporter periplasmic adaptor subunit AdeF	NBR006459	adeF	NA	450
-multidrug	adeG	multidrug efflux RND transporter permease subunit AdeG	NBR006460	adeG	NA	612
-multidrug	adeH	multidrug efflux RND transporter outer membrane subunit AdeH	NBR006461	adeH	NA	279
-multidrug	adeI	multidrug efflux RND transporter periplasmic adaptor subunit AdeI	NBR006462	adeI	NA	168
-multidrug	adeJ	multidrug efflux RND transporter permease subunit AdeJ	NBR006465	adeJ	NA	501
-multidrug	adeK	multidrug efflux RND transporter AdeIJK outer membrane channel subunit AdeK	NF033143.1	adeK	NA	508
-multidrug	adeK	multidrug efflux RND transporter outer membrane channel subunit AdeK	NBR006463	adeK	NA	145
-multidrug	adeT	putative multidrug efflux protein AdeT1	NBR006899	adeT1	NA	315
-multidrug	amvA	multidrug efflux MFS transporter AmvA	NBR009392	amvA	NA	597
+multidrug	adeF	multidrug efflux RND transporter periplasmic adaptor subunit AdeF	NBR006459	adeF	NA	470
+multidrug	adeG	multidrug efflux RND transporter permease subunit AdeG	NBR006460	adeG	NA	635
+multidrug	adeH	multidrug efflux RND transporter outer membrane subunit AdeH	NBR006461	adeH	NA	301
+multidrug	adeI	multidrug efflux RND transporter periplasmic adaptor subunit AdeI	NBR006462	adeI	NA	174
+multidrug	adeJ	multidrug efflux RND transporter permease subunit AdeJ	NBR006465	adeJ	NA	520
+multidrug	adeK	multidrug efflux RND transporter AdeIJK outer membrane channel subunit AdeK	NF033143.1	adeK	NA	513
+multidrug	adeK	multidrug efflux RND transporter outer membrane channel subunit AdeK	NBR006463	adeK	NA	151
+multidrug	adeT	putative multidrug efflux protein AdeT1	NBR006899	adeT1	NA	331
+multidrug	amvA	multidrug efflux MFS transporter AmvA	NBR009392	amvA	NA	625
 multidrug	axyX	multidrug efflux RND transporter periplasmic adaptor subunit AxyX	NBR001136	axyX	NA	23
-multidrug	axyY	multidrug efflux RND transporter permease subunit AxyY	NBR001135	axyY	NA	78
-multidrug	bcr	multidrug efflux MFS transporter Bcr	NBR008105	bcr	NA	634
+multidrug	axyY	multidrug efflux RND transporter permease subunit AxyY	NBR001135	axyY	NA	80
+multidrug	bcr	multidrug efflux MFS transporter Bcr	NBR008105	bcr	NA	646
 multidrug	bepC	multidrug efflux RND transporter outer membrane subunit BepC	NBR006550	bepC	NA	46
-multidrug	bepD	multidrug efflux RND transporter periplasmic adaptor subunit BepD	NBR006452	bepD	NA	36
-multidrug	bepE	multidrug efflux RND transporter permease subunit BepE	NBR006119	bepE	NA	88
+multidrug	bepD	multidrug efflux RND transporter periplasmic adaptor subunit BepD	NBR006452	bepD	NA	37
+multidrug	bepE	multidrug efflux RND transporter permease subunit BepE	NBR006119	bepE	NA	89
 multidrug	bepF	multidrug efflux RND transporter periplasmic adaptor subunit BepF	NBR006453	bepF	NA	36
-multidrug	bepG	multidrug efflux RND transporter permease subunit BepG	NBR006118	bepG	NA	53
+multidrug	bepG	multidrug efflux RND transporter permease subunit BepG	NBR006118	bepG	NA	54
 multidrug	bexA	multidrug efflux MATE transporter BexA	NBR006001	bexA	NA	149
-multidrug	bmr1	multidrug efflux MFS transporter Bmr	NBR006668	bmr	NA	121
-multidrug	bmr2	multidrug efflux MFS transporter Blt	NBR006669	blt	NA	138
+multidrug	bmr1	multidrug efflux MFS transporter Bmr	NBR006668	bmr	NA	123
+multidrug	bmr2	multidrug efflux MFS transporter Blt	NBR006669	blt	NA	137
 multidrug	bmr3	multidrug efflux MFS transporter Bmr3	NBR013885	bmr3	NA	176
-multidrug	bmrA	multidrug resistance ABC transporter ATP-binding protein/permease BmrA	NBR009245	bmrA	NA	203
-multidrug	bmrC	multidrug ABC transporter ATP-binding protein BmrC	NBR009479	bmrC	NA	189
-multidrug	bmrD	multidrug resistance ABC transporter ATP-binding protein/permease BmrD	NBR009236	bmrD	NA	242
+multidrug	bmrA	multidrug resistance ABC transporter ATP-binding protein/permease BmrA	NBR009245	bmrA	NA	204
+multidrug	bmrC	multidrug ABC transporter ATP-binding protein BmrC	NBR009479	bmrC	NA	191
+multidrug	bmrD	multidrug resistance ABC transporter ATP-binding protein/permease BmrD	NBR009236	bmrD	NA	244
 multidrug	bpeA	efflux RND transporter periplasmic adaptor BpeA	NBR011949	bpeA	NA	35
-multidrug	bpeB	efflux RND transporter permease BpeB	NBR011950	bpeB	NA	219
-multidrug	bpeE	multidrug efflux RND transporter periplasmic adaptor subunit CeoA	NBR006502	ceoA	NA	223
-multidrug	bpeF	multidrug efflux RND transporter permease subunit CeoB	NBR006503	ceoB	NA	340
-multidrug	cdeA	multidrug efflux MATE transporter CdeA	NBR005999	cdeA	NA	48
-multidrug	cme	multidrug efflux MFS transporter Cme	NBR006475	cme	NA	44
-multidrug	cmeA	multidrug efflux RND transporter periplasmic adaptor subunit CmeA	NBR006505	cmeA	NA	254
-multidrug	cmeB	multidrug efflux RND transporter permease subunit CmeB	NBR006506	cmeB	NA	680
+multidrug	bpeB	efflux RND transporter permease BpeB	NBR011950	bpeB	NA	220
+multidrug	bpeE	multidrug efflux RND transporter periplasmic adaptor subunit CeoA	NBR006502	ceoA	NA	226
+multidrug	bpeF	multidrug efflux RND transporter permease subunit CeoB	NBR006503	ceoB	NA	341
+multidrug	cdeA	multidrug efflux MATE transporter CdeA	NBR005999	cdeA	NA	49
+multidrug	cme	multidrug efflux MFS transporter Cme	NBR006475	cme	NA	45
+multidrug	cmeA	multidrug efflux RND transporter periplasmic adaptor subunit CmeA	NBR006505	cmeA	NA	255
+multidrug	cmeB	multidrug efflux RND transporter permease subunit CmeB	NBR006506	cmeB	NA	694
 multidrug	cmeB	multidrug efflux RND transporter permease subunit CmeB, ciprofloxacin and florfenicol resistance type	NBR016574	cmeB	NA	97
-multidrug	cmeC	multidrug efflux transporter outer membrane subunit CmeC	NBR006507	cmeC	NA	415
-multidrug	cmeD	multidrug efflux RND transporter outer membrane subunit CmeD	NBR006332	cmeD	NA	312
-multidrug	cmeE	multidrug efflux RND transporter periplasmic adaptor subunit CmeE	NBR006331	cmeE	NA	159
-multidrug	cmeF	multidrug efflux RND transporter permease subunit CmeF	NBR006330	cmeF	NA	522
+multidrug	cmeC	multidrug efflux transporter outer membrane subunit CmeC	NBR006507	cmeC	NA	417
+multidrug	cmeD	multidrug efflux RND transporter outer membrane subunit CmeD	NBR006332	cmeD	NA	315
+multidrug	cmeE	multidrug efflux RND transporter periplasmic adaptor subunit CmeE	NBR006331	cmeE	NA	166
+multidrug	cmeF	multidrug efflux RND transporter permease subunit CmeF	NBR006330	cmeF	NA	530
 multidrug	cmr	multidrug efflux MFS transporter Cmr	NBR007063	cmr	NA	15
-multidrug	eefA	multidrug efflux RND transporter periplasmic adaptor subunit EefA	NBR006609	eefA	NA	464
-multidrug	eefB	multidrug efflux RND transporter permease subunit EefB	NBR006610	eefB	NA	1056
-multidrug	eefC	multidrug efflux RND transporter outer membrane subunit EefC	NBR006611	eefC	NA	547
+multidrug	eefA	multidrug efflux RND transporter periplasmic adaptor subunit EefA	NBR006609	eefA	NA	474
+multidrug	eefB	multidrug efflux RND transporter permease subunit EefB	NBR006610	eefB	NA	1077
+multidrug	eefC	multidrug efflux RND transporter outer membrane subunit EefC	NBR006611	eefC	NA	559
 multidrug	efmA	multidrug efflux MFS transporter EfmA	NBR006707	efmA	NA	98
 multidrug	efpA	multidrug efflux MFS transporter EfpA	NBR007064	efpA	NA	58
-multidrug	efrA	multidrug efflux ABC transporter subunit EfrA	NBR006704	efrA	NA	232
-multidrug	efrB	multidrug efflux ABC transporter subunit EfrB	NBR006705	efrB	NA	304
+multidrug	efrA	multidrug efflux ABC transporter subunit EfrA	NBR006704	efrA	NA	233
+multidrug	efrB	multidrug efflux ABC transporter subunit EfrB	NBR006705	efrB	NA	307
 multidrug	efrC	multidrug ABC transporter ATP-binding protein/permease ErfC	NBR014477	erfC	NA	104
-multidrug	efrD	multidrug ABC transporter ATP-binding protein/permease ErfD	NBR014478	erfD	NA	86
+multidrug	efrD	multidrug ABC transporter ATP-binding protein/permease ErfD	NBR014478	erfD	NA	85
 multidrug	emeA	multidrug efflux MFS transporter EmeA	NBR006670	emeA	NA	76
-multidrug	emhA	efflux RND transporter periplasmic adaptor subunit EmhA	NBR006500	emhA	NA	278
-multidrug	emhB	efflux RND transporter permease subunit EmhB	NBR006494	emhB	NA	555
-multidrug	emhC	efflux RND transporter outer membrane subunit EmhC	NBR006499	emhC	NA	385
-multidrug	emmdR	multidrug efflux MATE transporter EmmdR	NBR006666	emmdR	NA	497
-multidrug	emrA	multidrug efflux MFS transporter periplasmic adaptor subunit EmrA	NBR006365	emrA	NA	568
-multidrug	emrA	multidrug efflux MFS transporter periplasmic adaptor subunit EmrA	NBR006604	emrA	NA	176
-multidrug	emrA	multidrug efflux MFS transporter periplasmic adaptor subunit EmrA	NF011715.0	emrA	PRK15136	2429
-multidrug	emrB	multidrug efflux MFS transporter permease subunit EmrB	NBR006366	emrB	NA	926
-multidrug	emrB	multidrug efflux MFS transporter permease subunit EmrB	NBR006603	emrB	NA	167
-multidrug	emrB	multidrug efflux MFS transporter permease subunit EmrB	NF000391.1	emrB	NA	1754
-multidrug	emrC	multidrug efflux transporter outer membrane subunit EmrC	NBR006605	emrC	NA	285
-multidrug	emrD	multidrug efflux MFS transporter EmrD	NBR006367	emrD	NA	1133
-multidrug	emrD	multidrug efflux MFS transporter EmrD	NF008654.0	emrD	PRK11652	3808
-multidrug	emrD	multidrug efflux MFS transporter EmrD-3	NBR008452	emrD3	NA	55
-multidrug	emrE	EmrE family multidrug efflux SMR transporter	NF007087.1	NA	PRK09541	183
-multidrug	emrE	multidrug efflux SMR transporter EmrE	NF042984.1	emrE	NA	214
-multidrug	emrK	multidrug efflux MFS transporter periplasmic adaptor subunit EmrK	NBR006368	emrK	NA	947
-multidrug	emrY	multidrug efflux MFS transporter permease subunit EmrY	NBR006369	emrY	NA	974
+multidrug	emhA	efflux RND transporter periplasmic adaptor subunit EmhA	NBR006500	emhA	NA	292
+multidrug	emhB	efflux RND transporter permease subunit EmhB	NBR006494	emhB	NA	575
+multidrug	emhC	efflux RND transporter outer membrane subunit EmhC	NBR006499	emhC	NA	405
+multidrug	emmdR	multidrug efflux MATE transporter EmmdR	NBR006666	emmdR	NA	511
+multidrug	emrA	multidrug efflux MFS transporter periplasmic adaptor subunit EmrA	NBR006365	emrA	NA	577
+multidrug	emrA	multidrug efflux MFS transporter periplasmic adaptor subunit EmrA	NBR006604	emrA	NA	178
+multidrug	emrA	multidrug efflux MFS transporter periplasmic adaptor subunit EmrA	NF011715.0	emrA	PRK15136	2469
+multidrug	emrB	multidrug efflux MFS transporter permease subunit EmrB	NBR006366	emrB	NA	945
+multidrug	emrB	multidrug efflux MFS transporter permease subunit EmrB	NBR006603	emrB	NA	168
+multidrug	emrB	multidrug efflux MFS transporter permease subunit EmrB	NF000391.1	emrB	NA	1800
+multidrug	emrC	multidrug efflux transporter outer membrane subunit EmrC	NBR006605	emrC	NA	291
+multidrug	emrD	multidrug efflux MFS transporter EmrD	NBR006367	emrD	NA	1150
+multidrug	emrD	multidrug efflux MFS transporter EmrD	NF008654.0	emrD	PRK11652	3884
+multidrug	emrD	multidrug efflux MFS transporter EmrD-3	NBR008452	emrD3	NA	56
+multidrug	emrE	EmrE family multidrug efflux SMR transporter	NF007087.1	NA	PRK09541	185
+multidrug	emrE	multidrug efflux SMR transporter EmrE	NF042984.1	emrE	NA	219
+multidrug	emrK	multidrug efflux MFS transporter periplasmic adaptor subunit EmrK	NBR006368	emrK	NA	963
+multidrug	emrY	multidrug efflux MFS transporter permease subunit EmrY	NBR006369	emrY	NA	1010
 multidrug	fepA	multidrug efflux MATE transporter FepA	NF000217.1	fepA	NA	145
 multidrug	ftlC	TolC family protein FtlC	NBR011908	ftlC	NA	15
 multidrug	hasF	multidrug efflux transporter outer membrane subunit HasF	NBR006675	hasF	NA	76
-multidrug	hefA	efflux RND transporter outer membrane subunit HefA	NBR008239	hefA	NA	1663
-multidrug	hefB	efflux RND transporter periplasmic adaptor subunit HefB	NBR008273	hefB	NA	856
-multidrug	hefC	efflux RND transporter permease subunit HefC	NBR008240	hefC	NA	1867
+multidrug	hefA	efflux RND transporter outer membrane subunit HefA	NBR008239	hefA	NA	1664
+multidrug	hefB	efflux RND transporter periplasmic adaptor subunit HefB	NBR008273	hefB	NA	857
+multidrug	hefC	efflux RND transporter permease subunit HefC	NBR008240	hefC	NA	1868
 multidrug	hmrM	sodium-coupled multidrug efflux MATE transporter HmrM	NBR006325	hmrM	NA	150
 multidrug	jefA	multidrug efflux pump JefA	NBR011520	jefA	NA	83
-multidrug	kdeA	multidrug efflux MFS transporter KdeA	NBR006511	kdeA	NA	348
-multidrug	kexD	multidrug efflux RND transporter permease subunit KexD	NBR006117	kexD	NA	646
-multidrug	kpnE	multidrug efflux SMR transporter subunit KpnE	NBR006348	kpnE	NA	157
-multidrug	kpnF	multidrug efflux SMR transporter subunit KpnF	NBR006349	kpnF	NA	133
+multidrug	kdeA	multidrug efflux MFS transporter KdeA	NBR006511	kdeA	NA	361
+multidrug	kexD	multidrug efflux RND transporter permease subunit KexD	NBR006117	kexD	NA	666
+multidrug	kpnE	multidrug efflux SMR transporter subunit KpnE	NBR006348	kpnE	NA	161
+multidrug	kpnF	multidrug efflux SMR transporter subunit KpnF	NBR006349	kpnF	NA	135
 multidrug	lde	multidrug efflux MFS transporter Lde	NBR007178	lde	NA	152
-multidrug	lfrA	efflux MFS transporter LfrA	NF033896.2	lfrA	NA	175
+multidrug	lfrA	efflux MFS transporter LfrA	NF033896.2	lfrA	NA	181
 multidrug	lieA	multidrug efflux ABC transporter ATP-binding protein LieA	NBR012815	lieA	NA	110
 multidrug	lieB	multidrug efflux ABC transporter permease LieB	NBR012816	lieB	NA	88
 multidrug	lmrA	multidrug efflux ABC transporter LmrA	NBR006696	lmrA	NA	94
-multidrug	lmrC	multidrug efflux ABC transporter LmrCD subunit C	NBR006697	lmrC	NA	59
-multidrug	lmrD	multidrug efflux ABC transporter LmrCD subunit D	NBR006698	lmrD	NA	68
+multidrug	lmrC	multidrug efflux ABC transporter LmrCD subunit C	NBR006697	lmrC	NA	61
+multidrug	lmrD	multidrug efflux ABC transporter LmrCD subunit D	NBR006698	lmrD	NA	70
 multidrug	lmrP	multidrug efflux MFS transporter LmrP	NBR006695	lmrP	NA	60
-multidrug	lmrS	multidrug efflux MFS transporter LmrS	NBR006083	lmrS	NA	427
-multidrug	lpeA	multidrug efflux RND transporter periplasmic adaptor subunit LpeA	NBR013510	lpeA	NA	4
+multidrug	lmrS	multidrug efflux MFS transporter LmrS	NBR006083	lmrS	NA	435
+multidrug	lpeA	multidrug efflux RND transporter periplasmic adaptor subunit LpeA	NBR013510	lpeA	NA	5
 multidrug	lpeB	multidrug efflux RND transporter permease subunit LpeB	NBR013509	lpeB	NA	25
-multidrug	mdeA	multidrug efflux MFS transporter MdeA	NBR007066	mdeA	NA	382
-multidrug	mdeA	multidrug efflux MFS transporter MdeA	NBR007067	mdeA	NA	73
-multidrug	mdfA	MdfA family multidrug efflux MFS transporter	NF011931.1	NA	PRK15402	206
-multidrug	mdfA	multidrug efflux MFS transporter MdfA	NBR006510	mdfA	NA	841
-multidrug	mdrL	multidrug efflux MFS transporter MdrL	NBR007177	mdrL	NA	200
-multidrug	mdrP	multidrug efflux MFS transporter MdrP	NBR012779	mdrP	NA	8
-multidrug	mdsA	multidrug efflux RND transporter periplasmic adaptor subunit MdsA	NBR006677	mdsA	NA	298
-multidrug	mdsB	multidrug efflux RND transporter permease subunit MdsB	NBR006678	mdsB	NA	486
-multidrug	mdsC	multidrug efflux transporter outer membrane subunit MdsC	NBR006679	mdsC	NA	393
-multidrug	mdt(A)	multidrug efflux MFS transporter Mdt(A)	NBR006676	mdt(A)	NA	51
+multidrug	mdeA	multidrug efflux MFS transporter MdeA	NBR007066	mdeA	NA	388
+multidrug	mdeA	multidrug efflux MFS transporter MdeA	NBR007067	mdeA	NA	78
+multidrug	mdfA	MdfA family multidrug efflux MFS transporter	NF011931.1	NA	PRK15402	202
+multidrug	mdfA	multidrug efflux MFS transporter MdfA	NBR006510	mdfA	NA	862
+multidrug	mdrL	multidrug efflux MFS transporter MdrL	NBR007177	mdrL	NA	202
+multidrug	mdrP	multidrug efflux MFS transporter MdrP	NBR012779	mdrP	NA	11
+multidrug	mdsA	multidrug efflux RND transporter periplasmic adaptor subunit MdsA	NBR006677	mdsA	NA	300
+multidrug	mdsB	multidrug efflux RND transporter permease subunit MdsB	NBR006678	mdsB	NA	490
+multidrug	mdsC	multidrug efflux transporter outer membrane subunit MdsC	NBR006679	mdsC	NA	395
+multidrug	mdt(A)	multidrug efflux MFS transporter Mdt(A)	NBR006676	mdt(A)	NA	61
 multidrug	mdt(P)	multidrug efflux MFS transporter MdtP	NBR013886	mdtP	NA	128
-multidrug	mdtA	multidrug efflux RND transporter subunit MdtA	NBR006343	mdtA	NA	1751
-multidrug	mdtB	multidrug efflux RND transporter permease subunit MdtB	NBR006344	mdtB	NA	3113
-multidrug	mdtC	multidrug efflux RND transporter permease subunit MdtC	NBR006345	mdtC	NA	3068
-multidrug	mdtC	multidrug efflux RND transporter permease subunit MdtC	NF007905.0	mdtC	PRK10614	5695
-multidrug	mdtE	multidrug transporter subunit MdtE	NF007362.0	mdtE	PRK09859	667
-multidrug	mdtF	multidrug efflux pump RND permease MdtF	NBR011029	mdtF	NA	1360
-multidrug	mdtG	multidrug efflux MFS transporter MdtG	NF007372.0	mdtG	PRK09874	3414
-multidrug	mdtH	multidrug efflux MFS transporter MdtH	NF008650.1	mdtH	PRK11646	3876
-multidrug	mdtI	multidrug/spermidine efflux SMR transporter subunit MdtI	NBR008223	mdtI	NA	210
-multidrug	mdtI	multidrug/spermidine efflux SMR transporter subunit MdtI	NF007934.1	mdtI	PRK10650	1431
-multidrug	mdtJ	multidrug/spermidine efflux SMR transporter subunit MdtJ	NF007767.1	mdtJ	PRK10452	1665
-multidrug	mdtK	MdtK family multidrug efflux MATE transporter	NBR000789	mdtK	NA	1310
-multidrug	mdtK	multidrug efflux MATE transporter MdtK	NBR006326	mdtK	NA	798
-multidrug	mdtL	MdtL family multidrug efflux MFS transporter	NF007782.0	NA	PRK10473	645
-multidrug	mdtL	multidrug efflux MFS transporter MdtL	NBR006445	mdtL	NA	901
-multidrug	mdtM	multidrug efflux MFS transporter MdtM	NF011932.2	mdtM	PRK15403	2535
-multidrug	mdtN	multidrug efflux transporter periplasmic adaptor subunit MdtN	NBR006700	mdtN	NA	930
-multidrug	mdtN	multidrug transporter subunit MdtN	NF007785.0	mdtN	PRK10476	2822
-multidrug	mdtO	multidrug efflux transporter permease subunit MdtO	NBR006701	mdtO	NA	1849
-multidrug	mdtO	multidrug efflux transporter permease subunit MdtO	NF008510.0	mdtO	PRK11427	1544
-multidrug	mdtP	MdtP family multidrug efflux transporter outer membrane subunit	NF007390.0	NA	PRK09915	1529
-multidrug	mdtP	multidrug efflux transporter outer membrane subunit MdtP	NBR006699	mdtP	NA	1258
-multidrug	mdtQ	multidrug resistance outer membrane protein MdtQ	NF008524.1	mdtQ	PRK11459	4240
-multidrug	mepA	multidrug efflux MATE transporter MepA	NF000131.1	mepA	NA	414
-multidrug	mexA	multidrug efflux RND transporter periplasmic adaptor subunit MexA	NF033834.1	mexA	NA	227
-multidrug	mexB	multidrug efflux RND transporter permease subunit MexB	NBR005906	mexB	NA	290
-multidrug	mexC	MexC family multidrug efflux RND transporter periplasmic adaptor subunit	NF033138.1	NA	NA	438
-multidrug	mexC	multidrug efflux RND transporter periplasmic adaptor subunit MexC	NBR006469	mexC	NA	245
-multidrug	mexD	multidrug efflux RND transporter permease subunit MexD	NBR006467	mexD	NA	397
-multidrug	mexE	multidrug efflux RND transporter periplasmic adaptor subunit MexE	NBR006435	mexE	NA	182
-multidrug	mexE	multidrug efflux RND transporter periplasmic adaptor subunit MexE	NF045904.1	mexE	NA	2041
-multidrug	mexF	multidrug efflux RND transporter permease subunit MexF	NBR006434	mexF	NA	279
+multidrug	mdtA	multidrug efflux RND transporter subunit MdtA	NBR006343	mdtA	NA	1777
+multidrug	mdtB	multidrug efflux RND transporter permease subunit MdtB	NBR006344	mdtB	NA	3190
+multidrug	mdtC	multidrug efflux RND transporter permease subunit MdtC	NBR006345	mdtC	NA	3125
+multidrug	mdtC	multidrug efflux RND transporter permease subunit MdtC	NF007905.0	mdtC	PRK10614	5829
+multidrug	mdtE	multidrug transporter subunit MdtE	NF007362.0	mdtE	PRK09859	678
+multidrug	mdtF	multidrug efflux pump RND permease MdtF	NBR011029	mdtF	NA	1383
+multidrug	mdtG	multidrug efflux MFS transporter MdtG	NF007372.0	mdtG	PRK09874	3481
+multidrug	mdtH	multidrug efflux MFS transporter MdtH	NF008650.1	mdtH	PRK11646	3991
+multidrug	mdtI	multidrug/spermidine efflux SMR transporter subunit MdtI	NBR008223	mdtI	NA	212
+multidrug	mdtI	multidrug/spermidine efflux SMR transporter subunit MdtI	NF007934.1	mdtI	PRK10650	1447
+multidrug	mdtJ	multidrug/spermidine efflux SMR transporter subunit MdtJ	NF007767.1	mdtJ	PRK10452	1691
+multidrug	mdtK	MdtK family multidrug efflux MATE transporter	NBR000789	mdtK	NA	1332
+multidrug	mdtK	multidrug efflux MATE transporter MdtK	NBR006326	mdtK	NA	813
+multidrug	mdtL	MdtL family multidrug efflux MFS transporter	NF007782.0	NA	PRK10473	691
+multidrug	mdtL	multidrug efflux MFS transporter MdtL	NBR006445	mdtL	NA	919
+multidrug	mdtM	multidrug efflux MFS transporter MdtM	NF011932.2	mdtM	PRK15403	2573
+multidrug	mdtN	multidrug efflux transporter periplasmic adaptor subunit MdtN	NBR006700	mdtN	NA	960
+multidrug	mdtN	multidrug transporter subunit MdtN	NF007785.0	mdtN	PRK10476	2937
+multidrug	mdtO	multidrug efflux transporter permease subunit MdtO	NBR006701	mdtO	NA	1884
+multidrug	mdtO	multidrug efflux transporter permease subunit MdtO	NF008510.0	mdtO	PRK11427	1571
+multidrug	mdtP	MdtP family multidrug efflux transporter outer membrane subunit	NF007390.0	NA	PRK09915	1612
+multidrug	mdtP	multidrug efflux transporter outer membrane subunit MdtP	NBR006699	mdtP	NA	1279
+multidrug	mdtQ	multidrug resistance outer membrane protein MdtQ	NF008524.1	mdtQ	PRK11459	4339
+multidrug	mepA	multidrug efflux MATE transporter MepA	NF000131.1	mepA	NA	424
+multidrug	mexA	multidrug efflux RND transporter periplasmic adaptor subunit MexA	NF033834.1	mexA	NA	228
+multidrug	mexB	multidrug efflux RND transporter permease subunit MexB	NBR005906	mexB	NA	292
+multidrug	mexC	MexC family multidrug efflux RND transporter periplasmic adaptor subunit	NF033138.1	NA	NA	465
+multidrug	mexC	multidrug efflux RND transporter periplasmic adaptor subunit MexC	NBR006469	mexC	NA	248
+multidrug	mexD	multidrug efflux RND transporter permease subunit MexD	NBR006467	mexD	NA	403
+multidrug	mexE	multidrug efflux RND transporter periplasmic adaptor subunit MexE	NBR006435	mexE	NA	186
+multidrug	mexE	multidrug efflux RND transporter periplasmic adaptor subunit MexE	NF045904.1	mexE	NA	2136
+multidrug	mexF	multidrug efflux RND transporter permease subunit MexF	NBR006434	mexF	NA	286
 multidrug	mexH	MexH family multidrug efflux RND transporter periplasmic adaptor subunit	NF000250.1	NA	NA	9
-multidrug	mexH	multidrug efflux RND transporter periplasmic adaptor MexH	NBR013230	mexH	NA	220
-multidrug	mexI	multidrug efflux RND transporter permease MexI	NBR013231	mexI	NA	272
-multidrug	mexJ	multidrug efflux RND transporter periplasmic adaptor subunit MexJ	NBR006709	mexJ	NA	169
-multidrug	mexK	multidrug efflux RND transporter permease subunit MexK	NBR006710	mexK	NA	298
-multidrug	mexM	multidrug efflux RND transporter periplasmic adaptor subunit MexM	NBR006473	mexM	NA	243
-multidrug	mexN	multidrug efflux RND transporter permease subunit MexN	NBR006474	mexN	NA	376
+multidrug	mexH	multidrug efflux RND transporter periplasmic adaptor MexH	NBR013230	mexH	NA	222
+multidrug	mexI	multidrug efflux RND transporter permease MexI	NBR013231	mexI	NA	273
+multidrug	mexJ	multidrug efflux RND transporter periplasmic adaptor subunit MexJ	NBR006709	mexJ	NA	173
+multidrug	mexK	multidrug efflux RND transporter permease subunit MexK	NBR006710	mexK	NA	305
+multidrug	mexM	multidrug efflux RND transporter periplasmic adaptor subunit MexM	NBR006473	mexM	NA	244
+multidrug	mexN	multidrug efflux RND transporter permease subunit MexN	NBR006474	mexN	NA	379
 multidrug	mexP	multidrug efflux RND transporter periplasmic adaptor subunit MexP	NBR006471	mexP	NA	188
-multidrug	mexQ	multidrug efflux RND transporter permease subunit MexQ	NBR006472	mexQ	NA	462
-multidrug	mexV	multidrug efflux RND transporter periplasmic adaptor subunit MexV	NBR006476	mexV	NA	176
-multidrug	mexW	multidrug efflux RND transporter permease subunit MexW	NBR006477	mexW	NA	314
-multidrug	mexX	multidrug efflux RND transporter periplasmic adaptor subunit MexX	NBR006687	mexX	NA	254
-multidrug	mexY	multidrug efflux RND transporter permease subunit MexY	NBR006686	mexY	NA	682
+multidrug	mexQ	multidrug efflux RND transporter permease subunit MexQ	NBR006472	mexQ	NA	467
+multidrug	mexV	multidrug efflux RND transporter periplasmic adaptor subunit MexV	NBR006476	mexV	NA	178
+multidrug	mexW	multidrug efflux RND transporter permease subunit MexW	NBR006477	mexW	NA	321
+multidrug	mexX	multidrug efflux RND transporter periplasmic adaptor subunit MexX	NBR006687	mexX	NA	259
+multidrug	mexY	multidrug efflux RND transporter permease subunit MexY	NBR006686	mexY	NA	689
 multidrug	mmp	MATE family efflux transporter Mmp	NBR012039	mmp	NA	4
 multidrug	mmpL5	siderophore RND transporter MmpL5	NBR000232	mmpL5	NA	146
 multidrug	mmpL7	phthiocerol dimycocerosate RND transporter MmpL7	NBR000233	mmpL7	NA	133
 multidrug	mmr	multidrug efflux SMR transporter Mmr	NBR008237	mmr	NA	18
-multidrug	mtrC	multidrug efflux RND transporter periplasmic adaptor subunit MtrC	NBR006684	mtrC	NA	207
-multidrug	mtrD	multidrug efflux RND transporter permease subunit MtrD	NBR006685	mtrD	NA	286
-multidrug	mtrE	multidrug efflux transporter outer membrane subunit MtrE	NBR006680	mtrE	NA	212
+multidrug	mtrC	multidrug efflux RND transporter periplasmic adaptor subunit MtrC	NBR006684	mtrC	NA	208
+multidrug	mtrD	multidrug efflux RND transporter permease subunit MtrD	NBR006685	mtrD	NA	289
+multidrug	mtrE	multidrug efflux transporter outer membrane subunit MtrE	NBR006680	mtrE	NA	213
 multidrug	muxA	multidrug efflux RND transporter periplasmic adaptor subunit MuxA	NBR006339	muxA	NA	233
-multidrug	muxB	multidrug efflux RND transporter permease subunit MuxB	NBR006340	muxB	NA	308
-multidrug	muxC	multidrug efflux RND transporter permease subunit MuxC	NBR006341	muxC	NA	315
-multidrug	norA	multidrug efflux MFS transporter NorA	NF000352.1	norA	NA	1295
-multidrug	norB	multidrug efflux MFS transporter NorB	NBR006671	norB	NA	363
-multidrug	norC	multidrug efflux MFS transporter NorC	NBR015185	norC	NA	411
-multidrug	norM	multidrug efflux MATE transporter NorM	NBR016670	norM	NA	343
-multidrug	norM	multidrug efflux MATE transporter NorM	NF000263.1	norM	NA	173
-multidrug	opmB	multidrug efflux RND transporter outer membrane subunit OpmB	NBR006342	opmB	NA	206
-multidrug	opmD	multidrug efflux transporter outer membrane subunit OpmD	NBR007069	opmD	NA	307
-multidrug	opmE	multidrug efflux transporter outer membrane subunit OpmE	NBR006470	opmE	NA	351
+multidrug	muxB	multidrug efflux RND transporter permease subunit MuxB	NBR006340	muxB	NA	311
+multidrug	muxC	multidrug efflux RND transporter permease subunit MuxC	NBR006341	muxC	NA	317
+multidrug	norA	multidrug efflux MFS transporter NorA	NF000352.1	norA	NA	1317
+multidrug	norB	multidrug efflux MFS transporter NorB	NBR006671	norB	NA	370
+multidrug	norC	multidrug efflux MFS transporter NorC	NBR015185	norC	NA	414
+multidrug	norM	multidrug efflux MATE transporter NorM	NBR016670	norM	NA	347
+multidrug	norM	multidrug efflux MATE transporter NorM	NF000263.1	norM	NA	172
+multidrug	opmB	multidrug efflux RND transporter outer membrane subunit OpmB	NBR006342	opmB	NA	211
+multidrug	opmD	multidrug efflux transporter outer membrane subunit OpmD	NBR007069	opmD	NA	310
+multidrug	opmE	multidrug efflux transporter outer membrane subunit OpmE	NBR006470	opmE	NA	352
 multidrug	oprA	multidrug efflux transporter outer membrane subunit OprA	NBR016132	oprA	NA	19
 multidrug	oprB	efflux RND transporter outer membrane subunit OprB	NBR011951	oprB	NA	127
-multidrug	oprC	multidrug efflux transporter outer membrane subunit OpcM	NBR006501	opcM	NA	574
-multidrug	oprJ	multidrug efflux transporter outer membrane subunit OprJ	NBR006468	oprJ	NA	262
+multidrug	oprC	multidrug efflux transporter outer membrane subunit OpcM	NBR006501	opcM	NA	576
+multidrug	oprJ	multidrug efflux transporter outer membrane subunit OprJ	NBR006468	oprJ	NA	267
 multidrug	oprM	multidrug efflux RND transporter outer membrane channel subunit OprM	NBR005905	oprM	NA	142
-multidrug	oprN	multidrug efflux RND transporter outer membrane subunit OprN	NBR006432	oprN	NA	296
-multidrug	oprZ	multidrug efflux RND transporter outer membrane subunit OprZ	NBR006492	oprZ	NA	126
-multidrug	oqxA	multidrug efflux RND transporter periplasmic adaptor subunit OqxA	NF000272.1	oqxA	NA	422
-multidrug	oqxB	multidrug efflux RND transporter permease subunit OqxB	NF000037.1	oqxB	NA	2132
+multidrug	oprN	multidrug efflux RND transporter outer membrane subunit OprN	NBR006432	oprN	NA	299
+multidrug	oprZ	multidrug efflux RND transporter outer membrane subunit OprZ	NBR006492	oprZ	NA	125
+multidrug	oqxA	multidrug efflux RND transporter periplasmic adaptor subunit OqxA	NF000272.1	oqxA	NA	430
+multidrug	oqxB	multidrug efflux RND transporter permease subunit OqxB	NF000037.1	oqxB	NA	2173
 multidrug	patA	multidrug efflux ABC transporter subunit PatA	NBR006702	patA	NA	572
-multidrug	patB	multidrug efflux ABC transporter subunit PatB	NBR006703	patB	NA	390
+multidrug	patB	multidrug efflux ABC transporter subunit PatB	NBR006703	patB	NA	391
 multidrug	pdrM	sodium-coupled multidrug efflux MATE transporter PdrM	NBR006333	pdrM	NA	430
-multidrug	pmpM	proton-coupled multidrug efflux MATE transporter PmpM	NBR005742	pmpM	NA	203
-multidrug	sdeA	multidrug efflux RND transporter periplasmic adaptor subunit SdeA	NBR006121	sdeA	NA	172
-multidrug	sdeB	multidrug efflux RND transporter permease subunit SdeB	NBR006120	sdeB	NA	341
-multidrug	sdeX	multidrug efflux RND transporter periplasmic adaptor subunit SdeX	NBR006431	sdeX	NA	115
-multidrug	sdeY	multidrug efflux RND transporter permease subunit SdeY	NBR006430	sdeY	NA	143
-multidrug	sdrM	multidrug efflux MFS transporter SdrM	NF040895.2	sdrM	NA	1187
-multidrug	smdA	SmdA family multidrug ABC transporter permease/ATP-binding protein	NF008055.0	NA	PRK10789	5195
-multidrug	smdA	multidrug efflux ABC transporter permease/ATP-binding subunit SmdA	NBR006374	smdA	NA	164
-multidrug	smdB	SmdB family multidrug efflux ABC transporter permease/ATP-binding protein	NF008056.1	NA	PRK10790	5282
-multidrug	smdB	multidrug efflux ABC transporter permease/ATP-binding subunit SmdB	NBR006373	smdB	NA	177
-multidrug	smeA	multidrug efflux RND transporter periplasmic adaptor subunit SmeA	NBR006489	smeA	NA	211
-multidrug	smeB	multidrug efflux RND transporter permease subunit SmeB	NBR006490	smeB	NA	270
-multidrug	smeC	multidrug efflux transporter outer membrane subunit SmeC	NBR006491	smeC	NA	270
-multidrug	smeD	multidrug efflux RND transporter periplasmic adaptor subunit SmeD	NBR006419	smeD	NA	271
-multidrug	smeE	multidrug efflux RND transporter permease subunit SmeE	NBR006420	smeE	NA	341
-multidrug	smeF	multidrug efflux RND transporter outer membrane subunit SmeF	NBR006421	smeF	NA	293
-multidrug	smfY	multidrug efflux MFS transporter SmfY	NBR006002	smfY	NA	186
-multidrug	smrA	multidrug efflux ABC transporter SmrA	NBR006393	smrA	NA	362
-multidrug	ssmE	multidrug efflux SMR transporter SsmE	NBR006429	ssmE	NA	35
+multidrug	pmpM	proton-coupled multidrug efflux MATE transporter PmpM	NBR005742	pmpM	NA	207
+multidrug	sdeA	multidrug efflux RND transporter periplasmic adaptor subunit SdeA	NBR006121	sdeA	NA	177
+multidrug	sdeB	multidrug efflux RND transporter permease subunit SdeB	NBR006120	sdeB	NA	348
+multidrug	sdeX	multidrug efflux RND transporter periplasmic adaptor subunit SdeX	NBR006431	sdeX	NA	117
+multidrug	sdeY	multidrug efflux RND transporter permease subunit SdeY	NBR006430	sdeY	NA	148
+multidrug	sdrM	multidrug efflux MFS transporter SdrM	NF040895.2	sdrM	NA	1196
+multidrug	smdA	SmdA family multidrug ABC transporter permease/ATP-binding protein	NF008055.0	NA	PRK10789	5283
+multidrug	smdA	multidrug efflux ABC transporter permease/ATP-binding subunit SmdA	NBR006374	smdA	NA	166
+multidrug	smdB	SmdB family multidrug efflux ABC transporter permease/ATP-binding protein	NF008056.1	NA	PRK10790	5407
+multidrug	smdB	multidrug efflux ABC transporter permease/ATP-binding subunit SmdB	NBR006373	smdB	NA	179
+multidrug	smeA	multidrug efflux RND transporter periplasmic adaptor subunit SmeA	NBR006489	smeA	NA	215
+multidrug	smeB	multidrug efflux RND transporter permease subunit SmeB	NBR006490	smeB	NA	277
+multidrug	smeC	multidrug efflux transporter outer membrane subunit SmeC	NBR006491	smeC	NA	278
+multidrug	smeD	multidrug efflux RND transporter periplasmic adaptor subunit SmeD	NBR006419	smeD	NA	275
+multidrug	smeE	multidrug efflux RND transporter permease subunit SmeE	NBR006420	smeE	NA	347
+multidrug	smeF	multidrug efflux RND transporter outer membrane subunit SmeF	NBR006421	smeF	NA	297
+multidrug	smfY	multidrug efflux MFS transporter SmfY	NBR006002	smfY	NA	189
+multidrug	smrA	multidrug efflux ABC transporter SmrA	NBR006393	smrA	NA	368
+multidrug	ssmE	multidrug efflux SMR transporter SsmE	NBR006429	ssmE	NA	36
 multidrug	stp	multidrug resistance protein Stp	NBR010640	stp	NA	47
 multidrug	tbtA	multidrug efflux RND transporter periplasmic adaptor subunit TbtA	NBR008263	tbtA	NA	4
 multidrug	tbtB	multidrug efflux RND transporter permease subunit TbtB	NBR008264	tbtB	NA	17
 multidrug	tbtM	multidrug efflux RND transporter outer membrane channel subunit TbtM	NBR008265	tbtM	NA	6
 multidrug	tmexC	multidrug efflux RND transporter periplasmic adaptor subunit TMexC	NBR014289	tmexC	NA	28
-multidrug	tmexD	multidrug efflux RND transporter permease subunit TMexD	NBR014290	tmexD	NA	51
+multidrug	tmexD	multidrug efflux RND transporter permease subunit TMexD	NBR014290	tmexD	NA	52
 multidrug	tolC	outer membrane channel protein TolC	NBR011905	tolC	NA	16
 multidrug	tolC	outer membrane channel protein TolC	NBR014129	tolC	NA	50
-multidrug	tolC	outer membrane channel protein TolC	NF007002.0	tolC	PRK09465	5698
+multidrug	tolC	outer membrane channel protein TolC	NF007002.0	tolC	PRK09465	5802
 multidrug	toprJ	multidrug efflux transporter outer membrane subunit TOprJ	NBR014291	toprJ	NA	24
-multidrug	ttgA	toluene efflux RND transporter periplasmic adaptor subunit TtgA	NBR008249	ttgA	NA	152
-multidrug	ttgB	multidrug efflux RND transporter permease subunit TtgB	NBR008250	ttgB	NA	276
-multidrug	vcaM	multidrug efflux ABC transporter VcaM	NBR006392	vcaM	NA	209
-multidrug	vceA	multidrug efflux MFS transporter adaptor subunit VceA	NBR006099	vceA	NA	115
-multidrug	vceB	multidrug efflux MFS transporter permease subunit VceB	NBR006097	vceB	NA	155
-multidrug	vceC	multidrug efflux MFS transporter outer membrane subunit VceC	NBR006098	vceC	NA	152
-multidrug	vcmA	sodium-coupled multidrug efflux MATE transporter VcmA	NBR006004	vcmA	NA	117
+multidrug	ttgA	toluene efflux RND transporter periplasmic adaptor subunit TtgA	NBR008249	ttgA	NA	166
+multidrug	ttgB	multidrug efflux RND transporter permease subunit TtgB	NBR008250	ttgB	NA	294
+multidrug	vcaM	multidrug efflux ABC transporter VcaM	NBR006392	vcaM	NA	212
+multidrug	vceA	multidrug efflux MFS transporter adaptor subunit VceA	NBR006099	vceA	NA	117
+multidrug	vceB	multidrug efflux MFS transporter permease subunit VceB	NBR006097	vceB	NA	158
+multidrug	vceC	multidrug efflux MFS transporter outer membrane subunit VceC	NBR006098	vceC	NA	153
+multidrug	vcmA	sodium-coupled multidrug efflux MATE transporter VcmA	NBR006004	vcmA	NA	119
 multidrug	vexA	multidrug efflux RND transporter periplasmic adaptor subunit VexA	NBR006336	vexA	NA	70
-multidrug	vexB	multidrug efflux RND transporter permease subunit VexB	NBR006335	vexB	NA	147
-multidrug	vexC	multidrug efflux RND transporter periplasmic adaptor subunit VexC	NBR006122	vexC	NA	233
-multidrug	vexD	efflux RND transporter permease subunit VexD	NBR006337	vexD	NA	423
-multidrug	vexE	multidrug efflux RND transporter periplasmic adaptor subunit VexE	NBR006437	vexE	NA	161
-multidrug	vexF	multidrug efflux RND transporter permease subunit VexF	NBR006438	vexF	NA	266
-multidrug	vexG	vibriobactin export RND transporter periplasmic adaptor subunit VexG	NBR007476	vexG	NA	113
-multidrug	vexH	vibriobactin export RND transporter permease subunit VexH	NBR007458	vexH	NA	966
-multidrug	vexK	efflux RND transporter permease subunit VexK	NBR006338	vexK	NA	278
-multidrug	vmeA	multidrug efflux RND transporter periplasmic adaptor subunit VmeA	NBR006375	vmeA	NA	156
-multidrug	vmeB	multidrug efflux RND transporter permease subunit VmeB	NBR006376	vmeB	NA	298
-multidrug	vmeC	multidrug efflux RND transporter periplasmic adaptor subunit VmeC	NBR006398	vmeC	NA	117
-multidrug	vmeD	multidrug efflux RND transporter permease subunit VmeD	NBR006399	vmeD	NA	287
-multidrug	vmeE	multidrug efflux RND transporter periplasmic adaptor subunit VmeE	NBR006403	vmeE	NA	191
-multidrug	vmeF	multidrug efflux RND transporter permease subunit VmeF	NBR006404	vmeF	NA	504
-multidrug	vmeJ	multidrug efflux RND transporter periplasmic adaptor subunit VmeJ	NBR006409	vmeJ	NA	365
-multidrug	vmeK	multidrug efflux RND transporter permease subunit VmeK	NBR006410	vmeK	NA	700
-multidrug	vmeP	efflux RND transporter periplasmic adaptor subunit VmeP	NBR006407	vmeP	NA	250
-multidrug	vmeQ	efflux RND transporter permease subunit VmeQ	NBR006408	vmeQ	NA	558
-multidrug	vmeT	multidrug efflux RND transporter periplasmic adaptor subunit VmeT	NBR006400	vmeT	NA	279
-multidrug	vmeU	multidrug efflux RND transporter periplasmic adaptor subunit VmeU	NBR006401	vmeU	NA	346
-multidrug	vmeV	multidrug efflux RND transporter permease subunit VmeV	NBR006402	vmeV	NA	413
-multidrug	vmeY	multidrug efflux RND transporter periplasmic adaptor subunit VmeY	NBR006405	vmeY	NA	288
-multidrug	vmeZ	multidrug efflux RND transporter permease subunit VmeZ	NBR006406	vmeZ	NA	562
-multidrug	vpoC	efflux RND transporter outer membrane protein VpoC	NBR008229	vpoC	NA	30
+multidrug	vexB	multidrug efflux RND transporter permease subunit VexB	NBR006335	vexB	NA	149
+multidrug	vexC	multidrug efflux RND transporter periplasmic adaptor subunit VexC	NBR006122	vexC	NA	248
+multidrug	vexD	efflux RND transporter permease subunit VexD	NBR006337	vexD	NA	436
+multidrug	vexE	multidrug efflux RND transporter periplasmic adaptor subunit VexE	NBR006437	vexE	NA	163
+multidrug	vexF	multidrug efflux RND transporter permease subunit VexF	NBR006438	vexF	NA	276
+multidrug	vexG	vibriobactin export RND transporter periplasmic adaptor subunit VexG	NBR007476	vexG	NA	114
+multidrug	vexH	vibriobactin export RND transporter permease subunit VexH	NBR007458	vexH	NA	975
+multidrug	vexK	efflux RND transporter permease subunit VexK	NBR006338	vexK	NA	283
+multidrug	vmeA	multidrug efflux RND transporter periplasmic adaptor subunit VmeA	NBR006375	vmeA	NA	160
+multidrug	vmeB	multidrug efflux RND transporter permease subunit VmeB	NBR006376	vmeB	NA	305
+multidrug	vmeC	multidrug efflux RND transporter periplasmic adaptor subunit VmeC	NBR006398	vmeC	NA	122
+multidrug	vmeD	multidrug efflux RND transporter permease subunit VmeD	NBR006399	vmeD	NA	296
+multidrug	vmeE	multidrug efflux RND transporter periplasmic adaptor subunit VmeE	NBR006403	vmeE	NA	199
+multidrug	vmeF	multidrug efflux RND transporter permease subunit VmeF	NBR006404	vmeF	NA	527
+multidrug	vmeJ	multidrug efflux RND transporter periplasmic adaptor subunit VmeJ	NBR006409	vmeJ	NA	375
+multidrug	vmeK	multidrug efflux RND transporter permease subunit VmeK	NBR006410	vmeK	NA	711
+multidrug	vmeP	efflux RND transporter periplasmic adaptor subunit VmeP	NBR006407	vmeP	NA	251
+multidrug	vmeQ	efflux RND transporter permease subunit VmeQ	NBR006408	vmeQ	NA	564
+multidrug	vmeT	multidrug efflux RND transporter periplasmic adaptor subunit VmeT	NBR006400	vmeT	NA	284
+multidrug	vmeU	multidrug efflux RND transporter periplasmic adaptor subunit VmeU	NBR006401	vmeU	NA	357
+multidrug	vmeV	multidrug efflux RND transporter permease subunit VmeV	NBR006402	vmeV	NA	424
+multidrug	vmeY	multidrug efflux RND transporter periplasmic adaptor subunit VmeY	NBR006405	vmeY	NA	303
+multidrug	vmeZ	multidrug efflux RND transporter permease subunit VmeZ	NBR006406	vmeZ	NA	583
+multidrug	vpoC	efflux RND transporter outer membrane protein VpoC	NBR008229	vpoC	NA	31
 multidrug	ykkC	multidrug efflux SMR transporter subunit YkkC	NBR006377	ykkC	NA	47
-multidrug	ykkD	multidrug efflux SMR transporter subunit YkkD	NBR006378	ykkD	NA	33
-mupirocin	mupA	mupirocin-resistant isoleucine--tRNA ligase MupA	NF000257.1	mupA	NA	29
-nitroimidazole	nim*	NimABCDEF family 5-nitroimidazole reductase	NF000261.1	nim	NA	15
+multidrug	ykkD	multidrug efflux SMR transporter subunit YkkD	NBR006378	ykkD	NA	34
+mupirocin	mupA	mupirocin-resistant isoleucine--tRNA ligase MupA	NF000257.1	mupA	NA	32
+nitroimidazole	nim*	NimABCDEF family 5-nitroimidazole reductase	NF000261.1	nim	NA	14
 nitroimidazole	nim*	NimIJ family nitroimidazole resistance protein	NF000262.1	NA	NA	21
-phenicol	catA	type A chloramphenicol O-acetyltransferase	NF000491.1	catA	NA	3631
-phenicol	catB	type B chloramphenicol O-acetyltransferase	NF000490.1	catB	NA	1934
-phenicol	catC	type C chloramphenicol O-acetyltransferase	NBR014235	catC	NA	404
-phenicol	cfr(A)	23S rRNA (adenine(2503)-C(8))-methyltransferase Cfr	NBR012187	cfr	NA	33
+phenicol	catA	type A chloramphenicol O-acetyltransferase	NF000491.1	catA	NA	3787
+phenicol	catB	type B chloramphenicol O-acetyltransferase	NF000490.1	catB	NA	1970
+phenicol	catC	type C chloramphenicol O-acetyltransferase	NBR014235	catC	NA	415
+phenicol	cfr(A)	23S rRNA (adenine(2503)-C(8))-methyltransferase Cfr	NBR012187	cfr	NA	32
 phenicol	cfr(A)	23S rRNA (adenine(2503)-C(8))-methyltransferase Cfr	NF011024.0	cfr	PRK14453	6
 phenicol	cfr(B)	23S rRNA (adenine(2503)-C(8))-methyltransferase Cfr(B)	NBR012188	cfr(B)	NA	4
 phenicol	cfr(C)	23S rRNA (adenine(2503)-C(8))-methyltransferase Cfr(C)	NBR012189	cfr(C)	NA	11
 phenicol	cfr(D)	23S rRNA (adenine(2503)-C(8))-methyltransferase Cfr(D)	NBR012190	cfr(D)	NA	2
 phenicol	cfr(E)	23S rRNA (adenine(2503)-C(8))-methyltransferase Cfr(E)	NBR012191	cfr(E)	NA	1
-phenicol	cfr*	Cfr family 23S rRNA (adenine(2503)-C(8))-methyltransferase	NF000424.4	NA	NA	608
-phenicol	cml*	CmlA/FloR family chloramphenicol efflux MFS transporter	NF033134.0	cml	NA	1419
-phenicol	cmlA	CmlA family chloramphenicol efflux MFS transporter	NF000509.1	NA	NA	102
+phenicol	cfr*	Cfr family 23S rRNA (adenine(2503)-C(8))-methyltransferase	NF000424.4	NA	NA	625
+phenicol	cml*	CmlA/FloR family chloramphenicol efflux MFS transporter	NF033134.0	cml	NA	1444
+phenicol	cmlA	CmlA family chloramphenicol efflux MFS transporter	NF000509.1	NA	NA	107
 phenicol	cmlV	chloramphenicol efflux MFS transporter CmlV	NF012199.0	cmlV	NA	4
-phenicol	cmx	chloramphenicol efflux MFS transporter Cmx	NF000510.1	cmx	NA	47
-phenicol	cpt	chloramphenicol phosphotransferase CPT	NF033114.1	cpt	NA	3342
-phenicol	cxpE	chloramphenicol efflux transporter CxpE	NF045801.1	cxpE	NA	636
+phenicol	cmx	chloramphenicol efflux MFS transporter Cmx	NF000510.1	cmx	NA	48
+phenicol	cpt	chloramphenicol phosphotransferase CPT	NF033114.1	cpt	NA	3885
+phenicol	cxpE	chloramphenicol efflux transporter CxpE	NF045801.1	cxpE	NA	657
 phenicol	estDL136	chloramphenicol hydrolase	NF033149.0	estDL136	NA	33
-phenicol	fexA	chloramphenicol/florfenicol efflux MFS transporter FexA	NF000218.1	fexA	NA	121
+phenicol	fexA	chloramphenicol/florfenicol efflux MFS transporter FexA	NF000218.1	fexA	NA	123
 phenicol	fexA	chloramphenicol/florfenicol efflux MFS transporter FexA	NG_047857.1	fexA	NA	1
-phenicol	fexB	chloramphenicol/florfenicol efflux MFS transporter FexB	NF040856.1	fexB	NA	23
-phenicol	floR	chloramphenicol/florfenicol efflux MFS transporter FloR	NF000219.1	floR	NA	399
-phenicol	optrA	ABC-F type ribosomal protection protein OptrA	NF000514.1	optrA	NA	151
-phenicol	poxtA	ABC-F type ribosomal protection protein PoxtA	NBR007205	poxtA	NA	18
+phenicol	fexB	chloramphenicol/florfenicol efflux MFS transporter FexB	NF040856.1	fexB	NA	24
+phenicol	floR	chloramphenicol/florfenicol efflux MFS transporter FloR	NF000219.1	floR	NA	410
+phenicol	optrA	ABC-F type ribosomal protection protein OptrA	NF000514.1	optrA	NA	159
+phenicol	poxtA	ABC-F type ribosomal protection protein PoxtA	NBR007205	poxtA	NA	19
 phenicol	poxtA	ABC-F type ribosomal protection protein PoxtA-Ef	NBR015240	poxtA-Ef	NA	2
 pleuromutilin	taeA	ABC-F type ribosomal protection protein TaeA	NBR011675	taeA	NA	30
 pleuromutilin	tva(A)	ABC-F type ribosomal protection protein Tva(A)	NBR010250	tva(A)	NA	16
 pleuromutilin	tva(B)	ABC-F type ribosomal protection protein Tva(B)	NBR010251	tva(B)	NA	18
 quinolone	mfpA	pentapeptide repeat protein MfpA	NF000349.1	mfpA	NA	37
-quinolone	qepA	fluoroquinolone efflux MFS transporter QepA	NF012169.0	qepA	NA	14
-quinolone	qnr*	Qnr family pentapeptide repeat protein	NF033086.2	NA	NA	2016
-quinolone	qnr*	SmQnr family pentapeptide repeat protein	NF038182.1	smqnr	NA	231
-quinolone	qnrA	QnrA family quinolone resistance pentapeptide repeat protein	NF000071.4	NA	NA	37
+quinolone	qepA	fluoroquinolone efflux MFS transporter QepA	NF012169.0	qepA	NA	15
+quinolone	qnr*	Qnr family pentapeptide repeat protein	NF033086.2	NA	NA	2078
+quinolone	qnr*	SmQnr family pentapeptide repeat protein	NF038182.1	smqnr	NA	236
+quinolone	qnrA	QnrA family quinolone resistance pentapeptide repeat protein	NF000071.4	NA	NA	38
 quinolone	qnrAS	QnrAS family quinolone resistance pentapeptide repeat protein	NF012151.0	NA	NA	2
-quinolone	qnrB	QnrB family quinolone resistance pentapeptide repeat protein	NF000420.1	NA	NA	82
+quinolone	qnrB	QnrB family quinolone resistance pentapeptide repeat protein	NF000420.1	NA	NA	85
 quinolone	qnrC	QnrC family quinolone resistance pentapeptide repeat protein	NF012152.0	NA	NA	14
 quinolone	qnrD	QnrD family quinolone resistance pentapeptide repeat protein	NF000139.2	NA	NA	26
-quinolone	qnrE	QnrE family quinolone resistance pentapeptide repeat protein	NF033375.2	NA	NA	38
-quinolone	qnrS	QnrS family quinolone resistance pentapeptide repeat protein	NF000056.3	NA	NA	116
+quinolone	qnrE	QnrE family quinolone resistance pentapeptide repeat protein	NF033375.2	NA	NA	40
+quinolone	qnrS	QnrS family quinolone resistance pentapeptide repeat protein	NF000056.3	NA	NA	121
 quinolone	qnrVC	QnrVC family quinolone resistance pentapeptide repeat protein	NF000421.1	NA	NA	37
 rifamycin	arr	NAD(+)--rifampin ADP-ribosyltransferase	NF000066.1	arr	NA	11
-rifamycin	arr	NAD(+)--rifampin ADP-ribosyltransferase	NF000318.1	arr	NA	223
-rifamycin	arr	NAD(+)--rifampin ADP-ribosyltransferase	NF033144.1	arr	NA	6061
-rifamycin	helR	RNA polymerase recycling motor ATPase HelR	NF041254.1	helR	NA	7442
-rifamycin	helR	RNA polymerase recycling motor ATPase HelR	NF041258.1	helR	NA	1560
-rifamycin	iri	rifampin monooxygenase Iri	NF000343.1	iri	NA	110
-rifamycin	rox	rifampin monooxygenase	NF033145.1	rox	NA	6711
-rifamycin	rph*	rifamycin-inactivating phosphotransferase	NF041857.1	rph	NA	4721
-rifamycin	rphA	rifamycin-inactivating phosphotransferase Rph	NF000283.1	rph	NA	14
+rifamycin	arr	NAD(+)--rifampin ADP-ribosyltransferase	NF000318.1	arr	NA	230
+rifamycin	arr	NAD(+)--rifampin ADP-ribosyltransferase	NF033144.1	arr	NA	6293
+rifamycin	helR	RNA polymerase recycling motor ATPase HelR	NF041254.1	helR	NA	8493
+rifamycin	helR	RNA polymerase recycling motor ATPase HelR	NF041258.1	helR	NA	1642
+rifamycin	iri	rifampin monooxygenase Iri	NF000343.1	iri	NA	112
+rifamycin	rox	rifampin monooxygenase	NF033145.1	rox	NA	7612
+rifamycin	rph*	rifamycin-inactivating phosphotransferase	NF041857.1	rph	NA	5420
+rifamycin	rphA	rifamycin-inactivating phosphotransferase Rph	NF000283.1	rph	NA	17
 streptothricin	sat2	streptothricin N-acetyltransferase Sat2	NF000358.1	sat2	NA	25
-streptothricin	sat4	streptothricin N-acetyltransferase Sat4	NF000360.1	sat4	NA	80
-streptothricin	satA	streptothricin N-acetyltransferase SatA	NBR008001	satA	NA	394
-streptothricin	satA	streptothricin N-acetyltransferase SatA	NBR008002	satA	NA	323
+streptothricin	sat4	streptothricin N-acetyltransferase Sat4	NF000360.1	sat4	NA	81
+streptothricin	satA	streptothricin N-acetyltransferase SatA	NBR008001	satA	NA	400
+streptothricin	satA	streptothricin N-acetyltransferase SatA	NBR008002	satA	NA	327
 streptothricin	sta	streptothricin N-acetyltransferase STAT	NF000487.1	sta	NA	1
-sulfonamide	mtrF	AbgT family antimetabolite efflux transporter MtrF	NBR006674	mtrF	NA	148
-sulfonamide	sul1	sulfonamide-resistant dihydropteroate synthase Sul1	NF000294.1	sul1	NA	379
-sulfonamide	sul2	sulfonamide-resistant dihydropteroate synthase Sul2	NF000295.1	sul2	NA	213
-sulfonamide	sul3	sulfonamide-resistant dihydropteroate synthase Sul3	NF000296.1	sul3	NA	54
+sulfonamide	mtrF	AbgT family antimetabolite efflux transporter MtrF	NBR006674	mtrF	NA	150
+sulfonamide	sul1	sulfonamide-resistant dihydropteroate synthase Sul1	NF000294.1	sul1	NA	403
+sulfonamide	sul2	sulfonamide-resistant dihydropteroate synthase Sul2	NF000295.1	sul2	NA	216
+sulfonamide	sul3	sulfonamide-resistant dihydropteroate synthase Sul3	NF000296.1	sul3	NA	56
 sulfonamide	sul4	sulfonamide-resistant dihydropteroate synthase Sul4	NF033502.0	sul4	NA	4
-tetracenomycin	tcmA	tetracenomycin C efflux MFS transporter	NF000025.1	tcmA	NA	6
-tetracycline	otr(A)	tetracycline resistance ribosomal protection protein Otr(A)	NF000120.3	otr(A)	NA	1106
-tetracycline	otr(B)	oxytetracycline resistance efflux MFS transporter OtrB	NF000095.1	otr(B)	NA	31
-tetracycline	tcr3	tetracycline efflux MFS transporter Tcr3	NF000009.1	tcr3	NA	14
-tetracycline	tet(30)	tetracycline efflux MFS transporter Tet(30)	NF045486.1	tet(30)	NA	40
+tetracenomycin	tcmA	tetracenomycin C efflux MFS transporter	NF000025.1	tcmA	NA	8
+tetracycline	otr(A)	tetracycline resistance ribosomal protection protein Otr(A)	NF000120.3	otr(A)	NA	1324
+tetracycline	otr(B)	oxytetracycline resistance efflux MFS transporter OtrB	NF000095.1	otr(B)	NA	36
+tetracycline	tcr3	tetracycline efflux MFS transporter Tcr3	NF000009.1	tcr3	NA	18
+tetracycline	tet(30)	tetracycline efflux MFS transporter Tet(30)	NF045486.1	tet(30)	NA	39
 tetracycline	tet(31)	tetracycline efflux MFS transporter Tet(31)	NBR016391	tet(31)	NA	2
 tetracycline	tet(32)	tetracycline resistance ribosomal protection mosaic protein Tet(O/32/O)	NBR013858	tet(O/32/O)	NA	5
 tetracycline	tet(32)	tetracycline resistance ribosomal protection protein Tet(32)	NBR008284	tet(32)	NA	38
 tetracycline	tet(33)	tetracycline efflux MFS transporter Tet(33)	NBR013514	tet(33)	NA	16
-tetracycline	tet(34)	oxytetracycline resistance phosphoribosyltransferase domain-containing protein Tet(34)	NF000014.1	tet(34)	NA	144
-tetracycline	tet(35)	tetracycline efflux Na+/H+ antiporter family transporter Tet(35)	NF000013.1	tet(35)	NA	306
+tetracycline	tet(34)	oxytetracycline resistance phosphoribosyltransferase domain-containing protein Tet(34)	NF000014.1	tet(34)	NA	145
+tetracycline	tet(35)	tetracycline efflux Na+/H+ antiporter family transporter Tet(35)	NF000013.1	tet(35)	NA	316
 tetracycline	tet(36)	tetracycline resistance ribosomal protection protein Tet(36)	NBR008288	tet(36)	NA	8
 tetracycline	tet(38)	tetracycline efflux MFS transporter Tet(38)	NF012176.0	tet(38)	NA	245
 tetracycline	tet(39)	tetracycline efflux MFS transporter Tet(39)	NBR016392	tet(39)	NA	20
 tetracycline	tet(40)	tetracycline efflux MFS transporter Tet(40)	NF000049.1	tet(40)	NA	103
-tetracycline	tet(41)	tetracycline efflux MFS transporter Tet(41)	NBR016393	tet(41)	NA	191
-tetracycline	tet(42)	tetracycline efflux MFS transporter Tet(42)	NF012177.1	tet(42)	NA	46
-tetracycline	tet(44)	tetracycline resistance ribosomal protection protein Tet(44)	NBR008285	tet(44)	NA	31
+tetracycline	tet(41)	tetracycline efflux MFS transporter Tet(41)	NBR016393	tet(41)	NA	193
+tetracycline	tet(42)	tetracycline efflux MFS transporter Tet(42)	NF012177.1	tet(42)	NA	50
+tetracycline	tet(44)	tetracycline resistance ribosomal protection protein Tet(44)	NBR008285	tet(44)	NA	32
 tetracycline	tet(59)	tetracycline efflux MFS transporter Tet(59)	NBR016395	tet(59)	NA	20
 tetracycline	tet(62)	tetracycline efflux MFS transporter Tet(62)	NF045488.1	tet(62)	NA	3
-tetracycline	tet(64)	tetracycline efflux MFS transporter Tet(64)	NBR013507	tet(64)	NA	144
+tetracycline	tet(64)	tetracycline efflux MFS transporter Tet(64)	NBR013507	tet(64)	NA	147
 tetracycline	tet(65)	tetracycline efflux MFS transporter Tet(65)	NF045684.1	tet(65)	NA	9
-tetracycline	tet(A)	tetracycline efflux MFS transporter Tet(A)	NF012193.0	tet(A)	NA	310
-tetracycline	tet(B)	tetracycline efflux MFS transporter Tet(B)	NF012190.1	tet(B)	NA	158
-tetracycline	tet(C)	tetracycline efflux MFS transporter Tet(C)	NF012191.0	tet(C)	NA	28
-tetracycline	tet(D)	tetracycline efflux MFS transporter Tet(D)	NF012186.0	tet(D)	NA	84
+tetracycline	tet(A)	tetracycline efflux MFS transporter Tet(A)	NF012193.0	tet(A)	NA	326
+tetracycline	tet(B)	tetracycline efflux MFS transporter Tet(B)	NF012190.1	tet(B)	NA	166
+tetracycline	tet(C)	tetracycline efflux MFS transporter Tet(C)	NF012191.0	tet(C)	NA	29
+tetracycline	tet(D)	tetracycline efflux MFS transporter Tet(D)	NF012186.0	tet(D)	NA	85
 tetracycline	tet(E)	tetracycline efflux MFS transporter Tet(E)	NF012187.0	tet(E)	NA	15
-tetracycline	tet(G)	tetracycline efflux MFS transporter Tet(G)	NF012192.0	tet(G)	NA	58
-tetracycline	tet(H)	tetracycline efflux MFS transporter Tet(H)	NF012195.0	tet(H)	NA	50
-tetracycline	tet(J)	tetracycline efflux MFS transporter Tet(J)	NF012194.0	tet(J)	NA	67
-tetracycline	tet(K)	tetracycline efflux MFS transporter Tet(K)	NF012183.0	tet(K)	NA	82
-tetracycline	tet(L)	tetracycline efflux MFS transporter Tet(L)	NF012185.0	tet(L)	NA	262
-tetracycline	tet(M)	tetracycline resistance ribosomal protection protein Tet(M)	NF012155.1	tet(M)	NA	883
-tetracycline	tet(O)	tetracycline resistance ribosomal protection protein Tet(O)	NBR008283	tet(O)	NA	608
-tetracycline	tet(Q)	tetracycline resistance ribosomal protection protein Tet(Q)	NF012154.0	tet(Q)	NA	281
-tetracycline	tet(S)	tetracycline resistance ribosomal protection protein Tet(S)	NBR008286	tet(S)	NA	17
+tetracycline	tet(G)	tetracycline efflux MFS transporter Tet(G)	NF012192.0	tet(G)	NA	60
+tetracycline	tet(H)	tetracycline efflux MFS transporter Tet(H)	NF012195.0	tet(H)	NA	56
+tetracycline	tet(J)	tetracycline efflux MFS transporter Tet(J)	NF012194.0	tet(J)	NA	69
+tetracycline	tet(K)	tetracycline efflux MFS transporter Tet(K)	NF012183.0	tet(K)	NA	84
+tetracycline	tet(L)	tetracycline efflux MFS transporter Tet(L)	NF012185.0	tet(L)	NA	264
+tetracycline	tet(M)	tetracycline resistance ribosomal protection protein Tet(M)	NF012155.1	tet(M)	NA	892
+tetracycline	tet(O)	tetracycline resistance ribosomal protection protein Tet(O)	NBR008283	tet(O)	NA	624
+tetracycline	tet(Q)	tetracycline resistance ribosomal protection protein Tet(Q)	NF012154.0	tet(Q)	NA	282
+tetracycline	tet(S)	tetracycline resistance ribosomal protection protein Tet(S)	NBR008286	tet(S)	NA	18
 tetracycline	tet(T)	tetracycline resistance ribosomal protection protein Tet(T)	NBR008289	tet(T)	NA	7
-tetracycline	tet(V)	tetracycline efflux MFS transporter Tet(V)	NF012178.0	tet(V)	NA	291
-tetracycline	tet(W)	tetracycline resistance ribosomal protection mosaic protein Tet(O/W/32/O)	NBR013892	tet(O/W/32/O)	NA	34
-tetracycline	tet(W)	tetracycline resistance ribosomal protection protein Tet(W)	NBR008287	tet(W)	NA	412
+tetracycline	tet(V)	tetracycline efflux MFS transporter Tet(V)	NF012178.0	tet(V)	NA	303
+tetracycline	tet(W)	tetracycline resistance ribosomal protection mosaic protein Tet(O/W/32/O)	NBR013892	tet(O/W/32/O)	NA	38
+tetracycline	tet(W)	tetracycline resistance ribosomal protection protein Tet(W)	NBR008287	tet(W)	NA	415
 tetracycline	tet(W)	tetracycline resistance ribosomal protection protein Tet(W/N/W)	NBR013897	tet(W/N/W)	NA	6
-tetracycline	tet(X)	tetracycline-inactivating monooxygenase Tet(X)	NF033111.2	tet(X)	NA	129
+tetracycline	tet(X)	tetracycline-inactivating monooxygenase Tet(X)	NF033111.2	tet(X)	NA	137
 tetracycline	tet(X)	tetracycline-inactivating monooxygenase Tet(X1)	NBR016672	tet(X1)	NA	2
 tetracycline	tet(Y)	tetracycline efflux MFS transporter Tet(Y)	NF012188.1	tet(Y)	NA	9
 tetracycline	tet(Z)	tetracycline efflux MFS transporter Tet(Z)	NBR013513	tet(Z)	NA	8
-tetracycline	tet*	Tet(A)/Tet(B)/Tet(C) family tetracycline efflux MFS transporter	NF012174.0	tet	NA	984
+tetracycline	tet*	Tet(A)/Tet(B)/Tet(C) family tetracycline efflux MFS transporter	NF012174.0	tet	NA	1005
 tetracycline	tet*	Tet(H)/Tet(J) family tetracycline efflux MFS transporter	NF012207.0	tet(H-J)	NA	23
-tetracycline	tet*	Tet(L)/Tet(K)/Tet(45) family tetracycline efflux MFS transporter	NF012175.1	tet	NA	434
-tetracycline	tet*	TetM/TetW/TetO/TetS family tetracycline resistance ribosomal protection protein	NF033148.1	tet	NA	103
-tetracycline	tet*	tetracycline resistance ribosomal protection protein	NF012153.1	tet	NA	282
+tetracycline	tet*	Tet(L)/Tet(K)/Tet(45) family tetracycline efflux MFS transporter	NF012175.1	tet	NA	445
+tetracycline	tet*	TetM/TetW/TetO/TetS family tetracycline resistance ribosomal protection protein	NF033148.1	tet	NA	104
+tetracycline	tet*	tetracycline resistance ribosomal protection protein	NF012153.1	tet	NA	286
 tetracycline	tetA	tetracycline efflux ABC transporter TetAB subunit A	NF000506.1	tetA	NA	61
-tetracycline	tetA(46)	tetracycline efflux ABC transporter Tet(46) subunit A	NF000474.1	tetA(46)	NA	108
-tetracycline	tetA(58)	tetracycline efflux ABC transporter Tet(58) subunit A	NBR016196	tetA(58)	NA	28
-tetracycline	tetA(60)	tetracycline efflux ABC transporter Tet(60) subunit A	NBR016124	tetA(60)	NA	13
-tetracycline	tetA(P)	tetracycline efflux MFS transporter TetA(P)	NF000043.1	tetA(P)	NA	83
-tetracycline	tetB(46)	tetracycline efflux ABC transporter Tet(46) subunit B	NF000475.1	tetB(46)	NA	117
+tetracycline	tetA(46)	tetracycline efflux ABC transporter Tet(46) subunit A	NF000474.1	tetA(46)	NA	107
+tetracycline	tetA(58)	tetracycline efflux ABC transporter Tet(58) subunit A	NBR016196	tetA(58)	NA	29
+tetracycline	tetA(60)	tetracycline efflux ABC transporter Tet(60) subunit A	NBR016124	tetA(60)	NA	12
+tetracycline	tetA(P)	tetracycline efflux MFS transporter TetA(P)	NF000043.1	tetA(P)	NA	84
+tetracycline	tetB(46)	tetracycline efflux ABC transporter Tet(46) subunit B	NF000475.1	tetB(46)	NA	116
 tetracycline	tetB(58)	tetracycline efflux ABC transporter Tet(58) subunit B	NBR016197	tetB(58)	NA	25
-tetracycline	tetB(60)	tetracycline efflux ABC transporter Tet(60) subunit B	NBR016125	tetB(60)	NA	11
+tetracycline	tetB(60)	tetracycline efflux ABC transporter Tet(60) subunit B	NBR016125	tetB(60)	NA	10
 tetracycline	tetB(P)	tetracycline resistance ribosomal protection protein TetB(P)	NBR008290	tetB(P)	NA	25
 thiostrepton	nshR	NshR family nosiheptide/thiostrepton resistance 23S rRNA methyltransferase	NF000035.1	NA	NA	9
-trimethoprim	dfr*	DfrD/DfrG/DfrK family trimethoprim-resistant dihydrofolate reductase	NF000332.1	dfr	NA	78
+trimethoprim	dfr*	DfrD/DfrG/DfrK family trimethoprim-resistant dihydrofolate reductase	NF000332.1	dfr	NA	81
 trimethoprim	dfrA	DfrA12/DfrA21 family trimethoprim-resistant dihydrofolate reductase	NF000055.3	dfrA	NA	1
-trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA	NF000330.1	dfrA	NA	70
-trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA1	NBR013838	dfrA1	NA	39
+trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA	NF000330.1	dfrA	NA	75
+trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA1	NBR013838	dfrA1	NA	43
 trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA10	NF000018.2	dfrA10	NA	2
-trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA12	NF000053.2	dfrA12	NA	37
-trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA14	NBR013841	dfrA14	NA	31
+trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA12	NF000053.2	dfrA12	NA	38
+trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA14	NBR013841	dfrA14	NA	35
 trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA15	NBR013842	dfrA15	NA	12
-trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA16	NBR013843	dfrA16	NA	6
+trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA16	NBR013843	dfrA16	NA	7
 trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA17	NBR013837	dfrA17	NA	26
 trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA18	NF000039.1	dfrA18	NA	1
-trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA19	NF000041.1	dfrA19	NA	8
+trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA19	NF000041.1	dfrA19	NA	9
 trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA20	NF000127.2	dfrA20	NA	1
 trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA21	NBR013854	dfrA21	NA	1
 trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA23	NF000134.2	dfrA23	NA	2
@@ -1123,7 +1128,7 @@ trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA24	NF000146
 trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA25	NBR013844	dfrA25	NA	2
 trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA26	NF000006.2	dfrA26	NA	1
 trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA27	NBR013834	dfrA27	NA	6
-trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA30	NBR013849	dfrA30	NA	2
+trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA30	NBR013849	dfrA30	NA	3
 trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA31	NBR013847	dfrA31	NA	9
 trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA32	NBR013835	dfrA32	NA	1
 trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA36	NF033868.0	dfrA36	NA	2
@@ -1134,19 +1139,19 @@ trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA44	NBR01611
 trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA45	NBR016113	dfrA45	NA	2
 trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA46	NBR013845	dfrA46	NA	3
 trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA5	NBR013851	dfrA5	NA	5
-trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA50	NF047323.1	dfrA50	NA	71
-trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA51	NF047324.1	dfrA51	NA	166
+trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA50	NF047323.1	dfrA50	NA	73
+trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA51	NF047324.1	dfrA51	NA	168
 trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA6	NBR013846	dfrA6	NA	4
 trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA7	NBR013840	dfrA7	NA	4
 trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA8	NF000126.2	dfrA8	NA	1
 trimethoprim	dfrA	trimethoprim-resistant dihydrofolate reductase DfrA9	NF000109.2	dfrA9	NA	1
-trimethoprim	dfrB	trimethoprim-resistant dihydrofolate reductase DfrB	NF000331.2	dfrB	NA	24
+trimethoprim	dfrB	trimethoprim-resistant dihydrofolate reductase DfrB	NF000331.2	dfrB	NA	25
 trimethoprim	dfrE	trimethoprim-resistant dihydrofolate reductase DfrE	NF040541.1	dfrE	NA	1
 trimethoprim	dfrF	trimethoprim-resistant dihydrofolate reductase DfrF	NF000333.1	dfrF	NA	5
 trimethoprim	dfrG	trimethoprim-resistant dihydrofolate reductase DfrG	NF000143.1	dfrG	NA	27
 trimethoprim	dfrI	trimethoprim-resistant dihydrofolate reductase DfrI	NF000012.1	dfrI	NA	4
 tuberactinomycin	cpaA	capreomycin N-acetyltransferase CpaA	NBR008122	cpaA	NA	16
 tuberactinomycin	cph	capreomycin phosphotransferase	NF041268.1	cph	NA	6
-tuberactinomycin	vph	viomycin phosphotransferase	NF000088.1	vph	NA	434
-tunicamycin	tmrB	tunicamycin resistance ATP-binding TmrB	NBR010161	tmrB	NA	310
+tuberactinomycin	vph	viomycin phosphotransferase	NF000088.1	vph	NA	507
+tunicamycin	tmrB	tunicamycin resistance ATP-binding TmrB	NBR010161	tmrB	NA	313
 tunicamycin	tmrD	putative tunicamycin resistance ATP-binding protein TmrD	NBR013264	tmrD	NA	3
