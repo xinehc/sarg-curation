@@ -124,7 +124,7 @@ We provide a series of Jupyter notebooks for step-wise construction of SARG+:
 
 ## Contribution
 
-New ARG sequences can be integrated into SARG+ by editing [`sarg.json`](https://github.com/xinehc/sarg-curation/blob/master/sarg.json) and [`reference/reference.fasta`](https://github.com/xinehc/sarg-curation/blob/master/reference/reference.fasta).
+New ARG sequences can be integrated into SARG+ by editing [sarg.json](https://github.com/xinehc/sarg-curation/blob/master/sarg.json) and [reference/reference.fasta](https://github.com/xinehc/sarg-curation/blob/master/reference/reference.fasta).
 
 - `sarg.json`: Specifies the ARG type (class/family) for each new gene, relevant literature, rationales, and links to sequences.
 - `reference.fasta`: Contains the protein sequences of these new genes.
