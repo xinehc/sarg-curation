@@ -190,3 +190,12 @@ Maintaining naming consistency is a key goal of SARG+, so some gene names are mo
 
 - ***tnrB2*** and ***tnrB3*** are renamed to ***tnrB-1*** and ***tnrB-2*** to reflect their two-component nature as ABC transporters.
 - ***cap21*** refers to ***orf21*** of a biosynthetic gene cluster ([AB476988](https://www.ncbi.nlm.nih.gov/nuccore/AB476988)) in *Streptomyces griseus*, which lacks a proper name.
+
+## Citation
+
+
+You may also consider citing the following ARG databases:
+
+Alcock, B. P., Huynh, W., Chalil, R., Smith, K. W., Raphenya, A. R., Wlodarski, M. A., ... & McArthur, A. G. (2023). CARD 2023: expanded curation, support for machine learning, and resistome prediction at the Comprehensive Antibiotic Resistance Database. Nucleic acids research, 51(D1), D690-D699. https://doi.org/10.1093/nar/gkac920
+
+Feldgarden, M., Brover, V., Gonzalez-Escalona, N., Frye, J. G., Haendiges, J., Haft, D. H., ... & Klimke, W. (2021). AMRFinderPlus and the Reference Gene Catalog facilitate examination of the genomic links among antimicrobial resistance, stress response, and virulence. Scientific reports, 11(1), 12728. https://doi.org/10.1038/s41598-021-91456-0
