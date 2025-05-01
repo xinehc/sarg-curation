@@ -168,7 +168,7 @@ If you identify any suspicious entries or wish to contribute sequences to SARG+,
 
 - Regulators (e.g., activators, repressors) are excluded since they do not confer direct resistance. Exceptions include *tipA* and *albAB*, which act as self-regulated sequesters. Putative accessory genes such as *vanZ* are also removed.
 
-- Fused genes are removed since they can create ambiguities when being aligned using reads (note that SARG+ is designed for read-based profiling). For instance, [WP_071593228.1](https://www.ncbi.nlm.nih.gov/protein/WP_071593228.1) (*catB/aac(6')-I*) is a fusion of [WP_264840997.1](https://www.ncbi.nlm.nih.gov/protein/WP_264840997.1) (*catB*) and [WP_033917551.1](https://www.ncbi.nlm.nih.gov/protein/WP_033917551.1) (*aac(6')-I*).
+- Fused genes are removed since they can create ambiguities when being aligned using reads (note that SARG+ is designed for read-based profiling). For instance, *catB/aac(6')-I* ([WP_071593228.1](https://www.ncbi.nlm.nih.gov/protein/WP_071593228.1)) is a fusion of *catB* ([WP_264840997.1](https://www.ncbi.nlm.nih.gov/protein/WP_264840997.1)) and *aac(6')-I* ([WP_033917551.1](https://www.ncbi.nlm.nih.gov/protein/WP_033917551.1)).
 
 - Highly similar ARGs are grouped into subtype clusters to reduce the chance of false identifications. For example, the two alleles of *bla*<sub>OXA</sub>, *bla*<sub>OXA-1</sub> ([WP_001334766.1](https://www.ncbi.nlm.nih.gov/protein/WP_001334766.1)) and *bla*<sub>OXA-1042</sub> ([WP_231869587.1](https://www.ncbi.nlm.nih.gov/protein/WP_231869587.1)), differ by a single amino acid. Such subtle differences can be difficult to resolve using reads. By default, clustering uses thresholds of 95% sequence identity and 95% query/subject coverage.
 
