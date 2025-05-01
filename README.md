@@ -158,43 +158,36 @@ For example:
 }
 ```
 
-If you spot any suspicious cases or wish to add sequences to SARG+, please consider creating a pull request by editing `sarg.json` and `reference/reference.fasta`, or opening an issue.
+If you identify any suspicious entries or wish to contribute sequences to SARG+, please consider creating a pull request by editing `sarg.json` and `reference/reference.fasta`, or opening an issue.
 
 ## FAQ
 
-### Does SARG+ cover point mutations?
+### Which ARGs are included/excluded?
 
-No, all ARGs related to point mutations of essential genes (mainly antibiotic targets) are excluded. Examples include mutations of ***gyrA***, ***parC***, and ***rpoB***.
+- All ARGs associated with point mutations in essential genes (primarily antibiotic targets) are excluded. Examples include mutations in *gyrA*, *parC*, and *rpoB*.
 
-### Why doesn't SARG+ include detailed gene/allele numbers like ***bla***<sub>**OXA-1**</sub>?
+- Regulators (e.g., activators, repressors) are excluded since they do not confer direct resistance. Exceptions include *tipA* and *albAB*, which act as self-regulated sequesters. Putative accessory genes such as *vanZ* are also removed.
 
-Highly similar ARGs are grouped into subtype clusters to reduce the chance of false identifications. For instance, the two alleles of ***bla***<sub>**OXA**</sub>, ***bla***<sub>**OXA-1**</sub> and ***bla***<sub>**OXA-1024**</sub>, differ by a single amino acid, and this subtle difference can be difficult to detect using reads. By default, we apply 95% identity and 95% query/subject cover as cutoffs for subtype clustering.
+- Fused genes are removed since they can create ambiguities when being aligned using reads (note that SARG+ is designed for read-based profiling). For instance, [WP_071593228.1](https://www.ncbi.nlm.nih.gov/protein/WP_071593228.1) (*catB/aac(6')-I*) is a fusion of [WP_264840997.1](https://www.ncbi.nlm.nih.gov/protein/WP_264840997.1) (*catB*) and [WP_033917551.1](https://www.ncbi.nlm.nih.gov/protein/WP_033917551.1) (*aac(6')-I*).
 
-### Why does SARG+ exclude fused genes?
-
-SARG+ is designed for read-based ARG profiling. Fused genes can create ambiguities when being aligned using reads. For example, [WP_071593228.1](https://www.ncbi.nlm.nih.gov/protein/WP_071593228.1) (***catB/aac(6')-I***) likely results from the fusion of [WP_264840997.1](https://www.ncbi.nlm.nih.gov/protein/WP_264840997.1) (***catB***) and [WP_033917551.1](https://www.ncbi.nlm.nih.gov/protein/WP_033917551.1) (***aac(6')-I***). Reads, especially short ones, may not reliably distinguish between these genes, potentially leading to false identifications.
-
-### Which other genes are omitted?
-
-We omit regulators (e.g., activators, repressors) since they do not confer direct antibiotic resistance (with the exceptions of ***tipA*** and ***albAB***, which function as self-regulated sequesters). We also remove genes that are putatively accessory, such as ***vanZ***.
+- Highly similar ARGs are grouped into subtype clusters to reduce the chance of false identifications. For example, the two alleles of *bla*<sub>OXA</sub>, *bla*<sub>OXA-1</sub> ([WP_001334766.1](https://www.ncbi.nlm.nih.gov/protein/WP_001334766.1)) and *bla*<sub>OXA-1042</sub> ([WP_231869587.1](https://www.ncbi.nlm.nih.gov/protein/WP_231869587.1)), differ by a single amino acid. Such subtle differences can be difficult to resolve using reads. By default, clustering uses thresholds of 95% sequence identity and 95% query/subject coverage.
 
 ### Why some genes have uncommon names?
 
-We standardize gene names to ensure all of them are identifiable through a combination of ARG type and subtype. For example:
+ARG names are standardized to ensure unambiguous identification by type and subtype. Examples include:
 
-- ***mdtP*** refers to both a component of RND efflux pumps in *Escherichia coli* and an MFS transporter in *Bacillus subtilis*. To avoid confusion, we rename the *Bacillus* version to ***mdt(P)***, aligning it with ***mdt(A)*** (also an MFS transporter).
-- Some genes are mislabeled by RefSeq; for example, ***efrCD*** is misspelled as ***erfCD***. We correct such cases.
-- ***qacA*** and ***qacB*** are renamed to ***qacA/B*** due to their high sequence similarity.
+- *mdtP* refers to an RND efflux pump in *Escherichia coli* and an MFS transporter in *Bacillus subtilis*. To avoid confusion, the *Bacillus* variant is renamed *mdt(P)*, aligning it with *mdt(A)* (another MFS transporter).
+- Genes with labeling errors in RefSeq are corrected (e.g., *efrCD* is misspelled as *erfCD*).
+- *qacA* and *qacB* are renamed to *qacA/B* due to their high sequence similarity.
 
-Maintaining naming consistency is a key goal of SARG+, so some gene names are modified accordingly. For instance:
+For naming consistency, certain ARG names are revised:
 
-- ***tnrB2*** and ***tnrB3*** are renamed to ***tnrB-1*** and ***tnrB-2*** to reflect their two-component nature as ABC transporters.
-- ***cap21*** refers to ***orf21*** of a biosynthetic gene cluster ([AB476988](https://www.ncbi.nlm.nih.gov/nuccore/AB476988)) in *Streptomyces griseus*, which lacks a proper name.
+- *tnrB2* and *tnrB3* are renamed to *tnrB-1* and *tnrB-2* to reflect their roles as ABC transporter components.
+- *cap21* denotes *orf21* in a *Streptomyces griseus* biosynthetic gene cluster ([AB476988](https://www.ncbi.nlm.nih.gov/nuccore/AB476988)), which lacks an established name.
+
 
 ## Citation
 Chen, X., Yin, X., Xu, X., & Zhang, T. (2025). Species-resolved profiling of antibiotic resistance genes in complex metagenomes through long-read overlapping with Argo. *Nature Communications*, 16(1), 1744. https://doi.org/10.1038/s41467-025-57088-y
-
-You may also consider citing the following ARG databases:
 
 Alcock, B. P., Huynh, W., Chalil, R., Smith, K. W., Raphenya, A. R., Wlodarski, M. A., ... & McArthur, A. G. (2023). CARD 2023: expanded curation, support for machine learning, and resistome prediction at the Comprehensive Antibiotic Resistance Database. *Nucleic acids research*, 51(D1), D690-D699. https://doi.org/10.1093/nar/gkac920
 

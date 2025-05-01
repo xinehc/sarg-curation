@@ -49,14 +49,6 @@
             "AAF67494.2": "novA", // NovA [Streptomyces niveus] | NovA family novobiocin export ABC transporter
             // https://www.ncbi.nlm.nih.gov/nuccore/AF235050
             "AAG29799.1": "couR5", // putative resistance protein [Streptomyces rishiriensis] | MFS transporter
-
-            // "Biosynthetic Gene Cluster of Simocyclinone, a Natural Multihybrid Antibiotic"
-            // "Coupling of the biosynthesis and export of the DNA gyrase inhibitor simocyclinone in Streptomyces antibioticus"
-            // Engineered expression of simX from a strong, heterologous promoter conferred high level simocyclinone D8 resistance on Streptomyces lividans, showing that simX encodes a simocyclinone efflux pump.
-            // ** simocyclinone contains both an aromatic angucycline polyketide nucleus and a conserved aminocoumarin moiety **
-            // ** hybrid of angucycline and aminocoumarin, may or may not belong to aminocoumarin **
-            // https://www.ncbi.nlm.nih.gov/nuccore/AF324838
-            "AAK06799.1": "simX", // putative export protein SimEx [Streptomyces antibioticus] | putative export protein SimEx
         }
     },
 
@@ -100,8 +92,8 @@
             "aminoglycoside@aph\\(3'\\)-H.*": "aminoglycoside@aph(3')*",
 
             "aminoglycoside@aac(6')-I": [
-                "NCBI|amr:amr|aminoglycoside|aac(6')|AAF03531.1", // cryptic aminoglycoside N-acetyltransferase AAC(6')-Iy/Iaa
-                "NCBI|amr:amr|aminoglycoside|aac(6')|AAL20537.1", // cryptic aminoglycoside N-acetyltransferase AAC(6')-Iy/Iaa
+                "NCBI|amr:amr|aminoglycoside|aac(6')|WP_000354853.1", // cryptic aminoglycoside N-acetyltransferase AAC(6')-Iy/Iaa
+                "NCBI|amr:amr|aminoglycoside|aac(6')|WP_000354865.1", // cryptic aminoglycoside N-acetyltransferase AAC(6')-Iy/Iaa
                 "NCBI|amr:amr|aminoglycoside|aac(6')|WP_001109644.1", // AAC(6')-Ia family aminoglycoside 6'-N-acetyltransferase AacA16
                 "NCBI|amr:amr|aminoglycoside|aac(6')|WP_003159545.1", // aminoglycoside 6'-N-acetyltransferase AAC(6')-Iae
                 "NCBI|amr:amr|aminoglycoside|aac(6')|WP_016575755.1", // aminoglycoside N-acetyltransferase AAC(6')-Isa
@@ -1113,6 +1105,15 @@
                 "NCBI|amr:amr|fosfomycin|fosB|WP_000920239.1", // FosB/FosD family fosfomycin resistance bacillithiol transferase
             ]
         },
+        "added": {
+            // "Identification of novel FosX family determinants from diverse environmental samples"
+            // The genes were subsequently renamed fosE2, fosI2, fosI3, and fosP. Functional assays confirmed that these genes conferred resistance to fosfomycin in E. coli, with MIC ranging from 32 μg/ml to 256 μg/ml.
+            // Gene sequences were lodged under the following accession numbers: PQ186074 (fosE2), PQ186075 (fosI2), PQ186076 (fosI3) and PQ186077 (fosP)
+            "XGI00605.1": "fosE", // FosX family fosfomycin hydrolase [uncultured bacterium] | FosX family fosfomycin hydrolase
+            "XGI00606.1": "fosI", // FosX family fosfomycin hydrolase [uncultured bacterium] | FosX family fosfomycin hydrolase
+            "XGI00607.1": "fosI", // FosX family fosfomycin hydrolase [uncultured bacterium] | FosX family fosfomycin hydrolase
+            "XGI00608.1": "fosP", // FosX family fosfomycin hydrolase [uncultured bacterium] | FosX family fosfomycin hydrolase
+        },
         "discarded": [
             // CARD
             "CARD|homolog|phosphonic_acid|FosXCC|AIF29598.1", // NCBI|amr:amr|fosfomycin|fosXCC|WP_024725385.1 | id: 99.3 qcov: 96.5 scov: 100.0
@@ -1187,24 +1188,6 @@
             // A gene (nonR) conferring tetranactin resistance on the macrotetrolide-sensitive strain, Streptomyces lividans TK64.
             // https://www.ncbi.nlm.nih.gov/nuccore/M75853
             "AAA26786.1": "nonR", // macrotetrolide antibiotic-resistance protein [Streptomyces griseus] | macrotetrolide antibiotic-resistance protein
-        }
-    },
-
-
-
-
-
-    // linearmycin
-    "linearmycin": {
-        "added": {
-            // "Linearmycins Activate a Two-Component Signaling System Involved in Bacterial Competition and Biofilm Morphology"
-            // lnrLMN operon encodes a multifunctional ABC transporter involved in dual biofilm formation and linearmycin resistance functions.
-            // https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR009409/
-            "WP_003244346.1": "lnrL", // MULTISPECIES: linearmycin resistance ATP-binding protein LnrL [Bacillus] | linearmycin resistance ATP-binding protein LnrL
-            // https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR009410/
-            "WP_003242483.1": "lnrM", // MULTISPECIES: linearmycin resistance permease LnrM [Bacillus] | linearmycin resistance permease LnrM
-            // https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/NBR009411/
-            "WP_003243650.1": "lnrN", // MULTISPECIES: linearmycin resistance permease LnrN [Bacillus] | linearmycin resistance permease LnrN
         }
     },
 
@@ -1373,7 +1356,7 @@
             // replaced by S. lincolnensis lmrAC and reference lmrB
             "CARD|homolog|lincosamide;nucleoside|lmrB|KIX81495.1", // efflux transporter; drug-export protein
             "CARD|homolog|lincosamide|lmrC|ABX00624.1", // ABC-F type ribosomal protection protein LmrC
-            "NCBI|amr:amr|fosfomycin|lmrC|ABX00624.1", // ABC-F type ribosomal protection protein LmrC
+            "NCBI|amr:amr|fosfomycin|lmrC|WP_067425694.1", // ABC-F type ribosomal protection protein LmrC
         ],
     },
 
@@ -2774,77 +2757,77 @@
             // ** ywjA (polymyxin) **
         },
         "discarded": [
-            "NCBI|amr:amr|efflux|acrF|AAC76298.1", // multidrug efflux RND transporter permease subunit AcrF
-            "NCBI|amr:amr|efflux|adeC|AAL14441.1", // multidrug efflux RND transporter outer membrane channel subunit AdeC
-            "NCBI|amr:amr|efflux|adeD|AAU10477.1", // multidrug efflux RND transporter periplasmic adaptor subunit AdeD
-            "NCBI|amr:amr|efflux|adeE|AAN38824.2", // AdeE
-            "NCBI|amr:amr|efflux|amvA|ACQ82816.1", // multidrug efflux MFS transporter AmvA
-            "NCBI|amr:amr|efflux|bepC|AAN29871.1", // multidrug efflux RND transporter outer membrane subunit BepC
-            "NCBI|amr:amr|efflux|bepD|AAN29240.1", // multidrug efflux RND transporter periplasmic adaptor subunit BepD
-            "NCBI|amr:amr|efflux|bepE|AAN29241.1", // multidrug efflux RND transporter permease subunit BepE
-            "NCBI|amr:amr|efflux|bepF|AAN33535.1", // multidrug efflux RND transporter periplasmic adaptor subunit BepF
-            "NCBI|amr:amr|efflux|bepG|AAN33534.1", // multidrug efflux RND transporter permease subunit BepG
-            "NCBI|amr:amr|efflux|bexA|BAB64566.1", // multidrug efflux MATE transporter BexA
+            "NCBI|amr:amr|efflux|acrF|WP_001273238.1", // multidrug efflux RND transporter permease subunit AcrF
+            "NCBI|amr:amr|efflux|adeC|WP_000047249.1", // multidrug efflux RND transporter outer membrane channel subunit AdeC
+            "NCBI|amr:amr|efflux|adeD|WP_017399209.1", // multidrug efflux RND transporter periplasmic adaptor subunit AdeD
+            "NCBI|amr:amr|efflux|adeE|WP_116442900.1", // AdeE
+            "NCBI|amr:amr|efflux|amvA|WP_001170306.1", // multidrug efflux MFS transporter AmvA
+            "NCBI|amr:amr|efflux|bepC|WP_011068960.1", // multidrug efflux RND transporter outer membrane subunit BepC
+            "NCBI|amr:amr|efflux|bepD|WP_006189804.1", // multidrug efflux RND transporter periplasmic adaptor subunit BepD
+            "NCBI|amr:amr|efflux|bepE|WP_006189806.1", // multidrug efflux RND transporter permease subunit BepE
+            "NCBI|amr:amr|efflux|bepF|WP_004690093.1", // multidrug efflux RND transporter periplasmic adaptor subunit BepF
+            "NCBI|amr:amr|efflux|bepG|WP_006191785.1", // multidrug efflux RND transporter permease subunit BepG
+            "NCBI|amr:amr|efflux|bexA|WP_008765095.1", // multidrug efflux MATE transporter BexA
             "NCBI|amr:amr|phenicol/quinolone|cmeB|WP_254563251.1", // multidrug efflux RND transporter permease subunit CmeB, ciprofloxacin and florfenicol resistance type
-            "NCBI|amr:amr|efflux|emhA|AAY90617.2", // efflux RND transporter periplasmic adaptor subunit EmhA
-            "NCBI|amr:amr|efflux|emhB|ACO06752.1", // EmhB
-            "NCBI|amr:amr|efflux|emhC|AAQ92182.1", // efflux RND transporter outer membrane subunit EmhC
-            "NCBI|amr:amr|efflux|emhC|AAY90615.1", // efflux RND transporter outer membrane subunit EmhC
-            "NCBI|amr:amr|efflux|emrA|CAQ45063.1", // multidrug efflux MFS transporter periplasmic adaptor subunit EmrA
-            "NCBI|amr:amr|efflux|emrB|CAQ45064.1", // multidrug efflux MFS transporter permease subunit EmrB
-            "NCBI|amr:amr|efflux|emrC|CAQ45062.1", // multidrug efflux transporter outer membrane subunit EmrC
-            "NCBI|amr:amr|quaternary_ammonium|emrC|EAC4468893.1", // multidrug efflux transporter outer membrane subunit EmrC
-            "NCBI|amr:amr|efflux|emrD|ACN65732.1", // EmrD
-            "NCBI|amr:amr|efflux|emrD|BAE77620.1", // multidrug efflux MFS transporter EmrD
-            "NCBI|amr:amr|efflux|emrD|EFF04178.1", // emrD
-            "NCBI|amr:amr|efflux|emrD3|ABQ18953.1", // multidrug efflux MFS transporter EmrD-3
-            "NCBI|stress:biocide|efflux|emrE|CAA77936.1", // multidrug efflux SMR transporter EmrE
-            "NCBI|stress:biocide|quaternary_ammonium|emrE|ADB68610.1", // quaternary ammonium compound efflux SMR transporter EmrE
-            "NCBI|amr:amr|efflux|farB|AAD54074.1", // fatty acid resistance MFS efflux transporter permease subunit FarB
-            "NCBI|amr:amr|efflux|farB|AAF40764.1", // fatty acid resistance MFS efflux transporter permease subunit FarB
-            "NCBI|amr:amr|efflux|hmrM|AAC23256.1", // sodium-coupled multidrug efflux MATE transporter HmrM
-            "NCBI|amr:amr|efflux|hmrM|ADO96486.1", // sodium-coupled multidrug efflux MATE transporter HmrM
-            "NCBI|amr:amr|efflux|kdeA|ABR76310.1", // multidrug efflux MFS transporter KdeA
-            "NCBI|stress:biocide|macrolide/phenicol|lmrS|AAW38464.1", // multidrug efflux MFS transporter LmrS
-            "NCBI|amr:amr|efflux|mdsA|AAL19306.1", // multidrug efflux RND transporter periplasmic adaptor subunit MdsA
-            "NCBI|amr:amr|efflux|mdsB|AAL19305.1", // multidrug efflux RND transporter permease subunit MdsB
-            "NCBI|amr:amr|efflux|mdtM|AAC77293.1", // multidrug efflux MFS transporter MdtM
-            "NCBI|amr:amr|tetracycline|mepA|AAU95768.1", // multidrug efflux MATE transporter MepA
-            "NCBI|amr:amr|tetracycline|mepA|BAB41547.1", // multidrug efflux MATE transporter MepA
-            "NCBI|amr:amr|efflux|mexA|AAA74436.1", // multidrug efflux RND transporter periplasmic adaptor subunit MexA
-            "NCBI|amr:amr|efflux|mexE|AAG05881.1", // multidrug efflux RND transporter periplasmic adaptor subunit MexE
-            "NCBI|amr:amr|efflux|mexE|CAK15125.1", // multidrug efflux RND transporter periplasmic adaptor subunit MexE
-            "NCBI|amr:amr|efflux|mexX|AAF14522.1", // multidrug efflux RND transporter periplasmic adaptor subunit MexX
-            "NCBI|amr:amr|efflux|mexX|BAA34299.1", // MexX
-            "NCBI|amr:amr|efflux|mtrC|AAA80193.1", // multidrug efflux RND transporter periplasmic adaptor subunit MtrC
-            "NCBI|amr:amr|efflux|mtrC|AAF42063.1", // multidrug efflux RND transporter periplasmic adaptor subunit MtrC
-            "NCBI|amr:amr|efflux|norM|AAG27731.1", // multidrug efflux MATE transporter NorM
+            "NCBI|amr:amr|efflux|emhA|WP_011059674.1", // efflux RND transporter periplasmic adaptor subunit EmhA
+            "NCBI|amr:amr|efflux|emhB|WP_116919955.1", // EmhB
+            "NCBI|amr:amr|efflux|emhC|WP_011059672.1", // efflux RND transporter outer membrane subunit EmhC
+            "NCBI|amr:amr|efflux|emhC|WP_017336847.1", // efflux RND transporter outer membrane subunit EmhC
+            "NCBI|amr:amr|efflux|emrA|WP_005408768.1", // multidrug efflux MFS transporter periplasmic adaptor subunit EmrA
+            "NCBI|amr:amr|efflux|emrB|WP_005408769.1", // multidrug efflux MFS transporter permease subunit EmrB
+            "NCBI|amr:amr|efflux|emrC|WP_012479624.1", // multidrug efflux transporter outer membrane subunit EmrC
+            "NCBI|amr:amr|quaternary_ammonium|emrC|WP_061092474.1", // multidrug efflux transporter outer membrane subunit EmrC
+            "NCBI|amr:amr|efflux|emrD|WP_115740452.1", // EmrD
+            "NCBI|amr:amr|efflux|emrD|WP_000828746.1", // multidrug efflux MFS transporter EmrD
+            "NCBI|amr:amr|efflux|emrD|WP_000605552.1", // emrD
+            "NCBI|amr:amr|efflux|emrD3|WP_000850833.1", // multidrug efflux MFS transporter EmrD-3
+            "NCBI|stress:biocide|efflux|emrE|WP_001070439.1", // multidrug efflux SMR transporter EmrE
+            "NCBI|stress:biocide|quaternary_ammonium|emrE|WP_012951708.1", // quaternary ammonium compound efflux SMR transporter EmrE
+            "NCBI|amr:amr|efflux|farB|WP_002224867.1", // fatty acid resistance MFS efflux transporter permease subunit FarB
+            "NCBI|amr:amr|efflux|farB|WP_017146881.1", // fatty acid resistance MFS efflux transporter permease subunit FarB
+            "NCBI|amr:amr|efflux|hmrM|WP_005693623.1", // sodium-coupled multidrug efflux MATE transporter HmrM
+            "NCBI|amr:amr|efflux|hmrM|WP_014550864.1", // sodium-coupled multidrug efflux MATE transporter HmrM
+            "NCBI|amr:amr|efflux|kdeA|WP_004141972.1", // multidrug efflux MFS transporter KdeA
+            "NCBI|stress:biocide|macrolide/phenicol|lmrS|WP_001140999.1", // multidrug efflux MFS transporter LmrS
+            "NCBI|amr:amr|efflux|mdsA|WP_001254844.1", // multidrug efflux RND transporter periplasmic adaptor subunit MdsA
+            "NCBI|amr:amr|efflux|mdsB|WP_000673160.1", // multidrug efflux RND transporter permease subunit MdsB
+            "NCBI|amr:amr|efflux|mdtM|WP_001137036.1", // multidrug efflux MFS transporter MdtM
+            "NCBI|amr:amr|tetracycline|mepA|WP_000651051.1", // multidrug efflux MATE transporter MepA
+            "NCBI|amr:amr|tetracycline|mepA|WP_000651060.1", // multidrug efflux MATE transporter MepA
+            "NCBI|amr:amr|efflux|mexA|WP_003118819.1", // multidrug efflux RND transporter periplasmic adaptor subunit MexA
+            "NCBI|amr:amr|efflux|mexE|WP_003103549.1", // multidrug efflux RND transporter periplasmic adaptor subunit MexE
+            "NCBI|amr:amr|efflux|mexE|WP_011533525.1", // multidrug efflux RND transporter periplasmic adaptor subunit MexE
+            "NCBI|amr:amr|efflux|mexX|WP_063853733.1", // multidrug efflux RND transporter periplasmic adaptor subunit MexX
+            "NCBI|amr:amr|efflux|mexX|WP_003113509.1", // MexX
+            "NCBI|amr:amr|efflux|mtrC|WP_002224968.1", // multidrug efflux RND transporter periplasmic adaptor subunit MtrC
+            "NCBI|amr:amr|efflux|mtrC|WP_003693766.1", // multidrug efflux RND transporter periplasmic adaptor subunit MtrC
+            "NCBI|amr:amr|efflux|norM|WP_003687823.1", // multidrug efflux MATE transporter NorM
             "NCBI|amr:amr|efflux|norM|BAA31456.1", // NorM
-            "NCBI|amr:amr|efflux|norM|EFF39147.1", // sodium-coupled multidrug efflux MATE transporter NorM
-            "NCBI|amr:amr|quinolone|pmrA|AAK99679.1", // multidrug efflux MFS transporter PmrA
-            "NCBI|amr:amr|quinolone|pmrA|EHE72460.1", // multidrug efflux MFS transporter PmrA
-            "NCBI|amr:amr|efflux|ranA|ADZ12699.1", // multidrug efflux ABC transporter ATP-binding subunit RanA
-            "NCBI|amr:amr|efflux|ranB|ADZ12700.1", // multidrug efflux ABC transporter permease subunit RanB
-            "NCBI|stress:biocide|efflux|sdeA|AAS55383.1", // multidrug efflux RND transporter periplasmic adaptor subunit SdeA
-            "NCBI|amr:amr|efflux|sdeB|AAO18187.2", // putative resistance-nodulation cell division protein SdeB
-            "NCBI|amr:amr|efflux|sdeY|BAC77251.1", // multidrug efflux pump SdeY
-            "NCBI|stress:biocide|efflux|smdA|BAF79679.1", // multidrug efflux pump SmdA
-            "NCBI|stress:biocide|efflux|smdB|BAF79680.1", // multidrug efflux pump SmdB
-            "NCBI|amr:amr|quinolone|smeF|CAC14596.1", // multidrug efflux RND transporter outer membrane subunit SmeF
-            "NCBI|amr:amr|efflux|smfY|BAE79899.1", // multidrug efflux MFS transporter SmfY
-            "NCBI|stress:biocide|efflux|srpA|AAD12178.1", // solvent efflux RND transporter periplasmic adaptor subunit SrpA
-            "NCBI|stress:biocide|efflux|srpB|AAD12176.1", // solvent efflux RND transporter permease subunit SrpB
-            "NCBI|stress:biocide|efflux|ssmE|BAF80121.1", // multidrug efflux SMR transporter SsmE
-            "NCBI|amr:amr|efflux|tbtA|AAD15663.1", // multidrug efflux RND transporter periplasmic adaptor subunit TbtA
-            "NCBI|amr:amr|efflux|tbtB|AAD15664.1", // resistance nodulation cell division family member TbtB
-            "NCBI|amr:amr|efflux|tbtM|AAD15665.1", // outer membrane protein TbtM
-            "NCBI|stress:biocide|efflux|ttgA|AAD39553.1", // toluene efflux RND transporter periplasmic adaptor subunit TtgA
-            "NCBI|stress:biocide|efflux|ttgA|BAF76383.1", // MepA
-            "NCBI|stress:biocide|efflux|ttgB|AAC38671.1", // multidrug efflux RND transporter permease subunit TtgB
-            "NCBI|stress:biocide|efflux|ttgB|BAF76384.1", // multidrug efflux RND transporter permease subunit TtgB
-            "NCBI|stress:biocide|efflux|ttgD|AAO49780.1", // toluene efflux RND transporter periplasmic adaptor subunit TtgD
-            "NCBI|stress:biocide|efflux|ttgE|ADI95409.1", // multidrug efflux RND transporter permease subunit TtgE
-            "NCBI|stress:biocide|efflux|ttgI|AAD12177.1", // solvent efflux RND transporter outer membrane subunit SrpC
+            "NCBI|amr:amr|efflux|norM|WP_011883895.1", // sodium-coupled multidrug efflux MATE transporter NorM
+            "NCBI|amr:amr|quinolone|pmrA|WP_000136130.1", // multidrug efflux MFS transporter PmrA
+            "NCBI|amr:amr|quinolone|pmrA|WP_000136147.1", // multidrug efflux MFS transporter PmrA
+            "NCBI|amr:amr|efflux|ranA|WP_004918725.1", // multidrug efflux ABC transporter ATP-binding subunit RanA
+            "NCBI|amr:amr|efflux|ranB|WP_004918723.1", // multidrug efflux ABC transporter permease subunit RanB
+            "NCBI|stress:biocide|efflux|sdeA|WP_048322926.1", // multidrug efflux RND transporter periplasmic adaptor subunit SdeA
+            "NCBI|amr:amr|efflux|sdeB|WP_110092881.1", // putative resistance-nodulation cell division protein SdeB
+            "NCBI|amr:amr|efflux|sdeY|WP_115586224.1", // multidrug efflux pump SdeY
+            "NCBI|stress:biocide|efflux|smdA|WP_114508865.1", // multidrug efflux pump SmdA
+            "NCBI|stress:biocide|efflux|smdB|WP_114508866.1", // multidrug efflux pump SmdB
+            "NCBI|amr:amr|quinolone|smeF|WP_115444190.1", // multidrug efflux RND transporter outer membrane subunit SmeF
+            "NCBI|amr:amr|efflux|smfY|WP_015378085.1", // multidrug efflux MFS transporter SmfY
+            "NCBI|stress:biocide|efflux|srpA|WP_019437729.1", // solvent efflux RND transporter periplasmic adaptor subunit SrpA
+            "NCBI|stress:biocide|efflux|srpB|WP_014003970.1", // solvent efflux RND transporter permease subunit SrpB
+            "NCBI|stress:biocide|efflux|ssmE|WP_004930487.1", // multidrug efflux SMR transporter SsmE
+            "NCBI|amr:amr|efflux|tbtA|WP_131199604.1", // multidrug efflux RND transporter periplasmic adaptor subunit TbtA
+            "NCBI|amr:amr|efflux|tbtB|WP_131199605.1", // resistance nodulation cell division family member TbtB
+            "NCBI|amr:amr|efflux|tbtM|WP_131199606.1", // outer membrane protein TbtM
+            "NCBI|stress:biocide|efflux|ttgA|WP_014592249.1", // toluene efflux RND transporter periplasmic adaptor subunit TtgA
+            "NCBI|stress:biocide|efflux|ttgA|WP_263305352.1", // MepA
+            "NCBI|stress:biocide|efflux|ttgB|WP_010952493.1", // multidrug efflux RND transporter permease subunit TtgB
+            "NCBI|stress:biocide|efflux|ttgB|WP_014754360.1", // multidrug efflux RND transporter permease subunit TtgB
+            "NCBI|stress:biocide|efflux|ttgD|WP_024086925.1", // toluene efflux RND transporter periplasmic adaptor subunit TtgD
+            "NCBI|stress:biocide|efflux|ttgE|WP_012052588.1", // multidrug efflux RND transporter permease subunit TtgE
+            "NCBI|stress:biocide|efflux|ttgI|WP_014003971.1", // solvent efflux RND transporter outer membrane subunit SrpC
 
             "CARD|homolog|fluoroquinolone|Abau_AbaQ|ACJ41547.2", // multidrug efflux MFS transporter AbaQ
             "CARD|homolog|disinfecting_agents_and_antiseptics;macrolide|Abau_AmvA|ACQ82816.1", // multidrug efflux MFS transporter AmvA
@@ -3252,7 +3235,7 @@
         },
         "discarded": [
             // MtrF
-            "NCBI|stress:biocide|efflux|mtrF|ACF30256.1", // antibiotic resistance efflux pump component
+            "NCBI|stress:biocide|efflux|mtrF|WP_012503797.1", // AbgT family antimetabolite efflux transporter MtrF
         ]
     },
 
