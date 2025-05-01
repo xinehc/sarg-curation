@@ -164,7 +164,7 @@ If you identify any suspicious entries or wish to contribute sequences to SARG+,
 
 ### Which ARGs are included/excluded?
 
-- All ARGs associated with point mutations in essential genes (primarily antibiotic targets) are excluded. Examples include mutations in *gyrA*, *parC*, and *rpoB*.
+- ARGs associated with point mutations in essential genes (primarily antibiotic targets) are excluded. Examples include mutations in *gyrA*, *parC*, and *rpoB*.
 
 - Regulators (e.g., activators, repressors) are excluded since they do not confer direct resistance. Exceptions include *tipA* and *albAB*, which act as self-regulated sequesters. Putative accessory genes such as *vanZ* are also removed.
 
@@ -174,16 +174,16 @@ If you identify any suspicious entries or wish to contribute sequences to SARG+,
 
 ### Why some genes have uncommon names?
 
-ARG names are standardized to ensure unambiguous identification by type and subtype. Examples include:
+- ARG names are standardized to ensure unambiguous identification by type and subtype:
 
-- *mdtP* refers to an RND efflux pump in *Escherichia coli* and an MFS transporter in *Bacillus subtilis*. To avoid confusion, the *Bacillus* variant is renamed *mdt(P)*, aligning it with *mdt(A)* (another MFS transporter).
-- Genes with labeling errors in RefSeq are corrected (e.g., *efrCD* is misspelled as *erfCD*).
-- *qacA* and *qacB* are renamed to *qacA/B* due to their high sequence similarity.
-
-For naming consistency, certain ARG names are revised:
-
-- *tnrB2* and *tnrB3* are renamed to *tnrB-1* and *tnrB-2* to reflect their roles as ABC transporter components.
-- *cap21* denotes *orf21* in a *Streptomyces griseus* biosynthetic gene cluster ([AB476988](https://www.ncbi.nlm.nih.gov/nuccore/AB476988)), which lacks an established name.
+    - *mdtP* refers to an RND efflux pump in *Escherichia coli* and an MFS transporter in *Bacillus subtilis*. To avoid confusion, the *Bacillus* variant is renamed *mdt(P)*, aligning it with *mdt(A)* (another MFS transporter).
+    - Genes with labeling errors in RefSeq are corrected (e.g., *efrCD* is misspelled as *erfCD*).
+    - *qacA* and *qacB* are renamed to *qacA/B* due to their high sequence similarity.
+    
+- Certain ARG names are revised for naming consistency:
+    
+    - *tnrB2* and *tnrB3* are renamed to *tnrB-1* and *tnrB-2* to reflect their roles as ABC transporter components.
+    - *cap21* denotes *orf21* in a *Streptomyces griseus* biosynthetic gene cluster ([AB476988](https://www.ncbi.nlm.nih.gov/nuccore/AB476988)), which lacks an established name.
 
 
 ## Citation
