@@ -733,6 +733,7 @@
             "CARD|homolog|cephalosporin;penicillin_beta-lactam|SHV-53|AAT01223.1", // NCBI|amr:amr|beta-lactam|blaSHV|WP_063864654.1 | id: 99.6 qcov: 100.0 scov: 84.6
             "CARD|homolog|cephalosporin;penicillin_beta-lactam|SHV-83|CAJ47138.2", // NCBI|amr:amr|beta-lactam|blaSHV|WP_021440083.1 | id: 100.0 qcov: 100.0 scov: 99.3
             "CARD|homolog|cephalosporin|BUT-1|AAN17791.1", // NCBI|amr:amr|beta-lactam|blaBUT|WP_104531864.1 | id: 100.0 qcov: 96.5 scov: 100.0
+            "CARD|homolog|cephalosporin|CMY-121|AIZ48988.1", // NCBI|amr:amr|beta-lactam|blaCMY|WP_276442334.1 | id: 100.0 qcov: 100.0 scov: 99.7
             "CARD|homolog|cephalosporin|CMY-59|BAJ17544.1", // NCBI|amr:amr|beta-lactam|blaCMY|WP_063859852.1 | id: 100.0 qcov: 96.5 scov: 100.0
             "CARD|homolog|cephalosporin|CMY-98|AGH70380.1", // NCBI|amr:amr|beta-lactam|blaCMY|WP_122630837.1 | id: 98.1 qcov: 100.0 scov: 98.7
             "CARD|homolog|cephalosporin|CTX-M-106|ADZ31262.1", // NCBI|amr:amr|beta-lactam|blaCTX-M|WP_063859949.1 | id: 99.3 qcov: 100.0 scov: 99.7
@@ -956,6 +957,17 @@
             "CARD|homolog|peptide|rosA|AAC60781.1", // RosA
             "CARD|homolog|peptide|rosB|AAC60780.1", // RosB
         ],
+    },
+
+
+
+
+
+    // daptomycin
+    "daptomycin": {
+        "changed": {
+            ".*@drc": "daptomycin@drc",
+        }
     },
 
 
@@ -1385,7 +1397,7 @@
         "changed": {
             "(efflux|disinfecting_agents_and_antiseptics|antibacterial_free_fatty_acids|.*;.*)@": "multidrug@",
             ".*@(?=(.*([Mm]dt|emr|acr|pmr|sme|mep|t?opr|t?mex|pat|oqx|cme|nor|lmr|Lpe|Ran)[A-Z]$))": "multidrug@",
-            ".*@(?=(bcr-1|Abau_AbaQ|Rv1877))": "multidrug@",
+            ".*@(?=(nms|bcr-1|Abau_AbaQ|Rv1877))": "multidrug@",
 
             // quaternary ammonium compound
             "multidrug@(?=sugE)": "biocide@",
@@ -2886,7 +2898,7 @@
             "CARD|homolog|disinfecting_agents_and_antiseptics|TriB|AAG03547.1", // triclosan efflux RND transporter adaptor protein TriB
             "CARD|homolog|disinfecting_agents_and_antiseptics|TriC|AAG03548.1", // triclosan efflux RND transporter permease subunit TriC
             "CARD|homolog|disinfecting_agents_and_antiseptics;macrolide;tetracycline|aadT|AMD83542.1", // MFS transporter
-            "CARD|homolog|cephalosporin;penicillin_beta-lactam;peptide|abcA|XP_753111.1", // ABC drug exporter AbcA
+            "CARD|homolog|cephalosporin;moenomycin;penicillin_beta-lactam;peptide|abcA|XP_753111.1", // ABC drug exporter AbcA
             "CARD|homolog|disinfecting_agents_and_antiseptics;fluoroquinolone|abeM|BAD89844.2", // multidrug efflux MATE transporter AbeM
             "CARD|homolog|aminocoumarin;macrolide|abeS|ACJ59254.1", // multidrug efflux SMR transporter AbeS
             "CARD|homolog|cephalosporin;disinfecting_agents_and_antiseptics;fluoroquinolone;glycylcycline;penicillin_beta-lactam;phenicol;rifamycin;tetracycline|acrB|AAC73564.1", // unnamed protein product
@@ -3031,11 +3043,11 @@
 
             // ** match CARD's style **
             "phenicol@cfr(A)": [
-                "NCBI|amr:amr|phenicol/lincosamide/oxazolidinone/pleuromutilin/streptogramin|cfr|WP_001010505.1", // 23S rRNA (adenine(2503)-C(8))-methyltransferase Cfr
-                "NCBI|amr:amr|phenicol/lincosamide/oxazolidinone/pleuromutilin/streptogramin|cfr|WP_032491462.1", // 23S rRNA (adenine(2503)-C(8))-methyltransferase Cfr
+                "NCBI|amr:amr|lincosamide/oxazolidinone/phenicol/pleuromutilin/streptogramin|cfr|WP_001010505.1", // 23S rRNA (adenine(2503)-C(8))-methyltransferase Cfr
+                "NCBI|amr:amr|lincosamide/oxazolidinone/phenicol/pleuromutilin/streptogramin|cfr|WP_032491462.1", // 23S rRNA (adenine(2503)-C(8))-methyltransferase Cfr
             ],
             "phenicol@cfr*": [
-                "NCBI|amr:amr|phenicol/lincosamide/oxazolidinone/pleuromutilin/streptogramin|cfr|WP_011987126.1", // Cfr family 23S rRNA (adenine(2503)-C(8))-methyltransferase
+                "NCBI|amr:amr|lincosamide/oxazolidinone/phenicol/pleuromutilin/streptogramin|cfr|WP_011987126.1", // Cfr family 23S rRNA (adenine(2503)-C(8))-methyltransferase
             ]
         },
         "added": {
@@ -3482,6 +3494,7 @@
         "estX/sat2",
 
         // regulator
+        "drcR", "drcS", // daptomycin efflux response regulator transcription factor / daptomycin efflux sensor histidine kinase
         "kdpD", "kdpE", // kdpDE is a two-component regulatory system in Escherichia coli, well studied for its role in potassium transport and homeostasis. kdpE is also implicated in virulence loci regulation and overexpression of kdpE is shown to confer resistance to aminoglycoside antibiotics.
         "blaI", // penicillinase repressor BlaI
         "blaR1", // beta-lactam sensor/signal transducer BlaR1
