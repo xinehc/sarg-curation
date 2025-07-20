@@ -167,11 +167,6 @@
             "sp|P24618|GRM_MICEC": "grmA", // 16S rRNA (guanine(1405)-N(7))-methyltransferase OS=Micromonospora echinospora OX=1877 GN=grm PE=1 SV=1 | Rmt family 16S rRNA (guanine(1405)-N(7))-methyltransferase
             "sp|P24619|GRM_MICRO": "grmB", // 16S rRNA (guanine(1405)-N(7))-methyltransferase OS=Micromonospora rosea OX=1878 GN=grm PE=1 SV=1 | Grm family 16S rRNA (guanine(1405)-N(7))-methyltransferase
 
-            // "Cloning of an aminoglycoside-resistance-encoding gene, kamC, from Saccharopolyspora hirsuta: comparison with kamB from Streptomyces tenebrarius"
-            // https://www.uniprot.org/citations/1840536
-            "sp|P25920|KAMB_STRSD": "kamB", // 16S rRNA (adenine(1408)-N(1))-methyltransferase OS=Streptoalloteichus tenebrarius (strain ATCC 17920 / DSM 40477 / JCM 4838 / CBS 697.72 / NBRC 16175 / NCIMB 11028 / NRRL B-12390 / A12253. 1) OX=1933 GN=kamB PE=1 SV=2 | 16S rRNA (adenine(1408)-N(1))-methyltransferase KamB
-            "sp|P25919|KAMC_SACHI": "kamC", // rRNA methyltransferase OS=Saccharopolyspora hirsuta OX=1837 GN=kamC PE=4 SV=1 | rRNA methyltransferase
-
             // "Analysis of the self-defense gene (fmrO) of a fortimicin A (astromicin) producer, Micromonospora olivasterospora: comparison with other aminoglycoside-resistance-encoding genes"
             // https://www.uniprot.org/citations/8486289
             "sp|Q08325|FMRO_MICOL": "fmrO",  // 16S rRNA (guanine(1405)-N(7))-methyltransferase OS=Micromonospora olivasterospora OX=1880 GN=fmrO PE=1 SV=2 | 16S rRNA (guanine(1405)-N(7))-methyltransferase
@@ -633,18 +628,18 @@
     "beta-lactam": {
         "changed": {
             "(?<=beta-lactam@(mec[A-D]|cfxA|cphA))[0-9]$": "",
-            "beta-lactam@ampC$": "beta-lactam@bla*",
+            "beta-lactam@ampC.*$": "beta-lactam@bla*",
             "beta-lactam@blaRm3": "beta-lactam@blaRM3",
             "beta-lactam@tla2": "beta-lactam@blaTLA",
 
             // ** blaLRA1-19 are distributed across blaA-C, all from uncultured soil, cautious **
             "beta-lactam@blaLRA.*": "beta-lactam@blaLRA",
 
-            // ** blaB1PEDO and blaB3PEDO are distributed in blaB1/3, cautious **
-            "beta-lactam@blaB[13]PEDO": "beta-lactam@blaPEDO",
-
             // ** despite fused, the blaC/D parts are not close to any known blaLRA/blaOXA, keep **
             "beta-lactam@blaOXA/blaLRA13": "beta-lactam@blaLRA",
+
+            // ** blaB1PEDO and blaB3PEDO are distributed in blaB1/3, cautious **
+            "beta-lactam@blaB[13]PEDO": "beta-lactam@blaPEDO",
 
             // consistency
             "beta-lactam@blaPEN-.*": "beta-lactam@blaPEN",

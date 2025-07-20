@@ -100,17 +100,14 @@ NDARO need to be downloaded from https://www.ncbi.nlm.nih.gov/pathogens/refgene/
 
 We provide a series of Jupyter notebooks for step-wise construction of SARG+:
 
-1. `a0-parse-refs.ipynb`
+1. `n1-parse-refs.ipynb`
    - Parses NDARO and CARD metadata and sequences to create a raw reference. Curates the reference according to `sarg.json`, producing the initial SARG+ reference database.
-2. `a1-standardize-headers.ipynb`
+2. `n2-merge-headers.ipynb`
    - Standardizes the headers of SARG+ reference sequences according to `nr` and `env_nr`.
-4. `b0-parse-evidence.ipynb`
+3. `n3-parse-evidence.ipynb`
    - Finds sequences annotated through the same evidence (BlastRules and Hidden Markov Models) as SARG+ reference sequences.
-5. `b1-remove-dups.ipynb`
+4. `n4-remove-dups.ipynb`
    - Removes duplicated and cross-mapped sequences by clustering.
-
-> [!NOTE]
-> Scripts `z0` and `z1` are used for testing and are not required for building SARG+.
 
 ## Output
 
