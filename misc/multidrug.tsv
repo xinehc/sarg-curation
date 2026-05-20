@@ -1,0 +1,465 @@
+system	subtype	description
+ABC	abcA	ABC transporter ATP-binding protein
+ABC	bmrA	multidrug resistance ABC transporter ATP-binding protein/permease BmrA
+ABC	bmrC	multidrug ABC transporter ATP-binding protein BmrC
+ABC	bmrD	multidrug resistance ABC transporter ATP-binding protein/permease BmrD
+ABC	efrA	multidrug efflux ABC transporter subunit EfrA
+ABC	efrB	multidrug efflux ABC transporter subunit EfrB
+ABC	efrC	multidrug ABC transporter ATP-binding protein/permease ErfC
+ABC	efrD	multidrug ABC transporter ATP-binding protein/permease ErfD
+ABC	efrE	ABC transporter ATP-binding protein
+ABC	efrF	ABC transporter ATP-binding protein
+ABC	etsA	macrolide efflux RND transporter periplasmic adaptor subunit EtsA
+ABC	etsB	MacB family efflux pump subunit
+ABC	horA	horA
+ABC	horC	YhgE/Pip domain-containing protein
+ABC	lmrA	RecName: Full=Multidrug resistance ABC transporter ATP-binding and permease protein
+ABC	lmrA	multidrug efflux ABC transporter LmrA
+ABC	lmrC	multidrug efflux ABC transporter LmrCD subunit C
+ABC	lmrD	multidrug efflux ABC transporter LmrCD subunit D
+ABC	macA	MacA family efflux pump subunit
+ABC	macA	efflux RND transporter periplasmic adaptor subunit
+ABC	macA	macrolide transporter subunit MacA
+ABC	macB	MacB family efflux pump subunit
+ABC	macB	macrolide ABC transporter ATP-binding protein/permease MacB
+ABC	patA	SatA
+ABC	patA	multidrug efflux ABC transporter subunit PatA
+ABC	patB	ABC transporter ATP-binding/membrane spanning protein - unknown substrate
+ABC	patB	SatB
+ABC	patB	multidrug efflux ABC transporter subunit PatB
+ABC	ranA	multidrug efflux ABC transporter ATP-binding subunit RanA
+ABC	ranB	multidrug efflux ABC transporter permease subunit RanB
+ABC	smaA	putative HlyD family secretion protein
+ABC	smaB	MacB family efflux pump subunit
+ABC	smdA	SmdA family multidrug ABC transporter permease/ATP-binding protein
+ABC	smdA	multidrug efflux ABC transporter permease/ATP-binding subunit SmdA
+ABC	smdB	SmdB family multidrug efflux ABC transporter permease/ATP-binding protein
+ABC	smdB	multidrug efflux ABC transporter permease/ATP-binding subunit SmdB
+ABC	smdB	multidrug efflux pump SmdB
+ABC	smrA	multidrug efflux ABC transporter SmrA
+ABC	vcaM	ABC-type multidrug efflux pump
+ABC	vcaM	multidrug efflux ABC transporter VcaM
+ABC	ybhF	ATP-binding cassette domain-containing protein
+ABC	ybhR	ABC transporter permease
+ABC	ybhS	ABC transporter permease
+ABC	yddA	ABC transporter ATP-binding protein/permease
+MATE	abeM	multidrug efflux MATE transporter AbeM
+MATE	bexA	multidrug efflux MATE transporter BexA
+MATE	cdeA	multidrug efflux MATE transporter CdeA
+MATE	emmdR	MATE efflux family protein
+MATE	emmdR	multidrug efflux MATE transporter EmmdR
+MATE	fepA	multidrug efflux MATE transporter FepA
+MATE	hmrM	sodium-coupled multidrug efflux MATE transporter HmrM
+MATE	ketM	MdtK family multidrug efflux MATE transporter
+MATE	mdtK	MdtK family multidrug efflux MATE transporter
+MATE	mdtK	multidrug efflux MATE transporter MdtK
+MATE	mepA	multidrug efflux MATE transporter MepA
+MATE	mmp	MATE family efflux transporter Mmp
+MATE	norM	MATE family efflux transporter
+MATE	norM	NorM
+MATE	norM	multidrug efflux MATE transporter NorM
+MATE	norM	sodium-coupled multidrug efflux MATE transporter NorM
+MATE	pdrM	sodium-coupled multidrug efflux MATE transporter PdrM
+MATE	pmpM	proton-coupled multidrug efflux MATE transporter PmpM
+MATE	vcmA	sodium-coupled multidrug efflux MATE transporter VcmA
+MATE	vcmB	MATE family efflux transporter
+MATE	vcmD	MATE family efflux transporter DinF
+MATE	vcmH	MATE family efflux transporter
+MATE	vcmN	MATE family efflux transporter
+MATE	vcrM	sodium-coupled multidrug efflux MATE transporter VcrM
+MATE	yoeA	MATE family efflux transporter
+MFS	aadT	multidrug efflux MFS transporter AadT
+MFS	amvA	multidrug efflux MFS transporter AmvA
+MFS	bcr	multidrug efflux MFS transporter Bcr
+MFS	bmr1	multidrug efflux MFS transporter Bmr
+MFS	bmr2	multidrug efflux MFS transporter Blt
+MFS	bmr3	multidrug efflux MFS transporter Bmr3
+MFS	cmbT	MFS transporter
+MFS	cme	multidrug efflux MFS transporter Cme
+MFS	cmeG	MFS transporter
+MFS	cmr	multidrug efflux MFS transporter Cmr
+MFS	craA	chloramphenicol efflux MFS transporter CraA
+MFS	efmA	multidrug efflux MFS transporter EfmA
+MFS	emeA	multidrug efflux MFS transporter EmeA
+MFS	emeA	multidrug efflux pump
+MFS	emrA	HlyD family secretion protein
+MFS	emrA	multidrug efflux MFS transporter periplasmic adaptor subunit EmrA
+MFS	emrA	multidrug resistance efflux pump
+MFS	emrB	DHA2 family efflux MFS transporter permease subunit
+MFS	emrB	MDR family MFS transporter
+MFS	emrB	RecName: Full=Colistin resistance protein EmrB
+MFS	emrB	multidrug efflux MFS transporter permease subunit EmrB
+MFS	emrB	multidrug efflux protein
+MFS	emrD	EmrD
+MFS	emrD	emrD
+MFS	emrD	multidrug efflux MFS transporter EmrD
+MFS	emrD	multidrug efflux MFS transporter EmrD-3
+MFS	fsr	MFS transporter
+MFS	fsr	fosmidomycin MFS transporter
+MFS	jefA	multidrug efflux pump JefA
+MFS	kdeA	multidrug efflux MFS transporter KdeA
+MFS	kpnG	multidrug efflux MFS transporter periplasmic adaptor subunit EmrA
+MFS	kpnH	multidrug efflux MFS transporter permease subunit EmrB
+MFS	lde	multidrug efflux MFS transporter Lde
+MFS	lfrA	efflux MFS transporter LfrA
+MFS	lmrP	multidrug efflux MFS transporter LmrP
+MFS	lmrS	multidrug efflux MFS transporter LmrS
+MFS	mdeA	MepA
+MFS	mdeA	multidrug efflux MFS transporter MdeA
+MFS	mdfA	MFS transporter
+MFS	mdfA	MdfA family multidrug efflux MFS transporter
+MFS	mdfA	multidrug efflux MFS transporter MdfA
+MFS	mdrP	multidrug efflux MFS transporter MdrP
+MFS	mdt	Rv1877 family multidrug efflux MFS transporter
+MFS	mdt(A)	multidrug efflux MFS transporter Mdt(A)
+MFS	mdt(P)	multidrug efflux MFS transporter MdtP
+MFS	mdtG	multidrug efflux MFS transporter MdtG
+MFS	mdtH	multidrug efflux MFS transporter MdtH
+MFS	mdtL	MdtL family multidrug efflux MFS transporter
+MFS	mdtL	multidrug efflux MFS transporter MdtL
+MFS	mdtM	multidrug efflux MFS transporter MdtM
+MFS	mdtN	multidrug efflux transporter periplasmic adaptor subunit MdtN
+MFS	mdtN	multidrug transporter subunit MdtN
+MFS	mdtO	multidrug efflux transporter permease subunit MdtO
+MFS	mfsA	MFS transporter
+MFS	nms	multidrug efflux MFS transporter Nms
+MFS	norA	multidrug efflux MFS transporter NorA
+MFS	norB	multidrug efflux MFS transporter NorB
+MFS	norC	multidrug efflux MFS transporter NorC
+MFS	pmrA	multidrug efflux MFS transporter PmrA
+MFS	sdrM	multidrug efflux MFS transporter SdrM
+MFS	smfY	multidrug efflux MFS transporter SmfY
+MFS	stp	multidrug resistance protein Stp
+MFS	sxtP	multidrug efflux MFS transporter SxtP
+MFS	tap	RecName: Full=Multidrug efflux pump Tap; AltName: Full=Tetracycline-aminoglycoside resistance protein
+MFS	tap	multidrug efflux MFS transporter Tap
+MFS	tep	MFS transporter
+MFS	vceA	multidrug efflux MFS transporter adaptor subunit VceA
+MFS	vceA	multidrug resistance protein VceA
+MFS	vceB	multidrug efflux MFS transporter permease subunit VceB
+OMP	abuO	multidrug efflux outer membrane protein AbuO
+OMP	adeC	multidrug efflux RND transporter AdeABC outer membrane channel subunit AdeC
+OMP	adeC	multidrug efflux RND transporter outer membrane channel subunit AdeC
+OMP	adeH	AdeH
+OMP	adeH	multidrug efflux RND transporter outer membrane subunit AdeH
+OMP	adeK	multidrug efflux RND transporter AdeIJK outer membrane channel subunit AdeK
+OMP	adeK	multidrug efflux RND transporter outer membrane channel subunit AdeK
+OMP	aheC	outer membrane protein
+OMP	ainJ	efflux transporter outer membrane subunit
+OMP	ainM	AdeC/AdeK/OprM family multidrug efflux complex outer membrane factor
+OMP	ainZ	multidrug efflux RND transporter outer membrane subunit OprZ
+OMP	ameC	efflux transporter outer membrane subunit
+OMP	axyV	AxyV
+OMP	bepC	multidrug efflux RND transporter outer membrane subunit BepC
+OMP	cmeC	CmeC
+OMP	cmeC	multidrug efflux transporter outer membrane subunit CmeC
+OMP	cmeD	multidrug efflux RND transporter outer membrane subunit CmeD
+OMP	eefC	multidrug efflux RND transporter outer membrane subunit EefC
+OMP	emhC	efflux RND transporter outer membrane subunit EmhC
+OMP	emrC	multidrug efflux transporter outer membrane subunit EmrC
+OMP	etsC	macrolide efflux RND transporter outer membrane subunit EtsC
+OMP	ftlC	TolC family protein FtlC
+OMP	hasF	multidrug efflux transporter outer membrane subunit HasF
+OMP	hefA	efflux RND transporter outer membrane subunit HefA
+OMP	hrdC	outer membrane component of efflux pump
+OMP	macC	TolC family protein
+OMP	macC	efflux transporter outer membrane subunit
+OMP	mdsC	multidrug efflux transporter outer membrane subunit MdsC
+OMP	mdtP	MdtP family multidrug efflux transporter outer membrane subunit
+OMP	mdtP	multidrug efflux transporter outer membrane subunit MdtP
+OMP	mdtQ	multidrug resistance outer membrane protein MdtQ
+OMP	mtrE	multidrug efflux transporter outer membrane subunit MtrE
+OMP	opmB	efflux transporter outer membrane subunit
+OMP	opmB	multidrug efflux RND transporter outer membrane subunit OpmB
+OMP	opmD	multidrug efflux transporter outer membrane subunit OpmD
+OMP	opmE	multidrug efflux transporter outer membrane subunit OpmE
+OMP	oprA	RND efflux system, outer membrane lipoprotein, NodT family
+OMP	oprA	efflux transporter outer membrane subunit
+OMP	oprA	multidrug efflux transporter outer membrane subunit OprA
+OMP	oprA	outer membrane efflux protein OprA
+OMP	oprA	putative outer membrane efflux protein OprM
+OMP	oprB	efflux RND transporter outer membrane subunit OprB
+OMP	oprB	efflux transporter outer membrane subunit
+OMP	oprC	efflux transporter outer membrane subunit
+OMP	oprC	multidrug efflux system outer membrane protein OpcM
+OMP	oprC	multidrug efflux transporter outer membrane subunit OpcM
+OMP	oprJ	multidrug efflux transporter outer membrane subunit OprJ
+OMP	oprM	AdeC/AdeK/OprM family multidrug efflux complex outer membrane factor
+OMP	oprM	multidrug efflux RND transporter outer membrane channel subunit OprM
+OMP	oprN	efflux transporter outer membrane subunit
+OMP	oprN	multidrug efflux RND transporter outer membrane subunit OprN
+OMP	pseA	PseA
+OMP	raeC	TolC family protein
+OMP	ropN	TolC family protein
+OMP	silC	TolC family protein SilC
+OMP	smeC	multidrug efflux transporter outer membrane subunit SmeC
+OMP	smeF	multidrug efflux RND transporter outer membrane subunit SmeF
+OMP	smeX	putative outer membrane efflux protein
+OMP	tbtM	multidrug efflux RND transporter outer membrane channel subunit TbtM
+OMP	tbtM	outer membrane protein TbtM
+OMP	tolC	RecName: Full=Uncharacterized protein HI_1462
+OMP	tolC	TolC protein
+OMP	tolC	TolC-like protein
+OMP	tolC	outer membrane channel protein TolC
+OMP	tolC	outer membrane protein
+OMP	tolC	outer membrane protein TolC
+OMP	toprJ	multidrug efflux transporter outer membrane subunit TOprJ
+OMP	toprJ	multidrug efflux transporter outer membrane subunit TOprJ1
+OMP	toprJ	multidrug efflux transporter outer membrane subunit TOprJ2
+OMP	ttgC	AdeC/AdeK/OprM family multidrug efflux complex outer membrane factor
+OMP	vceC	multidrug efflux MFS transporter outer membrane subunit VceC
+OMP	vpoC	efflux RND transporter outer membrane protein VpoC
+RND	abeD	multidrug efflux RND transporter permease subunit
+RND	acrA	RecName: Full=Uncharacterized protein HI_0894
+RND	acrA	efflux RND transporter adaptor subunit AcrA
+RND	acrA	efflux RND transporter periplasmic adaptor subunit
+RND	acrA	membrane fusion protein AcrA
+RND	acrA	multidrug efflux RND transporter periplasmic adaptor subunit AcrA
+RND	acrB	AcrB
+RND	acrB	RecName: Full=Uncharacterized transporter HI_0895
+RND	acrB	efflux RND transporter permease AcrB
+RND	acrB	efflux RND transporter permease subunit
+RND	acrB	inner membrane RND family protein AcrB
+RND	acrB	multidrug efflux RND transporter permease subunit AcrB
+RND	acrD	multidrug efflux RND transporter permease AcrD
+RND	acrD	putative HAE1 family transporter
+RND	acrE	efflux RND transporter periplasmic adaptor subunit
+RND	acrE	multidrug efflux RND transporter periplasmic adaptor subunit AcrE
+RND	acrF	efflux RND transporter permease subunit
+RND	acrF	multidrug efflux RND transporter permease subunit AcrF
+RND	adeA	multidrug efflux RND transporter periplasmic adaptor subunit AdeA
+RND	adeB	AdeB RND protein
+RND	adeB	multidrug efflux RND transporter permease subunit AdeB
+RND	adeD	multidrug efflux RND transporter periplasmic adaptor subunit AdeD
+RND	adeE	AdeE
+RND	adeE	multidrug efflux RND transporter permease subunit AdeE
+RND	adeF	multidrug efflux RND transporter periplasmic adaptor subunit AdeF
+RND	adeG	multidrug efflux RND transporter permease subunit AdeG
+RND	adeI	AdeA/AdeI family multidrug efflux RND transporter periplasmic adaptor subunit
+RND	adeI	multidrug efflux RND transporter periplasmic adaptor subunit AdeI
+RND	adeJ	multidrug efflux RND transporter permease subunit AdeJ
+RND	aheA	efflux RND transporter periplasmic adaptor subunit
+RND	aheB	efflux RND transporter permease subunit
+RND	ainA	efflux RND transporter periplasmic adaptor subunit
+RND	ainB	efflux RND transporter permease subunit
+RND	ainC	efflux RND transporter periplasmic adaptor subunit
+RND	ainD	efflux RND transporter permease subunit
+RND	ainX	multidrug efflux RND transporter periplasmic adaptor subunit AxyX
+RND	ainY	multidrug efflux RND transporter permease subunit AxyY
+RND	ameA	efflux RND transporter periplasmic adaptor subunit
+RND	ameB	multidrug efflux transporter RND family protein
+RND	amrA	MexX/AxyX family multidrug efflux RND transporter periplasmic adaptor subunit
+RND	amrA	multidrug efflux system AmrA protein
+RND	amrB	multidrug efflux RND transporter permease subunit
+RND	amrB	transporter, hydrophobe/amphiphile efflux-1 (HAE1) family
+RND	arpA	efflux RND transporter periplasmic adaptor subunit
+RND	arpB	efflux RND transporter permease subunit
+RND	axyS	AxyS
+RND	axyU	efflux RND transporter permease subunit
+RND	bepD	multidrug efflux RND transporter periplasmic adaptor subunit BepD
+RND	bepE	multidrug efflux RND transporter permease subunit BepE
+RND	bepF	multidrug efflux RND transporter periplasmic adaptor subunit BepF
+RND	bepG	multidrug efflux RND transporter permease subunit BepG
+RND	bpeA	efflux RND transporter periplasmic adaptor BpeA
+RND	bpeA	efflux RND transporter periplasmic adaptor subunit
+RND	bpeB	efflux RND transporter permease BpeB
+RND	bpeE	efflux RND transporter periplasmic adaptor subunit
+RND	bpeE	multidrug efflux RND transporter periplasmic adaptor subunit CeoA
+RND	bpeF	multidrug efflux RND transporter permease subunit CeoB
+RND	cmeA	CmeA
+RND	cmeA	multidrug efflux RND transporter periplasmic adaptor subunit CmeA
+RND	cmeB	multidrug efflux RND transporter permease subunit CmeB
+RND	cmeB	multidrug efflux RND transporter permease subunit CmeB, ciprofloxacin and florfenicol resistance type
+RND	cmeE	multidrug efflux RND transporter periplasmic adaptor subunit CmeE
+RND	cmeF	multidrug efflux RND transporter permease subunit CmeF
+RND	eefA	multidrug efflux RND transporter periplasmic adaptor subunit EefA
+RND	eefB	EefB inner membrane protein
+RND	eefB	multidrug efflux RND transporter permease subunit EefB
+RND	emhA	efflux RND transporter periplasmic adaptor subunit EmhA
+RND	emhB	EmhB
+RND	emhB	efflux RND transporter permease subunit EmhB
+RND	hefB	efflux RND transporter periplasmic adaptor subunit HefB
+RND	hefC	efflux RND transporter permease subunit HefC
+RND	kexC	multidrug efflux RND transporter permease AcrD
+RND	kexD	multidrug efflux RND transporter permease subunit KexD
+RND	kexE	efflux RND transporter periplasmic adaptor subunit
+RND	kexF	efflux RND transporter permease subunit
+RND	kexV	MdtA/MuxA family multidrug efflux RND transporter periplasmic adaptor subunit
+RND	kexW	MdtB/MuxB family multidrug efflux RND transporter permease subunit
+RND	kexX	multidrug efflux RND transporter permease subunit MdtC
+RND	lpeA	multidrug efflux RND transporter periplasmic adaptor subunit LpeA
+RND	lpeB	multidrug efflux RND transporter permease subunit LpeB
+RND	mdsA	multidrug efflux RND transporter periplasmic adaptor subunit MdsA
+RND	mdsB	multidrug efflux RND transporter permease subunit MdsB
+RND	mdtA	MdtA/MuxA family multidrug efflux RND transporter periplasmic adaptor subunit
+RND	mdtA	multidrug efflux RND transporter subunit MdtA
+RND	mdtB	MdtB/MuxB family multidrug efflux RND transporter permease subunit
+RND	mdtB	multidrug efflux RND transporter permease subunit MdtB
+RND	mdtC	multidrug efflux RND transporter permease subunit MdtC
+RND	mdtE	multidrug transporter subunit MdtE
+RND	mdtF	multidrug efflux pump RND permease MdtF
+RND	mdtU	multidrug transporter subunit MdtA
+RND	mdtV	efflux RND transporter permease subunit
+RND	mdtW	efflux RND transporter permease subunit
+RND	mexA	efflux RND transporter periplasmic adaptor subunit
+RND	mexA	multidrug efflux RND transporter periplasmic adaptor subunit MexA
+RND	mexB	efflux RND transporter permease subunit
+RND	mexB	multidrug efflux RND transporter permease subunit MexB
+RND	mexC	MexC family multidrug efflux RND transporter periplasmic adaptor subunit
+RND	mexC	efflux RND transporter periplasmic adaptor subunit
+RND	mexC	multidrug efflux RND transporter periplasmic adaptor subunit MexC
+RND	mexD	efflux RND transporter permease subunit
+RND	mexD	multidrug efflux RND transporter permease subunit MexD
+RND	mexE	multidrug efflux RND transporter periplasmic adaptor subunit MexE
+RND	mexF	efflux RND transporter permease subunit
+RND	mexF	multidrug efflux RND transporter permease subunit MexF
+RND	mexH	MexH family multidrug efflux RND transporter periplasmic adaptor subunit
+RND	mexH	multidrug efflux RND transporter periplasmic adaptor MexH
+RND	mexI	multidrug efflux RND transporter permease MexI
+RND	mexJ	multidrug efflux RND transporter periplasmic adaptor subunit MexJ
+RND	mexK	multidrug efflux RND transporter permease subunit MexK
+RND	mexM	multidrug efflux RND transporter periplasmic adaptor subunit MexM
+RND	mexN	multidrug efflux RND transporter permease subunit MexN
+RND	mexP	multidrug efflux RND transporter periplasmic adaptor subunit MexP
+RND	mexQ	multidrug efflux RND transporter permease subunit MexQ
+RND	mexV	multidrug efflux RND transporter periplasmic adaptor subunit MexV
+RND	mexW	multidrug efflux RND transporter permease subunit MexW
+RND	mexX	MexX
+RND	mexX	multidrug efflux RND transporter periplasmic adaptor subunit MexX
+RND	mexY	multidrug efflux RND transporter permease subunit MexY
+RND	mtrC	multidrug efflux RND transporter periplasmic adaptor subunit MtrC
+RND	mtrD	multidrug efflux RND transporter permease subunit MtrD
+RND	muxA	MdtA/MuxA family multidrug efflux RND transporter periplasmic adaptor subunit
+RND	muxA	multidrug efflux RND transporter periplasmic adaptor subunit MuxA
+RND	muxB	MdtB/MuxB family multidrug efflux RND transporter permease subunit
+RND	muxB	multidrug efflux RND transporter permease subunit MuxB
+RND	muxC	efflux RND transporter permease subunit
+RND	muxC	multidrug efflux RND transporter permease subunit MuxC
+RND	oqxA	multidrug efflux RND transporter periplasmic adaptor subunit OqxA
+RND	oqxA	multidrug efflux RND transporter periplasmic adaptor subunit OqxA10
+RND	oqxA	multidrug efflux RND transporter periplasmic adaptor subunit OqxA11
+RND	oqxA	multidrug efflux RND transporter periplasmic adaptor subunit OqxA2
+RND	oqxA	multidrug efflux RND transporter periplasmic adaptor subunit OqxA3
+RND	oqxA	multidrug efflux RND transporter periplasmic adaptor subunit OqxA4
+RND	oqxA	multidrug efflux RND transporter periplasmic adaptor subunit OqxA5
+RND	oqxA	multidrug efflux RND transporter periplasmic adaptor subunit OqxA6
+RND	oqxA	multidrug efflux RND transporter periplasmic adaptor subunit OqxA7
+RND	oqxA	multidrug efflux RND transporter periplasmic adaptor subunit OqxA8
+RND	oqxA	multidrug efflux RND transporter periplasmic adaptor subunit OqxA9
+RND	oqxB	multidrug efflux RND transporter permease subunit OqxB
+RND	oqxB	multidrug efflux RND transporter permease subunit OqxB10
+RND	oqxB	multidrug efflux RND transporter permease subunit OqxB11
+RND	oqxB	multidrug efflux RND transporter permease subunit OqxB12
+RND	oqxB	multidrug efflux RND transporter permease subunit OqxB13
+RND	oqxB	multidrug efflux RND transporter permease subunit OqxB14
+RND	oqxB	multidrug efflux RND transporter permease subunit OqxB15
+RND	oqxB	multidrug efflux RND transporter permease subunit OqxB16
+RND	oqxB	multidrug efflux RND transporter permease subunit OqxB17
+RND	oqxB	multidrug efflux RND transporter permease subunit OqxB18
+RND	oqxB	multidrug efflux RND transporter permease subunit OqxB19
+RND	oqxB	multidrug efflux RND transporter permease subunit OqxB2
+RND	oqxB	multidrug efflux RND transporter permease subunit OqxB20
+RND	oqxB	multidrug efflux RND transporter permease subunit OqxB21
+RND	oqxB	multidrug efflux RND transporter permease subunit OqxB22
+RND	oqxB	multidrug efflux RND transporter permease subunit OqxB23
+RND	oqxB	multidrug efflux RND transporter permease subunit OqxB24
+RND	oqxB	multidrug efflux RND transporter permease subunit OqxB25
+RND	oqxB	multidrug efflux RND transporter permease subunit OqxB26
+RND	oqxB	multidrug efflux RND transporter permease subunit OqxB27
+RND	oqxB	multidrug efflux RND transporter permease subunit OqxB28
+RND	oqxB	multidrug efflux RND transporter permease subunit OqxB29
+RND	oqxB	multidrug efflux RND transporter permease subunit OqxB3
+RND	oqxB	multidrug efflux RND transporter permease subunit OqxB30
+RND	oqxB	multidrug efflux RND transporter permease subunit OqxB31
+RND	oqxB	multidrug efflux RND transporter permease subunit OqxB32
+RND	oqxB	multidrug efflux RND transporter permease subunit OqxB4
+RND	oqxB	multidrug efflux RND transporter permease subunit OqxB5
+RND	oqxB	multidrug efflux RND transporter permease subunit OqxB6
+RND	oqxB	multidrug efflux RND transporter permease subunit OqxB7
+RND	oqxB	multidrug efflux RND transporter permease subunit OqxB8
+RND	oqxB	multidrug efflux RND transporter permease subunit OqxB9
+RND	parX	efflux RND transporter periplasmic adaptor subunit
+RND	parY	efflux RND transporter permease subunit
+RND	pseB	efflux RND transporter periplasmic adaptor subunit
+RND	pseC	efflux RND transporter permease subunit
+RND	raeA	efflux RND transporter periplasmic adaptor subunit
+RND	raeB	efflux RND transporter permease subunit
+RND	raeE	efflux RND transporter periplasmic adaptor subunit
+RND	raeF	efflux RND transporter permease subunit
+RND	sdeA	multidrug efflux RND transporter periplasmic adaptor subunit SdeA
+RND	sdeB	multidrug efflux RND transporter permease subunit SdeB
+RND	sdeB	putative resistance-nodulation cell division protein SdeB
+RND	sdeX	multidrug efflux RND transporter periplasmic adaptor subunit SdeX
+RND	sdeX	multidrug efflux pump SdeX
+RND	sdeY	multidrug efflux RND transporter permease subunit SdeY
+RND	sdeY	multidrug efflux pump SdeY
+RND	sme(A)	efflux RND transporter periplasmic adaptor subunit
+RND	sme(B)	efflux RND transporter permease subunit
+RND	sme(C)	efflux RND transporter periplasmic adaptor subunit
+RND	sme(D)	efflux RND transporter permease subunit
+RND	sme(E)	efflux RND transporter periplasmic adaptor subunit
+RND	sme(F)	efflux RND transporter permease subunit
+RND	smeA	multidrug efflux RND transporter periplasmic adaptor subunit SmeA
+RND	smeB	multidrug efflux RND transporter permease subunit SmeB
+RND	smeD	multidrug efflux RND transporter periplasmic adaptor subunit SmeD
+RND	smeE	multidrug efflux RND transporter permease subunit SmeE
+RND	smeG	efflux RND transporter periplasmic adaptor subunit
+RND	smeH	multidrug efflux RND transporter permease subunit
+RND	smeI	efflux RND transporter periplasmic adaptor subunit
+RND	smeJ	efflux RND transporter permease subunit
+RND	smeK	efflux RND transporter permease subunit
+RND	smeO	efflux RND transporter periplasmic adaptor subunit
+RND	smeP	efflux RND transporter permease subunit
+RND	smeV	putative multidrug efflux protein, HlyD family
+RND	smeW	efflux RND transporter permease subunit
+RND	smeY	efflux RND transporter periplasmic adaptor subunit
+RND	smeZ	multidrug efflux RND transporter permease subunit
+RND	tbtA	multidrug efflux RND transporter periplasmic adaptor subunit TbtA
+RND	tbtB	multidrug efflux RND transporter permease subunit TbtB
+RND	tbtB	resistance nodulation cell division family member TbtB
+RND	tmexC	multidrug efflux RND transporter periplasmic adaptor subunit TMexC
+RND	tmexC	multidrug efflux RND transporter periplasmic adaptor subunit TMexC1
+RND	tmexC	multidrug efflux RND transporter periplasmic adaptor subunit TMexC2
+RND	tmexC	multidrug efflux RND transporter periplasmic adaptor subunit TMexC3
+RND	tmexD	multidrug efflux RND transporter permease subunit TMexD
+RND	tmexD	multidrug efflux RND transporter permease subunit TMexD1
+RND	tmexD	multidrug efflux RND transporter permease subunit TMexD2
+RND	tmexD	multidrug efflux RND transporter permease subunit TMexD3
+RND	ttgA	toluene efflux RND transporter periplasmic adaptor subunit TtgA
+RND	ttgB	multidrug efflux RND transporter permease subunit TtgB
+RND	vexA	multidrug efflux RND transporter periplasmic adaptor subunit VexA
+RND	vexA	multidrug efflux transporter VexA
+RND	vexB	multidrug efflux RND transporter permease subunit VexB
+RND	vexB	multidrug efflux transporter VexB
+RND	vexE	multidrug efflux RND transporter periplasmic adaptor subunit VexE
+RND	vexF	multidrug efflux RND transporter permease subunit VexF
+RND	vexG	vibriobactin export RND transporter periplasmic adaptor subunit VexG
+RND	vexH	vibriobactin export RND transporter permease subunit VexH
+RND	vexI	efflux RND transporter periplasmic adaptor subunit
+RND	vexJ	periplasmic linker protein, putative
+RND	vexK	efflux RND transporter permease subunit VexK
+RND	vexK	transporter, AcrB/D/F family
+RND	vmeA	multidrug efflux RND transporter periplasmic adaptor subunit VmeA
+RND	vmeB	multidrug efflux RND transporter permease subunit VmeB
+RND	vmeC	multidrug efflux RND transporter periplasmic adaptor subunit VmeC
+RND	vmeD	multidrug efflux RND transporter permease subunit VmeD
+RND	vmeE	multidrug efflux RND transporter periplasmic adaptor subunit VmeE
+RND	vmeF	multidrug efflux RND transporter permease subunit VmeF
+RND	vmeJ	multidrug efflux RND transporter periplasmic adaptor subunit VmeJ
+RND	vmeK	multidrug efflux RND transporter permease subunit VmeK
+RND	vmeL	efflux RND transporter periplasmic adaptor subunit
+RND	vmeM	efflux RND transporter permease subunit
+RND	vmeY	multidrug efflux RND transporter periplasmic adaptor subunit VmeY
+RND	vmeZ	multidrug efflux RND transporter permease subunit VmeZ
+SMR	abeS	multidrug efflux SMR transporter AbeS
+SMR	emrE	DMT family transporter
+SMR	emrE	EmrE family multidrug efflux SMR transporter
+SMR	emrE	multidrug efflux SMR transporter EmrE
+SMR	kpnE	multidrug efflux SMR transporter subunit KpnE
+SMR	kpnF	multidrug efflux SMR transporter subunit KpnF
+SMR	mdtI	multidrug/spermidine efflux SMR transporter subunit MdtI
+SMR	mdtJ	multidrug/spermidine efflux SMR transporter subunit MdtJ
+SMR	mmr	multidrug efflux SMR transporter Mmr
+SMR	ssmE	multidrug efflux SMR transporter SsmE
+SMR	ykkC	multidrug efflux SMR transporter subunit YkkC
+SMR	ykkD	multidrug efflux SMR transporter subunit YkkD

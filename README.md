@@ -10,6 +10,10 @@ SARG+ is a manually curated database of Antibiotic Resistance Genes (ARGs), desi
 1. **SARG+ reference** ([sarg_ref.fa](https://github.com/xinehc/sarg-curation/blob/master/sarg_ref.fa)): Contains only experimentally validated sequences.
 2. **SARG+ extension** ([sarg_ext.fa](https://github.com/xinehc/sarg-curation/blob/master/sarg_ext.fa)): Contains computationally derived homologs of the reference sequences.
 
+**SARG+** is embedded in the following two pipelines for short- or long-read metagenomic ARG profiling:
++ **Lynx** (https://github.com/xinehc/lynx) (short-read, beta-testing)
++ **Argo** (https://github.com/xinehc/argo) (long-read)
+
 ## Prerequisites
 
 ### Install Dependencies
@@ -17,14 +21,14 @@ SARG+ is a manually curated database of Antibiotic Resistance Genes (ARGs), desi
 Create a new conda environment with the necessary dependencies:
 
 ```bash
-conda create -n sarg-curation -c bioconda -c conda-forge blast diamond mmseqs2 seqkit
+conda create -n sarg-curation -c bioconda -c conda-forge blast diamond mmseqs2 seqkit kofamscan
 conda activate sarg-curation
 ```
 
 Install additional Python modules and Jupyter for running the notebooks:
 
 ```bash
-conda install jupyter regex json5 wget tqdm biopython pandas
+conda install -c bioconda -c conda-forge jupyter regex json5 wget tqdm biopython pandas ncbi-datasets-cli
 ```
 
 ### Download NCBI Databases
@@ -34,18 +38,18 @@ conda install jupyter regex json5 wget tqdm biopython pandas
 Download `nr` and `env_nr` from [NCBI FTP](https://ftp.ncbi.nlm.nih.gov/blast/db/) and extract sequences:
 
 ```bash
-for db in nr env_nr
+for db in env_nr nr
 do
-    curl ftp://ftp.ncbi.nlm.nih.gov/blast/db/ \
+    curl --silent ftp://ftp.ncbi.nlm.nih.gov/blast/db/ \
         | grep -o '[^ ]*.gz$' \
         | grep ^$db \
-        | xargs -P 48 -I {} wget -qN --show-progress https://ftp.ncbi.nlm.nih.gov/blast/db/{} -P tmp/protein/$db
+        | xargs -P 8 -I {} wget -qN --retry-on-http-error=503 https://ftp.ncbi.nlm.nih.gov/blast/db/{} -P tmp/protein/$db
 
-    for file in tmp/protein/$db/*.tar.gz; do tar -xvf $file -C tmp/protein/$db; done
+    for file in tmp/protein/$db/*.tar.gz; do tar -xf $file -C tmp/protein/$db; done
 done
 
-blastdbcmd -db tmp/protein/nr/nr -entry all > tmp/nr.fa
 blastdbcmd -db tmp/protein/env_nr/env_nr -entry all > tmp/env_nr.fa
+blastdbcmd -db tmp/protein/nr/nr -entry all > tmp/nr.fa
 rm -rf tmp/protein
 ```
 
@@ -54,19 +58,21 @@ Download `refseq_protein` from [NCBI RefSeq](https://ftp.ncbi.nlm.nih.gov/refseq
 ```bash
 for kingdom in archaea bacteria
 do
-    curl ftp://ftp.ncbi.nlm.nih.gov/refseq/release/${kingdom}/ \
+    curl --silent ftp://ftp.ncbi.nlm.nih.gov/refseq/release/${kingdom}/ \
         | grep '[^ ]*wp_protein.*.gz$' -o \
-        | xargs -P 48 -I {} wget -qN --show-progress https://ftp.ncbi.nlm.nih.gov/refseq/release/${kingdom}/{} -P tmp/refseq
+        | xargs -P 8 -I {} wget -qN --retry-on-http-error=503 https://ftp.ncbi.nlm.nih.gov/refseq/release/${kingdom}/{} -P tmp/refseq
 done
 
 cat tmp/refseq/*.faa.gz > tmp/refseq_protein.faa.gz
-diamond makedb --in tmp/refseq_protein.faa.gz --db tmp/refseq_protein
+diamond makedb --quiet --in tmp/refseq_protein.faa.gz --db tmp/refseq_protein
 rm -rf tmp/refseq_protein.faa.gz
 
 python -c "
 import gzip
 import glob
 import pandas as pd
+import multiprocessing
+multiprocessing.set_start_method('fork', force=True)
 
 from Bio import SeqIO
 from tqdm.contrib.concurrent import process_map
@@ -88,20 +94,32 @@ def parser(file):
             lines.append([record.id, header, evidence, symbol, identifier])
     pd.DataFrame(lines).to_csv(file.replace('.gpff.gz', '.tsv'), sep='\t', header=None, index=False)
 
-r = process_map(parser, glob.glob('tmp/refseq/*.gpff.gz'), max_workers=48, chunksize=1)
+r = process_map(parser, glob.glob('tmp/refseq/*.gpff.gz'), max_workers=32, chunksize=1, leave=False)
 "
 ```
 
-### Download NDARO and CARD
+Download `KOfam` from [KEGG FTP](https://www.genome.jp/ftp/db/kofam/):
 
-NDARO need to be downloaded from https://www.ncbi.nlm.nih.gov/pathogens/refgene/ (`refgenes.tsv` and `protein.faa`). CARD can be obtained from https://card.mcmaster.ca/download (`aro_index.tsv` and `protein_fasta_protein_homolog_model.fasta`). These files need to be manually unzipped and placed in the [reference](https://github.com/xinehc/sarg-curation/tree/master/reference) folder.
+```bash
+wget -q -P tmp https://www.genome.jp/ftp/db/kofam/ko_list.gz
+wget -q -P tmp https://www.genome.jp/ftp/db/kofam/profiles.tar.gz
+gzip --force --keep -d tmp/ko_list.gz
+tar -xf tmp/profiles.tar.gz -C tmp
+```
+
+Download `NDARO` from [NCBI AMRFinderPlus](https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/latest/):
+
+```bash
+wget -q -P reference https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/latest/ReferenceGeneCatalog.txt
+wget -q -P reference https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/latest/AMRProt.fa
+```
 
 ## Run
 
 We provide a series of Jupyter notebooks for step-wise construction of SARG+:
 
 1. `n1-parse-refs.ipynb`
-   - Parses NDARO and CARD metadata and sequences to create a raw reference. Curates the reference according to `sarg.json`, producing the initial SARG+ reference database.
+   - Parses NDARO and sequences to create a raw reference. Curates the reference according to `sarg.json`, producing the initial SARG+ reference database.
 2. `n2-merge-headers.ipynb`
    - Standardizes the headers of SARG+ reference sequences according to `nr` and `env_nr`.
 3. `n3-parse-evidence.ipynb`
@@ -163,7 +181,7 @@ If you identify any suspicious entries or wish to contribute sequences to SARG+,
 
 - ARGs associated with point mutations in essential genes (primarily antibiotic targets) are excluded. Examples include mutations in *gyrA*, *parC*, and *rpoB*.
 
-- Regulators (e.g., activators, repressors) are excluded since they do not confer direct resistance. Exceptions include *tipA* and *albAB*, which act as self-regulated sequesters. Putative accessory genes such as *vanZ* are also removed.
+- Regulators (e.g., activators, repressors) are excluded since they do not confer direct resistance. Putative accessory genes such as *vanZ* are also removed.
 
 - Fused genes are removed since they can create ambiguities when being aligned using reads (note that SARG+ is designed for read-based profiling). For instance, *catB/aac(6')-I* ([WP_071593228.1](https://www.ncbi.nlm.nih.gov/protein/WP_071593228.1)) is a fusion of *catB* ([WP_264840997.1](https://www.ncbi.nlm.nih.gov/protein/WP_264840997.1)) and *aac(6')-I* ([WP_033917551.1](https://www.ncbi.nlm.nih.gov/protein/WP_033917551.1)).
 
@@ -175,13 +193,12 @@ If you identify any suspicious entries or wish to contribute sequences to SARG+,
 
     - *mdtP* refers to an RND efflux pump in *Escherichia coli* and an MFS transporter in *Bacillus subtilis*. To avoid confusion, the *Bacillus* variant is renamed *mdt(P)*, aligning it with *mdt(A)* (another MFS transporter).
     - Genes with labeling errors in RefSeq are corrected (e.g., *efrCD* is misspelled as *erfCD*).
-    - *qacA* and *qacB* are renamed to *qacA/B* due to their high sequence similarity.
     
 - Certain ARG names are revised for naming consistency:
     
     - *tnrB2* and *tnrB3* are renamed to *tnrB-1* and *tnrB-2* to reflect their roles as ABC transporter components.
-    - *cap21* denotes *orf21* in a *Streptomyces griseus* biosynthetic gene cluster ([AB476988](https://www.ncbi.nlm.nih.gov/nuccore/AB476988)), which lacks an established name.
-
+    - *cprU* denotes *orf21* in a *Streptomyces griseus* biosynthetic gene cluster ([AB476988](https://www.ncbi.nlm.nih.gov/nuccore/AB476988)), which lacks an established name.
+    - *mmr* (methylenomycin A resistance) is renamed to *mmrA* to avoid naming collision with the multidrug *mmr* of *Mycobacterium tuberculosis*.
 
 ## Citation
 Chen, X., Yin, X., Xu, X., & Zhang, T. (2025). Species-resolved profiling of antibiotic resistance genes in complex metagenomes through long-read overlapping with Argo. *Nature Communications*, 16(1), 1744. https://doi.org/10.1038/s41467-025-57088-y
