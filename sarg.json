@@ -213,12 +213,44 @@
 
             // "Cloning and sequencing of the genes involved in glyphosate utilization by Pseudomonas pseudomallei"
             // E. coli strains harboring pGlp-2.0 and pGlp-2.1 were able to grow in hygromycin B at 100 µg/ml.
+            // ** fs failed **
             // https://www.ncbi.nlm.nih.gov/nuccore/X74325
-            "CAA52372.1": "aph(4)-Ib", // hygromycin phosphotransferase [Burkholderia pseudomallei] | hygromycin phosphotransferase
+            // "CAA52372.1": "aph(4)-Ib", // hygromycin phosphotransferase [Burkholderia pseudomallei] | hygromycin phosphotransferase
 
             // "A diverse intrinsic antibiotic resistome from a cave bacterium"
             // https://www.ncbi.nlm.nih.gov/nuccore/KX531053
             "APB03223.1": "aac(6')-34", // aminoglycoside 6' phosphotransferase [Paenibacillus sp. LC231] | aminoglycoside 6' phosphotransferase
+
+            // "Identification and characterization of a novel chromosome-encoded aminoglycoside O-nucleotidyltransferase gene, ant(9)-Id, in Providencia sp. TYF-12 isolated from the marine fish intestine"
+            // Among the 11 aminoglycosides tested, ant(9)-Id was resistant to only spectinomycin. The MIC of spectinomycin for the recombinant strain carrying ant(9)-Id (pUCP20-ant(9)-Id/DH5α) increased 64-fold compared with that of the control strain (pUCP20/DH5ɑ).
+            // https://www.ncbi.nlm.nih.gov/nuccore/PP800888
+            "XBA88490.1": "ant(9)-Id", // aminoglycoside O-nucleotidyltransferase [Providencia sp.]
+
+            // "Discovery and characterization of a novel chromosomally encoded aminoglycoside O-nucleotidyltransferase gene, designated ant(9)-Ie, in a strain of Providencia"
+            // Compared with the control strain E. coli DH5α (DH5α), the recombinant strain harboring ant(9)-Ie (pMD19-ant(9)-Ie/DH5α) showed a 64-fold increase in the MIC of spectinomycin.
+            // https://www.ncbi.nlm.nih.gov/nuccore/PX485636
+            "YCC02466.1": "ant(9)-Ie", // streptomycin 3''-adenylyltransferase [Providencia rettgeri]
+
+            // "Identification and characteristics of a novel acquired aminoglycoside phosphotransferase, APH(3')-IVb, from Riemerella anatipestifer"
+            // Heterologous expression of aph(3′)-IVb in Escherichia coli and a susceptible R. anatipestifer strain conferred resistance to neomycin, paromomycin, and ribostamycin, a phenotype validated by gene deletion and complementation experiments.
+            // https://www.ncbi.nlm.nih.gov/nuccore/PX763553.1
+            "YDE04373.1": "aph(3')-IVb", // aminoglycoside O-phosphotransferase APH(3')-IVb [Riemerella anatipestifer]
+
+            // "aac(6’)-Iaq, a novel aminoglycoside acetyltransferase gene identified from an animal isolate Brucella intermedia DW0551"
+            // The novel aminoglycoside resistance gene aac(6’)-Iaq encoded by B. intermedia DW0551 conferred resistance to netilmicin, sisomicin, amikacin, kanamycin, gentamicin, tobramycin, and ribostamycin.
+            // https://www.ncbi.nlm.nih.gov/nuccore/OR395485
+            "WNI41901.1": "aac(6')-Iaq", // aminoglycoside N-acetyltransferase AAC(6')-Iaq [Brucella intermedia]
+
+            // "A novel chromosomal aminoglycoside 6′-N-acetyltransferase, AAC(6′)-Io, confers resistance to multiple aminoglycosides identified from Bacillus cereus"
+            // A novel aminoglycoside resistance gene, aac(6')-Io, which was identified in the chromosome of B. cereus DW444, confers resistance to tobramycin, kanamycin, amikacin, netilmicin, sisomicin and ribostamycin.
+            // https://www.ncbi.nlm.nih.gov/nuccore/OR282771
+            "WNA16418.1": "aac(6')-Io", // aminoglycoside 6'-N-acetyltransferase [Bacillus cereus]
+
+            // "Characterization of a novel aminoglycoside resistance gene, aadA34, identified from Serratia ureilytica S24"
+            // The aadA34 gene conferred resistance to spectinomycin and streptomycin, with MIC levels increased by 64- and 128-fold, respectively, for spectinomycin and streptomycin compared with the control strain (pUCP20/E. coli DH5α).
+            // ** fs failed **
+            // https://www.ncbi.nlm.nih.gov/nuccore/OQ862328
+            // "WLG16062.1": "ant(3'')-I", // aminoglycoside O-nucleotidyltransferase [Serratia ureilytica]
         },
     },
 
@@ -456,7 +488,6 @@
             // "CAJ68207.1": "cprA", // ABC-type transport system,lantibiotic/multidrug-family ATP-binding protein [Clostridioides difficile 630] | lantibiotic protection ABC transporter ATP-binding protein
             // "CAJ68208.1": "cprB", // ABC-type transport system,lantibiotic/multidrug-family permease [Clostridioides difficile 630] | lantibiotic immunity ABC transporter MutE/EpiE family permease subunit
             // "CAJ68209.1": "cprC", // ABC-type transport system,lantibiotic/multidrug-family permease [Clostridioides difficile 630] | lantibiotic immunity ABC transporter MutG family permease subunit
-
         },
     },
 
@@ -914,6 +945,11 @@
             // https://www.uniprot.org/citations/19649276
             "sp|P9WFU7|LYSX_MYCTU": "lysX", // bifunctional lysylphosphatidylglycerol synthetase/lysine--tRNA ligase LysX | bifunctional lysylphosphatidylglycerol synthetase/lysine--tRNA ligase LysX
 
+            // "The MprF homolog LysX synthesizes lysyl-diacylglycerol contributing to antibiotic resistance and virulence"
+            // LysX in C. pseudotuberculosis is a major factor of resistance against a variety of positively charged antibacterial agents, including cationic antimicrobial peptides (e.g., human peptide LL-37 and polymyxin B) and aminoglycosides (e.g., gentamycin and apramycin).
+            // https://www.ncbi.nlm.nih.gov/protein/ADL11372
+            "ADL11372.2": "lysX", // bifunctional lysylphosphatidylglycerol synthetase/lysine--tRNA ligase LysX [Corynebacterium pseudotuberculosis C231]
+
             // "ABC Transporter DerAB of Lactobacillus casei Mediates Resistance against Insect-Derived Defensins"
             //  The ΔderB mutant was slightly more sensitive to LSer‐Def4 (BR090) and much more sensitive to sapecin A (BR080; MIC, >160 μg·ml−1 for BL23 and 80 μg·ml−1 for the ΔderB strain) and Lser-Def3 (BR092; MIC, >320 μg·ml−1 for BL23 and 320 μg·ml−1 for the ΔderB strain) than was the parental strain, indicating that DerAB mediates resistance against these compounds.
             // ** LCABL_21680 (derA), LCABL_21670 (derB) **
@@ -1041,6 +1077,11 @@
             "XGI00607.1": "fosI", // FosX family fosfomycin hydrolase [uncultured bacterium] | FosX family fosfomycin hydrolase
             // https://www.ncbi.nlm.nih.gov/nuccore/PQ186077
             "XGI00608.1": "fosP", // FosX family fosfomycin hydrolase [uncultured bacterium] | FosX family fosfomycin hydrolase
+
+            // "Identification of a novel chromosome-encoded fosfomycin resistance gene fosC3 in Aeromonas caviae"
+            // The recombinant pMD19-fosC3/DH5α displayed a MIC value of 32 μg/mL to fosfomycin, which revealed a 128-fold increase of MIC value to fosfomycin compared to the control pMD19/E. coli DH5α (0.25 μg/mL).
+            // https://www.ncbi.nlm.nih.gov/nuccore/OR187734
+            "XBY83663.1": "fosC", // fosfomycin-modifying enzyme C3 [Aeromonas caviae]
         },
     },
 
@@ -1200,14 +1241,27 @@
 
             // "Cloning of midecamycin(MLS)-resistance genes from Streptomyces mycarofaciens, Streptomyces lividans and Streptomyces coelicolor A3(2)"
             // DNA containing genes for midecamycin(Mdm)-resistance was cloned from Streptomyces mycarofaciens ATCC21454 (mdmA gene), Streptomyces lividans 66 (Irm gene) and Streptomyces coelicolor A3(2). The phenotype imparted to S. lividans and Streptomyces griseofuscus transformants by the cloned DNAsegments indicates that they encode an MLS-typeof resistance activity.
-            // https://www.ncbi.nlm.nih.gov/protein/Q7M0X7
-            "sp|Q7M0X7|Q7M0X7_STRMY": "erm*", // Midecamycin-resistance protein mdmA | 23S ribosomal RNA methyltransferase Erm
+            // ** no accession **
 
             // "A diverse intrinsic antibiotic resistome from a cave bacterium"
             // https://www.ncbi.nlm.nih.gov/nuccore/KX531046
             "APB03216.1": "llmA", // lincosamide resistance methyltransferase [Paenibacillus sp. LC231] | class I SAM-dependent methyltransferase
             // https://www.ncbi.nlm.nih.gov/nuccore/KX531056
             "APB03226.1": "mph(I)", // macrolide phosphotransferase [Paenibacillus sp. LC231] | macrolide 2'-phosphotransferase MphI
+
+            // "Characterization of a novel gene, Lsa(F), conferring resistance to pleuromutilins, lincosamides and streptogramin A in Streptococcus parasuis"
+            // Functional expression of Lsa(F) in Streptococcus suis and Staphylococcus aureus confers resistance to PLSA
+            // https://www.ncbi.nlm.nih.gov/protein/WFB92308
+            "WFB92308.1": "lsa(F)", // ABC-F type ribosomal protection protein [Streptococcus parasuis]
+
+            // "Functional characterization of macrolide esterase from cyanobacteria and their potential dissemination risk"
+            // Recombinants carrying OCA-1 and OCB-1 exhibited approximately a 4-fold increase in tylosin MIC compared to the BL21 parent strain, while NOD-1 showed a 2-fold increase
+            // https://www.ncbi.nlm.nih.gov/nuccore/PX606297
+            "YEL88028.1": "mleNOD", // macrolide esterase NOD-1 [synthetic construct]
+            // https://www.ncbi.nlm.nih.gov/nuccore/PX606299
+            "YEL88030.1": "mleOCA", // macrolide esterase OCA-1 [synthetic construct]
+            // https://www.ncbi.nlm.nih.gov/nuccore/PX606300
+            "YEL88031.1": "mleOCB", // macrolide esterase OCB-1 [synthetic construct]
         },
         "discarded": [
             // fosfomycin -> lincosamide
@@ -2526,6 +2580,7 @@
 
 
 
+
             // ---------- Pseudomonas putida ----------
             // "Isolation and transposon mutagenesis of a Pseudomonas putida KT2442 toluene-resistant variant: involvement of an efflux system in solvent resistance"
             // Strain TOL was several times more resistant to β-lactams (ampicillin, penicillin G) and novobiocin than its parental strain KT2442. TOL-4 was hypersusceptible to several antibiotics tested, especially β-lactams. Gene products of three open reading frames (ORFs) designated mepA, mepB, and mepC are most similar to one of the P. aeruginosa multidrug efflux proteins MexA, MexB, and OprM, respectively.
@@ -2816,6 +2871,8 @@
 
 
 
+
+
             // ---------- Agrobacterium tumefaciens ----------
             // "Characterization of a putative RND-type efflux system in Agrobacterium tumefaciens"
             // Mutations of the ameA and ameB genes did not affect the susceptibility profile of the wild-type strain to several detergents and antibiotics. In contrast, mutations of the ameC gene dramatically affected the susceptibility of the strain to these same inhibitory compounds.
@@ -2981,10 +3038,12 @@
 
 
 
+
             // ---------- Porphyromonas gingivalis ----------
             // "A resistance-nodulation-cell division family xenobiotic efflux pump in an obligate anaerobe, Porphyromonas gingivalis"
             // MIC determination and accumulation assays with mutants with disruptions of one or more genes showed that one cluster, named xepCAB, pumped out multiple agents including rifampin, puromycin, and ethidium bromide.
             // ** PG_0538 (xepC), PG_0539 (xepA), PG_0540 (xepB) **
+
 
 
 
@@ -3165,7 +3224,7 @@
             // "Functional Characterization of AbaQ, a Novel Efflux Pump Mediating Quinolone Resistance in Acinetobacter baumannii"
             // abaQ gene product confers decreased susceptibility to quinolones by encoding an active efflux transporter.
             // https://www.uniprot.org/citations/29941648
-            "sp|P0DPR4|ABAQ_ACIBT": "abaQ", // Quinolone resistance transporter OS=Acinetobacter baumannii (strain ATCC 17978 / DSM 105126 / CIP 53.77 / LMG 1025 / NCDC KC755 / 5377) OX=400667 GN=abaQ PE=1 SV=1 | multidrug efflux MFS transporter AbaQ
+            "sp|P0DPR4|ABAQ_ACIBA": "abaQ", // Quinolone resistance transporter OS=Acinetobacter baumannii OX=470 GN=abaQ PE=1 SV=1
 
             // "Intrinsic Resistance of Mycobacterium smegmatis to Fluoroquinolones May Be Influenced by New Pentapeptide Protein MfpA"
             // When M. smegmatis contains mfpA on a multicopy plasmid, it is two- to eightfold more resistant to FQ but shows no increased resistance to nalidixic acid or several other compounds often transported by multidrug efflux pumps.
@@ -3328,6 +3387,9 @@
             // ** GE296_RS02115 (ranT -> tet*) **
             // https://www.ncbi.nlm.nih.gov/nuccore/NZ_CP045564
             "WP_004919959.1": "tet*", // TCR/Tet family MFS transporter [Riemerella anatipestifer] | TCR/Tet family MFS transporter
+
+            // "TrexAB, a novel tetracycline resistance determinant in Streptococcus dysgalactiae"
+            // ** no accession **
         },
         "discarded": [
             // tcr3 -> tcrC

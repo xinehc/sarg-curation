@@ -220,6 +220,7 @@ RND	acrB	RecName: Full=Uncharacterized transporter HI_0895
 RND	acrB	efflux RND transporter permease AcrB
 RND	acrB	efflux RND transporter permease subunit
 RND	acrB	inner membrane RND family protein AcrB
+RND	acrB	multidrug efflux RND transporter permease subunit
 RND	acrB	multidrug efflux RND transporter permease subunit AcrB
 RND	acrD	multidrug efflux RND transporter permease AcrD
 RND	acrD	putative HAE1 family transporter
@@ -243,7 +244,7 @@ RND	aheB	efflux RND transporter permease subunit
 RND	ainA	efflux RND transporter periplasmic adaptor subunit
 RND	ainB	efflux RND transporter permease subunit
 RND	ainC	efflux RND transporter periplasmic adaptor subunit
-RND	ainD	efflux RND transporter permease subunit
+RND	ainD	multidrug efflux RND transporter permease subunit
 RND	ainX	multidrug efflux RND transporter periplasmic adaptor subunit AxyX
 RND	ainY	multidrug efflux RND transporter permease subunit AxyY
 RND	ameA	efflux RND transporter periplasmic adaptor subunit
@@ -255,7 +256,7 @@ RND	amrB	transporter, hydrophobe/amphiphile efflux-1 (HAE1) family
 RND	arpA	efflux RND transporter periplasmic adaptor subunit
 RND	arpB	efflux RND transporter permease subunit
 RND	axyS	AxyS
-RND	axyU	efflux RND transporter permease subunit
+RND	axyU	multidrug efflux RND transporter permease subunit
 RND	bepD	multidrug efflux RND transporter periplasmic adaptor subunit BepD
 RND	bepE	multidrug efflux RND transporter permease subunit BepE
 RND	bepF	multidrug efflux RND transporter periplasmic adaptor subunit BepF
@@ -308,7 +309,7 @@ RND	mexB	multidrug efflux RND transporter permease subunit MexB
 RND	mexC	MexC family multidrug efflux RND transporter periplasmic adaptor subunit
 RND	mexC	efflux RND transporter periplasmic adaptor subunit
 RND	mexC	multidrug efflux RND transporter periplasmic adaptor subunit MexC
-RND	mexD	efflux RND transporter permease subunit
+RND	mexD	multidrug efflux RND transporter permease subunit
 RND	mexD	multidrug efflux RND transporter permease subunit MexD
 RND	mexE	multidrug efflux RND transporter periplasmic adaptor subunit MexE
 RND	mexF	efflux RND transporter permease subunit
@@ -379,7 +380,7 @@ RND	oqxB	multidrug efflux RND transporter permease subunit OqxB7
 RND	oqxB	multidrug efflux RND transporter permease subunit OqxB8
 RND	oqxB	multidrug efflux RND transporter permease subunit OqxB9
 RND	parX	efflux RND transporter periplasmic adaptor subunit
-RND	parY	efflux RND transporter permease subunit
+RND	parY	multidrug efflux RND transporter permease subunit
 RND	pseB	efflux RND transporter periplasmic adaptor subunit
 RND	pseC	efflux RND transporter permease subunit
 RND	raeA	efflux RND transporter periplasmic adaptor subunit
@@ -394,7 +395,7 @@ RND	sdeX	multidrug efflux pump SdeX
 RND	sdeY	multidrug efflux RND transporter permease subunit SdeY
 RND	sdeY	multidrug efflux pump SdeY
 RND	sme(A)	efflux RND transporter periplasmic adaptor subunit
-RND	sme(B)	efflux RND transporter permease subunit
+RND	sme(B)	multidrug efflux RND transporter permease subunit
 RND	sme(C)	efflux RND transporter periplasmic adaptor subunit
 RND	sme(D)	efflux RND transporter permease subunit
 RND	sme(E)	efflux RND transporter periplasmic adaptor subunit

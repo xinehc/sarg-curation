@@ -56,7 +56,7 @@ rm -rf tmp/protein
 Download `refseq_protein` from [NCBI RefSeq](https://ftp.ncbi.nlm.nih.gov/refseq/release/) and extract annotation evidence:
 
 ```bash
-for kingdom in archaea bacteria
+for kingdom in plasmid archaea bacteria
 do
     curl --silent ftp://ftp.ncbi.nlm.nih.gov/refseq/release/${kingdom}/ \
         | grep '[^ ]*wp_protein.*.gz$' -o \
@@ -101,8 +101,8 @@ r = process_map(parser, glob.glob('tmp/refseq/*.gpff.gz'), max_workers=32, chunk
 Download `KOfam` from [KEGG FTP](https://www.genome.jp/ftp/db/kofam/):
 
 ```bash
-wget -q -P tmp https://www.genome.jp/ftp/db/kofam/ko_list.gz
-wget -q -P tmp https://www.genome.jp/ftp/db/kofam/profiles.tar.gz
+wget -qN -P tmp https://www.genome.jp/ftp/db/kofam/ko_list.gz
+wget -qN -P tmp https://www.genome.jp/ftp/db/kofam/profiles.tar.gz
 gzip --force --keep -d tmp/ko_list.gz
 tar -xf tmp/profiles.tar.gz -C tmp
 ```
@@ -110,8 +110,8 @@ tar -xf tmp/profiles.tar.gz -C tmp
 Download `NDARO` from [NCBI AMRFinderPlus](https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/latest/):
 
 ```bash
-wget -q -P reference https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/latest/ReferenceGeneCatalog.txt
-wget -q -P reference https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/latest/AMRProt.fa
+wget -q -O reference/ReferenceGeneCatalog.txt https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/latest/ReferenceGeneCatalog.txt
+wget -q -O reference/AMRProt.fa https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/latest/AMRProt.fa
 ```
 
 ## Run

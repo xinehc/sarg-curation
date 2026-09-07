@@ -18,7 +18,7 @@ aminoglycoside	aac(3)-VIII	4
 aminoglycoside	aac(3)-X	1
 aminoglycoside	aac(3)-XI	1
 aminoglycoside	aac(6')*	65
-aminoglycoside	aac(6')-I	183
+aminoglycoside	aac(6')-I	185
 aminoglycoside	aac(6')-II	8
 aminoglycoside	aac(6')-III	3
 aminoglycoside	ant(2'')-I	19
@@ -29,7 +29,7 @@ aminoglycoside	ant(4')-II	2
 aminoglycoside	ant(6)*	6
 aminoglycoside	ant(6)-I	7
 aminoglycoside	ant(9)*	3
-aminoglycoside	ant(9)-I	3
+aminoglycoside	ant(9)-I	5
 aminoglycoside	aph(2'')*	1
 aminoglycoside	aph(2'')-I	7
 aminoglycoside	aph(2'')-II	3
@@ -40,7 +40,7 @@ aminoglycoside	aph(3')*	2
 aminoglycoside	aph(3')-I	17
 aminoglycoside	aph(3')-II	8
 aminoglycoside	aph(3')-III	4
-aminoglycoside	aph(3')-IV	1
+aminoglycoside	aph(3')-IV	2
 aminoglycoside	aph(3')-IX	1
 aminoglycoside	aph(3')-V	5
 aminoglycoside	aph(3')-VI	3
@@ -48,7 +48,7 @@ aminoglycoside	aph(3')-VII	1
 aminoglycoside	aph(3')-VIII	2
 aminoglycoside	aph(3')-XV	3
 aminoglycoside	aph(3')-XVI	1
-aminoglycoside	aph(4)-I	2
+aminoglycoside	aph(4)-I	1
 aminoglycoside	aph(6)*	2
 aminoglycoside	aph(6)-I	9
 aminoglycoside	aph(7'')-I	1
@@ -117,13 +117,14 @@ beta-lactam	bla3	1
 beta-lactam	blaA	3
 beta-lactam	blaAAK	1
 beta-lactam	blaACC	8
+beta-lactam	blaACES	1
 beta-lactam	blaACI	1
 beta-lactam	blaACT	213
-beta-lactam	blaADC	377
+beta-lactam	blaADC	383
 beta-lactam	blaAER	1
 beta-lactam	blaAFM	5
 beta-lactam	blaAHM	1
-beta-lactam	blaAIM	2
+beta-lactam	blaAIM	3
 beta-lactam	blaALG11	1
 beta-lactam	blaALG6	1
 beta-lactam	blaALI	2
@@ -140,6 +141,7 @@ beta-lactam	blaAXC	13
 beta-lactam	blaB	38
 beta-lactam	blaB3SU1	1
 beta-lactam	blaB3SU2	1
+beta-lactam	blaBAS	1
 beta-lactam	blaBAT	1
 beta-lactam	blaBBI	1
 beta-lactam	blaBCL	1
@@ -175,7 +177,7 @@ beta-lactam	blaCKO	3
 beta-lactam	blaCMA/CSA	4
 beta-lactam	blaCME	3
 beta-lactam	blaCMH	34
-beta-lactam	blaCMY	216
+beta-lactam	blaCMY	215
 beta-lactam	blaCOR	1
 beta-lactam	blaCPS	1
 beta-lactam	blaCRD3	1
@@ -193,7 +195,7 @@ beta-lactam	blaDYB	1
 beta-lactam	blaE	1
 beta-lactam	blaEAM	1
 beta-lactam	blaEBR	6
-beta-lactam	blaEC	11
+beta-lactam	blaEC	14
 beta-lactam	blaECM	1
 beta-lactam	blaECV	1
 beta-lactam	blaEFM	1
@@ -213,7 +215,7 @@ beta-lactam	blaFOX	22
 beta-lactam	blaFPH	1
 beta-lactam	blaFRI	13
 beta-lactam	blaFTU	1
-beta-lactam	blaGES	68
+beta-lactam	blaGES	69
 beta-lactam	blaGIL	1
 beta-lactam	blaGIM	3
 beta-lactam	blaGMA	2
@@ -222,6 +224,7 @@ beta-lactam	blaGOB	52
 beta-lactam	blaGPC	1
 beta-lactam	blaGRD23	1
 beta-lactam	blaGRD33	1
+beta-lactam	blaGUA	1
 beta-lactam	blaHBL	1
 beta-lactam	blaHER	7
 beta-lactam	blaHMB	3
@@ -233,7 +236,7 @@ beta-lactam	blaJOHN	1
 beta-lactam	blaKBL	1
 beta-lactam	blaKHM	2
 beta-lactam	blaKLUC	6
-beta-lactam	blaKPC	293
+beta-lactam	blaKPC	295
 beta-lactam	blaL	3
 beta-lactam	blaL1	18
 beta-lactam	blaL2	1
@@ -259,22 +262,22 @@ beta-lactam	blaMUN	6
 beta-lactam	blaMUS	2
 beta-lactam	blaMYO	1
 beta-lactam	blaMYX	2
-beta-lactam	blaNDM	97
+beta-lactam	blaNDM	98
 beta-lactam	blaNWM	1
-beta-lactam	blaOCH	15
+beta-lactam	blaOCH	16
 beta-lactam	blaOHIO	1
 beta-lactam	blaOKP	321
 beta-lactam	blaORN	6
 beta-lactam	blaORR	1
-beta-lactam	blaOXA	1406
-beta-lactam	blaOXY	172
+beta-lactam	blaOXA	1431
+beta-lactam	blaOXY	185
 beta-lactam	blaP	2
 beta-lactam	blaPAC	2
 beta-lactam	blaPAD	1
 beta-lactam	blaPAM	6
 beta-lactam	blaPAN	1
 beta-lactam	blaPAU	1
-beta-lactam	blaPDC	696
+beta-lactam	blaPDC	701
 beta-lactam	blaPEDO	3
 beta-lactam	blaPEN	50
 beta-lactam	blaPER	18
@@ -319,7 +322,7 @@ beta-lactam	blaSFH	1
 beta-lactam	blaSGM	7
 beta-lactam	blaSHD	1
 beta-lactam	blaSHN	1
-beta-lactam	blaSHV	215
+beta-lactam	blaSHV	216
 beta-lactam	blaSHW	2
 beta-lactam	blaSIE	1
 beta-lactam	blaSIM	2
@@ -335,7 +338,7 @@ beta-lactam	blaSPS	1
 beta-lactam	blaSRT	9
 beta-lactam	blaSTA	1
 beta-lactam	blaTEL	1
-beta-lactam	blaTEM	223
+beta-lactam	blaTEM	233
 beta-lactam	blaTER	2
 beta-lactam	blaTHIN	1
 beta-lactam	blaTLA	4
@@ -345,10 +348,10 @@ beta-lactam	blaTTU	1
 beta-lactam	blaTUS	1
 beta-lactam	blaVAM	1
 beta-lactam	blaVCC	1
-beta-lactam	blaVEB	41
+beta-lactam	blaVEB	42
 beta-lactam	blaVHH	1
 beta-lactam	blaVHW	1
-beta-lactam	blaVIM	95
+beta-lactam	blaVIM	96
 beta-lactam	blaVMB	1
 beta-lactam	blaWUS	1
 beta-lactam	blaYEM	1
@@ -406,7 +409,7 @@ colistin	mcr-11	1
 colistin	mcr-12	1
 colistin	mcr-13	1
 colistin	mcr-2	8
-colistin	mcr-3	42
+colistin	mcr-3	43
 colistin	mcr-4	9
 colistin	mcr-5	5
 colistin	mcr-6	1
@@ -421,7 +424,7 @@ defensin	dltA	8
 defensin	dltB	8
 defensin	dltC	8
 defensin	dltD	8
-defensin	lysX	1
+defensin	lysX	2
 defensin	mprF	4
 defensin	pmtC	1
 defensin	pmtD	1
@@ -433,7 +436,7 @@ fosfomycin	fomB	1
 fosfomycin	fos*	3
 fosfomycin	fosA	26
 fosfomycin	fosB	13
-fosfomycin	fosC	2
+fosfomycin	fosC	3
 fosfomycin	fosD	1
 fosfomycin	fosE	2
 fosfomycin	fosF	1
@@ -538,7 +541,6 @@ macrolide-lincosamide-streptogramin	erm(W)	1
 macrolide-lincosamide-streptogramin	erm(X)	8
 macrolide-lincosamide-streptogramin	erm(Y)	1
 macrolide-lincosamide-streptogramin	erm(Z)	1
-macrolide-lincosamide-streptogramin	erm*	1
 macrolide-lincosamide-streptogramin	estT	1
 macrolide-lincosamide-streptogramin	estX	11
 macrolide-lincosamide-streptogramin	llmA	1
@@ -560,6 +562,7 @@ macrolide-lincosamide-streptogramin	lsa(B)	1
 macrolide-lincosamide-streptogramin	lsa(C)	1
 macrolide-lincosamide-streptogramin	lsa(D)	1
 macrolide-lincosamide-streptogramin	lsa(E)	1
+macrolide-lincosamide-streptogramin	lsa(F)	1
 macrolide-lincosamide-streptogramin	mef(A)	21
 macrolide-lincosamide-streptogramin	mef(B)	1
 macrolide-lincosamide-streptogramin	mef(C)	1
@@ -573,6 +576,9 @@ macrolide-lincosamide-streptogramin	mleBCA	1
 macrolide-lincosamide-streptogramin	mleBCB	1
 macrolide-lincosamide-streptogramin	mleBRB	1
 macrolide-lincosamide-streptogramin	mleCBF	1
+macrolide-lincosamide-streptogramin	mleNOD	1
+macrolide-lincosamide-streptogramin	mleOCA	1
+macrolide-lincosamide-streptogramin	mleOCB	1
 macrolide-lincosamide-streptogramin	mlePBA	1
 macrolide-lincosamide-streptogramin	mlePBB	1
 macrolide-lincosamide-streptogramin	mph(A)	3
@@ -1007,7 +1013,7 @@ quinolone	qnrB	90
 quinolone	qnrC	1
 quinolone	qnrD	3
 quinolone	qnrE	7
-quinolone	qnrS	14
+quinolone	qnrS	15
 quinolone	qnrVC	9
 rifamycin	arr	13
 rifamycin	helR	1
@@ -1090,7 +1096,7 @@ tetracycline	tet(S)	3
 tetracycline	tet(T)	2
 tetracycline	tet(V)	1
 tetracycline	tet(W)	28
-tetracycline	tet(X)	9
+tetracycline	tet(X)	8
 tetracycline	tet(Y)	2
 tetracycline	tet(Z)	1
 tetracycline	tet*	1

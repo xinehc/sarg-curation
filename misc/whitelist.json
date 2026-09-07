@@ -15,7 +15,7 @@
         "reviewed": "cfr(A)"
     },
     "23S ribosomal RNA methyltransferase Erm": {
-        "gene": "erm*",
+        "gene": "",
         "remark": [
             "NF000499.2 | erm | NA"
         ],
@@ -165,7 +165,7 @@
         "reviewed": "aph(3'')*"
     },
     "APH(3') family aminoglycoside O-phosphotransferase": {
-        "gene": "",
+        "gene": "aph(3')-IV",
         "remark": [
             "NF033068.1 | NA | NA"
         ],
@@ -649,7 +649,7 @@
         "reviewed": "fusC"
     },
     "GNAT family N-acetyltransferase": {
-        "gene": "aac(2')* | pac",
+        "gene": "aac(2')* | aac(6')-I | pac",
         "remark": [
             "NF007338.0 | NA | PRK09831",
             "NF007644.0 | NA | PRK10314"
@@ -678,6 +678,13 @@
         ],
         "reviewed": "*"
     },
+    "LipP1 family hormone-sensitive lipase": {
+        "gene": "",
+        "remark": [
+            "NF058653.1 | lipP1 | NA"
+        ],
+        "reviewed": "*"
+    },
     "Lsa family ABC-F type ribosomal protection protein": {
         "gene": "",
         "remark": [
@@ -700,7 +707,7 @@
         "reviewed": "*"
     },
     "MBL fold metallo-hydrolase": {
-        "gene": "blaVIM",
+        "gene": "",
         "remark": [
             "NF002553.0 | NA | PRK02113"
         ],
@@ -1025,7 +1032,8 @@
     "Rmt family 16S rRNA (guanine(1405)-N(7))-methyltransferase": {
         "gene": "grm | krm",
         "remark": [
-            "NF000466.2 | NA | NA"
+            "NF000466.2 | NA | NA",
+            "NF000466.3 | rmt | NA"
         ],
         "reviewed": "rmt*"
     },
@@ -1203,14 +1211,6 @@
         ],
         "reviewed": "vga*"
     },
-    "acetyltransferase": {
-        "gene": "",
-        "remark": [
-            "NF007807.0 | NA | PRK10514",
-            "NF010621.0 | NA | PRK14014"
-        ],
-        "reviewed": "*"
-    },
     "adenylyl-sulfate kinase": {
         "gene": "",
         "remark": [
@@ -1315,6 +1315,13 @@
         ],
         "reviewed": "aac(6')*"
     },
+    "aminoglycoside 6'-N-acetyltransferase AacA34": {
+        "gene": "aac(6')*",
+        "remark": [
+            "NF000123.2 | aacA34 | NA"
+        ],
+        "reviewed": "aac(6')*"
+    },
     "aminoglycoside 6'-N-acetyltransferase AacA37": {
         "gene": "aac(6')*",
         "remark": [
@@ -1352,7 +1359,7 @@
         "reviewed": "aph(2'')-I"
     },
     "aminoglycoside adenylyltransferase family protein": {
-        "gene": "",
+        "gene": "ant(9)-I",
         "remark": [
             "NF010309.0 | NA | PRK13746"
         ],
@@ -1467,7 +1474,8 @@
         "gene": "bla* | blaF | blaM | blaR39 | blaS | hugA",
         "remark": [
             "NF012167.0 | bla | NA",
-            "NF033103.1 | bla | NA"
+            "NF033103.1 | bla | NA",
+            "NF058777.1 | NA | NA"
         ],
         "reviewed": "bla*"
     },
@@ -1500,7 +1508,7 @@
         "reviewed": "bla*"
     },
     "class D beta-lactamase": {
-        "gene": "blaOXA",
+        "gene": "",
         "remark": [
             "NF000270.1 | blaOXA | NA",
             "NF000463.2 | blaOXA | NA",
@@ -1621,13 +1629,6 @@
         ],
         "reviewed": "*"
     },
-    "extended-spectrum class A beta-lactamase OXY-5-15": {
-        "gene": "",
-        "remark": [
-            "NG_245100.1 | blaOXY | NA"
-        ],
-        "reviewed": "blaOXY"
-    },
     "fatty acid resistance MFS efflux transporter adaptor subunit FarA": {
         "gene": "",
         "remark": [
@@ -1650,7 +1651,7 @@
         "reviewed": "qepA"
     },
     "fosfomycin resistance glutathione transferase": {
-        "gene": "",
+        "gene": "fosC",
         "remark": [
             "NF000496.2 | fos | NA"
         ],
@@ -1980,7 +1981,7 @@
         "reviewed": "acrD"
     },
     "multidrug efflux RND transporter permease subunit": {
-        "gene": "abeD | amrB | smeH | smeZ",
+        "gene": "abeD | acrB | ainD | amrB | axyU | mexD | parY | sme(B) | smeH | smeZ",
         "remark": [
             "NF000282.2 | NA | NA",
             "NF007131.0 | NA | PRK09577",
@@ -2191,6 +2192,13 @@
         ],
         "reviewed": "tlmA"
     },
+    "phospho-N-acetylmuramoyl-pentapeptide-transferase": {
+        "gene": "",
+        "remark": [
+            "TIGR00445.1 | mraY | NA"
+        ],
+        "reviewed": "*"
+    },
     "phosphoenolpyruvate synthase": {
         "gene": "rphB",
         "remark": [
@@ -2223,6 +2231,13 @@
         "gene": "",
         "remark": [
             "NF006617.0 | NA | PRK09184"
+        ],
+        "reviewed": "*"
+    },
+    "photosystem II reaction center protein T": {
+        "gene": "",
+        "remark": [
+            "NF008825.0 | NA | PRK11875"
         ],
         "reviewed": "*"
     },
@@ -2303,7 +2318,7 @@
         "reviewed": "*"
     },
     "ribosomal protection-like ABC-F family protein": {
-        "gene": "tva(D) | vmlR",
+        "gene": "lsa(F) | tva(D) | vmlR",
         "remark": [
             "NF000355.4 | abc-f | NA"
         ],
@@ -2485,6 +2500,13 @@
         ],
         "reviewed": "tet(32)"
     },
+    "tetracycline resistance ribosomal protection mosaic protein Tet(O/W)": {
+        "gene": "tet(W)",
+        "remark": [
+            "NBR013895 | tet(O/W) | NA"
+        ],
+        "reviewed": "tet(W)"
+    },
     "tetracycline resistance ribosomal protection mosaic protein Tet(O/W/32/O)": {
         "gene": "tet(W)",
         "remark": [
@@ -2573,6 +2595,13 @@
         "gene": "catA",
         "remark": [
             "NF000491.1 | catA | NA"
+        ],
+        "reviewed": "catA"
+    },
+    "type A-4 chloramphenicol O-acetyltransferase": {
+        "gene": "catA",
+        "remark": [
+            "NBR017868 | catA4 | NA"
         ],
         "reviewed": "catA"
     },
